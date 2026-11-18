@@ -18,17 +18,17 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: withastro/action@v4
+      - uses: actions/checkout@v7
+      - uses: withastro/action@v6
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
