@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "home": {
+      "title": "Chantrea Systems — Services informatiques à Kampot, Cambodge",
+      "description": "Sites web multilingues, applications Android, intégration d'IA, support Windows et Linux, logiciel de gestion hôtelière. Basé à Kampot, au Cambodge. Sur place ou à distance."
+    },
+    "chooser": {
+      "title": "Chantrea Systems",
+      "description": "Services informatiques à Kampot, Cambodge. Choisissez votre langue."
+    }
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "mainNav": "Navigation principale",
+    "language": "Langue",
+    "themeToLight": "Passer au thème clair",
+    "themeToDark": "Passer au thème sombre",
+    "home": "Chantrea Systems, accueil"
+  },
+  "nav": {
+    "services": "Services",
+    "hms": "HMS",
+    "work": "Réalisations",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Services informatiques · Kampot, Cambodge",
+      "title": "Des outils informatiques clairs, pour votre entreprise.",
+      "lead": "Sites web, applications, intelligence artificielle, serveurs. Je conçois, j'installe et j'entretiens. Vous parlez toujours à la même personne.",
+      "ctaPrimary": "Parlons de votre projet",
+      "ctaSecondary": "Voir les services"
+    },
+    "services": {
+      "title": "Ce que je fais",
+      "intro": "Quatre domaines. Une seule personne pour vous répondre.",
+      "more": "En savoir plus",
+      "items": [
+        {
+          "id": "development",
+          "title": "Développement",
+          "text": "Sites web en plusieurs langues et applications Android, pour vos clients ou pour votre équipe."
+        },
+        {
+          "id": "ai",
+          "title": "Intelligence artificielle",
+          "text": "Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps."
+        },
+        {
+          "id": "infrastructure",
+          "title": "Infrastructure",
+          "text": "Installation et dépannage de postes et de serveurs Windows et Linux. Virtualisation avec XCP-ng : plusieurs serveurs sur une seule machine."
+        },
+        {
+          "id": "security",
+          "title": "Sécurité informatique",
+          "text": "Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation."
+        }
+      ]
+    },
+    "hms": {
+      "eyebrow": "Produit",
+      "title": "HMS, le logiciel de gestion de votre hôtel",
+      "text": "Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe.",
+      "points": [
+        "Calendrier des réservations, arrivées et départs",
+        "Factures et reçus imprimables, en cinq langues",
+        "Plusieurs devises : dollar, riel et autres",
+        "Ménage, maintenance et objets trouvés",
+        "Restaurant et bar, avec ajout de la note sur la chambre",
+        "Installé dans votre hôtel, il continue de fonctionner quand internet est coupé"
+      ],
+      "cta": "Découvrir HMS"
+    },
+    "single": {
+      "title": "Un seul interlocuteur",
+      "text": "Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail.",
+      "points": [
+        "Vous savez toujours qui fait quoi.",
+        "Des explications simples, sans jargon.",
+        "Sur place à Kampot. À distance partout ailleurs.",
+        "Langues de travail : [À COMPLÉTER PAR STEFAN]"
+      ]
+    },
+    "steps": {
+      "title": "Comment on travaille",
+      "items": [
+        { "title": "On en parle", "text": "Vous m'expliquez votre besoin, avec vos mots." },
+        { "title": "Je vous propose", "text": "Une proposition écrite : ce que je fais, le délai, le prix." },
+        { "title": "Je construis", "text": "Je vous montre l'avancement au fur et à mesure." },
+        { "title": "Je vous transmets", "text": "Je vous montre comment vous en servir. Et je reste joignable." }
+      ]
+    },
+    "audiences": {
+      "title": "Pour qui",
+      "items": [
+        { "title": "Entreprises au Cambodge", "text": "Hôtels, guesthouses, commerces, PME." },
+        { "title": "Expatriés et entreprises étrangères", "text": "Installés au Cambodge, avec un interlocuteur direct." },
+        { "title": "Clients à l'étranger", "text": "Projets suivis à distance, par e-mail, Telegram ou WhatsApp." }
+      ]
+    },
+    "work": {
+      "title": "Réalisations",
+      "text": "Un logiciel hôtelier, un site pour apprendre le khmer, des jeux Android, des instruments de musique dans le navigateur.",
+      "cta": "Voir les réalisations"
+    },
+    "contact": {
+      "title": "Parlons de votre projet",
+      "text": "Écrivez-moi par e-mail, Telegram ou WhatsApp. Je vous réponds moi-même."
+    }
+  },
+  "contact": {
+    "email": "Écrire un e-mail",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "emailSubject": "Projet avec Chantrea Systems"
+  },
+  "chooser": {
+    "lead": "Services informatiques à Kampot, Cambodge.",
+    "choose": "Choisissez votre langue"
+  },
+  "footer": {
+    "tagline": "Services informatiques à Kampot, Cambodge.",
+    "privacy": "Ce site n'utilise ni cookies ni traceurs.",
+    "copyright": "© {year} Chantrea Systems"
+  }
+}
