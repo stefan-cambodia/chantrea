@@ -2,6 +2,7 @@
 @import "@fontsource/noto-sans-khmer/khmer-700.css";
 @import "@fontsource/jetbrains-mono/latin-400.css";
 @import "@fontsource/jetbrains-mono/latin-700.css";
+@import "@fontsource/kantumruy-pro/khmer-300.css";
 
 /* ─── Couleurs « clair de lune » ───────────────────────────────
    Thème clair : contenu gris lunaire, haut et bas de page de nuit.
@@ -111,7 +112,7 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .brand__word { font-weight: 700; font-size: 1.3rem; color: var(--logo-text); letter-spacing: 0; }
 .brand__cursor { color: var(--logo-moon); }
 .brand__sub { display: flex; align-items: baseline; gap: .55rem; font-size: .68rem; letter-spacing: .3em; color: var(--logo-moon); }
-.brand__sub :lang(km) { font-family: var(--font-km); font-size: .85rem; letter-spacing: 0; line-height: 1; }
+.brand__sub :lang(km) { font-family: "Kantumruy Pro", var(--font-km); font-weight: 300; font-size: .85rem; letter-spacing: 0; line-height: 1; }
 
 .logo-mark { flex: none; }
 .logo-mark__moon { fill: var(--logo-moon); }
