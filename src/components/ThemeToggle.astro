@@ -13,6 +13,9 @@ const tr = t(Astro.props.lang);
     var mq = window.matchMedia('(prefers-color-scheme: dark)');
     function current() { return root.dataset.theme || (mq.matches ? 'dark' : 'light'); }
     function sync() {
+      // Barre du navigateur aux couleurs de l'en-tête (crème en clair, nuit en sombre).
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.content = current() === 'dark' ? '#0b1220' : '#f3efe6';
       document.querySelectorAll('.theme-toggle').forEach(function (b) {
         b.setAttribute('aria-label', current() === 'dark' ? b.dataset.labelLight : b.dataset.labelDark);
       });

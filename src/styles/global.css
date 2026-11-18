@@ -3,6 +3,7 @@
 @import "@fontsource/jetbrains-mono/latin-400.css";
 @import "@fontsource/jetbrains-mono/latin-700.css";
 @import "@fontsource/kantumruy-pro/khmer-300.css";
+@import "@fontsource/kantumruy-pro/khmer-500.css";
 
 /* ─── Couleurs « clair de lune » ───────────────────────────────
    Thème clair : contenu gris lunaire, haut et bas de page de nuit.
@@ -20,9 +21,27 @@
   /* Logo (planche « Chantrea Logo », piste 3a) : vert terminal sur nuit */
   --logo-moon: #9fe0a8;
   --logo-body: #0f1412;     /* remplacé par le fond dans les zones de nuit */
+  --logo-outline: var(--logo-moon);
   --logo-belly: #f3efe6;
   --logo-gold: #e8c27a;
   --logo-text: #e9f3ea;
+  --logo-km-weight: 300;
+
+  /* En-tête et pied de page : crème avec le logo clair (piste 3b) en thème clair,
+     nuit avec le logo sombre (piste 3a) en thème sombre. */
+  --chrome-bg: #f3efe6;
+  --chrome-surface: #e8e2d4;
+  --chrome-line: #d6cdb9;
+  --chrome-text: #0f1412;
+  --chrome-muted: #5e574d;
+  --chrome-accent: #1f6b3c;
+  --chrome-accent-ink: #ffffff;
+  --chrome-logo-moon: #1f6b3c;
+  --chrome-logo-body: #0f1412;
+  --chrome-logo-outline: #0f1412;
+  --chrome-logo-gold: #d9a441;
+  --chrome-logo-text: #0f1412;
+  --chrome-logo-km-weight: 500;
 
   --bg: #eef0f4;
   --bg-alt: #e2e6ed;
@@ -47,12 +66,18 @@
   :root:not([data-theme="light"]) {
     --bg: #0b1220; --bg-alt: #0f1828; --surface: #121b2e; --line: #26324c;
     --text: #e8ebf1; --muted: #a9b3c6; --accent: #e9dfc7; --accent-ink: #0b1220;
+    --chrome-bg: #0b1220; --chrome-surface: #121b2e; --chrome-line: #26324c; --chrome-text: #e8ebf1; --chrome-muted: #a9b3c6;
+    --chrome-accent: #e9dfc7; --chrome-accent-ink: #0b1220;
+    --chrome-logo-moon: #9fe0a8; --chrome-logo-body: #0b1220; --chrome-logo-outline: #9fe0a8; --chrome-logo-gold: #e8c27a; --chrome-logo-text: #e9f3ea; --chrome-logo-km-weight: 300;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0b1220; --bg-alt: #0f1828; --surface: #121b2e; --line: #26324c;
   --text: #e8ebf1; --muted: #a9b3c6; --accent: #e9dfc7; --accent-ink: #0b1220;
+  --chrome-bg: #0b1220; --chrome-surface: #121b2e; --chrome-line: #26324c; --chrome-text: #e8ebf1; --chrome-muted: #a9b3c6;
+  --chrome-accent: #e9dfc7; --chrome-accent-ink: #0b1220;
+  --chrome-logo-moon: #9fe0a8; --chrome-logo-body: #0b1220; --chrome-logo-outline: #9fe0a8; --chrome-logo-gold: #e8c27a; --chrome-logo-text: #e9f3ea; --chrome-logo-km-weight: 300;
   color-scheme: dark;
 }
 
@@ -87,6 +112,15 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .night a:not(.btn) { color: var(--moon); }
 .night :focus-visible { outline-color: var(--moon); }
 
+/* En-tête et pied de page : la zone de nuit prend les couleurs --chrome-* du thème */
+.site-header, .site-footer {
+  --night-bg: var(--chrome-bg); --night-surface: var(--chrome-surface); --night-line: var(--chrome-line);
+  --night-text: var(--chrome-text); --night-muted: var(--chrome-muted);
+  --moon: var(--chrome-accent); --moon-ink: var(--chrome-accent-ink);
+  --logo-moon: var(--chrome-logo-moon); --logo-body: var(--chrome-logo-body); --logo-outline: var(--chrome-logo-outline);
+  --logo-gold: var(--chrome-logo-gold); --logo-text: var(--chrome-logo-text); --logo-km-weight: var(--chrome-logo-km-weight);
+}
+
 .skip-link { position: absolute; left: 1rem; top: -4rem; z-index: 10; background: var(--moon); color: var(--moon-ink); padding: .6rem 1rem; border-radius: 8px; font-weight: 600; }
 .skip-link:focus { top: 1rem; }
 
@@ -112,11 +146,11 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .brand__word { font-weight: 700; font-size: 1.3rem; color: var(--logo-text); letter-spacing: 0; }
 .brand__cursor { color: var(--logo-moon); }
 .brand__sub { display: flex; align-items: baseline; gap: .55rem; font-size: .68rem; letter-spacing: .3em; color: var(--logo-moon); }
-.brand__sub :lang(km) { font-family: "Kantumruy Pro", var(--font-km); font-weight: 300; font-size: .85rem; letter-spacing: 0; line-height: 1; }
+.brand__sub :lang(km) { font-family: "Kantumruy Pro", var(--font-km); font-weight: var(--logo-km-weight); font-size: .85rem; letter-spacing: 0; line-height: 1; }
 
 .logo-mark { flex: none; }
 .logo-mark__moon { fill: var(--logo-moon); }
-.logo-mark__outline { fill: var(--logo-body); stroke: var(--logo-moon); stroke-width: 5; }
+.logo-mark__outline { fill: var(--logo-body); stroke: var(--logo-outline); stroke-width: 5; }
 .logo-mark__body { fill: var(--logo-body); }
 .logo-mark__belly { fill: var(--logo-belly); }
 .logo-mark__gold { fill: var(--logo-gold); }
