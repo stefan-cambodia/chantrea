@@ -1,0 +1,33 @@
+---
+import config from '../../../site.config.mjs';
+import Page from '../../layouts/Page.astro';
+import PageHero from '../../components/PageHero.astro';
+import ContactButtons from '../../components/ContactButtons.astro';
+import { langPaths, t } from '../../i18n/index.js';
+
+export const getStaticPaths = langPaths;
+
+const { lang } = Astro.params;
+const tr = t(lang);
+const c = tr.contactPage;
+const mailto = `mailto:${config.contact.email}?subject=${encodeURIComponent(tr.contact.emailSubject)}`;
+---
+<Page lang={lang} page="contact" title={tr.meta.contact.title} description={tr.meta.contact.description} cta={false}>
+  <PageHero title={c.title} lead={c.lead}>
+    <div class="actions"><ContactButtons lang={lang} /></div>
+  </PageHero>
+  <section class="section">
+    <div class="container split">
+      <div>
+        <h2>{c.tipsTitle}</h2>
+        <ul class="checklist">{c.tips.map((tip) => <li>{tip}</li>)}</ul>
+      </div>
+      <div>
+        <h2>{c.emailTitle}</h2>
+        <p><a class="email" href={mailto}>{config.contact.email}</a></p>
+        <h2>{c.whereTitle}</h2>
+        <p>{c.where}</p>
+      </div>
+    </div>
+  </section>
+</Page>

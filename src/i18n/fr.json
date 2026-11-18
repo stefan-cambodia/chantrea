@@ -7,6 +7,30 @@
     "chooser": {
       "title": "Chantrea Systems",
       "description": "Services informatiques à Kampot, Cambodge. Choisissez votre langue."
+    },
+    "services": {
+      "title": "Services — Chantrea Systems",
+      "description": "Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance."
+    },
+    "hms": {
+      "title": "HMS, logiciel de gestion hôtelière — Chantrea Systems",
+      "description": "Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe."
+    },
+    "work": {
+      "title": "Réalisations — Chantrea Systems",
+      "description": "Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont."
+    },
+    "about": {
+      "title": "À propos — Chantrea Systems",
+      "description": "Chantrea Systems, c'est Stefan, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques."
+    },
+    "contact": {
+      "title": "Contact — Chantrea Systems",
+      "description": "Écrivez à Chantrea Systems par e-mail, Telegram ou WhatsApp. Kampot, Cambodge."
+    },
+    "notFound": {
+      "title": "Page introuvable — Chantrea Systems",
+      "description": "Cette page n'existe pas."
     }
   },
   "a11y": {
@@ -16,7 +40,8 @@
     "language": "Langue",
     "themeToLight": "Passer au thème clair",
     "themeToDark": "Passer au thème sombre",
-    "home": "Chantrea Systems, accueil"
+    "home": "Chantrea Systems, accueil",
+    "newWindow": "(s'ouvre dans un nouvel onglet)"
   },
   "nav": {
     "services": "Services",
@@ -35,30 +60,7 @@
     },
     "services": {
       "title": "Ce que je fais",
-      "intro": "Quatre domaines. Une seule personne pour vous répondre.",
-      "more": "En savoir plus",
-      "items": [
-        {
-          "id": "development",
-          "title": "Développement",
-          "text": "Sites web en plusieurs langues et applications Android, pour vos clients ou pour votre équipe."
-        },
-        {
-          "id": "ai",
-          "title": "Intelligence artificielle",
-          "text": "Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps."
-        },
-        {
-          "id": "infrastructure",
-          "title": "Infrastructure",
-          "text": "Installation et dépannage de postes et de serveurs Windows et Linux. Virtualisation avec XCP-ng : plusieurs serveurs sur une seule machine."
-        },
-        {
-          "id": "security",
-          "title": "Sécurité informatique",
-          "text": "Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation."
-        }
-      ]
+      "intro": "Quatre domaines. Une seule personne pour vous répondre."
     },
     "hms": {
       "eyebrow": "Produit",
@@ -105,11 +107,332 @@
       "title": "Réalisations",
       "text": "Un logiciel hôtelier, un site pour apprendre le khmer, des jeux Android, des instruments de musique dans le navigateur.",
       "cta": "Voir les réalisations"
-    },
-    "contact": {
-      "title": "Parlons de votre projet",
-      "text": "Écrivez-moi par e-mail, Telegram ou WhatsApp. Je vous réponds moi-même."
     }
+  },
+  "services": {
+    "title": "Services",
+    "lead": "Quatre domaines, une seule personne. Sur place à Kampot, à distance partout ailleurs.",
+    "more": "En savoir plus",
+    "back": "Tous les services",
+    "items": [
+      {
+        "id": "development",
+        "title": "Développement",
+        "summary": "Sites web en plusieurs langues et applications Android, pour vos clients ou pour votre équipe.",
+        "lead": "Des sites web et des applications Android simples à utiliser, dans les langues de vos clients.",
+        "sections": [
+          {
+            "title": "Sites web multilingues",
+            "text": "Un site rapide et lisible sur téléphone, en khmer, anglais, français ou d'autres langues. Chaque langue a sa propre adresse, pour être trouvée sur les moteurs de recherche."
+          },
+          {
+            "title": "Applications Android",
+            "text": "Une application pour vos clients ou pour votre équipe : outil interne, catalogue, jeu. Je la construis et je la teste sur de vrais téléphones."
+          },
+          {
+            "title": "Ce que vous obtenez",
+            "list": [
+              "Une version à essayer avant la mise en ligne.",
+              "Des explications pour vous en servir.",
+              "Un seul interlocuteur, du début à la fin."
+            ]
+          }
+        ],
+        "examples": "Exemples : un site d'apprentissage en trois langues, des jeux Android en 3D."
+      },
+      {
+        "id": "ai",
+        "title": "Intelligence artificielle",
+        "summary": "Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps.",
+        "lead": "L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer.",
+        "sections": [
+          {
+            "title": "Quelques exemples possibles",
+            "list": [
+              "Préparer des réponses aux questions fréquentes de vos clients.",
+              "Traduire des textes entre le khmer, l'anglais, le français et d'autres langues.",
+              "Résumer ou trier des documents et des e-mails.",
+              "Relever des informations dans des factures ou des formulaires."
+            ]
+          },
+          {
+            "title": "Ma façon de faire",
+            "list": [
+              "On commence petit, sur une seule tâche.",
+              "Vous gardez la main : l'IA propose, une personne décide.",
+              "Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "summary": "Installation et dépannage de postes et de serveurs Windows et Linux. Virtualisation avec XCP-ng : plusieurs serveurs sur une seule machine.",
+        "lead": "Vos ordinateurs et vos serveurs doivent simplement fonctionner. J'installe, je dépanne et j'entretiens.",
+        "sections": [
+          {
+            "title": "Windows et Linux",
+            "text": "Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux."
+          },
+          {
+            "title": "Virtualisation avec XCP-ng",
+            "text": "Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne."
+          },
+          {
+            "title": "Sur place ou à distance",
+            "text": "Sur place à Kampot. Ailleurs, à distance quand c'est possible."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Sécurité informatique",
+        "summary": "Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation.",
+        "lead": "Vos données, vos comptes et vos accès doivent rester protégés. La sécurité fait partie de chaque projet que je mène.",
+        "sections": [
+          {
+            "title": "Parlons de votre situation",
+            "text": "Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous."
+          }
+        ]
+      }
+    ]
+  },
+  "hms": {
+    "eyebrow": "Produit",
+    "title": "HMS, la gestion de votre hôtel",
+    "lead": "Un seul logiciel pour les réservations, la réception, la facturation, le ménage et le restaurant. Pour les hôtels et les guesthouses, en cinq langues.",
+    "cta": "Demander une démonstration",
+    "featuresTitle": "Ce que fait HMS",
+    "groups": [
+      {
+        "title": "Réservations",
+        "items": [
+          "Calendrier des chambres, avec glisser-déposer",
+          "Réservations de plusieurs chambres, devis, modifications et annulations",
+          "Vue du jour et vue par type de chambre"
+        ]
+      },
+      {
+        "title": "Réception",
+        "items": [
+          "Arrivées, départs et clients sans réservation",
+          "Changement de chambre et départ anticipé",
+          "Tableau de l'état des chambres"
+        ]
+      },
+      {
+        "title": "Clients",
+        "items": [
+          "Recherche rapide et fusion des fiches en double",
+          "Pièces d'identité enregistrées de façon chiffrée"
+        ]
+      },
+      {
+        "title": "Tarifs",
+        "items": [
+          "Tarifs, saisons, réductions et conditions de séjour",
+          "Calendrier des prix, modifiable sur plusieurs jours en une fois"
+        ]
+      },
+      {
+        "title": "Facturation",
+        "items": [
+          "Notes de chambre, notes séparées, paiements et remboursements",
+          "Factures et reçus numérotés sans trou, avoirs",
+          "Comptes entreprises avec relevés",
+          "Comptage de caisse",
+          "Plusieurs devises, avec taux de change"
+        ]
+      },
+      {
+        "title": "Clôture de journée",
+        "items": [
+          "Clôture quotidienne avec rapport en PDF",
+          "Une journée clôturée ne peut plus être modifiée"
+        ]
+      },
+      {
+        "title": "Ménage et maintenance",
+        "items": [
+          "Tâches de ménage, avec contrôle de la chambre",
+          "Minibar et objets trouvés",
+          "Demandes de réparation avec photos, entretien planifié, stock de pièces"
+        ]
+      },
+      {
+        "title": "Restaurant et bar",
+        "items": [
+          "Cartes, tables et écran pour la cuisine",
+          "Addition partagée, ou ajoutée à la note de la chambre",
+          "Liste des petits-déjeuners et rapport des ventes"
+        ]
+      },
+      {
+        "title": "Location de véhicules",
+        "items": [
+          "Véhicules, réservations, départ et retour",
+          "Contrat de location en PDF"
+        ]
+      },
+      {
+        "title": "Rapports",
+        "items": [
+          "Taux d'occupation, prix moyen par chambre, revenu par chambre disponible",
+          "Prévisions et comparaisons",
+          "Export en tableur et en PDF, envoi automatique par e-mail"
+        ]
+      },
+      {
+        "title": "Équipe",
+        "items": [
+          "Rôles prêts à l'emploi, ou sur mesure",
+          "Connexion en deux étapes, en option",
+          "Historique des connexions et des actions"
+        ]
+      },
+      {
+        "title": "Au quotidien",
+        "items": [
+          "Tous les écrans se mettent à jour en direct",
+          "Sauvegardes automatiques vérifiées, restauration depuis l'écran",
+          "Factures, reçus et contrats imprimables en cinq langues"
+        ]
+      }
+    ],
+    "how": {
+      "title": "Comment ça marche",
+      "items": [
+        "HMS s'installe sur un serveur, dans votre hôtel ou en ligne.",
+        "Votre équipe l'utilise dans un navigateur : ordinateur, tablette ou téléphone.",
+        "Installé dans l'hôtel, il continue de fonctionner quand internet est coupé.",
+        "Je l'installe, je le configure avec vous et je forme votre équipe."
+      ]
+    },
+    "languages": {
+      "title": "Langues et devises",
+      "text": "Écrans en khmer, anglais, français, chinois et russe. Une devise principale, et d'autres devises acceptées avec leur taux de change."
+    }
+  },
+  "work": {
+    "title": "Réalisations",
+    "lead": "Des projets réels, décrits tels qu'ils sont aujourd'hui.",
+    "status": "État",
+    "products": {
+      "title": "Produits",
+      "intro": "Ce que je peux proposer à un client."
+    },
+    "skills": {
+      "title": "Preuves de compétence",
+      "intro": "Des projets qui montrent ce que je sais faire."
+    },
+    "items": {
+      "hms": {
+        "title": "HMS",
+        "kind": "Logiciel de gestion hôtelière",
+        "status": "Fonctions principales terminées",
+        "text": "Réservations, réception, facturation, ménage, restaurant, location de véhicules et rapports. En cinq langues, sur ordinateur, tablette ou téléphone.",
+        "link": "Découvrir HMS"
+      },
+      "learnkh": {
+        "title": "Learn-kh",
+        "kind": "Site d'apprentissage des langues",
+        "status": "Version utilisable, pas encore en ligne",
+        "text": "Apprendre le khmer, le français et l'anglais, en partant du français, de l'anglais ou du khmer. 60 leçons, l'alphabet avec le son, un lexique d'environ 600 mots et des cartes de révision."
+      },
+      "rally": {
+        "title": "Cambodia Rally",
+        "kind": "Jeu de course pour Android",
+        "status": "Jouable, pas encore publié",
+        "text": "Une course en 3D sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs, un téléphone chacun, sur le même Wi-Fi ou un partage de connexion, sans internet. 8 véhicules, 2 circuits, 7 langues.",
+        "shows": "Montre : jeu mobile en 3D, multijoueur local, traduction en 7 langues."
+      },
+      "angkor": {
+        "title": "Angkor World Engine",
+        "kind": "Monde en 3D",
+        "status": "Prototype",
+        "text": "La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, environ 37 × 45 km, à partir de cartes ouvertes. On peut la survoler ou y conduire.",
+        "shows": "Montre : traitement de cartes, 3D, performance sur téléphone."
+      },
+      "synth": {
+        "title": "Synth Rack",
+        "kind": "Instruments de musique dans le navigateur",
+        "status": "Démo en ligne",
+        "text": "26 synthétiseurs et boîtes à rythmes inspirés de modèles d'époque, jouables dans le navigateur, avec un séquenceur MIDI.",
+        "shows": "Montre : son et web, sans rien à installer.",
+        "link": "Essayer la démo"
+      },
+      "vsm": {
+        "title": "VSM Studio",
+        "kind": "Logiciel de musique pour ordinateur",
+        "status": "Outil de recherche",
+        "text": "Un studio de musique avec 64 instruments simulés, un séquenceur, l'enregistrement audio, une table de mixage et la prise en charge de plugins.",
+        "shows": "Montre : logiciel de bureau exigeant, traitement du son."
+      },
+      "games": {
+        "title": "Autres jeux et applications Android",
+        "list": [
+          "3D Buggy : course tout-terrain d'arcade",
+          "ASokoban : un Sokoban de 70 niveaux",
+          "Fluxline : puzzle d'arcade où l'on relie des tuyaux",
+          "3D Snake : un serpent en 3D",
+          "3D Frog : jeu d'arcade où il faut traverser",
+          "Velocity : course anti-gravité",
+          "Gemstone Caverns : creuser et ramasser des pierres dans des grottes",
+          "Acpc : émulateur d'ordinateurs Amstrad CPC"
+        ],
+        "link": "Voir le portfolio"
+      }
+    }
+  },
+  "about": {
+    "title": "À propos",
+    "lead": "Chantrea Systems, c'est une personne : moi, Stefan. Je suis installé à Kampot, au Cambodge.",
+    "sections": [
+      {
+        "title": "Pourquoi « Chantrea »",
+        "text": "Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils."
+      },
+      {
+        "title": "Un seul interlocuteur",
+        "text": "Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas."
+      },
+      {
+        "title": "Ce qui m'intéresse",
+        "text": "Linux et le logiciel libre, Android, le jeu vidéo, les outils d'intelligence artificielle, la programmation créative."
+      },
+      {
+        "title": "Parcours",
+        "text": "[À COMPLÉTER PAR STEFAN]"
+      },
+      {
+        "title": "Langues de travail",
+        "text": "[À COMPLÉTER PAR STEFAN]"
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Contact",
+    "lead": "Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp. Je vous réponds moi-même.",
+    "tipsTitle": "Pour aller plus vite, dites-moi :",
+    "tips": [
+      "qui vous êtes et ce que fait votre entreprise ;",
+      "ce dont vous avez besoin, avec vos mots ;",
+      "votre délai, si vous en avez un."
+    ],
+    "emailTitle": "E-mail",
+    "whereTitle": "Où",
+    "where": "Kampot, Cambodge. Sur place à Kampot, à distance partout ailleurs."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "Cette page n'existe pas, ou plus.",
+    "back": "Retour à l'accueil"
+  },
+  "cta": {
+    "title": "Parlons de votre projet",
+    "text": "Écrivez-moi par e-mail, Telegram ou WhatsApp. Je vous réponds moi-même."
   },
   "contact": {
     "email": "Écrire un e-mail",

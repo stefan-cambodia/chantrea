@@ -1,0 +1,47 @@
+---
+import Page from '../../layouts/Page.astro';
+import PageHero from '../../components/PageHero.astro';
+import projects from '../../data/projects.js';
+import { langPaths, t, href } from '../../i18n/index.js';
+
+export const getStaticPaths = langPaths;
+
+const { lang } = Astro.params;
+const tr = t(lang);
+const w = tr.work;
+const groups = ['products', 'skills'].map((g) => ({
+  id: g,
+  ...w[g],
+  items: projects.filter((p) => p.group === g).map((p) => ({ ...p, ...w.items[p.id] })),
+}));
+---
+<Page lang={lang} page="work" title={tr.meta.work.title} description={tr.meta.work.description}>
+  <PageHero title={w.title} lead={w.lead} />
+
+  {groups.map((g, gi) => (
+    <section class={`section ${gi % 2 ? 'section--alt' : ''}`} aria-labelledby={`${g.id}-title`}>
+      <div class="container">
+        <h2 id={`${g.id}-title`}>{g.title}</h2>
+        <p class="section__intro">{g.intro}</p>
+        <ul class="cards cards--2">
+          {g.items.map((p) => (
+            <li class="card project">
+              {p.kind && <p class="eyebrow">{p.kind}</p>}
+              <h3>{p.title}</h3>
+              {p.status && <p class="status"><span class="sr-only">{w.status} : </span>{p.status}</p>}
+              {p.text && <p>{p.text}</p>}
+              {p.list && <ul class="checklist checklist--sm">{p.list.map((i) => <li>{i}</li>)}</ul>}
+              {p.shows && <p class="shows">{p.shows}</p>}
+              {p.link && p.page && <a class="card__link" href={href(lang, p.page)}>{p.link}</a>}
+              {p.link && p.url && (
+                <a class="card__link" href={p.url} target="_blank" rel="noopener">
+                  {p.link} ↗<span class="sr-only"> {tr.a11y.newWindow}</span>
+                </a>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  ))}
+</Page>

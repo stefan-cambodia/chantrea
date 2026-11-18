@@ -1,0 +1,43 @@
+---
+import Page from '../../layouts/Page.astro';
+import PageHero from '../../components/PageHero.astro';
+import { langPaths, t, href } from '../../i18n/index.js';
+
+export const getStaticPaths = langPaths;
+
+const { lang } = Astro.params;
+const tr = t(lang);
+const h = tr.hms;
+---
+<Page lang={lang} page="hms" title={tr.meta.hms.title} description={tr.meta.hms.description}>
+  <PageHero eyebrow={h.eyebrow} title={h.title} lead={h.lead}>
+    <div class="actions"><a class="btn btn--primary" href={href(lang, 'contact')}>{h.cta}</a></div>
+  </PageHero>
+
+  <section class="section" aria-labelledby="features-title">
+    <div class="container">
+      <h2 id="features-title">{h.featuresTitle}</h2>
+      <ul class="cards cards--3 features">
+        {h.groups.map((g) => (
+          <li class="card">
+            <h3>{g.title}</h3>
+            <ul class="checklist checklist--sm">{g.items.map((i) => <li>{i}</li>)}</ul>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container split">
+      <div>
+        <h2>{h.how.title}</h2>
+        <ul class="checklist">{h.how.items.map((i) => <li>{i}</li>)}</ul>
+      </div>
+      <div>
+        <h2>{h.languages.title}</h2>
+        <p>{h.languages.text}</p>
+      </div>
+    </div>
+  </section>
+</Page>

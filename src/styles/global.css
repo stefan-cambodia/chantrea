@@ -1,3 +1,6 @@
+@import "@fontsource/noto-sans-khmer/khmer-400.css";
+@import "@fontsource/noto-sans-khmer/khmer-700.css";
+
 /* ─── Couleurs « clair de lune » ───────────────────────────────
    Thème clair : contenu gris lunaire, haut et bas de page de nuit.
    Thème sombre : tout de nuit.
@@ -25,6 +28,7 @@
   --radius: 12px;
   --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-km: "Noto Sans Khmer", var(--font);
+  --font-zh: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", var(--font);
   color-scheme: light;
 }
 
@@ -49,6 +53,8 @@ body {
   font: 1.0625rem/1.6 var(--font);
 }
 :lang(km) { font-family: var(--font-km); line-height: 1.85; }
+:lang(zh-Hans), :lang(zh) { font-family: var(--font-zh); line-height: 1.75; }
+:lang(zh-Hans) :is(h1, h2, h3) { letter-spacing: 0; }
 h1, h2, h3 { line-height: 1.2; margin: 0 0 .6em; letter-spacing: -.01em; }
 :lang(km) :is(h1, h2, h3) { line-height: 1.6; letter-spacing: 0; }
 h1 { font-size: clamp(2rem, 6vw, 3.25rem); font-weight: 700; }
@@ -99,9 +105,22 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .main-nav a:hover, .mobile-nav a:hover { background: var(--night-surface); }
 .main-nav a[aria-current="page"], .mobile-nav a[aria-current="page"] { color: var(--moon) !important; }
 .site-header__tools { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
-.lang-switcher ul { display: flex; gap: .15rem; }
-.lang-switcher a { display: grid; place-items: center; min-width: 40px; min-height: 40px; border-radius: 8px; font-size: .85rem; font-weight: 600; font-family: var(--font); text-decoration: none; color: var(--night-muted) !important; }
-.lang-switcher a[aria-current="page"] { color: var(--moon) !important; background: var(--night-surface); }
+.lang-switcher { position: relative; }
+.lang-switcher summary, .mobile-nav summary {
+  list-style: none; cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; gap: .4rem;
+  padding: .45rem .8rem; border: 1px solid var(--night-line); border-radius: 999px; font-weight: 600; font-size: .9rem;
+}
+.lang-switcher summary::-webkit-details-marker, .mobile-nav summary::-webkit-details-marker { display: none; }
+.lang-switcher summary svg { color: var(--moon); }
+.lang-switcher nav {
+  position: absolute; right: 0; top: calc(100% + .4rem); min-width: 11rem; z-index: 5;
+  background: var(--night-surface); border: 1px solid var(--night-line); border-radius: 10px; padding: .35rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .35);
+}
+.lang-switcher a { display: block; padding: .55rem .8rem; border-radius: 6px; text-decoration: none; color: var(--night-text) !important; }
+.lang-switcher a:hover { background: var(--night-bg); }
+.lang-switcher a[aria-current="true"] { color: var(--moon) !important; font-weight: 700; }
+.lang-switcher a[aria-current="true"]::after { content: " ✓"; }
 .theme-toggle { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--night-line); background: transparent; color: var(--moon); cursor: pointer; }
 .theme-toggle .icon-sun { display: none; }
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
@@ -110,8 +129,6 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: block; }
   :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
 }
-.mobile-nav summary { list-style: none; cursor: pointer; padding: .55rem .9rem; min-height: 44px; display: grid; place-items: center; border: 1px solid var(--night-line); border-radius: 999px; font-weight: 600; }
-.mobile-nav summary::-webkit-details-marker { display: none; }
 .mobile-nav nav { position: absolute; left: 0; right: 0; top: 100%; background: var(--night-bg); border-bottom: 1px solid var(--night-line); padding: .5rem 1rem 1rem; }
 @media (min-width: 900px) {
   .main-nav { display: block; }
@@ -187,3 +204,40 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .chooser { min-height: 100vh; display: grid; place-items: center; padding: 2rem 1rem; text-align: center; color: var(--moon); }
 .chooser h1 { color: var(--night-text); font-size: 2rem; margin-top: 1rem; }
 .chooser__langs { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; margin-top: 1.5rem; }
+
+/* ─── Pages intérieures ────────────────────────────────────── */
+.page-hero { position: relative; overflow: hidden; padding: clamp(2.5rem, 7vw, 4.5rem) 0; }
+.page-hero .container { position: relative; z-index: 1; }
+.page-hero h1 { font-size: clamp(1.9rem, 5vw, 2.8rem); max-width: 40rem; }
+.page-hero .lead { color: var(--night-muted); font-size: clamp(1.05rem, 2.2vw, 1.2rem); max-width: 42rem; }
+.page-hero .actions { margin-top: 1.5rem; }
+.hero__moon--small { width: clamp(10rem, 26vw, 18rem); right: -4rem; opacity: .22; }
+@media (max-width: 700px) { .hero__moon--small { right: -7rem; top: 1rem; opacity: .14; } }
+
+.narrow { max-width: 46rem; }
+.prose-section + .prose-section { margin-top: 2.25rem; }
+.prose-section h2 { font-size: 1.35rem; }
+.note { margin-top: 2rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 8px 8px 0; color: var(--muted); }
+.back { margin-top: 2.5rem; }
+.h3 { font-size: 1.15rem; }
+@media (min-width: 640px) { .cards--2 { grid-template-columns: repeat(2, 1fr); } }
+.checklist--sm { gap: .45rem; font-size: .97rem; }
+.card .checklist { color: var(--text); }
+.project .eyebrow { margin-bottom: .3rem; }
+.status { display: inline-block; align-self: flex-start; font-size: .85rem; font-weight: 600; padding: .2rem .7rem; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent) !important; }
+.shows { font-size: .95rem; font-style: italic; }
+:lang(km) .shows, :lang(zh-Hans) .shows { font-style: normal; }
+.card .card__link { margin-top: auto; padding-top: .5rem; }
+.email { font-size: 1.1rem; font-weight: 600; word-break: break-all; }
+.notfound { margin-top: 1.5rem; display: grid; gap: .6rem; color: var(--night-text); }
+
+/* En-tête sur petit écran : code court de la langue, icône de menu */
+.lang-short { display: none; }
+@media (max-width: 600px) {
+  .lang-long { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .lang-short { display: inline; }
+  .site-header__bar { gap: .5rem; }
+  .site-header__tools { gap: .35rem; }
+  .brand__name { font-size: 1rem; }
+}
+@media (max-width: 380px) { .brand__name span { display: none; } }

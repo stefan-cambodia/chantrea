@@ -1,0 +1,16 @@
+---
+// Blocs de contenu génériques : { title, text?, list? }.
+// Ajouter un bloc dans le fichier de langue suffit à l'afficher.
+import Txt from './Txt.astro';
+interface Section { title: string; text?: string; list?: string[] }
+interface Props { sections: Section[] }
+---
+<div class="prose-sections">
+  {Astro.props.sections.map((s) => (
+    <section class="prose-section">
+      <h2>{s.title}</h2>
+      {s.text && <p><Txt text={s.text} /></p>}
+      {s.list && <ul class="checklist">{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
+    </section>
+  ))}
+</div>

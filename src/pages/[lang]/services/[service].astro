@@ -1,0 +1,34 @@
+---
+// Une page par offre. Le contenu vient de services.items dans les fichiers de langue.
+import Page from '../../../layouts/Page.astro';
+import PageHero from '../../../components/PageHero.astro';
+import Sections from '../../../components/Sections.astro';
+import { languages, t, href } from '../../../i18n/index.js';
+import { serviceJsonLd } from '../../../lib/jsonld.js';
+
+export function getStaticPaths() {
+  return languages.flatMap((l) =>
+    t(l.code).services.items.map((item) => ({ params: { lang: l.code, service: item.id } })),
+  );
+}
+
+const { lang, service } = Astro.params;
+const tr = t(lang);
+const item = tr.services.items.find((i) => i.id === service);
+const page = `services/${service}`;
+---
+<Page lang={lang} page={page}
+      title={`${item.title} — Chantrea Systems`}
+      description={item.summary}
+      jsonLd={[serviceJsonLd(Astro.site, lang, item)]}>
+  <PageHero eyebrow={tr.nav.services} title={item.title} lead={item.lead} />
+  <section class="section">
+    <div class="container narrow">
+      <Sections sections={item.sections} />
+      {item.examples && (
+        <p class="note">{item.examples} <a href={href(lang, 'work')}>{tr.nav.work}</a></p>
+      )}
+      <p class="back"><a href={href(lang, 'services')}>← {tr.services.back}</a></p>
+    </div>
+  </section>
+</Page>

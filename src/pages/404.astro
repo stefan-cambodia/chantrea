@@ -1,0 +1,22 @@
+---
+// Page « introuvable », dans toutes les langues publiées.
+import Base from '../layouts/Base.astro';
+import Logo from '../components/Logo.astro';
+import { languages, t, href } from '../i18n/index.js';
+const first = languages[0].code;
+---
+<Base lang={first} title={t(first).meta.notFound.title} description={t(first).meta.notFound.description} noindex>
+  <main id="main" class="chooser night">
+    <div class="chooser__box">
+      <Logo size={56} id="logo-404" />
+      <h1>404</h1>
+      <ul class="notfound">
+        {languages.map((l) => (
+          <li lang={l.hreflang}>
+            <strong>{t(l.code).notFound.title}</strong> — <a href={href(l.code)}>{t(l.code).notFound.back}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </main>
+</Base>

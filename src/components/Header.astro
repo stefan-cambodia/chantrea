@@ -6,13 +6,11 @@ import { t, href } from '../i18n/index.js';
 interface Props { lang: string; page?: string }
 const { lang, page = '' } = Astro.props;
 const tr = t(lang);
-const links = [
-  ['services', tr.nav.services],
-  ['hms', tr.nav.hms],
-  ['work', tr.nav.work],
-  ['about', tr.nav.about],
-  ['contact', tr.nav.contact],
-];
+const links = ['services', 'hms', 'work', 'about', 'contact'].map((slug) => ({
+  slug,
+  label: tr.nav[slug],
+  current: page === slug ? 'page' : page.startsWith(`${slug}/`) ? 'true' : undefined,
+}));
 ---
 <a class="skip-link" href="#main">{tr.a11y.skip}</a>
 <header class="site-header night">
@@ -24,9 +22,7 @@ const links = [
 
     <nav class="main-nav" aria-label={tr.a11y.mainNav}>
       <ul>
-        {links.map(([slug, label]) => (
-          <li><a href={href(lang, slug)} aria-current={page === slug ? 'page' : undefined}>{label}</a></li>
-        ))}
+        {links.map((l) => <li><a href={href(lang, l.slug)} aria-current={l.current}>{l.label}</a></li>)}
       </ul>
     </nav>
 
@@ -34,12 +30,13 @@ const links = [
       <LangSwitcher lang={lang} page={page} label={tr.a11y.language} />
       <ThemeToggle lang={lang} />
       <details class="mobile-nav">
-        <summary>{tr.a11y.menu}</summary>
+        <summary>
+          <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="sr-only">{tr.a11y.menu}</span>
+        </summary>
         <nav aria-label={tr.a11y.mainNav}>
           <ul>
-            {links.map(([slug, label]) => (
-              <li><a href={href(lang, slug)} aria-current={page === slug ? 'page' : undefined}>{label}</a></li>
-            ))}
+            {links.map((l) => <li><a href={href(lang, l.slug)} aria-current={l.current}>{l.label}</a></li>)}
           </ul>
         </nav>
       </details>

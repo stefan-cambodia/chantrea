@@ -32,17 +32,21 @@ export default {
   // Mentions légales du pied de page.
   // La société est EN COURS D'IMMATRICULATION : laisser vide (null)
   // tant que l'immatriculation n'est pas faite. Ensuite, par exemple :
-  //   legalName: 'Chantrea Systems Co., Ltd.',
-  //   registration: 'N° d'enregistrement : …',
+  //   legalName: '<raison sociale exacte>',
+  //   registration: '<numéro d'enregistrement>',
   legal: {
     legalName: null,
     registration: null,
   },
 
-  // Langues. « enabled: false » = pages pas encore générées.
+  // Langues, dans l'ordre du sélecteur.
+  // « enabled: false » = pages pas encore générées.
+  // Chaque langue a son fichier de textes : src/i18n/<code>.json
   languages: [
     { code: 'fr', hreflang: 'fr', label: 'Français', short: 'FR', enabled: true },
-    { code: 'en', hreflang: 'en', label: 'English', short: 'EN', enabled: false },
-    { code: 'km', hreflang: 'km', label: 'ខ្មែរ', short: 'KM', enabled: false },
+    { code: 'en', hreflang: 'en', label: 'English', short: 'EN', enabled: true },
+    { code: 'km', hreflang: 'km', label: 'ខ្មែរ', short: 'KM', enabled: true },
+    { code: 'ru', hreflang: 'ru', label: 'Русский', short: 'RU', enabled: true },
+    { code: 'zh', hreflang: 'zh-Hans', label: '中文', short: '中文', enabled: true },
   ],
 };

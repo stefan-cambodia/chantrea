@@ -1,0 +1,25 @@
+---
+// Gabarit commun des pages : en-tête, contenu, appel au contact, pied de page.
+import Base from './Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CtaBlock from '../components/CtaBlock.astro';
+
+interface Props {
+  lang: string;
+  page?: string;
+  title: string;
+  description: string;
+  jsonLd?: object[];
+  cta?: boolean;
+}
+const { lang, page = '', title, description, jsonLd = [], cta = true } = Astro.props;
+---
+<Base lang={lang} page={page} title={title} description={description} jsonLd={jsonLd}>
+  <Header lang={lang} page={page} />
+  <main id="main">
+    <slot />
+    {cta && <CtaBlock lang={lang} />}
+  </main>
+  <Footer lang={lang} />
+</Base>

@@ -1,0 +1,31 @@
+---
+import Page from '../../../layouts/Page.astro';
+import PageHero from '../../../components/PageHero.astro';
+import { langPaths, t, href } from '../../../i18n/index.js';
+import { serviceJsonLd } from '../../../lib/jsonld.js';
+
+export const getStaticPaths = langPaths;
+
+const { lang } = Astro.params;
+const tr = t(lang);
+const s = tr.services;
+const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
+---
+<Page lang={lang} page="services" title={tr.meta.services.title} description={tr.meta.services.description} jsonLd={jsonLd}>
+  <PageHero title={s.title} lead={s.lead} />
+  <section class="section">
+    <div class="container">
+      <ul class="cards cards--2">
+        {s.items.map((item) => (
+          <li class="card">
+            <h2 class="h3">{item.title}</h2>
+            <p>{item.summary}</p>
+            <a class="card__link" href={href(lang, `services/${item.id}`)}>
+              {s.more}<span class="sr-only"> : {item.title}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Page>

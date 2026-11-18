@@ -1,129 +1,110 @@
 ---
-import Base from '../../layouts/Base.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import Page from '../../layouts/Page.astro';
 import Txt from '../../components/Txt.astro';
 import MoonPhase from '../../components/MoonPhase.astro';
-import ContactButtons from '../../components/ContactButtons.astro';
-import { languages, t, href } from '../../i18n/index.js';
+import { langPaths, t, href } from '../../i18n/index.js';
 
-export function getStaticPaths() {
-  return languages.map((l) => ({ params: { lang: l.code } }));
-}
+export const getStaticPaths = langPaths;
 
 const { lang } = Astro.params;
 const tr = t(lang);
 const h = tr.home;
 const phases = [0.25, 0.5, 0.75, 1];
 ---
-<Base lang={lang} title={tr.meta.home.title} description={tr.meta.home.description}>
-  <Header lang={lang} />
-
-  <main id="main">
-    <section class="hero night">
-      <div class="container hero__inner">
-        <p class="eyebrow">{h.hero.eyebrow}</p>
-        <h1>{h.hero.title}</h1>
-        <p class="lead">{h.hero.lead}</p>
-        <div class="actions">
-          <a class="btn btn--primary" href={href(lang, 'contact')}>{h.hero.ctaPrimary}</a>
-          <a class="btn btn--ghost" href={href(lang, 'services')}>{h.hero.ctaSecondary}</a>
-        </div>
+<Page lang={lang} title={tr.meta.home.title} description={tr.meta.home.description}>
+  <section class="hero night">
+    <div class="container hero__inner">
+      <p class="eyebrow">{h.hero.eyebrow}</p>
+      <h1>{h.hero.title}</h1>
+      <p class="lead">{h.hero.lead}</p>
+      <div class="actions">
+        <a class="btn btn--primary" href={href(lang, 'contact')}>{h.hero.ctaPrimary}</a>
+        <a class="btn btn--ghost" href={href(lang, 'services')}>{h.hero.ctaSecondary}</a>
       </div>
-      <div class="hero__moon" aria-hidden="true"></div>
-    </section>
+    </div>
+    <div class="hero__moon" aria-hidden="true"></div>
+  </section>
 
-    <section class="section" aria-labelledby="services-title">
-      <div class="container">
-        <h2 id="services-title">{h.services.title}</h2>
-        <p class="section__intro">{h.services.intro}</p>
-        <ul class="cards cards--4">
-          {h.services.items.map((s) => (
-            <li class="card">
-              <h3>{s.title}</h3>
-              <p>{s.text}</p>
-              <a class="card__link" href={href(lang, `services/${s.id}`)}>
-                {h.services.more}<span class="sr-only"> : {s.title}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
+  <section class="section" aria-labelledby="services-title">
+    <div class="container">
+      <h2 id="services-title">{h.services.title}</h2>
+      <p class="section__intro">{h.services.intro}</p>
+      <ul class="cards cards--4">
+        {tr.services.items.map((s) => (
+          <li class="card">
+            <h3>{s.title}</h3>
+            <p>{s.summary}</p>
+            <a class="card__link" href={href(lang, `services/${s.id}`)}>
+              {tr.services.more}<span class="sr-only"> : {s.title}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="hms-title">
+    <div class="container split">
+      <div>
+        <p class="eyebrow">{h.hms.eyebrow}</p>
+        <h2 id="hms-title">{h.hms.title}</h2>
+        <p>{h.hms.text}</p>
+        <a class="btn btn--primary" href={href(lang, 'hms')}>{h.hms.cta}</a>
       </div>
-    </section>
+      <ul class="checklist">
+        {h.hms.points.map((p) => <li>{p}</li>)}
+      </ul>
+    </div>
+  </section>
 
-    <section class="section section--alt" aria-labelledby="hms-title">
-      <div class="container split">
-        <div>
-          <p class="eyebrow">{h.hms.eyebrow}</p>
-          <h2 id="hms-title">{h.hms.title}</h2>
-          <p>{h.hms.text}</p>
-          <a class="btn btn--primary" href={href(lang, 'hms')}>{h.hms.cta}</a>
-        </div>
-        <ul class="checklist">
-          {h.hms.points.map((p) => <li>{p}</li>)}
-        </ul>
+  <section class="section" aria-labelledby="single-title">
+    <div class="container split">
+      <div>
+        <h2 id="single-title">{h.single.title}</h2>
+        <p class="lead-sm">{h.single.text}</p>
       </div>
-    </section>
+      <ul class="checklist">
+        {h.single.points.map((p) => <li><Txt text={p} /></li>)}
+      </ul>
+    </div>
+  </section>
 
-    <section class="section" aria-labelledby="single-title">
-      <div class="container split">
-        <div>
-          <h2 id="single-title">{h.single.title}</h2>
-          <p class="lead-sm">{h.single.text}</p>
-        </div>
-        <ul class="checklist">
-          {h.single.points.map((p) => <li><Txt text={p} /></li>)}
-        </ul>
+  <section class="section section--alt" aria-labelledby="steps-title">
+    <div class="container">
+      <h2 id="steps-title">{h.steps.title}</h2>
+      <ol class="steps">
+        {h.steps.items.map((s, i) => (
+          <li class="step">
+            <MoonPhase lit={phases[i]} />
+            <h3>{s.title}</h3>
+            <p>{s.text}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="audiences-title">
+    <div class="container">
+      <h2 id="audiences-title">{h.audiences.title}</h2>
+      <ul class="cards cards--3">
+        {h.audiences.items.map((a) => (
+          <li class="card card--plain">
+            <h3>{a.title}</h3>
+            <p>{a.text}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="work-title">
+    <div class="container banner">
+      <div>
+        <h2 id="work-title">{h.work.title}</h2>
+        <p>{h.work.text}</p>
       </div>
-    </section>
-
-    <section class="section section--alt" aria-labelledby="steps-title">
-      <div class="container">
-        <h2 id="steps-title">{h.steps.title}</h2>
-        <ol class="steps">
-          {h.steps.items.map((s, i) => (
-            <li class="step">
-              <MoonPhase lit={phases[i]} />
-              <h3>{s.title}</h3>
-              <p>{s.text}</p>
-            </li>
-          ))}
-        </ol>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="audiences-title">
-      <div class="container">
-        <h2 id="audiences-title">{h.audiences.title}</h2>
-        <ul class="cards cards--3">
-          {h.audiences.items.map((a) => (
-            <li class="card card--plain">
-              <h3>{a.title}</h3>
-              <p>{a.text}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-
-    <section class="section section--alt" aria-labelledby="work-title">
-      <div class="container banner">
-        <div>
-          <h2 id="work-title">{h.work.title}</h2>
-          <p>{h.work.text}</p>
-        </div>
-        <a class="btn btn--ghost" href={href(lang, 'work')}>{h.work.cta}</a>
-      </div>
-    </section>
-
-    <section class="section night cta" aria-labelledby="contact-title">
-      <div class="container">
-        <h2 id="contact-title">{h.contact.title}</h2>
-        <p class="lead">{h.contact.text}</p>
-        <ContactButtons lang={lang} />
-      </div>
-    </section>
-  </main>
-
-  <Footer lang={lang} />
-</Base>
+      <a class="btn btn--ghost" href={href(lang, 'work')}>{h.work.cta}</a>
+    </div>
+  </section>
+</Page>

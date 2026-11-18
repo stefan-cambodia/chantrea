@@ -5,7 +5,7 @@ import Logo from '../components/Logo.astro';
 import { languages, t, href } from '../i18n/index.js';
 const tr = t(languages[0].code);
 ---
-<Base lang={languages[0].code} title={tr.meta.chooser.title} description={tr.meta.chooser.description}>
+<Base lang={languages[0].code} title={tr.meta.chooser.title} description={tr.meta.chooser.description} root>
   <main id="main" class="chooser night">
     <div class="chooser__box">
       <Logo size={56} id="logo-c" />

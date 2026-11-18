@@ -1,0 +1,19 @@
+---
+import Page from '../../layouts/Page.astro';
+import PageHero from '../../components/PageHero.astro';
+import Sections from '../../components/Sections.astro';
+import { langPaths, t } from '../../i18n/index.js';
+
+export const getStaticPaths = langPaths;
+
+const { lang } = Astro.params;
+const tr = t(lang);
+---
+<Page lang={lang} page="about" title={tr.meta.about.title} description={tr.meta.about.description}>
+  <PageHero title={tr.about.title} lead={tr.about.lead} />
+  <section class="section">
+    <div class="container narrow">
+      <Sections sections={tr.about.sections} />
+    </div>
+  </section>
+</Page>
