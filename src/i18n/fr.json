@@ -484,5 +484,8 @@
     "tagline": "Services informatiques à Kampot, Cambodge.",
     "privacy": "Ce site n'utilise ni cookies ni traceurs.",
     "copyright": "© {year} Chantrea Systems"
+  },
+  "brand": {
+    "khmerName": "Chantrea, nom écrit en khmer dans le logo (texte du logo, pas une traduction)"
   }
 }

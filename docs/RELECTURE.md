@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 268 textes relus.
+0 / 269 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -280,6 +280,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `footer.tagline` | សេវាកម្មព័ត៌មានវិទ្យានៅកំពត កម្ពុជា។ | Services informatiques à Kampot, Cambodge. |
 | ⏳ à relire | `footer.privacy` | គេហទំព័រនេះមិនប្រើខូគី (cookies) ឬកម្មវិធីតាមដានទេ។ | Ce site n'utilise ni cookies ni traceurs. |
 | ⏳ à relire | `footer.copyright` | © {year} Chantrea Systems | © {year} Chantrea Systems |
+| ⏳ à relire | `brand.khmerName` | ចន្ទ្រា | Chantrea, nom écrit en khmer dans le logo (texte du logo, pas une traduction) |
 
 ## Russe (ru) : relecture conseillée
 
