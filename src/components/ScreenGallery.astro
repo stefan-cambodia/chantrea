@@ -1,0 +1,46 @@
+---
+// Galerie de captures : images optimisées (AVIF/WebP, plusieurs tailles),
+// chargées seulement quand elles approchent de l'écran. Un clic ouvre la grande version.
+import { Picture, getImage } from 'astro:assets';
+import { screensFor } from '../data/hms-screens.js';
+import { t } from '../i18n/index.js';
+
+interface Props { lang: string }
+const { lang } = Astro.props;
+const g = t(lang).hms.gallery;
+const screens = await Promise.all(
+  screensFor(lang).map(async (s, i) => ({
+    ...s,
+    alt: g.captions[s.caption],
+    full: (await getImage({ src: s.src, width: Math.min(1440, s.src.width), format: 'webp', quality: 85 })).src,
+    featured: i === 0,
+  })),
+);
+---
+<section class="section" aria-labelledby="gallery-title">
+  <div class="container">
+    <h2 id="gallery-title">{g.title}</h2>
+    <p class="section__intro">{g.note}</p>
+    <ul class="gallery">
+      {screens.map((s) => (
+        <li class={s.featured ? 'gallery__item gallery__item--featured' : 'gallery__item'}>
+          <figure>
+            <a href={s.full} class="gallery__link">
+              <Picture
+                src={s.src}
+                alt={s.alt}
+                formats={['avif', 'webp']}
+                widths={s.featured ? [640, 960, 1440] : [480, 720, 960]}
+                sizes={s.featured ? '(min-width: 1120px) 1088px, 100vw' : '(min-width: 1120px) 536px, (min-width: 700px) 50vw, 100vw'}
+                quality={80}
+                loading={s.featured ? 'eager' : 'lazy'}
+              />
+              <span class="sr-only"> ({g.enlarge})</span>
+            </a>
+            <figcaption>{s.alt}</figcaption>
+          </figure>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

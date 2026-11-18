@@ -241,3 +241,13 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   .brand__name { font-size: 1rem; }
 }
 @media (max-width: 380px) { .brand__name span { display: none; } }
+
+/* ─── Galerie de captures ──────────────────────────────────── */
+.gallery { display: grid; gap: 1.5rem; }
+@media (min-width: 700px) { .gallery { grid-template-columns: repeat(2, 1fr); } .gallery__item--featured { grid-column: 1 / -1; } }
+.gallery figure { margin: 0; }
+.gallery__link { display: block; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 8px 24px rgba(11, 18, 32, .08); }
+.gallery__link:hover { border-color: var(--accent); }
+.gallery img { display: block; width: 100%; height: auto; }
+.gallery figcaption { margin-top: .6rem; color: var(--muted); font-size: .95rem; }
+.gallery__item--featured figcaption { font-size: 1rem; }

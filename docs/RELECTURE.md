@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 257 textes relus.
+0 / 268 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -187,6 +187,17 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.how.items.3` | ខ្ញុំដំឡើង កំណត់ការប្រើប្រាស់ជាមួយលោកអ្នក និងបណ្ដុះបណ្ដាលក្រុមការងាររបស់លោកអ្នក។ | Je l'installe, je le configure avec vous et je forme votre équipe. |
 | ⏳ à relire | `hms.languages.title` | ភាសា និងរូបិយប័ណ្ណ | Langues et devises |
 | ⏳ à relire | `hms.languages.text` | អេក្រង់ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ រូបិយប័ណ្ណគោលមួយ និងរូបិយប័ណ្ណផ្សេងទៀតដែលទទួលយក តាមអត្រាប្ដូរប្រាក់របស់វា។ | Écrans en khmer, anglais, français, chinois et russe. Une devise principale, et d'autres devises acceptées avec leur taux de change. |
+| ⏳ à relire | `hms.gallery.title` | រូបភាពអេក្រង់ | En images |
+| ⏳ à relire | `hms.gallery.note` | អេក្រង់ពីសណ្ឋាគារសាកល្បង៖ ឈ្មោះ និងចំនួនទឹកប្រាក់ ជាការប្រឌិត។ | Écrans de l'hôtel de démonstration : noms et montants fictifs. |
+| ⏳ à relire | `hms.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
+| ⏳ à relire | `hms.gallery.captions.calendar` | ប្រតិទិនបន្ទប់៖ អូសការកក់ ដើម្បីប្ដូរបន្ទប់ ឬកាលបរិច្ឆេទ។ | Le calendrier des chambres : on glisse une réservation pour changer de chambre ou de dates. |
+| ⏳ à relire | `hms.gallery.captions.frontDesk` | ផ្នែកទទួលភ្ញៀវ៖ ភ្ញៀវមកដល់ថ្ងៃនេះ ភ្ញៀវកំពុងស្នាក់នៅ ភ្ញៀវចាកចេញ និងប្រាក់ដែលនៅជំពាក់។ | La réception : arrivées du jour, clients présents, départs et soldes à régler. |
+| ⏳ à relire | `hms.gallery.captions.reservation` | ការកក់មួយ៖ គណនីបន្ទប់ ការបង់ប្រាក់ និងប្រវត្តិ។ | Une réservation : note de la chambre, paiements et historique. |
+| ⏳ à relire | `hms.gallery.captions.housekeeping` | ការសម្អាត៖ ការងារប្រចាំថ្ងៃ តាមបន្ទប់នីមួយៗ ព្រមទាំងការត្រួតពិនិត្យ។ | Le ménage : tâches du jour, chambre par chambre, avec contrôle. |
+| ⏳ à relire | `hms.gallery.captions.kitchen` | អេក្រង់ផ្ទះបាយរបស់ភោជនីយដ្ឋាន។ | L'écran de la cuisine du restaurant. |
+| ⏳ à relire | `hms.gallery.captions.tablet` | ប្រតិទិននៅលើថេប្លេត។ | Le calendrier sur tablette. |
+| ⏳ à relire | `hms.gallery.captions.dashboard` | ផ្ទាំងគ្រប់គ្រង ជាភាសាខ្មែរ។ | Le tableau de bord, en khmer. |
+| ⏳ à relire | `hms.gallery.captions.reports` | របាយការណ៍៖ អត្រាបន្ទប់មានភ្ញៀវ តម្លៃមធ្យម និងចំណូលក្នុងមួយបន្ទប់។ | Les rapports : occupation, prix moyen, revenu par chambre. |
 | ⏳ à relire | `work.title` | ស្នាដៃ | Réalisations |
 | ⏳ à relire | `work.lead` | គម្រោងពិតៗ ដែលពិពណ៌នាតាមស្ថានភាពបច្ចុប្បន្ន។ | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | ស្ថានភាព | État |
@@ -272,7 +283,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 257 textes relus.
+0 / 268 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -451,6 +462,17 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.how.items.3` | Я устанавливаю её, настраиваю вместе с вами и обучаю ваших сотрудников. | Je l'installe, je le configure avec vous et je forme votre équipe. |
 | ⏳ à relire | `hms.languages.title` | Языки и валюты | Langues et devises |
 | ⏳ à relire | `hms.languages.text` | Интерфейс на кхмерском, английском, французском, китайском и русском. Одна основная валюта и другие валюты по курсу обмена. | Écrans en khmer, anglais, français, chinois et russe. Une devise principale, et d'autres devises acceptées avec leur taux de change. |
+| ⏳ à relire | `hms.gallery.title` | Скриншоты | En images |
+| ⏳ à relire | `hms.gallery.note` | Экраны демонстрационного отеля: имена и суммы вымышлены. | Écrans de l'hôtel de démonstration : noms et montants fictifs. |
+| ⏳ à relire | `hms.gallery.enlarge` | увеличить изображение | agrandir l'image |
+| ⏳ à relire | `hms.gallery.captions.calendar` | Календарь номеров: перетащите бронь, чтобы сменить номер или даты. | Le calendrier des chambres : on glisse une réservation pour changer de chambre ou de dates. |
+| ⏳ à relire | `hms.gallery.captions.frontDesk` | Ресепшен: заезды на сегодня, проживающие гости, выезды и задолженности. | La réception : arrivées du jour, clients présents, départs et soldes à régler. |
+| ⏳ à relire | `hms.gallery.captions.reservation` | Бронирование: счёт номера, оплаты и история. | Une réservation : note de la chambre, paiements et historique. |
+| ⏳ à relire | `hms.gallery.captions.housekeeping` | Уборка: задачи на день по каждому номеру, с проверкой. | Le ménage : tâches du jour, chambre par chambre, avec contrôle. |
+| ⏳ à relire | `hms.gallery.captions.kitchen` | Экран кухни ресторана. | L'écran de la cuisine du restaurant. |
+| ⏳ à relire | `hms.gallery.captions.tablet` | Календарь на планшете. | Le calendrier sur tablette. |
+| ⏳ à relire | `hms.gallery.captions.dashboard` | Панель управления на кхмерском языке. | Le tableau de bord, en khmer. |
+| ⏳ à relire | `hms.gallery.captions.reports` | Отчёты: загрузка, средняя цена, доход на номер. | Les rapports : occupation, prix moyen, revenu par chambre. |
 | ⏳ à relire | `work.title` | Проекты | Réalisations |
 | ⏳ à relire | `work.lead` | Реальные проекты, описанные такими, какие они есть сегодня. | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | Статус | État |
@@ -536,7 +558,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 257 textes relus.
+0 / 268 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -715,6 +737,17 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.how.items.3` | 我负责安装，和您一起配置，并培训您的员工。 | Je l'installe, je le configure avec vous et je forme votre équipe. |
 | ⏳ à relire | `hms.languages.title` | 语言和货币 | Langues et devises |
 | ⏳ à relire | `hms.languages.text` | 界面支持高棉语、英语、法语、中文和俄语。设一种主货币，也可接受其他货币，按汇率换算。 | Écrans en khmer, anglais, français, chinois et russe. Une devise principale, et d'autres devises acceptées avec leur taux de change. |
+| ⏳ à relire | `hms.gallery.title` | 界面截图 | En images |
+| ⏳ à relire | `hms.gallery.note` | 截图来自演示酒店，姓名和金额均为虚构。 | Écrans de l'hôtel de démonstration : noms et montants fictifs. |
+| ⏳ à relire | `hms.gallery.enlarge` | 放大图片 | agrandir l'image |
+| ⏳ à relire | `hms.gallery.captions.calendar` | 房态日历：拖动预订即可更换房间或日期。 | Le calendrier des chambres : on glisse une réservation pour changer de chambre ou de dates. |
+| ⏳ à relire | `hms.gallery.captions.frontDesk` | 前台：今日入住、在住宾客、退房和未结余额。 | La réception : arrivées du jour, clients présents, départs et soldes à régler. |
+| ⏳ à relire | `hms.gallery.captions.reservation` | 一笔预订：房间账单、付款和操作记录。 | Une réservation : note de la chambre, paiements et historique. |
+| ⏳ à relire | `hms.gallery.captions.housekeeping` | 客房清洁：按房间安排当日任务，并检查房间。 | Le ménage : tâches du jour, chambre par chambre, avec contrôle. |
+| ⏳ à relire | `hms.gallery.captions.kitchen` | 餐厅的厨房显示屏。 | L'écran de la cuisine du restaurant. |
+| ⏳ à relire | `hms.gallery.captions.tablet` | 平板电脑上的房态日历。 | Le calendrier sur tablette. |
+| ⏳ à relire | `hms.gallery.captions.dashboard` | 高棉语界面的仪表盘。 | Le tableau de bord, en khmer. |
+| ⏳ à relire | `hms.gallery.captions.reports` | 报表：入住率、平均房价、每间可售房收入。 | Les rapports : occupation, prix moyen, revenu par chambre. |
 | ⏳ à relire | `work.title` | 项目案例 | Réalisations |
 | ⏳ à relire | `work.lead` | 真实的项目，按目前的实际状态介绍。 | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | 状态 | État |

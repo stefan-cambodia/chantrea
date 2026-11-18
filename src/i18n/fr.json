@@ -89,18 +89,39 @@
     "steps": {
       "title": "Comment on travaille",
       "items": [
-        { "title": "On en parle", "text": "Vous m'expliquez votre besoin, avec vos mots." },
-        { "title": "Je vous propose", "text": "Une proposition écrite : ce que je fais, le délai, le prix." },
-        { "title": "Je construis", "text": "Je vous montre l'avancement au fur et à mesure." },
-        { "title": "Je vous transmets", "text": "Je vous montre comment vous en servir. Et je reste joignable." }
+        {
+          "title": "On en parle",
+          "text": "Vous m'expliquez votre besoin, avec vos mots."
+        },
+        {
+          "title": "Je vous propose",
+          "text": "Une proposition écrite : ce que je fais, le délai, le prix."
+        },
+        {
+          "title": "Je construis",
+          "text": "Je vous montre l'avancement au fur et à mesure."
+        },
+        {
+          "title": "Je vous transmets",
+          "text": "Je vous montre comment vous en servir. Et je reste joignable."
+        }
       ]
     },
     "audiences": {
       "title": "Pour qui",
       "items": [
-        { "title": "Entreprises au Cambodge", "text": "Hôtels, guesthouses, commerces, PME." },
-        { "title": "Expatriés et entreprises étrangères", "text": "Installés au Cambodge, avec un interlocuteur direct." },
-        { "title": "Clients à l'étranger", "text": "Projets suivis à distance, par e-mail, Telegram ou WhatsApp." }
+        {
+          "title": "Entreprises au Cambodge",
+          "text": "Hôtels, guesthouses, commerces, PME."
+        },
+        {
+          "title": "Expatriés et entreprises étrangères",
+          "text": "Installés au Cambodge, avec un interlocuteur direct."
+        },
+        {
+          "title": "Clients à l'étranger",
+          "text": "Projets suivis à distance, par e-mail, Telegram ou WhatsApp."
+        }
       ]
     },
     "work": {
@@ -313,6 +334,21 @@
     "languages": {
       "title": "Langues et devises",
       "text": "Écrans en khmer, anglais, français, chinois et russe. Une devise principale, et d'autres devises acceptées avec leur taux de change."
+    },
+    "gallery": {
+      "title": "En images",
+      "note": "Écrans de l'hôtel de démonstration : noms et montants fictifs.",
+      "enlarge": "agrandir l'image",
+      "captions": {
+        "calendar": "Le calendrier des chambres : on glisse une réservation pour changer de chambre ou de dates.",
+        "frontDesk": "La réception : arrivées du jour, clients présents, départs et soldes à régler.",
+        "reservation": "Une réservation : note de la chambre, paiements et historique.",
+        "housekeeping": "Le ménage : tâches du jour, chambre par chambre, avec contrôle.",
+        "kitchen": "L'écran de la cuisine du restaurant.",
+        "tablet": "Le calendrier sur tablette.",
+        "dashboard": "Le tableau de bord, en khmer.",
+        "reports": "Les rapports : occupation, prix moyen, revenu par chambre."
+      }
     }
   },
   "work": {

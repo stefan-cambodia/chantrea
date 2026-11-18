@@ -89,18 +89,39 @@
     "steps": {
       "title": "How we work together",
       "items": [
-        { "title": "We talk", "text": "You explain what you need, in your own words." },
-        { "title": "I make a proposal", "text": "A written proposal: what I will do, the timeline, the price." },
-        { "title": "I build", "text": "I show you the progress as I go." },
-        { "title": "I hand it over", "text": "I show you how to use it. And I stay reachable." }
+        {
+          "title": "We talk",
+          "text": "You explain what you need, in your own words."
+        },
+        {
+          "title": "I make a proposal",
+          "text": "A written proposal: what I will do, the timeline, the price."
+        },
+        {
+          "title": "I build",
+          "text": "I show you the progress as I go."
+        },
+        {
+          "title": "I hand it over",
+          "text": "I show you how to use it. And I stay reachable."
+        }
       ]
     },
     "audiences": {
       "title": "Who it's for",
       "items": [
-        { "title": "Businesses in Cambodia", "text": "Hotels, guesthouses, shops, small businesses." },
-        { "title": "Expats and foreign companies", "text": "Based in Cambodia, with a direct point of contact." },
-        { "title": "Clients abroad", "text": "Projects handled remotely, by email, Telegram or WhatsApp." }
+        {
+          "title": "Businesses in Cambodia",
+          "text": "Hotels, guesthouses, shops, small businesses."
+        },
+        {
+          "title": "Expats and foreign companies",
+          "text": "Based in Cambodia, with a direct point of contact."
+        },
+        {
+          "title": "Clients abroad",
+          "text": "Projects handled remotely, by email, Telegram or WhatsApp."
+        }
       ]
     },
     "work": {
@@ -313,6 +334,21 @@
     "languages": {
       "title": "Languages and currencies",
       "text": "Screens in Khmer, English, French, Chinese and Russian. One main currency, and other currencies accepted with their exchange rates."
+    },
+    "gallery": {
+      "title": "Screenshots",
+      "note": "Screens from the demo hotel: names and amounts are made up.",
+      "enlarge": "enlarge image",
+      "captions": {
+        "calendar": "The room calendar: drag a booking to change room or dates.",
+        "frontDesk": "Front desk: today's arrivals, guests in house, departures and balances due.",
+        "reservation": "A booking: room folio, payments and history.",
+        "housekeeping": "Housekeeping: today's tasks, room by room, with inspection.",
+        "kitchen": "The restaurant's kitchen screen.",
+        "tablet": "The calendar on a tablet.",
+        "dashboard": "The dashboard, in Khmer.",
+        "reports": "Reports: occupancy, average rate, revenue per room."
+      }
     }
   },
   "work": {

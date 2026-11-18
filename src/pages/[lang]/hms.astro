@@ -1,6 +1,7 @@
 ---
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
+import ScreenGallery from '../../components/ScreenGallery.astro';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -14,7 +15,9 @@ const h = tr.hms;
     <div class="actions"><a class="btn btn--primary" href={href(lang, 'contact')}>{h.cta}</a></div>
   </PageHero>
 
-  <section class="section" aria-labelledby="features-title">
+  <ScreenGallery lang={lang} />
+
+  <section class="section section--alt" aria-labelledby="features-title">
     <div class="container">
       <h2 id="features-title">{h.featuresTitle}</h2>
       <ul class="cards cards--3 features">
@@ -28,7 +31,7 @@ const h = tr.hms;
     </div>
   </section>
 
-  <section class="section section--alt">
+  <section class="section">
     <div class="container split">
       <div>
         <h2>{h.how.title}</h2>
