@@ -1,0 +1,6 @@
+---
+// Affiche un texte et met en évidence les « [À COMPLÉTER …] » restants.
+interface Props { text: string }
+const parts = Astro.props.text.split(/(\[À COMPLÉTER[^\]]*\])/);
+---
+{parts.map((p) => (p.startsWith('[À COMPLÉTER') ? <mark class="todo">{p}</mark> : p))}

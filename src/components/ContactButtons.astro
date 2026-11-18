@@ -1,0 +1,18 @@
+---
+import config from '../../site.config.mjs';
+import { t } from '../i18n/index.js';
+interface Props { lang: string }
+const tr = t(Astro.props.lang);
+const { email, telegram, whatsapp } = config.contact;
+const isTodo = (v: string) => !v || v.startsWith('[');
+const mailto = `mailto:${email}?subject=${encodeURIComponent(tr.contact.emailSubject)}`;
+---
+<div class="contact-buttons">
+  <a class="btn btn--primary" href={mailto}>{tr.contact.email}</a>
+  {isTodo(telegram)
+    ? <span class="btn btn--ghost is-todo">{tr.contact.telegram} <mark class="todo">{telegram}</mark></span>
+    : <a class="btn btn--ghost" href={`https://t.me/${telegram}`} rel="noopener">{tr.contact.telegram}</a>}
+  {isTodo(whatsapp)
+    ? <span class="btn btn--ghost is-todo">{tr.contact.whatsapp} <mark class="todo">{whatsapp}</mark></span>
+    : <a class="btn btn--ghost" href={`https://wa.me/${whatsapp}`} rel="noopener">{tr.contact.whatsapp}</a>}
+</div>

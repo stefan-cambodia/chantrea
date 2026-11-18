@@ -1,0 +1,17 @@
+---
+import { languages, href } from '../i18n/index.js';
+interface Props { lang: string; page?: string; label: string }
+const { lang, page = '', label } = Astro.props;
+---
+<nav class="lang-switcher" aria-label={label}>
+  <ul>
+    {languages.map((l) => (
+      <li>
+        <a href={href(l.code, page)} hreflang={l.hreflang} lang={l.hreflang}
+           aria-current={l.code === lang ? 'page' : undefined}>
+          <span aria-hidden="true">{l.short}</span><span class="sr-only">{l.label}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>

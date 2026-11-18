@@ -1,0 +1,13 @@
+---
+// Phase de lune (lit = part éclairée de 0 à 1), utilisée comme repère d'étape.
+interface Props { lit: number; size?: number }
+const { lit, size = 40 } = Astro.props;
+const r = 15, c = 16;
+const rx = Math.abs(1 - 2 * lit) * r;
+const sweep = lit > 0.5 ? 1 : 0;
+const d = `M ${c} ${c - r} A ${r} ${r} 0 0 1 ${c} ${c + r} A ${rx} ${r} 0 0 ${sweep} ${c} ${c - r} Z`;
+---
+<svg width={size} height={size} viewBox="0 0 32 32" aria-hidden="true" focusable="false" class="moon-phase">
+  <circle cx={c} cy={c} r={r} class="moon-phase__dark" />
+  <path d={d} class="moon-phase__lit" />
+</svg>

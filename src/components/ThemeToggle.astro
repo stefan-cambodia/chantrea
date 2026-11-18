@@ -1,0 +1,31 @@
+---
+import { t } from '../i18n/index.js';
+interface Props { lang: string }
+const tr = t(Astro.props.lang);
+---
+<button type="button" class="theme-toggle" data-label-light={tr.a11y.themeToLight} data-label-dark={tr.a11y.themeToDark} aria-label={tr.a11y.themeToDark}>
+  <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+  <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+</button>
+<script is:inline>
+  (function () {
+    var root = document.documentElement;
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    function current() { return root.dataset.theme || (mq.matches ? 'dark' : 'light'); }
+    function sync() {
+      document.querySelectorAll('.theme-toggle').forEach(function (b) {
+        b.setAttribute('aria-label', current() === 'dark' ? b.dataset.labelLight : b.dataset.labelDark);
+      });
+    }
+    document.querySelectorAll('.theme-toggle').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var next = current() === 'dark' ? 'light' : 'dark';
+        root.dataset.theme = next;
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        sync();
+      });
+    });
+    mq.addEventListener && mq.addEventListener('change', sync);
+    sync();
+  })();
+</script>

@@ -1,0 +1,21 @@
+---
+// Page racine : choix de la langue, sans redirection automatique.
+import Base from '../layouts/Base.astro';
+import Logo from '../components/Logo.astro';
+import { languages, t, href } from '../i18n/index.js';
+const tr = t(languages[0].code);
+---
+<Base lang={languages[0].code} title={tr.meta.chooser.title} description={tr.meta.chooser.description}>
+  <main id="main" class="chooser night">
+    <div class="chooser__box">
+      <Logo size={56} id="logo-c" />
+      <h1>Chantrea Systems</h1>
+      {languages.map((l) => <p class="muted" lang={l.hreflang}>{t(l.code).chooser.lead}</p>)}
+      <ul class="chooser__langs">
+        {languages.map((l) => (
+          <li><a class="btn btn--ghost" href={href(l.code)} hreflang={l.hreflang} lang={l.hreflang}>{l.label}</a></li>
+        ))}
+      </ul>
+    </div>
+  </main>
+</Base>

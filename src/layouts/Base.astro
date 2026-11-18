@@ -1,0 +1,57 @@
+---
+import config from '../../site.config.mjs';
+import { languages, href } from '../i18n/index.js';
+import '../styles/global.css';
+
+interface Props {
+  lang: string;          // langue de la page
+  title: string;
+  description: string;
+  page?: string;         // identifiant de page ('' = accueil), sert aux liens hreflang
+  jsonLd?: object[];     // données structurées en plus de Organization
+}
+const { lang, title, description, page = '', jsonLd = [] } = Astro.props;
+const abs = (p: string) => new URL(p, Astro.site).href;
+const canonical = abs(href(lang, page));
+
+const organization = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: config.name,
+  url: abs(href('')),
+  email: config.contact.email,
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: config.location.city,
+    addressCountry: config.location.countryCode,
+  },
+  ...(config.legal.legalName ? { legalName: config.legal.legalName } : {}),
+};
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {languages.map((l) => <link rel="alternate" hreflang={l.hreflang} href={abs(href(l.code, page))} />)}
+    <link rel="alternate" hreflang="x-default" href={abs(href(''))} />
+    <link rel="icon" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/favicon.svg`} type="image/svg+xml" />
+    <link rel="sitemap" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/sitemap-index.xml`} />
+    <meta name="theme-color" content="#0b1220" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={config.name} />
+    <script is:inline>
+      try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script>
+    <script type="application/ld+json" set:html={JSON.stringify([organization, ...jsonLd])} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
