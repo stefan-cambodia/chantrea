@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "home": {
+      "title": "Chantrea Systems — IT services in Kampot, Cambodia",
+      "description": "Multilingual websites, Android apps, AI integration, Windows and Linux support, hotel management software. Based in Kampot, Cambodia. On site or remote."
+    },
+    "chooser": {
+      "title": "Chantrea Systems",
+      "description": "IT services in Kampot, Cambodia. Choose your language."
+    },
+    "services": {
+      "title": "Services — Chantrea Systems",
+      "description": "Web and Android development, artificial intelligence, Windows and Linux infrastructure, IT security. One point of contact, in Kampot or remote."
+    },
+    "hms": {
+      "title": "HMS, hotel management software — Chantrea Systems",
+      "description": "Bookings, front desk, billing, housekeeping, restaurant and reports in one program. For hotels and guesthouses, in Khmer, English, French, Chinese and Russian."
+    },
+    "work": {
+      "title": "Work — Chantrea Systems",
+      "description": "Hotel software, a site for learning Khmer, 3D Android games, music instruments in the browser. Real projects, described as they are."
+    },
+    "about": {
+      "title": "About — Chantrea Systems",
+      "description": "Chantrea Systems is Stefan, in Kampot, Cambodia. One point of contact for your IT projects."
+    },
+    "contact": {
+      "title": "Contact — Chantrea Systems",
+      "description": "Write to Chantrea Systems by email, Telegram or WhatsApp. Kampot, Cambodia."
+    },
+    "notFound": {
+      "title": "Page not found — Chantrea Systems",
+      "description": "This page does not exist."
+    }
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "mainNav": "Main navigation",
+    "language": "Language",
+    "themeToLight": "Switch to light theme",
+    "themeToDark": "Switch to dark theme",
+    "home": "Chantrea Systems, home",
+    "newWindow": "(opens in a new tab)"
+  },
+  "nav": {
+    "services": "Services",
+    "hms": "HMS",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "IT services · Kampot, Cambodia",
+      "title": "Clear IT tools for your business.",
+      "lead": "Websites, apps, artificial intelligence, servers. I design, set up and maintain. You always talk to the same person.",
+      "ctaPrimary": "Let's talk about your project",
+      "ctaSecondary": "See the services"
+    },
+    "services": {
+      "title": "What I do",
+      "intro": "Four areas. One person to answer you."
+    },
+    "hms": {
+      "eyebrow": "Product",
+      "title": "HMS, the software to run your hotel",
+      "text": "Bookings, front desk, billing, housekeeping, restaurant: all in one place. On computer, tablet or phone. In Khmer, English, French, Chinese and Russian.",
+      "points": [
+        "Booking calendar, arrivals and departures",
+        "Printable invoices and receipts, in five languages",
+        "Several currencies: dollar, riel and others",
+        "Housekeeping, maintenance and lost and found",
+        "Restaurant and bar, with charges added to the room bill",
+        "Installed in your hotel, it keeps working when the internet is down"
+      ],
+      "cta": "Discover HMS"
+    },
+    "single": {
+      "title": "One point of contact",
+      "text": "Chantrea Systems is me: Stefan. No switchboard, no middleman. The person who listens to you is the person who does the work.",
+      "points": [
+        "You always know who does what.",
+        "Simple explanations, no jargon.",
+        "On site in Kampot. Remote everywhere else.",
+        "Working languages: [À COMPLÉTER PAR STEFAN]"
+      ]
+    },
+    "steps": {
+      "title": "How we work together",
+      "items": [
+        { "title": "We talk", "text": "You explain what you need, in your own words." },
+        { "title": "I make a proposal", "text": "A written proposal: what I will do, the timeline, the price." },
+        { "title": "I build", "text": "I show you the progress as I go." },
+        { "title": "I hand it over", "text": "I show you how to use it. And I stay reachable." }
+      ]
+    },
+    "audiences": {
+      "title": "Who it's for",
+      "items": [
+        { "title": "Businesses in Cambodia", "text": "Hotels, guesthouses, shops, small businesses." },
+        { "title": "Expats and foreign companies", "text": "Based in Cambodia, with a direct point of contact." },
+        { "title": "Clients abroad", "text": "Projects handled remotely, by email, Telegram or WhatsApp." }
+      ]
+    },
+    "work": {
+      "title": "Work",
+      "text": "Hotel software, a site for learning Khmer, Android games, music instruments in the browser.",
+      "cta": "See the work"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "lead": "Four areas, one person. On site in Kampot, remote everywhere else.",
+    "more": "Learn more",
+    "back": "All services",
+    "items": [
+      {
+        "id": "development",
+        "title": "Development",
+        "summary": "Websites in several languages and Android apps, for your customers or for your staff.",
+        "lead": "Websites and Android apps that are simple to use, in your customers' languages.",
+        "sections": [
+          {
+            "title": "Multilingual websites",
+            "text": "A fast site that is easy to read on a phone, in Khmer, English, French or other languages. Each language has its own address, so it can be found on search engines."
+          },
+          {
+            "title": "Android apps",
+            "text": "An app for your customers or for your staff: internal tool, catalog, game. I build it and test it on real phones."
+          },
+          {
+            "title": "What you get",
+            "list": [
+              "A version to try before it goes live.",
+              "Explanations on how to use it.",
+              "One point of contact, from start to finish."
+            ]
+          }
+        ],
+        "examples": "Examples: a learning site in three languages, 3D Android games."
+      },
+      {
+        "id": "ai",
+        "title": "Artificial intelligence",
+        "summary": "Adding AI to the tools you already use. Only where it really saves you time.",
+        "lead": "AI can save time on repetitive tasks. I add it to your current tools, without changing everything.",
+        "sections": [
+          {
+            "title": "A few possible examples",
+            "list": [
+              "Drafting answers to your customers' frequent questions.",
+              "Translating texts between Khmer, English, French and other languages.",
+              "Summarizing or sorting documents and emails.",
+              "Pulling information out of invoices or forms."
+            ]
+          },
+          {
+            "title": "How I do it",
+            "list": [
+              "We start small, with a single task.",
+              "You stay in control: the AI suggests, a person decides.",
+              "I tell you honestly what AI does badly, and what it costs."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "summary": "Setup and troubleshooting of Windows and Linux computers and servers. Virtualization with XCP-ng: several servers on one machine.",
+        "lead": "Your computers and servers should simply work. I set them up, fix them and maintain them.",
+        "sections": [
+          {
+            "title": "Windows and Linux",
+            "text": "Setup, updates and troubleshooting of workstations and servers, on Windows as well as Linux."
+          },
+          {
+            "title": "Virtualization with XCP-ng",
+            "text": "Several virtual servers on one physical machine: less hardware to buy, simpler backups, faster recovery after a failure."
+          },
+          {
+            "title": "On site or remote",
+            "text": "On site in Kampot. Elsewhere, remotely when possible."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "title": "IT security",
+        "summary": "Protecting your data and access is part of every project. Let's talk about your situation.",
+        "lead": "Your data, your accounts and your access need to stay protected. Security is part of every project I take on.",
+        "sections": [
+          {
+            "title": "Let's talk about your situation",
+            "text": "Every business is different. Tell me what worries you, and we'll work out together what is useful for you."
+          }
+        ]
+      }
+    ]
+  },
+  "hms": {
+    "eyebrow": "Product",
+    "title": "HMS, running your hotel",
+    "lead": "One program for bookings, front desk, billing, housekeeping and the restaurant. For hotels and guesthouses, in five languages.",
+    "cta": "Request a demo",
+    "featuresTitle": "What HMS does",
+    "groups": [
+      {
+        "title": "Bookings",
+        "items": [
+          "Room calendar, with drag and drop",
+          "Multi-room bookings, quotes, changes and cancellations",
+          "Day view and view by room type"
+        ]
+      },
+      {
+        "title": "Front desk",
+        "items": [
+          "Check-ins, check-outs and walk-in guests",
+          "Room changes and early departures",
+          "Room status board"
+        ]
+      },
+      {
+        "title": "Guests",
+        "items": [
+          "Quick search and merging of duplicate records",
+          "ID documents stored encrypted"
+        ]
+      },
+      {
+        "title": "Rates",
+        "items": [
+          "Rates, seasons, discounts and stay conditions",
+          "Price calendar, editable across several days at once"
+        ]
+      },
+      {
+        "title": "Billing",
+        "items": [
+          "Room bills, split bills, payments and refunds",
+          "Invoices and receipts with gap-free numbering, credit notes",
+          "Company accounts with statements",
+          "Cash count",
+          "Several currencies, with exchange rates"
+        ]
+      },
+      {
+        "title": "End of day",
+        "items": [
+          "Daily closing with a PDF report",
+          "A closed day can no longer be changed"
+        ]
+      },
+      {
+        "title": "Housekeeping and maintenance",
+        "items": [
+          "Housekeeping tasks, with room inspection",
+          "Minibar and lost and found",
+          "Repair requests with photos, scheduled maintenance, spare parts stock"
+        ]
+      },
+      {
+        "title": "Restaurant and bar",
+        "items": [
+          "Menus, tables and a kitchen screen",
+          "Split bill, or charge to the room bill",
+          "Breakfast list and sales report"
+        ]
+      },
+      {
+        "title": "Vehicle rental",
+        "items": [
+          "Vehicles, bookings, pick-up and return",
+          "Rental contract as PDF"
+        ]
+      },
+      {
+        "title": "Reports",
+        "items": [
+          "Occupancy rate, average room rate, revenue per available room",
+          "Forecasts and comparisons",
+          "Export to spreadsheet and PDF, automatic sending by email"
+        ]
+      },
+      {
+        "title": "Staff",
+        "items": [
+          "Ready-made or custom roles",
+          "Optional two-step login",
+          "Log of logins and actions"
+        ]
+      },
+      {
+        "title": "Day to day",
+        "items": [
+          "All screens update live",
+          "Automatic, verified backups, restore from the screen",
+          "Invoices, receipts and contracts printable in five languages"
+        ]
+      }
+    ],
+    "how": {
+      "title": "How it works",
+      "items": [
+        "HMS is installed on a server, in your hotel or online.",
+        "Your staff use it in a web browser: computer, tablet or phone.",
+        "Installed in the hotel, it keeps working when the internet is down.",
+        "I install it, set it up with you and train your staff."
+      ]
+    },
+    "languages": {
+      "title": "Languages and currencies",
+      "text": "Screens in Khmer, English, French, Chinese and Russian. One main currency, and other currencies accepted with their exchange rates."
+    }
+  },
+  "work": {
+    "title": "Work",
+    "lead": "Real projects, described as they are today.",
+    "status": "Status",
+    "products": {
+      "title": "Products",
+      "intro": "What I can offer a client."
+    },
+    "skills": {
+      "title": "Proof of skills",
+      "intro": "Projects that show what I can do."
+    },
+    "items": {
+      "hms": {
+        "title": "HMS",
+        "kind": "Hotel management software",
+        "status": "Main features complete",
+        "text": "Bookings, front desk, billing, housekeeping, restaurant, vehicle rental and reports. In five languages, on computer, tablet or phone.",
+        "link": "Discover HMS"
+      },
+      "learnkh": {
+        "title": "Learn-kh",
+        "kind": "Language learning site",
+        "status": "Usable version, not online yet",
+        "text": "Learn Khmer, French and English, starting from French, English or Khmer. 60 lessons, the alphabet with audio, a glossary of about 600 words and flashcards."
+      },
+      "rally": {
+        "title": "Cambodia Rally",
+        "kind": "Racing game for Android",
+        "status": "Playable, not published yet",
+        "text": "A 3D race on the real roads around the temples of Angkor. 2 to 8 players, one phone each, on the same Wi-Fi or a hotspot, no internet needed. 8 vehicles, 2 tracks, 7 languages.",
+        "shows": "Shows: 3D mobile game, local multiplayer, translation into 7 languages."
+      },
+      "angkor": {
+        "title": "Angkor World Engine",
+        "kind": "3D world",
+        "status": "Prototype",
+        "text": "The Angkor and Siem Reap area rebuilt in 3D at real scale, about 37 × 45 km, from open map data. You can fly over it or drive through it.",
+        "shows": "Shows: map data processing, 3D, performance on phones."
+      },
+      "synth": {
+        "title": "Synth Rack",
+        "kind": "Music instruments in the browser",
+        "status": "Online demo",
+        "text": "26 synthesizers and drum machines inspired by vintage models, playable in the browser, with a MIDI sequencer.",
+        "shows": "Shows: audio and web, nothing to install.",
+        "link": "Try the demo"
+      },
+      "vsm": {
+        "title": "VSM Studio",
+        "kind": "Desktop music software",
+        "status": "Research tool",
+        "text": "A music studio with 64 simulated instruments, a sequencer, audio recording, a mixing desk and plugin support.",
+        "shows": "Shows: demanding desktop software, audio processing."
+      },
+      "games": {
+        "title": "Other Android games and apps",
+        "list": [
+          "3D Buggy: arcade off-road racing",
+          "ASokoban: a Sokoban with 70 levels",
+          "Fluxline: arcade puzzle where you connect pipes",
+          "3D Snake: a snake in 3D",
+          "3D Frog: arcade crossing game",
+          "Velocity: anti-gravity racing",
+          "Gemstone Caverns: dig and collect stones in caves",
+          "Acpc: Amstrad CPC computer emulator"
+        ],
+        "link": "See the portfolio"
+      }
+    }
+  },
+  "about": {
+    "title": "About",
+    "lead": "Chantrea Systems is one person: me, Stefan. I am based in Kampot, Cambodia.",
+    "sections": [
+      {
+        "title": "Why \"Chantrea\"",
+        "text": "Chantrea means \"moonlight\" in Khmer. A calm light that illuminates without dazzling. That is what I want to bring to your tools."
+      },
+      {
+        "title": "One point of contact",
+        "text": "You talk directly to the person who does the work. No middleman, no messages lost between departments. I tell you clearly what I can do, and what I don't do."
+      },
+      {
+        "title": "What interests me",
+        "text": "Linux and free software, Android, video games, AI tools, creative coding."
+      },
+      {
+        "title": "Background",
+        "text": "[À COMPLÉTER PAR STEFAN]"
+      },
+      {
+        "title": "Working languages",
+        "text": "[À COMPLÉTER PAR STEFAN]"
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Contact",
+    "lead": "The simplest way: an email, or a message on Telegram or WhatsApp. I answer you myself.",
+    "tipsTitle": "To speed things up, tell me:",
+    "tips": [
+      "who you are and what your business does;",
+      "what you need, in your own words;",
+      "your deadline, if you have one."
+    ],
+    "emailTitle": "Email",
+    "whereTitle": "Where",
+    "where": "Kampot, Cambodia. On site in Kampot, remote everywhere else."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page does not exist, or no longer exists.",
+    "back": "Back to home"
+  },
+  "cta": {
+    "title": "Let's talk about your project",
+    "text": "Write to me by email, Telegram or WhatsApp. I answer you myself."
+  },
+  "contact": {
+    "email": "Send an email",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "emailSubject": "Project with Chantrea Systems"
+  },
+  "chooser": {
+    "lead": "IT services in Kampot, Cambodia.",
+    "choose": "Choose your language"
+  },
+  "footer": {
+    "tagline": "IT services in Kampot, Cambodia.",
+    "privacy": "This site uses no cookies and no trackers.",
+    "copyright": "© {year} Chantrea Systems"
+  }
+}
