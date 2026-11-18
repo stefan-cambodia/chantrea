@@ -10,6 +10,8 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     sitemap({
+      // La page racine (choix de langue) n'est pas une page de contenu : hors sitemap.
+      filter: (page) => new URL(page).pathname !== `${config.base.replace(/\/$/, '')}/`,
       i18n: {
         defaultLocale: enabled[0].code,
         locales: Object.fromEntries(enabled.map((l) => [l.code, l.hreflang])),
