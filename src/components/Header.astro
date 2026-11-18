@@ -1,5 +1,5 @@
 ---
-import Logo from './Logo.astro';
+import Brand from './Brand.astro';
 import LangSwitcher from './LangSwitcher.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import { t, href } from '../i18n/index.js';
@@ -15,10 +15,7 @@ const links = ['services', 'hms', 'work', 'about', 'contact'].map((slug) => ({
 <a class="skip-link" href="#main">{tr.a11y.skip}</a>
 <header class="site-header night">
   <div class="container site-header__bar">
-    <a class="brand" href={href(lang)} aria-label={tr.a11y.home}>
-      <Logo id="logo-h" />
-      <span class="brand__name">Chantrea <span>Systems</span></span>
-    </a>
+    <Brand home={href(lang)} label={tr.a11y.home} id="logo-h" />
 
     <nav class="main-nav" aria-label={tr.a11y.mainNav}>
       <ul>

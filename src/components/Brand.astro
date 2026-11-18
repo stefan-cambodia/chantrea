@@ -1,0 +1,13 @@
+---
+// Logo + logotype « chantrea_ SYSTEMS ចន្ទ្រា », lien vers l'accueil (en-tête et pied de page).
+import Logo from './Logo.astro';
+interface Props { home: string; label: string; id: string }
+const { home, label, id } = Astro.props;
+---
+<a class="brand" href={home} aria-label={label}>
+  <Logo id={id} />
+  <span class="brand__name">
+    <span class="brand__word">chantrea<span class="brand__cursor">_</span></span>
+    <span class="brand__sub">SYSTEMS <span lang="km">ចន្ទ្រា</span></span>
+  </span>
+</a>

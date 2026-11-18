@@ -1,5 +1,7 @@
 @import "@fontsource/noto-sans-khmer/khmer-400.css";
 @import "@fontsource/noto-sans-khmer/khmer-700.css";
+@import "@fontsource/jetbrains-mono/latin-400.css";
+@import "@fontsource/jetbrains-mono/latin-700.css";
 
 /* ─── Couleurs « clair de lune » ───────────────────────────────
    Thème clair : contenu gris lunaire, haut et bas de page de nuit.
@@ -13,6 +15,13 @@
   --night-muted: #a9b3c6;
   --moon: #e9dfc7;          /* accent argent chaud, sur fond de nuit */
   --moon-ink: #0b1220;      /* texte posé sur l'accent */
+
+  /* Logo (planche « Chantrea Logo », piste 3a) : vert terminal sur nuit */
+  --logo-moon: #9fe0a8;
+  --logo-body: #0f1412;     /* remplacé par le fond dans les zones de nuit */
+  --logo-belly: #f3efe6;
+  --logo-gold: #e8c27a;
+  --logo-text: #e9f3ea;
 
   --bg: #eef0f4;
   --bg-alt: #e2e6ed;
@@ -28,6 +37,7 @@
   --radius: 12px;
   --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-km: "Noto Sans Khmer", var(--font);
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   --font-zh: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", var(--font);
   color-scheme: light;
 }
@@ -72,7 +82,7 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 
 /* Zones « nuit » : identiques dans les deux thèmes */
-.night { background: var(--night-bg); color: var(--night-text); --muted: var(--night-muted); }
+.night { background: var(--night-bg); color: var(--night-text); --muted: var(--night-muted); --logo-body: var(--night-bg); }
 .night a:not(.btn) { color: var(--moon); }
 .night :focus-visible { outline-color: var(--moon); }
 
@@ -96,9 +106,19 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 /* ─── En-tête ──────────────────────────────────────────────── */
 .site-header { border-bottom: 1px solid var(--night-line); position: relative; z-index: 2; }
 .site-header__bar { display: flex; align-items: center; gap: 1rem; min-height: 64px; }
-.brand { display: inline-flex; align-items: center; gap: .6rem; text-decoration: none; color: var(--moon) !important; }
-.brand__name { font-weight: 700; font-size: 1.1rem; color: var(--night-text); letter-spacing: .01em; }
-.brand__name span { font-weight: 400; color: var(--night-muted); }
+.brand { display: inline-flex; align-items: center; gap: .65rem; text-decoration: none; color: var(--logo-text) !important; }
+.brand__name { display: flex; flex-direction: column; gap: .2rem; font-family: var(--font-mono); line-height: 1; }
+.brand__word { font-weight: 700; font-size: 1.3rem; color: var(--logo-text); letter-spacing: 0; }
+.brand__cursor { color: var(--logo-moon); }
+.brand__sub { display: flex; align-items: baseline; gap: .55rem; font-size: .68rem; letter-spacing: .3em; color: var(--logo-moon); }
+.brand__sub :lang(km) { font-family: var(--font-km); font-size: .85rem; letter-spacing: 0; line-height: 1; }
+
+.logo-mark { flex: none; }
+.logo-mark__moon { fill: var(--logo-moon); }
+.logo-mark__outline { fill: var(--logo-body); stroke: var(--logo-moon); stroke-width: 5; }
+.logo-mark__body { fill: var(--logo-body); }
+.logo-mark__belly { fill: var(--logo-belly); }
+.logo-mark__gold { fill: var(--logo-gold); }
 .main-nav { margin-left: auto; display: none; }
 .main-nav ul { display: flex; gap: .25rem; }
 .main-nav a, .mobile-nav a { display: block; padding: .5rem .75rem; border-radius: 8px; color: var(--night-text) !important; text-decoration: none; }
@@ -238,9 +258,9 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   .lang-short { display: inline; }
   .site-header__bar { gap: .5rem; }
   .site-header__tools { gap: .35rem; }
-  .brand__name { font-size: 1rem; }
+  .brand__word { font-size: 1.15rem; }
 }
-@media (max-width: 380px) { .brand__name span { display: none; } }
+@media (max-width: 380px) { .brand__sub { display: none; } }
 
 /* ─── Galerie de captures ──────────────────────────────────── */
 .gallery { display: grid; gap: 1.5rem; }

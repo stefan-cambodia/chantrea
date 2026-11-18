@@ -1,12 +1,27 @@
 ---
-// Croissant de lune : un disque dont on retire un second disque décalé.
+// Logo « pingouin dans le croissant » (planche Chantrea Logo, piste 3a).
+// Le croissant est découpé par un masque : il reste transparent sur n'importe quel fond.
+// Couleurs réglables par --logo-moon, --logo-body, --logo-belly, --logo-gold.
 interface Props { size?: number; id?: string }
-const { size = 28, id = 'logo' } = Astro.props;
+const { size = 40, id = 'logo' } = Astro.props;
 ---
-<svg width={size} height={size} viewBox="0 0 32 32" aria-hidden="true" focusable="false" class="logo-mark">
+<svg width={size} height={size} viewBox="8 8 154 154" aria-hidden="true" focusable="false" class="logo-mark">
   <mask id={`${id}-m`}>
-    <rect width="32" height="32" fill="#fff" />
-    <circle cx="21" cy="12" r="10.5" fill="#000" />
+    <rect x="0" y="0" width="170" height="170" fill="#fff" />
+    <circle cx="112" cy="62" r="64" fill="#000" />
   </mask>
-  <circle cx="16" cy="16" r="13" fill="currentColor" mask={`url(#${id}-m)`} />
+  <circle cx="85" cy="85" r="76" class="logo-mark__moon" mask={`url(#${id}-m)`} />
+  <g transform="translate(100 98) scale(.62)">
+    <ellipse cx="0" cy="10" rx="30" ry="42" class="logo-mark__outline" />
+    <circle cx="0" cy="-30" r="22" class="logo-mark__outline" />
+    <ellipse cx="0" cy="12" rx="22" ry="32" class="logo-mark__body" />
+    <ellipse cx="0" cy="18" rx="19" ry="28" class="logo-mark__belly" />
+    <circle cx="-8" cy="-34" r="5" class="logo-mark__belly" />
+    <circle cx="8" cy="-34" r="5" class="logo-mark__belly" />
+    <circle cx="-7" cy="-33" r="2.4" class="logo-mark__body" />
+    <circle cx="9" cy="-33" r="2.4" class="logo-mark__body" />
+    <ellipse cx="0" cy="-23" rx="9" ry="5" class="logo-mark__gold" />
+    <ellipse cx="-14" cy="52" rx="13" ry="6" class="logo-mark__gold" />
+    <ellipse cx="14" cy="52" rx="13" ry="6" class="logo-mark__gold" />
+  </g>
 </svg>

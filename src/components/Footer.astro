@@ -1,6 +1,6 @@
 ---
 import config from '../../site.config.mjs';
-import Logo from './Logo.astro';
+import Brand from './Brand.astro';
 import { t, href } from '../i18n/index.js';
 interface Props { lang: string }
 const { lang } = Astro.props;
@@ -11,10 +11,7 @@ const { legalName, registration } = config.legal;
 <footer class="site-footer night">
   <div class="container site-footer__grid">
     <div>
-      <a class="brand" href={href(lang)} aria-label={tr.a11y.home}>
-        <Logo id="logo-f" />
-        <span class="brand__name">Chantrea <span>Systems</span></span>
-      </a>
+      <Brand home={href(lang)} label={tr.a11y.home} id="logo-f" />
       <p class="muted">{tr.footer.tagline}</p>
     </div>
     <nav aria-label={tr.a11y.mainNav}>
