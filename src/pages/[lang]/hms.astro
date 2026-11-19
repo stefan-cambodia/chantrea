@@ -2,6 +2,7 @@
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
 import ScreenGallery from '../../components/ScreenGallery.astro';
+import { screensFor } from '../../data/hms-screens.js';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -15,7 +16,7 @@ const h = tr.hms;
     <div class="actions"><a class="btn btn--primary" href={href(lang, 'contact')}>{h.cta}</a></div>
   </PageHero>
 
-  <ScreenGallery lang={lang} />
+  <ScreenGallery screens={screensFor(lang)} texts={h.gallery} />
 
   <section class="section section--alt" aria-labelledby="features-title">
     <div class="container">
