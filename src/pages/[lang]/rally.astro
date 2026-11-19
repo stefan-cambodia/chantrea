@@ -1,0 +1,45 @@
+---
+import Page from '../../layouts/Page.astro';
+import PageHero from '../../components/PageHero.astro';
+import ScreenGallery from '../../components/ScreenGallery.astro';
+import screens from '../../data/rally-screens.js';
+import { langPaths, t, href } from '../../i18n/index.js';
+
+export const getStaticPaths = langPaths;
+
+const { lang } = Astro.params;
+const tr = t(lang);
+const r = tr.rally;
+---
+<Page lang={lang} page="rally" title={tr.meta.rally.title} description={tr.meta.rally.description}>
+  <PageHero eyebrow={r.eyebrow} title={r.title} lead={r.lead}>
+    <p class="status"><span class="sr-only">{tr.work.status} : </span>{r.status}</p>
+  </PageHero>
+
+  <ScreenGallery screens={screens} texts={r.gallery} />
+
+  <section class="section section--alt" aria-labelledby="features-title">
+    <div class="container">
+      <h2 id="features-title">{r.featuresTitle}</h2>
+      <ul class="cards cards--3 features">
+        {r.groups.map((g) => (
+          <li class="card">
+            <h3>{g.title}</h3>
+            <ul class="checklist checklist--sm">{g.items.map((i) => <li>{i}</li>)}</ul>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="shows-title">
+    <div class="container split">
+      <div>
+        <h2 id="shows-title">{r.shows.title}</h2>
+        <p>{r.shows.text}</p>
+        <a class="btn btn--ghost" href={href(lang, 'work')}>{r.shows.cta}</a>
+      </div>
+      <ul class="checklist">{r.shows.items.map((i) => <li>{i}</li>)}</ul>
+    </div>
+  </section>
+</Page>

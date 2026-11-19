@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 269 textes relus.
+0 / 330 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -20,6 +20,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.services.description` | ការអភិវឌ្ឍគេហទំព័រ និង Android បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ Windows និង Linux សុវត្ថិភាពព័ត៌មានវិទ្យា។ មនុស្សតែម្នាក់សម្រាប់ទំនាក់ទំនង នៅកំពត ឬពីចម្ងាយ។ | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
 | ⏳ à relire | `meta.hms.title` | HMS កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ — Chantrea Systems | HMS, logiciel de gestion hôtelière — Chantrea Systems |
 | ⏳ à relire | `meta.hms.description` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន និងរបាយការណ៍ ក្នុងកម្មវិធីតែមួយ។ សម្រាប់សណ្ឋាគារ និងផ្ទះសំណាក់ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
+| ⏳ à relire | `meta.rally.title` | Cambodia Rally ការប្រណាំង 3D ជុំវិញអង្គរ — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
+| ⏳ à relire | `meta.rally.description` | ហ្គេមប្រណាំង 3D សម្រាប់ Android លើផ្លូវពិតៗជុំវិញប្រាសាទអង្គរ។ អ្នកលេងពី 2 ដល់ 8 នាក់ នៅលើ Wi-Fi តែមួយ ដោយមិនត្រូវការអ៊ីនធឺណិត។ យានយន្ត 8 ផ្លូវប្រណាំង 2 និង 7 ភាសា។ | Un jeu de course en 3D pour Android, sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits, 7 langues. |
 | ⏳ à relire | `meta.work.title` | ស្នាដៃ — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | កម្មវិធីសណ្ឋាគារ គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម Android 3D ឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ គម្រោងពិតៗ ដែលពិពណ៌នាតាមស្ថានភាពពិត។ | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | អំពីខ្ញុំ — Chantrea Systems | À propos — Chantrea Systems |
@@ -38,6 +40,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `a11y.newWindow` | (បើកក្នុងផ្ទាំងថ្មី) | (s'ouvre dans un nouvel onglet) |
 | ⏳ à relire | `nav.services` | សេវាកម្ម | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
+| ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.work` | ស្នាដៃ | Réalisations |
 | ⏳ à relire | `nav.about` | អំពីខ្ញុំ | À propos |
 | ⏳ à relire | `nav.contact` | ទំនាក់ទំនង | Contact |
@@ -58,6 +61,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.hms.points.4` | ភោជនីយដ្ឋាន និងបារ អាចបញ្ចូលវិក្កយបត្រទៅក្នុងគណនីបន្ទប់ | Restaurant et bar, avec ajout de la note sur la chambre |
 | ⏳ à relire | `home.hms.points.5` | ពេលដំឡើងនៅក្នុងសណ្ឋាគាររបស់លោកអ្នក វានៅតែដំណើរការ ពេលដាច់អ៊ីនធឺណិត | Installé dans votre hôtel, il continue de fonctionner quand internet est coupé |
 | ⏳ à relire | `home.hms.cta` | ស្វែងយល់ពី HMS | Découvrir HMS |
+| ⏳ à relire | `home.rally.eyebrow` | ស្នាដៃ · ហ្គេម Android | Réalisation · Jeu Android |
+| ⏳ à relire | `home.rally.title` | Cambodia Rally ការប្រណាំងជុំវិញប្រាសាទអង្គរ | Cambodia Rally, la course autour des temples d'Angkor |
+| ⏳ à relire | `home.rally.text` | ហ្គេមប្រណាំង 3D សម្រាប់ Android លើផ្លូវពិតៗនៃសៀគ្វីតូច និងសៀគ្វីធំ កាត់តាមប្រាសាទ គូទឹក និងវាលស្រែ។ | Un jeu de course en 3D pour Android, sur les vraies routes du Petit et du Grand Circuit, entre les temples, les douves et les rizières. |
+| ⏳ à relire | `home.rally.points.0` | អ្នកលេងពី 2 ដល់ 8 នាក់ ម្នាក់ទូរស័ព្ទមួយ ដោយមិនត្រូវការអ៊ីនធឺណិត | De 2 à 8 joueurs, un téléphone chacun, sans internet |
+| ⏳ à relire | `home.rally.points.1` | យានយន្ត 8 ពីរថយន្ត buggy ដល់រ៉ឺម៉ក | 8 véhicules, du buggy au tuk-tuk |
+| ⏳ à relire | `home.rally.points.2` | ប្រាសាទ ភូមិ និងវាលស្រែ ដាក់តាមផែនទី | Temples, villages et rizières placés d'après les cartes |
+| ⏳ à relire | `home.rally.points.3` | មាន 7 ភាសា រួមទាំងភាសាខ្មែរ | En 7 langues, dont le khmer |
+| ⏳ à relire | `home.rally.cta` | ស្វែងយល់ពី Cambodia Rally | Découvrir Cambodia Rally |
 | ⏳ à relire | `home.single.title` | មនុស្សតែម្នាក់សម្រាប់ទំនាក់ទំនង | Un seul interlocuteur |
 | ⏳ à relire | `home.single.text` | Chantrea Systems គឺខ្ញុំ៖ Stefan។ គ្មានអ្នកទទួលទូរស័ព្ទ គ្មានអ្នកកណ្ដាល។ មនុស្សដែលស្តាប់លោកអ្នក គឺជាមនុស្សដែលធ្វើការងារ។ | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | លោកអ្នកតែងតែដឹងថា នរណាធ្វើអ្វី។ | Vous savez toujours qui fait quoi. |
@@ -198,6 +209,55 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.tablet` | ប្រតិទិននៅលើថេប្លេត។ | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | ផ្ទាំងគ្រប់គ្រង ជាភាសាខ្មែរ។ | Le tableau de bord, en khmer. |
 | ⏳ à relire | `hms.gallery.captions.reports` | របាយការណ៍៖ អត្រាបន្ទប់មានភ្ញៀវ តម្លៃមធ្យម និងចំណូលក្នុងមួយបន្ទប់។ | Les rapports : occupation, prix moyen, revenu par chambre. |
+| ⏳ à relire | `rally.eyebrow` | ស្នាដៃ · ហ្គេម Android | Réalisation · Jeu Android |
+| ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
+| ⏳ à relire | `rally.lead` | ការប្រណាំង 3D លើផ្លូវពិតៗជុំវិញប្រាសាទអង្គរ។ លេងជាមួយមិត្តភក្តិ ម្នាក់ទូរស័ព្ទមួយ នៅលើ Wi-Fi តែមួយ ឬការចែករំលែកអ៊ីនធឺណិតពីទូរស័ព្ទ (hotspot)៖ មិនត្រូវការអ៊ីនធឺណិតទេ។ | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
+| ⏳ à relire | `rally.status` | អាចលេងបាន ប៉ុន្តែមិនទាន់ចេញផ្សាយ | Jouable, pas encore publié |
+| ⏳ à relire | `rally.gallery.title` | រូបភាពអេក្រង់ | En images |
+| ⏳ à relire | `rally.gallery.note` | រូបភាពពីក្នុងហ្គេម លើផ្លូវប្រណាំងទាំងពីរ។ | Captures du jeu sur ses deux circuits. |
+| ⏳ à relire | `rally.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
+| ⏳ à relire | `rally.gallery.captions.causeway` | សៀគ្វីតូច៖ ផ្លូវឆ្លងគូទឹកទៅទ្វារត្បូងនៃអង្គរធំ ដែលមានរូបទេវតា និងអសុរៈនៅសងខាង។ | Le Petit Circuit : la chaussée vers la porte Sud d'Angkor Thom, bordée de dieux et de démons. |
+| ⏳ à relire | `rally.gallery.captions.bayon` | នៅមុខប្រាសាទបាយ័ន និងប៉មមុខរបស់វា។ | Devant le Bayon et ses tours à visages. |
+| ⏳ à relire | `rally.gallery.captions.cockpit` | ទិដ្ឋភាពពីកៅអីអ្នកបើកបរ នៅមុខទ្វារប្រាសាទតាសោម។ | La vue depuis le poste de conduite, devant la porte de Ta Som. |
+| ⏳ à relire | `rally.gallery.captions.moat` | តាមបណ្ដោយគូទឹកអង្គរវត្ត។ | Le long des douves d'Angkor Wat. |
+| ⏳ à relire | `rally.gallery.captions.paddies` | សៀគ្វីធំ៖ វាលស្រែនៃបារាយណ៍ខាងកើត។ | Le Grand Circuit : les rizières du Baray oriental. |
+| ⏳ à relire | `rally.gallery.captions.flyover` | ការហោះពីលើមុនពេលចេញដំណើរ៖ ប្រាសាទបាយ័ន និងផ្លូវប្រណាំង។ | Le survol avant le départ : le Bayon et la route du circuit. |
+| ⏳ à relire | `rally.gallery.captions.elephant` | ក្នុងពេលហោះពីលើ ដំរីមួយក្បាលនៅក្នុងព្រៃ។ | Pendant le survol, un éléphant dans la forêt. |
+| ⏳ à relire | `rally.gallery.captions.garage` | យានដ្ឋាន៖ យានយន្ត ពណ៌ កង់ និងគ្រឿងបន្ថែម។ | Le garage : véhicule, peinture, roues et accessoires. |
+| ⏳ à relire | `rally.gallery.captions.stages` | ការជ្រើសរើសផ្លូវប្រណាំង ជាមួយពេលវេលាល្អបំផុត និងបញ្ហាប្រឈម។ | Le choix du circuit, avec meilleurs temps et défis. |
+| ⏳ à relire | `rally.featuresTitle` | ហ្គេម | Le jeu |
+| ⏳ à relire | `rally.groups.0.title` | សៀគ្វីពិតពីរ | Deux vrais circuits |
+| ⏳ à relire | `rally.groups.0.items.0` | សៀគ្វីតូច៖ អង្គរវត្ត ទ្វារត្បូង ប្រាសាទបាយ័ន តាព្រហ្ម ស្រះស្រង់ | Le Petit Circuit : Angkor Wat, la porte Sud, le Bayon, Ta Prohm, Srah Srang |
+| ⏳ à relire | `rally.groups.0.items.1` | សៀគ្វីធំ៖ ទ្វារជើង ព្រះខ័ន នាគព័ន្ធ តាសោម មេបុណ្យខាងកើត ប្រែរូប | Le Grand Circuit : la porte Nord, Preah Khan, Neak Pean, Ta Som, le Mébon oriental, Pre Rup |
+| ⏳ à relire | `rally.groups.0.items.2` | ផ្លូវគូរតាមផែនទី OpenStreetMap | Routes tracées d'après OpenStreetMap |
+| ⏳ à relire | `rally.groups.1.title` | លេងជាមួយមិត្តភក្តិ | Entre amis |
+| ⏳ à relire | `rally.groups.1.items.0` | អ្នកលេងពី 2 ដល់ 8 នាក់ ម្នាក់ទូរស័ព្ទមួយ | De 2 à 8 joueurs, un téléphone chacun |
+| ⏳ à relire | `rally.groups.1.items.1` | នៅលើ Wi-Fi តែមួយ ឬការចែករំលែកអ៊ីនធឺណិតពីទូរស័ព្ទ (hotspot) | Sur le même Wi-Fi ou le partage de connexion d'un téléphone |
+| ⏳ à relire | `rally.groups.1.items.2` | គ្មានម៉ាស៊ីនមេ (server)៖ ទូរស័ព្ទមួយក្នុងចំណោមទូរស័ព្ទទាំងនោះ ជាអ្នករៀបចំការប្រណាំង | Aucun serveur : un des téléphones accueille la course |
+| ⏳ à relire | `rally.groups.1.items.3` | ភ្លើងខៀវចេញដំណើរក្នុងពេលតែមួយ លើទូរស័ព្ទទាំងអស់ | Feu vert au même instant sur tous les téléphones |
+| ⏳ à relire | `rally.groups.2.title` | លេងម្នាក់ឯង ប្រកួតនឹងពេលវេលា | Seul contre la montre |
+| ⏳ à relire | `rally.groups.2.items.0` | ទង់ត្រូវប្រមូល ការលោត និងច្រកទ្វារដែលផ្ដល់ពិន្ទុ | Drapeaux à ramasser, sauts et portes à points |
+| ⏳ à relire | `rally.groups.2.items.1` | បញ្ហាប្រឈមបីសម្រាប់ផ្លូវប្រណាំងនីមួយៗ | Trois défis par circuit |
+| ⏳ à relire | `rally.groups.2.items.2` | ពេលវេលាល្អបំផុត និងពិន្ទុខ្ពស់បំផុត | Meilleurs temps et meilleurs scores |
+| ⏳ à relire | `rally.groups.3.title` | យានយន្ត 8 | 8 véhicules |
+| ⏳ à relire | `rally.groups.3.items.0` | រថយន្ត buggy រថយន្ត 4x4 ម៉ូតូ និងរ៉ឺម៉ក | Buggys, 4x4, deux-roues et tuk-tuk |
+| ⏳ à relire | `rally.groups.3.items.1` | មើលពីក្រោយយានយន្ត ឬពីកៅអីអ្នកបើកបរ | Vue de poursuite ou vue depuis le poste de conduite |
+| ⏳ à relire | `rally.groups.3.items.2` | ពណ៌ កង់ និងគ្រឿងបន្ថែម នៅក្នុងយានដ្ឋាន | Peintures, roues et accessoires au garage |
+| ⏳ à relire | `rally.groups.4.title` | ពិភពដែលមានជីវិត | Un monde vivant |
+| ⏳ à relire | `rally.groups.4.items.0` | ប្រាសាទ គូទឹក វាលស្រែ និងភូមិ ដាក់តាមផែនទី | Temples, douves, rizières et villages placés d'après les cartes |
+| ⏳ à relire | `rally.groups.4.items.1` | ដំរី សត្វស្វា និងសត្វស្លាប | Éléphants, macaques et oiseaux |
+| ⏳ à relire | `rally.groups.4.items.2` | មានចរាចរណ៍នៅលើផ្លូវ | De la circulation sur les routes |
+| ⏳ à relire | `rally.groups.4.items.3` | វាយនភាព (texture) បង្កើតពីរូបថតថ្ម ដី និងរុក្ខជាតិ | Textures tirées de photos de pierre, de sol et de végétation |
+| ⏳ à relire | `rally.groups.5.title` | 7 ភាសា | 7 langues |
+| ⏳ à relire | `rally.groups.5.items.0` | ខ្មែរ អង់គ្លេស បារាំង ចិន វៀតណាម ថៃ និងរុស្ស៊ី | Khmer, anglais, français, chinois, vietnamien, thaï et russe |
+| ⏳ à relire | `rally.groups.5.items.1` | ហ្គេមប្រើភាសារបស់ទូរស័ព្ទ ហើយអាចប្ដូរបានគ្រប់ពេល | Le jeu suit la langue du téléphone, et on peut la changer à tout moment |
+| ⏳ à relire | `rally.shows.title` | អ្វីដែលគម្រោងនេះបង្ហាញ | Ce que ce projet montre |
+| ⏳ à relire | `rally.shows.text` | ហ្គេមនេះជាភស្តុតាងនៃជំនាញ។ ជំនាញដដែលនេះ ប្រើសម្រាប់កម្មវិធីដែលធ្វើតាមតម្រូវការផងដែរ។ | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `rally.shows.items.0` | កម្មវិធី 3D លើទូរស័ព្ទ Android | Une application en 3D sur téléphone Android |
+| ⏳ à relire | `rally.shows.items.1` | ទូរស័ព្ទច្រើនភ្ជាប់គ្នាក្នុងបណ្ដាញតែមួយ ដោយគ្មានម៉ាស៊ីនមេ (server) | Plusieurs téléphones reliés en réseau local, sans serveur |
+| ⏳ à relire | `rally.shows.items.2` | ផែនទីបើកចំហ ប្រែក្លាយជាពិភព 3D | Des cartes ouvertes transformées en monde en 3D |
+| ⏳ à relire | `rally.shows.items.3` | កម្មវិធីបកប្រែជា 7 ភាសា | Une application traduite en 7 langues |
+| ⏳ à relire | `rally.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
 | ⏳ à relire | `work.title` | ស្នាដៃ | Réalisations |
 | ⏳ à relire | `work.lead` | គម្រោងពិតៗ ដែលពិពណ៌នាតាមស្ថានភាពបច្ចុប្បន្ន។ | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | ស្ថានភាព | État |
@@ -219,6 +279,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.rally.status` | អាចលេងបាន ប៉ុន្តែមិនទាន់ចេញផ្សាយ | Jouable, pas encore publié |
 | ⏳ à relire | `work.items.rally.text` | ការប្រណាំង 3D លើផ្លូវពិតៗជុំវិញប្រាសាទអង្គរ។ អ្នកលេងពី 2 ដល់ 8 នាក់ ម្នាក់ទូរស័ព្ទមួយ នៅលើ Wi-Fi តែមួយ ឬការចែករំលែកអ៊ីនធឺណិតពីទូរស័ព្ទ (hotspot) ដោយមិនត្រូវការអ៊ីនធឺណិត។ យានយន្ត 8 ផ្លូវប្រណាំង 2 និង 7 ភាសា។ | Une course en 3D sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs, un téléphone chacun, sur le même Wi-Fi ou un partage de connexion, sans internet. 8 véhicules, 2 circuits, 7 langues. |
 | ⏳ à relire | `work.items.rally.shows` | បង្ហាញ៖ ហ្គេមទូរស័ព្ទ 3D ការលេងច្រើននាក់ក្នុងបណ្ដាញតែមួយ ការបកប្រែជា 7 ភាសា។ | Montre : jeu mobile en 3D, multijoueur local, traduction en 7 langues. |
+| ⏳ à relire | `work.items.rally.link` | ស្វែងយល់ពី Cambodia Rally | Découvrir Cambodia Rally |
 | ⏳ à relire | `work.items.angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `work.items.angkor.kind` | ពិភព 3D | Monde en 3D |
 | ⏳ à relire | `work.items.angkor.status` | គំរូសាកល្បង (prototype) | Prototype |
@@ -284,7 +345,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 268 textes relus.
+0 / 329 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -296,6 +357,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.services.description` | Разработка сайтов и приложений для Android, искусственный интеллект, инфраструктура на Windows и Linux, информационная безопасность. Один человек на связи, в Кампоте или удалённо. | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
 | ⏳ à relire | `meta.hms.title` | HMS, программа для управления отелем — Chantrea Systems | HMS, logiciel de gestion hôtelière — Chantrea Systems |
 | ⏳ à relire | `meta.hms.description` | Бронирования, ресепшен, счета, уборка, ресторан и отчёты в одной программе. Для отелей и гестхаусов, на кхмерском, английском, французском, китайском и русском. | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
+| ⏳ à relire | `meta.rally.title` | Cambodia Rally, 3D-гонка вокруг Ангкора — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
+| ⏳ à relire | `meta.rally.description` | Гоночная 3D-игра для Android по настоящим дорогам вокруг храмов Ангкора. От 2 до 8 игроков в одной сети Wi-Fi, без интернета. 8 машин, 2 трассы, 7 языков. | Un jeu de course en 3D pour Android, sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits, 7 langues. |
 | ⏳ à relire | `meta.work.title` | Проекты — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | Программа для отелей, сайт для изучения кхмерского, 3D-игры для Android, музыкальные инструменты в браузере. Реальные проекты, описанные такими, какие они есть. | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | Обо мне — Chantrea Systems | À propos — Chantrea Systems |
@@ -314,6 +377,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `a11y.newWindow` | (откроется в новой вкладке) | (s'ouvre dans un nouvel onglet) |
 | ⏳ à relire | `nav.services` | Услуги | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
+| ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.work` | Проекты | Réalisations |
 | ⏳ à relire | `nav.about` | Обо мне | À propos |
 | ⏳ à relire | `nav.contact` | Контакты | Contact |
@@ -334,6 +398,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.hms.points.4` | Ресторан и бар, с переносом счёта на номер | Restaurant et bar, avec ajout de la note sur la chambre |
 | ⏳ à relire | `home.hms.points.5` | Если программа установлена в отеле, она продолжает работать без интернета | Installé dans votre hôtel, il continue de fonctionner quand internet est coupé |
 | ⏳ à relire | `home.hms.cta` | Подробнее об HMS | Découvrir HMS |
+| ⏳ à relire | `home.rally.eyebrow` | Проект · Игра для Android | Réalisation · Jeu Android |
+| ⏳ à relire | `home.rally.title` | Cambodia Rally, гонка вокруг храмов Ангкора | Cambodia Rally, la course autour des temples d'Angkor |
+| ⏳ à relire | `home.rally.text` | Гоночная 3D-игра для Android по настоящим дорогам Малого и Большого круга, мимо храмов, рвов и рисовых полей. | Un jeu de course en 3D pour Android, sur les vraies routes du Petit et du Grand Circuit, entre les temples, les douves et les rizières. |
+| ⏳ à relire | `home.rally.points.0` | От 2 до 8 игроков, у каждого свой телефон, без интернета | De 2 à 8 joueurs, un téléphone chacun, sans internet |
+| ⏳ à relire | `home.rally.points.1` | 8 машин, от багги до тук-тука | 8 véhicules, du buggy au tuk-tuk |
+| ⏳ à relire | `home.rally.points.2` | Храмы, деревни и рисовые поля расставлены по картам | Temples, villages et rizières placés d'après les cartes |
+| ⏳ à relire | `home.rally.points.3` | 7 языков, в том числе кхмерский | En 7 langues, dont le khmer |
+| ⏳ à relire | `home.rally.cta` | Подробнее о Cambodia Rally | Découvrir Cambodia Rally |
 | ⏳ à relire | `home.single.title` | Один человек на связи | Un seul interlocuteur |
 | ⏳ à relire | `home.single.text` | Chantrea Systems — это я, Стефан. Без колл-центра и без посредников. Вас выслушивает тот же человек, который делает работу. | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | Вы всегда знаете, кто что делает. | Vous savez toujours qui fait quoi. |
@@ -474,6 +546,55 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.tablet` | Календарь на планшете. | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | Панель управления на кхмерском языке. | Le tableau de bord, en khmer. |
 | ⏳ à relire | `hms.gallery.captions.reports` | Отчёты: загрузка, средняя цена, доход на номер. | Les rapports : occupation, prix moyen, revenu par chambre. |
+| ⏳ à relire | `rally.eyebrow` | Проект · Игра для Android | Réalisation · Jeu Android |
+| ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
+| ⏳ à relire | `rally.lead` | 3D-гонка по настоящим дорогам вокруг храмов Ангкора. С друзьями, у каждого свой телефон, в одной сети Wi-Fi или через точку доступа телефона: интернет не нужен. | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
+| ⏳ à relire | `rally.status` | Играбельная версия, ещё не опубликована | Jouable, pas encore publié |
+| ⏳ à relire | `rally.gallery.title` | Скриншоты | En images |
+| ⏳ à relire | `rally.gallery.note` | Кадры из игры на обеих трассах. | Captures du jeu sur ses deux circuits. |
+| ⏳ à relire | `rally.gallery.enlarge` | увеличить изображение | agrandir l'image |
+| ⏳ à relire | `rally.gallery.captions.causeway` | Малый круг: дамба к Южным воротам Ангкор-Тхома, с богами и демонами по сторонам. | Le Petit Circuit : la chaussée vers la porte Sud d'Angkor Thom, bordée de dieux et de démons. |
+| ⏳ à relire | `rally.gallery.captions.bayon` | Перед Байоном и его башнями с ликами. | Devant le Bayon et ses tours à visages. |
+| ⏳ à relire | `rally.gallery.captions.cockpit` | Вид из кабины у ворот Та Сома. | La vue depuis le poste de conduite, devant la porte de Ta Som. |
+| ⏳ à relire | `rally.gallery.captions.moat` | Вдоль рва Ангкор-Вата. | Le long des douves d'Angkor Wat. |
+| ⏳ à relire | `rally.gallery.captions.paddies` | Большой круг: рисовые поля Восточного Барая. | Le Grand Circuit : les rizières du Baray oriental. |
+| ⏳ à relire | `rally.gallery.captions.flyover` | Облёт перед стартом: Байон и дорога трассы. | Le survol avant le départ : le Bayon et la route du circuit. |
+| ⏳ à relire | `rally.gallery.captions.elephant` | Во время облёта: слон в лесу. | Pendant le survol, un éléphant dans la forêt. |
+| ⏳ à relire | `rally.gallery.captions.garage` | Гараж: машина, окраска, колёса и аксессуары. | Le garage : véhicule, peinture, roues et accessoires. |
+| ⏳ à relire | `rally.gallery.captions.stages` | Выбор трассы, с лучшим временем и испытаниями. | Le choix du circuit, avec meilleurs temps et défis. |
+| ⏳ à relire | `rally.featuresTitle` | Игра | Le jeu |
+| ⏳ à relire | `rally.groups.0.title` | Два настоящих маршрута | Deux vrais circuits |
+| ⏳ à relire | `rally.groups.0.items.0` | Малый круг: Ангкор-Ват, Южные ворота, Байон, Та Пром, Сра Сранг | Le Petit Circuit : Angkor Wat, la porte Sud, le Bayon, Ta Prohm, Srah Srang |
+| ⏳ à relire | `rally.groups.0.items.1` | Большой круг: Северные ворота, Преах Кхан, Неак Пеан, Та Сом, Восточный Мебон, Пре Руп | Le Grand Circuit : la porte Nord, Preah Khan, Neak Pean, Ta Som, le Mébon oriental, Pre Rup |
+| ⏳ à relire | `rally.groups.0.items.2` | Дороги проложены по OpenStreetMap | Routes tracées d'après OpenStreetMap |
+| ⏳ à relire | `rally.groups.1.title` | С друзьями | Entre amis |
+| ⏳ à relire | `rally.groups.1.items.0` | От 2 до 8 игроков, у каждого свой телефон | De 2 à 8 joueurs, un téléphone chacun |
+| ⏳ à relire | `rally.groups.1.items.1` | В одной сети Wi-Fi или через точку доступа телефона | Sur le même Wi-Fi ou le partage de connexion d'un téléphone |
+| ⏳ à relire | `rally.groups.1.items.2` | Без сервера: гонку принимает один из телефонов | Aucun serveur : un des téléphones accueille la course |
+| ⏳ à relire | `rally.groups.1.items.3` | Зелёный свет одновременно на всех телефонах | Feu vert au même instant sur tous les téléphones |
+| ⏳ à relire | `rally.groups.2.title` | Один на время | Seul contre la montre |
+| ⏳ à relire | `rally.groups.2.items.0` | Флажки, прыжки и ворота с очками | Drapeaux à ramasser, sauts et portes à points |
+| ⏳ à relire | `rally.groups.2.items.1` | Три испытания на каждой трассе | Trois défis par circuit |
+| ⏳ à relire | `rally.groups.2.items.2` | Лучшее время и лучший счёт | Meilleurs temps et meilleurs scores |
+| ⏳ à relire | `rally.groups.3.title` | 8 машин | 8 véhicules |
+| ⏳ à relire | `rally.groups.3.items.0` | Багги, внедорожники, мотоциклы и тук-тук | Buggys, 4x4, deux-roues et tuk-tuk |
+| ⏳ à relire | `rally.groups.3.items.1` | Камера сзади или вид из кабины | Vue de poursuite ou vue depuis le poste de conduite |
+| ⏳ à relire | `rally.groups.3.items.2` | Окраска, колёса и аксессуары в гараже | Peintures, roues et accessoires au garage |
+| ⏳ à relire | `rally.groups.4.title` | Живой мир | Un monde vivant |
+| ⏳ à relire | `rally.groups.4.items.0` | Храмы, рвы, рисовые поля и деревни расставлены по картам | Temples, douves, rizières et villages placés d'après les cartes |
+| ⏳ à relire | `rally.groups.4.items.1` | Слоны, макаки и птицы | Éléphants, macaques et oiseaux |
+| ⏳ à relire | `rally.groups.4.items.2` | Движение на дорогах | De la circulation sur les routes |
+| ⏳ à relire | `rally.groups.4.items.3` | Текстуры из фотографий камня, земли и растений | Textures tirées de photos de pierre, de sol et de végétation |
+| ⏳ à relire | `rally.groups.5.title` | 7 языков | 7 langues |
+| ⏳ à relire | `rally.groups.5.items.0` | Кхмерский, английский, французский, китайский, вьетнамский, тайский и русский | Khmer, anglais, français, chinois, vietnamien, thaï et russe |
+| ⏳ à relire | `rally.groups.5.items.1` | Игра следует языку телефона, его можно сменить в любой момент | Le jeu suit la langue du téléphone, et on peut la changer à tout moment |
+| ⏳ à relire | `rally.shows.title` | Что показывает этот проект | Ce que ce projet montre |
+| ⏳ à relire | `rally.shows.text` | Эта игра подтверждает навыки. Те же умения идут в приложения на заказ. | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `rally.shows.items.0` | 3D-приложение для телефонов Android | Une application en 3D sur téléphone Android |
+| ⏳ à relire | `rally.shows.items.1` | Несколько телефонов в локальной сети, без сервера | Plusieurs téléphones reliés en réseau local, sans serveur |
+| ⏳ à relire | `rally.shows.items.2` | Открытые карты, превращённые в 3D-мир | Des cartes ouvertes transformées en monde en 3D |
+| ⏳ à relire | `rally.shows.items.3` | Приложение, переведённое на 7 языков | Une application traduite en 7 langues |
+| ⏳ à relire | `rally.shows.cta` | Все проекты | Voir toutes les réalisations |
 | ⏳ à relire | `work.title` | Проекты | Réalisations |
 | ⏳ à relire | `work.lead` | Реальные проекты, описанные такими, какие они есть сегодня. | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | Статус | État |
@@ -495,6 +616,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.rally.status` | Играбельная версия, ещё не опубликована | Jouable, pas encore publié |
 | ⏳ à relire | `work.items.rally.text` | 3D-гонка по настоящим дорогам вокруг храмов Ангкора. От 2 до 8 игроков, у каждого свой телефон, в одной сети Wi-Fi или через точку доступа, без интернета. 8 машин, 2 трассы, 7 языков. | Une course en 3D sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs, un téléphone chacun, sur le même Wi-Fi ou un partage de connexion, sans internet. 8 véhicules, 2 circuits, 7 langues. |
 | ⏳ à relire | `work.items.rally.shows` | Показывает: мобильная 3D-игра, локальный мультиплеер, перевод на 7 языков. | Montre : jeu mobile en 3D, multijoueur local, traduction en 7 langues. |
+| ⏳ à relire | `work.items.rally.link` | Подробнее о Cambodia Rally | Découvrir Cambodia Rally |
 | ⏳ à relire | `work.items.angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `work.items.angkor.kind` | 3D-мир | Monde en 3D |
 | ⏳ à relire | `work.items.angkor.status` | Прототип | Prototype |
@@ -559,7 +681,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 268 textes relus.
+0 / 329 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -571,6 +693,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.services.description` | 网站和 Android 开发、人工智能、Windows 和 Linux 基础设施、IT 安全。只需对接一个人，在贡布上门，或远程服务。 | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
 | ⏳ à relire | `meta.hms.title` | HMS 酒店管理软件 — Chantrea Systems | HMS, logiciel de gestion hôtelière — Chantrea Systems |
 | ⏳ à relire | `meta.hms.description` | 预订、前台、账单、客房清洁、餐厅和报表，全在一个软件里。适用于酒店和民宿，支持高棉语、英语、法语、中文和俄语。 | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
+| ⏳ à relire | `meta.rally.title` | Cambodia Rally，吴哥周边 3D 赛车 — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
+| ⏳ à relire | `meta.rally.description` | 一款 Android 3D 赛车游戏，赛道是吴哥寺庙周边的真实道路。2 到 8 名玩家连接同一个 Wi-Fi，无需互联网。8 款车辆，2 条赛道，7 种语言。 | Un jeu de course en 3D pour Android, sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits, 7 langues. |
 | ⏳ à relire | `meta.work.title` | 项目案例 — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | 酒店管理软件、高棉语学习网站、Android 3D 游戏、在浏览器里运行的乐器。都是真实项目，如实介绍。 | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | 关于 — Chantrea Systems | À propos — Chantrea Systems |
@@ -589,6 +713,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `a11y.newWindow` | （在新标签页中打开） | (s'ouvre dans un nouvel onglet) |
 | ⏳ à relire | `nav.services` | 服务 | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
+| ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.work` | 项目案例 | Réalisations |
 | ⏳ à relire | `nav.about` | 关于 | À propos |
 | ⏳ à relire | `nav.contact` | 联系 | Contact |
@@ -609,6 +734,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.hms.points.4` | 餐厅和酒吧，消费可记入房账 | Restaurant et bar, avec ajout de la note sur la chambre |
 | ⏳ à relire | `home.hms.points.5` | 安装在您的酒店内，断网时照常运行 | Installé dans votre hôtel, il continue de fonctionner quand internet est coupé |
 | ⏳ à relire | `home.hms.cta` | 了解 HMS | Découvrir HMS |
+| ⏳ à relire | `home.rally.eyebrow` | 项目案例 · Android 游戏 | Réalisation · Jeu Android |
+| ⏳ à relire | `home.rally.title` | Cambodia Rally，环绕吴哥寺庙的赛车 | Cambodia Rally, la course autour des temples d'Angkor |
+| ⏳ à relire | `home.rally.text` | 一款 Android 3D 赛车游戏，赛道是小圈和大圈的真实道路，穿过寺庙、护城河和稻田。 | Un jeu de course en 3D pour Android, sur les vraies routes du Petit et du Grand Circuit, entre les temples, les douves et les rizières. |
+| ⏳ à relire | `home.rally.points.0` | 2 到 8 名玩家，每人一部手机，无需互联网 | De 2 à 8 joueurs, un téléphone chacun, sans internet |
+| ⏳ à relire | `home.rally.points.1` | 8 款车辆，从越野车到嘟嘟车 | 8 véhicules, du buggy au tuk-tuk |
+| ⏳ à relire | `home.rally.points.2` | 寺庙、村庄和稻田按地图摆放 | Temples, villages et rizières placés d'après les cartes |
+| ⏳ à relire | `home.rally.points.3` | 支持 7 种语言，包括高棉语 | En 7 langues, dont le khmer |
+| ⏳ à relire | `home.rally.cta` | 了解 Cambodia Rally | Découvrir Cambodia Rally |
 | ⏳ à relire | `home.single.title` | 只需对接一个人 | Un seul interlocuteur |
 | ⏳ à relire | `home.single.text` | Chantrea Systems 就是我：Stefan。没有总机，没有中间人。听您讲需求的人，就是做事的人。 | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | 您始终清楚谁在做什么。 | Vous savez toujours qui fait quoi. |
@@ -749,6 +882,55 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.tablet` | 平板电脑上的房态日历。 | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | 高棉语界面的仪表盘。 | Le tableau de bord, en khmer. |
 | ⏳ à relire | `hms.gallery.captions.reports` | 报表：入住率、平均房价、每间可售房收入。 | Les rapports : occupation, prix moyen, revenu par chambre. |
+| ⏳ à relire | `rally.eyebrow` | 项目案例 · Android 游戏 | Réalisation · Jeu Android |
+| ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
+| ⏳ à relire | `rally.lead` | 在吴哥寺庙周边的真实道路上进行 3D 赛车。和朋友一起，每人一部手机，连接同一个 Wi-Fi 或手机热点即可：无需互联网。 | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
+| ⏳ à relire | `rally.status` | 可以玩，尚未发布 | Jouable, pas encore publié |
+| ⏳ à relire | `rally.gallery.title` | 界面截图 | En images |
+| ⏳ à relire | `rally.gallery.note` | 两条赛道上的游戏画面。 | Captures du jeu sur ses deux circuits. |
+| ⏳ à relire | `rally.gallery.enlarge` | 放大图片 | agrandir l'image |
+| ⏳ à relire | `rally.gallery.captions.causeway` | 小圈：通往吴哥城南门的堤道，两旁是天神和阿修罗。 | Le Petit Circuit : la chaussée vers la porte Sud d'Angkor Thom, bordée de dieux et de démons. |
+| ⏳ à relire | `rally.gallery.captions.bayon` | 巴戎寺及其四面佛塔前。 | Devant le Bayon et ses tours à visages. |
+| ⏳ à relire | `rally.gallery.captions.cockpit` | 驾驶座视角，塔逊寺门前。 | La vue depuis le poste de conduite, devant la porte de Ta Som. |
+| ⏳ à relire | `rally.gallery.captions.moat` | 沿着吴哥窟的护城河。 | Le long des douves d'Angkor Wat. |
+| ⏳ à relire | `rally.gallery.captions.paddies` | 大圈：东池的稻田。 | Le Grand Circuit : les rizières du Baray oriental. |
+| ⏳ à relire | `rally.gallery.captions.flyover` | 出发前的空中俯瞰：巴戎寺和赛道道路。 | Le survol avant le départ : le Bayon et la route du circuit. |
+| ⏳ à relire | `rally.gallery.captions.elephant` | 空中俯瞰时，森林里的一头大象。 | Pendant le survol, un éléphant dans la forêt. |
+| ⏳ à relire | `rally.gallery.captions.garage` | 车库：车辆、涂装、车轮和配件。 | Le garage : véhicule, peinture, roues et accessoires. |
+| ⏳ à relire | `rally.gallery.captions.stages` | 选择赛道，显示最佳时间和挑战。 | Le choix du circuit, avec meilleurs temps et défis. |
+| ⏳ à relire | `rally.featuresTitle` | 游戏内容 | Le jeu |
+| ⏳ à relire | `rally.groups.0.title` | 两条真实路线 | Deux vrais circuits |
+| ⏳ à relire | `rally.groups.0.items.0` | 小圈：吴哥窟、南门、巴戎寺、塔普伦寺、皇家浴池 | Le Petit Circuit : Angkor Wat, la porte Sud, le Bayon, Ta Prohm, Srah Srang |
+| ⏳ à relire | `rally.groups.0.items.1` | 大圈：北门、圣剑寺、涅槃宫、塔逊寺、东梅奔寺、比粒寺 | Le Grand Circuit : la porte Nord, Preah Khan, Neak Pean, Ta Som, le Mébon oriental, Pre Rup |
+| ⏳ à relire | `rally.groups.0.items.2` | 道路依据 OpenStreetMap 绘制 | Routes tracées d'après OpenStreetMap |
+| ⏳ à relire | `rally.groups.1.title` | 和朋友一起 | Entre amis |
+| ⏳ à relire | `rally.groups.1.items.0` | 2 到 8 名玩家，每人一部手机 | De 2 à 8 joueurs, un téléphone chacun |
+| ⏳ à relire | `rally.groups.1.items.1` | 连接同一个 Wi-Fi 或手机热点 | Sur le même Wi-Fi ou le partage de connexion d'un téléphone |
+| ⏳ à relire | `rally.groups.1.items.2` | 无需服务器：由其中一部手机主持比赛 | Aucun serveur : un des téléphones accueille la course |
+| ⏳ à relire | `rally.groups.1.items.3` | 所有手机同时亮起绿灯 | Feu vert au même instant sur tous les téléphones |
+| ⏳ à relire | `rally.groups.2.title` | 单人计时赛 | Seul contre la montre |
+| ⏳ à relire | `rally.groups.2.items.0` | 收集旗帜、飞跃坡道、通过得分门 | Drapeaux à ramasser, sauts et portes à points |
+| ⏳ à relire | `rally.groups.2.items.1` | 每条赛道三项挑战 | Trois défis par circuit |
+| ⏳ à relire | `rally.groups.2.items.2` | 最佳时间和最高分 | Meilleurs temps et meilleurs scores |
+| ⏳ à relire | `rally.groups.3.title` | 8 款车辆 | 8 véhicules |
+| ⏳ à relire | `rally.groups.3.items.0` | 越野车、四驱车、两轮车和嘟嘟车 | Buggys, 4x4, deux-roues et tuk-tuk |
+| ⏳ à relire | `rally.groups.3.items.1` | 追尾视角或驾驶座视角 | Vue de poursuite ou vue depuis le poste de conduite |
+| ⏳ à relire | `rally.groups.3.items.2` | 在车库更换涂装、车轮和配件 | Peintures, roues et accessoires au garage |
+| ⏳ à relire | `rally.groups.4.title` | 鲜活的世界 | Un monde vivant |
+| ⏳ à relire | `rally.groups.4.items.0` | 寺庙、护城河、稻田和村庄按地图摆放 | Temples, douves, rizières et villages placés d'après les cartes |
+| ⏳ à relire | `rally.groups.4.items.1` | 大象、猕猴和飞鸟 | Éléphants, macaques et oiseaux |
+| ⏳ à relire | `rally.groups.4.items.2` | 道路上有往来车辆 | De la circulation sur les routes |
+| ⏳ à relire | `rally.groups.4.items.3` | 纹理取自石头、地面和植物的照片 | Textures tirées de photos de pierre, de sol et de végétation |
+| ⏳ à relire | `rally.groups.5.title` | 7 种语言 | 7 langues |
+| ⏳ à relire | `rally.groups.5.items.0` | 高棉语、英语、法语、中文、越南语、泰语和俄语 | Khmer, anglais, français, chinois, vietnamien, thaï et russe |
+| ⏳ à relire | `rally.groups.5.items.1` | 游戏跟随手机语言，也可随时切换 | Le jeu suit la langue du téléphone, et on peut la changer à tout moment |
+| ⏳ à relire | `rally.shows.title` | 这个项目展示了什么 | Ce que ce projet montre |
+| ⏳ à relire | `rally.shows.text` | 这款游戏是一项能力证明。同样的技术也用于定制应用。 | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `rally.shows.items.0` | Android 手机上的 3D 应用 | Une application en 3D sur téléphone Android |
+| ⏳ à relire | `rally.shows.items.1` | 多部手机通过局域网连接，无需服务器 | Plusieurs téléphones reliés en réseau local, sans serveur |
+| ⏳ à relire | `rally.shows.items.2` | 把开放地图数据变成 3D 世界 | Des cartes ouvertes transformées en monde en 3D |
+| ⏳ à relire | `rally.shows.items.3` | 翻译成 7 种语言的应用 | Une application traduite en 7 langues |
+| ⏳ à relire | `rally.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
 | ⏳ à relire | `work.title` | 项目案例 | Réalisations |
 | ⏳ à relire | `work.lead` | 真实的项目，按目前的实际状态介绍。 | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | 状态 | État |
@@ -770,6 +952,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.rally.status` | 可以玩，尚未发布 | Jouable, pas encore publié |
 | ⏳ à relire | `work.items.rally.text` | 在吴哥寺庙周边的真实道路上进行 3D 赛车。2 到 8 名玩家，每人一部手机，连接同一个 Wi-Fi 或手机热点即可，无需互联网。8 款车辆，2 条赛道，7 种语言。 | Une course en 3D sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs, un téléphone chacun, sur le même Wi-Fi ou un partage de connexion, sans internet. 8 véhicules, 2 circuits, 7 langues. |
 | ⏳ à relire | `work.items.rally.shows` | 展示：3D 手机游戏、本地多人联机、7 种语言翻译。 | Montre : jeu mobile en 3D, multijoueur local, traduction en 7 langues. |
+| ⏳ à relire | `work.items.rally.link` | 了解 Cambodia Rally | Découvrir Cambodia Rally |
 | ⏳ à relire | `work.items.angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `work.items.angkor.kind` | 3D 世界 | Monde en 3D |
 | ⏳ à relire | `work.items.angkor.status` | 原型 | Prototype |

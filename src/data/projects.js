@@ -10,7 +10,7 @@
 export default [
   { id: 'hms', group: 'products', page: 'hms' },
   { id: 'learnkh', group: 'products' },
-  { id: 'rally', group: 'skills' },
+  { id: 'rally', group: 'skills', page: 'rally' },
   { id: 'angkor', group: 'skills' },
   { id: 'synth', group: 'skills', url: 'https://stefan-cambodia.github.io/js-synth/' },
   { id: 'vsm', group: 'skills' },

@@ -2,6 +2,8 @@
 import Page from '../../layouts/Page.astro';
 import Txt from '../../components/Txt.astro';
 import MoonPhase from '../../components/MoonPhase.astro';
+import { Picture } from 'astro:assets';
+import { homeScreen } from '../../data/rally-screens.js';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -57,7 +59,32 @@ const phases = [0.25, 0.5, 0.75, 1];
     </div>
   </section>
 
-  <section class="section" aria-labelledby="single-title">
+  <section class="section" aria-labelledby="rally-title">
+    <div class="container split split--media">
+      <div>
+        <p class="eyebrow">{h.rally.eyebrow}</p>
+        <h2 id="rally-title">{h.rally.title}</h2>
+        <p>{h.rally.text}</p>
+        <ul class="checklist">
+          {h.rally.points.map((p) => <li>{p}</li>)}
+        </ul>
+        <a class="btn btn--primary" href={href(lang, 'rally')}>{h.rally.cta}</a>
+      </div>
+      <a class="media" href={href(lang, 'rally')} tabindex="-1" aria-hidden="true">
+        <Picture
+          src={homeScreen.src}
+          alt=""
+          formats={['avif', 'webp']}
+          widths={[480, 720, 960]}
+          sizes="(min-width: 1120px) 520px, (min-width: 860px) 45vw, 100vw"
+          quality={80}
+          loading="lazy"
+        />
+      </a>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="single-title">
     <div class="container split">
       <div>
         <h2 id="single-title">{h.single.title}</h2>
@@ -69,7 +96,7 @@ const phases = [0.25, 0.5, 0.75, 1];
     </div>
   </section>
 
-  <section class="section section--alt" aria-labelledby="steps-title">
+  <section class="section" aria-labelledby="steps-title">
     <div class="container">
       <h2 id="steps-title">{h.steps.title}</h2>
       <ol class="steps">
@@ -84,7 +111,7 @@ const phases = [0.25, 0.5, 0.75, 1];
     </div>
   </section>
 
-  <section class="section" aria-labelledby="audiences-title">
+  <section class="section section--alt" aria-labelledby="audiences-title">
     <div class="container">
       <h2 id="audiences-title">{h.audiences.title}</h2>
       <ul class="cards cards--3">
@@ -98,7 +125,7 @@ const phases = [0.25, 0.5, 0.75, 1];
     </div>
   </section>
 
-  <section class="section section--alt" aria-labelledby="work-title">
+  <section class="section" aria-labelledby="work-title">
     <div class="container banner">
       <div>
         <h2 id="work-title">{h.work.title}</h2>

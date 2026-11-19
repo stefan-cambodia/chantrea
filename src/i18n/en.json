@@ -16,6 +16,10 @@
       "title": "HMS, hotel management software — Chantrea Systems",
       "description": "Bookings, front desk, billing, housekeeping, restaurant and reports in one program. For hotels and guesthouses, in Khmer, English, French, Chinese and Russian."
     },
+    "rally": {
+      "title": "Cambodia Rally, a 3D race around Angkor — Chantrea Systems",
+      "description": "A 3D racing game for Android on the real roads around the temples of Angkor. 2 to 8 players on the same Wi-Fi, no internet needed. 8 vehicles, 2 tracks, 7 languages."
+    },
     "work": {
       "title": "Work — Chantrea Systems",
       "description": "Hotel software, a site for learning Khmer, 3D Android games, music instruments in the browser. Real projects, described as they are."
@@ -46,6 +50,7 @@
   "nav": {
     "services": "Services",
     "hms": "HMS",
+    "rally": "Cambodia Rally",
     "work": "Work",
     "about": "About",
     "contact": "Contact"
@@ -75,6 +80,18 @@
         "Installed in your hotel, it keeps working when the internet is down"
       ],
       "cta": "Discover HMS"
+    },
+    "rally": {
+      "eyebrow": "Project · Android game",
+      "title": "Cambodia Rally, a race around the temples of Angkor",
+      "text": "A 3D racing game for Android on the real roads of the Small and Grand Circuits, past temples, moats and rice fields.",
+      "points": [
+        "2 to 8 players, one phone each, no internet needed",
+        "8 vehicles, from buggy to tuk-tuk",
+        "Temples, villages and rice fields placed from the maps",
+        "In 7 languages, including Khmer"
+      ],
+      "cta": "Discover Cambodia Rally"
     },
     "single": {
       "title": "One point of contact",
@@ -351,6 +368,91 @@
       }
     }
   },
+  "rally": {
+    "eyebrow": "Project · Android game",
+    "title": "Cambodia Rally",
+    "lead": "A 3D race on the real roads around the temples of Angkor. With friends, one phone each, on the same Wi-Fi or one phone's hotspot: no internet needed.",
+    "status": "Playable, not published yet",
+    "gallery": {
+      "title": "Screenshots",
+      "note": "In-game captures from both tracks.",
+      "enlarge": "enlarge image",
+      "captions": {
+        "causeway": "The Small Circuit: the causeway to Angkor Thom's South Gate, lined with gods and demons.",
+        "bayon": "In front of the Bayon and its face towers.",
+        "cockpit": "The cockpit view, at Ta Som's gate.",
+        "moat": "Along the moat of Angkor Wat.",
+        "paddies": "The Grand Circuit: the rice fields of the East Baray.",
+        "flyover": "The flyover before the start: the Bayon and the track's road.",
+        "elephant": "During the flyover, an elephant in the forest.",
+        "garage": "The garage: vehicle, paint, wheels and extras.",
+        "stages": "Choosing a track, with best times and challenges."
+      }
+    },
+    "featuresTitle": "The game",
+    "groups": [
+      {
+        "title": "Two real circuits",
+        "items": [
+          "The Small Circuit: Angkor Wat, the South Gate, the Bayon, Ta Prohm, Srah Srang",
+          "The Grand Circuit: the North Gate, Preah Khan, Neak Pean, Ta Som, the East Mebon, Pre Rup",
+          "Roads laid out from OpenStreetMap"
+        ]
+      },
+      {
+        "title": "With friends",
+        "items": [
+          "2 to 8 players, one phone each",
+          "On the same Wi-Fi or one phone's hotspot",
+          "No server: one of the phones hosts the race",
+          "Green light at the same instant on every phone"
+        ]
+      },
+      {
+        "title": "Alone against the clock",
+        "items": [
+          "Flags to collect, jumps and scoring gates",
+          "Three challenges per track",
+          "Best times and best scores"
+        ]
+      },
+      {
+        "title": "8 vehicles",
+        "items": [
+          "Buggies, 4x4s, two-wheelers and a tuk-tuk",
+          "Chase camera or cockpit view",
+          "Paints, wheels and extras in the garage"
+        ]
+      },
+      {
+        "title": "A living world",
+        "items": [
+          "Temples, moats, rice fields and villages placed from the maps",
+          "Elephants, macaques and birds",
+          "Traffic on the roads",
+          "Textures made from photos of stone, ground and plants"
+        ]
+      },
+      {
+        "title": "7 languages",
+        "items": [
+          "Khmer, English, French, Chinese, Vietnamese, Thai and Russian",
+          "The game follows the phone's language, and it can be changed at any time"
+        ]
+      }
+    ],
+    "shows": {
+      "title": "What this project shows",
+      "text": "This game is a proof of skills. The same know-how goes into custom apps.",
+      "items": [
+        "A 3D app on Android phones",
+        "Several phones linked on a local network, with no server",
+        "Open map data turned into a 3D world",
+        "An app translated into 7 languages"
+      ],
+      "cta": "See all projects"
+    }
+  },
   "work": {
     "title": "Work",
     "lead": "Real projects, described as they are today.",
@@ -382,7 +484,8 @@
         "kind": "Racing game for Android",
         "status": "Playable, not published yet",
         "text": "A 3D race on the real roads around the temples of Angkor. 2 to 8 players, one phone each, on the same Wi-Fi or a hotspot, no internet needed. 8 vehicles, 2 tracks, 7 languages.",
-        "shows": "Shows: 3D mobile game, local multiplayer, translation into 7 languages."
+        "shows": "Shows: 3D mobile game, local multiplayer, translation into 7 languages.",
+        "link": "Discover Cambodia Rally"
       },
       "angkor": {
         "title": "Angkor World Engine",
