@@ -10,7 +10,7 @@
     },
     "services": {
       "title": "Services — Chantrea Systems",
-      "description": "Web and Android development, artificial intelligence, Windows and Linux infrastructure, IT security. One point of contact, in Kampot or remote."
+      "description": "Web and Android development, artificial intelligence, Windows and Linux infrastructure, IT security. In Kampot or remote, with a translator in your language."
     },
     "hms": {
       "title": "HMS, hotel management software — Chantrea Systems",
@@ -30,7 +30,7 @@
     },
     "about": {
       "title": "About — Chantrea Systems",
-      "description": "Chantrea Systems is Stefan, in Kampot, Cambodia. One point of contact for your IT projects."
+      "description": "Chantrea Systems is Stefan, in Kampot, Cambodia. Your IT projects, discussed in your language."
     },
     "contact": {
       "title": "Contact — Chantrea Systems",
@@ -64,13 +64,13 @@
     "hero": {
       "eyebrow": "IT services · Kampot, Cambodia",
       "title": "Clear IT tools for your business.",
-      "lead": "Websites, apps, artificial intelligence, servers. I design, set up and maintain. You always talk to the same person.",
+      "lead": "Websites, apps, artificial intelligence, servers. I design, set up and maintain. You talk to my translator in your language, and I take part in the conversation.",
       "ctaPrimary": "Let's talk about your project",
       "ctaSecondary": "See the services"
     },
     "services": {
       "title": "What I do",
-      "intro": "Four areas. One person to answer you."
+      "intro": "Four areas. One person does the work."
     },
     "hms": {
       "eyebrow": "Product",
@@ -111,8 +111,8 @@
       "cta": "Discover Angkor World Engine"
     },
     "single": {
-      "title": "One point of contact",
-      "text": "Chantrea Systems is me: Stefan. No switchboard, no middleman. The person who listens to you is the person who does the work.",
+      "title": "One person does the work",
+      "text": "Chantrea Systems is me: Stefan. No switchboard. You talk to my translator in your language, and I take part in the conversation: I'm the one who does the work.",
       "points": [
         "You always know who does what.",
         "Simple explanations, no jargon.",
@@ -150,7 +150,7 @@
         },
         {
           "title": "Expats and foreign companies",
-          "text": "Based in Cambodia, with a direct point of contact."
+          "text": "Based in Cambodia, with conversations in your language."
         },
         {
           "title": "Clients abroad",
@@ -189,7 +189,7 @@
             "list": [
               "A version to try before it goes live.",
               "Explanations on how to use it.",
-              "One point of contact, from start to finish."
+              "The same people from start to finish: my translator and me."
             ]
           }
         ],

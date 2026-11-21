@@ -17,7 +17,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.chooser.title` | Chantrea Systems | Chantrea Systems |
 | ⏳ à relire | `meta.chooser.description` | សេវាកម្មព័ត៌មានវិទ្យានៅកំពត កម្ពុជា។ សូមជ្រើសរើសភាសារបស់លោកអ្នក។ | Services informatiques à Kampot, Cambodge. Choisissez votre langue. |
 | ⏳ à relire | `meta.services.title` | សេវាកម្ម — Chantrea Systems | Services — Chantrea Systems |
-| ⏳ à relire | `meta.services.description` | ការអភិវឌ្ឍគេហទំព័រ និង Android បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ Windows និង Linux សុវត្ថិភាពព័ត៌មានវិទ្យា។ មនុស្សតែម្នាក់សម្រាប់ទំនាក់ទំនង នៅកំពត ឬពីចម្ងាយ។ | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
+| ⏳ à relire | `meta.services.description` | ការអភិវឌ្ឍគេហទំព័រ និង Android បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ Windows និង Linux សុវត្ថិភាពព័ត៌មានវិទ្យា។ នៅកំពត ឬពីចម្ងាយ ជាមួយអ្នកបកប្រែជាភាសារបស់លោកអ្នក។ | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
 | ⏳ à relire | `meta.hms.title` | HMS កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ — Chantrea Systems | HMS, logiciel de gestion hôtelière — Chantrea Systems |
 | ⏳ à relire | `meta.hms.description` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន និងរបាយការណ៍ ក្នុងកម្មវិធីតែមួយ។ សម្រាប់សណ្ឋាគារ និងផ្ទះសំណាក់ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
 | ⏳ à relire | `meta.rally.title` | Cambodia Rally ការប្រណាំង 3D ជុំវិញអង្គរ — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
@@ -27,7 +27,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.work.title` | ស្នាដៃ — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | កម្មវិធីសណ្ឋាគារ គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម Android 3D ឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ គម្រោងពិតៗ ដែលពិពណ៌នាតាមស្ថានភាពពិត។ | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | អំពីខ្ញុំ — Chantrea Systems | À propos — Chantrea Systems |
-| ⏳ à relire | `meta.about.description` | Chantrea Systems គឺ Stefan នៅកំពត កម្ពុជា។ មនុស្សតែម្នាក់សម្រាប់គម្រោងព័ត៌មានវិទ្យារបស់លោកអ្នក។ | Chantrea Systems, c'est Stefan, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques. |
+| ⏳ à relire | `meta.about.description` | Chantrea Systems គឺ Stefan នៅកំពត កម្ពុជា។ គម្រោងព័ត៌មានវិទ្យារបស់លោកអ្នក ពិភាក្សាជាភាសារបស់លោកអ្នក។ | Chantrea Systems, c'est Stefan, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques. |
 | ⏳ à relire | `meta.contact.title` | ទំនាក់ទំនង — Chantrea Systems | Contact — Chantrea Systems |
 | ⏳ à relire | `meta.contact.description` | សរសេរមក Chantrea Systems តាមអ៊ីមែល Telegram ឬ WhatsApp។ កំពត កម្ពុជា។ | Écrivez à Chantrea Systems par e-mail, Telegram ou WhatsApp. Kampot, Cambodge. |
 | ⏳ à relire | `meta.notFound.title` | រកមិនឃើញទំព័រ — Chantrea Systems | Page introuvable — Chantrea Systems |
@@ -49,11 +49,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.contact` | ទំនាក់ទំនង | Contact |
 | ⏳ à relire | `home.hero.eyebrow` | សេវាកម្មព័ត៌មានវិទ្យា · កំពត កម្ពុជា | Services informatiques · Kampot, Cambodge |
 | ⏳ à relire | `home.hero.title` | ឧបករណ៍ព័ត៌មានវិទ្យាច្បាស់លាស់ សម្រាប់អាជីវកម្មរបស់លោកអ្នក។ | Des outils informatiques clairs, pour votre entreprise. |
-| ⏳ à relire | `home.hero.lead` | គេហទំព័រ កម្មវិធី បញ្ញាសិប្បនិម្មិត ម៉ាស៊ីនមេ (server)។ ខ្ញុំរចនា ដំឡើង និងថែទាំ។ លោកអ្នកតែងតែនិយាយជាមួយមនុស្សម្នាក់ដដែល។ | Sites web, applications, intelligence artificielle, serveurs. Je conçois, j'installe et j'entretiens. Vous parlez toujours à la même personne. |
+| ⏳ à relire | `home.hero.lead` | គេហទំព័រ កម្មវិធី បញ្ញាសិប្បនិម្មិត ម៉ាស៊ីនមេ (server)។ ខ្ញុំរចនា ដំឡើង និងថែទាំ។ លោកអ្នកនិយាយជាមួយអ្នកបកប្រែរបស់ខ្ញុំ ជាភាសារបស់លោកអ្នក ហើយខ្ញុំក៏ចូលរួមក្នុងការសន្ទនាដែរ។ | Sites web, applications, intelligence artificielle, serveurs. Je conçois, j'installe et j'entretiens. Vous parlez toujours à la même personne. |
 | ⏳ à relire | `home.hero.ctaPrimary` | ពិភាក្សាអំពីគម្រោងរបស់លោកអ្នក | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | មើលសេវាកម្ម | Voir les services |
 | ⏳ à relire | `home.services.title` | អ្វីដែលខ្ញុំធ្វើ | Ce que je fais |
-| ⏳ à relire | `home.services.intro` | បួនផ្នែក។ មនុស្សតែម្នាក់ដែលឆ្លើយតបលោកអ្នក។ | Quatre domaines. Une seule personne pour vous répondre. |
+| ⏳ à relire | `home.services.intro` | បួនផ្នែក។ មនុស្សតែម្នាក់ជាអ្នកធ្វើការងារ។ | Quatre domaines. Une seule personne pour vous répondre. |
 | ⏳ à relire | `home.hms.eyebrow` | ផលិតផល | Produit |
 | ⏳ à relire | `home.hms.title` | HMS កម្មវិធីគ្រប់គ្រងសណ្ឋាគាររបស់លោកអ្នក | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន៖ ទាំងអស់នៅកន្លែងតែមួយ។ ប្រើលើកុំព្យូទ័រ ថេប្លេត ឬទូរស័ព្ទ។ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -80,8 +80,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.angkor.points.2` | អង្គរវត្ត និងប្រាសាទភ្នំប្រាំបី សាងសង់តាមប្លង់របស់វា | Angkor Wat et huit temples-montagnes construits d'après leurs plans |
 | ⏳ à relire | `home.angkor.points.3` | 80 រូបភាពក្នុងមួយវិនាទី លើទូរស័ព្ទ Android កម្រិតមធ្យម | 80 images par seconde sur un téléphone Android de milieu de gamme |
 | ⏳ à relire | `home.angkor.cta` | ស្វែងយល់ពី Angkor World Engine | Découvrir Angkor World Engine |
-| ⏳ à relire | `home.single.title` | មនុស្សតែម្នាក់សម្រាប់ទំនាក់ទំនង | Un seul interlocuteur |
-| ⏳ à relire | `home.single.text` | Chantrea Systems គឺខ្ញុំ៖ Stefan។ គ្មានអ្នកទទួលទូរស័ព្ទ គ្មានអ្នកកណ្ដាល។ មនុស្សដែលស្តាប់លោកអ្នក គឺជាមនុស្សដែលធ្វើការងារ។ | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
+| ⏳ à relire | `home.single.title` | មនុស្សតែម្នាក់ធ្វើការងារ | Un seul interlocuteur |
+| ⏳ à relire | `home.single.text` | Chantrea Systems គឺខ្ញុំ៖ Stefan។ គ្មានអ្នកទទួលទូរស័ព្ទ។ លោកអ្នកនិយាយជាមួយអ្នកបកប្រែរបស់ខ្ញុំ ជាភាសារបស់លោកអ្នក ហើយខ្ញុំក៏ចូលរួមក្នុងការសន្ទនាដែរ៖ ខ្ញុំជាអ្នកធ្វើការងារផ្ទាល់។ | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | លោកអ្នកតែងតែដឹងថា នរណាធ្វើអ្វី។ | Vous savez toujours qui fait quoi. |
 | ⏳ à relire | `home.single.points.1` | ការពន្យល់សាមញ្ញ គ្មានពាក្យបច្ចេកទេសពិបាកយល់។ | Des explications simples, sans jargon. |
 | ⏳ à relire | `home.single.points.2` | នៅនឹងកន្លែងនៅកំពត។ ពីចម្ងាយសម្រាប់កន្លែងផ្សេងទៀត។ | Sur place à Kampot. À distance partout ailleurs. |
@@ -99,7 +99,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.audiences.items.0.title` | អាជីវកម្មនៅកម្ពុជា | Entreprises au Cambodge |
 | ⏳ à relire | `home.audiences.items.0.text` | សណ្ឋាគារ ផ្ទះសំណាក់ ហាង សហគ្រាសធុនតូច និងមធ្យម។ | Hôtels, guesthouses, commerces, PME. |
 | ⏳ à relire | `home.audiences.items.1.title` | ជនបរទេស និងក្រុមហ៊ុនបរទេស | Expatriés et entreprises étrangères |
-| ⏳ à relire | `home.audiences.items.1.text` | ដែលមានមូលដ្ឋាននៅកម្ពុជា ជាមួយអ្នកទំនាក់ទំនងផ្ទាល់។ | Installés au Cambodge, avec un interlocuteur direct. |
+| ⏳ à relire | `home.audiences.items.1.text` | ដែលមានមូលដ្ឋាននៅកម្ពុជា ដោយការសន្ទនាជាភាសារបស់លោកអ្នក។ | Installés au Cambodge, avec un interlocuteur direct. |
 | ⏳ à relire | `home.audiences.items.2.title` | អតិថិជននៅបរទេស | Clients à l'étranger |
 | ⏳ à relire | `home.audiences.items.2.text` | គម្រោងតាមដានពីចម្ងាយ តាមអ៊ីមែល Telegram ឬ WhatsApp។ | Projets suivis à distance, par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `home.work.title` | ស្នាដៃ | Réalisations |
@@ -120,7 +120,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.sections.2.title` | អ្វីដែលលោកអ្នកទទួលបាន | Ce que vous obtenez |
 | ⏳ à relire | `services.items.0.sections.2.list.0` | កំណែមួយសម្រាប់សាកល្បង មុនពេលដាក់ឱ្យដំណើរការលើអ៊ីនធឺណិត។ | Une version à essayer avant la mise en ligne. |
 | ⏳ à relire | `services.items.0.sections.2.list.1` | ការពន្យល់អំពីរបៀបប្រើប្រាស់។ | Des explications pour vous en servir. |
-| ⏳ à relire | `services.items.0.sections.2.list.2` | មនុស្សតែម្នាក់សម្រាប់ទំនាក់ទំនង ពីដើមដល់ចប់។ | Un seul interlocuteur, du début à la fin. |
+| ⏳ à relire | `services.items.0.sections.2.list.2` | មនុស្សដដែលពីដើមដល់ចប់៖ អ្នកបកប្រែរបស់ខ្ញុំ និងខ្ញុំ។ | Un seul interlocuteur, du début à la fin. |
 | ⏳ à relire | `services.items.0.examples` | ឧទាហរណ៍៖ គេហទំព័ររៀនភាសាជាបីភាសា ហ្គេម Android 3D។ | Exemples : un site d'apprentissage en trois langues, des jeux Android en 3D. |
 | ⏳ à relire | `services.items.1.id` | ai | ai |
 | ⏳ à relire | `services.items.1.title` | បញ្ញាសិប្បនិម្មិត (AI) | Intelligence artificielle |
