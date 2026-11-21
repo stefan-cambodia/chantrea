@@ -30,7 +30,7 @@
     },
     "about": {
       "title": "À propos — Chantrea Systems",
-      "description": "Chantrea Systems, c'est Stefan, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques."
+      "description": "Stefan, fondateur de Chantrea Systems, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques."
     },
     "contact": {
       "title": "Contact — Chantrea Systems",
@@ -70,7 +70,7 @@
     },
     "services": {
       "title": "Ce que je fais",
-      "intro": "Quatre domaines. Une seule personne pour vous répondre."
+      "intro": "Quatre domaines. Je vous réponds moi-même."
     },
     "hms": {
       "eyebrow": "Produit",
@@ -112,7 +112,7 @@
     },
     "single": {
       "title": "Un seul interlocuteur",
-      "text": "Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail.",
+      "text": "Je suis Stefan, fondateur de Chantrea Systems. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail.",
       "points": [
         "Vous savez toujours qui fait quoi.",
         "Des explications simples, sans jargon.",
@@ -166,7 +166,7 @@
   },
   "services": {
     "title": "Services",
-    "lead": "Quatre domaines, une seule personne. Sur place à Kampot, à distance partout ailleurs.",
+    "lead": "Quatre domaines. Sur place à Kampot, à distance partout ailleurs.",
     "more": "En savoir plus",
     "back": "Tous les services",
     "items": [
@@ -633,7 +633,7 @@
   },
   "about": {
     "title": "À propos",
-    "lead": "Chantrea Systems, c'est une personne : moi, Stefan. Je suis installé à Kampot, au Cambodge.",
+    "lead": "Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge.",
     "sections": [
       {
         "title": "Pourquoi « Chantrea »",

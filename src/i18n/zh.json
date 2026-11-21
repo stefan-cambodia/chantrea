@@ -30,7 +30,7 @@
     },
     "about": {
       "title": "关于 — Chantrea Systems",
-      "description": "Chantrea Systems 就是 Stefan，在柬埔寨贡布。您的 IT 项目，只需对接一个人。"
+      "description": "Stefan，Chantrea Systems 的创办人，在柬埔寨贡布。您的 IT 项目，只需对接一个人。"
     },
     "contact": {
       "title": "联系 — Chantrea Systems",
@@ -70,7 +70,7 @@
     },
     "services": {
       "title": "我做什么",
-      "intro": "四个领域。由同一个人回复您。"
+      "intro": "四个领域。我会亲自回复您。"
     },
     "hms": {
       "eyebrow": "产品",
@@ -112,7 +112,7 @@
     },
     "single": {
       "title": "只需对接一个人",
-      "text": "Chantrea Systems 就是我：Stefan。没有总机，没有中间人。听您讲需求的人，就是做事的人。",
+      "text": "我是 Stefan，Chantrea Systems 的创办人。没有总机，没有中间人。听您讲需求的人，就是做事的人。",
       "points": [
         "您始终清楚谁在做什么。",
         "解释简单，不说行话。",
@@ -166,7 +166,7 @@
   },
   "services": {
     "title": "服务",
-    "lead": "四个领域，一个人负责。在贡布上门服务，其他地方远程服务。",
+    "lead": "四个领域。在贡布上门服务，其他地方远程服务。",
     "more": "了解更多",
     "back": "全部服务",
     "items": [
@@ -633,7 +633,7 @@
   },
   "about": {
     "title": "关于",
-    "lead": "Chantrea Systems 是一个人：我，Stefan。我住在柬埔寨贡布。",
+    "lead": "我是 Stefan，Chantrea Systems 的创办人，住在柬埔寨贡布。",
     "sections": [
       {
         "title": "为什么叫「Chantrea」",

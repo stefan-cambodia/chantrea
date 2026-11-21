@@ -17,7 +17,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.chooser.title` | Chantrea Systems | Chantrea Systems |
 | ⏳ à relire | `meta.chooser.description` | សេវាកម្មព័ត៌មានវិទ្យានៅកំពត កម្ពុជា។ សូមជ្រើសរើសភាសារបស់លោកអ្នក។ | Services informatiques à Kampot, Cambodge. Choisissez votre langue. |
 | ⏳ à relire | `meta.services.title` | សេវាកម្ម — Chantrea Systems | Services — Chantrea Systems |
-| ⏳ à relire | `meta.services.description` | ការអភិវឌ្ឍគេហទំព័រ និង Android បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ Windows និង Linux សុវត្ថិភាពព័ត៌មានវិទ្យា។ នៅកំពត ឬពីចម្ងាយ ជាមួយអ្នកបកប្រែជាភាសារបស់លោកអ្នក។ | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
+| ⏳ à relire | `meta.services.description` | ការអភិវឌ្ឍគេហទំព័រ និង Android បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ Windows និង Linux សុវត្ថិភាពព័ត៌មានវិទ្យា។ នៅកំពត ឬពីចម្ងាយ ជាភាសារបស់លោកអ្នក។ | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
 | ⏳ à relire | `meta.hms.title` | HMS កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ — Chantrea Systems | HMS, logiciel de gestion hôtelière — Chantrea Systems |
 | ⏳ à relire | `meta.hms.description` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន និងរបាយការណ៍ ក្នុងកម្មវិធីតែមួយ។ សម្រាប់សណ្ឋាគារ និងផ្ទះសំណាក់ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
 | ⏳ à relire | `meta.rally.title` | Cambodia Rally ការប្រណាំង 3D ជុំវិញអង្គរ — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
@@ -27,7 +27,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.work.title` | ស្នាដៃ — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | កម្មវិធីសណ្ឋាគារ គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម Android 3D ឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ គម្រោងពិតៗ ដែលពិពណ៌នាតាមស្ថានភាពពិត។ | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | អំពីខ្ញុំ — Chantrea Systems | À propos — Chantrea Systems |
-| ⏳ à relire | `meta.about.description` | Chantrea Systems គឺ Stefan នៅកំពត កម្ពុជា។ គម្រោងព័ត៌មានវិទ្យារបស់លោកអ្នក ពិភាក្សាជាភាសារបស់លោកអ្នក។ | Chantrea Systems, c'est Stefan, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques. |
+| ⏳ à relire | `meta.about.description` | Stefan ស្ថាបនិកនៃ Chantrea Systems នៅកំពត កម្ពុជា។ គម្រោងព័ត៌មានវិទ្យារបស់លោកអ្នក ពិភាក្សាជាភាសារបស់លោកអ្នក។ | Stefan, fondateur de Chantrea Systems, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques. |
 | ⏳ à relire | `meta.contact.title` | ទំនាក់ទំនង — Chantrea Systems | Contact — Chantrea Systems |
 | ⏳ à relire | `meta.contact.description` | សរសេរមក Chantrea Systems តាមអ៊ីមែល Telegram ឬ WhatsApp។ កំពត កម្ពុជា។ | Écrivez à Chantrea Systems par e-mail, Telegram ou WhatsApp. Kampot, Cambodge. |
 | ⏳ à relire | `meta.notFound.title` | រកមិនឃើញទំព័រ — Chantrea Systems | Page introuvable — Chantrea Systems |
@@ -49,11 +49,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.contact` | ទំនាក់ទំនង | Contact |
 | ⏳ à relire | `home.hero.eyebrow` | សេវាកម្មព័ត៌មានវិទ្យា · កំពត កម្ពុជា | Services informatiques · Kampot, Cambodge |
 | ⏳ à relire | `home.hero.title` | ឧបករណ៍ព័ត៌មានវិទ្យាច្បាស់លាស់ សម្រាប់អាជីវកម្មរបស់លោកអ្នក។ | Des outils informatiques clairs, pour votre entreprise. |
-| ⏳ à relire | `home.hero.lead` | គេហទំព័រ កម្មវិធី បញ្ញាសិប្បនិម្មិត ម៉ាស៊ីនមេ (server)។ ខ្ញុំរចនា ដំឡើង និងថែទាំ។ លោកអ្នកនិយាយជាមួយអ្នកបកប្រែរបស់ខ្ញុំ ជាភាសារបស់លោកអ្នក ហើយខ្ញុំក៏ចូលរួមក្នុងការសន្ទនាដែរ។ | Sites web, applications, intelligence artificielle, serveurs. Je conçois, j'installe et j'entretiens. Vous parlez toujours à la même personne. |
+| ⏳ à relire | `home.hero.lead` | គេហទំព័រ កម្មវិធី បញ្ញាសិប្បនិម្មិត ម៉ាស៊ីនមេ (server)។ ខ្ញុំរចនា ដំឡើង និងថែទាំ។ លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ ជាភាសារបស់លោកអ្នក។ | Sites web, applications, intelligence artificielle, serveurs. Je conçois, j'installe et j'entretiens. Vous parlez toujours à la même personne. |
 | ⏳ à relire | `home.hero.ctaPrimary` | ពិភាក្សាអំពីគម្រោងរបស់លោកអ្នក | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | មើលសេវាកម្ម | Voir les services |
 | ⏳ à relire | `home.services.title` | អ្វីដែលខ្ញុំធ្វើ | Ce que je fais |
-| ⏳ à relire | `home.services.intro` | បួនផ្នែក។ មនុស្សតែម្នាក់ជាអ្នកធ្វើការងារ។ | Quatre domaines. Une seule personne pour vous répondre. |
+| ⏳ à relire | `home.services.intro` | បួនផ្នែក។ ខ្ញុំឆ្លើយតបលោកអ្នកដោយខ្លួនឯង។ | Quatre domaines. Je vous réponds moi-même. |
 | ⏳ à relire | `home.hms.eyebrow` | ផលិតផល | Produit |
 | ⏳ à relire | `home.hms.title` | HMS កម្មវិធីគ្រប់គ្រងសណ្ឋាគាររបស់លោកអ្នក | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន៖ ទាំងអស់នៅកន្លែងតែមួយ។ ប្រើលើកុំព្យូទ័រ ថេប្លេត ឬទូរស័ព្ទ។ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -80,8 +80,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.angkor.points.2` | អង្គរវត្ត និងប្រាសាទភ្នំប្រាំបី សាងសង់តាមប្លង់របស់វា | Angkor Wat et huit temples-montagnes construits d'après leurs plans |
 | ⏳ à relire | `home.angkor.points.3` | 80 រូបភាពក្នុងមួយវិនាទី លើទូរស័ព្ទ Android កម្រិតមធ្យម | 80 images par seconde sur un téléphone Android de milieu de gamme |
 | ⏳ à relire | `home.angkor.cta` | ស្វែងយល់ពី Angkor World Engine | Découvrir Angkor World Engine |
-| ⏳ à relire | `home.single.title` | មនុស្សតែម្នាក់ធ្វើការងារ | Un seul interlocuteur |
-| ⏳ à relire | `home.single.text` | Chantrea Systems គឺខ្ញុំ៖ Stefan។ គ្មានអ្នកទទួលទូរស័ព្ទ។ លោកអ្នកនិយាយជាមួយអ្នកបកប្រែរបស់ខ្ញុំ ជាភាសារបស់លោកអ្នក ហើយខ្ញុំក៏ចូលរួមក្នុងការសន្ទនាដែរ៖ ខ្ញុំជាអ្នកធ្វើការងារផ្ទាល់។ | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
+| ⏳ à relire | `home.single.title` | លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ | Un seul interlocuteur |
+| ⏳ à relire | `home.single.text` | ខ្ញុំឈ្មោះ Stefan ជាស្ថាបនិកនៃ Chantrea Systems។ គ្មានអ្នកទទួលទូរស័ព្ទ គ្មានអ្នកកណ្ដាល។ មនុស្សដែលស្តាប់លោកអ្នក គឺជាមនុស្សដែលធ្វើការងារ។ | Je suis Stefan, fondateur de Chantrea Systems. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | លោកអ្នកតែងតែដឹងថា នរណាធ្វើអ្វី។ | Vous savez toujours qui fait quoi. |
 | ⏳ à relire | `home.single.points.1` | ការពន្យល់សាមញ្ញ គ្មានពាក្យបច្ចេកទេសពិបាកយល់។ | Des explications simples, sans jargon. |
 | ⏳ à relire | `home.single.points.2` | នៅនឹងកន្លែងនៅកំពត។ ពីចម្ងាយសម្រាប់កន្លែងផ្សេងទៀត។ | Sur place à Kampot. À distance partout ailleurs. |
@@ -106,7 +106,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | កម្មវិធីសណ្ឋាគារ គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម Android និងឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ | Un logiciel hôtelier, un site pour apprendre le khmer, des jeux Android, des instruments de musique dans le navigateur. |
 | ⏳ à relire | `home.work.cta` | មើលស្នាដៃ | Voir les réalisations |
 | ⏳ à relire | `services.title` | សេវាកម្ម | Services |
-| ⏳ à relire | `services.lead` | បួនផ្នែក មនុស្សតែម្នាក់។ នៅនឹងកន្លែងនៅកំពត ពីចម្ងាយសម្រាប់កន្លែងផ្សេងទៀត។ | Quatre domaines, une seule personne. Sur place à Kampot, à distance partout ailleurs. |
+| ⏳ à relire | `services.lead` | បួនផ្នែក។ នៅនឹងកន្លែងនៅកំពត ពីចម្ងាយសម្រាប់កន្លែងផ្សេងទៀត។ | Quatre domaines. Sur place à Kampot, à distance partout ailleurs. |
 | ⏳ à relire | `services.more` | ស្វែងយល់បន្ថែម | En savoir plus |
 | ⏳ à relire | `services.back` | សេវាកម្មទាំងអស់ | Tous les services |
 | ⏳ à relire | `services.items.0.id` | development | development |
@@ -120,7 +120,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.sections.2.title` | អ្វីដែលលោកអ្នកទទួលបាន | Ce que vous obtenez |
 | ⏳ à relire | `services.items.0.sections.2.list.0` | កំណែមួយសម្រាប់សាកល្បង មុនពេលដាក់ឱ្យដំណើរការលើអ៊ីនធឺណិត។ | Une version à essayer avant la mise en ligne. |
 | ⏳ à relire | `services.items.0.sections.2.list.1` | ការពន្យល់អំពីរបៀបប្រើប្រាស់។ | Des explications pour vous en servir. |
-| ⏳ à relire | `services.items.0.sections.2.list.2` | មនុស្សដដែលពីដើមដល់ចប់៖ អ្នកបកប្រែរបស់ខ្ញុំ និងខ្ញុំ។ | Un seul interlocuteur, du début à la fin. |
+| ⏳ à relire | `services.items.0.sections.2.list.2` | លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ ពីដើមដល់ចប់។ | Un seul interlocuteur, du début à la fin. |
 | ⏳ à relire | `services.items.0.examples` | ឧទាហរណ៍៖ គេហទំព័ររៀនភាសាជាបីភាសា ហ្គេម Android 3D។ | Exemples : un site d'apprentissage en trois langues, des jeux Android en 3D. |
 | ⏳ à relire | `services.items.1.id` | ai | ai |
 | ⏳ à relire | `services.items.1.title` | បញ្ញាសិប្បនិម្មិត (AI) | Intelligence artificielle |
@@ -371,7 +371,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.games.list.7` | Acpc៖ កម្មវិធីត្រាប់តាម (emulator) កុំព្យូទ័រ Amstrad CPC | Acpc : émulateur d'ordinateurs Amstrad CPC |
 | ⏳ à relire | `work.items.games.link` | មើលបញ្ជីស្នាដៃ (portfolio) | Voir le portfolio |
 | ⏳ à relire | `about.title` | អំពីខ្ញុំ | À propos |
-| ⏳ à relire | `about.lead` | Chantrea Systems គឺជាមនុស្សម្នាក់៖ ខ្ញុំ Stefan។ ខ្ញុំរស់នៅកំពត កម្ពុជា។ | Chantrea Systems, c'est une personne : moi, Stefan. Je suis installé à Kampot, au Cambodge. |
+| ⏳ à relire | `about.lead` | ខ្ញុំឈ្មោះ Stefan ជាស្ថាបនិកនៃ Chantrea Systems។ ខ្ញុំរស់នៅកំពត កម្ពុជា។ | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | ហេតុអ្វីបានជាឈ្មោះ «Chantrea» | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea (ចន្ទ្រា) មានន័យថា «ពន្លឺព្រះចន្ទ» ជាភាសាខ្មែរ។ ពន្លឺដ៏ស្ងប់ ដែលបំភ្លឺដោយមិនចាំងភ្នែក។ នោះហើយជាអ្វីដែលខ្ញុំចង់នាំមកឱ្យឧបករណ៍របស់លោកអ្នក។ | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
 | ⏳ à relire | `about.sections.1.title` | លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ | Un seul interlocuteur |
@@ -428,7 +428,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.work.title` | Проекты — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | Программа для отелей, сайт для изучения кхмерского, 3D-игры для Android, музыкальные инструменты в браузере. Реальные проекты, описанные такими, какие они есть. | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | Обо мне — Chantrea Systems | À propos — Chantrea Systems |
-| ⏳ à relire | `meta.about.description` | Chantrea Systems — это Стефан, Кампот, Камбоджа. Один человек на связи по всем вашим IT-проектам. | Chantrea Systems, c'est Stefan, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques. |
+| ⏳ à relire | `meta.about.description` | Стефан, основатель Chantrea Systems, Кампот, Камбоджа. Один человек на связи по всем вашим IT-проектам. | Stefan, fondateur de Chantrea Systems, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques. |
 | ⏳ à relire | `meta.contact.title` | Контакты — Chantrea Systems | Contact — Chantrea Systems |
 | ⏳ à relire | `meta.contact.description` | Напишите в Chantrea Systems по электронной почте, в Telegram или WhatsApp. Кампот, Камбоджа. | Écrivez à Chantrea Systems par e-mail, Telegram ou WhatsApp. Kampot, Cambodge. |
 | ⏳ à relire | `meta.notFound.title` | Страница не найдена — Chantrea Systems | Page introuvable — Chantrea Systems |
@@ -454,7 +454,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.hero.ctaPrimary` | Обсудить ваш проект | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | Посмотреть услуги | Voir les services |
 | ⏳ à relire | `home.services.title` | Чем я занимаюсь | Ce que je fais |
-| ⏳ à relire | `home.services.intro` | Четыре направления. Один человек, который вам отвечает. | Quatre domaines. Une seule personne pour vous répondre. |
+| ⏳ à relire | `home.services.intro` | Четыре направления. Я отвечаю сам. | Quatre domaines. Je vous réponds moi-même. |
 | ⏳ à relire | `home.hms.eyebrow` | Продукт | Produit |
 | ⏳ à relire | `home.hms.title` | HMS — программа для управления вашим отелем | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | Бронирования, ресепшен, счета, уборка, ресторан — всё в одном месте. На компьютере, планшете или телефоне. На кхмерском, английском, французском, китайском и русском. | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -482,7 +482,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.angkor.points.3` | 80 кадров в секунду на телефоне Android среднего класса | 80 images par seconde sur un téléphone Android de milieu de gamme |
 | ⏳ à relire | `home.angkor.cta` | Подробнее об Angkor World Engine | Découvrir Angkor World Engine |
 | ⏳ à relire | `home.single.title` | Один человек на связи | Un seul interlocuteur |
-| ⏳ à relire | `home.single.text` | Chantrea Systems — это я, Стефан. Без колл-центра и без посредников. Вас выслушивает тот же человек, который делает работу. | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
+| ⏳ à relire | `home.single.text` | Меня зовут Стефан, я основатель Chantrea Systems. Без колл-центра и без посредников. Вас выслушивает тот же человек, который делает работу. | Je suis Stefan, fondateur de Chantrea Systems. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | Вы всегда знаете, кто что делает. | Vous savez toujours qui fait quoi. |
 | ⏳ à relire | `home.single.points.1` | Простые объяснения, без жаргона. | Des explications simples, sans jargon. |
 | ⏳ à relire | `home.single.points.2` | На месте в Кампоте. Удалённо — везде. | Sur place à Kampot. À distance partout ailleurs. |
@@ -507,7 +507,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | Программа для отелей, сайт для изучения кхмерского, игры для Android, музыкальные инструменты в браузере. | Un logiciel hôtelier, un site pour apprendre le khmer, des jeux Android, des instruments de musique dans le navigateur. |
 | ⏳ à relire | `home.work.cta` | Посмотреть проекты | Voir les réalisations |
 | ⏳ à relire | `services.title` | Услуги | Services |
-| ⏳ à relire | `services.lead` | Четыре направления, один человек. На месте в Кампоте, удалённо — везде. | Quatre domaines, une seule personne. Sur place à Kampot, à distance partout ailleurs. |
+| ⏳ à relire | `services.lead` | Четыре направления. На месте в Кампоте, удалённо — везде. | Quatre domaines. Sur place à Kampot, à distance partout ailleurs. |
 | ⏳ à relire | `services.more` | Подробнее | En savoir plus |
 | ⏳ à relire | `services.back` | Все услуги | Tous les services |
 | ⏳ à relire | `services.items.0.id` | development | development |
@@ -772,7 +772,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.games.list.7` | Acpc: эмулятор компьютеров Amstrad CPC | Acpc : émulateur d'ordinateurs Amstrad CPC |
 | ⏳ à relire | `work.items.games.link` | Посмотреть портфолио | Voir le portfolio |
 | ⏳ à relire | `about.title` | Обо мне | À propos |
-| ⏳ à relire | `about.lead` | Chantrea Systems — это один человек: я, Стефан. Я живу в Кампоте, Камбоджа. | Chantrea Systems, c'est une personne : moi, Stefan. Je suis installé à Kampot, au Cambodge. |
+| ⏳ à relire | `about.lead` | Меня зовут Стефан, я основатель Chantrea Systems. Я живу в Кампоте, Камбоджа. | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | Почему «Chantrea» | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea по-кхмерски значит «лунный свет». Спокойный свет, который освещает, но не слепит. Именно это я хочу привнести в ваши инструменты. | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
 | ⏳ à relire | `about.sections.1.title` | Вы общаетесь напрямую со мной | Un seul interlocuteur |
@@ -828,7 +828,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.work.title` | 项目案例 — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | 酒店管理软件、高棉语学习网站、Android 3D 游戏、在浏览器里运行的乐器。都是真实项目，如实介绍。 | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | 关于 — Chantrea Systems | À propos — Chantrea Systems |
-| ⏳ à relire | `meta.about.description` | Chantrea Systems 就是 Stefan，在柬埔寨贡布。您的 IT 项目，只需对接一个人。 | Chantrea Systems, c'est Stefan, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques. |
+| ⏳ à relire | `meta.about.description` | Stefan，Chantrea Systems 的创办人，在柬埔寨贡布。您的 IT 项目，只需对接一个人。 | Stefan, fondateur de Chantrea Systems, à Kampot, au Cambodge. Un seul interlocuteur pour vos projets informatiques. |
 | ⏳ à relire | `meta.contact.title` | 联系 — Chantrea Systems | Contact — Chantrea Systems |
 | ⏳ à relire | `meta.contact.description` | 通过电子邮件、Telegram 或 WhatsApp 联系 Chantrea Systems。柬埔寨贡布。 | Écrivez à Chantrea Systems par e-mail, Telegram ou WhatsApp. Kampot, Cambodge. |
 | ⏳ à relire | `meta.notFound.title` | 页面不存在 — Chantrea Systems | Page introuvable — Chantrea Systems |
@@ -854,7 +854,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.hero.ctaPrimary` | 聊聊您的项目 | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | 查看服务 | Voir les services |
 | ⏳ à relire | `home.services.title` | 我做什么 | Ce que je fais |
-| ⏳ à relire | `home.services.intro` | 四个领域。由同一个人回复您。 | Quatre domaines. Une seule personne pour vous répondre. |
+| ⏳ à relire | `home.services.intro` | 四个领域。我会亲自回复您。 | Quatre domaines. Je vous réponds moi-même. |
 | ⏳ à relire | `home.hms.eyebrow` | 产品 | Produit |
 | ⏳ à relire | `home.hms.title` | HMS，您的酒店管理软件 | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | 预订、前台、账单、客房清洁、餐厅：全部集中在一处。电脑、平板、手机都能用。支持高棉语、英语、法语、中文和俄语。 | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -882,7 +882,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.angkor.points.3` | 在中端 Android 手机上每秒 80 帧 | 80 images par seconde sur un téléphone Android de milieu de gamme |
 | ⏳ à relire | `home.angkor.cta` | 了解 Angkor World Engine | Découvrir Angkor World Engine |
 | ⏳ à relire | `home.single.title` | 只需对接一个人 | Un seul interlocuteur |
-| ⏳ à relire | `home.single.text` | Chantrea Systems 就是我：Stefan。没有总机，没有中间人。听您讲需求的人，就是做事的人。 | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
+| ⏳ à relire | `home.single.text` | 我是 Stefan，Chantrea Systems 的创办人。没有总机，没有中间人。听您讲需求的人，就是做事的人。 | Je suis Stefan, fondateur de Chantrea Systems. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | 您始终清楚谁在做什么。 | Vous savez toujours qui fait quoi. |
 | ⏳ à relire | `home.single.points.1` | 解释简单，不说行话。 | Des explications simples, sans jargon. |
 | ⏳ à relire | `home.single.points.2` | 在贡布上门服务，其他地方远程服务。 | Sur place à Kampot. À distance partout ailleurs. |
@@ -907,7 +907,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | 一个酒店管理软件，一个高棉语学习网站，几款 Android 游戏，几款在浏览器里运行的乐器。 | Un logiciel hôtelier, un site pour apprendre le khmer, des jeux Android, des instruments de musique dans le navigateur. |
 | ⏳ à relire | `home.work.cta` | 查看项目案例 | Voir les réalisations |
 | ⏳ à relire | `services.title` | 服务 | Services |
-| ⏳ à relire | `services.lead` | 四个领域，一个人负责。在贡布上门服务，其他地方远程服务。 | Quatre domaines, une seule personne. Sur place à Kampot, à distance partout ailleurs. |
+| ⏳ à relire | `services.lead` | 四个领域。在贡布上门服务，其他地方远程服务。 | Quatre domaines. Sur place à Kampot, à distance partout ailleurs. |
 | ⏳ à relire | `services.more` | 了解更多 | En savoir plus |
 | ⏳ à relire | `services.back` | 全部服务 | Tous les services |
 | ⏳ à relire | `services.items.0.id` | development | development |
@@ -1172,7 +1172,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.games.list.7` | Acpc：Amstrad CPC 电脑模拟器 | Acpc : émulateur d'ordinateurs Amstrad CPC |
 | ⏳ à relire | `work.items.games.link` | 查看作品集 | Voir le portfolio |
 | ⏳ à relire | `about.title` | 关于 | À propos |
-| ⏳ à relire | `about.lead` | Chantrea Systems 是一个人：我，Stefan。我住在柬埔寨贡布。 | Chantrea Systems, c'est une personne : moi, Stefan. Je suis installé à Kampot, au Cambodge. |
+| ⏳ à relire | `about.lead` | 我是 Stefan，Chantrea Systems 的创办人，住在柬埔寨贡布。 | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | 为什么叫「Chantrea」 | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea 在高棉语里是「月光」的意思。一种平静的光，照亮四周，却不刺眼。这正是我想为您的工具带来的。 | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
 | ⏳ à relire | `about.sections.1.title` | 您直接与我沟通 | Un seul interlocuteur |
