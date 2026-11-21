@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 330 textes relus.
+0 / 394 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -22,6 +22,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.hms.description` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន និងរបាយការណ៍ ក្នុងកម្មវិធីតែមួយ។ សម្រាប់សណ្ឋាគារ និងផ្ទះសំណាក់ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
 | ⏳ à relire | `meta.rally.title` | Cambodia Rally ការប្រណាំង 3D ជុំវិញអង្គរ — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
 | ⏳ à relire | `meta.rally.description` | ហ្គេមប្រណាំង 3D សម្រាប់ Android លើផ្លូវពិតៗជុំវិញប្រាសាទអង្គរ។ អ្នកលេងពី 2 ដល់ 8 នាក់ នៅលើ Wi-Fi តែមួយ ដោយមិនត្រូវការអ៊ីនធឺណិត។ យានយន្ត 8 ផ្លូវប្រណាំង 2 និង 7 ភាសា។ | Un jeu de course en 3D pour Android, sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits, 7 langues. |
+| ⏳ à relire | `meta.angkor.title` | Angkor World Engine តំបន់អង្គរជា 3D — Chantrea Systems | Angkor World Engine, la région d'Angkor en 3D — Chantrea Systems |
+| ⏳ à relire | `meta.angkor.description` | តំបន់អង្គរ និងសៀមរាប ដែលបានបង្កើតឡើងវិញជា 3D តាមទំហំពិត 37 × 45 គីឡូម៉ែត្រ ពីទិន្នន័យភូមិសាស្ត្របើកចំហ។ អាចហោះពីលើ ឬបើកបរនៅក្នុងនោះ លើកុំព្យូទ័រ និងទូរស័ព្ទ Android។ | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, 37 × 45 km, à partir de données géographiques ouvertes. On la survole ou on y conduit, sur ordinateur et sur téléphone Android. |
 | ⏳ à relire | `meta.work.title` | ស្នាដៃ — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | កម្មវិធីសណ្ឋាគារ គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម Android 3D ឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ គម្រោងពិតៗ ដែលពិពណ៌នាតាមស្ថានភាពពិត។ | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | អំពីខ្ញុំ — Chantrea Systems | À propos — Chantrea Systems |
@@ -41,6 +43,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.services` | សេវាកម្ម | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
+| ⏳ à relire | `nav.angkor` | អង្គរ 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | ស្នាដៃ | Réalisations |
 | ⏳ à relire | `nav.about` | អំពីខ្ញុំ | À propos |
 | ⏳ à relire | `nav.contact` | ទំនាក់ទំនង | Contact |
@@ -69,6 +72,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.rally.points.2` | ប្រាសាទ ភូមិ និងវាលស្រែ ដាក់តាមផែនទី | Temples, villages et rizières placés d'après les cartes |
 | ⏳ à relire | `home.rally.points.3` | មាន 7 ភាសា រួមទាំងភាសាខ្មែរ | En 7 langues, dont le khmer |
 | ⏳ à relire | `home.rally.cta` | ស្វែងយល់ពី Cambodia Rally | Découvrir Cambodia Rally |
+| ⏳ à relire | `home.angkor.eyebrow` | ស្នាដៃ · ពិភព 3D | Réalisation · Monde en 3D |
+| ⏳ à relire | `home.angkor.title` | Angkor World Engine តំបន់អង្គរជា 3D តាមទំហំពិត | Angkor World Engine, la région d'Angkor en 3D à l'échelle réelle |
+| ⏳ à relire | `home.angkor.text` | ផ្ទៃ 37 × 45 គីឡូម៉ែត្រ បង្កើតឡើងវិញពីផែនទី និងទិន្នន័យផ្កាយរណបបើកចំហ៖ ផ្លូវ គូទឹក ប្រាសាទ ភូមិ និងព្រៃឈើ នៅទីតាំងពិតរបស់វា។ អាចហោះពីលើ ឬបើកបរនៅក្នុងនោះ លើកុំព្យូទ័រ ឬទូរស័ព្ទ។ | 37 × 45 km reconstruits à partir de cartes et de données satellite ouvertes : routes, douves, temples, villages et forêt, chacun à sa vraie place. On la survole ou on y conduit, sur ordinateur comme sur téléphone. |
+| ⏳ à relire | `home.angkor.points.0` | គ្មានអ្វីដាក់ដោយដៃទេ៖ អ្វីៗទាំងអស់មកពីទិន្នន័យ | Rien n'est placé à la main : tout vient des données |
+| ⏳ à relire | `home.angkor.points.1` | ផ្លូវ 5 343 គីឡូម៉ែត្រ និងអគារជាង 95 000 | 5 343 km de routes et plus de 95 000 bâtiments |
+| ⏳ à relire | `home.angkor.points.2` | អង្គរវត្ត និងប្រាសាទភ្នំប្រាំបី សាងសង់តាមប្លង់របស់វា | Angkor Wat et huit temples-montagnes construits d'après leurs plans |
+| ⏳ à relire | `home.angkor.points.3` | 80 រូបភាពក្នុងមួយវិនាទី លើទូរស័ព្ទ Android កម្រិតមធ្យម | 80 images par seconde sur un téléphone Android de milieu de gamme |
+| ⏳ à relire | `home.angkor.cta` | ស្វែងយល់ពី Angkor World Engine | Découvrir Angkor World Engine |
 | ⏳ à relire | `home.single.title` | មនុស្សតែម្នាក់សម្រាប់ទំនាក់ទំនង | Un seul interlocuteur |
 | ⏳ à relire | `home.single.text` | Chantrea Systems គឺខ្ញុំ៖ Stefan។ គ្មានអ្នកទទួលទូរស័ព្ទ គ្មានអ្នកកណ្ដាល។ មនុស្សដែលស្តាប់លោកអ្នក គឺជាមនុស្សដែលធ្វើការងារ។ | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | លោកអ្នកតែងតែដឹងថា នរណាធ្វើអ្វី។ | Vous savez toujours qui fait quoi. |
@@ -258,6 +269,58 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.shows.items.2` | ផែនទីបើកចំហ ប្រែក្លាយជាពិភព 3D | Des cartes ouvertes transformées en monde en 3D |
 | ⏳ à relire | `rally.shows.items.3` | កម្មវិធីបកប្រែជា 7 ភាសា | Une application traduite en 7 langues |
 | ⏳ à relire | `rally.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
+| ⏳ à relire | `angkor.eyebrow` | ស្នាដៃ · ពិភព 3D | Réalisation · Monde en 3D |
+| ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
+| ⏳ à relire | `angkor.lead` | តំបន់អង្គរ និងសៀមរាប ដែលបានបង្កើតឡើងវិញជា 3D តាមទំហំពិត ពីទិន្នន័យភូមិសាស្ត្របើកចំហ។ មួយម៉ែត្រលើអេក្រង់ គឺមួយម៉ែត្រពិត៖ ការធ្វើដំណើរចំណាយពេលដូចពេលពិត។ អាចហោះពីលើ ឬបើកបរនៅក្នុងនោះ។ | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
+| ⏳ à relire | `angkor.status` | គំរូសាកល្បង (prototype) កំពុងអភិវឌ្ឍ | Prototype en cours de développement |
+| ⏳ à relire | `angkor.gallery.title` | រូបភាពអេក្រង់ | En images |
+| ⏳ à relire | `angkor.gallery.note` | រូបភាពពីគំរូសាកល្បង។ ដើមឈើ អគារ យានយន្ត និងប្រាសាទ នៅជាម៉ូដែលបណ្ដោះអាសន្ននៅឡើយ។ | Captures du prototype. Les arbres, les bâtiments, les véhicules et les temples sont encore des modèles provisoires. |
+| ⏳ à relire | `angkor.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
+| ⏳ à relire | `angkor.gallery.captions.aerial` | អង្គរវត្ត គូទឹក និងផ្លូវថ្មរបស់វា មើលពីលើអាកាស។ | Angkor Wat, ses douves et ses chaussées, vus du ciel. |
+| ⏳ à relire | `angkor.gallery.captions.forest` | អង្គរវត្តក្នុងព្រៃ៖ ដើមឈើមួយ សម្រាប់ចុងឈើនីមួយៗដែលផ្កាយរណបមើលឃើញ។ | Angkor Wat dans sa forêt : un arbre pour chaque cime repérée par satellite. |
+| ⏳ à relire | `angkor.gallery.captions.causeway` | លើផ្លូវថ្មខាងលិច ទល់មុខកំពូលប្រាសាទអង្គរវត្ត។ | Sur la chaussée ouest, face aux tours d'Angkor Wat. |
+| ⏳ à relire | `angkor.gallery.captions.preRup` | ប្រាសាទប្រែរូប ប្រាសាទភ្នំធ្វើពីឥដ្ឋ សាងសង់តាមប្លង់របស់វា។ | Pre Rup, temple-montagne en briques, construit d'après son plan. |
+| ⏳ à relire | `angkor.gallery.captions.baray` | បារាយណ៍ខាងលិច អាងទឹកវែង 8 គីឡូម៉ែត្រ និងជនបទជុំវិញ។ | Le Baray occidental, réservoir long de 8 km, et la campagne alentour. |
+| ⏳ à relire | `angkor.gallery.captions.siemReap` | ផ្លូវក្នុងក្រុងសៀមរាប អគារនីមួយៗនៅទីតាំងរបស់វាលើផែនទី។ | Les rues de Siem Reap, chaque bâtiment à sa place sur la carte. |
+| ⏳ à relire | `angkor.gallery.captions.motorcycle` | ជិះម៉ូតូ នៅក្រោមដើមឈើធំៗ។ | Au guidon d'une moto, sous les grands arbres. |
+| ⏳ à relire | `angkor.gallery.captions.rain` | ពេលភ្លៀង បើកភ្លើងមុខ៖ ផ្លូវសើមរអិលជាងមុន។ | Sous la pluie, phares allumés : la route mouillée accroche moins. |
+| ⏳ à relire | `angkor.gallery.captions.editor` | កម្មវិធីកែសម្រួលភូមិសាស្ត្រ៖ ពិនិត្យធាតុនីមួយៗ និងកែតម្រូវទិន្នន័យ។ | L'éditeur géographique : on inspecte chaque élément et on corrige les données. |
+| ⏳ à relire | `angkor.featuresTitle` | គម្រោង | Le projet |
+| ⏳ à relire | `angkor.groups.0.title` | ទិន្នន័យពិត | Des données réelles |
+| ⏳ à relire | `angkor.groups.0.items.0` | ផ្លូវ អគារ ទឹក និងទីតាំង យកពី OpenStreetMap | Routes, bâtiments, eau et sites tirés d'OpenStreetMap |
+| ⏳ à relire | `angkor.groups.0.items.1` | សណ្ឋានដី តាមម៉ូដែលរយៈកម្ពស់ ភាពលម្អិត 30 ម៉ែត្រ | Le relief d'après un modèle d'altitude au pas de 30 m |
+| ⏳ à relire | `angkor.groups.0.items.2` | ដើមឈើមួយ សម្រាប់ចុងឈើនីមួយៗដែលផ្កាយរណបមើលឃើញ តាមកម្ពស់របស់វា | Un arbre pour chaque cime vue par satellite, à sa hauteur |
+| ⏳ à relire | `angkor.groups.0.items.3` | វាលស្រែ តាមផែនទីផ្កាយរណប ក្នុងរដូវប្រាំង និងរដូវវស្សា | Les rizières d'après une carte satellite, en saison sèche et en saison des pluies |
+| ⏳ à relire | `angkor.groups.1.title` | តំបន់ទាំងមូល | Toute la région |
+| ⏳ à relire | `angkor.groups.1.items.0` | 37 × 45 គីឡូម៉ែត្រ ពីបារាយណ៍ខាងលិច ដល់រលួស និងមាត់បឹងទន្លេសាប | 37 × 45 km, du Baray occidental à Roluos et aux rives du Tonlé Sap |
+| ⏳ à relire | `angkor.groups.1.items.1` | ផ្លូវ 5 343 គីឡូម៉ែត្រ អគារ 95 487 និងទីតាំងបុរាណវិទ្យា 287 | 5 343 km de routes, 95 487 bâtiments, 287 sites archéologiques |
+| ⏳ à relire | `angkor.groups.1.items.2` | ពិភពផ្ទុកបន្តិចម្ដងៗតាមផ្លូវធ្វើដំណើរ ហើយទេសភាពលាតសន្ធឹងដល់ជើងមេឃ | Le monde se charge au fil du trajet, et le paysage continue jusqu'à l'horizon |
+| ⏳ à relire | `angkor.groups.1.items.3` | 80 រូបភាពក្នុងមួយវិនាទី លើទូរស័ព្ទ Android កម្រិតមធ្យម | 80 images par seconde sur un téléphone Android de milieu de gamme |
+| ⏳ à relire | `angkor.groups.2.title` | ប្រាសាទ | Les temples |
+| ⏳ à relire | `angkor.groups.2.items.0` | អង្គរវត្ត និងប្រាសាទភ្នំប្រាំបី៖ បាគង បក្សីចាំក្រុង បាពួន មេបុណ្យខាងកើត ភិមានអាកាស ភ្នំបាខែង ប្រែរូប តាកែវ | Angkor Wat et huit temples-montagnes : Bakong, Baksei Chamkrong, Baphuon, Mébon oriental, Phimeanakas, Phnom Bakheng, Pre Rup, Ta Keo |
+| ⏳ à relire | `angkor.groups.2.items.1` | រាបស្មើ ជណ្ដើរ និងកំពូល តាមប្លង់ និងវិមាត្រដែលបានបោះពុម្ពផ្សាយ | Terrasses, escaliers et tours d'après leurs plans et les dimensions publiées |
+| ⏳ à relire | `angkor.groups.2.items.2` | អ្វីដែលមិនទាន់ដឹង ត្រូវបានប៉ាន់ស្មាន ហើយសម្គាល់ថាជាការប៉ាន់ស្មាន | Ce qui n'est pas connu est estimé, et signalé comme tel |
+| ⏳ à relire | `angkor.groups.3.title` | យានយន្តប្រាំ | Cinq véhicules |
+| ⏳ à relire | `angkor.groups.3.items.0` | រថយន្ត ម៉ូតូ ម៉ូតូស្កូតទ័រ រ៉ឺម៉កកង់បី (auto-rickshaw) និងរ៉ឺម៉ក | Voiture, moto, scooter, auto-rickshaw et remorque |
+| ⏳ à relire | `angkor.groups.3.items.1` | នីមួយៗមានរូបវិទ្យាផ្ទាល់ខ្លួន កំណត់តាមតួលេខនៃម៉ូដែលពិត | Chacun a sa propre physique, réglée sur les chiffres d'un vrai modèle |
+| ⏳ à relire | `angkor.groups.3.items.2` | ក្ដារចុច ដៃបញ្ជា អេក្រង់ប៉ះ ឬការផ្អៀងទូរស័ព្ទ | Clavier, manette, écran tactile ou inclinaison du téléphone |
+| ⏳ à relire | `angkor.groups.3.items.3` | មើលពីក្រោយ មើលជិត មើលពីកន្លែងអ្នកបើកបរ ឬមើលបែបភាពយន្ត | Vue de poursuite, rapprochée, du conducteur ou cinéma |
+| ⏳ à relire | `angkor.groups.4.title` | អាកាសធាតុ និងពេលយប់ | Météo et nuit |
+| ⏳ à relire | `angkor.groups.4.items.0` | មេឃស្រឡះ មេឃស្រទំ ឬភ្លៀង ហើយផ្លូវសើមរអិលជាងមុន | Ciel clair, couvert ou pluie, avec une route mouillée qui accroche moins |
+| ⏳ à relire | `angkor.groups.4.items.1` | ពពក និងស្រមោលរបស់វា | Des nuages et leurs ombres |
+| ⏳ à relire | `angkor.groups.4.items.2` | ពេលយប់៖ ភ្លើងមុខ ភ្លើងក្រោយ និងភ្លើងបំភ្លឺផ្លូវ | La nuit : phares, feux arrière et éclairage public |
+| ⏳ à relire | `angkor.groups.5.title` | កម្មវិធីកែសម្រួល | Un éditeur |
+| ⏳ à relire | `angkor.groups.5.items.0` | ដើម្បីពិនិត្យផ្លូវ អគារ និងទីតាំងនីមួយៗ | Pour inspecter chaque route, bâtiment et site |
+| ⏳ à relire | `angkor.groups.5.items.1` | ដើម្បីកែតម្រូវទិន្នន័យ៖ ទទឹង ឬផ្ទៃផ្លូវ កម្ពស់អគារ ទីតាំងនៃកន្លែងមួយ | Pour corriger les données : largeur ou revêtement d'une route, hauteur d'un bâtiment, position d'un site |
+| ⏳ à relire | `angkor.groups.5.items.2` | ការកែតម្រូវ ត្រូវបានបញ្ចូលទៅក្នុងពិភពក្នុងរយៈពេលប៉ុន្មានវិនាទី | Les corrections sont intégrées au monde en quelques secondes |
+| ⏳ à relire | `angkor.shows.title` | អ្វីដែលគម្រោងនេះបង្ហាញ | Ce que ce projet montre |
+| ⏳ à relire | `angkor.shows.text` | គំរូសាកល្បងនេះជាភស្តុតាងនៃជំនាញ។ ជំនាញដដែលនេះ ប្រើសម្រាប់ផែនទីអន្តរកម្ម ដំណើរទស្សនកិច្ចនិម្មិត ឬកម្មវិធីដែលធ្វើតាមតម្រូវការផងដែរ។ | Ce prototype est une preuve de compétence. Les mêmes savoir-faire servent pour une carte interactive, une visite virtuelle ou une application sur mesure. |
+| ⏳ à relire | `angkor.shows.items.0` | ទិន្នន័យភូមិសាស្ត្របើកចំហ ប្រែក្លាយជាពិភព 3D | Des données géographiques ouvertes transformées en monde en 3D |
+| ⏳ à relire | `angkor.shows.items.1` | ពិភពធំណាស់ ដែលដំណើរការបានល្អលើទូរស័ព្ទ Android | Un très grand monde qui tourne bien sur un téléphone Android |
+| ⏳ à relire | `angkor.shows.items.2` | ឧបករណ៍សម្រាប់ពិនិត្យ និងកែតម្រូវទិន្នន័យ | Un outil pour vérifier et corriger des données |
+| ⏳ à relire | `angkor.shows.items.3` | ប្រភពនៃទិន្នន័យនីមួយៗត្រូវបានបញ្ជាក់ ហើយអ្វីដែលប៉ាន់ស្មានត្រូវបានសម្គាល់ | La source de chaque donnée indiquée, et ce qui est estimé signalé |
+| ⏳ à relire | `angkor.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
+| ⏳ à relire | `angkor.credits` | ទិន្នន័យ៖ © OpenStreetMap contributors (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) | Données : © contributeurs OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) |
 | ⏳ à relire | `work.title` | ស្នាដៃ | Réalisations |
 | ⏳ à relire | `work.lead` | គម្រោងពិតៗ ដែលពិពណ៌នាតាមស្ថានភាពបច្ចុប្បន្ន។ | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | ស្ថានភាព | État |
@@ -285,6 +348,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.angkor.status` | គំរូសាកល្បង (prototype) | Prototype |
 | ⏳ à relire | `work.items.angkor.text` | តំបន់អង្គរ និងសៀមរាប ដែលបានបង្កើតឡើងវិញជា 3D តាមទំហំពិត ប្រហែល 37 × 45 គីឡូម៉ែត្រ ពីផែនទីបើកចំហ។ អាចហោះពីលើ ឬបើកបរនៅក្នុងនោះបាន។ | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, environ 37 × 45 km, à partir de cartes ouvertes. On peut la survoler ou y conduire. |
 | ⏳ à relire | `work.items.angkor.shows` | បង្ហាញ៖ ការដំណើរការទិន្នន័យផែនទី 3D និងប្រសិទ្ធភាពលើទូរស័ព្ទ។ | Montre : traitement de cartes, 3D, performance sur téléphone. |
+| ⏳ à relire | `work.items.angkor.link` | ស្វែងយល់ពី Angkor World Engine | Découvrir Angkor World Engine |
 | ⏳ à relire | `work.items.synth.title` | Synth Rack | Synth Rack |
 | ⏳ à relire | `work.items.synth.kind` | ឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser) | Instruments de musique dans le navigateur |
 | ⏳ à relire | `work.items.synth.status` | ការបង្ហាញសាកល្បងលើអ៊ីនធឺណិត | Démo en ligne |
@@ -345,7 +409,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 329 textes relus.
+0 / 393 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -359,6 +423,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.hms.description` | Бронирования, ресепшен, счета, уборка, ресторан и отчёты в одной программе. Для отелей и гестхаусов, на кхмерском, английском, французском, китайском и русском. | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
 | ⏳ à relire | `meta.rally.title` | Cambodia Rally, 3D-гонка вокруг Ангкора — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
 | ⏳ à relire | `meta.rally.description` | Гоночная 3D-игра для Android по настоящим дорогам вокруг храмов Ангкора. От 2 до 8 игроков в одной сети Wi-Fi, без интернета. 8 машин, 2 трассы, 7 языков. | Un jeu de course en 3D pour Android, sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits, 7 langues. |
+| ⏳ à relire | `meta.angkor.title` | Angkor World Engine, район Ангкора в 3D — Chantrea Systems | Angkor World Engine, la région d'Angkor en 3D — Chantrea Systems |
+| ⏳ à relire | `meta.angkor.description` | Район Ангкора и Сиемреапа, воссозданный в 3D в реальном масштабе, 37 × 45 км, по открытым географическим данным. Над ним можно летать или ездить по нему, на компьютере и на телефоне Android. | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, 37 × 45 km, à partir de données géographiques ouvertes. On la survole ou on y conduit, sur ordinateur et sur téléphone Android. |
 | ⏳ à relire | `meta.work.title` | Проекты — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | Программа для отелей, сайт для изучения кхмерского, 3D-игры для Android, музыкальные инструменты в браузере. Реальные проекты, описанные такими, какие они есть. | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | Обо мне — Chantrea Systems | À propos — Chantrea Systems |
@@ -378,6 +444,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.services` | Услуги | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
+| ⏳ à relire | `nav.angkor` | Ангкор 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | Проекты | Réalisations |
 | ⏳ à relire | `nav.about` | Обо мне | À propos |
 | ⏳ à relire | `nav.contact` | Контакты | Contact |
@@ -406,6 +473,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.rally.points.2` | Храмы, деревни и рисовые поля расставлены по картам | Temples, villages et rizières placés d'après les cartes |
 | ⏳ à relire | `home.rally.points.3` | 7 языков, в том числе кхмерский | En 7 langues, dont le khmer |
 | ⏳ à relire | `home.rally.cta` | Подробнее о Cambodia Rally | Découvrir Cambodia Rally |
+| ⏳ à relire | `home.angkor.eyebrow` | Проект · 3D-мир | Réalisation · Monde en 3D |
+| ⏳ à relire | `home.angkor.title` | Angkor World Engine, район Ангкора в 3D в реальном масштабе | Angkor World Engine, la région d'Angkor en 3D à l'échelle réelle |
+| ⏳ à relire | `home.angkor.text` | 37 × 45 км, воссозданные по открытым картам и спутниковым данным: дороги, рвы, храмы, деревни и лес, каждый на своём настоящем месте. Над ним можно летать или ездить по нему, на компьютере или на телефоне. | 37 × 45 km reconstruits à partir de cartes et de données satellite ouvertes : routes, douves, temples, villages et forêt, chacun à sa vraie place. On la survole ou on y conduit, sur ordinateur comme sur téléphone. |
+| ⏳ à relire | `home.angkor.points.0` | Ничего не расставлено вручную: всё берётся из данных | Rien n'est placé à la main : tout vient des données |
+| ⏳ à relire | `home.angkor.points.1` | 5 343 км дорог и более 95 000 зданий | 5 343 km de routes et plus de 95 000 bâtiments |
+| ⏳ à relire | `home.angkor.points.2` | Ангкор-Ват и восемь храмов-гор, построенные по их планам | Angkor Wat et huit temples-montagnes construits d'après leurs plans |
+| ⏳ à relire | `home.angkor.points.3` | 80 кадров в секунду на телефоне Android среднего класса | 80 images par seconde sur un téléphone Android de milieu de gamme |
+| ⏳ à relire | `home.angkor.cta` | Подробнее об Angkor World Engine | Découvrir Angkor World Engine |
 | ⏳ à relire | `home.single.title` | Один человек на связи | Un seul interlocuteur |
 | ⏳ à relire | `home.single.text` | Chantrea Systems — это я, Стефан. Без колл-центра и без посредников. Вас выслушивает тот же человек, который делает работу. | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | Вы всегда знаете, кто что делает. | Vous savez toujours qui fait quoi. |
@@ -595,6 +670,58 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.shows.items.2` | Открытые карты, превращённые в 3D-мир | Des cartes ouvertes transformées en monde en 3D |
 | ⏳ à relire | `rally.shows.items.3` | Приложение, переведённое на 7 языков | Une application traduite en 7 langues |
 | ⏳ à relire | `rally.shows.cta` | Все проекты | Voir toutes les réalisations |
+| ⏳ à relire | `angkor.eyebrow` | Проект · 3D-мир | Réalisation · Monde en 3D |
+| ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
+| ⏳ à relire | `angkor.lead` | Район Ангкора и Сиемреапа, воссозданный в 3D в реальном масштабе по открытым географическим данным. Метр на экране — это настоящий метр: поездка длится столько же, сколько в жизни. Над ним можно летать или ездить по нему. | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
+| ⏳ à relire | `angkor.status` | Прототип в разработке | Prototype en cours de développement |
+| ⏳ à relire | `angkor.gallery.title` | Скриншоты | En images |
+| ⏳ à relire | `angkor.gallery.note` | Кадры из прототипа. Деревья, здания, транспорт и храмы пока временные модели. | Captures du prototype. Les arbres, les bâtiments, les véhicules et les temples sont encore des modèles provisoires. |
+| ⏳ à relire | `angkor.gallery.enlarge` | увеличить изображение | agrandir l'image |
+| ⏳ à relire | `angkor.gallery.captions.aerial` | Ангкор-Ват, его рвы и дамбы с высоты. | Angkor Wat, ses douves et ses chaussées, vus du ciel. |
+| ⏳ à relire | `angkor.gallery.captions.forest` | Ангкор-Ват в лесу: по дереву на каждую крону, видимую со спутника. | Angkor Wat dans sa forêt : un arbre pour chaque cime repérée par satellite. |
+| ⏳ à relire | `angkor.gallery.captions.causeway` | На западной дамбе, напротив башен Ангкор-Вата. | Sur la chaussée ouest, face aux tours d'Angkor Wat. |
+| ⏳ à relire | `angkor.gallery.captions.preRup` | Пре Руп, кирпичный храм-гора, построенный по своему плану. | Pre Rup, temple-montagne en briques, construit d'après son plan. |
+| ⏳ à relire | `angkor.gallery.captions.baray` | Западный Барай, водохранилище длиной 8 км, и окрестности. | Le Baray occidental, réservoir long de 8 km, et la campagne alentour. |
+| ⏳ à relire | `angkor.gallery.captions.siemReap` | Улицы Сиемреапа, каждое здание на своём месте по карте. | Les rues de Siem Reap, chaque bâtiment à sa place sur la carte. |
+| ⏳ à relire | `angkor.gallery.captions.motorcycle` | На мотоцикле под высокими деревьями. | Au guidon d'une moto, sous les grands arbres. |
+| ⏳ à relire | `angkor.gallery.captions.rain` | Под дождём, с включёнными фарами: мокрая дорога держит хуже. | Sous la pluie, phares allumés : la route mouillée accroche moins. |
+| ⏳ à relire | `angkor.gallery.captions.editor` | Географический редактор: можно осмотреть каждый объект и исправить данные. | L'éditeur géographique : on inspecte chaque élément et on corrige les données. |
+| ⏳ à relire | `angkor.featuresTitle` | О проекте | Le projet |
+| ⏳ à relire | `angkor.groups.0.title` | Реальные данные | Des données réelles |
+| ⏳ à relire | `angkor.groups.0.items.0` | Дороги, здания, вода и объекты из OpenStreetMap | Routes, bâtiments, eau et sites tirés d'OpenStreetMap |
+| ⏳ à relire | `angkor.groups.0.items.1` | Рельеф по модели высот с шагом 30 м | Le relief d'après un modèle d'altitude au pas de 30 m |
+| ⏳ à relire | `angkor.groups.0.items.2` | По дереву на каждую крону, видимую со спутника, нужной высоты | Un arbre pour chaque cime vue par satellite, à sa hauteur |
+| ⏳ à relire | `angkor.groups.0.items.3` | Рисовые поля по спутниковой карте, в сухой сезон и в сезон дождей | Les rizières d'après une carte satellite, en saison sèche et en saison des pluies |
+| ⏳ à relire | `angkor.groups.1.title` | Весь район | Toute la région |
+| ⏳ à relire | `angkor.groups.1.items.0` | 37 × 45 км, от Западного Барая до Ролуоса и берега Тонлесапа | 37 × 45 km, du Baray occidental à Roluos et aux rives du Tonlé Sap |
+| ⏳ à relire | `angkor.groups.1.items.1` | 5 343 км дорог, 95 487 зданий, 287 археологических объектов | 5 343 km de routes, 95 487 bâtiments, 287 sites archéologiques |
+| ⏳ à relire | `angkor.groups.1.items.2` | Мир подгружается по ходу поездки, а пейзаж тянется до горизонта | Le monde se charge au fil du trajet, et le paysage continue jusqu'à l'horizon |
+| ⏳ à relire | `angkor.groups.1.items.3` | 80 кадров в секунду на телефоне Android среднего класса | 80 images par seconde sur un téléphone Android de milieu de gamme |
+| ⏳ à relire | `angkor.groups.2.title` | Храмы | Les temples |
+| ⏳ à relire | `angkor.groups.2.items.0` | Ангкор-Ват и восемь храмов-гор: Баконг, Баксей Чамкронг, Бапуон, Восточный Мебон, Пхимеанакас, Пном Бакхенг, Пре Руп, Та Кео | Angkor Wat et huit temples-montagnes : Bakong, Baksei Chamkrong, Baphuon, Mébon oriental, Phimeanakas, Phnom Bakheng, Pre Rup, Ta Keo |
+| ⏳ à relire | `angkor.groups.2.items.1` | Террасы, лестницы и башни по планам и опубликованным размерам | Terrasses, escaliers et tours d'après leurs plans et les dimensions publiées |
+| ⏳ à relire | `angkor.groups.2.items.2` | Неизвестное оценено и отмечено как оценка | Ce qui n'est pas connu est estimé, et signalé comme tel |
+| ⏳ à relire | `angkor.groups.3.title` | Пять видов транспорта | Cinq véhicules |
+| ⏳ à relire | `angkor.groups.3.items.0` | Автомобиль, мотоцикл, скутер, авторикша и ремок | Voiture, moto, scooter, auto-rickshaw et remorque |
+| ⏳ à relire | `angkor.groups.3.items.1` | У каждого своя физика, настроенная по данным реальной модели | Chacun a sa propre physique, réglée sur les chiffres d'un vrai modèle |
+| ⏳ à relire | `angkor.groups.3.items.2` | Клавиатура, геймпад, сенсорный экран или наклон телефона | Clavier, manette, écran tactile ou inclinaison du téléphone |
+| ⏳ à relire | `angkor.groups.3.items.3` | Вид сзади, вблизи, с места водителя или кинематографический | Vue de poursuite, rapprochée, du conducteur ou cinéma |
+| ⏳ à relire | `angkor.groups.4.title` | Погода и ночь | Météo et nuit |
+| ⏳ à relire | `angkor.groups.4.items.0` | Ясно, облачно или дождь, а мокрая дорога держит хуже | Ciel clair, couvert ou pluie, avec une route mouillée qui accroche moins |
+| ⏳ à relire | `angkor.groups.4.items.1` | Облака и их тени | Des nuages et leurs ombres |
+| ⏳ à relire | `angkor.groups.4.items.2` | Ночью: фары, задние огни и уличное освещение | La nuit : phares, feux arrière et éclairage public |
+| ⏳ à relire | `angkor.groups.5.title` | Редактор | Un éditeur |
+| ⏳ à relire | `angkor.groups.5.items.0` | Чтобы осмотреть каждую дорогу, здание и объект | Pour inspecter chaque route, bâtiment et site |
+| ⏳ à relire | `angkor.groups.5.items.1` | Чтобы исправить данные: ширину или покрытие дороги, высоту здания, положение объекта | Pour corriger les données : largeur ou revêtement d'une route, hauteur d'un bâtiment, position d'un site |
+| ⏳ à relire | `angkor.groups.5.items.2` | Исправления встраиваются в мир за несколько секунд | Les corrections sont intégrées au monde en quelques secondes |
+| ⏳ à relire | `angkor.shows.title` | Что показывает этот проект | Ce que ce projet montre |
+| ⏳ à relire | `angkor.shows.text` | Этот прототип подтверждает навыки. Те же умения идут в интерактивную карту, виртуальный тур или приложение на заказ. | Ce prototype est une preuve de compétence. Les mêmes savoir-faire servent pour une carte interactive, une visite virtuelle ou une application sur mesure. |
+| ⏳ à relire | `angkor.shows.items.0` | Открытые географические данные, превращённые в 3D-мир | Des données géographiques ouvertes transformées en monde en 3D |
+| ⏳ à relire | `angkor.shows.items.1` | Очень большой мир, который хорошо работает на телефоне Android | Un très grand monde qui tourne bien sur un téléphone Android |
+| ⏳ à relire | `angkor.shows.items.2` | Инструмент для проверки и исправления данных | Un outil pour vérifier et corriger des données |
+| ⏳ à relire | `angkor.shows.items.3` | Источник каждого элемента данных указан, оценки отмечены | La source de chaque donnée indiquée, et ce qui est estimé signalé |
+| ⏳ à relire | `angkor.shows.cta` | Все проекты | Voir toutes les réalisations |
+| ⏳ à relire | `angkor.credits` | Данные: © участники OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) | Données : © contributeurs OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) |
 | ⏳ à relire | `work.title` | Проекты | Réalisations |
 | ⏳ à relire | `work.lead` | Реальные проекты, описанные такими, какие они есть сегодня. | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | Статус | État |
@@ -622,6 +749,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.angkor.status` | Прототип | Prototype |
 | ⏳ à relire | `work.items.angkor.text` | Район Ангкора и Сиемреапа, воссозданный в 3D в реальном масштабе, примерно 37 × 45 км, по открытым картам. Над ним можно летать или ездить по нему. | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, environ 37 × 45 km, à partir de cartes ouvertes. On peut la survoler ou y conduire. |
 | ⏳ à relire | `work.items.angkor.shows` | Показывает: обработка карт, 3D, производительность на телефоне. | Montre : traitement de cartes, 3D, performance sur téléphone. |
+| ⏳ à relire | `work.items.angkor.link` | Подробнее об Angkor World Engine | Découvrir Angkor World Engine |
 | ⏳ à relire | `work.items.synth.title` | Synth Rack | Synth Rack |
 | ⏳ à relire | `work.items.synth.kind` | Музыкальные инструменты в браузере | Instruments de musique dans le navigateur |
 | ⏳ à relire | `work.items.synth.status` | Онлайн-демо | Démo en ligne |
@@ -681,7 +809,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 329 textes relus.
+0 / 393 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -695,6 +823,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.hms.description` | 预订、前台、账单、客房清洁、餐厅和报表，全在一个软件里。适用于酒店和民宿，支持高棉语、英语、法语、中文和俄语。 | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
 | ⏳ à relire | `meta.rally.title` | Cambodia Rally，吴哥周边 3D 赛车 — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
 | ⏳ à relire | `meta.rally.description` | 一款 Android 3D 赛车游戏，赛道是吴哥寺庙周边的真实道路。2 到 8 名玩家连接同一个 Wi-Fi，无需互联网。8 款车辆，2 条赛道，7 种语言。 | Un jeu de course en 3D pour Android, sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits, 7 langues. |
+| ⏳ à relire | `meta.angkor.title` | Angkor World Engine，3D 吴哥地区 — Chantrea Systems | Angkor World Engine, la région d'Angkor en 3D — Chantrea Systems |
+| ⏳ à relire | `meta.angkor.description` | 基于开放地理数据，按真实比例用 3D 重建吴哥和暹粒地区，面积 37 × 45 公里。可以在上空飞行，也可以开车行驶，支持电脑和 Android 手机。 | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, 37 × 45 km, à partir de données géographiques ouvertes. On la survole ou on y conduit, sur ordinateur et sur téléphone Android. |
 | ⏳ à relire | `meta.work.title` | 项目案例 — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | 酒店管理软件、高棉语学习网站、Android 3D 游戏、在浏览器里运行的乐器。都是真实项目，如实介绍。 | Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont. |
 | ⏳ à relire | `meta.about.title` | 关于 — Chantrea Systems | À propos — Chantrea Systems |
@@ -714,6 +844,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.services` | 服务 | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
+| ⏳ à relire | `nav.angkor` | 吴哥 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | 项目案例 | Réalisations |
 | ⏳ à relire | `nav.about` | 关于 | À propos |
 | ⏳ à relire | `nav.contact` | 联系 | Contact |
@@ -742,6 +873,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.rally.points.2` | 寺庙、村庄和稻田按地图摆放 | Temples, villages et rizières placés d'après les cartes |
 | ⏳ à relire | `home.rally.points.3` | 支持 7 种语言，包括高棉语 | En 7 langues, dont le khmer |
 | ⏳ à relire | `home.rally.cta` | 了解 Cambodia Rally | Découvrir Cambodia Rally |
+| ⏳ à relire | `home.angkor.eyebrow` | 项目案例 · 3D 世界 | Réalisation · Monde en 3D |
+| ⏳ à relire | `home.angkor.title` | Angkor World Engine，按真实比例重建的 3D 吴哥地区 | Angkor World Engine, la région d'Angkor en 3D à l'échelle réelle |
+| ⏳ à relire | `home.angkor.text` | 根据开放地图和卫星数据重建的 37 × 45 公里：道路、护城河、寺庙、村庄和森林，都在真实的位置上。可以在上空飞行，也可以开车行驶，电脑和手机都能用。 | 37 × 45 km reconstruits à partir de cartes et de données satellite ouvertes : routes, douves, temples, villages et forêt, chacun à sa vraie place. On la survole ou on y conduit, sur ordinateur comme sur téléphone. |
+| ⏳ à relire | `home.angkor.points.0` | 没有任何东西是手工摆放的：一切都来自数据 | Rien n'est placé à la main : tout vient des données |
+| ⏳ à relire | `home.angkor.points.1` | 5,343 公里道路，超过 95,000 栋建筑 | 5 343 km de routes et plus de 95 000 bâtiments |
+| ⏳ à relire | `home.angkor.points.2` | 吴哥窟和八座山形寺庙，按其平面图建造 | Angkor Wat et huit temples-montagnes construits d'après leurs plans |
+| ⏳ à relire | `home.angkor.points.3` | 在中端 Android 手机上每秒 80 帧 | 80 images par seconde sur un téléphone Android de milieu de gamme |
+| ⏳ à relire | `home.angkor.cta` | 了解 Angkor World Engine | Découvrir Angkor World Engine |
 | ⏳ à relire | `home.single.title` | 只需对接一个人 | Un seul interlocuteur |
 | ⏳ à relire | `home.single.text` | Chantrea Systems 就是我：Stefan。没有总机，没有中间人。听您讲需求的人，就是做事的人。 | Chantrea Systems, c'est moi : Stefan. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
 | ⏳ à relire | `home.single.points.0` | 您始终清楚谁在做什么。 | Vous savez toujours qui fait quoi. |
@@ -931,6 +1070,58 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.shows.items.2` | 把开放地图数据变成 3D 世界 | Des cartes ouvertes transformées en monde en 3D |
 | ⏳ à relire | `rally.shows.items.3` | 翻译成 7 种语言的应用 | Une application traduite en 7 langues |
 | ⏳ à relire | `rally.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
+| ⏳ à relire | `angkor.eyebrow` | 项目案例 · 3D 世界 | Réalisation · Monde en 3D |
+| ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
+| ⏳ à relire | `angkor.lead` | 基于开放地理数据，按真实比例用 3D 重建的吴哥和暹粒地区。屏幕上的一米就是真实的一米：路程花的时间和现实中一样。可以在上空飞行，也可以开车行驶。 | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
+| ⏳ à relire | `angkor.status` | 原型，开发中 | Prototype en cours de développement |
+| ⏳ à relire | `angkor.gallery.title` | 界面截图 | En images |
+| ⏳ à relire | `angkor.gallery.note` | 原型的画面。树木、建筑、车辆和寺庙目前仍是临时模型。 | Captures du prototype. Les arbres, les bâtiments, les véhicules et les temples sont encore des modèles provisoires. |
+| ⏳ à relire | `angkor.gallery.enlarge` | 放大图片 | agrandir l'image |
+| ⏳ à relire | `angkor.gallery.captions.aerial` | 从空中看吴哥窟、护城河和堤道。 | Angkor Wat, ses douves et ses chaussées, vus du ciel. |
+| ⏳ à relire | `angkor.gallery.captions.forest` | 森林中的吴哥窟：卫星看到的每个树冠，都对应一棵树。 | Angkor Wat dans sa forêt : un arbre pour chaque cime repérée par satellite. |
+| ⏳ à relire | `angkor.gallery.captions.causeway` | 在西侧堤道上，面对吴哥窟的塔楼。 | Sur la chaussée ouest, face aux tours d'Angkor Wat. |
+| ⏳ à relire | `angkor.gallery.captions.preRup` | 比粒寺，砖砌的山形寺庙，按其平面图建造。 | Pre Rup, temple-montagne en briques, construit d'après son plan. |
+| ⏳ à relire | `angkor.gallery.captions.baray` | 西池，长 8 公里的水库，以及周围的乡村。 | Le Baray occidental, réservoir long de 8 km, et la campagne alentour. |
+| ⏳ à relire | `angkor.gallery.captions.siemReap` | 暹粒的街道，每栋建筑都在地图上的位置。 | Les rues de Siem Reap, chaque bâtiment à sa place sur la carte. |
+| ⏳ à relire | `angkor.gallery.captions.motorcycle` | 骑摩托车穿行在高大的树下。 | Au guidon d'une moto, sous les grands arbres. |
+| ⏳ à relire | `angkor.gallery.captions.rain` | 雨中开着车灯：湿滑的路面抓地力更低。 | Sous la pluie, phares allumés : la route mouillée accroche moins. |
+| ⏳ à relire | `angkor.gallery.captions.editor` | 地理编辑器：检查每个要素并修正数据。 | L'éditeur géographique : on inspecte chaque élément et on corrige les données. |
+| ⏳ à relire | `angkor.featuresTitle` | 项目内容 | Le projet |
+| ⏳ à relire | `angkor.groups.0.title` | 真实数据 | Des données réelles |
+| ⏳ à relire | `angkor.groups.0.items.0` | 道路、建筑、水体和地点来自 OpenStreetMap | Routes, bâtiments, eau et sites tirés d'OpenStreetMap |
+| ⏳ à relire | `angkor.groups.0.items.1` | 地形来自 30 米精度的高程模型 | Le relief d'après un modèle d'altitude au pas de 30 m |
+| ⏳ à relire | `angkor.groups.0.items.2` | 卫星看到的每个树冠都对应一棵树，高度一致 | Un arbre pour chaque cime vue par satellite, à sa hauteur |
+| ⏳ à relire | `angkor.groups.0.items.3` | 稻田来自卫星地图，分旱季和雨季 | Les rizières d'après une carte satellite, en saison sèche et en saison des pluies |
+| ⏳ à relire | `angkor.groups.1.title` | 整个地区 | Toute la région |
+| ⏳ à relire | `angkor.groups.1.items.0` | 37 × 45 公里，从西池到罗洛士和洞里萨湖岸 | 37 × 45 km, du Baray occidental à Roluos et aux rives du Tonlé Sap |
+| ⏳ à relire | `angkor.groups.1.items.1` | 5,343 公里道路、95,487 栋建筑、287 处考古遗址 | 5 343 km de routes, 95 487 bâtiments, 287 sites archéologiques |
+| ⏳ à relire | `angkor.groups.1.items.2` | 世界随行程逐步加载，风景一直延伸到地平线 | Le monde se charge au fil du trajet, et le paysage continue jusqu'à l'horizon |
+| ⏳ à relire | `angkor.groups.1.items.3` | 在中端 Android 手机上每秒 80 帧 | 80 images par seconde sur un téléphone Android de milieu de gamme |
+| ⏳ à relire | `angkor.groups.2.title` | 寺庙 | Les temples |
+| ⏳ à relire | `angkor.groups.2.items.0` | 吴哥窟和八座山形寺庙：巴孔寺、巴色占空寺、巴方寺、东湄本寺、空中宫殿、巴肯山、比粒寺、茶胶寺 | Angkor Wat et huit temples-montagnes : Bakong, Baksei Chamkrong, Baphuon, Mébon oriental, Phimeanakas, Phnom Bakheng, Pre Rup, Ta Keo |
+| ⏳ à relire | `angkor.groups.2.items.1` | 台阶、阶梯和塔楼按平面图和已公布的尺寸建造 | Terrasses, escaliers et tours d'après leurs plans et les dimensions publiées |
+| ⏳ à relire | `angkor.groups.2.items.2` | 未知的部分采用估算，并注明为估算 | Ce qui n'est pas connu est estimé, et signalé comme tel |
+| ⏳ à relire | `angkor.groups.3.title` | 五种车辆 | Cinq véhicules |
+| ⏳ à relire | `angkor.groups.3.items.0` | 汽车、摩托车、踏板车、三轮摩的和柬式嘟嘟车 | Voiture, moto, scooter, auto-rickshaw et remorque |
+| ⏳ à relire | `angkor.groups.3.items.1` | 每种车都有自己的物理模型，按真实车型的数据设定 | Chacun a sa propre physique, réglée sur les chiffres d'un vrai modèle |
+| ⏳ à relire | `angkor.groups.3.items.2` | 键盘、手柄、触屏或倾斜手机操控 | Clavier, manette, écran tactile ou inclinaison du téléphone |
+| ⏳ à relire | `angkor.groups.3.items.3` | 追尾视角、近景视角、驾驶员视角或电影视角 | Vue de poursuite, rapprochée, du conducteur ou cinéma |
+| ⏳ à relire | `angkor.groups.4.title` | 天气和夜晚 | Météo et nuit |
+| ⏳ à relire | `angkor.groups.4.items.0` | 晴天、阴天或下雨，湿滑路面抓地力更低 | Ciel clair, couvert ou pluie, avec une route mouillée qui accroche moins |
+| ⏳ à relire | `angkor.groups.4.items.1` | 云层和云影 | Des nuages et leurs ombres |
+| ⏳ à relire | `angkor.groups.4.items.2` | 夜晚：车头灯、尾灯和路灯 | La nuit : phares, feux arrière et éclairage public |
+| ⏳ à relire | `angkor.groups.5.title` | 编辑器 | Un éditeur |
+| ⏳ à relire | `angkor.groups.5.items.0` | 检查每条道路、每栋建筑和每个地点 | Pour inspecter chaque route, bâtiment et site |
+| ⏳ à relire | `angkor.groups.5.items.1` | 修正数据：道路宽度或路面、建筑高度、地点位置 | Pour corriger les données : largeur ou revêtement d'une route, hauteur d'un bâtiment, position d'un site |
+| ⏳ à relire | `angkor.groups.5.items.2` | 修正几秒钟内就会融入世界 | Les corrections sont intégrées au monde en quelques secondes |
+| ⏳ à relire | `angkor.shows.title` | 这个项目展示了什么 | Ce que ce projet montre |
+| ⏳ à relire | `angkor.shows.text` | 这个原型是一项能力证明。同样的技术也用于交互地图、虚拟导览或定制应用。 | Ce prototype est une preuve de compétence. Les mêmes savoir-faire servent pour une carte interactive, une visite virtuelle ou une application sur mesure. |
+| ⏳ à relire | `angkor.shows.items.0` | 把开放地理数据变成 3D 世界 | Des données géographiques ouvertes transformées en monde en 3D |
+| ⏳ à relire | `angkor.shows.items.1` | 一个很大的世界，在 Android 手机上运行流畅 | Un très grand monde qui tourne bien sur un téléphone Android |
+| ⏳ à relire | `angkor.shows.items.2` | 一个检查和修正数据的工具 | Un outil pour vérifier et corriger des données |
+| ⏳ à relire | `angkor.shows.items.3` | 每项数据都注明来源，估算的部分都有标注 | La source de chaque donnée indiquée, et ce qui est estimé signalé |
+| ⏳ à relire | `angkor.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
+| ⏳ à relire | `angkor.credits` | 数据：© OpenStreetMap 贡献者 (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) | Données : © contributeurs OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) |
 | ⏳ à relire | `work.title` | 项目案例 | Réalisations |
 | ⏳ à relire | `work.lead` | 真实的项目，按目前的实际状态介绍。 | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | 状态 | État |
@@ -958,6 +1149,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.angkor.status` | 原型 | Prototype |
 | ⏳ à relire | `work.items.angkor.text` | 按真实比例用 3D 重建吴哥和暹粒地区，约 37 × 45 公里，基于开放地图数据。可以在上空飞行，也可以开车行驶。 | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, environ 37 × 45 km, à partir de cartes ouvertes. On peut la survoler ou y conduire. |
 | ⏳ à relire | `work.items.angkor.shows` | 展示：地图数据处理、3D、手机端性能。 | Montre : traitement de cartes, 3D, performance sur téléphone. |
+| ⏳ à relire | `work.items.angkor.link` | 了解 Angkor World Engine | Découvrir Angkor World Engine |
 | ⏳ à relire | `work.items.synth.title` | Synth Rack | Synth Rack |
 | ⏳ à relire | `work.items.synth.kind` | 在浏览器里运行的乐器 | Instruments de musique dans le navigateur |
 | ⏳ à relire | `work.items.synth.status` | 在线演示 | Démo en ligne |

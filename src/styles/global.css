@@ -239,12 +239,13 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .moon-phase__dark { fill: var(--surface); stroke: var(--accent); stroke-width: 1.5; }
 .moon-phase__lit { fill: var(--accent); }
 
-/* Bloc texte + image (accueil : Cambodia Rally). */
+/* Bloc texte + image (accueil : Cambodia Rally, Angkor World Engine). --flip : image à gauche sur grand écran. */
 .split--media { align-items: center; }
 .split--media .checklist { margin: 1.2rem 0 1.6rem; }
 .media { display: block; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(11, 18, 32, .08); }
 .media:hover { border-color: var(--accent); }
 .media img { display: block; width: 100%; height: auto; }
+@media (min-width: 860px) { .split--flip > .media { order: -1; } }
 
 .banner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem; }
 .banner p { color: var(--muted); max-width: 40rem; margin: 0; }
@@ -274,6 +275,7 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .page-hero .lead { color: var(--night-muted); font-size: clamp(1.05rem, 2.2vw, 1.2rem); max-width: 42rem; }
 .page-hero .actions { margin-top: 1.5rem; }
 .page-hero .status { margin-top: 1.2rem; border-color: var(--moon); color: var(--moon) !important; }
+.credits { margin-top: 2.5rem; font-size: .8rem; color: var(--muted); }
 .hero__moon--small { width: clamp(10rem, 26vw, 18rem); right: -4rem; opacity: .22; }
 @media (max-width: 700px) { .hero__moon--small { right: -7rem; top: 1rem; opacity: .14; } }
 

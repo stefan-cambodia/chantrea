@@ -20,6 +20,10 @@
       "title": "Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems",
       "description": "Un jeu de course en 3D pour Android, sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits, 7 langues."
     },
+    "angkor": {
+      "title": "Angkor World Engine, la région d'Angkor en 3D — Chantrea Systems",
+      "description": "La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, 37 × 45 km, à partir de données géographiques ouvertes. On la survole ou on y conduit, sur ordinateur et sur téléphone Android."
+    },
     "work": {
       "title": "Réalisations — Chantrea Systems",
       "description": "Logiciel hôtelier, site d'apprentissage du khmer, jeux Android en 3D, instruments de musique dans le navigateur. Des projets réels, décrits tels qu'ils sont."
@@ -51,6 +55,7 @@
     "services": "Services",
     "hms": "HMS",
     "rally": "Cambodia Rally",
+    "angkor": "Angkor 3D",
     "work": "Réalisations",
     "about": "À propos",
     "contact": "Contact"
@@ -92,6 +97,18 @@
         "En 7 langues, dont le khmer"
       ],
       "cta": "Découvrir Cambodia Rally"
+    },
+    "angkor": {
+      "eyebrow": "Réalisation · Monde en 3D",
+      "title": "Angkor World Engine, la région d'Angkor en 3D à l'échelle réelle",
+      "text": "37 × 45 km reconstruits à partir de cartes et de données satellite ouvertes : routes, douves, temples, villages et forêt, chacun à sa vraie place. On la survole ou on y conduit, sur ordinateur comme sur téléphone.",
+      "points": [
+        "Rien n'est placé à la main : tout vient des données",
+        "5 343 km de routes et plus de 95 000 bâtiments",
+        "Angkor Wat et huit temples-montagnes construits d'après leurs plans",
+        "80 images par seconde sur un téléphone Android de milieu de gamme"
+      ],
+      "cta": "Découvrir Angkor World Engine"
     },
     "single": {
       "title": "Un seul interlocuteur",
@@ -453,6 +470,94 @@
       "cta": "Voir toutes les réalisations"
     }
   },
+  "angkor": {
+    "eyebrow": "Réalisation · Monde en 3D",
+    "title": "Angkor World Engine",
+    "lead": "La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit.",
+    "status": "Prototype en cours de développement",
+    "gallery": {
+      "title": "En images",
+      "note": "Captures du prototype. Les arbres, les bâtiments, les véhicules et les temples sont encore des modèles provisoires.",
+      "enlarge": "agrandir l'image",
+      "captions": {
+        "aerial": "Angkor Wat, ses douves et ses chaussées, vus du ciel.",
+        "forest": "Angkor Wat dans sa forêt : un arbre pour chaque cime repérée par satellite.",
+        "causeway": "Sur la chaussée ouest, face aux tours d'Angkor Wat.",
+        "preRup": "Pre Rup, temple-montagne en briques, construit d'après son plan.",
+        "baray": "Le Baray occidental, réservoir long de 8 km, et la campagne alentour.",
+        "siemReap": "Les rues de Siem Reap, chaque bâtiment à sa place sur la carte.",
+        "motorcycle": "Au guidon d'une moto, sous les grands arbres.",
+        "rain": "Sous la pluie, phares allumés : la route mouillée accroche moins.",
+        "editor": "L'éditeur géographique : on inspecte chaque élément et on corrige les données."
+      }
+    },
+    "featuresTitle": "Le projet",
+    "groups": [
+      {
+        "title": "Des données réelles",
+        "items": [
+          "Routes, bâtiments, eau et sites tirés d'OpenStreetMap",
+          "Le relief d'après un modèle d'altitude au pas de 30 m",
+          "Un arbre pour chaque cime vue par satellite, à sa hauteur",
+          "Les rizières d'après une carte satellite, en saison sèche et en saison des pluies"
+        ]
+      },
+      {
+        "title": "Toute la région",
+        "items": [
+          "37 × 45 km, du Baray occidental à Roluos et aux rives du Tonlé Sap",
+          "5 343 km de routes, 95 487 bâtiments, 287 sites archéologiques",
+          "Le monde se charge au fil du trajet, et le paysage continue jusqu'à l'horizon",
+          "80 images par seconde sur un téléphone Android de milieu de gamme"
+        ]
+      },
+      {
+        "title": "Les temples",
+        "items": [
+          "Angkor Wat et huit temples-montagnes : Bakong, Baksei Chamkrong, Baphuon, Mébon oriental, Phimeanakas, Phnom Bakheng, Pre Rup, Ta Keo",
+          "Terrasses, escaliers et tours d'après leurs plans et les dimensions publiées",
+          "Ce qui n'est pas connu est estimé, et signalé comme tel"
+        ]
+      },
+      {
+        "title": "Cinq véhicules",
+        "items": [
+          "Voiture, moto, scooter, auto-rickshaw et remorque",
+          "Chacun a sa propre physique, réglée sur les chiffres d'un vrai modèle",
+          "Clavier, manette, écran tactile ou inclinaison du téléphone",
+          "Vue de poursuite, rapprochée, du conducteur ou cinéma"
+        ]
+      },
+      {
+        "title": "Météo et nuit",
+        "items": [
+          "Ciel clair, couvert ou pluie, avec une route mouillée qui accroche moins",
+          "Des nuages et leurs ombres",
+          "La nuit : phares, feux arrière et éclairage public"
+        ]
+      },
+      {
+        "title": "Un éditeur",
+        "items": [
+          "Pour inspecter chaque route, bâtiment et site",
+          "Pour corriger les données : largeur ou revêtement d'une route, hauteur d'un bâtiment, position d'un site",
+          "Les corrections sont intégrées au monde en quelques secondes"
+        ]
+      }
+    ],
+    "shows": {
+      "title": "Ce que ce projet montre",
+      "text": "Ce prototype est une preuve de compétence. Les mêmes savoir-faire servent pour une carte interactive, une visite virtuelle ou une application sur mesure.",
+      "items": [
+        "Des données géographiques ouvertes transformées en monde en 3D",
+        "Un très grand monde qui tourne bien sur un téléphone Android",
+        "Un outil pour vérifier et corriger des données",
+        "La source de chaque donnée indiquée, et ce qui est estimé signalé"
+      ],
+      "cta": "Voir toutes les réalisations"
+    },
+    "credits": "Données : © contributeurs OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0)"
+  },
   "work": {
     "title": "Réalisations",
     "lead": "Des projets réels, décrits tels qu'ils sont aujourd'hui.",
@@ -492,7 +597,8 @@
         "kind": "Monde en 3D",
         "status": "Prototype",
         "text": "La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, environ 37 × 45 km, à partir de cartes ouvertes. On peut la survoler ou y conduire.",
-        "shows": "Montre : traitement de cartes, 3D, performance sur téléphone."
+        "shows": "Montre : traitement de cartes, 3D, performance sur téléphone.",
+        "link": "Découvrir Angkor World Engine"
       },
       "synth": {
         "title": "Synth Rack",
