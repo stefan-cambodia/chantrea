@@ -218,7 +218,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.housekeeping` | ការសម្អាត៖ ការងារប្រចាំថ្ងៃ តាមបន្ទប់នីមួយៗ ព្រមទាំងការត្រួតពិនិត្យ។ | Le ménage : tâches du jour, chambre par chambre, avec contrôle. |
 | ⏳ à relire | `hms.gallery.captions.kitchen` | អេក្រង់ផ្ទះបាយរបស់ភោជនីយដ្ឋាន។ | L'écran de la cuisine du restaurant. |
 | ⏳ à relire | `hms.gallery.captions.tablet` | ប្រតិទិននៅលើថេប្លេត។ | Le calendrier sur tablette. |
-| ⏳ à relire | `hms.gallery.captions.dashboard` | ផ្ទាំងគ្រប់គ្រង ជាភាសាខ្មែរ។ | Le tableau de bord, en khmer. |
+| ⏳ à relire | `hms.gallery.captions.dashboard` | ផ្ទាំងគ្រប់គ្រង៖ អត្រាបន្ទប់មានភ្ញៀវ ការមកដល់ និងការចាកចេញថ្ងៃនេះ។ | Le tableau de bord : occupation, arrivées et départs du jour. |
 | ⏳ à relire | `hms.gallery.captions.reports` | របាយការណ៍៖ អត្រាបន្ទប់មានភ្ញៀវ តម្លៃមធ្យម និងចំណូលក្នុងមួយបន្ទប់។ | Les rapports : occupation, prix moyen, revenu par chambre. |
 | ⏳ à relire | `rally.eyebrow` | ស្នាដៃ · ហ្គេម Android | Réalisation · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
@@ -619,7 +619,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.housekeeping` | Уборка: задачи на день по каждому номеру, с проверкой. | Le ménage : tâches du jour, chambre par chambre, avec contrôle. |
 | ⏳ à relire | `hms.gallery.captions.kitchen` | Экран кухни ресторана. | L'écran de la cuisine du restaurant. |
 | ⏳ à relire | `hms.gallery.captions.tablet` | Календарь на планшете. | Le calendrier sur tablette. |
-| ⏳ à relire | `hms.gallery.captions.dashboard` | Панель управления на кхмерском языке. | Le tableau de bord, en khmer. |
+| ⏳ à relire | `hms.gallery.captions.dashboard` | Панель управления: загрузка, заезды и выезды за день. | Le tableau de bord : occupation, arrivées et départs du jour. |
 | ⏳ à relire | `hms.gallery.captions.reports` | Отчёты: загрузка, средняя цена, доход на номер. | Les rapports : occupation, prix moyen, revenu par chambre. |
 | ⏳ à relire | `rally.eyebrow` | Проект · Игра для Android | Réalisation · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
@@ -1019,7 +1019,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.housekeeping` | 客房清洁：按房间安排当日任务，并检查房间。 | Le ménage : tâches du jour, chambre par chambre, avec contrôle. |
 | ⏳ à relire | `hms.gallery.captions.kitchen` | 餐厅的厨房显示屏。 | L'écran de la cuisine du restaurant. |
 | ⏳ à relire | `hms.gallery.captions.tablet` | 平板电脑上的房态日历。 | Le calendrier sur tablette. |
-| ⏳ à relire | `hms.gallery.captions.dashboard` | 高棉语界面的仪表盘。 | Le tableau de bord, en khmer. |
+| ⏳ à relire | `hms.gallery.captions.dashboard` | 仪表盘：入住率、今日抵店和离店。 | Le tableau de bord : occupation, arrivées et départs du jour. |
 | ⏳ à relire | `hms.gallery.captions.reports` | 报表：入住率、平均房价、每间可售房收入。 | Les rapports : occupation, prix moyen, revenu par chambre. |
 | ⏳ à relire | `rally.eyebrow` | 项目案例 · Android 游戏 | Réalisation · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |

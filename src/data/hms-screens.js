@@ -1,40 +1,32 @@
-// Captures d'écran de HMS (hôtel de démonstration, données fictives).
-// Source : dépôt hms, docs/images/ — captures du 13 novembre 2026.
-// Pour les remplacer : copier les nouvelles images dans src/assets/hms/ sous le même nom.
+// Captures d'écran de HMS, dans la langue de chaque page du site.
+// Hôtel de démonstration « The Moon Kampot Boutique » (base de démo du dépôt hms,
+// `tools/screenshots/reset-db.sh` + `seed_activity.py`) : clients et montants fictifs.
+// Captures du 22 novembre 2026, bureau 1440×900 et iPad Pro 11" à l'horizontale.
+//
+// Rangement : src/assets/hms/<langue>/<écran>.png, une série complète par langue
+// (en, fr, km, ru, zh). Pour les remplacer : copier les nouvelles images sous le même nom.
 //
 // caption : clé du texte dans hms.gallery.captions de chaque fichier de langue.
+// La première capture est affichée en grand.
 
-import calendar from '../assets/hms/calendar.png';
-import frontDesk from '../assets/hms/front-desk.png';
-import reservation from '../assets/hms/reservation.png';
-import housekeeping from '../assets/hms/housekeeping.png';
-import kitchen from '../assets/hms/restaurant-kitchen.png';
-import tablet from '../assets/hms/ipad-calendar.png';
-import frCalendar from '../assets/hms/fr-calendar.png';
-import kmDashboard from '../assets/hms/km-dashboard.png';
-import zhFrontDesk from '../assets/hms/zh-front-desk.png';
-import ruReports from '../assets/hms/ru-reports.png';
+const images = import.meta.glob('../assets/hms/*/*.png', { eager: true, import: 'default' });
 
-const base = [
-  { caption: 'calendar', src: calendar },
-  { caption: 'frontDesk', src: frontDesk },
-  { caption: 'reservation', src: reservation },
-  { caption: 'housekeeping', src: housekeeping },
-  { caption: 'kitchen', src: kitchen },
-  { caption: 'tablet', src: tablet },
+const screens = [
+  { caption: 'calendar', file: 'calendar' },
+  { caption: 'dashboard', file: 'dashboard' },
+  { caption: 'frontDesk', file: 'front-desk' },
+  { caption: 'reservation', file: 'reservation' },
+  { caption: 'housekeeping', file: 'housekeeping' },
+  { caption: 'kitchen', file: 'restaurant-kitchen' },
+  { caption: 'reports', file: 'reports' },
+  { caption: 'tablet', file: 'ipad-calendar' },
 ];
 
-// Capture dans la langue de la page, affichée en premier quand elle existe.
-const localized = {
-  fr: { caption: 'calendar', src: frCalendar },
-  km: { caption: 'dashboard', src: kmDashboard },
-  zh: { caption: 'frontDesk', src: zhFrontDesk },
-  ru: { caption: 'reports', src: ruReports },
-};
-
-/** Liste des captures pour une langue : la capture localisée d'abord, sans doublon. */
+/** Liste des captures pour une langue du site, toutes dans cette langue. */
 export function screensFor(lang) {
-  const first = localized[lang];
-  if (!first) return base;
-  return [first, ...base.filter((s) => s.caption !== first.caption)];
+  return screens.map(({ caption, file }) => {
+    const src = images[`../assets/hms/${lang}/${file}.png`];
+    if (!src) throw new Error(`Capture HMS manquante : src/assets/hms/${lang}/${file}.png`);
+    return { caption, src };
+  });
 }
