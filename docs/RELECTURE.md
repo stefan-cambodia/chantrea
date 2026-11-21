@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 395 textes relus.
+0 / 406 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -138,14 +138,25 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.1.list.2` | ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ពីអ្វីដែល AI ធ្វើមិនបានល្អ និងតម្លៃរបស់វា។ | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | ហេដ្ឋារចនាសម្ព័ន្ធ | Infrastructure |
-| ⏳ à relire | `services.items.2.summary` | ដំឡើង និងជួសជុលកុំព្យូទ័រ និងម៉ាស៊ីនមេ (server) Windows និង Linux។ និម្មិតកម្ម (virtualization) ជាមួយ XCP-ng៖ ម៉ាស៊ីនមេច្រើននៅលើម៉ាស៊ីនតែមួយ។ | Installation et dépannage de postes et de serveurs Windows et Linux. Virtualisation avec XCP-ng : plusieurs serveurs sur une seule machine. |
-| ⏳ à relire | `services.items.2.lead` | កុំព្យូទ័រ និងម៉ាស៊ីនមេរបស់លោកអ្នក គ្រាន់តែត្រូវដំណើរការបានល្អ។ ខ្ញុំដំឡើង ជួសជុល និងថែទាំ។ | Vos ordinateurs et vos serveurs doivent simplement fonctionner. J'installe, je dépanne et j'entretiens. |
-| ⏳ à relire | `services.items.2.sections.0.title` | Windows និង Linux | Windows et Linux |
-| ⏳ à relire | `services.items.2.sections.0.text` | ការដំឡើង ការធ្វើបច្ចុប្បន្នភាព (update) និងការជួសជុលកុំព្យូទ័រការិយាល័យ និងម៉ាស៊ីនមេ ទាំង Windows និង Linux។ | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
-| ⏳ à relire | `services.items.2.sections.1.title` | និម្មិតកម្មជាមួយ XCP-ng | Virtualisation avec XCP-ng |
-| ⏳ à relire | `services.items.2.sections.1.text` | ម៉ាស៊ីនមេនិម្មិតច្រើននៅលើម៉ាស៊ីនពិតតែមួយ៖ ទិញឧបករណ៍តិចជាងមុន ការបម្រុងទុកទិន្នន័យ (backup) ងាយស្រួលជាងមុន និងដំណើរការឡើងវិញលឿនជាងមុន ក្រោយពេលខូច។ | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
-| ⏳ à relire | `services.items.2.sections.2.title` | នៅនឹងកន្លែង ឬពីចម្ងាយ | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.2.text` | នៅនឹងកន្លែងនៅកំពត។ នៅកន្លែងផ្សេងទៀត ពីចម្ងាយនៅពេលដែលអាចធ្វើបាន។ | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
+| ⏳ à relire | `services.items.2.summary` | ការដំឡើងម៉ាស៊ីនមេ (server) បណ្ដាញ Wi-Fi និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS) ការតខ្សែបណ្ដាញ Windows និង Linux និម្មិតកម្ម (virtualization) ជាមួយ XCP-ng។ | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |
+| ⏳ à relire | `services.items.2.lead` | ចាប់ពីការជ្រើសរើសឧបករណ៍ រហូតដល់ការថែទាំ ខ្ញុំមើលការខុសត្រូវលើការដំឡើងរបស់លោកអ្នក ពីដើមដល់ចប់។ | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
+| ⏳ à relire | `services.items.2.sections.0.title` | ឧបករណ៍ | Le matériel |
+| ⏳ à relire | `services.items.2.sections.0.text` | ម៉ាស៊ីនមេ (server) ស្វីច (switch) ជញ្ជាំងភ្លើង (firewall) Wi-Fi ឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS) និងឧបករណ៍ផ្ទុកទិន្នន័យបម្រុងទុក (backup)។ ឧបករណ៍ថ្មី ទិញពីអ្នកចែកចាយផ្លូវការនៅកម្ពុជា ជាមួយការធានាពីក្រុមហ៊ុនផលិត។ ខ្ញុំជ្រើសរើសអ្វីដែលសមនឹងទំហំអាជីវកម្មរបស់លោកអ្នក មិនមែនអ្វីដែលថ្លៃបំផុតទេ។ | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
+| ⏳ à relire | `services.items.2.sections.1.title` | ការតខ្សែបណ្ដាញ | Le câblage |
+| ⏳ à relire | `services.items.2.sections.1.text` | ការតខ្សែបណ្ដាញ ធ្វើឡើងដោយអ្នកដំឡើងដែលខ្ញុំជ្រើសរើស និងត្រួតពិនិត្យ។ រន្ធភ្ជាប់នីមួយៗត្រូវបានសាកល្បង និងបិទស្លាក។ លោកអ្នកទទួលបានប្លង់បណ្ដាញរបស់លោកអ្នក។ | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
+| ⏳ à relire | `services.items.2.sections.2.title` | Windows និង Linux | Windows et Linux |
+| ⏳ à relire | `services.items.2.sections.2.text` | ការដំឡើង ការធ្វើបច្ចុប្បន្នភាព (update) និងការជួសជុលកុំព្យូទ័រការិយាល័យ និងម៉ាស៊ីនមេ ទាំង Windows និង Linux។ | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
+| ⏳ à relire | `services.items.2.sections.3.title` | និម្មិតកម្មជាមួយ XCP-ng | Virtualisation avec XCP-ng |
+| ⏳ à relire | `services.items.2.sections.3.text` | ម៉ាស៊ីនមេនិម្មិតច្រើននៅលើម៉ាស៊ីនពិតតែមួយ៖ ទិញឧបករណ៍តិចជាងមុន ការបម្រុងទុកទិន្នន័យ (backup) ងាយស្រួលជាងមុន និងដំណើរការឡើងវិញលឿនជាងមុន ក្រោយពេលខូច។ | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
+| ⏳ à relire | `services.items.2.sections.4.title` | ដំណើរការការងារ | Comment ça se passe |
+| ⏳ à relire | `services.items.2.sections.4.list.0` | ការចុះពិនិត្យទីតាំង។ | Visite des lieux. |
+| ⏳ à relire | `services.items.2.sections.4.list.1` | តារាងតម្លៃលម្អិត៖ ឧបករណ៍ ការតខ្សែ និងកម្លាំងពលកម្ម ដាច់ដោយឡែកពីគ្នា។ | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
+| ⏳ à relire | `services.items.2.sections.4.list.2` | ការបញ្ជាទិញឧបករណ៍ បន្ទាប់មកការដំឡើង។ | Commande du matériel, puis installation. |
+| ⏳ à relire | `services.items.2.sections.4.list.3` | ការប្រគល់ឯកសារ៖ ប្លង់បណ្ដាញ បញ្ជីឧបករណ៍ និងប័ណ្ណធានា។ | Remise des documents : plan du réseau, liste du matériel, garanties. |
+| ⏳ à relire | `services.items.2.sections.5.title` | កិច្ចសន្យាថែទាំ | Contrat de maintenance |
+| ⏳ à relire | `services.items.2.sections.5.text` | ការតាមដានជាប្រចាំ ការធ្វើបច្ចុប្បន្នភាព និងការចុះជួសជុលពេលមានបញ្ហា។ កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.2.sections.6.title` | នៅនឹងកន្លែង ឬពីចម្ងាយ | Sur place ou à distance |
+| ⏳ à relire | `services.items.2.sections.6.text` | នៅនឹងកន្លែងនៅកំពត។ នៅកន្លែងផ្សេងទៀត ពីចម្ងាយនៅពេលដែលអាចធ្វើបាន។ | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
 | ⏳ à relire | `services.items.3.id` | security | security |
 | ⏳ à relire | `services.items.3.title` | សុវត្ថិភាពព័ត៌មានវិទ្យា | Sécurité informatique |
 | ⏳ à relire | `services.items.3.summary` | ការការពារទិន្នន័យ និងសិទ្ធិចូលប្រើរបស់លោកអ្នក គឺជាផ្នែកមួយនៃគម្រោងនីមួយៗ។ សូមពិភាក្សាអំពីស្ថានភាពរបស់លោកអ្នក។ | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |
@@ -410,7 +421,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 394 textes relus.
+0 / 405 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -540,14 +551,25 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.1.list.2` | Я честно говорю, что ИИ делает плохо и сколько он стоит. | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | Инфраструктура | Infrastructure |
-| ⏳ à relire | `services.items.2.summary` | Установка и ремонт рабочих станций и серверов на Windows и Linux. Виртуализация на XCP-ng: несколько серверов на одной машине. | Installation et dépannage de postes et de serveurs Windows et Linux. Virtualisation avec XCP-ng : plusieurs serveurs sur une seule machine. |
-| ⏳ à relire | `services.items.2.lead` | Ваши компьютеры и серверы должны просто работать. Я устанавливаю, чиню и обслуживаю. | Vos ordinateurs et vos serveurs doivent simplement fonctionner. J'installe, je dépanne et j'entretiens. |
-| ⏳ à relire | `services.items.2.sections.0.title` | Windows и Linux | Windows et Linux |
-| ⏳ à relire | `services.items.2.sections.0.text` | Установка, обновление и устранение неполадок на рабочих станциях и серверах — как на Windows, так и на Linux. | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
-| ⏳ à relire | `services.items.2.sections.1.title` | Виртуализация на XCP-ng | Virtualisation avec XCP-ng |
-| ⏳ à relire | `services.items.2.sections.1.text` | Несколько виртуальных серверов на одной физической машине: меньше оборудования к покупке, проще резервное копирование, быстрее восстановление после сбоя. | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
-| ⏳ à relire | `services.items.2.sections.2.title` | На месте или удалённо | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.2.text` | На месте в Кампоте. В других местах — удалённо, когда это возможно. | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
+| ⏳ à relire | `services.items.2.summary` | Установка серверов, сетей, Wi-Fi и ИБП, прокладка кабелей, Windows и Linux, виртуализация на XCP-ng. | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |
+| ⏳ à relire | `services.items.2.lead` | От выбора оборудования до обслуживания: я веду вашу установку от начала до конца. | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
+| ⏳ à relire | `services.items.2.sections.0.title` | Оборудование | Le matériel |
+| ⏳ à relire | `services.items.2.sections.0.text` | Серверы, коммутаторы, межсетевые экраны, Wi-Fi, ИБП и хранилища для резервных копий. Новое оборудование, купленное у официальных дистрибьюторов в Камбодже, с гарантией производителя. Я подбираю то, что подходит под ваш масштаб, а не самое дорогое. | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
+| ⏳ à relire | `services.items.2.sections.1.title` | Кабельная сеть | Le câblage |
+| ⏳ à relire | `services.items.2.sections.1.text` | Кабели прокладывают монтажники, которых я выбираю и контролирую. Каждая розетка проверяется и маркируется. Вы получаете схему своей сети. | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
+| ⏳ à relire | `services.items.2.sections.2.title` | Windows и Linux | Windows et Linux |
+| ⏳ à relire | `services.items.2.sections.2.text` | Установка, обновление и устранение неполадок на рабочих станциях и серверах — как на Windows, так и на Linux. | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
+| ⏳ à relire | `services.items.2.sections.3.title` | Виртуализация на XCP-ng | Virtualisation avec XCP-ng |
+| ⏳ à relire | `services.items.2.sections.3.text` | Несколько виртуальных серверов на одной физической машине: меньше оборудования к покупке, проще резервное копирование, быстрее восстановление после сбоя. | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
+| ⏳ à relire | `services.items.2.sections.4.title` | Как всё проходит | Comment ça se passe |
+| ⏳ à relire | `services.items.2.sections.4.list.0` | Осмотр помещений. | Visite des lieux. |
+| ⏳ à relire | `services.items.2.sections.4.list.1` | Подробная смета: оборудование, кабельные работы и работа монтажников отдельно. | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
+| ⏳ à relire | `services.items.2.sections.4.list.2` | Заказ оборудования, затем установка. | Commande du matériel, puis installation. |
+| ⏳ à relire | `services.items.2.sections.4.list.3` | Передача документов: схема сети, список оборудования, гарантии. | Remise des documents : plan du réseau, liste du matériel, garanties. |
+| ⏳ à relire | `services.items.2.sections.5.title` | Договор на обслуживание | Contrat de maintenance |
+| ⏳ à relire | `services.items.2.sections.5.text` | Регулярное сопровождение, обновления и выезд при поломке. Варианты и цены: [À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.2.sections.6.title` | На месте или удалённо | Sur place ou à distance |
+| ⏳ à relire | `services.items.2.sections.6.text` | На месте в Кампоте. В других местах — удалённо, когда это возможно. | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
 | ⏳ à relire | `services.items.3.id` | security | security |
 | ⏳ à relire | `services.items.3.title` | Информационная безопасность | Sécurité informatique |
 | ⏳ à relire | `services.items.3.summary` | Защита ваших данных и доступов — часть каждого проекта. Давайте обсудим вашу ситуацию. | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |
@@ -811,7 +833,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 394 textes relus.
+0 / 405 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -941,14 +963,25 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.1.list.2` | 我会坦白告诉您 AI 哪些地方做不好，以及它的成本。 | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | 基础设施 | Infrastructure |
-| ⏳ à relire | `services.items.2.summary` | 安装和维修 Windows 和 Linux 电脑及服务器。用 XCP-ng 做虚拟化：一台机器上运行多台服务器。 | Installation et dépannage de postes et de serveurs Windows et Linux. Virtualisation avec XCP-ng : plusieurs serveurs sur une seule machine. |
-| ⏳ à relire | `services.items.2.lead` | 您的电脑和服务器，就应该正常运转。我负责安装、排除故障和维护。 | Vos ordinateurs et vos serveurs doivent simplement fonctionner. J'installe, je dépanne et j'entretiens. |
-| ⏳ à relire | `services.items.2.sections.0.title` | Windows 和 Linux | Windows et Linux |
-| ⏳ à relire | `services.items.2.sections.0.text` | 工作站和服务器的安装、更新和故障排除，Windows 和 Linux 都可以。 | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
-| ⏳ à relire | `services.items.2.sections.1.title` | 用 XCP-ng 做虚拟化 | Virtualisation avec XCP-ng |
-| ⏳ à relire | `services.items.2.sections.1.text` | 在一台物理机上运行多台虚拟服务器：少买硬件，备份更简单，出故障后恢复更快。 | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
-| ⏳ à relire | `services.items.2.sections.2.title` | 上门或远程 | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.2.text` | 在贡布上门服务。其他地方，条件允许时远程处理。 | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
+| ⏳ à relire | `services.items.2.summary` | 安装服务器、网络、Wi-Fi 和 UPS 不间断电源，布线，Windows 和 Linux，用 XCP-ng 做虚拟化。 | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |
+| ⏳ à relire | `services.items.2.lead` | 从选购设备到日常维护，我全程负责您的安装。 | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
+| ⏳ à relire | `services.items.2.sections.0.title` | 设备 | Le matériel |
+| ⏳ à relire | `services.items.2.sections.0.text` | 服务器、交换机、防火墙、Wi-Fi、UPS 不间断电源和备份存储。全新设备，从柬埔寨的官方经销商处购买，享受厂家保修。我按您的规模来选，不选最贵的。 | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
+| ⏳ à relire | `services.items.2.sections.1.title` | 布线 | Le câblage |
+| ⏳ à relire | `services.items.2.sections.1.text` | 布线由我挑选并监督的安装人员完成。每个网口都经过测试并贴上标签。您会拿到自己网络的布线图。 | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
+| ⏳ à relire | `services.items.2.sections.2.title` | Windows 和 Linux | Windows et Linux |
+| ⏳ à relire | `services.items.2.sections.2.text` | 工作站和服务器的安装、更新和故障排除，Windows 和 Linux 都可以。 | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
+| ⏳ à relire | `services.items.2.sections.3.title` | 用 XCP-ng 做虚拟化 | Virtualisation avec XCP-ng |
+| ⏳ à relire | `services.items.2.sections.3.text` | 在一台物理机上运行多台虚拟服务器：少买硬件，备份更简单，出故障后恢复更快。 | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
+| ⏳ à relire | `services.items.2.sections.4.title` | 合作流程 | Comment ça se passe |
+| ⏳ à relire | `services.items.2.sections.4.list.0` | 实地查看。 | Visite des lieux. |
+| ⏳ à relire | `services.items.2.sections.4.list.1` | 详细报价：设备、布线和人工分开列出。 | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
+| ⏳ à relire | `services.items.2.sections.4.list.2` | 订购设备，然后安装。 | Commande du matériel, puis installation. |
+| ⏳ à relire | `services.items.2.sections.4.list.3` | 交付文件：网络图、设备清单、保修凭证。 | Remise des documents : plan du réseau, liste du matériel, garanties. |
+| ⏳ à relire | `services.items.2.sections.5.title` | 维护合同 | Contrat de maintenance |
+| ⏳ à relire | `services.items.2.sections.5.text` | 定期跟进、系统更新，出现故障时上门处理。方案和价格：[À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.2.sections.6.title` | 上门或远程 | Sur place ou à distance |
+| ⏳ à relire | `services.items.2.sections.6.text` | 在贡布上门服务。其他地方，条件允许时远程处理。 | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
 | ⏳ à relire | `services.items.3.id` | security | security |
 | ⏳ à relire | `services.items.3.title` | IT 安全 | Sécurité informatique |
 | ⏳ à relire | `services.items.3.summary` | 保护您的数据和访问权限，是每个项目的一部分。说说您的情况。 | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |

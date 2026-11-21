@@ -224,9 +224,17 @@
       {
         "id": "infrastructure",
         "title": "Infrastructure",
-        "summary": "Setup and troubleshooting of Windows and Linux computers and servers. Virtualization with XCP-ng: several servers on one machine.",
-        "lead": "Your computers and servers should simply work. I set them up, fix them and maintain them.",
+        "summary": "Setup of servers, networks, Wi-Fi and UPS units, cabling, Windows and Linux, virtualization with XCP-ng.",
+        "lead": "From choosing the hardware to maintenance, I look after your installation from start to finish.",
         "sections": [
+          {
+            "title": "The hardware",
+            "text": "Servers, switches, firewalls, Wi-Fi, UPS units and backup storage. New hardware, bought from the official distributors in Cambodia, with the manufacturer's warranty. I choose what fits your size, not the most expensive."
+          },
+          {
+            "title": "The cabling",
+            "text": "The cabling is done by installers I choose and supervise. Every socket is tested and labelled. You receive the plan of your network."
+          },
           {
             "title": "Windows and Linux",
             "text": "Setup, updates and troubleshooting of workstations and servers, on Windows as well as Linux."
@@ -234,6 +242,19 @@
           {
             "title": "Virtualization with XCP-ng",
             "text": "Several virtual servers on one physical machine: less hardware to buy, simpler backups, faster recovery after a failure."
+          },
+          {
+            "title": "How it works",
+            "list": [
+              "A visit of your premises.",
+              "A detailed quote: hardware, cabling and labour listed separately.",
+              "Ordering the hardware, then installation.",
+              "Handover of the documents: network plan, list of hardware, warranties."
+            ]
+          },
+          {
+            "title": "Maintenance contract",
+            "text": "Regular follow-up, updates, and a call-out when something breaks down. Plans and prices: [À COMPLÉTER PAR STEFAN]"
           },
           {
             "title": "On site or remote",
