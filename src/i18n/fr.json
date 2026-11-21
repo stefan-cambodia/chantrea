@@ -371,7 +371,7 @@
     },
     "gallery": {
       "title": "En images",
-      "note": "Écrans de l'hôtel de démonstration : noms et montants fictifs.",
+      "note": "Écrans de l'hôtel de démonstration : clients et montants fictifs.",
       "enlarge": "agrandir l'image",
       "captions": {
         "calendar": "Le calendrier des chambres : on glisse une réservation pour changer de chambre ou de dates.",

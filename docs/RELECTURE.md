@@ -210,7 +210,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.languages.title` | ភាសា និងរូបិយប័ណ្ណ | Langues et devises |
 | ⏳ à relire | `hms.languages.text` | អេក្រង់ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ រូបិយប័ណ្ណគោលមួយ និងរូបិយប័ណ្ណផ្សេងទៀតដែលទទួលយក តាមអត្រាប្ដូរប្រាក់របស់វា។ | Écrans en khmer, anglais, français, chinois et russe. Une devise principale, et d'autres devises acceptées avec leur taux de change. |
 | ⏳ à relire | `hms.gallery.title` | រូបភាពអេក្រង់ | En images |
-| ⏳ à relire | `hms.gallery.note` | អេក្រង់ពីសណ្ឋាគារសាកល្បង៖ ឈ្មោះ និងចំនួនទឹកប្រាក់ ជាការប្រឌិត។ | Écrans de l'hôtel de démonstration : noms et montants fictifs. |
+| ⏳ à relire | `hms.gallery.note` | អេក្រង់ពីសណ្ឋាគារសាកល្បង៖ ភ្ញៀវ និងចំនួនទឹកប្រាក់ ជាការប្រឌិត។ | Écrans de l'hôtel de démonstration : clients et montants fictifs. |
 | ⏳ à relire | `hms.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
 | ⏳ à relire | `hms.gallery.captions.calendar` | ប្រតិទិនបន្ទប់៖ អូសការកក់ ដើម្បីប្ដូរបន្ទប់ ឬកាលបរិច្ឆេទ។ | Le calendrier des chambres : on glisse une réservation pour changer de chambre ou de dates. |
 | ⏳ à relire | `hms.gallery.captions.frontDesk` | ផ្នែកទទួលភ្ញៀវ៖ ភ្ញៀវមកដល់ថ្ងៃនេះ ភ្ញៀវកំពុងស្នាក់នៅ ភ្ញៀវចាកចេញ និងប្រាក់ដែលនៅជំពាក់។ | La réception : arrivées du jour, clients présents, départs et soldes à régler. |
@@ -611,7 +611,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.languages.title` | Языки и валюты | Langues et devises |
 | ⏳ à relire | `hms.languages.text` | Интерфейс на кхмерском, английском, французском, китайском и русском. Одна основная валюта и другие валюты по курсу обмена. | Écrans en khmer, anglais, français, chinois et russe. Une devise principale, et d'autres devises acceptées avec leur taux de change. |
 | ⏳ à relire | `hms.gallery.title` | Скриншоты | En images |
-| ⏳ à relire | `hms.gallery.note` | Экраны демонстрационного отеля: имена и суммы вымышлены. | Écrans de l'hôtel de démonstration : noms et montants fictifs. |
+| ⏳ à relire | `hms.gallery.note` | Экраны демонстрационного отеля: гости и суммы вымышлены. | Écrans de l'hôtel de démonstration : clients et montants fictifs. |
 | ⏳ à relire | `hms.gallery.enlarge` | увеличить изображение | agrandir l'image |
 | ⏳ à relire | `hms.gallery.captions.calendar` | Календарь номеров: перетащите бронь, чтобы сменить номер или даты. | Le calendrier des chambres : on glisse une réservation pour changer de chambre ou de dates. |
 | ⏳ à relire | `hms.gallery.captions.frontDesk` | Ресепшен: заезды на сегодня, проживающие гости, выезды и задолженности. | La réception : arrivées du jour, clients présents, départs et soldes à régler. |
@@ -1011,7 +1011,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.languages.title` | 语言和货币 | Langues et devises |
 | ⏳ à relire | `hms.languages.text` | 界面支持高棉语、英语、法语、中文和俄语。设一种主货币，也可接受其他货币，按汇率换算。 | Écrans en khmer, anglais, français, chinois et russe. Une devise principale, et d'autres devises acceptées avec leur taux de change. |
 | ⏳ à relire | `hms.gallery.title` | 界面截图 | En images |
-| ⏳ à relire | `hms.gallery.note` | 截图来自演示酒店，姓名和金额均为虚构。 | Écrans de l'hôtel de démonstration : noms et montants fictifs. |
+| ⏳ à relire | `hms.gallery.note` | 截图来自演示酒店，客人和金额均为虚构。 | Écrans de l'hôtel de démonstration : clients et montants fictifs. |
 | ⏳ à relire | `hms.gallery.enlarge` | 放大图片 | agrandir l'image |
 | ⏳ à relire | `hms.gallery.captions.calendar` | 房态日历：拖动预订即可更换房间或日期。 | Le calendrier des chambres : on glisse une réservation pour changer de chambre ou de dates. |
 | ⏳ à relire | `hms.gallery.captions.frontDesk` | 前台：今日入住、在住宾客、退房和未结余额。 | La réception : arrivées du jour, clients présents, départs et soldes à régler. |

@@ -371,7 +371,7 @@
     },
     "gallery": {
       "title": "Screenshots",
-      "note": "Screens from the demo hotel: names and amounts are made up.",
+      "note": "Screens from the demo hotel: guests and amounts are made up.",
       "enlarge": "enlarge image",
       "captions": {
         "calendar": "The room calendar: drag a booking to change room or dates.",
