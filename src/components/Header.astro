@@ -6,7 +6,7 @@ import { t, href } from '../i18n/index.js';
 interface Props { lang: string; page?: string }
 const { lang, page = '' } = Astro.props;
 const tr = t(lang);
-const links = ['services', 'hms', 'rally', 'work', 'about', 'contact'].map((slug) => ({
+const links = ['services', 'hms', 'rally', 'angkor', 'work', 'about', 'contact'].map((slug) => ({
   slug,
   label: tr.nav[slug],
   current: page === slug ? 'page' : page.startsWith(`${slug}/`) ? 'true' : undefined,

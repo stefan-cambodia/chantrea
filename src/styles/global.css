@@ -155,8 +155,8 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .logo-mark__belly { fill: var(--logo-belly); }
 .logo-mark__gold { fill: var(--logo-gold); }
 .main-nav { margin-left: auto; display: none; }
-.main-nav ul { display: flex; gap: .25rem; }
-.main-nav a, .mobile-nav a { display: block; white-space: nowrap; padding: .5rem .75rem; border-radius: 8px; color: var(--night-text) !important; text-decoration: none; }
+.main-nav ul { display: flex; gap: .1rem; }
+.main-nav a, .mobile-nav a { display: block; white-space: nowrap; padding: .5rem .6rem; border-radius: 8px; color: var(--night-text) !important; text-decoration: none; }
 .main-nav a:hover, .mobile-nav a:hover { background: var(--night-surface); }
 .main-nav a[aria-current="page"], .mobile-nav a[aria-current="page"] { color: var(--moon) !important; }
 .site-header__tools { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
@@ -185,7 +185,7 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
 }
 .mobile-nav nav { position: absolute; left: 0; right: 0; top: 100%; background: var(--night-bg); border-bottom: 1px solid var(--night-line); padding: .5rem 1rem 1rem; }
-@media (min-width: 1100px) {
+@media (min-width: 1180px) {
   .main-nav { display: block; }
   .site-header__tools { margin-left: .5rem; }
   .mobile-nav { display: none; }
