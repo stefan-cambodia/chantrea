@@ -374,8 +374,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.lead` | Chantrea Systems គឺជាមនុស្សម្នាក់៖ ខ្ញុំ Stefan។ ខ្ញុំរស់នៅកំពត កម្ពុជា។ | Chantrea Systems, c'est une personne : moi, Stefan. Je suis installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | ហេតុអ្វីបានជាឈ្មោះ «Chantrea» | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea (ចន្ទ្រា) មានន័យថា «ពន្លឺព្រះចន្ទ» ជាភាសាខ្មែរ។ ពន្លឺដ៏ស្ងប់ ដែលបំភ្លឺដោយមិនចាំងភ្នែក។ នោះហើយជាអ្វីដែលខ្ញុំចង់នាំមកឱ្យឧបករណ៍របស់លោកអ្នក។ | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
-| ⏳ à relire | `about.sections.1.title` | មនុស្សតែម្នាក់សម្រាប់ទំនាក់ទំនង | Un seul interlocuteur |
-| ⏳ à relire | `about.sections.1.text` | លោកអ្នកនិយាយផ្ទាល់ជាមួយមនុស្សដែលធ្វើការងារ។ គ្មានអ្នកកណ្ដាល គ្មានសារបាត់បង់រវាងផ្នែកផ្សេងៗ។ ខ្ញុំប្រាប់លោកអ្នកឱ្យច្បាស់ពីអ្វីដែលខ្ញុំអាចធ្វើបាន និងអ្វីដែលខ្ញុំមិនធ្វើ។ | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
+| ⏳ à relire | `about.sections.1.title` | ខ្ញុំចូលរួមក្នុងការសន្ទនា | Un seul interlocuteur |
+| ⏳ à relire | `about.sections.1.text` | លោកអ្នកនិយាយជាមួយអ្នកបកប្រែរបស់ខ្ញុំ ជាភាសារបស់លោកអ្នក ហើយខ្ញុំក៏ចូលរួមក្នុងការសន្ទនាដែរ។ ការបកប្រែធ្វើឡើងដោយបញ្ញាសិប្បនិម្មិត (AI) និងដោយអ្នកបកប្រែរបស់ខ្ញុំ។ គ្មានសារណាមួយបាត់បង់នៅចន្លោះផ្នែកផ្សេងៗឡើយ។ ខ្ញុំប្រាប់លោកអ្នកយ៉ាងច្បាស់ពីអ្វីដែលខ្ញុំអាចធ្វើបាន និងអ្វីដែលខ្ញុំមិនធ្វើ។ | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
 | ⏳ à relire | `about.sections.2.title` | អ្វីដែលខ្ញុំចាប់អារម្មណ៍ | Ce qui m'intéresse |
 | ⏳ à relire | `about.sections.2.text` | Linux និងកម្មវិធីសេរី (free software) Android ហ្គេមវីដេអូ ឧបករណ៍បញ្ញាសិប្បនិម្មិត ការសរសេរកម្មវិធីបែបច្នៃប្រឌិត។ | Linux et le logiciel libre, Android, le jeu vidéo, les outils d'intelligence artificielle, la programmation créative. |
 | ⏳ à relire | `about.sections.3.title` | ប្រវត្តិការងារ | Parcours |
@@ -775,8 +775,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.lead` | Chantrea Systems — это один человек: я, Стефан. Я живу в Кампоте, Камбоджа. | Chantrea Systems, c'est une personne : moi, Stefan. Je suis installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | Почему «Chantrea» | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea по-кхмерски значит «лунный свет». Спокойный свет, который освещает, но не слепит. Именно это я хочу привнести в ваши инструменты. | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
-| ⏳ à relire | `about.sections.1.title` | Один человек на связи | Un seul interlocuteur |
-| ⏳ à relire | `about.sections.1.text` | Вы говорите напрямую с тем, кто делает работу. Без посредников и без сообщений, потерянных между отделами. Я честно говорю, что могу сделать, а чего не делаю. | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
+| ⏳ à relire | `about.sections.1.title` | Вы общаетесь напрямую со мной | Un seul interlocuteur |
+| ⏳ à relire | `about.sections.1.text` | Вы общаетесь напрямую со мной, на своём языке: перевод делает ИИ. Без посредников, сообщения не теряются между отделами. Я прямо говорю, что могу сделать, а чего не делаю. | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
 | ⏳ à relire | `about.sections.2.title` | Что мне интересно | Ce qui m'intéresse |
 | ⏳ à relire | `about.sections.2.text` | Linux и свободное ПО, Android, видеоигры, инструменты искусственного интеллекта, творческое программирование. | Linux et le logiciel libre, Android, le jeu vidéo, les outils d'intelligence artificielle, la programmation créative. |
 | ⏳ à relire | `about.sections.3.title` | Опыт | Parcours |
@@ -1175,8 +1175,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.lead` | Chantrea Systems 是一个人：我，Stefan。我住在柬埔寨贡布。 | Chantrea Systems, c'est une personne : moi, Stefan. Je suis installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | 为什么叫「Chantrea」 | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea 在高棉语里是「月光」的意思。一种平静的光，照亮四周，却不刺眼。这正是我想为您的工具带来的。 | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
-| ⏳ à relire | `about.sections.1.title` | 只需对接一个人 | Un seul interlocuteur |
-| ⏳ à relire | `about.sections.1.text` | 您直接和做事的人沟通。没有中间人，信息不会在多个部门之间丢失。我会清楚告诉您，我能做什么，不做什么。 | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
+| ⏳ à relire | `about.sections.1.title` | 您直接与我沟通 | Un seul interlocuteur |
+| ⏳ à relire | `about.sections.1.text` | 您用自己的语言直接与我沟通，翻译由人工智能完成。没有中间人，信息不会在多个部门之间遗漏。我会清楚地告诉您，我能做什么，不做什么。 | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
 | ⏳ à relire | `about.sections.2.title` | 我感兴趣的 | Ce qui m'intéresse |
 | ⏳ à relire | `about.sections.2.text` | Linux 和自由软件、Android、电子游戏、人工智能工具、创意编程。 | Linux et le logiciel libre, Android, le jeu vidéo, les outils d'intelligence artificielle, la programmation créative. |
 | ⏳ à relire | `about.sections.3.title` | 经历 | Parcours |
