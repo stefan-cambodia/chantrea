@@ -159,6 +159,10 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .main-nav a, .mobile-nav a { display: block; white-space: nowrap; padding: .5rem .6rem; border-radius: 8px; color: var(--night-text) !important; text-decoration: none; }
 .main-nav a:hover, .mobile-nav a:hover { background: var(--night-surface); }
 .main-nav a[aria-current="page"], .mobile-nav a[aria-current="page"] { color: var(--moon) !important; }
+/* Espace client : lien vers une autre application, encadré pour le distinguer des pages du site. */
+.main-nav .nav-portal a, .mobile-nav .nav-portal a { border: 1px solid var(--night-line); }
+.main-nav .nav-portal { margin-left: .4rem; }
+.mobile-nav .nav-portal { margin-top: .4rem; }
 .site-header__tools { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
 .lang-switcher { position: relative; }
 .lang-switcher summary, .mobile-nav summary {
@@ -189,6 +193,12 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   .main-nav { display: block; }
   .site-header__tools { margin-left: .5rem; }
   .mobile-nav { display: none; }
+}
+/* Avec le lien « Espace client », le menu complet demande plus de place (russe : 1280 px). */
+@media (min-width: 1180px) and (max-width: 1299.98px) {
+  .has-portal .main-nav { display: none; }
+  .has-portal .site-header__tools { margin-left: auto; }
+  .has-portal .mobile-nav { display: block; }
 }
 
 /* ─── Accueil ──────────────────────────────────────────────── */

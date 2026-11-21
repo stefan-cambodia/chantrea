@@ -21,6 +21,7 @@ npm run preview    # affiche le site final
 | un texte du site                                    | `src/i18n/<langue>.json` (fr, en, km, ru, zh) |
 | l'e-mail, Telegram, WhatsApp                        | `site.config.mjs`                          |
 | les mentions légales du pied de page                | `site.config.mjs` → `legal`                |
+| le lien « Espace client » (application Odoo)        | `site.config.mjs` → `portalUrl` (`null` = lien masqué) |
 | l'adresse du site (domaine)                         | `site.config.mjs` → `site` et `base`, voir `docs/DOMAINE.md` |
 | la liste des réalisations                           | `src/data/projects.js` + `work.items` dans chaque langue |
 | les couleurs                                        | `src/styles/global.css`, en haut du fichier |

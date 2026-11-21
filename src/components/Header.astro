@@ -3,6 +3,7 @@ import Brand from './Brand.astro';
 import LangSwitcher from './LangSwitcher.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import { t, href } from '../i18n/index.js';
+import config from '../../site.config.mjs';
 interface Props { lang: string; page?: string }
 const { lang, page = '' } = Astro.props;
 const tr = t(lang);
@@ -11,15 +12,18 @@ const links = ['services', 'hms', 'rally', 'angkor', 'work', 'about', 'contact']
   label: tr.nav[slug],
   current: page === slug ? 'page' : page.startsWith(`${slug}/`) ? 'true' : undefined,
 }));
+// Lien « Espace client » : affiché seulement quand portalUrl est renseigné dans site.config.mjs.
+const portal = config.portalUrl;
 ---
 <a class="skip-link" href="#main">{tr.a11y.skip}</a>
-<header class="site-header night">
+<header class={portal ? 'site-header night has-portal' : 'site-header night'}>
   <div class="container site-header__bar">
     <Brand home={href(lang)} label={tr.a11y.home} id="logo-h" />
 
     <nav class="main-nav" aria-label={tr.a11y.mainNav}>
       <ul>
         {links.map((l) => <li><a href={href(lang, l.slug)} aria-current={l.current}>{l.label}</a></li>)}
+        {portal && <li class="nav-portal"><a href={portal}>{tr.nav.portal}</a></li>}
       </ul>
     </nav>
 
@@ -34,6 +38,7 @@ const links = ['services', 'hms', 'rally', 'angkor', 'work', 'about', 'contact']
         <nav aria-label={tr.a11y.mainNav}>
           <ul>
             {links.map((l) => <li><a href={href(lang, l.slug)} aria-current={l.current}>{l.label}</a></li>)}
+            {portal && <li class="nav-portal"><a href={portal}>{tr.nav.portal}</a></li>}
           </ul>
         </nav>
       </details>

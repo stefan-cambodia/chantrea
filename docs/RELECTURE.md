@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 394 textes relus.
+0 / 395 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -47,6 +47,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.work` | ស្នាដៃ | Réalisations |
 | ⏳ à relire | `nav.about` | អំពីខ្ញុំ | À propos |
 | ⏳ à relire | `nav.contact` | ទំនាក់ទំនង | Contact |
+| ⏳ à relire | `nav.portal` | តំបន់អតិថិជន | Espace client |
 | ⏳ à relire | `home.hero.eyebrow` | សេវាកម្មព័ត៌មានវិទ្យា · កំពត កម្ពុជា | Services informatiques · Kampot, Cambodge |
 | ⏳ à relire | `home.hero.title` | ឧបករណ៍ព័ត៌មានវិទ្យាច្បាស់លាស់ សម្រាប់អាជីវកម្មរបស់លោកអ្នក។ | Des outils informatiques clairs, pour votre entreprise. |
 | ⏳ à relire | `home.hero.lead` | គេហទំព័រ កម្មវិធី បញ្ញាសិប្បនិម្មិត ម៉ាស៊ីនមេ (server)។ ខ្ញុំរចនា ដំឡើង និងថែទាំ។ លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ ជាភាសារបស់លោកអ្នក។ | Sites web, applications, intelligence artificielle, serveurs. Je conçois, j'installe et j'entretiens. Vous parlez toujours à la même personne. |
@@ -409,7 +410,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 393 textes relus.
+0 / 394 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -448,6 +449,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.work` | Проекты | Réalisations |
 | ⏳ à relire | `nav.about` | Обо мне | À propos |
 | ⏳ à relire | `nav.contact` | Контакты | Contact |
+| ⏳ à relire | `nav.portal` | Личный кабинет | Espace client |
 | ⏳ à relire | `home.hero.eyebrow` | IT-услуги · Кампот, Камбоджа | Services informatiques · Kampot, Cambodge |
 | ⏳ à relire | `home.hero.title` | Понятные IT-инструменты для вашего бизнеса. | Des outils informatiques clairs, pour votre entreprise. |
 | ⏳ à relire | `home.hero.lead` | Сайты, приложения, искусственный интеллект, серверы. Я проектирую, устанавливаю и обслуживаю. Вы всегда общаетесь с одним и тем же человеком. | Sites web, applications, intelligence artificielle, serveurs. Je conçois, j'installe et j'entretiens. Vous parlez toujours à la même personne. |
@@ -809,7 +811,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 393 textes relus.
+0 / 394 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -848,6 +850,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.work` | 项目案例 | Réalisations |
 | ⏳ à relire | `nav.about` | 关于 | À propos |
 | ⏳ à relire | `nav.contact` | 联系 | Contact |
+| ⏳ à relire | `nav.portal` | 客户专区 | Espace client |
 | ⏳ à relire | `home.hero.eyebrow` | IT 服务 · 柬埔寨贡布 | Services informatiques · Kampot, Cambodge |
 | ⏳ à relire | `home.hero.title` | 清晰好用的 IT 工具，为您的企业服务。 | Des outils informatiques clairs, pour votre entreprise. |
 | ⏳ à relire | `home.hero.lead` | 网站、应用、人工智能、服务器。我负责设计、安装和维护。您始终和同一个人沟通。 | Sites web, applications, intelligence artificielle, serveurs. Je conçois, j'installe et j'entretiens. Vous parlez toujours à la même personne. |

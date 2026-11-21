@@ -24,6 +24,10 @@ export default {
     whatsapp: '[À COMPLÉTER]',
   },
 
+  // Adresse de l'espace client Odoo, par exemple 'https://espace.chantreasystems.com/my'.
+  // null = lien masqué.
+  portalUrl: null,
+
   location: {
     city: 'Kampot',
     countryCode: 'KH',
