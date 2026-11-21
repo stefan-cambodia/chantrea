@@ -1,6 +1,9 @@
 // Captures d'écran d'Angkor World Engine.
 // Source : dépôt angkor, docs/screenshots/ — captures au 21 novembre 2026.
-// Pour les remplacer : copier les nouvelles images dans src/assets/angkor/ sous le même nom.
+// Recadrées pour enlever le texte technique du moteur : en haut (4 lignes, 5 en vue de conduite)
+// et la ligne de crédits en bas, avec le format 16:9 conservé ; l'éditeur n'est coupé qu'en bas.
+// Les crédits des données sont affichés sur la page (angkor.credits).
+// Pour les remplacer : copier les nouvelles images dans src/assets/angkor/ sous le même nom, recadrées de même.
 //
 // caption : clé du texte dans angkor.gallery.captions de chaque fichier de langue.
 // La première capture est affichée en grand.
