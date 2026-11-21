@@ -19,3 +19,24 @@ Ces règles s'appliquent à toute modification des textes du site, dans les cinq
   les clients échangent directement avec Stefan, et la traduction est faite par l'IA.
 - N'écris nulle part que des traducteurs humains sont disponibles, ni qu'ils arriveront
   bientôt.
+- Français : le client échange directement avec Stefan. Le bloc « Un seul interlocuteur »
+  (`about.sections.1`) reste tel quel.
+
+## Quand Stefan annonce un traducteur pour une langue
+
+Ne passer une langue à la version « avec traducteur » que sur demande explicite de Stefan,
+langue par langue.
+
+1. Faire relire au traducteur tous les textes de sa langue (`docs/RELECTURE.md`), puis
+   noter les clés relues dans `docs/relecture-statut.json`.
+2. Remplacer le bloc `about.sections.1` de cette langue (mêmes clés `title` et `text`) par
+   la traduction du texte de référence :
+   - Titre : « Je participe à la conversation »
+   - Texte : « Vous parlez, dans votre langue, à un traducteur qui travaille avec moi,
+     autant que possible toujours le même, et je participe à la conversation. La traduction
+     est faite à la fois par l'IA et par le traducteur. Pas de message perdu entre plusieurs
+     services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. »
+3. Repérer les autres textes de cette langue qui disent « vous me parlez directement »
+   (lead de l'accueil, bloc de l'accueil, description Services, page Web et Android) et
+   proposer leur mise à jour ; attendre l'accord de Stefan avant de les changer.
+4. Relancer `node scripts/relecture.mjs`.
