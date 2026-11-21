@@ -218,6 +218,22 @@
               "You stay in control: the AI suggests, a person decides.",
               "I tell you honestly what AI does badly, and what it costs."
             ]
+          },
+          {
+            "title": "AI that stays on your premises",
+            "text": "With Ollama, open AI models run on a server installed on your premises. Your documents do not go out on the internet."
+          },
+          {
+            "title": "The hardware",
+            "text": "A server or a computer with a graphics card, chosen for the task and the number of users. I tell you what you really need."
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "Quality varies between languages, Khmer in particular: we test on your documents before deciding.",
+              "An AI installed on your premises is less powerful than the biggest online services.",
+              "The server needs an air-conditioned room and a UPS."
+            ]
           }
         ]
       },

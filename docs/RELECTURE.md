@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 406 textes relus.
+0 / 414 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -136,6 +136,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.1.list.0` | យើងចាប់ផ្ដើមពីតូច លើការងារតែមួយ។ | On commence petit, sur une seule tâche. |
 | ⏳ à relire | `services.items.1.sections.1.list.1` | លោកអ្នកនៅតែជាអ្នកគ្រប់គ្រង៖ AI ផ្ដល់យោបល់ មនុស្សជាអ្នកសម្រេចចិត្ត។ | Vous gardez la main : l'IA propose, une personne décide. |
 | ⏳ à relire | `services.items.1.sections.1.list.2` | ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ពីអ្វីដែល AI ធ្វើមិនបានល្អ និងតម្លៃរបស់វា។ | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.1.sections.2.title` | AI ដែលនៅក្នុងទីតាំងរបស់លោកអ្នក | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.1.sections.2.text` | ជាមួយ Ollama ម៉ូដែល AI បើកចំហ ដំណើរការលើម៉ាស៊ីនមេ (server) ដែលដំឡើងនៅក្នុងទីតាំងរបស់លោកអ្នក។ ឯកសាររបស់លោកអ្នកមិនត្រូវបានបញ្ជូនទៅលើអ៊ីនធឺណិតទេ។ | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
+| ⏳ à relire | `services.items.1.sections.3.title` | ឧបករណ៍ | Le matériel |
+| ⏳ à relire | `services.items.1.sections.3.text` | ម៉ាស៊ីនមេ (server) ឬកុំព្យូទ័រដែលមានកាតក្រាហ្វិក ជ្រើសរើសតាមការងារ និងចំនួនអ្នកប្រើប្រាស់។ ខ្ញុំប្រាប់លោកអ្នកពីអ្វីដែលលោកអ្នកពិតជាត្រូវការ។ | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.1.sections.4.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.4.list.0` | គុណភាពខុសគ្នាតាមភាសា ជាពិសេសភាសាខ្មែរ៖ យើងសាកល្បងលើឯកសាររបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.1.sections.4.list.1` | AI ដែលដំឡើងនៅទីតាំងរបស់លោកអ្នក មានសមត្ថភាពតិចជាងសេវាអនឡាញធំៗបំផុត។ | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.1.sections.4.list.2` | ម៉ាស៊ីនមេត្រូវការបន្ទប់ដែលមានម៉ាស៊ីនត្រជាក់ និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS)។ | Le serveur demande une pièce climatisée et un onduleur. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | ហេដ្ឋារចនាសម្ព័ន្ធ | Infrastructure |
 | ⏳ à relire | `services.items.2.summary` | ការដំឡើងម៉ាស៊ីនមេ (server) បណ្ដាញ Wi-Fi និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS) ការតខ្សែបណ្ដាញ Windows និង Linux និម្មិតកម្ម (virtualization) ជាមួយ XCP-ng។ | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |
@@ -421,7 +429,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 405 textes relus.
+0 / 413 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -549,6 +557,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.1.list.0` | Начинаем с малого, с одной задачи. | On commence petit, sur une seule tâche. |
 | ⏳ à relire | `services.items.1.sections.1.list.1` | Контроль остаётся за вами: ИИ предлагает, решает человек. | Vous gardez la main : l'IA propose, une personne décide. |
 | ⏳ à relire | `services.items.1.sections.1.list.2` | Я честно говорю, что ИИ делает плохо и сколько он стоит. | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.1.sections.2.title` | ИИ, который остаётся у вас | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.1.sections.2.text` | С Ollama открытые модели ИИ работают на сервере, установленном в вашем помещении. Ваши документы не уходят в интернет. | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
+| ⏳ à relire | `services.items.1.sections.3.title` | Оборудование | Le matériel |
+| ⏳ à relire | `services.items.1.sections.3.text` | Сервер или компьютер с видеокартой, подобранный под задачу и число пользователей. Я скажу, что вам действительно нужно. | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.1.sections.4.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.4.list.0` | Качество зависит от языка, особенно для кхмерского: мы проверяем на ваших документах, прежде чем решать. | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.1.sections.4.list.1` | ИИ, установленный у вас, слабее крупнейших онлайн-сервисов. | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.1.sections.4.list.2` | Серверу нужны помещение с кондиционером и ИБП. | Le serveur demande une pièce climatisée et un onduleur. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | Инфраструктура | Infrastructure |
 | ⏳ à relire | `services.items.2.summary` | Установка серверов, сетей, Wi-Fi и ИБП, прокладка кабелей, Windows и Linux, виртуализация на XCP-ng. | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |
@@ -833,7 +849,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 405 textes relus.
+0 / 413 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -961,6 +977,14 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.1.list.0` | 从小处开始，先做一项任务。 | On commence petit, sur une seule tâche. |
 | ⏳ à relire | `services.items.1.sections.1.list.1` | 主导权在您：AI 提建议，由人做决定。 | Vous gardez la main : l'IA propose, une personne décide. |
 | ⏳ à relire | `services.items.1.sections.1.list.2` | 我会坦白告诉您 AI 哪些地方做不好，以及它的成本。 | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.1.sections.2.title` | 留在您那里的 AI | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.1.sections.2.text` | 借助 Ollama，开放的 AI 模型运行在安装于您场所内的服务器上。您的文件不会传到互联网上。 | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
+| ⏳ à relire | `services.items.1.sections.3.title` | 设备 | Le matériel |
+| ⏳ à relire | `services.items.1.sections.3.text` | 一台服务器或一台配有显卡的电脑，根据任务和用户人数来选。我会告诉您真正需要什么。 | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.1.sections.4.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.4.list.0` | 不同语言的效果不一样，高棉语尤其如此：我们先用您的文件测试，再做决定。 | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.1.sections.4.list.1` | 装在您那里的 AI 不如最大的在线服务强大。 | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.1.sections.4.list.2` | 服务器需要一间有空调的房间和一台 UPS 不间断电源。 | Le serveur demande une pièce climatisée et un onduleur. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | 基础设施 | Infrastructure |
 | ⏳ à relire | `services.items.2.summary` | 安装服务器、网络、Wi-Fi 和 UPS 不间断电源，布线，Windows 和 Linux，用 XCP-ng 做虚拟化。 | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |

@@ -218,6 +218,22 @@
               "Vous gardez la main : l'IA propose, une personne décide.",
               "Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte."
             ]
+          },
+          {
+            "title": "Une IA qui reste chez vous",
+            "text": "Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet."
+          },
+          {
+            "title": "Le matériel",
+            "text": "Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin."
+          },
+          {
+            "title": "Ce qu'il faut savoir",
+            "list": [
+              "La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider.",
+              "Une IA installée chez vous est moins puissante que les plus grands services en ligne.",
+              "Le serveur demande une pièce climatisée et un onduleur."
+            ]
           }
         ]
       },
