@@ -8,16 +8,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 414 textes relus.
+0 / 443 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
 | ⏳ à relire | `meta.home.title` | Chantrea Systems — សេវាកម្មព័ត៌មានវិទ្យានៅកំពត កម្ពុជា | Chantrea Systems — Services informatiques à Kampot, Cambodge |
-| ⏳ à relire | `meta.home.description` | គេហទំព័រច្រើនភាសា កម្មវិធី Android ការបញ្ចូល AI ជំនួយ Windows និង Linux កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ។ មានមូលដ្ឋាននៅកំពត កម្ពុជា។ នៅនឹងកន្លែង ឬពីចម្ងាយ។ | Sites web multilingues, applications Android, intégration d'IA, support Windows et Linux, logiciel de gestion hôtelière. Basé à Kampot, au Cambodge. Sur place ou à distance. |
+| ⏳ à relire | `meta.home.description` | គេហទំព័រច្រើនភាសា កម្មវិធី Android ការដំឡើង Odoo និង Nextcloud ការបញ្ចូល AI ជំនួយ Windows និង Linux កម្មវិធីសណ្ឋាគារ។ នៅកំពត កម្ពុជា។ នៅនឹងកន្លែង ឬពីចម្ងាយ។ | Sites web multilingues, applications Android, Odoo et Nextcloud, IA, support Windows et Linux, logiciel hôtelier. Kampot, Cambodge. Sur place ou à distance. |
 | ⏳ à relire | `meta.chooser.title` | Chantrea Systems | Chantrea Systems |
 | ⏳ à relire | `meta.chooser.description` | សេវាកម្មព័ត៌មានវិទ្យានៅកំពត កម្ពុជា។ សូមជ្រើសរើសភាសារបស់លោកអ្នក។ | Services informatiques à Kampot, Cambodge. Choisissez votre langue. |
 | ⏳ à relire | `meta.services.title` | សេវាកម្ម — Chantrea Systems | Services — Chantrea Systems |
-| ⏳ à relire | `meta.services.description` | ការអភិវឌ្ឍគេហទំព័រ និង Android បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ Windows និង Linux សុវត្ថិភាពព័ត៌មានវិទ្យា។ នៅកំពត ឬពីចម្ងាយ ជាភាសារបស់លោកអ្នក។ | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
+| ⏳ à relire | `meta.services.description` | គេហទំព័រ និង Android ការដំឡើង Odoo និង Nextcloud បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ Windows និង Linux សុវត្ថិភាពព័ត៌មានវិទ្យា។ នៅកំពត ឬពីចម្ងាយ ជាភាសារបស់លោកអ្នក។ | Développement web et Android, Odoo et Nextcloud, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. À Kampot ou à distance. |
 | ⏳ à relire | `meta.hms.title` | HMS កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ — Chantrea Systems | HMS, logiciel de gestion hôtelière — Chantrea Systems |
 | ⏳ à relire | `meta.hms.description` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន និងរបាយការណ៍ ក្នុងកម្មវិធីតែមួយ។ សម្រាប់សណ្ឋាគារ និងផ្ទះសំណាក់ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
 | ⏳ à relire | `meta.rally.title` | Cambodia Rally ការប្រណាំង 3D ជុំវិញអង្គរ — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
@@ -54,7 +54,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.hero.ctaPrimary` | ពិភាក្សាអំពីគម្រោងរបស់លោកអ្នក | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | មើលសេវាកម្ម | Voir les services |
 | ⏳ à relire | `home.services.title` | អ្វីដែលខ្ញុំធ្វើ | Ce que je fais |
-| ⏳ à relire | `home.services.intro` | បួនផ្នែក។ ខ្ញុំឆ្លើយតបលោកអ្នកដោយខ្លួនឯង។ | Quatre domaines. Je vous réponds moi-même. |
+| ⏳ à relire | `home.services.intro` | ប្រាំផ្នែក។ ខ្ញុំឆ្លើយតបលោកអ្នកដោយខ្លួនឯង។ | Cinq domaines. Je vous réponds moi-même. |
 | ⏳ à relire | `home.hms.eyebrow` | ផលិតផល | Produit |
 | ⏳ à relire | `home.hms.title` | HMS កម្មវិធីគ្រប់គ្រងសណ្ឋាគាររបស់លោកអ្នក | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន៖ ទាំងអស់នៅកន្លែងតែមួយ។ ប្រើលើកុំព្យូទ័រ ថេប្លេត ឬទូរស័ព្ទ។ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -107,7 +107,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | កម្មវិធីសណ្ឋាគារ គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម Android និងឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ | Un logiciel hôtelier, un site pour apprendre le khmer, des jeux Android, des instruments de musique dans le navigateur. |
 | ⏳ à relire | `home.work.cta` | មើលស្នាដៃ | Voir les réalisations |
 | ⏳ à relire | `services.title` | សេវាកម្ម | Services |
-| ⏳ à relire | `services.lead` | បួនផ្នែក។ នៅនឹងកន្លែងនៅកំពត ពីចម្ងាយសម្រាប់កន្លែងផ្សេងទៀត។ | Quatre domaines. Sur place à Kampot, à distance partout ailleurs. |
+| ⏳ à relire | `services.lead` | ប្រាំផ្នែក។ នៅនឹងកន្លែងនៅកំពត ពីចម្ងាយសម្រាប់កន្លែងផ្សេងទៀត។ | Cinq domaines. Sur place à Kampot, à distance partout ailleurs. |
 | ⏳ à relire | `services.more` | ស្វែងយល់បន្ថែម | En savoir plus |
 | ⏳ à relire | `services.back` | សេវាកម្មទាំងអស់ | Tous les services |
 | ⏳ à relire | `services.items.0.id` | development | development |
@@ -123,54 +123,83 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.sections.2.list.1` | ការពន្យល់អំពីរបៀបប្រើប្រាស់។ | Des explications pour vous en servir. |
 | ⏳ à relire | `services.items.0.sections.2.list.2` | លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ ពីដើមដល់ចប់។ | Un seul interlocuteur, du début à la fin. |
 | ⏳ à relire | `services.items.0.examples` | ឧទាហរណ៍៖ គេហទំព័ររៀនភាសាជាបីភាសា ហ្គេម Android 3D។ | Exemples : un site d'apprentissage en trois langues, des jeux Android en 3D. |
-| ⏳ à relire | `services.items.1.id` | ai | ai |
-| ⏳ à relire | `services.items.1.title` | បញ្ញាសិប្បនិម្មិត (AI) | Intelligence artificielle |
-| ⏳ à relire | `services.items.1.summary` | បន្ថែម AI ទៅក្នុងឧបករណ៍ដែលលោកអ្នកកំពុងប្រើស្រាប់។ តែនៅកន្លែងដែលវាពិតជាជួយសន្សំពេលវេលាប៉ុណ្ណោះ។ | Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps. |
-| ⏳ à relire | `services.items.1.lead` | AI អាចជួយសន្សំពេលវេលាលើការងារដែលធ្វើដដែលៗ។ ខ្ញុំបន្ថែមវាទៅក្នុងឧបករណ៍ដែលលោកអ្នកមានស្រាប់ ដោយមិនចាំបាច់ផ្លាស់ប្ដូរអ្វីៗទាំងអស់។ | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
-| ⏳ à relire | `services.items.1.sections.0.title` | ឧទាហរណ៍មួយចំនួនដែលអាចធ្វើបាន | Quelques exemples possibles |
-| ⏳ à relire | `services.items.1.sections.0.list.0` | រៀបចំចម្លើយចំពោះសំណួរដែលអតិថិជនសួរញឹកញាប់។ | Préparer des réponses aux questions fréquentes de vos clients. |
-| ⏳ à relire | `services.items.1.sections.0.list.1` | បកប្រែអត្ថបទរវាងភាសាខ្មែរ អង់គ្លេស បារាំង និងភាសាផ្សេងទៀត។ | Traduire des textes entre le khmer, l'anglais, le français et d'autres langues. |
-| ⏳ à relire | `services.items.1.sections.0.list.2` | សង្ខេប ឬតម្រៀបឯកសារ និងអ៊ីមែល។ | Résumer ou trier des documents et des e-mails. |
-| ⏳ à relire | `services.items.1.sections.0.list.3` | ទាញយកព័ត៌មានពីវិក្កយបត្រ ឬទម្រង់បែបបទ។ | Relever des informations dans des factures ou des formulaires. |
-| ⏳ à relire | `services.items.1.sections.1.title` | វិធីធ្វើការរបស់ខ្ញុំ | Ma façon de faire |
-| ⏳ à relire | `services.items.1.sections.1.list.0` | យើងចាប់ផ្ដើមពីតូច លើការងារតែមួយ។ | On commence petit, sur une seule tâche. |
-| ⏳ à relire | `services.items.1.sections.1.list.1` | លោកអ្នកនៅតែជាអ្នកគ្រប់គ្រង៖ AI ផ្ដល់យោបល់ មនុស្សជាអ្នកសម្រេចចិត្ត។ | Vous gardez la main : l'IA propose, une personne décide. |
-| ⏳ à relire | `services.items.1.sections.1.list.2` | ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ពីអ្វីដែល AI ធ្វើមិនបានល្អ និងតម្លៃរបស់វា។ | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
-| ⏳ à relire | `services.items.1.sections.2.title` | AI ដែលនៅក្នុងទីតាំងរបស់លោកអ្នក | Une IA qui reste chez vous |
-| ⏳ à relire | `services.items.1.sections.2.text` | ជាមួយ Ollama ម៉ូដែល AI បើកចំហ ដំណើរការលើម៉ាស៊ីនមេ (server) ដែលដំឡើងនៅក្នុងទីតាំងរបស់លោកអ្នក។ ឯកសាររបស់លោកអ្នកមិនត្រូវបានបញ្ជូនទៅលើអ៊ីនធឺណិតទេ។ | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
-| ⏳ à relire | `services.items.1.sections.3.title` | ឧបករណ៍ | Le matériel |
-| ⏳ à relire | `services.items.1.sections.3.text` | ម៉ាស៊ីនមេ (server) ឬកុំព្យូទ័រដែលមានកាតក្រាហ្វិក ជ្រើសរើសតាមការងារ និងចំនួនអ្នកប្រើប្រាស់។ ខ្ញុំប្រាប់លោកអ្នកពីអ្វីដែលលោកអ្នកពិតជាត្រូវការ។ | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
-| ⏳ à relire | `services.items.1.sections.4.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.1.sections.4.list.0` | គុណភាពខុសគ្នាតាមភាសា ជាពិសេសភាសាខ្មែរ៖ យើងសាកល្បងលើឯកសាររបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
-| ⏳ à relire | `services.items.1.sections.4.list.1` | AI ដែលដំឡើងនៅទីតាំងរបស់លោកអ្នក មានសមត្ថភាពតិចជាងសេវាអនឡាញធំៗបំផុត។ | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
-| ⏳ à relire | `services.items.1.sections.4.list.2` | ម៉ាស៊ីនមេត្រូវការបន្ទប់ដែលមានម៉ាស៊ីនត្រជាក់ និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS)។ | Le serveur demande une pièce climatisée et un onduleur. |
-| ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
-| ⏳ à relire | `services.items.2.title` | ហេដ្ឋារចនាសម្ព័ន្ធ | Infrastructure |
-| ⏳ à relire | `services.items.2.summary` | ការដំឡើងម៉ាស៊ីនមេ (server) បណ្ដាញ Wi-Fi និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS) ការតខ្សែបណ្ដាញ Windows និង Linux និម្មិតកម្ម (virtualization) ជាមួយ XCP-ng។ | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |
-| ⏳ à relire | `services.items.2.lead` | ចាប់ពីការជ្រើសរើសឧបករណ៍ រហូតដល់ការថែទាំ ខ្ញុំមើលការខុសត្រូវលើការដំឡើងរបស់លោកអ្នក ពីដើមដល់ចប់។ | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
-| ⏳ à relire | `services.items.2.sections.0.title` | ឧបករណ៍ | Le matériel |
-| ⏳ à relire | `services.items.2.sections.0.text` | ម៉ាស៊ីនមេ (server) ស្វីច (switch) ជញ្ជាំងភ្លើង (firewall) Wi-Fi ឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS) និងឧបករណ៍ផ្ទុកទិន្នន័យបម្រុងទុក (backup)។ ឧបករណ៍ថ្មី ទិញពីអ្នកចែកចាយផ្លូវការនៅកម្ពុជា ជាមួយការធានាពីក្រុមហ៊ុនផលិត។ ខ្ញុំជ្រើសរើសអ្វីដែលសមនឹងទំហំអាជីវកម្មរបស់លោកអ្នក មិនមែនអ្វីដែលថ្លៃបំផុតទេ។ | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
-| ⏳ à relire | `services.items.2.sections.1.title` | ការតខ្សែបណ្ដាញ | Le câblage |
-| ⏳ à relire | `services.items.2.sections.1.text` | ការតខ្សែបណ្ដាញ ធ្វើឡើងដោយអ្នកដំឡើងដែលខ្ញុំជ្រើសរើស និងត្រួតពិនិត្យ។ រន្ធភ្ជាប់នីមួយៗត្រូវបានសាកល្បង និងបិទស្លាក។ លោកអ្នកទទួលបានប្លង់បណ្ដាញរបស់លោកអ្នក។ | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
-| ⏳ à relire | `services.items.2.sections.2.title` | Windows និង Linux | Windows et Linux |
-| ⏳ à relire | `services.items.2.sections.2.text` | ការដំឡើង ការធ្វើបច្ចុប្បន្នភាព (update) និងការជួសជុលកុំព្យូទ័រការិយាល័យ និងម៉ាស៊ីនមេ ទាំង Windows និង Linux។ | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
-| ⏳ à relire | `services.items.2.sections.3.title` | និម្មិតកម្មជាមួយ XCP-ng | Virtualisation avec XCP-ng |
-| ⏳ à relire | `services.items.2.sections.3.text` | ម៉ាស៊ីនមេនិម្មិតច្រើននៅលើម៉ាស៊ីនពិតតែមួយ៖ ទិញឧបករណ៍តិចជាងមុន ការបម្រុងទុកទិន្នន័យ (backup) ងាយស្រួលជាងមុន និងដំណើរការឡើងវិញលឿនជាងមុន ក្រោយពេលខូច។ | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
-| ⏳ à relire | `services.items.2.sections.4.title` | ដំណើរការការងារ | Comment ça se passe |
-| ⏳ à relire | `services.items.2.sections.4.list.0` | ការចុះពិនិត្យទីតាំង។ | Visite des lieux. |
-| ⏳ à relire | `services.items.2.sections.4.list.1` | តារាងតម្លៃលម្អិត៖ ឧបករណ៍ ការតខ្សែ និងកម្លាំងពលកម្ម ដាច់ដោយឡែកពីគ្នា។ | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
-| ⏳ à relire | `services.items.2.sections.4.list.2` | ការបញ្ជាទិញឧបករណ៍ បន្ទាប់មកការដំឡើង។ | Commande du matériel, puis installation. |
-| ⏳ à relire | `services.items.2.sections.4.list.3` | ការប្រគល់ឯកសារ៖ ប្លង់បណ្ដាញ បញ្ជីឧបករណ៍ និងប័ណ្ណធានា។ | Remise des documents : plan du réseau, liste du matériel, garanties. |
-| ⏳ à relire | `services.items.2.sections.5.title` | កិច្ចសន្យាថែទាំ | Contrat de maintenance |
-| ⏳ à relire | `services.items.2.sections.5.text` | ការតាមដានជាប្រចាំ ការធ្វើបច្ចុប្បន្នភាព និងការចុះជួសជុលពេលមានបញ្ហា។ កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
-| ⏳ à relire | `services.items.2.sections.6.title` | នៅនឹងកន្លែង ឬពីចម្ងាយ | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.6.text` | នៅនឹងកន្លែងនៅកំពត។ នៅកន្លែងផ្សេងទៀត ពីចម្ងាយនៅពេលដែលអាចធ្វើបាន។ | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
-| ⏳ à relire | `services.items.3.id` | security | security |
-| ⏳ à relire | `services.items.3.title` | សុវត្ថិភាពព័ត៌មានវិទ្យា | Sécurité informatique |
-| ⏳ à relire | `services.items.3.summary` | ការការពារទិន្នន័យ និងសិទ្ធិចូលប្រើរបស់លោកអ្នក គឺជាផ្នែកមួយនៃគម្រោងនីមួយៗ។ សូមពិភាក្សាអំពីស្ថានភាពរបស់លោកអ្នក។ | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |
-| ⏳ à relire | `services.items.3.lead` | ទិន្នន័យ គណនី និងសិទ្ធិចូលប្រើរបស់លោកអ្នក ត្រូវតែមានការការពារ។ សុវត្ថិភាពគឺជាផ្នែកមួយនៃគម្រោងនីមួយៗដែលខ្ញុំធ្វើ។ | Vos données, vos comptes et vos accès doivent rester protégés. La sécurité fait partie de chaque projet que je mène. |
-| ⏳ à relire | `services.items.3.sections.0.title` | ពិភាក្សាអំពីស្ថានភាពរបស់លោកអ្នក | Parlons de votre situation |
-| ⏳ à relire | `services.items.3.sections.0.text` | អាជីវកម្មនីមួយៗខុសៗគ្នា។ សូមប្រាប់ខ្ញុំពីអ្វីដែលលោកអ្នកព្រួយបារម្ភ ហើយយើងនឹងរកមើលជាមួយគ្នាថា អ្វីខ្លះមានប្រយោជន៍សម្រាប់លោកអ្នក។ | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
+| ⏳ à relire | `services.items.1.id` | business-software | business-software |
+| ⏳ à relire | `services.items.1.title` | Odoo និង Nextcloud | Odoo et Nextcloud |
+| ⏳ à relire | `services.items.1.summary` | ការគ្រប់គ្រងអាជីវកម្ម និងឯកសារចែករំលែករបស់លោកអ្នក លើកម្មវិធីកូដបើកចំហ (open source)។ ដំឡើងនៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud)។ | Votre gestion et vos fichiers partagés, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
+| ⏳ à relire | `services.items.1.lead` | ខ្ញុំដំឡើង កែសម្រួល និងថែទាំ Odoo និង Nextcloud។ លោកអ្នកជាអ្នកជ្រើសរើសកន្លែងដែលវាដំណើរការ ហើយទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ | J'installe, j'adapte et j'entretiens Odoo et Nextcloud. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.1.sections.0.title` | Odoo សម្រាប់គ្រប់គ្រងអាជីវកម្ម | Odoo, pour gérer l'entreprise |
+| ⏳ à relire | `services.items.1.sections.0.text` | អតិថិជន សម្រង់តម្លៃ ការលក់ វិក្កយបត្រ ការទិញ ស្តុក គម្រោង៖ កម្មវិធីតែមួយ ដែលមានកម្មវិធីរង (app) មួយសម្រាប់តម្រូវការនីមួយៗ។ យើងចាប់ផ្ដើមពីអ្វីដែលពិតជាមានប្រយោជន៍សម្រាប់លោកអ្នក ហើយបន្ថែមអ្វីដែលនៅសល់នៅពេលក្រោយ។ | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
+| ⏳ à relire | `services.items.1.sections.1.title` | Nextcloud សម្រាប់ឯកសារ និងក្រុមការងាររបស់លោកអ្នក | Nextcloud, pour vos fichiers et votre équipe |
+| ⏳ à relire | `services.items.1.sections.1.text` | ឯកសារ ប្រតិទិន និងបញ្ជីទំនាក់ទំនងដែលចែករំលែកគ្នា លើកុំព្យូទ័រ និងទូរស័ព្ទ ព្រមទាំងការផ្ញើសារ និងការហៅជាវីដេអូសម្រាប់ក្រុមការងារ។ ដូចសេវាអនឡាញធំៗដែរ ប៉ុន្តែនៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស។ | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
+| ⏳ à relire | `services.items.1.sections.2.title` | កន្លែងដែលវាដំណើរការ | Où ils tournent |
+| ⏳ à relire | `services.items.1.sections.2.list.0` | នៅកន្លែងលោកអ្នក៖ លើម៉ាស៊ីនមេ (server) ដែលដំឡើងនៅក្នុងទីតាំងរបស់លោកអ្នក។ ក្រុមការងារដែលនៅនឹងកន្លែង នៅតែអាចធ្វើការបាន ពេលដាច់អ៊ីនធឺណិត។ | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.1.sections.2.list.1` | នៅកន្លែងយើង៖ លើម៉ាស៊ីនមេដែល Chantrea Systems ជួល និងថែទាំ នៅ [À COMPLÉTER PAR STEFAN : pays]។ | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
+| ⏳ à relire | `services.items.1.sections.2.list.2` | នៅលើក្លោដ (cloud)៖ នៅក្រុមហ៊ុនបង្ហោះ (hosting) ធំមួយ ក្នុងគណនីដែលជាឈ្មោះរបស់លោកអ្នក។ | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.1.sections.2.list.3` | ក្នុងគ្រប់ករណី លោកអ្នកដឹងថាទិន្នន័យរបស់លោកអ្នកស្ថិតនៅប្រទេសណា។ | Dans tous les cas, vous savez dans quel pays sont vos données. |
+| ⏳ à relire | `services.items.1.sections.3.title` | មុខងារបន្ថែម (module) ដែលធ្វើសម្រាប់លោកអ្នក | Des modules faits pour vous |
+| ⏳ à relire | `services.items.1.sections.3.text` | នៅពេលកម្មវិធីមិនធ្វើអ្វីដែលលោកអ្នកត្រូវការ ខ្ញុំបង្កើតមុខងារបន្ថែម (module) តាមតម្រូវការ៖ របាយការណ៍មួយ វិក្កយបត្រតាមទម្រង់របស់លោកអ្នក ឬការភ្ជាប់ជាមួយកម្មវិធីមួយផ្សេងទៀត។ ជាដំបូង ខ្ញុំពិនិត្យមើលថា តើមានមុខងារបន្ថែមដែលមានស្រាប់ អាចប្រើបានហើយឬនៅ៖ វាចំណាយតិចជាងសម្រាប់លោកអ្នក។ | Quand le logiciel ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
+| ⏳ à relire | `services.items.1.sections.4.title` | ការថែទាំ | L'entretien |
+| ⏳ à relire | `services.items.1.sections.4.list.0` | ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ដែលចម្លងទុកនៅកន្លែងទីពីរ និងការសាកល្បងស្ដារទិន្នន័យឡើងវិញជាប្រចាំ។ | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
+| ⏳ à relire | `services.items.1.sections.4.list.1` | ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព។ | Les mises à jour de sécurité. |
+| ⏳ à relire | `services.items.1.sections.4.list.2` | ការប្ដូរទៅកំណែថ្មី ដែលរៀបចំ និងសាកល្បងជាមុន។ | Le passage aux nouvelles versions, préparé et testé avant. |
+| ⏳ à relire | `services.items.1.sections.4.list.3` | ជំនួយសម្រាប់អ្នកប្រើប្រាស់របស់លោកអ្នក។ | De l'aide pour vos utilisateurs. |
+| ⏳ à relire | `services.items.1.sections.4.list.4` | កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.1.sections.5.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.5.list.0` | Odoo មានកំណែឥតគិតថ្លៃ និងកំណែបង់ប្រាក់។ ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ថាតើកំណែឥតគិតថ្លៃគ្រប់គ្រាន់សម្រាប់លោកអ្នកឬទេ។ | Odoo existe en version gratuite et en version payante. Je vous dis franchement si la version gratuite vous suffit. |
+| ⏳ à relire | `services.items.1.sections.5.list.1` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ៖ ត្រូវគ្រោងធ្វើការដំឡើងកំណែ (upgrade) រៀងរាល់ពីរ ឬបីឆ្នាំម្ដង។ | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
+| ⏳ à relire | `services.items.1.sections.5.list.2` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.1.trademarks` | Odoo និង Nextcloud គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ | Odoo et Nextcloud sont des marques de leurs propriétaires respectifs. |
+| ⏳ à relire | `services.items.2.id` | ai | ai |
+| ⏳ à relire | `services.items.2.title` | បញ្ញាសិប្បនិម្មិត (AI) | Intelligence artificielle |
+| ⏳ à relire | `services.items.2.summary` | បន្ថែម AI ទៅក្នុងឧបករណ៍ដែលលោកអ្នកកំពុងប្រើស្រាប់។ តែនៅកន្លែងដែលវាពិតជាជួយសន្សំពេលវេលាប៉ុណ្ណោះ។ | Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps. |
+| ⏳ à relire | `services.items.2.lead` | AI អាចជួយសន្សំពេលវេលាលើការងារដែលធ្វើដដែលៗ។ ខ្ញុំបន្ថែមវាទៅក្នុងឧបករណ៍ដែលលោកអ្នកមានស្រាប់ ដោយមិនចាំបាច់ផ្លាស់ប្ដូរអ្វីៗទាំងអស់។ | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
+| ⏳ à relire | `services.items.2.sections.0.title` | ឧទាហរណ៍មួយចំនួនដែលអាចធ្វើបាន | Quelques exemples possibles |
+| ⏳ à relire | `services.items.2.sections.0.list.0` | រៀបចំចម្លើយចំពោះសំណួរដែលអតិថិជនសួរញឹកញាប់។ | Préparer des réponses aux questions fréquentes de vos clients. |
+| ⏳ à relire | `services.items.2.sections.0.list.1` | បកប្រែអត្ថបទរវាងភាសាខ្មែរ អង់គ្លេស បារាំង និងភាសាផ្សេងទៀត។ | Traduire des textes entre le khmer, l'anglais, le français et d'autres langues. |
+| ⏳ à relire | `services.items.2.sections.0.list.2` | សង្ខេប ឬតម្រៀបឯកសារ និងអ៊ីមែល។ | Résumer ou trier des documents et des e-mails. |
+| ⏳ à relire | `services.items.2.sections.0.list.3` | ទាញយកព័ត៌មានពីវិក្កយបត្រ ឬទម្រង់បែបបទ។ | Relever des informations dans des factures ou des formulaires. |
+| ⏳ à relire | `services.items.2.sections.1.title` | វិធីធ្វើការរបស់ខ្ញុំ | Ma façon de faire |
+| ⏳ à relire | `services.items.2.sections.1.list.0` | យើងចាប់ផ្ដើមពីតូច លើការងារតែមួយ។ | On commence petit, sur une seule tâche. |
+| ⏳ à relire | `services.items.2.sections.1.list.1` | លោកអ្នកនៅតែជាអ្នកគ្រប់គ្រង៖ AI ផ្ដល់យោបល់ មនុស្សជាអ្នកសម្រេចចិត្ត។ | Vous gardez la main : l'IA propose, une personne décide. |
+| ⏳ à relire | `services.items.2.sections.1.list.2` | ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ពីអ្វីដែល AI ធ្វើមិនបានល្អ និងតម្លៃរបស់វា។ | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.2.sections.2.title` | AI ដែលនៅក្នុងទីតាំងរបស់លោកអ្នក | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.2.sections.2.text` | ជាមួយ Ollama ម៉ូដែល AI បើកចំហ ដំណើរការលើម៉ាស៊ីនមេ (server) ដែលដំឡើងនៅក្នុងទីតាំងរបស់លោកអ្នក។ ឯកសាររបស់លោកអ្នកមិនត្រូវបានបញ្ជូនទៅលើអ៊ីនធឺណិតទេ។ | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
+| ⏳ à relire | `services.items.2.sections.3.title` | ឧបករណ៍ | Le matériel |
+| ⏳ à relire | `services.items.2.sections.3.text` | ម៉ាស៊ីនមេ (server) ឬកុំព្យូទ័រដែលមានកាតក្រាហ្វិក ជ្រើសរើសតាមការងារ និងចំនួនអ្នកប្រើប្រាស់។ ខ្ញុំប្រាប់លោកអ្នកពីអ្វីដែលលោកអ្នកពិតជាត្រូវការ។ | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.2.sections.4.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.2.sections.4.list.0` | គុណភាពខុសគ្នាតាមភាសា ជាពិសេសភាសាខ្មែរ៖ យើងសាកល្បងលើឯកសាររបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.2.sections.4.list.1` | AI ដែលដំឡើងនៅទីតាំងរបស់លោកអ្នក មានសមត្ថភាពតិចជាងសេវាអនឡាញធំៗបំផុត។ | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.2.sections.4.list.2` | ម៉ាស៊ីនមេត្រូវការបន្ទប់ដែលមានម៉ាស៊ីនត្រជាក់ និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS)។ | Le serveur demande une pièce climatisée et un onduleur. |
+| ⏳ à relire | `services.items.3.id` | infrastructure | infrastructure |
+| ⏳ à relire | `services.items.3.title` | ហេដ្ឋារចនាសម្ព័ន្ធ | Infrastructure |
+| ⏳ à relire | `services.items.3.summary` | ការដំឡើងម៉ាស៊ីនមេ (server) បណ្ដាញ Wi-Fi និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS) ការតខ្សែបណ្ដាញ Windows និង Linux និម្មិតកម្ម (virtualization) ជាមួយ XCP-ng និង XenServer។ | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng et XenServer. |
+| ⏳ à relire | `services.items.3.lead` | ចាប់ពីការជ្រើសរើសឧបករណ៍ រហូតដល់ការថែទាំ ខ្ញុំមើលការខុសត្រូវលើការដំឡើងរបស់លោកអ្នក ពីដើមដល់ចប់។ | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
+| ⏳ à relire | `services.items.3.sections.0.title` | ឧបករណ៍ | Le matériel |
+| ⏳ à relire | `services.items.3.sections.0.text` | ម៉ាស៊ីនមេ (server) ស្វីច (switch) ជញ្ជាំងភ្លើង (firewall) Wi-Fi ឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS) និងឧបករណ៍ផ្ទុកទិន្នន័យបម្រុងទុក (backup)។ ឧបករណ៍ថ្មី ទិញពីអ្នកចែកចាយផ្លូវការនៅកម្ពុជា ជាមួយការធានាពីក្រុមហ៊ុនផលិត។ ខ្ញុំជ្រើសរើសអ្វីដែលសមនឹងទំហំអាជីវកម្មរបស់លោកអ្នក មិនមែនអ្វីដែលថ្លៃបំផុតទេ។ | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
+| ⏳ à relire | `services.items.3.sections.1.title` | ការតខ្សែបណ្ដាញ | Le câblage |
+| ⏳ à relire | `services.items.3.sections.1.text` | ការតខ្សែបណ្ដាញ ធ្វើឡើងដោយអ្នកដំឡើងដែលខ្ញុំជ្រើសរើស និងត្រួតពិនិត្យ។ រន្ធភ្ជាប់នីមួយៗត្រូវបានសាកល្បង និងបិទស្លាក។ លោកអ្នកទទួលបានប្លង់បណ្ដាញរបស់លោកអ្នក។ | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
+| ⏳ à relire | `services.items.3.sections.2.title` | Windows និង Linux | Windows et Linux |
+| ⏳ à relire | `services.items.3.sections.2.text` | ការដំឡើង ការធ្វើបច្ចុប្បន្នភាព (update) និងការជួសជុលកុំព្យូទ័រការិយាល័យ និងម៉ាស៊ីនមេ ទាំង Windows និង Linux។ | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
+| ⏳ à relire | `services.items.3.sections.3.title` | និម្មិតកម្មជាមួយ XCP-ng និង XenServer | Virtualisation avec XCP-ng et XenServer |
+| ⏳ à relire | `services.items.3.sections.3.text` | ម៉ាស៊ីនមេនិម្មិតច្រើននៅលើម៉ាស៊ីនពិតតែមួយ ដែលគ្រប់គ្រងពីកម្មវិធីរុករក (browser) ជាមួយ Xen Orchestra៖ ទិញឧបករណ៍តិចជាងមុន ការបម្រុងទុកទិន្នន័យ (backup) ងាយស្រួលជាងមុន និងដំណើរការឡើងវិញលឿនជាងមុន ក្រោយពេលខូច។ ខ្ញុំក៏ថែទាំម៉ាស៊ីនមេ XenServer ដែលមានស្រាប់ផងដែរ ហើយខ្ញុំផ្ទេរម៉ាស៊ីនរបស់លោកអ្នកពី VMware។ | Plusieurs serveurs virtuels sur une seule machine physique, gérés depuis un navigateur avec Xen Orchestra : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. J'entretiens aussi les serveurs XenServer existants, et je migre vos machines depuis VMware. |
+| ⏳ à relire | `services.items.3.sections.4.title` | នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud) | Chez vous, chez nous ou dans le cloud |
+| ⏳ à relire | `services.items.3.sections.4.text` | ម៉ាស៊ីនមេនិម្មិតរបស់លោកអ្នក អាចដំណើរការនៅក្នុងទីតាំងរបស់លោកអ្នក លើម៉ាស៊ីនមេដែល Chantrea Systems ជួល ឬនៅក្រុមហ៊ុនបង្ហោះ (hosting) ធំមួយ។ | Vos serveurs virtuels peuvent tourner dans vos locaux, sur des serveurs loués par Chantrea Systems, ou chez un grand hébergeur. |
+| ⏳ à relire | `services.items.3.sections.5.title` | ដំណើរការការងារ | Comment ça se passe |
+| ⏳ à relire | `services.items.3.sections.5.list.0` | ការចុះពិនិត្យទីតាំង។ | Visite des lieux. |
+| ⏳ à relire | `services.items.3.sections.5.list.1` | តារាងតម្លៃលម្អិត៖ ឧបករណ៍ ការតខ្សែ និងកម្លាំងពលកម្ម ដាច់ដោយឡែកពីគ្នា។ | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
+| ⏳ à relire | `services.items.3.sections.5.list.2` | ការបញ្ជាទិញឧបករណ៍ បន្ទាប់មកការដំឡើង។ | Commande du matériel, puis installation. |
+| ⏳ à relire | `services.items.3.sections.5.list.3` | ការប្រគល់ឯកសារ៖ ប្លង់បណ្ដាញ បញ្ជីឧបករណ៍ និងប័ណ្ណធានា។ | Remise des documents : plan du réseau, liste du matériel, garanties. |
+| ⏳ à relire | `services.items.3.sections.6.title` | កិច្ចសន្យាថែទាំ | Contrat de maintenance |
+| ⏳ à relire | `services.items.3.sections.6.text` | ការតាមដានជាប្រចាំ ការធ្វើបច្ចុប្បន្នភាព និងការចុះជួសជុលពេលមានបញ្ហា។ កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.3.sections.7.title` | នៅនឹងកន្លែង ឬពីចម្ងាយ | Sur place ou à distance |
+| ⏳ à relire | `services.items.3.sections.7.text` | នៅនឹងកន្លែងនៅកំពត។ នៅកន្លែងផ្សេងទៀត ពីចម្ងាយនៅពេលដែលអាចធ្វើបាន។ | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
+| ⏳ à relire | `services.items.3.trademarks` | XCP-ng, Xen Orchestra និង XenServer គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ | XCP-ng, Xen Orchestra et XenServer sont des marques de leurs propriétaires respectifs. |
+| ⏳ à relire | `services.items.4.id` | security | security |
+| ⏳ à relire | `services.items.4.title` | សុវត្ថិភាពព័ត៌មានវិទ្យា | Sécurité informatique |
+| ⏳ à relire | `services.items.4.summary` | ការការពារទិន្នន័យ និងសិទ្ធិចូលប្រើរបស់លោកអ្នក គឺជាផ្នែកមួយនៃគម្រោងនីមួយៗ។ សូមពិភាក្សាអំពីស្ថានភាពរបស់លោកអ្នក។ | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |
+| ⏳ à relire | `services.items.4.lead` | ទិន្នន័យ គណនី និងសិទ្ធិចូលប្រើរបស់លោកអ្នក ត្រូវតែមានការការពារ។ សុវត្ថិភាពគឺជាផ្នែកមួយនៃគម្រោងនីមួយៗដែលខ្ញុំធ្វើ។ | Vos données, vos comptes et vos accès doivent rester protégés. La sécurité fait partie de chaque projet que je mène. |
+| ⏳ à relire | `services.items.4.sections.0.title` | ពិភាក្សាអំពីស្ថានភាពរបស់លោកអ្នក | Parlons de votre situation |
+| ⏳ à relire | `services.items.4.sections.0.text` | អាជីវកម្មនីមួយៗខុសៗគ្នា។ សូមប្រាប់ខ្ញុំពីអ្វីដែលលោកអ្នកព្រួយបារម្ភ ហើយយើងនឹងរកមើលជាមួយគ្នាថា អ្វីខ្លះមានប្រយោជន៍សម្រាប់លោកអ្នក។ | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
 | ⏳ à relire | `hms.eyebrow` | ផលិតផល | Produit |
 | ⏳ à relire | `hms.title` | HMS ការគ្រប់គ្រងសណ្ឋាគាររបស់លោកអ្នក | HMS, la gestion de votre hôtel |
 | ⏳ à relire | `hms.lead` | កម្មវិធីតែមួយសម្រាប់ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត និងភោជនីយដ្ឋាន។ សម្រាប់សណ្ឋាគារ និងផ្ទះសំណាក់ ជាប្រាំភាសា។ | Un seul logiciel pour les réservations, la réception, la facturation, le ménage et le restaurant. Pour les hôtels et les guesthouses, en cinq langues. |
@@ -429,16 +458,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 413 textes relus.
+0 / 442 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
 | ⏳ à relire | `meta.home.title` | Chantrea Systems — IT-услуги в Кампоте, Камбоджа | Chantrea Systems — Services informatiques à Kampot, Cambodge |
-| ⏳ à relire | `meta.home.description` | Многоязычные сайты, приложения для Android, внедрение ИИ, поддержка Windows и Linux, программа для управления отелем. Кампот, Камбоджа. На месте или удалённо. | Sites web multilingues, applications Android, intégration d'IA, support Windows et Linux, logiciel de gestion hôtelière. Basé à Kampot, au Cambodge. Sur place ou à distance. |
+| ⏳ à relire | `meta.home.description` | Многоязычные сайты, приложения для Android, Odoo и Nextcloud, ИИ, поддержка Windows и Linux, программа для отелей. Кампот, Камбоджа. На месте или удалённо. | Sites web multilingues, applications Android, Odoo et Nextcloud, IA, support Windows et Linux, logiciel hôtelier. Kampot, Cambodge. Sur place ou à distance. |
 | ⏳ à relire | `meta.chooser.title` | Chantrea Systems | Chantrea Systems |
 | ⏳ à relire | `meta.chooser.description` | IT-услуги в Кампоте, Камбоджа. Выберите язык. | Services informatiques à Kampot, Cambodge. Choisissez votre langue. |
 | ⏳ à relire | `meta.services.title` | Услуги — Chantrea Systems | Services — Chantrea Systems |
-| ⏳ à relire | `meta.services.description` | Разработка сайтов и приложений для Android, искусственный интеллект, инфраструктура на Windows и Linux, информационная безопасность. Один человек на связи, в Кампоте или удалённо. | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
+| ⏳ à relire | `meta.services.description` | Сайты и приложения для Android, Odoo и Nextcloud, искусственный интеллект, инфраструктура Windows и Linux, информационная безопасность. В Кампоте или удалённо. | Développement web et Android, Odoo et Nextcloud, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. À Kampot ou à distance. |
 | ⏳ à relire | `meta.hms.title` | HMS, программа для управления отелем — Chantrea Systems | HMS, logiciel de gestion hôtelière — Chantrea Systems |
 | ⏳ à relire | `meta.hms.description` | Бронирования, ресепшен, счета, уборка, ресторан и отчёты в одной программе. Для отелей и гестхаусов, на кхмерском, английском, французском, китайском и русском. | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
 | ⏳ à relire | `meta.rally.title` | Cambodia Rally, 3D-гонка вокруг Ангкора — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
@@ -475,7 +504,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.hero.ctaPrimary` | Обсудить ваш проект | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | Посмотреть услуги | Voir les services |
 | ⏳ à relire | `home.services.title` | Чем я занимаюсь | Ce que je fais |
-| ⏳ à relire | `home.services.intro` | Четыре направления. Я отвечаю сам. | Quatre domaines. Je vous réponds moi-même. |
+| ⏳ à relire | `home.services.intro` | Пять направлений. Я отвечаю сам. | Cinq domaines. Je vous réponds moi-même. |
 | ⏳ à relire | `home.hms.eyebrow` | Продукт | Produit |
 | ⏳ à relire | `home.hms.title` | HMS — программа для управления вашим отелем | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | Бронирования, ресепшен, счета, уборка, ресторан — всё в одном месте. На компьютере, планшете или телефоне. На кхмерском, английском, французском, китайском и русском. | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -528,7 +557,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | Программа для отелей, сайт для изучения кхмерского, игры для Android, музыкальные инструменты в браузере. | Un logiciel hôtelier, un site pour apprendre le khmer, des jeux Android, des instruments de musique dans le navigateur. |
 | ⏳ à relire | `home.work.cta` | Посмотреть проекты | Voir les réalisations |
 | ⏳ à relire | `services.title` | Услуги | Services |
-| ⏳ à relire | `services.lead` | Четыре направления. На месте в Кампоте, удалённо — везде. | Quatre domaines. Sur place à Kampot, à distance partout ailleurs. |
+| ⏳ à relire | `services.lead` | Пять направлений. На месте в Кампоте, удалённо — везде. | Cinq domaines. Sur place à Kampot, à distance partout ailleurs. |
 | ⏳ à relire | `services.more` | Подробнее | En savoir plus |
 | ⏳ à relire | `services.back` | Все услуги | Tous les services |
 | ⏳ à relire | `services.items.0.id` | development | development |
@@ -544,54 +573,83 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.sections.2.list.1` | Объяснения, как ею пользоваться. | Des explications pour vous en servir. |
 | ⏳ à relire | `services.items.0.sections.2.list.2` | Одного человека на связи от начала до конца. | Un seul interlocuteur, du début à la fin. |
 | ⏳ à relire | `services.items.0.examples` | Примеры: обучающий сайт на трёх языках, 3D-игры для Android. | Exemples : un site d'apprentissage en trois langues, des jeux Android en 3D. |
-| ⏳ à relire | `services.items.1.id` | ai | ai |
-| ⏳ à relire | `services.items.1.title` | Искусственный интеллект | Intelligence artificielle |
-| ⏳ à relire | `services.items.1.summary` | Добавить ИИ в инструменты, которыми вы уже пользуетесь. Только там, где он действительно экономит ваше время. | Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps. |
-| ⏳ à relire | `services.items.1.lead` | ИИ может сэкономить время на повторяющихся задачах. Я встраиваю его в ваши текущие инструменты, не меняя всё целиком. | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
-| ⏳ à relire | `services.items.1.sections.0.title` | Несколько возможных примеров | Quelques exemples possibles |
-| ⏳ à relire | `services.items.1.sections.0.list.0` | Готовить ответы на частые вопросы ваших клиентов. | Préparer des réponses aux questions fréquentes de vos clients. |
-| ⏳ à relire | `services.items.1.sections.0.list.1` | Переводить тексты между кхмерским, английским, французским и другими языками. | Traduire des textes entre le khmer, l'anglais, le français et d'autres langues. |
-| ⏳ à relire | `services.items.1.sections.0.list.2` | Кратко пересказывать или сортировать документы и письма. | Résumer ou trier des documents et des e-mails. |
-| ⏳ à relire | `services.items.1.sections.0.list.3` | Извлекать данные из счетов или анкет. | Relever des informations dans des factures ou des formulaires. |
-| ⏳ à relire | `services.items.1.sections.1.title` | Мой подход | Ma façon de faire |
-| ⏳ à relire | `services.items.1.sections.1.list.0` | Начинаем с малого, с одной задачи. | On commence petit, sur une seule tâche. |
-| ⏳ à relire | `services.items.1.sections.1.list.1` | Контроль остаётся за вами: ИИ предлагает, решает человек. | Vous gardez la main : l'IA propose, une personne décide. |
-| ⏳ à relire | `services.items.1.sections.1.list.2` | Я честно говорю, что ИИ делает плохо и сколько он стоит. | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
-| ⏳ à relire | `services.items.1.sections.2.title` | ИИ, который остаётся у вас | Une IA qui reste chez vous |
-| ⏳ à relire | `services.items.1.sections.2.text` | С Ollama открытые модели ИИ работают на сервере, установленном в вашем помещении. Ваши документы не уходят в интернет. | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
-| ⏳ à relire | `services.items.1.sections.3.title` | Оборудование | Le matériel |
-| ⏳ à relire | `services.items.1.sections.3.text` | Сервер или компьютер с видеокартой, подобранный под задачу и число пользователей. Я скажу, что вам действительно нужно. | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
-| ⏳ à relire | `services.items.1.sections.4.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.1.sections.4.list.0` | Качество зависит от языка, особенно для кхмерского: мы проверяем на ваших документах, прежде чем решать. | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
-| ⏳ à relire | `services.items.1.sections.4.list.1` | ИИ, установленный у вас, слабее крупнейших онлайн-сервисов. | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
-| ⏳ à relire | `services.items.1.sections.4.list.2` | Серверу нужны помещение с кондиционером и ИБП. | Le serveur demande une pièce climatisée et un onduleur. |
-| ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
-| ⏳ à relire | `services.items.2.title` | Инфраструктура | Infrastructure |
-| ⏳ à relire | `services.items.2.summary` | Установка серверов, сетей, Wi-Fi и ИБП, прокладка кабелей, Windows и Linux, виртуализация на XCP-ng. | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |
-| ⏳ à relire | `services.items.2.lead` | От выбора оборудования до обслуживания: я веду вашу установку от начала до конца. | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
-| ⏳ à relire | `services.items.2.sections.0.title` | Оборудование | Le matériel |
-| ⏳ à relire | `services.items.2.sections.0.text` | Серверы, коммутаторы, межсетевые экраны, Wi-Fi, ИБП и хранилища для резервных копий. Новое оборудование, купленное у официальных дистрибьюторов в Камбодже, с гарантией производителя. Я подбираю то, что подходит под ваш масштаб, а не самое дорогое. | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
-| ⏳ à relire | `services.items.2.sections.1.title` | Кабельная сеть | Le câblage |
-| ⏳ à relire | `services.items.2.sections.1.text` | Кабели прокладывают монтажники, которых я выбираю и контролирую. Каждая розетка проверяется и маркируется. Вы получаете схему своей сети. | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
-| ⏳ à relire | `services.items.2.sections.2.title` | Windows и Linux | Windows et Linux |
-| ⏳ à relire | `services.items.2.sections.2.text` | Установка, обновление и устранение неполадок на рабочих станциях и серверах — как на Windows, так и на Linux. | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
-| ⏳ à relire | `services.items.2.sections.3.title` | Виртуализация на XCP-ng | Virtualisation avec XCP-ng |
-| ⏳ à relire | `services.items.2.sections.3.text` | Несколько виртуальных серверов на одной физической машине: меньше оборудования к покупке, проще резервное копирование, быстрее восстановление после сбоя. | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
-| ⏳ à relire | `services.items.2.sections.4.title` | Как всё проходит | Comment ça se passe |
-| ⏳ à relire | `services.items.2.sections.4.list.0` | Осмотр помещений. | Visite des lieux. |
-| ⏳ à relire | `services.items.2.sections.4.list.1` | Подробная смета: оборудование, кабельные работы и работа монтажников отдельно. | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
-| ⏳ à relire | `services.items.2.sections.4.list.2` | Заказ оборудования, затем установка. | Commande du matériel, puis installation. |
-| ⏳ à relire | `services.items.2.sections.4.list.3` | Передача документов: схема сети, список оборудования, гарантии. | Remise des documents : plan du réseau, liste du matériel, garanties. |
-| ⏳ à relire | `services.items.2.sections.5.title` | Договор на обслуживание | Contrat de maintenance |
-| ⏳ à relire | `services.items.2.sections.5.text` | Регулярное сопровождение, обновления и выезд при поломке. Варианты и цены: [À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
-| ⏳ à relire | `services.items.2.sections.6.title` | На месте или удалённо | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.6.text` | На месте в Кампоте. В других местах — удалённо, когда это возможно. | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
-| ⏳ à relire | `services.items.3.id` | security | security |
-| ⏳ à relire | `services.items.3.title` | Информационная безопасность | Sécurité informatique |
-| ⏳ à relire | `services.items.3.summary` | Защита ваших данных и доступов — часть каждого проекта. Давайте обсудим вашу ситуацию. | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |
-| ⏳ à relire | `services.items.3.lead` | Ваши данные, учётные записи и доступы должны оставаться защищёнными. Безопасность — часть каждого проекта, который я веду. | Vos données, vos comptes et vos accès doivent rester protégés. La sécurité fait partie de chaque projet que je mène. |
-| ⏳ à relire | `services.items.3.sections.0.title` | Давайте обсудим вашу ситуацию | Parlons de votre situation |
-| ⏳ à relire | `services.items.3.sections.0.text` | Все компании разные. Расскажите, что вас беспокоит, и мы вместе решим, что будет полезно именно вам. | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
+| ⏳ à relire | `services.items.1.id` | business-software | business-software |
+| ⏳ à relire | `services.items.1.title` | Odoo и Nextcloud | Odoo et Nextcloud |
+| ⏳ à relire | `services.items.1.summary` | Управление компанией и общие файлы — на свободном ПО. Установка у вас, у нас или в облаке. | Votre gestion et vos fichiers partagés, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
+| ⏳ à relire | `services.items.1.lead` | Я устанавливаю, настраиваю под вас и обслуживаю Odoo и Nextcloud. Вы выбираете, где они работают, а ваши данные остаются вашими. | J'installe, j'adapte et j'entretiens Odoo et Nextcloud. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.1.sections.0.title` | Odoo — для управления компанией | Odoo, pour gérer l'entreprise |
+| ⏳ à relire | `services.items.1.sections.0.text` | Клиенты, коммерческие предложения, продажи, счета, закупки, склад, проекты: одна программа, отдельное приложение под каждую задачу. Начинаем с того, что вам действительно нужно, остальное добавляем позже. | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
+| ⏳ à relire | `services.items.1.sections.1.title` | Nextcloud — для ваших файлов и вашей команды | Nextcloud, pour vos fichiers et votre équipe |
+| ⏳ à relire | `services.items.1.sections.1.text` | Общие документы, календари и контакты — на компьютере и на телефоне, с чатом и видеозвонками для команды. Как у крупных онлайн-сервисов, но на сервере, который выбираете вы. | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
+| ⏳ à relire | `services.items.1.sections.2.title` | Где они работают | Où ils tournent |
+| ⏳ à relire | `services.items.1.sections.2.list.0` | У вас: на сервере, установленном в вашем помещении. Сотрудники на месте продолжают работать, когда интернет отключён. | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.1.sections.2.list.1` | У нас: на сервере, который арендует и обслуживает Chantrea Systems. Страна: [À COMPLÉTER PAR STEFAN : pays]. | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
+| ⏳ à relire | `services.items.1.sections.2.list.2` | В облаке: у крупного хостинг-провайдера, на аккаунте, оформленном на вас. | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.1.sections.2.list.3` | В любом случае вы знаете, в какой стране находятся ваши данные. | Dans tous les cas, vous savez dans quel pays sont vos données. |
+| ⏳ à relire | `services.items.1.sections.3.title` | Модули, сделанные для вас | Des modules faits pour vous |
+| ⏳ à relire | `services.items.1.sections.3.text` | Когда программа не делает того, что вам нужно, я разрабатываю модуль на заказ: отчёт, счёт в вашем формате, связь с другой программой. Сначала я проверяю, не подойдёт ли уже существующий модуль: так для вас дешевле. | Quand le logiciel ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
+| ⏳ à relire | `services.items.1.sections.4.title` | Обслуживание | L'entretien |
+| ⏳ à relire | `services.items.1.sections.4.list.0` | Резервная копия каждую ночь, с копией во втором месте, и регулярные пробные восстановления. | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
+| ⏳ à relire | `services.items.1.sections.4.list.1` | Обновления безопасности. | Les mises à jour de sécurité. |
+| ⏳ à relire | `services.items.1.sections.4.list.2` | Переход на новые версии: с подготовкой и предварительным тестированием. | Le passage aux nouvelles versions, préparé et testé avant. |
+| ⏳ à relire | `services.items.1.sections.4.list.3` | Помощь вашим пользователям. | De l'aide pour vos utilisateurs. |
+| ⏳ à relire | `services.items.1.sections.4.list.4` | Варианты и цены: [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.1.sections.5.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.5.list.0` | У Odoo есть бесплатная версия и платная. Я честно скажу, хватит ли вам бесплатной. | Odoo existe en version gratuite et en version payante. Je vous dis franchement si la version gratuite vous suffit. |
+| ⏳ à relire | `services.items.1.sections.5.list.1` | Новая версия Odoo выходит каждый год: переход на новую версию нужно планировать раз в два-три года. | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
+| ⏳ à relire | `services.items.1.sections.5.list.2` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.1.trademarks` | Odoo и Nextcloud — товарные знаки их соответствующих владельцев. | Odoo et Nextcloud sont des marques de leurs propriétaires respectifs. |
+| ⏳ à relire | `services.items.2.id` | ai | ai |
+| ⏳ à relire | `services.items.2.title` | Искусственный интеллект | Intelligence artificielle |
+| ⏳ à relire | `services.items.2.summary` | Добавить ИИ в инструменты, которыми вы уже пользуетесь. Только там, где он действительно экономит ваше время. | Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps. |
+| ⏳ à relire | `services.items.2.lead` | ИИ может сэкономить время на повторяющихся задачах. Я встраиваю его в ваши текущие инструменты, не меняя всё целиком. | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
+| ⏳ à relire | `services.items.2.sections.0.title` | Несколько возможных примеров | Quelques exemples possibles |
+| ⏳ à relire | `services.items.2.sections.0.list.0` | Готовить ответы на частые вопросы ваших клиентов. | Préparer des réponses aux questions fréquentes de vos clients. |
+| ⏳ à relire | `services.items.2.sections.0.list.1` | Переводить тексты между кхмерским, английским, французским и другими языками. | Traduire des textes entre le khmer, l'anglais, le français et d'autres langues. |
+| ⏳ à relire | `services.items.2.sections.0.list.2` | Кратко пересказывать или сортировать документы и письма. | Résumer ou trier des documents et des e-mails. |
+| ⏳ à relire | `services.items.2.sections.0.list.3` | Извлекать данные из счетов или анкет. | Relever des informations dans des factures ou des formulaires. |
+| ⏳ à relire | `services.items.2.sections.1.title` | Мой подход | Ma façon de faire |
+| ⏳ à relire | `services.items.2.sections.1.list.0` | Начинаем с малого, с одной задачи. | On commence petit, sur une seule tâche. |
+| ⏳ à relire | `services.items.2.sections.1.list.1` | Контроль остаётся за вами: ИИ предлагает, решает человек. | Vous gardez la main : l'IA propose, une personne décide. |
+| ⏳ à relire | `services.items.2.sections.1.list.2` | Я честно говорю, что ИИ делает плохо и сколько он стоит. | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.2.sections.2.title` | ИИ, который остаётся у вас | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.2.sections.2.text` | С Ollama открытые модели ИИ работают на сервере, установленном в вашем помещении. Ваши документы не уходят в интернет. | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
+| ⏳ à relire | `services.items.2.sections.3.title` | Оборудование | Le matériel |
+| ⏳ à relire | `services.items.2.sections.3.text` | Сервер или компьютер с видеокартой, подобранный под задачу и число пользователей. Я скажу, что вам действительно нужно. | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.2.sections.4.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.2.sections.4.list.0` | Качество зависит от языка, особенно для кхмерского: мы проверяем на ваших документах, прежде чем решать. | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.2.sections.4.list.1` | ИИ, установленный у вас, слабее крупнейших онлайн-сервисов. | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.2.sections.4.list.2` | Серверу нужны помещение с кондиционером и ИБП. | Le serveur demande une pièce climatisée et un onduleur. |
+| ⏳ à relire | `services.items.3.id` | infrastructure | infrastructure |
+| ⏳ à relire | `services.items.3.title` | Инфраструктура | Infrastructure |
+| ⏳ à relire | `services.items.3.summary` | Установка серверов, сетей, Wi-Fi и ИБП, прокладка кабелей, Windows и Linux, виртуализация на XCP-ng и XenServer. | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng et XenServer. |
+| ⏳ à relire | `services.items.3.lead` | От выбора оборудования до обслуживания: я веду вашу установку от начала до конца. | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
+| ⏳ à relire | `services.items.3.sections.0.title` | Оборудование | Le matériel |
+| ⏳ à relire | `services.items.3.sections.0.text` | Серверы, коммутаторы, межсетевые экраны, Wi-Fi, ИБП и хранилища для резервных копий. Новое оборудование, купленное у официальных дистрибьюторов в Камбодже, с гарантией производителя. Я подбираю то, что подходит под ваш масштаб, а не самое дорогое. | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
+| ⏳ à relire | `services.items.3.sections.1.title` | Кабельная сеть | Le câblage |
+| ⏳ à relire | `services.items.3.sections.1.text` | Кабели прокладывают монтажники, которых я выбираю и контролирую. Каждая розетка проверяется и маркируется. Вы получаете схему своей сети. | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
+| ⏳ à relire | `services.items.3.sections.2.title` | Windows и Linux | Windows et Linux |
+| ⏳ à relire | `services.items.3.sections.2.text` | Установка, обновление и устранение неполадок на рабочих станциях и серверах — как на Windows, так и на Linux. | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
+| ⏳ à relire | `services.items.3.sections.3.title` | Виртуализация на XCP-ng и XenServer | Virtualisation avec XCP-ng et XenServer |
+| ⏳ à relire | `services.items.3.sections.3.text` | Несколько виртуальных серверов на одной физической машине, управление — из браузера через Xen Orchestra: меньше оборудования к покупке, проще резервное копирование, быстрее восстановление после сбоя. Я также обслуживаю уже работающие серверы XenServer и переношу ваши машины с VMware. | Plusieurs serveurs virtuels sur une seule machine physique, gérés depuis un navigateur avec Xen Orchestra : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. J'entretiens aussi les serveurs XenServer existants, et je migre vos machines depuis VMware. |
+| ⏳ à relire | `services.items.3.sections.4.title` | У вас, у нас или в облаке | Chez vous, chez nous ou dans le cloud |
+| ⏳ à relire | `services.items.3.sections.4.text` | Ваши виртуальные серверы могут работать в вашем помещении, на серверах, которые арендует Chantrea Systems, или у крупного хостинг-провайдера. | Vos serveurs virtuels peuvent tourner dans vos locaux, sur des serveurs loués par Chantrea Systems, ou chez un grand hébergeur. |
+| ⏳ à relire | `services.items.3.sections.5.title` | Как всё проходит | Comment ça se passe |
+| ⏳ à relire | `services.items.3.sections.5.list.0` | Осмотр помещений. | Visite des lieux. |
+| ⏳ à relire | `services.items.3.sections.5.list.1` | Подробная смета: оборудование, кабельные работы и работа монтажников отдельно. | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
+| ⏳ à relire | `services.items.3.sections.5.list.2` | Заказ оборудования, затем установка. | Commande du matériel, puis installation. |
+| ⏳ à relire | `services.items.3.sections.5.list.3` | Передача документов: схема сети, список оборудования, гарантии. | Remise des documents : plan du réseau, liste du matériel, garanties. |
+| ⏳ à relire | `services.items.3.sections.6.title` | Договор на обслуживание | Contrat de maintenance |
+| ⏳ à relire | `services.items.3.sections.6.text` | Регулярное сопровождение, обновления и выезд при поломке. Варианты и цены: [À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.3.sections.7.title` | На месте или удалённо | Sur place ou à distance |
+| ⏳ à relire | `services.items.3.sections.7.text` | На месте в Кампоте. В других местах — удалённо, когда это возможно. | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
+| ⏳ à relire | `services.items.3.trademarks` | XCP-ng, Xen Orchestra и XenServer — товарные знаки их соответствующих владельцев. | XCP-ng, Xen Orchestra et XenServer sont des marques de leurs propriétaires respectifs. |
+| ⏳ à relire | `services.items.4.id` | security | security |
+| ⏳ à relire | `services.items.4.title` | Информационная безопасность | Sécurité informatique |
+| ⏳ à relire | `services.items.4.summary` | Защита ваших данных и доступов — часть каждого проекта. Давайте обсудим вашу ситуацию. | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |
+| ⏳ à relire | `services.items.4.lead` | Ваши данные, учётные записи и доступы должны оставаться защищёнными. Безопасность — часть каждого проекта, который я веду. | Vos données, vos comptes et vos accès doivent rester protégés. La sécurité fait partie de chaque projet que je mène. |
+| ⏳ à relire | `services.items.4.sections.0.title` | Давайте обсудим вашу ситуацию | Parlons de votre situation |
+| ⏳ à relire | `services.items.4.sections.0.text` | Все компании разные. Расскажите, что вас беспокоит, и мы вместе решим, что будет полезно именно вам. | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
 | ⏳ à relire | `hms.eyebrow` | Продукт | Produit |
 | ⏳ à relire | `hms.title` | HMS — управление вашим отелем | HMS, la gestion de votre hôtel |
 | ⏳ à relire | `hms.lead` | Одна программа для бронирований, ресепшена, счетов, уборки и ресторана. Для отелей и гестхаусов, на пяти языках. | Un seul logiciel pour les réservations, la réception, la facturation, le ménage et le restaurant. Pour les hôtels et les guesthouses, en cinq langues. |
@@ -849,16 +907,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 413 textes relus.
+0 / 442 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
 | ⏳ à relire | `meta.home.title` | Chantrea Systems — 柬埔寨贡布的 IT 服务 | Chantrea Systems — Services informatiques à Kampot, Cambodge |
-| ⏳ à relire | `meta.home.description` | 多语言网站、Android 应用、AI 集成、Windows 和 Linux 技术支持、酒店管理软件。位于柬埔寨贡布。可上门，也可远程。 | Sites web multilingues, applications Android, intégration d'IA, support Windows et Linux, logiciel de gestion hôtelière. Basé à Kampot, au Cambodge. Sur place ou à distance. |
+| ⏳ à relire | `meta.home.description` | 多语言网站、Android 应用、Odoo 和 Nextcloud、AI、Windows 和 Linux 技术支持、酒店管理软件。位于柬埔寨贡布。可上门，也可远程。 | Sites web multilingues, applications Android, Odoo et Nextcloud, IA, support Windows et Linux, logiciel hôtelier. Kampot, Cambodge. Sur place ou à distance. |
 | ⏳ à relire | `meta.chooser.title` | Chantrea Systems | Chantrea Systems |
 | ⏳ à relire | `meta.chooser.description` | 柬埔寨贡布的 IT 服务。请选择语言。 | Services informatiques à Kampot, Cambodge. Choisissez votre langue. |
 | ⏳ à relire | `meta.services.title` | 服务 — Chantrea Systems | Services — Chantrea Systems |
-| ⏳ à relire | `meta.services.description` | 网站和 Android 开发、人工智能、Windows 和 Linux 基础设施、IT 安全。只需对接一个人，在贡布上门，或远程服务。 | Développement web et Android, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. Un seul interlocuteur, à Kampot ou à distance. |
+| ⏳ à relire | `meta.services.description` | 网站和 Android 开发、Odoo 和 Nextcloud、人工智能、Windows 和 Linux 基础设施、IT 安全。在贡布上门，或远程服务。 | Développement web et Android, Odoo et Nextcloud, intelligence artificielle, infrastructure Windows et Linux, sécurité informatique. À Kampot ou à distance. |
 | ⏳ à relire | `meta.hms.title` | HMS 酒店管理软件 — Chantrea Systems | HMS, logiciel de gestion hôtelière — Chantrea Systems |
 | ⏳ à relire | `meta.hms.description` | 预订、前台、账单、客房清洁、餐厅和报表，全在一个软件里。适用于酒店和民宿，支持高棉语、英语、法语、中文和俄语。 | Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel. Pour hôtels et guesthouses, en khmer, anglais, français, chinois et russe. |
 | ⏳ à relire | `meta.rally.title` | Cambodia Rally，吴哥周边 3D 赛车 — Chantrea Systems | Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems |
@@ -895,7 +953,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.hero.ctaPrimary` | 聊聊您的项目 | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | 查看服务 | Voir les services |
 | ⏳ à relire | `home.services.title` | 我做什么 | Ce que je fais |
-| ⏳ à relire | `home.services.intro` | 四个领域。我会亲自回复您。 | Quatre domaines. Je vous réponds moi-même. |
+| ⏳ à relire | `home.services.intro` | 五个领域。我会亲自回复您。 | Cinq domaines. Je vous réponds moi-même. |
 | ⏳ à relire | `home.hms.eyebrow` | 产品 | Produit |
 | ⏳ à relire | `home.hms.title` | HMS，您的酒店管理软件 | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | 预订、前台、账单、客房清洁、餐厅：全部集中在一处。电脑、平板、手机都能用。支持高棉语、英语、法语、中文和俄语。 | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -948,7 +1006,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | 一个酒店管理软件，一个高棉语学习网站，几款 Android 游戏，几款在浏览器里运行的乐器。 | Un logiciel hôtelier, un site pour apprendre le khmer, des jeux Android, des instruments de musique dans le navigateur. |
 | ⏳ à relire | `home.work.cta` | 查看项目案例 | Voir les réalisations |
 | ⏳ à relire | `services.title` | 服务 | Services |
-| ⏳ à relire | `services.lead` | 四个领域。在贡布上门服务，其他地方远程服务。 | Quatre domaines. Sur place à Kampot, à distance partout ailleurs. |
+| ⏳ à relire | `services.lead` | 五个领域。在贡布上门服务，其他地方远程服务。 | Cinq domaines. Sur place à Kampot, à distance partout ailleurs. |
 | ⏳ à relire | `services.more` | 了解更多 | En savoir plus |
 | ⏳ à relire | `services.back` | 全部服务 | Tous les services |
 | ⏳ à relire | `services.items.0.id` | development | development |
@@ -964,54 +1022,83 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.sections.2.list.1` | 使用说明。 | Des explications pour vous en servir. |
 | ⏳ à relire | `services.items.0.sections.2.list.2` | 从头到尾只对接一个人。 | Un seul interlocuteur, du début à la fin. |
 | ⏳ à relire | `services.items.0.examples` | 案例：一个三语学习网站，几款 Android 3D 游戏。 | Exemples : un site d'apprentissage en trois langues, des jeux Android en 3D. |
-| ⏳ à relire | `services.items.1.id` | ai | ai |
-| ⏳ à relire | `services.items.1.title` | 人工智能 | Intelligence artificielle |
-| ⏳ à relire | `services.items.1.summary` | 把 AI 加进您已经在用的工具里。只用在真正能帮您省时间的地方。 | Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps. |
-| ⏳ à relire | `services.items.1.lead` | AI 能在重复性工作上节省时间。我把它加进您现有的工具里，不必全部推倒重来。 | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
-| ⏳ à relire | `services.items.1.sections.0.title` | 一些可能的用途 | Quelques exemples possibles |
-| ⏳ à relire | `services.items.1.sections.0.list.0` | 为客户的常见问题准备回复。 | Préparer des réponses aux questions fréquentes de vos clients. |
-| ⏳ à relire | `services.items.1.sections.0.list.1` | 在高棉语、英语、法语和其他语言之间翻译文本。 | Traduire des textes entre le khmer, l'anglais, le français et d'autres langues. |
-| ⏳ à relire | `services.items.1.sections.0.list.2` | 总结或分类文件和电子邮件。 | Résumer ou trier des documents et des e-mails. |
-| ⏳ à relire | `services.items.1.sections.0.list.3` | 从发票或表格中提取信息。 | Relever des informations dans des factures ou des formulaires. |
-| ⏳ à relire | `services.items.1.sections.1.title` | 我的做法 | Ma façon de faire |
-| ⏳ à relire | `services.items.1.sections.1.list.0` | 从小处开始，先做一项任务。 | On commence petit, sur une seule tâche. |
-| ⏳ à relire | `services.items.1.sections.1.list.1` | 主导权在您：AI 提建议，由人做决定。 | Vous gardez la main : l'IA propose, une personne décide. |
-| ⏳ à relire | `services.items.1.sections.1.list.2` | 我会坦白告诉您 AI 哪些地方做不好，以及它的成本。 | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
-| ⏳ à relire | `services.items.1.sections.2.title` | 留在您那里的 AI | Une IA qui reste chez vous |
-| ⏳ à relire | `services.items.1.sections.2.text` | 借助 Ollama，开放的 AI 模型运行在安装于您场所内的服务器上。您的文件不会传到互联网上。 | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
-| ⏳ à relire | `services.items.1.sections.3.title` | 设备 | Le matériel |
-| ⏳ à relire | `services.items.1.sections.3.text` | 一台服务器或一台配有显卡的电脑，根据任务和用户人数来选。我会告诉您真正需要什么。 | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
-| ⏳ à relire | `services.items.1.sections.4.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.1.sections.4.list.0` | 不同语言的效果不一样，高棉语尤其如此：我们先用您的文件测试，再做决定。 | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
-| ⏳ à relire | `services.items.1.sections.4.list.1` | 装在您那里的 AI 不如最大的在线服务强大。 | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
-| ⏳ à relire | `services.items.1.sections.4.list.2` | 服务器需要一间有空调的房间和一台 UPS 不间断电源。 | Le serveur demande une pièce climatisée et un onduleur. |
-| ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
-| ⏳ à relire | `services.items.2.title` | 基础设施 | Infrastructure |
-| ⏳ à relire | `services.items.2.summary` | 安装服务器、网络、Wi-Fi 和 UPS 不间断电源，布线，Windows 和 Linux，用 XCP-ng 做虚拟化。 | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng. |
-| ⏳ à relire | `services.items.2.lead` | 从选购设备到日常维护，我全程负责您的安装。 | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
-| ⏳ à relire | `services.items.2.sections.0.title` | 设备 | Le matériel |
-| ⏳ à relire | `services.items.2.sections.0.text` | 服务器、交换机、防火墙、Wi-Fi、UPS 不间断电源和备份存储。全新设备，从柬埔寨的官方经销商处购买，享受厂家保修。我按您的规模来选，不选最贵的。 | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
-| ⏳ à relire | `services.items.2.sections.1.title` | 布线 | Le câblage |
-| ⏳ à relire | `services.items.2.sections.1.text` | 布线由我挑选并监督的安装人员完成。每个网口都经过测试并贴上标签。您会拿到自己网络的布线图。 | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
-| ⏳ à relire | `services.items.2.sections.2.title` | Windows 和 Linux | Windows et Linux |
-| ⏳ à relire | `services.items.2.sections.2.text` | 工作站和服务器的安装、更新和故障排除，Windows 和 Linux 都可以。 | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
-| ⏳ à relire | `services.items.2.sections.3.title` | 用 XCP-ng 做虚拟化 | Virtualisation avec XCP-ng |
-| ⏳ à relire | `services.items.2.sections.3.text` | 在一台物理机上运行多台虚拟服务器：少买硬件，备份更简单，出故障后恢复更快。 | Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. |
-| ⏳ à relire | `services.items.2.sections.4.title` | 合作流程 | Comment ça se passe |
-| ⏳ à relire | `services.items.2.sections.4.list.0` | 实地查看。 | Visite des lieux. |
-| ⏳ à relire | `services.items.2.sections.4.list.1` | 详细报价：设备、布线和人工分开列出。 | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
-| ⏳ à relire | `services.items.2.sections.4.list.2` | 订购设备，然后安装。 | Commande du matériel, puis installation. |
-| ⏳ à relire | `services.items.2.sections.4.list.3` | 交付文件：网络图、设备清单、保修凭证。 | Remise des documents : plan du réseau, liste du matériel, garanties. |
-| ⏳ à relire | `services.items.2.sections.5.title` | 维护合同 | Contrat de maintenance |
-| ⏳ à relire | `services.items.2.sections.5.text` | 定期跟进、系统更新，出现故障时上门处理。方案和价格：[À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
-| ⏳ à relire | `services.items.2.sections.6.title` | 上门或远程 | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.6.text` | 在贡布上门服务。其他地方，条件允许时远程处理。 | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
-| ⏳ à relire | `services.items.3.id` | security | security |
-| ⏳ à relire | `services.items.3.title` | IT 安全 | Sécurité informatique |
-| ⏳ à relire | `services.items.3.summary` | 保护您的数据和访问权限，是每个项目的一部分。说说您的情况。 | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |
-| ⏳ à relire | `services.items.3.lead` | 您的数据、账户和访问权限必须得到保护。安全是我做的每个项目的一部分。 | Vos données, vos comptes et vos accès doivent rester protégés. La sécurité fait partie de chaque projet que je mène. |
-| ⏳ à relire | `services.items.3.sections.0.title` | 说说您的情况 | Parlons de votre situation |
-| ⏳ à relire | `services.items.3.sections.0.text` | 每家企业都不一样。告诉我您担心什么，我们一起看看哪些措施对您有用。 | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
+| ⏳ à relire | `services.items.1.id` | business-software | business-software |
+| ⏳ à relire | `services.items.1.title` | Odoo 和 Nextcloud | Odoo et Nextcloud |
+| ⏳ à relire | `services.items.1.summary` | 您的企业管理和共享文件，都用开源软件。可以装在您那里、我们这里，或云端。 | Votre gestion et vos fichiers partagés, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
+| ⏳ à relire | `services.items.1.lead` | 我负责安装、调整和维护 Odoo 和 Nextcloud。在哪里运行由您来选，数据始终归您所有。 | J'installe, j'adapte et j'entretiens Odoo et Nextcloud. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.1.sections.0.title` | Odoo：管理企业 | Odoo, pour gérer l'entreprise |
+| ⏳ à relire | `services.items.1.sections.0.text` | 客户、报价、销售、发票、采购、库存、项目：一套软件，每项需求对应一个应用。先上您真正用得着的，其余以后再加。 | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
+| ⏳ à relire | `services.items.1.sections.1.title` | Nextcloud：您的文件和团队 | Nextcloud, pour vos fichiers et votre équipe |
+| ⏳ à relire | `services.items.1.sections.1.text` | 共享的文件、日历和通讯录，电脑和手机都能用，还有团队聊天和视频通话。和大型在线服务一样，只是放在您自己选的服务器上。 | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
+| ⏳ à relire | `services.items.1.sections.2.title` | 在哪里运行 | Où ils tournent |
+| ⏳ à relire | `services.items.1.sections.2.list.0` | 在您那里：装在您场所内的服务器上。断网时，现场的员工照常工作。 | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.1.sections.2.list.1` | 在我们这里：装在由 Chantrea Systems 租用并维护的服务器上，位于 [À COMPLÉTER PAR STEFAN : pays]。 | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
+| ⏳ à relire | `services.items.1.sections.2.list.2` | 在云端：放在大型托管服务商那里，用您自己名下的账户。 | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.1.sections.2.list.3` | 无论哪种方式，您都清楚自己的数据在哪个国家。 | Dans tous les cas, vous savez dans quel pays sont vos données. |
+| ⏳ à relire | `services.items.1.sections.3.title` | 为您定制的模块 | Des modules faits pour vous |
+| ⏳ à relire | `services.items.1.sections.3.text` | 软件满足不了您的需要时，我来开发定制模块：一份报表、一种符合您格式的发票、与另一套软件的对接。我会先查一查有没有现成的模块可用：这样您花的钱更少。 | Quand le logiciel ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
+| ⏳ à relire | `services.items.1.sections.4.title` | 维护 | L'entretien |
+| ⏳ à relire | `services.items.1.sections.4.list.0` | 每晚备份一次，并在另一个地点再存一份，定期做恢复测试。 | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
+| ⏳ à relire | `services.items.1.sections.4.list.1` | 安全更新。 | Les mises à jour de sécurité. |
+| ⏳ à relire | `services.items.1.sections.4.list.2` | 升级到新版本：事先准备，事先测试。 | Le passage aux nouvelles versions, préparé et testé avant. |
+| ⏳ à relire | `services.items.1.sections.4.list.3` | 为您的用户提供帮助。 | De l'aide pour vos utilisateurs. |
+| ⏳ à relire | `services.items.1.sections.4.list.4` | 方案和价格：[À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.1.sections.5.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.5.list.0` | Odoo 有免费版和付费版。免费版够不够用，我会坦白告诉您。 | Odoo existe en version gratuite et en version payante. Je vous dis franchement si la version gratuite vous suffit. |
+| ⏳ à relire | `services.items.1.sections.5.list.1` | Odoo 每年发布一个新版本：每两到三年要安排一次升级。 | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
+| ⏳ à relire | `services.items.1.sections.5.list.2` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.1.trademarks` | Odoo 和 Nextcloud 是其各自所有者的商标。 | Odoo et Nextcloud sont des marques de leurs propriétaires respectifs. |
+| ⏳ à relire | `services.items.2.id` | ai | ai |
+| ⏳ à relire | `services.items.2.title` | 人工智能 | Intelligence artificielle |
+| ⏳ à relire | `services.items.2.summary` | 把 AI 加进您已经在用的工具里。只用在真正能帮您省时间的地方。 | Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps. |
+| ⏳ à relire | `services.items.2.lead` | AI 能在重复性工作上节省时间。我把它加进您现有的工具里，不必全部推倒重来。 | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
+| ⏳ à relire | `services.items.2.sections.0.title` | 一些可能的用途 | Quelques exemples possibles |
+| ⏳ à relire | `services.items.2.sections.0.list.0` | 为客户的常见问题准备回复。 | Préparer des réponses aux questions fréquentes de vos clients. |
+| ⏳ à relire | `services.items.2.sections.0.list.1` | 在高棉语、英语、法语和其他语言之间翻译文本。 | Traduire des textes entre le khmer, l'anglais, le français et d'autres langues. |
+| ⏳ à relire | `services.items.2.sections.0.list.2` | 总结或分类文件和电子邮件。 | Résumer ou trier des documents et des e-mails. |
+| ⏳ à relire | `services.items.2.sections.0.list.3` | 从发票或表格中提取信息。 | Relever des informations dans des factures ou des formulaires. |
+| ⏳ à relire | `services.items.2.sections.1.title` | 我的做法 | Ma façon de faire |
+| ⏳ à relire | `services.items.2.sections.1.list.0` | 从小处开始，先做一项任务。 | On commence petit, sur une seule tâche. |
+| ⏳ à relire | `services.items.2.sections.1.list.1` | 主导权在您：AI 提建议，由人做决定。 | Vous gardez la main : l'IA propose, une personne décide. |
+| ⏳ à relire | `services.items.2.sections.1.list.2` | 我会坦白告诉您 AI 哪些地方做不好，以及它的成本。 | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.2.sections.2.title` | 留在您那里的 AI | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.2.sections.2.text` | 借助 Ollama，开放的 AI 模型运行在安装于您场所内的服务器上。您的文件不会传到互联网上。 | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux. Vos documents ne partent pas sur internet. |
+| ⏳ à relire | `services.items.2.sections.3.title` | 设备 | Le matériel |
+| ⏳ à relire | `services.items.2.sections.3.text` | 一台服务器或一台配有显卡的电脑，根据任务和用户人数来选。我会告诉您真正需要什么。 | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.2.sections.4.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.2.sections.4.list.0` | 不同语言的效果不一样，高棉语尤其如此：我们先用您的文件测试，再做决定。 | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.2.sections.4.list.1` | 装在您那里的 AI 不如最大的在线服务强大。 | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.2.sections.4.list.2` | 服务器需要一间有空调的房间和一台 UPS 不间断电源。 | Le serveur demande une pièce climatisée et un onduleur. |
+| ⏳ à relire | `services.items.3.id` | infrastructure | infrastructure |
+| ⏳ à relire | `services.items.3.title` | 基础设施 | Infrastructure |
+| ⏳ à relire | `services.items.3.summary` | 安装服务器、网络、Wi-Fi 和 UPS 不间断电源，布线，Windows 和 Linux，用 XCP-ng 和 XenServer 做虚拟化。 | Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng et XenServer. |
+| ⏳ à relire | `services.items.3.lead` | 从选购设备到日常维护，我全程负责您的安装。 | Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin. |
+| ⏳ à relire | `services.items.3.sections.0.title` | 设备 | Le matériel |
+| ⏳ à relire | `services.items.3.sections.0.text` | 服务器、交换机、防火墙、Wi-Fi、UPS 不间断电源和备份存储。全新设备，从柬埔寨的官方经销商处购买，享受厂家保修。我按您的规模来选，不选最贵的。 | Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher. |
+| ⏳ à relire | `services.items.3.sections.1.title` | 布线 | Le câblage |
+| ⏳ à relire | `services.items.3.sections.1.text` | 布线由我挑选并监督的安装人员完成。每个网口都经过测试并贴上标签。您会拿到自己网络的布线图。 | Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau. |
+| ⏳ à relire | `services.items.3.sections.2.title` | Windows 和 Linux | Windows et Linux |
+| ⏳ à relire | `services.items.3.sections.2.text` | 工作站和服务器的安装、更新和故障排除，Windows 和 Linux 都可以。 | Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux. |
+| ⏳ à relire | `services.items.3.sections.3.title` | 用 XCP-ng 和 XenServer 做虚拟化 | Virtualisation avec XCP-ng et XenServer |
+| ⏳ à relire | `services.items.3.sections.3.text` | 在一台物理机上运行多台虚拟服务器，用 Xen Orchestra 在浏览器里管理：少买硬件，备份更简单，出故障后恢复更快。我也维护现有的 XenServer 服务器，并把您的虚拟机从 VMware 迁移过来。 | Plusieurs serveurs virtuels sur une seule machine physique, gérés depuis un navigateur avec Xen Orchestra : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. J'entretiens aussi les serveurs XenServer existants, et je migre vos machines depuis VMware. |
+| ⏳ à relire | `services.items.3.sections.4.title` | 在您那里、我们这里，或云端 | Chez vous, chez nous ou dans le cloud |
+| ⏳ à relire | `services.items.3.sections.4.text` | 您的虚拟服务器可以运行在您的场所内、Chantrea Systems 租用的服务器上，或大型托管服务商那里。 | Vos serveurs virtuels peuvent tourner dans vos locaux, sur des serveurs loués par Chantrea Systems, ou chez un grand hébergeur. |
+| ⏳ à relire | `services.items.3.sections.5.title` | 合作流程 | Comment ça se passe |
+| ⏳ à relire | `services.items.3.sections.5.list.0` | 实地查看。 | Visite des lieux. |
+| ⏳ à relire | `services.items.3.sections.5.list.1` | 详细报价：设备、布线和人工分开列出。 | Devis détaillé : matériel, câblage et main-d'œuvre séparés. |
+| ⏳ à relire | `services.items.3.sections.5.list.2` | 订购设备，然后安装。 | Commande du matériel, puis installation. |
+| ⏳ à relire | `services.items.3.sections.5.list.3` | 交付文件：网络图、设备清单、保修凭证。 | Remise des documents : plan du réseau, liste du matériel, garanties. |
+| ⏳ à relire | `services.items.3.sections.6.title` | 维护合同 | Contrat de maintenance |
+| ⏳ à relire | `services.items.3.sections.6.text` | 定期跟进、系统更新，出现故障时上门处理。方案和价格：[À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.3.sections.7.title` | 上门或远程 | Sur place ou à distance |
+| ⏳ à relire | `services.items.3.sections.7.text` | 在贡布上门服务。其他地方，条件允许时远程处理。 | Sur place à Kampot. Ailleurs, à distance quand c'est possible. |
+| ⏳ à relire | `services.items.3.trademarks` | XCP-ng、Xen Orchestra 和 XenServer 是其各自所有者的商标。 | XCP-ng, Xen Orchestra et XenServer sont des marques de leurs propriétaires respectifs. |
+| ⏳ à relire | `services.items.4.id` | security | security |
+| ⏳ à relire | `services.items.4.title` | IT 安全 | Sécurité informatique |
+| ⏳ à relire | `services.items.4.summary` | 保护您的数据和访问权限，是每个项目的一部分。说说您的情况。 | Protéger vos données et vos accès fait partie de chaque projet. Parlons de votre situation. |
+| ⏳ à relire | `services.items.4.lead` | 您的数据、账户和访问权限必须得到保护。安全是我做的每个项目的一部分。 | Vos données, vos comptes et vos accès doivent rester protégés. La sécurité fait partie de chaque projet que je mène. |
+| ⏳ à relire | `services.items.4.sections.0.title` | 说说您的情况 | Parlons de votre situation |
+| ⏳ à relire | `services.items.4.sections.0.text` | 每家企业都不一样。告诉我您担心什么，我们一起看看哪些措施对您有用。 | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
 | ⏳ à relire | `hms.eyebrow` | 产品 | Produit |
 | ⏳ à relire | `hms.title` | HMS，管理您的酒店 | HMS, la gestion de votre hôtel |
 | ⏳ à relire | `hms.lead` | 一个软件搞定预订、前台、账单、客房清洁和餐厅。适用于酒店和民宿，支持五种语言。 | Un seul logiciel pour les réservations, la réception, la facturation, le ménage et le restaurant. Pour les hôtels et les guesthouses, en cinq langues. |
