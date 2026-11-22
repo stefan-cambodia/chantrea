@@ -197,6 +197,54 @@
         "examples": "Exemples : un site d'apprentissage en trois langues, des jeux Android en 3D."
       },
       {
+        "id": "business-software",
+        "title": "Odoo et Nextcloud",
+        "summary": "Votre gestion et vos fichiers partagés, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud.",
+        "lead": "J'installe, j'adapte et j'entretiens Odoo et Nextcloud. Vous choisissez où ils tournent, et vos données restent à vous.",
+        "sections": [
+          {
+            "title": "Odoo, pour gérer l'entreprise",
+            "text": "Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard."
+          },
+          {
+            "title": "Nextcloud, pour vos fichiers et votre équipe",
+            "text": "Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez."
+          },
+          {
+            "title": "Où ils tournent",
+            "list": [
+              "Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé.",
+              "Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays].",
+              "Dans le cloud : chez un grand hébergeur, sur un compte à votre nom.",
+              "Dans tous les cas, vous savez dans quel pays sont vos données."
+            ]
+          },
+          {
+            "title": "Des modules faits pour vous",
+            "text": "Quand le logiciel ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous."
+          },
+          {
+            "title": "L'entretien",
+            "list": [
+              "Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers.",
+              "Les mises à jour de sécurité.",
+              "Le passage aux nouvelles versions, préparé et testé avant.",
+              "De l'aide pour vos utilisateurs.",
+              "Formules et tarifs : [À COMPLÉTER PAR STEFAN]"
+            ]
+          },
+          {
+            "title": "Ce qu'il faut savoir",
+            "list": [
+              "Odoo existe en version gratuite et en version payante. Je vous dis franchement si la version gratuite vous suffit.",
+              "Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans.",
+              "Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès."
+            ]
+          }
+        ],
+        "trademarks": "Odoo et Nextcloud sont des marques de leurs propriétaires respectifs."
+      },
+      {
         "id": "ai",
         "title": "Intelligence artificielle",
         "summary": "Ajouter l'IA aux outils que vous utilisez déjà. Seulement là où elle vous fait vraiment gagner du temps.",

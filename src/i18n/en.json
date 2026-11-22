@@ -197,6 +197,54 @@
         "examples": "Examples: a learning site in three languages, 3D Android games."
       },
       {
+        "id": "business-software",
+        "title": "Odoo and Nextcloud",
+        "summary": "Your business management and your shared files, on open-source software. Installed on your premises, with us or in the cloud.",
+        "lead": "I install, adapt and maintain Odoo and Nextcloud. You choose where they run, and your data stays yours.",
+        "sections": [
+          {
+            "title": "Odoo, to run your business",
+            "text": "Customers, quotes, sales, invoices, purchases, stock, projects: one piece of software, with one app for each need. We start with what is really useful to you, and add the rest later."
+          },
+          {
+            "title": "Nextcloud, for your files and your team",
+            "text": "Your shared documents, calendars and contacts, on computer and phone, with chat and video calls for the team. Like the big online services, but on a server you choose."
+          },
+          {
+            "title": "Where they run",
+            "list": [
+              "On your premises: on a server installed in your own offices. Your staff on site keep working when the internet is down.",
+              "With us: on a server rented and maintained by Chantrea Systems, in [À COMPLÉTER PAR STEFAN : pays].",
+              "In the cloud: with a large hosting provider, on an account in your name.",
+              "In every case, you know which country your data is in."
+            ]
+          },
+          {
+            "title": "Modules made for you",
+            "text": "When the software does not do what you need, I build a custom module: a report, an invoice in your format, a link with another piece of software. I first check whether an existing module already does the job: that costs you less."
+          },
+          {
+            "title": "Maintenance",
+            "list": [
+              "A backup every night, copied to a second location, and regular restore tests.",
+              "Security updates.",
+              "Moving to new versions, prepared and tested beforehand.",
+              "Help for your users.",
+              "Plans and prices: [À COMPLÉTER PAR STEFAN]"
+            ]
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "Odoo comes in a free version and a paid version. I tell you honestly whether the free version is enough for you.",
+              "Odoo releases a new version every year: plan for an upgrade every two or three years.",
+              "Your data stays yours. If you change provider, you get a full copy and the access details."
+            ]
+          }
+        ],
+        "trademarks": "Odoo and Nextcloud are trademarks of their respective owners."
+      },
+      {
         "id": "ai",
         "title": "Artificial intelligence",
         "summary": "Adding AI to the tools you already use. Only where it really saves you time.",
