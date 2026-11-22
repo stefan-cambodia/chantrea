@@ -28,6 +28,7 @@ const page = `services/${service}`;
       {item.examples && (
         <p class="note">{item.examples} <a href={href(lang, 'work')}>{tr.nav.work}</a></p>
       )}
+      {item.trademarks && <p class="trademarks">{item.trademarks}</p>}
       <p class="back"><a href={href(lang, 'services')}>← {tr.services.back}</a></p>
     </div>
   </section>

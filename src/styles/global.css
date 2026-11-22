@@ -293,6 +293,7 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .prose-section + .prose-section { margin-top: 2.25rem; }
 .prose-section h2 { font-size: 1.35rem; }
 .note { margin-top: 2rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 8px 8px 0; color: var(--muted); }
+.trademarks { margin-top: 2.5rem; font-size: .8rem; color: var(--muted); }
 .back { margin-top: 2.5rem; }
 .h3 { font-size: 1.15rem; }
 @media (min-width: 640px) { .cards--2 { grid-template-columns: repeat(2, 1fr); } }
