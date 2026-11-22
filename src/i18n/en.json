@@ -2,7 +2,7 @@
   "meta": {
     "home": {
       "title": "Chantrea Systems — IT services in Kampot, Cambodia",
-      "description": "Multilingual websites, Android apps, AI integration, Windows and Linux support, hotel management software. Based in Kampot, Cambodia. On site or remote."
+      "description": "Multilingual websites, Android apps, Odoo and Nextcloud, AI, Windows and Linux support, hotel management software. Based in Kampot, Cambodia. On site or remote."
     },
     "chooser": {
       "title": "Chantrea Systems",
@@ -10,7 +10,7 @@
     },
     "services": {
       "title": "Services — Chantrea Systems",
-      "description": "Web and Android development, artificial intelligence, Windows and Linux infrastructure, IT security. In Kampot or remote, in your language."
+      "description": "Web and Android development, Odoo and Nextcloud, artificial intelligence, Windows and Linux infrastructure, IT security. In Kampot or remote, in your language."
     },
     "hms": {
       "title": "HMS, hotel management software — Chantrea Systems",
@@ -71,7 +71,7 @@
     },
     "services": {
       "title": "What I do",
-      "intro": "Four areas. I answer you myself."
+      "intro": "Five areas. I answer you myself."
     },
     "hms": {
       "eyebrow": "Product",
@@ -167,7 +167,7 @@
   },
   "services": {
     "title": "Services",
-    "lead": "Four areas. On site in Kampot, remote everywhere else.",
+    "lead": "Five areas. On site in Kampot, remote everywhere else.",
     "more": "Learn more",
     "back": "All services",
     "items": [

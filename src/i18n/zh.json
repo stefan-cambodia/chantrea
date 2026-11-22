@@ -2,7 +2,7 @@
   "meta": {
     "home": {
       "title": "Chantrea Systems — 柬埔寨贡布的 IT 服务",
-      "description": "多语言网站、Android 应用、AI 集成、Windows 和 Linux 技术支持、酒店管理软件。位于柬埔寨贡布。可上门，也可远程。"
+      "description": "多语言网站、Android 应用、Odoo 和 Nextcloud、AI、Windows 和 Linux 技术支持、酒店管理软件。位于柬埔寨贡布。可上门，也可远程。"
     },
     "chooser": {
       "title": "Chantrea Systems",
@@ -10,7 +10,7 @@
     },
     "services": {
       "title": "服务 — Chantrea Systems",
-      "description": "网站和 Android 开发、人工智能、Windows 和 Linux 基础设施、IT 安全。只需对接一个人，在贡布上门，或远程服务。"
+      "description": "网站和 Android 开发、Odoo 和 Nextcloud、人工智能、Windows 和 Linux 基础设施、IT 安全。在贡布上门，或远程服务。"
     },
     "hms": {
       "title": "HMS 酒店管理软件 — Chantrea Systems",
@@ -71,7 +71,7 @@
     },
     "services": {
       "title": "我做什么",
-      "intro": "四个领域。我会亲自回复您。"
+      "intro": "五个领域。我会亲自回复您。"
     },
     "hms": {
       "eyebrow": "产品",
@@ -167,7 +167,7 @@
   },
   "services": {
     "title": "服务",
-    "lead": "四个领域。在贡布上门服务，其他地方远程服务。",
+    "lead": "五个领域。在贡布上门服务，其他地方远程服务。",
     "more": "了解更多",
     "back": "全部服务",
     "items": [
