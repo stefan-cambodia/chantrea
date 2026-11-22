@@ -288,7 +288,7 @@
       {
         "id": "infrastructure",
         "title": "基础设施",
-        "summary": "安装服务器、网络、Wi-Fi 和 UPS 不间断电源，布线，Windows 和 Linux，用 XCP-ng 做虚拟化。",
+        "summary": "安装服务器、网络、Wi-Fi 和 UPS 不间断电源，布线，Windows 和 Linux，用 XCP-ng 和 XenServer 做虚拟化。",
         "lead": "从选购设备到日常维护，我全程负责您的安装。",
         "sections": [
           {
@@ -304,8 +304,12 @@
             "text": "工作站和服务器的安装、更新和故障排除，Windows 和 Linux 都可以。"
           },
           {
-            "title": "用 XCP-ng 做虚拟化",
-            "text": "在一台物理机上运行多台虚拟服务器：少买硬件，备份更简单，出故障后恢复更快。"
+            "title": "用 XCP-ng 和 XenServer 做虚拟化",
+            "text": "在一台物理机上运行多台虚拟服务器，用 Xen Orchestra 在浏览器里管理：少买硬件，备份更简单，出故障后恢复更快。我也维护现有的 XenServer 服务器，并把您的虚拟机从 VMware 迁移过来。"
+          },
+          {
+            "title": "在您那里、我们这里，或云端",
+            "text": "您的虚拟服务器可以运行在您的场所内、Chantrea Systems 租用的服务器上，或大型托管服务商那里。"
           },
           {
             "title": "合作流程",
@@ -324,7 +328,8 @@
             "title": "上门或远程",
             "text": "在贡布上门服务。其他地方，条件允许时远程处理。"
           }
-        ]
+        ],
+        "trademarks": "XCP-ng、Xen Orchestra 和 XenServer 是其各自所有者的商标。"
       },
       {
         "id": "security",

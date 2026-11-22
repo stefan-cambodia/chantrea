@@ -288,7 +288,7 @@
       {
         "id": "infrastructure",
         "title": "Infrastructure",
-        "summary": "Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng.",
+        "summary": "Installation de serveurs, de réseaux, de Wi-Fi et d'onduleurs, câblage, Windows et Linux, virtualisation avec XCP-ng et XenServer.",
         "lead": "Du choix du matériel à la maintenance, je m'occupe de votre installation du début à la fin.",
         "sections": [
           {
@@ -304,8 +304,12 @@
             "text": "Installation, mises à jour et dépannage de postes de travail et de serveurs, sous Windows comme sous Linux."
           },
           {
-            "title": "Virtualisation avec XCP-ng",
-            "text": "Plusieurs serveurs virtuels sur une seule machine physique : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne."
+            "title": "Virtualisation avec XCP-ng et XenServer",
+            "text": "Plusieurs serveurs virtuels sur une seule machine physique, gérés depuis un navigateur avec Xen Orchestra : moins de matériel à acheter, des sauvegardes plus simples, une remise en route plus rapide après une panne. J'entretiens aussi les serveurs XenServer existants, et je migre vos machines depuis VMware."
+          },
+          {
+            "title": "Chez vous, chez nous ou dans le cloud",
+            "text": "Vos serveurs virtuels peuvent tourner dans vos locaux, sur des serveurs loués par Chantrea Systems, ou chez un grand hébergeur."
           },
           {
             "title": "Comment ça se passe",
@@ -324,7 +328,8 @@
             "title": "Sur place ou à distance",
             "text": "Sur place à Kampot. Ailleurs, à distance quand c'est possible."
           }
-        ]
+        ],
+        "trademarks": "XCP-ng, Xen Orchestra et XenServer sont des marques de leurs propriétaires respectifs."
       },
       {
         "id": "security",

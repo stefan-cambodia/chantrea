@@ -288,7 +288,7 @@
       {
         "id": "infrastructure",
         "title": "Infrastructure",
-        "summary": "Setup of servers, networks, Wi-Fi and UPS units, cabling, Windows and Linux, virtualization with XCP-ng.",
+        "summary": "Setup of servers, networks, Wi-Fi and UPS units, cabling, Windows and Linux, virtualization with XCP-ng and XenServer.",
         "lead": "From choosing the hardware to maintenance, I look after your installation from start to finish.",
         "sections": [
           {
@@ -304,8 +304,12 @@
             "text": "Setup, updates and troubleshooting of workstations and servers, on Windows as well as Linux."
           },
           {
-            "title": "Virtualization with XCP-ng",
-            "text": "Several virtual servers on one physical machine: less hardware to buy, simpler backups, faster recovery after a failure."
+            "title": "Virtualization with XCP-ng and XenServer",
+            "text": "Several virtual servers on one physical machine, managed from a web browser with Xen Orchestra: less hardware to buy, simpler backups, faster recovery after a failure. I also maintain existing XenServer servers, and I migrate your machines from VMware."
+          },
+          {
+            "title": "On your premises, with us or in the cloud",
+            "text": "Your virtual servers can run on your premises, on servers rented by Chantrea Systems, or with a large hosting provider."
           },
           {
             "title": "How it works",
@@ -324,7 +328,8 @@
             "title": "On site or remote",
             "text": "On site in Kampot. Elsewhere, remotely when possible."
           }
-        ]
+        ],
+        "trademarks": "XCP-ng, Xen Orchestra and XenServer are trademarks of their respective owners."
       },
       {
         "id": "security",
