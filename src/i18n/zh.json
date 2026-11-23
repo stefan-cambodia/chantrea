@@ -174,16 +174,16 @@
       {
         "id": "development",
         "title": "软件与数字化解决方案",
-        "summary": "业务软件、Web 和 Android 应用、多语言网站、数据库，以及各种工具之间的集成。",
+        "summary": "业务软件、Odoo 模块、Web 和 Android 应用、多语言网站、数据库，以及各种工具之间的集成。",
         "points": [
-          "定制管理软件",
+          "业务软件和 Odoo 模块",
           "Web 和 Android 应用",
           "多语言网站",
           "API 和集成"
         ],
         "lead": "软件和应用贴合您企业真正的工作方式，使用您客户和团队的语言。",
         "metaTitle": "柬埔寨软件开发和应用开发 — Chantrea Systems",
-        "metaDescription": "业务软件、管理应用、Web 和 Android 应用、多语言网站、数据库、API 和集成。柬埔寨贡布，也可远程服务。",
+        "metaDescription": "业务软件、Odoo 定制模块、管理应用、Web 和 Android 应用、多语言网站、数据库、API 和集成。柬埔寨贡布，也可远程服务。",
         "sections": [
           {
             "title": "业务软件和管理应用",
@@ -227,7 +227,7 @@
           }
         ],
         "examples": "案例：HMS 酒店管理软件，一个三语学习网站，几款 Android 3D 游戏。",
-        "trademarks": "Android 和 Astro 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
+        "trademarks": "Android、Astro 和 Odoo 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
       },
       {
         "id": "ai",
@@ -307,7 +307,7 @@
         ],
         "lead": "我负责设计、安装和管理运行您应用的环境：从硬件到监控，包括虚拟化和备份。",
         "metaTitle": "柬埔寨 IT 基础设施：服务器、XCP-ng 虚拟化、Zabbix — Chantrea Systems",
-        "metaDescription": "Windows 和 Linux 服务器管理，用 Xen、XCP-ng 和 Xen Orchestra 做服务器虚拟化，Zabbix 监控，备份，网络，Nextcloud 私有云和 Odoo。柬埔寨贡布，也可远程服务。",
+        "metaDescription": "Windows 和 Linux 服务器管理，用 Xen、XCP-ng 和 Xen Orchestra 做服务器虚拟化，Zabbix 监控，备份，网络，Nextcloud 私有云、Odoo 和 Mattermost。柬埔寨贡布，也可远程服务。",
         "sections": [
           {
             "figure": "infra"
@@ -376,7 +376,7 @@
           },
           {
             "title": "企业应用和私有云",
-            "text": "在这套基础设施上，我安装企业应用：Nextcloud 用于文件和团队协作，Odoo 用于企业管理（客户、销售、开票，取决于所选模块）。Odoo 和 Nextcloud 由各自的开发商开发：我负责安装、配置，并根据您的企业进行调整。"
+            "text": "在这套基础设施上，我安装企业应用：Nextcloud 用于文件和团队协作，Mattermost 用于团队即时通讯，Odoo 用于企业管理（客户、销售、开票，取决于所选模块）。Odoo、Nextcloud 和 Mattermost 由各自的开发商开发：我负责安装、配置，并根据您的企业进行调整。"
           },
           {
             "title": "协调一致的基础设施",
@@ -411,7 +411,7 @@
             ]
           }
         ],
-        "trademarks": "Xen、XCP-ng、Xen Orchestra、XenServer、VMware、Zabbix、Windows、Linux、Odoo、Nextcloud 和 GLPI 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
+        "trademarks": "Xen、XCP-ng、Xen Orchestra、XenServer、VMware、Zabbix、Windows、Linux、Odoo、Nextcloud、Mattermost 和 GLPI 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
       },
       {
         "id": "security",
@@ -500,11 +500,11 @@
       {
         "id": "business-software",
         "parent": "infrastructure",
-        "title": "Odoo 和 Nextcloud",
-        "summary": "您的企业管理和共享文件，都用开源软件。可以装在您那里、我们这里，或云端。",
-        "lead": "我负责安装、调整和维护 Odoo 和 Nextcloud。在哪里运行由您来选，数据始终归您所有。",
-        "metaTitle": "柬埔寨 Odoo 和 Nextcloud：安装与定制 — Chantrea Systems",
-        "metaDescription": "Odoo（企业管理）和 Nextcloud（私有云）的安装、配置、定制模块和维护。可以装在您那里、我们这里，或云端。",
+        "title": "Odoo、Nextcloud 和 Mattermost",
+        "summary": "您的企业管理、共享文件和团队通讯，都用开源软件。可以装在您那里、我们这里，或云端。",
+        "lead": "我负责安装、调整和维护 Odoo、Nextcloud 和 Mattermost。在哪里运行由您来选，数据始终归您所有。",
+        "metaTitle": "柬埔寨 Odoo、Nextcloud 和 Mattermost：安装与定制 — Chantrea Systems",
+        "metaDescription": "Odoo（企业管理）、Nextcloud（私有云）和 Mattermost（团队通讯）的安装、配置、定制模块和维护。可以装在您那里、我们这里，或云端。",
         "sections": [
           {
             "title": "Odoo：管理企业",
@@ -513,6 +513,10 @@
           {
             "title": "Nextcloud：您的文件和团队",
             "text": "共享的文件、日历和通讯录，电脑和手机都能用，还有团队聊天和视频通话。和大型在线服务一样，只是放在您自己选的服务器上。"
+          },
+          {
+            "title": "Mattermost：团队通讯",
+            "text": "按团队或按项目建频道，私信、讨论串和共享文件，电脑和手机都能用。工作上的交流留在您自己的服务器上，而不是在大众聊天软件里。您的系统发出的警报，比如 Zabbix 的警报，可以直接发到某个频道。"
           },
           {
             "title": "在哪里运行",
@@ -524,8 +528,12 @@
             ]
           },
           {
-            "title": "为您定制的模块",
-            "text": "软件满足不了您的需要时，我来开发定制模块：一份报表、一种符合您格式的发票、与另一套软件的对接。我会先查一查有没有现成的模块可用：这样您花的钱更少。"
+            "title": "为您定制的 Odoo 模块",
+            "text": "Odoo 满足不了您的需要时，我来开发定制模块：一份报表、一种符合您格式的发票、与另一套软件的对接。我会先查一查有没有现成的模块可用：这样您花的钱更少。",
+            "link": {
+              "page": "services/odoo-development",
+              "label": "Odoo 模块开发"
+            }
           },
           {
             "title": "维护",
@@ -540,14 +548,113 @@
           {
             "title": "需要了解的事",
             "list": [
-              "Odoo 和 Nextcloud 由各自的开发商开发。我负责安装、配置，并根据您的企业进行调整。",
-              "Odoo 有免费版和付费版。免费版够不够用，我会坦白告诉您。",
+              "Odoo、Nextcloud 和 Mattermost 由各自的开发商开发。我负责安装、配置，并根据您的企业进行调整。",
+              "Odoo 和 Mattermost 都有免费版和付费版。免费版够不够用，我会坦白告诉您。",
+              "Nextcloud 本身已有聊天功能。如果您的团队沟通频繁、同时跟进多个项目，Mattermost 会更合适：根据您的工作方式来选。",
               "Odoo 每年发布一个新版本：每两到三年要安排一次升级。",
               "数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。"
             ]
           }
         ],
-        "trademarks": "Odoo 和 Nextcloud 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
+        "trademarks": "Odoo、Nextcloud 和 Mattermost 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
+      },
+      {
+        "id": "odoo-development",
+        "parent": "development",
+        "title": "Odoo 模块开发",
+        "summary": "为 Odoo 定制模块：您的界面、单据、业务规则，以及与其他软件的对接。另有专门面向柬埔寨和高棉语的方向。",
+        "lead": "Odoo 能满足很多需求，但每家企业都有自己的做法。缺了什么，我就开发一个模块加到 Odoo 上，不改动它的原始代码。",
+        "metaTitle": "柬埔寨 Odoo 定制模块开发 — Chantrea Systems",
+        "metaDescription": "Odoo 定制模块：字段和界面、符合您格式的发票和报表、自动化、数据导入、与其他软件的对接。针对柬埔寨的本地化：高棉语、美元和瑞尔。柬埔寨贡布，也可远程服务。",
+        "sections": [
+          {
+            "title": "模块能做什么",
+            "list": [
+              "按您的工作方式增加字段、界面和流程步骤。",
+              "报价单、发票、收据和送货单按您的格式出，带上您的标志和说明文字。",
+              "针对您关心的内容做报表和仪表板。",
+              "自动任务：提醒、催款、定时操作、审核前的检查。",
+              "从 Excel 文件或旧软件导入您的数据。",
+              "通过 API 与您的其他软件对接：网站、网店、行业软件。"
+            ]
+          },
+          {
+            "title": "我的做法",
+            "list": [
+              "先看 Odoo 本身或现成的模块能不能解决。OCA 社区（Odoo Community Association）的开源模块已覆盖很多需求。这样您花的钱更少。",
+              "独立的模块，不改动 Odoo 的代码：以后照样可以升级。",
+              "上线前，先在您数据库的副本上用真实数据测试。",
+              "模块附带说明：它做什么，怎么设置。"
+            ]
+          },
+          {
+            "title": "您的 Odoo 在哪里运行",
+            "text": "定制模块需要把 Odoo 装在服务器上：您那里、我们这里或云端。Odoo Online（由 Odoo 开发商托管的版本）不支持定制模块。",
+            "link": {
+              "page": "services/business-software",
+              "label": "Odoo 的安装与维护"
+            }
+          },
+          {
+            "title": "需要了解的事",
+            "list": [
+              "Odoo 每年发布一个新版本。每次升级，定制模块都要相应调整：需要提前考虑。",
+              "小而专一的模块比大模块好：每次新版本需要调整的地方更少。",
+              "Odoo 由其开发商开发。我不是 Odoo 开发商的官方合作伙伴。",
+              "关于您的项目，哪些我在别处做过，哪些是新的，我会说清楚。"
+            ]
+          }
+        ],
+        "trademarks": "Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。"
+      },
+      {
+        "id": "odoo-cambodia",
+        "parent": "odoo-development",
+        "title": "高棉语 Odoo，面向柬埔寨",
+        "summary": "专门面向柬埔寨企业的方向：高棉语 Odoo、高棉语或双语单据、美元和瑞尔、本地规则。",
+        "lead": "Odoo 是为全世界设计的。在柬埔寨，往往需要做些调整：员工的语言、两种货币、客户期待的单据。",
+        "metaTitle": "柬埔寨高棉语 Odoo：高棉语发票、美元和瑞尔 — Chantrea Systems",
+        "metaDescription": "为柬埔寨企业调整的 Odoo：高棉语界面，高棉语或高棉语-英语双语的发票和收据，美元和瑞尔，与您的会计确认过的税务规则。柬埔寨贡布。",
+        "sections": [
+          {
+            "title": "用员工的语言使用 Odoo",
+            "text": "Odoo 可以显示高棉语，但视模块而定，部分界面仍是英文。我会把您团队实际用到的界面补译完整，您的定制模块也一并翻译。每位用户自选语言：高棉语、英语或其他语言。"
+          },
+          {
+            "title": "高棉语单据",
+            "list": [
+              "报价单、发票、收据和送货单，用高棉语，或高棉语-英语双语。",
+              "高棉文字体在屏幕上和打印时都显示正确，PDF 也一样。"
+            ]
+          },
+          {
+            "title": "美元和瑞尔",
+            "text": "在柬埔寨，商品常以美元标价，收款时也收瑞尔。Odoo 支持多种货币；我按您的做法来调整：美元标价、发票上显示瑞尔合计、由您决定汇率。"
+          },
+          {
+            "title": "本地规则",
+            "text": "增值税、发票编号、必备信息、给会计的报表：您的会计确认过的规则，由我在 Odoo 里实现。软件由我开发；法律要求什么，由您的会计来定。"
+          },
+          {
+            "title": "开发中",
+            "text": "以下功能正在准备中，暂时还不能使用：",
+            "list": [
+              "单据上的日期和数字用高棉文显示。",
+              "同时收美元和瑞尔的收银台（Odoo 销售点）。",
+              "KHQR 二维码付款。"
+            ]
+          },
+          {
+            "title": "需要了解的事",
+            "list": [
+              "高棉语翻译先由 AI 准备，上线前再由您团队中懂高棉语的同事审核。",
+              "与政府部门或银行在线服务的对接，需逐案评估。",
+              "我不出具任何认证或税务批准。",
+              "先用您的真实单据测试，再做决定。"
+            ]
+          }
+        ],
+        "trademarks": "Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。"
       }
     ]
   },
@@ -566,6 +673,10 @@
           {
             "name": "Astro",
             "text": "用于构建轻巧、快速的多语言网站，就像本网站。"
+          },
+          {
+            "name": "Odoo",
+            "text": "Odoo 定制模块：界面、单据、报表、与您其他软件的对接，以及针对柬埔寨的本地化。"
           }
         ]
       },
@@ -608,6 +719,10 @@
           {
             "name": "Nextcloud",
             "text": "私有云：文件、共享、同步、日历和团队协作，放在您选择的服务器上。"
+          },
+          {
+            "name": "Mattermost",
+            "text": "团队通讯：频道、私信和共享文件，放在您选择的服务器上。"
           },
           {
             "name": "Odoo",

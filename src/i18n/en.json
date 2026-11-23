@@ -174,16 +174,16 @@
       {
         "id": "development",
         "title": "Software and digital solutions",
-        "summary": "Business software, web and Android apps, multilingual websites, databases and integrations between your tools.",
+        "summary": "Business software, Odoo modules, web and Android apps, multilingual websites, databases and integrations between your tools.",
         "points": [
-          "Custom management software",
+          "Business software and Odoo modules",
           "Web and Android apps",
           "Multilingual websites",
           "APIs and integrations"
         ],
         "lead": "Software and apps that follow the way your business really works, in the languages of your customers and your team.",
         "metaTitle": "Software and app development in Cambodia — Chantrea Systems",
-        "metaDescription": "Business software, management applications, web and Android apps, multilingual websites, databases, APIs and integrations. Software development in Kampot, Cambodia, and remote.",
+        "metaDescription": "Business software, custom Odoo modules, management applications, web and Android apps, multilingual websites, databases, APIs and integrations. Software development in Kampot, Cambodia, and remote.",
         "sections": [
           {
             "title": "Business software and management applications",
@@ -227,7 +227,7 @@
           }
         ],
         "examples": "Examples: the HMS hotel software, a learning site in three languages, 3D Android games.",
-        "trademarks": "Android and Astro are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+        "trademarks": "Android, Astro and Odoo are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
       },
       {
         "id": "ai",
@@ -307,7 +307,7 @@
         ],
         "lead": "I design, install and manage the environment that runs your applications: from the hardware to monitoring, including virtualization and backups.",
         "metaTitle": "IT infrastructure in Cambodia: servers, XCP-ng, Zabbix — Chantrea Systems",
-        "metaDescription": "Windows and Linux server administration, server virtualization with Xen, XCP-ng and Xen Orchestra, Zabbix monitoring, backups, networking, private cloud with Nextcloud, and Odoo. Kampot, Cambodia, and remote.",
+        "metaDescription": "Windows and Linux server administration, server virtualization with Xen, XCP-ng and Xen Orchestra, Zabbix monitoring, backups, networking, private cloud with Nextcloud, Odoo and Mattermost. Kampot, Cambodia, and remote.",
         "sections": [
           {
             "figure": "infra"
@@ -376,7 +376,7 @@
           },
           {
             "title": "Business applications and private cloud",
-            "text": "On this infrastructure, I install your business applications: Nextcloud for your files and teamwork, Odoo for management (customers, sales, invoicing, depending on the modules chosen). Odoo and Nextcloud are developed by their publishers: I install them, configure them and adapt them to your business."
+            "text": "On this infrastructure, I install your business applications: Nextcloud for your files and teamwork, Mattermost for team messaging, Odoo for management (customers, sales, invoicing, depending on the modules chosen). Odoo, Nextcloud and Mattermost are developed by their publishers: I install them, configure them and adapt them to your business."
           },
           {
             "title": "A consistent infrastructure",
@@ -411,7 +411,7 @@
             ]
           }
         ],
-        "trademarks": "Xen, XCP-ng, Xen Orchestra, XenServer, VMware, Zabbix, Windows, Linux, Odoo, Nextcloud and GLPI are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+        "trademarks": "Xen, XCP-ng, Xen Orchestra, XenServer, VMware, Zabbix, Windows, Linux, Odoo, Nextcloud, Mattermost and GLPI are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
       },
       {
         "id": "security",
@@ -500,11 +500,11 @@
       {
         "id": "business-software",
         "parent": "infrastructure",
-        "title": "Odoo and Nextcloud",
-        "summary": "Your business management and your shared files, on open-source software. Installed on your premises, with us or in the cloud.",
-        "lead": "I install, adapt and maintain Odoo and Nextcloud. You choose where they run, and your data stays yours.",
-        "metaTitle": "Odoo and Nextcloud in Cambodia: setup and customization — Chantrea Systems",
-        "metaDescription": "Installation, configuration, custom modules and maintenance for Odoo (business management) and Nextcloud (private cloud). On your premises, with us or in the cloud.",
+        "title": "Odoo, Nextcloud and Mattermost",
+        "summary": "Your business management, your shared files and your team's messaging, on open-source software. Installed on your premises, with us or in the cloud.",
+        "lead": "I install, adapt and maintain Odoo, Nextcloud and Mattermost. You choose where they run, and your data stays yours.",
+        "metaTitle": "Odoo, Nextcloud and Mattermost in Cambodia: setup and customization — Chantrea Systems",
+        "metaDescription": "Installation, configuration, custom modules and maintenance for Odoo (business management), Nextcloud (private cloud) and Mattermost (team messaging). On your premises, with us or in the cloud.",
         "sections": [
           {
             "title": "Odoo, to run your business",
@@ -513,6 +513,10 @@
           {
             "title": "Nextcloud, for your files and your team",
             "text": "Your shared documents, calendars and contacts, on computer and phone, with chat and video calls for the team. Like the big online services, but on a server you choose."
+          },
+          {
+            "title": "Mattermost, for your team's messaging",
+            "text": "Channels by team or by project, direct messages, threads and shared files, on computer and phone. Work conversations stay on your server, not in a consumer messaging app. Alerts from your tools, for example from Zabbix, can arrive in a channel."
           },
           {
             "title": "Where they run",
@@ -524,8 +528,12 @@
             ]
           },
           {
-            "title": "Modules made for you",
-            "text": "When the software does not do what you need, I build a custom module: a report, an invoice in your format, a link with another piece of software. I first check whether an existing module already does the job: that costs you less."
+            "title": "Odoo modules made for you",
+            "text": "When Odoo does not do what you need, I build a custom module: a report, an invoice in your format, a link with another piece of software. I first check whether an existing module already does the job: that costs you less.",
+            "link": {
+              "page": "services/odoo-development",
+              "label": "Odoo module development"
+            }
           },
           {
             "title": "Maintenance",
@@ -540,14 +548,113 @@
           {
             "title": "Good to know",
             "list": [
-              "Odoo and Nextcloud are developed by their publishers. I install them, configure them and adapt them to your business.",
-              "Odoo comes in a free version and a paid version. I tell you honestly whether the free version is enough for you.",
+              "Odoo, Nextcloud and Mattermost are developed by their publishers. I install them, configure them and adapt them to your business.",
+              "Odoo and Mattermost come in a free version and a paid version. I tell you honestly whether the free version is enough for you.",
+              "Nextcloud already has its own chat. Mattermost is useful when your team talks a lot, across several projects: we choose based on the way you work.",
               "Odoo releases a new version every year: plan for an upgrade every two or three years.",
               "Your data stays yours. If you change provider, you get a full copy and the access details."
             ]
           }
         ],
-        "trademarks": "Odoo and Nextcloud are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+        "trademarks": "Odoo, Nextcloud and Mattermost are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+      },
+      {
+        "id": "odoo-development",
+        "parent": "development",
+        "title": "Odoo module development",
+        "summary": "Custom modules for Odoo: your screens, your documents, your rules and your links with other software. With a branch dedicated to Cambodia and Khmer.",
+        "lead": "Odoo covers many needs, but every business has its own habits. When something is missing, I develop a module that adds to Odoo, without changing its original code.",
+        "metaTitle": "Custom Odoo module development in Cambodia — Chantrea Systems",
+        "metaDescription": "Custom Odoo modules: fields and screens, invoices and reports in your format, automations, data imports, links with your other software. Adapted to Cambodia: Khmer, dollar and riel. Kampot, Cambodia, and remote.",
+        "sections": [
+          {
+            "title": "What a module can do",
+            "list": [
+              "Fields, screens and steps that follow the way you work.",
+              "Quotes, invoices, receipts and delivery slips in your format, with your logo and your wording.",
+              "Reports and dashboards on what matters to you.",
+              "Automatic tasks: reminders, follow-ups, scheduled actions, checks before validation.",
+              "Importing your data from Excel files or from your old software.",
+              "Links with your other software through APIs: website, online shop, business software."
+            ]
+          },
+          {
+            "title": "How I work",
+            "list": [
+              "First, check whether Odoo, or an existing module, already does the job. The open-source modules of the OCA community (Odoo Community Association) cover many needs. That costs you less.",
+              "A separate module that does not change Odoo's code: updates remain possible.",
+              "A trial on a copy of your database, with your real data, before going live.",
+              "A documented module: what it does, and how to configure it."
+            ]
+          },
+          {
+            "title": "Where your Odoo runs",
+            "text": "Custom modules need Odoo installed on a server: on your premises, with us or in the cloud. Odoo Online, the version hosted by the publisher, does not accept them.",
+            "link": {
+              "page": "services/business-software",
+              "label": "Installing and maintaining Odoo"
+            }
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "Odoo releases a new version every year. At each upgrade, custom modules have to be adapted: plan for it.",
+              "A small, focused module is better than a big one: there is less to adapt with each new version.",
+              "Odoo is developed by its publisher. I am not an official partner of Odoo's publisher.",
+              "For your project, I tell you clearly what I have already done elsewhere, and what would be new."
+            ]
+          }
+        ],
+        "trademarks": "Odoo is a trademark of its owner. Mentioning it does not imply any partnership with its publisher."
+      },
+      {
+        "id": "odoo-cambodia",
+        "parent": "odoo-development",
+        "title": "Odoo in Khmer, for Cambodia",
+        "summary": "A branch dedicated to businesses in Cambodia: Odoo in Khmer, documents in Khmer or bilingual, dollar and riel, local rules.",
+        "lead": "Odoo is designed for the whole world. In Cambodia, it often needs adapting: your team's language, the two currencies, the documents your customers expect.",
+        "metaTitle": "Odoo in Khmer in Cambodia: Khmer invoices, dollar and riel — Chantrea Systems",
+        "metaDescription": "Odoo adapted for Cambodian businesses: screens in Khmer, invoices and receipts in Khmer or bilingual Khmer-English, dollar and riel, tax rules validated with your accountant. Kampot, Cambodia.",
+        "sections": [
+          {
+            "title": "Odoo in your team's language",
+            "text": "Odoo can be displayed in Khmer, but depending on the modules, some screens remain in English. I complete the translation of the screens your team actually uses, and your custom modules are translated too. Each user chooses their language: Khmer, English or another one."
+          },
+          {
+            "title": "Documents in Khmer",
+            "list": [
+              "Quotes, invoices, receipts and delivery slips in Khmer, or bilingual Khmer-English.",
+              "Khmer fonts that display and print correctly, including in PDFs."
+            ]
+          },
+          {
+            "title": "Dollar and riel",
+            "text": "In Cambodia, prices are often in dollars and payments also come in riels. Odoo handles several currencies; I adapt it to the way you work: prices in dollars, total in riels on the invoice, the exchange rate you choose."
+          },
+          {
+            "title": "Local rules",
+            "text": "VAT, invoice numbering, mandatory mentions, reports for your accountant: I set up in Odoo the rules your accountant has validated. I build the software; your accountant says what the law requires."
+          },
+          {
+            "title": "In development",
+            "text": "These features are being prepared and are not available yet:",
+            "list": [
+              "Dates and numbers in Khmer on documents.",
+              "A till (Odoo point of sale) that accepts dollars and riels.",
+              "Payment by KHQR code."
+            ]
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "The Khmer translation is prepared with AI, then reviewed by someone on your team who speaks Khmer, before going live.",
+              "Links with online services of the administration or of banks are studied case by case.",
+              "I do not issue any certification or tax approval.",
+              "We test on your real documents before deciding."
+            ]
+          }
+        ],
+        "trademarks": "Odoo is a trademark of its owner. Mentioning it does not imply any partnership with its publisher."
       }
     ]
   },
@@ -566,6 +673,10 @@
           {
             "name": "Astro",
             "text": "For multilingual websites that are light and fast, like this one."
+          },
+          {
+            "name": "Odoo",
+            "text": "Custom modules for Odoo: screens, documents, reports, links with your other software, and adaptation to Cambodia."
           }
         ]
       },
@@ -608,6 +719,10 @@
           {
             "name": "Nextcloud",
             "text": "A private cloud: files, sharing, sync, calendars and teamwork, on a server you choose."
+          },
+          {
+            "name": "Mattermost",
+            "text": "Team messaging: channels, direct messages and shared files, on a server you choose."
           },
           {
             "name": "Odoo",
