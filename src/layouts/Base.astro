@@ -27,6 +27,14 @@ const organization = {
     addressLocality: config.location.city,
     addressCountry: config.location.countryCode,
   },
+  areaServed: { '@type': 'Country', name: 'Cambodia' },
+  knowsAbout: [
+    'Software development', 'Web applications', 'Android applications', 'Multilingual websites',
+    'Hotel management software', 'Business automation', 'Local AI', 'Ollama',
+    'Windows Server', 'Linux', 'Server virtualization', 'Xen', 'XCP-ng', 'Xen Orchestra',
+    'Zabbix', 'IT asset management', 'GLPI', 'Software inventory', 'IT security', 'Private cloud',
+    'Nextcloud', 'Odoo',
+  ],
   ...(config.legal.legalName ? { legalName: config.legal.legalName } : {}),
 };
 ---

@@ -1,6 +1,7 @@
 ---
 import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
+import DomainIcon from '../../../components/DomainIcon.astro';
 import { langPaths, t, href } from '../../../i18n/index.js';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
 
@@ -9,23 +10,62 @@ export const getStaticPaths = langPaths;
 const { lang } = Astro.params;
 const tr = t(lang);
 const s = tr.services;
+const domains = s.items.filter((i) => !i.parent);
+const childrenOf = (id) => s.items.filter((i) => i.parent === id);
+const titleOf = (id) => s.items.find((i) => i.id === id)?.title;
 const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
 ---
 <Page lang={lang} page="services" title={tr.meta.services.title} description={tr.meta.services.description} jsonLd={jsonLd}>
   <PageHero title={s.title} lead={s.lead} />
   <section class="section">
     <div class="container">
-      <ul class="cards cards--2">
-        {s.items.map((item) => (
-          <li class="card">
+      <ol class="cards cards--2 domains">
+        {domains.map((item, i) => (
+          <li class="card domain">
+            <div class="domain__head">
+              <DomainIcon id={item.id} />
+              <span class="domain__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            </div>
             <h2 class="h3">{item.title}</h2>
             <p>{item.summary}</p>
+            <ul class="checklist checklist--sm">{item.points.map((p) => <li>{p}</li>)}</ul>
+            {childrenOf(item.id).map((c) => (
+              <p class="domain__sub">
+                {s.related} : <a href={href(lang, `services/${c.id}`)}>{c.title}</a>
+              </p>
+            ))}
             <a class="card__link" href={href(lang, `services/${item.id}`)}>
-              {s.more}<span class="sr-only"> : {item.title}</span>
+              {s.more}<span class="sr-only"> : {item.title}</span> →
             </a>
           </li>
         ))}
-      </ul>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="tech-title">
+    <div class="container">
+      <h2 id="tech-title">{tr.tech.title}</h2>
+      <p class="section__intro">{tr.tech.intro}</p>
+      <div class="tech">
+        {tr.tech.groups.map((g) => (
+          <section class="tech__group" aria-labelledby={`tech-${g.domain}`}>
+            <h3 id={`tech-${g.domain}`} class="tech__domain">
+              <DomainIcon id={g.domain} size={22} />
+              <a href={href(lang, `services/${g.domain}`)}>{titleOf(g.domain)}</a>
+            </h3>
+            <dl class="tech__list">
+              {g.items.map((it) => (
+                <div class="tech__item">
+                  <dt>{it.name}</dt>
+                  <dd>{it.text}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        ))}
+      </div>
+      <p class="trademarks">{tr.tech.note}</p>
     </div>
   </section>
 </Page>

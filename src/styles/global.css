@@ -189,13 +189,13 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
 }
 .mobile-nav nav { position: absolute; left: 0; right: 0; top: 100%; background: var(--night-bg); border-bottom: 1px solid var(--night-line); padding: .5rem 1rem 1rem; }
-@media (min-width: 1180px) {
+@media (min-width: 1000px) {
   .main-nav { display: block; }
   .site-header__tools { margin-left: .5rem; }
   .mobile-nav { display: none; }
 }
-/* Avec le lien « Espace client », le menu complet demande plus de place (russe : 1280 px). */
-@media (min-width: 1180px) and (max-width: 1299.98px) {
+/* Avec le lien « Espace client », le menu complet demande plus de place. */
+@media (min-width: 1000px) and (max-width: 1099.98px) {
   .has-portal .main-nav { display: none; }
   .has-portal .site-header__tools { margin-left: auto; }
   .has-portal .mobile-nav { display: block; }
@@ -327,3 +327,116 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .gallery img { display: block; width: 100%; height: auto; }
 .gallery figcaption { margin-top: .6rem; color: var(--muted); font-size: .95rem; }
 .gallery__item--featured figcaption { font-size: 1rem; }
+
+/* ─── Domaines d'activité (accueil, services) ──────────────── */
+.domain { gap: .2rem; }
+.domain__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: .9rem; }
+.domain-icon { color: var(--accent); }
+.domain__head .domain-icon { box-sizing: content-box; padding: .55rem; border-radius: 10px; background: var(--bg-alt); border: 1px solid var(--line); }
+.domain__num { font-family: var(--font-mono); font-size: .85rem; color: var(--muted); letter-spacing: .08em; }
+.domain .checklist { margin: .2rem 0 1.2rem; }
+.domain__sub { font-size: .95rem; margin: -.4rem 0 1rem; }
+.cards--4.domains .card p { font-size: .97rem; }
+
+/* ─── HMS : démonstration en conditions réelles ────────────── */
+.demo-badge {
+  display: flex; gap: .7rem; align-items: flex-start; font-weight: 600; color: var(--text);
+  padding: .8rem 1rem; margin: 1.2rem 0 1.4rem; border-radius: 10px;
+  background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+}
+.demo-badge__dot { flex: none; width: .65rem; height: .65rem; margin-top: .45em; border-radius: 50%; background: var(--logo-moon); box-shadow: 0 0 0 3px rgba(159, 224, 168, .25); }
+.split--media .actions { margin-top: 1.6rem; }
+.demo-card {
+  background: var(--night-bg); color: var(--night-text); --muted: var(--night-muted); --accent: var(--moon); --text: var(--night-text);
+  border-radius: var(--radius); padding: clamp(1.4rem, 3vw, 2rem); border: 1px solid var(--night-line);
+}
+.demo-card .eyebrow { color: var(--moon); }
+.demo-card__title { font-size: clamp(1.2rem, 2.6vw, 1.5rem); }
+.demo-card p { color: var(--night-muted); }
+.demo-card .checklist { margin: 1rem 0 1.5rem; }
+.demo-card .btn--primary { background: var(--moon); color: var(--moon-ink); }
+.hms-facts { align-items: start; }
+.hms-facts h2 { margin-bottom: .8rem; }
+.hms-facts p { color: var(--muted); }
+
+/* ─── Schéma d'infrastructure ──────────────────────────────── */
+.split--center { align-items: center; }
+.infra { margin: 0; }
+.infra__title { font-size: 1.05rem; margin-bottom: 1rem; }
+.infra__grid { display: grid; gap: .75rem; }
+@media (min-width: 560px) { .infra__grid { grid-template-columns: 1fr 11.5rem; } }
+.infra__stack { display: grid; gap: .45rem; }
+.infra__layer { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: .65rem .8rem; }
+.infra__layer--2 { border-color: var(--accent); box-shadow: inset 3px 0 0 var(--accent); }
+.infra__layer--3 { background: var(--bg-alt); border-style: dashed; }
+.infra__label { display: block; font-family: var(--font-mono); font-size: .72rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-bottom: .35rem; }
+:lang(km) .infra__label, :lang(zh-Hans) .infra__label { font-family: inherit; letter-spacing: 0; font-size: .8rem; }
+.infra__chips { display: flex; flex-wrap: wrap; gap: .35rem; }
+.infra__chips li { font-size: .88rem; font-weight: 600; padding: .15rem .55rem; border-radius: 6px; background: var(--bg-alt); border: 1px solid var(--line); }
+.infra__layer--3 .infra__chips li { background: var(--surface); }
+.infra__side { display: grid; gap: .45rem; align-content: stretch; }
+.infra__side li { display: flex; flex-direction: column; justify-content: center; gap: .1rem; padding: .65rem .8rem; border-radius: 10px; border: 1px dashed var(--accent); background: transparent; }
+.infra__side strong { font-size: .95rem; }
+.infra__text { font-size: .85rem; color: var(--muted); }
+.infra figcaption { margin-top: .75rem; font-size: .85rem; color: var(--muted); }
+
+/* ─── Inventaire et veille, en étapes ──────────────────────── */
+.section-head { max-width: 46rem; }
+.flow-block__title { font-size: 1.05rem; margin-bottom: 1rem; }
+.flow { display: grid; gap: .75rem; }
+@media (min-width: 1000px) { .flow { grid-template-columns: repeat(5, 1fr); } }
+.flow__step { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem 1.1rem 1rem; }
+.flow__step p { color: var(--muted); font-size: .95rem; margin: 0; }
+.flow__title { font-size: 1rem; margin: .6rem 0 .4rem; }
+.flow__num { display: grid; place-items: center; width: 1.9rem; height: 1.9rem; border-radius: 50%; font-family: var(--font-mono); font-weight: 700; font-size: .9rem; color: var(--accent-ink); background: var(--accent); }
+.flow__step:nth-child(4) { border-color: var(--accent); }
+@media (min-width: 1000px) {
+  .flow__step:not(:last-child)::after {
+    content: ""; position: absolute; top: 1.95rem; right: -.6rem; z-index: 1; width: .45rem; height: .45rem;
+    border-top: 2px solid var(--accent); border-right: 2px solid var(--accent); rotate: 45deg;
+  }
+}
+.flow-block__note { margin: 1rem 0 1.5rem; padding: .8rem 1rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 8px 8px 0; color: var(--muted); font-size: .95rem; }
+
+/* ─── Produits et R&D : distinction visuelle ───────────────── */
+.group-title { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin: 2rem 0 1rem; }
+.section__intro + .group-title { margin-top: 0; }
+h2.group-title { margin-top: 0; }
+.tag { display: inline-block; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: .2rem .6rem; border-radius: 6px; }
+:lang(km) .tag { text-transform: none; letter-spacing: 0; font-size: .85rem; }
+.tag--product { background: var(--accent); color: var(--accent-ink); }
+.tag--rd { border: 1.5px dashed var(--muted); color: var(--muted); }
+.project--product { border-top: 3px solid var(--accent); }
+.project--rd { border-style: dashed; }
+.project__media { display: block; margin: -1.4rem -1.4rem 1.1rem; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; }
+.project__media img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.project h4 { margin-bottom: .5rem; }
+.project .status + p { margin-top: .8rem; }
+.more-link { margin: 2rem 0 0; }
+
+/* ─── Pages de service : définitions, offre liée ───────────── */
+.defs { display: grid; gap: .6rem; margin: 0 0 1em; }
+.defs > div { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: .85rem 1rem; }
+.defs dt { font-weight: 700; margin-bottom: .2rem; }
+.defs dd { margin: 0; color: var(--muted); }
+.prose-section--figure { padding: 1.4rem; border-radius: var(--radius); background: var(--bg-alt); border: 1px solid var(--line); }
+.prose-section--figure .infra__title, .prose-section--figure .flow-block__title { font-size: 1.35rem; }
+.prose-section--figure .flow { grid-template-columns: 1fr; }
+.prose-section--figure .flow__step::after { display: none; }
+.prose-section--figure .flow-block__note { margin-bottom: 0; }
+.offer-link { margin-top: 2.5rem; border-left: 3px solid var(--accent); }
+.offer-link .eyebrow { margin-bottom: .4rem; }
+
+/* ─── Technologies (page Services) ─────────────────────────── */
+.tech { display: grid; gap: 1.5rem; }
+@media (min-width: 860px) { .tech { grid-template-columns: repeat(2, 1fr); } }
+.tech__group { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.3rem 1.4rem; }
+.tech__domain { display: flex; align-items: center; gap: .55rem; font-size: 1.05rem; }
+.tech__domain a { color: var(--text); text-decoration: none; }
+.tech__domain a:hover { text-decoration: underline; }
+.tech__list { margin: 0; display: grid; gap: .8rem; }
+.tech__item { display: grid; gap: .1rem; padding-top: .8rem; border-top: 1px solid var(--line); }
+@media (min-width: 560px) { .tech__item { grid-template-columns: 8.5rem 1fr; gap: 1rem; } }
+.tech__item dt { font-family: var(--font-mono); font-weight: 700; font-size: .92rem; }
+.tech__item dd { margin: 0; color: var(--muted); font-size: .95rem; }
+.checklist + .actions { margin-top: 1.6rem; }

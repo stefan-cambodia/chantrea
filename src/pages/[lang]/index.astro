@@ -1,10 +1,17 @@
 ---
+// Accueil : présentation, quatre domaines, HMS, infrastructure, sécurité,
+// sélection de réalisations (produits puis R&D), fondateur et méthode, publics, contact.
 import Page from '../../layouts/Page.astro';
 import Txt from '../../components/Txt.astro';
 import MoonPhase from '../../components/MoonPhase.astro';
+import DomainIcon from '../../components/DomainIcon.astro';
+import InfraDiagram from '../../components/InfraDiagram.astro';
+import InventoryFlow from '../../components/InventoryFlow.astro';
 import { Picture } from 'astro:assets';
-import { homeScreen } from '../../data/rally-screens.js';
+import { homeScreen as rallyScreen } from '../../data/rally-screens.js';
 import { homeScreen as angkorScreen } from '../../data/angkor-screens.js';
+import { screensFor } from '../../data/hms-screens.js';
+import projects from '../../data/projects.js';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -12,7 +19,18 @@ export const getStaticPaths = langPaths;
 const { lang } = Astro.params;
 const tr = t(lang);
 const h = tr.home;
+const w = tr.work;
 const phases = [0.25, 0.5, 0.75, 1];
+const domains = tr.services.items.filter((i) => !i.parent);
+const hmsScreen = screensFor(lang).find((s) => s.caption === 'dashboard');
+
+// Sélection de réalisations : les produits, puis deux projets R&D avec image.
+const project = (id) => ({ ...projects.find((p) => p.id === id), ...w.items[id] });
+const products = ['hms', 'learnkh'].map(project);
+const rd = [
+  { ...project('rally'), image: rallyScreen.src },
+  { ...project('angkor'), image: angkorScreen.src },
+];
 ---
 <Page lang={lang} title={tr.meta.home.title} description={tr.meta.home.description}>
   <section class="hero night">
@@ -32,89 +50,132 @@ const phases = [0.25, 0.5, 0.75, 1];
     <div class="container">
       <h2 id="services-title">{h.services.title}</h2>
       <p class="section__intro">{h.services.intro}</p>
-      <ul class="cards cards--4">
-        {tr.services.items.map((s) => (
-          <li class="card">
+      <ol class="cards cards--4 domains">
+        {domains.map((s, i) => (
+          <li class="card domain">
+            <div class="domain__head">
+              <DomainIcon id={s.id} />
+              <span class="domain__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            </div>
             <h3>{s.title}</h3>
             <p>{s.summary}</p>
+            <ul class="checklist checklist--sm">{s.points.map((p) => <li>{p}</li>)}</ul>
             <a class="card__link" href={href(lang, `services/${s.id}`)}>
-              {tr.services.more}<span class="sr-only"> : {s.title}</span>
+              {tr.services.more}<span class="sr-only"> : {s.title}</span> →
             </a>
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   </section>
 
   <section class="section section--alt" aria-labelledby="hms-title">
-    <div class="container split">
+    <div class="container split split--media">
       <div>
         <p class="eyebrow">{h.hms.eyebrow}</p>
         <h2 id="hms-title">{h.hms.title}</h2>
         <p>{h.hms.text}</p>
-        <a class="btn btn--primary" href={href(lang, 'hms')}>{h.hms.cta}</a>
+        <p class="demo-badge"><span class="demo-badge__dot" aria-hidden="true"></span>{h.hms.demo}</p>
+        <ul class="checklist">{h.hms.points.map((p) => <li>{p}</li>)}</ul>
+        <div class="actions">
+          <a class="btn btn--primary" href={href(lang, 'hms')}>{h.hms.cta}</a>
+          <a class="btn btn--ghost" href={href(lang, 'contact')}>{tr.hms.cta}</a>
+        </div>
       </div>
-      <ul class="checklist">
-        {h.hms.points.map((p) => <li>{p}</li>)}
+      <a class="media" href={href(lang, 'hms')} tabindex="-1" aria-hidden="true">
+        <Picture
+          src={hmsScreen.src}
+          alt=""
+          formats={['avif', 'webp']}
+          widths={[480, 720, 960]}
+          sizes="(min-width: 1120px) 520px, (min-width: 860px) 45vw, 100vw"
+          quality={80}
+          loading="lazy"
+        />
+      </a>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="infra-title">
+    <div class="container split split--center">
+      <div>
+        <p class="eyebrow">{h.infra.eyebrow}</p>
+        <h2 id="infra-title">{h.infra.title}</h2>
+        <p>{h.infra.text}</p>
+        <ul class="checklist">{h.infra.points.map((p) => <li>{p}</li>)}</ul>
+        <div class="actions">
+          <a class="btn btn--primary" href={href(lang, 'services/infrastructure')}>{h.infra.cta}</a>
+        </div>
+      </div>
+      <InfraDiagram d={tr.diagram} />
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="security-title">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">{h.security.eyebrow}</p>
+        <h2 id="security-title">{h.security.title}</h2>
+        <p class="section__intro">{h.security.text}</p>
+      </div>
+      <InventoryFlow f={tr.inventoryFlow} />
+      <div class="actions">
+        <a class="btn btn--primary" href={href(lang, 'services/security')}>{h.security.cta}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="work-title">
+    <div class="container">
+      <h2 id="work-title">{h.work.title}</h2>
+      <p class="section__intro">{h.work.text}</p>
+
+      <h3 class="group-title"><span class="tag tag--product">{w.products.tag}</span> {w.products.title}</h3>
+      <ul class="cards cards--2">
+        {products.map((p) => (
+          <li class="card project project--product">
+            <p class="eyebrow">{p.kind}</p>
+            <h4 class="h3">{p.title}</h4>
+            <p class="status"><span class="sr-only">{w.status} : </span>{p.status}</p>
+            <p>{p.text}</p>
+            {p.link && p.page && <a class="card__link" href={href(lang, p.page)}>{p.link} →</a>}
+          </li>
+        ))}
       </ul>
+
+      <h3 class="group-title"><span class="tag tag--rd">{w.skills.tag}</span> {w.skills.title}</h3>
+      <ul class="cards cards--2">
+        {rd.map((p) => (
+          <li class="card project project--rd">
+            <a class="project__media" href={href(lang, p.page)} tabindex="-1" aria-hidden="true">
+              <Picture
+                src={p.image}
+                alt=""
+                formats={['avif', 'webp']}
+                widths={[480, 720]}
+                sizes="(min-width: 1120px) 536px, (min-width: 640px) 50vw, 100vw"
+                quality={75}
+                loading="lazy"
+              />
+            </a>
+            <p class="eyebrow">{p.kind}</p>
+            <h4 class="h3">{p.title}</h4>
+            <p class="status"><span class="sr-only">{w.status} : </span>{p.status}</p>
+            <p>{p.text}</p>
+            <a class="card__link" href={href(lang, p.page)}>{p.link} →</a>
+          </li>
+        ))}
+      </ul>
+      <p class="more-link"><a class="btn btn--ghost" href={href(lang, 'work')}>{h.work.cta}</a></p>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="rally-title">
-    <div class="container split split--media">
-      <div>
-        <p class="eyebrow">{h.rally.eyebrow}</p>
-        <h2 id="rally-title">{h.rally.title}</h2>
-        <p>{h.rally.text}</p>
-        <ul class="checklist">
-          {h.rally.points.map((p) => <li>{p}</li>)}
-        </ul>
-        <a class="btn btn--primary" href={href(lang, 'rally')}>{h.rally.cta}</a>
-      </div>
-      <a class="media" href={href(lang, 'rally')} tabindex="-1" aria-hidden="true">
-        <Picture
-          src={homeScreen.src}
-          alt=""
-          formats={['avif', 'webp']}
-          widths={[480, 720, 960]}
-          sizes="(min-width: 1120px) 520px, (min-width: 860px) 45vw, 100vw"
-          quality={80}
-          loading="lazy"
-        />
-      </a>
-    </div>
-  </section>
-
-  <section class="section section--alt" aria-labelledby="angkor-title">
-    <div class="container split split--media split--flip">
-      <div>
-        <p class="eyebrow">{h.angkor.eyebrow}</p>
-        <h2 id="angkor-title">{h.angkor.title}</h2>
-        <p>{h.angkor.text}</p>
-        <ul class="checklist">
-          {h.angkor.points.map((p) => <li>{p}</li>)}
-        </ul>
-        <a class="btn btn--primary" href={href(lang, 'angkor')}>{h.angkor.cta}</a>
-      </div>
-      <a class="media" href={href(lang, 'angkor')} tabindex="-1" aria-hidden="true">
-        <Picture
-          src={angkorScreen.src}
-          alt=""
-          formats={['avif', 'webp']}
-          widths={[480, 720, 960]}
-          sizes="(min-width: 1120px) 520px, (min-width: 860px) 45vw, 100vw"
-          quality={80}
-          loading="lazy"
-        />
-      </a>
-    </div>
-  </section>
-
-  <section class="section" aria-labelledby="single-title">
+  <section class="section section--alt" aria-labelledby="single-title">
     <div class="container split">
       <div>
         <h2 id="single-title">{h.single.title}</h2>
         <p class="lead-sm">{h.single.text}</p>
+        <a class="card__link" href={href(lang, 'about')}>{tr.nav.about} →</a>
       </div>
       <ul class="checklist">
         {h.single.points.map((p) => <li><Txt text={p} /></li>)}
@@ -122,7 +183,7 @@ const phases = [0.25, 0.5, 0.75, 1];
     </div>
   </section>
 
-  <section class="section section--alt" aria-labelledby="steps-title">
+  <section class="section" aria-labelledby="steps-title">
     <div class="container">
       <h2 id="steps-title">{h.steps.title}</h2>
       <ol class="steps">
@@ -137,10 +198,10 @@ const phases = [0.25, 0.5, 0.75, 1];
     </div>
   </section>
 
-  <section class="section" aria-labelledby="audiences-title">
+  <section class="section section--alt" aria-labelledby="audiences-title">
     <div class="container">
       <h2 id="audiences-title">{h.audiences.title}</h2>
-      <ul class="cards cards--3">
+      <ul class="cards cards--4">
         {h.audiences.items.map((a) => (
           <li class="card card--plain">
             <h3>{a.title}</h3>
@@ -148,16 +209,6 @@ const phases = [0.25, 0.5, 0.75, 1];
           </li>
         ))}
       </ul>
-    </div>
-  </section>
-
-  <section class="section section--alt" aria-labelledby="work-title">
-    <div class="container banner">
-      <div>
-        <h2 id="work-title">{h.work.title}</h2>
-        <p>{h.work.text}</p>
-      </div>
-      <a class="btn btn--ghost" href={href(lang, 'work')}>{h.work.cta}</a>
     </div>
   </section>
 </Page>

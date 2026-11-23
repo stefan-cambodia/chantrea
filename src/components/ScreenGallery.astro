@@ -3,10 +3,11 @@
 // chargées seulement quand elles approchent de l'écran. Un clic ouvre la grande version.
 // screens : [{ caption, src }], la première en grand.
 // texts   : { title, note, enlarge, captions } (ex. hms.gallery d'un fichier de langue).
+// alt     : fond alterné (section--alt).
 import { Picture, getImage } from 'astro:assets';
 
-interface Props { screens: { caption: string; src: ImageMetadata }[]; texts: any }
-const { screens: list, texts: g } = Astro.props;
+interface Props { screens: { caption: string; src: ImageMetadata }[]; texts: any; alt?: boolean }
+const { screens: list, texts: g, alt = false } = Astro.props;
 const screens = await Promise.all(
   list.map(async (s, i) => ({
     ...s,
@@ -16,7 +17,7 @@ const screens = await Promise.all(
   })),
 );
 ---
-<section class="section" aria-labelledby="gallery-title">
+<section class={alt ? 'section section--alt' : 'section'} aria-labelledby="gallery-title">
   <div class="container">
     <h2 id="gallery-title">{g.title}</h2>
     <p class="section__intro">{g.note}</p>

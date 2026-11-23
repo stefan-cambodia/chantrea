@@ -7,10 +7,12 @@ import config from '../../site.config.mjs';
 interface Props { lang: string; page?: string }
 const { lang, page = '' } = Astro.props;
 const tr = t(lang);
-const links = ['services', 'hms', 'rally', 'angkor', 'work', 'about', 'contact'].map((slug) => ({
+// Cambodia Rally et Angkor 3D (projets R&D) sont rangés sous « Réalisations » : liens dans le pied de page.
+const sectionOf: Record<string, string> = { rally: 'work', angkor: 'work' };
+const links = ['services', 'hms', 'work', 'about', 'contact'].map((slug) => ({
   slug,
   label: tr.nav[slug],
-  current: page === slug ? 'page' : page.startsWith(`${slug}/`) ? 'true' : undefined,
+  current: page === slug ? 'page' : page.startsWith(`${slug}/`) || sectionOf[page] === slug ? 'true' : undefined,
 }));
 // Lien « Espace client » : affiché seulement quand portalUrl est renseigné dans site.config.mjs.
 const portal = config.portalUrl;

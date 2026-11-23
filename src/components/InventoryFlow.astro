@@ -1,0 +1,21 @@
+---
+// Inventaire et veille, en cinq étapes (GLPI Agent → GLPI → analyse → veille → priorités).
+// Textes : inventoryFlow dans chaque fichier de langue.
+interface Props { f: any; heading?: 'h2' | 'h3' }
+const { f, heading = 'h3' } = Astro.props;
+const H = heading;
+const S = heading === 'h2' ? 'h3' : 'h4';
+---
+<div class="flow-block">
+  <H class="flow-block__title">{f.title}</H>
+  <ol class="flow">
+    {f.steps.map((s: any, i: number) => (
+      <li class="flow__step">
+        <span class="flow__num" aria-hidden="true">{i + 1}</span>
+        <S class="flow__title">{s.title}</S>
+        <p>{s.text}</p>
+      </li>
+    ))}
+  </ol>
+  <p class="flow-block__note">{f.note}</p>
+</div>

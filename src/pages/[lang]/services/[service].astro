@@ -1,5 +1,7 @@
 ---
 // Une page par offre. Le contenu vient de services.items dans les fichiers de langue.
+// Les quatre domaines n'ont pas de « parent » ; une offre détaillée (ex. Odoo et Nextcloud)
+// indique son domaine avec « parent » et s'affiche sous celui-ci.
 import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
 import Sections from '../../../components/Sections.astro';
@@ -14,22 +16,39 @@ export function getStaticPaths() {
 
 const { lang, service } = Astro.params;
 const tr = t(lang);
-const item = tr.services.items.find((i) => i.id === service);
+const items = tr.services.items;
+const item = items.find((i) => i.id === service);
+const parent = item.parent ? items.find((i) => i.id === item.parent) : null;
+const children = items.filter((i) => i.parent === item.id);
 const page = `services/${service}`;
 ---
 <Page lang={lang} page={page}
-      title={`${item.title} — Chantrea Systems`}
-      description={item.summary}
+      title={item.metaTitle ?? `${item.title} — Chantrea Systems`}
+      description={item.metaDescription ?? item.summary}
       jsonLd={[serviceJsonLd(Astro.site, lang, item)]}>
-  <PageHero eyebrow={tr.nav.services} title={item.title} lead={item.lead} />
+  <PageHero eyebrow={parent ? parent.title : tr.nav.services} title={item.title} lead={item.lead} />
   <section class="section">
     <div class="container narrow">
-      <Sections sections={item.sections} />
+      <Sections sections={item.sections} lang={lang} />
+      {children.map((c) => (
+        <aside class="card offer-link" aria-labelledby={`offer-${c.id}`}>
+          <p class="eyebrow">{tr.services.related}</p>
+          <h2 class="h3" id={`offer-${c.id}`}>{c.title}</h2>
+          <p>{c.summary}</p>
+          <a class="card__link" href={href(lang, `services/${c.id}`)}>
+            {tr.services.more}<span class="sr-only"> : {c.title}</span> →
+          </a>
+        </aside>
+      ))}
       {item.examples && (
         <p class="note">{item.examples} <a href={href(lang, 'work')}>{tr.nav.work}</a></p>
       )}
       {item.trademarks && <p class="trademarks">{item.trademarks}</p>}
-      <p class="back"><a href={href(lang, 'services')}>← {tr.services.back}</a></p>
+      <p class="back">
+        {parent
+          ? <a href={href(lang, `services/${parent.id}`)}>← {parent.title}</a>
+          : <a href={href(lang, 'services')}>← {tr.services.back}</a>}
+      </p>
     </div>
   </section>
 </Page>

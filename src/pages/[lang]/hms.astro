@@ -1,4 +1,5 @@
 ---
+import config from '../../../site.config.mjs';
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
 import ScreenGallery from '../../components/ScreenGallery.astro';
@@ -10,15 +11,44 @@ export const getStaticPaths = langPaths;
 const { lang } = Astro.params;
 const tr = t(lang);
 const h = tr.hms;
+
+// Données structurées : le logiciel, sans note, prix ni avis (rien d'inventé).
+const softwareJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'HMS',
+  description: tr.meta.hms.description,
+  applicationCategory: 'BusinessApplication',
+  operatingSystem: 'Web browser',
+  inLanguage: ['km', 'en', 'fr', 'zh-Hans', 'ru'],
+  url: new URL(href(lang, 'hms'), Astro.site).href,
+  author: { '@type': 'Organization', name: config.name, url: new URL(href(''), Astro.site).href },
+};
 ---
-<Page lang={lang} page="hms" title={tr.meta.hms.title} description={tr.meta.hms.description}>
+<Page lang={lang} page="hms" title={tr.meta.hms.title} description={tr.meta.hms.description} jsonLd={[softwareJsonLd]}>
   <PageHero eyebrow={h.eyebrow} title={h.title} lead={h.lead}>
     <div class="actions"><a class="btn btn--primary" href={href(lang, 'contact')}>{h.cta}</a></div>
   </PageHero>
 
-  <ScreenGallery screens={screensFor(lang)} texts={h.gallery} />
+  <section class="section" aria-labelledby="intro-title">
+    <div class="container split">
+      <div>
+        <h2 id="intro-title">{h.intro.title}</h2>
+        <p class="lead-sm">{h.intro.text}</p>
+      </div>
+      <aside class="demo-card" aria-labelledby="demo-title">
+        <p class="eyebrow">{h.demo.eyebrow}</p>
+        <h2 id="demo-title" class="demo-card__title">{h.demo.title}</h2>
+        <p>{h.demo.text}</p>
+        <ul class="checklist checklist--sm">{h.demo.points.map((p) => <li>{p}</li>)}</ul>
+        <a class="btn btn--primary" href={href(lang, 'contact')}>{h.cta}</a>
+      </aside>
+    </div>
+  </section>
 
-  <section class="section section--alt" aria-labelledby="features-title">
+  <ScreenGallery screens={screensFor(lang)} texts={h.gallery} alt />
+
+  <section class="section" aria-labelledby="features-title">
     <div class="container">
       <h2 id="features-title">{h.featuresTitle}</h2>
       <ul class="cards cards--3 features">
@@ -32,15 +62,19 @@ const h = tr.hms;
     </div>
   </section>
 
-  <section class="section">
-    <div class="container split">
+  <section class="section section--alt" aria-labelledby="how-title">
+    <div class="container cards cards--3 hms-facts">
       <div>
-        <h2>{h.how.title}</h2>
-        <ul class="checklist">{h.how.items.map((i) => <li>{i}</li>)}</ul>
+        <h2 class="h3" id="how-title">{h.how.title}</h2>
+        <ul class="checklist checklist--sm">{h.how.items.map((i) => <li>{i}</li>)}</ul>
       </div>
       <div>
-        <h2>{h.languages.title}</h2>
+        <h2 class="h3">{h.languages.title}</h2>
         <p>{h.languages.text}</p>
+      </div>
+      <div>
+        <h2 class="h3">{h.audience.title}</h2>
+        <p>{h.audience.text}</p>
       </div>
     </div>
   </section>

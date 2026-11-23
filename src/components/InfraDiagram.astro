@@ -1,0 +1,31 @@
+---
+// Schéma d'infrastructure, de bas en haut : matériel, virtualisation, machines virtuelles, applications,
+// avec à côté l'administration, la supervision et l'inventaire. Textes : diagram dans chaque fichier de langue.
+// En HTML (et non en image) pour être traduit, lisible par les lecteurs d'écran et léger.
+interface Props { d: any; heading?: 'h2' | 'h3' }
+const { d, heading = 'h3' } = Astro.props;
+const H = heading;
+---
+<figure class="infra">
+  <H class="infra__title">{d.title}</H>
+  <div class="infra__grid">
+    <ol class="infra__stack">
+      {d.layers.map((l: any, i: number) => (
+        <li class={`infra__layer infra__layer--${i}`}>
+          <span class="infra__label">{l.label}</span>
+          <ul class="infra__chips">{l.items.map((it: string) => <li>{it}</li>)}</ul>
+        </li>
+      ))}
+    </ol>
+    <ul class="infra__side">
+      {d.side.map((s: any) => (
+        <li>
+          <span class="infra__label">{s.label}</span>
+          <strong>{s.name}</strong>
+          <span class="infra__text">{s.text}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <figcaption>{d.caption}</figcaption>
+</figure>

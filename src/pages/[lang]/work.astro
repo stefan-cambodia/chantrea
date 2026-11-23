@@ -21,11 +21,11 @@ const groups = ['products', 'skills'].map((g) => ({
   {groups.map((g, gi) => (
     <section class={`section ${gi % 2 ? 'section--alt' : ''}`} aria-labelledby={`${g.id}-title`}>
       <div class="container">
-        <h2 id={`${g.id}-title`}>{g.title}</h2>
+        <h2 id={`${g.id}-title`} class="group-title"><span class={`tag ${g.id === 'products' ? 'tag--product' : 'tag--rd'}`}>{g.tag}</span> {g.title}</h2>
         <p class="section__intro">{g.intro}</p>
         <ul class="cards cards--2">
           {g.items.map((p) => (
-            <li class="card project">
+            <li class={`card project ${g.id === 'products' ? 'project--product' : 'project--rd'}`}>
               {p.kind && <p class="eyebrow">{p.kind}</p>}
               <h3>{p.title}</h3>
               {p.status && <p class="status"><span class="sr-only">{w.status} : </span>{p.status}</p>}

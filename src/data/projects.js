@@ -3,7 +3,7 @@
 //   1. ajouter une ligne ici (id, groupe, lien éventuel) ;
 //   2. ajouter ses textes sous work.items.<id> dans CHAQUE fichier src/i18n/<langue>.json.
 //
-// group : 'products' (proposable à un client) ou 'skills' (preuve de compétence)
+// group : 'products' (proposable à un client) ou 'skills' (projet technique et R&D, preuve de compétence)
 // page  : lien vers une page du site (ex. 'hms')
 // url   : lien externe public (jamais un dépôt privé)
 

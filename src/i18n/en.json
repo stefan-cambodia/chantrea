@@ -2,19 +2,19 @@
   "meta": {
     "home": {
       "title": "Chantrea Systems — IT services in Kampot, Cambodia",
-      "description": "Multilingual websites, Android apps, Odoo and Nextcloud, AI, Windows and Linux support, hotel management software. Based in Kampot, Cambodia. On site or remote."
+      "description": "Software development, HMS hotel software, AI installed on your premises, Windows and Linux servers, XCP-ng virtualization, Zabbix monitoring, GLPI IT asset management. Kampot, Cambodia, and remote."
     },
     "chooser": {
       "title": "Chantrea Systems",
       "description": "IT services in Kampot, Cambodia. Choose your language."
     },
     "services": {
-      "title": "Services — Chantrea Systems",
-      "description": "Web and Android development, Odoo and Nextcloud, artificial intelligence, Windows and Linux infrastructure, IT security. In Kampot or remote, in your language."
+      "title": "IT services in Cambodia — Chantrea Systems",
+      "description": "Software and apps, AI and automation, IT infrastructure and server virtualization, cybersecurity and IT asset management. In Kampot, elsewhere in Cambodia, or remote."
     },
     "hms": {
-      "title": "HMS, hotel management software — Chantrea Systems",
-      "description": "Bookings, front desk, billing, housekeeping, restaurant and reports in one program. For hotels and guesthouses, in Khmer, English, French, Chinese and Russian."
+      "title": "HMS, hotel management software in Cambodia — Chantrea Systems",
+      "description": "Bookings, front desk, billing, housekeeping, restaurant and reports in one program, in five languages. Demonstrated in a real hotel environment at The Moon Kampot Boutique, in Kampot."
     },
     "rally": {
       "title": "Cambodia Rally, a 3D race around Angkor — Chantrea Systems",
@@ -26,11 +26,11 @@
     },
     "work": {
       "title": "Work — Chantrea Systems",
-      "description": "Hotel software, a site for learning Khmer, 3D Android games, music instruments in the browser. Real projects, described as they are."
+      "description": "The HMS hotel software and a site for learning Khmer, then technical projects: 3D Android games, the Angkor region in 3D, music instruments in the browser."
     },
     "about": {
       "title": "About — Chantrea Systems",
-      "description": "Stefan, founder of Chantrea Systems, in Kampot, Cambodia. Your IT projects, discussed in your language."
+      "description": "Stefan, founder of Chantrea Systems, in Kampot, Cambodia. Software, AI, infrastructure and security: you talk directly to me."
     },
     "contact": {
       "title": "Contact — Chantrea Systems",
@@ -64,19 +64,20 @@
   "home": {
     "hero": {
       "eyebrow": "IT services · Kampot, Cambodia",
-      "title": "Clear IT tools for your business.",
-      "lead": "Websites, apps, artificial intelligence, servers. I design, set up and maintain. You talk directly to me, in your language.",
+      "title": "Software, AI, servers and security for your business.",
+      "lead": "Chantrea Systems designs, develops, installs, integrates and maintains IT solutions built around the real needs of businesses. You talk directly to me, in your language.",
       "ctaPrimary": "Let's talk about your project",
       "ctaSecondary": "See the services"
     },
     "services": {
-      "title": "What I do",
-      "intro": "Five areas. I answer you myself."
+      "title": "Four complementary areas",
+      "intro": "From the physical server to the app your team uses every day. I answer you myself."
     },
     "hms": {
-      "eyebrow": "Product",
+      "eyebrow": "Product · Hotel software",
       "title": "HMS, the software to run your hotel",
       "text": "Bookings, front desk, billing, housekeeping, restaurant: all in one place. On computer, tablet or phone. In Khmer, English, French, Chinese and Russian.",
+      "demo": "Demonstrated in a real hotel environment — The Moon Kampot Boutique, Kampot, Cambodia.",
       "points": [
         "Booking calendar, arrivals and departures",
         "Printable invoices and receipts, in five languages",
@@ -87,29 +88,23 @@
       ],
       "cta": "Discover HMS"
     },
-    "rally": {
-      "eyebrow": "Project · Android game",
-      "title": "Cambodia Rally, a race around the temples of Angkor",
-      "text": "A 3D racing game for Android on the real roads of the Small and Grand Circuits, past temples, moats and rice fields.",
+    "infra": {
+      "eyebrow": "Infrastructure and systems",
+      "title": "The environment that runs your applications",
+      "text": "Windows and Linux servers, virtualization with XCP-ng and Xen Orchestra, monitoring with Zabbix, tested backups. I design the setup, put it into service and maintain it.",
       "points": [
-        "2 to 8 players, one phone each, no internet needed",
-        "8 vehicles, from buggy to tuk-tuk",
-        "Temples, villages and rice fields placed from the maps",
-        "In 7 languages, including Khmer"
+        "Several virtual servers on one physical machine",
+        "Virtual machine backups and restore tests",
+        "Alerts when a service, a disk or the network has a problem",
+        "On your premises, with us or in the cloud"
       ],
-      "cta": "Discover Cambodia Rally"
+      "cta": "See the infrastructure offer"
     },
-    "angkor": {
-      "eyebrow": "Project · 3D world",
-      "title": "Angkor World Engine, the Angkor region in 3D at real scale",
-      "text": "37 × 45 km rebuilt from open map and satellite data: roads, moats, temples, villages and forest, each in its real place. Fly over it or drive through it, on a computer or on a phone.",
-      "points": [
-        "Nothing is placed by hand: everything comes from the data",
-        "5,343 km of roads and more than 95,000 buildings",
-        "Angkor Wat and eight temple-mountains built from their plans",
-        "80 frames per second on a mid-range Android phone"
-      ],
-      "cta": "Discover Angkor World Engine"
+    "security": {
+      "eyebrow": "Cybersecurity and IT asset management",
+      "title": "Know what is installed, to protect it better",
+      "text": "You protect well what you know. An inventory of your IT assets, kept up to date automatically, is the basis for tracking security flaws and for applying updates in the right order.",
+      "cta": "See the security approach"
     },
     "single": {
       "title": "You talk directly to me",
@@ -117,7 +112,7 @@
       "points": [
         "You always know who does what.",
         "Simple explanations, no jargon.",
-        "On site in Kampot. Remote everywhere else.",
+        "On site in Kampot and in Cambodia. Remote everywhere else.",
         "Working languages: [À COMPLÉTER PAR STEFAN]"
       ]
     },
@@ -146,8 +141,12 @@
       "title": "Who it's for",
       "items": [
         {
-          "title": "Businesses in Cambodia",
-          "text": "Hotels, guesthouses, shops, small businesses."
+          "title": "Hotels and guesthouses",
+          "text": "Management software, network and Wi-Fi, backups, a website in several languages."
+        },
+        {
+          "title": "Shops, small businesses and freelancers",
+          "text": "Management, shared files, workstations and servers, sized to your business."
         },
         {
           "title": "Expats and foreign companies",
@@ -161,29 +160,62 @@
     },
     "work": {
       "title": "Work",
-      "text": "Hotel software, a site for learning Khmer, Android games, music instruments in the browser.",
+      "text": "Products for businesses, and technical projects that show what I can do.",
       "cta": "See the work"
     }
   },
   "services": {
     "title": "Services",
-    "lead": "Five areas. On site in Kampot, remote everywhere else.",
+    "lead": "Four complementary areas. In Kampot and the surrounding area, elsewhere in Cambodia, and remotely for clients abroad.",
     "more": "Learn more",
     "back": "All services",
+    "related": "Detailed offer",
     "items": [
       {
         "id": "development",
-        "title": "Development",
-        "summary": "Websites in several languages and Android apps, for your customers or for your staff.",
-        "lead": "Websites and Android apps that are simple to use, in your customers' languages.",
+        "title": "Software and digital solutions",
+        "summary": "Business software, web and Android apps, multilingual websites, databases and integrations between your tools.",
+        "points": [
+          "Custom management software",
+          "Web and Android apps",
+          "Multilingual websites",
+          "APIs and integrations"
+        ],
+        "lead": "Software and apps that follow the way your business really works, in the languages of your customers and your team.",
+        "metaTitle": "Software and app development in Cambodia — Chantrea Systems",
+        "metaDescription": "Business software, management applications, web and Android apps, multilingual websites, databases, APIs and integrations. Software development in Kampot, Cambodia, and remote.",
         "sections": [
           {
-            "title": "Multilingual websites",
-            "text": "A fast site that is easy to read on a phone, in Khmer, English, French or other languages. Each language has its own address, so it can be found on search engines."
+            "title": "Business software and management applications",
+            "text": "A tool built around your tasks: sales, stock, bookings, service calls, administration. Clear screens for your team, access rights according to each person's role, printable documents in your format."
+          },
+          {
+            "title": "Web apps",
+            "text": "Used in a web browser, on a computer, tablet or phone, with nothing to install on each device. Installed on your server or online."
           },
           {
             "title": "Android apps",
             "text": "An app for your customers or for your staff: internal tool, catalog, game. I build it and test it on real phones."
+          },
+          {
+            "title": "Multilingual websites",
+            "text": "A fast site that is easy to read on a phone, in Khmer, English, French or other languages. Each language has its own address, so it can be found on search engines. I build them with Astro, like this site: light pages, fast even on a mobile connection."
+          },
+          {
+            "title": "Databases, APIs and integrations",
+            "text": "Your data neatly organized in a database, and backed up. Your software connected through APIs: a booking that creates an invoice, a sale that updates the stock, with no retyping."
+          },
+          {
+            "title": "Automating what repeats",
+            "text": "Reports sent automatically, documents generated, data imported from a file: a task that comes back every day can often be handed over to the software. With AI when it is really useful."
+          },
+          {
+            "title": "Hotels and tourism",
+            "text": "For hotels and guesthouses, Chantrea Systems has developed HMS, a hotel management software: bookings, front desk, billing, housekeeping, restaurant and reports.",
+            "link": {
+              "page": "hms",
+              "label": "Discover HMS"
+            }
           },
           {
             "title": "What you get",
@@ -194,13 +226,285 @@
             ]
           }
         ],
-        "examples": "Examples: a learning site in three languages, 3D Android games."
+        "examples": "Examples: the HMS hotel software, a learning site in three languages, 3D Android games.",
+        "trademarks": "Android and Astro are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+      },
+      {
+        "id": "ai",
+        "title": "AI and automation",
+        "summary": "AI models added to your tools, on your own server if you wish. The AI suggests, a person decides.",
+        "points": [
+          "AI installed on your premises, with Ollama",
+          "Document processing",
+          "Multilingual translation",
+          "Specialized assistants"
+        ],
+        "lead": "AI can save time on repetitive tasks. I add it to your current tools, without changing everything.",
+        "metaTitle": "Private AI and automation for businesses in Cambodia — Chantrea Systems",
+        "metaDescription": "AI model integration, AI installed on your server with Ollama, document processing, translation, automation of repetitive tasks. The AI suggests, a person decides.",
+        "sections": [
+          {
+            "title": "A few possible examples",
+            "list": [
+              "Drafting answers to your customers' frequent questions.",
+              "Translating texts between Khmer, English, French and other languages.",
+              "Summarizing or sorting documents and emails.",
+              "Pulling information out of invoices or forms.",
+              "Sorting documents and requests, and passing them on to the right person.",
+              "A specialized assistant that answers from your own documents: procedures, catalog, staff rules."
+            ]
+          },
+          {
+            "title": "AI in your software",
+            "text": "AI can be added to software you already use, or to an app I build for you: a summarized customer record, a request sorted automatically, a text translated in one click. It works through an API, with a model installed on your premises or an online service, whichever suits best."
+          },
+          {
+            "title": "AI that stays on your premises",
+            "text": "With Ollama, open AI models run on a server installed in your offices, or on your own infrastructure. Your documents are not sent to an online AI service."
+          },
+          {
+            "title": "Why local AI",
+            "list": [
+              "You stay in control of your data: it stays on your server.",
+              "Less dependence on an outside service, its prices and its terms.",
+              "It can work on a private network, with no internet access.",
+              "The model and its settings are chosen for your task."
+            ]
+          },
+          {
+            "title": "The hardware",
+            "text": "A server or a computer with a graphics card, chosen for the task and the number of users. I tell you what you really need."
+          },
+          {
+            "title": "How I do it",
+            "list": [
+              "We start small, with a single task.",
+              "You stay in control: the AI suggests, a person decides.",
+              "I tell you honestly what AI does badly, and what it costs."
+            ]
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "Quality varies between languages, Khmer in particular: we test on your documents before deciding.",
+              "An AI installed on your premises is less powerful than the biggest online services.",
+              "The server needs an air-conditioned room and a UPS.",
+              "Keeping AI on your premises limits how far your data travels, but security also depends on the server: updates, access, backups."
+            ]
+          }
+        ],
+        "trademarks": "Ollama is a trademark of its owner. Mentioning it does not imply any partnership with its publisher."
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure and systems",
+        "summary": "Windows and Linux servers, virtualization with XCP-ng and Xen Orchestra, monitoring with Zabbix, backups and networking. And the applications that run on them.",
+        "points": [
+          "Windows and Linux servers",
+          "XCP-ng and Xen Orchestra virtualization",
+          "Monitoring with Zabbix",
+          "Backup and restore"
+        ],
+        "lead": "I design, install and manage the environment that runs your applications: from the hardware to monitoring, including virtualization and backups.",
+        "metaTitle": "IT infrastructure in Cambodia: servers, XCP-ng, Zabbix — Chantrea Systems",
+        "metaDescription": "Windows and Linux server administration, server virtualization with Xen, XCP-ng and Xen Orchestra, Zabbix monitoring, backups, networking, private cloud with Nextcloud, and Odoo. Kampot, Cambodia, and remote.",
+        "sections": [
+          {
+            "figure": "infra"
+          },
+          {
+            "title": "Servers and systems",
+            "list": [
+              "Windows and Linux servers: installation, configuration and administration.",
+              "Network services: file sharing, printing, DNS, DHCP, VPN and remote access.",
+              "Storage, backup and restore, tested regularly.",
+              "Workstations: setup, updates and troubleshooting, on Windows as well as Linux.",
+              "Maintenance and updates, tracked and recorded."
+            ]
+          },
+          {
+            "title": "The hardware",
+            "text": "Servers, switches, firewalls, Wi-Fi, UPS units and backup storage. New hardware, bought from the official distributors in Cambodia, with the manufacturer's warranty. I choose what fits your size, not the most expensive."
+          },
+          {
+            "title": "The cabling",
+            "text": "The cabling is done by installers I choose and supervise. Every socket is tested and labelled. You receive the plan of your network."
+          },
+          {
+            "title": "Virtualization: Xen, XCP-ng and Xen Orchestra",
+            "text": "Several virtual servers on a single physical machine. Three tools work together, each with its own role:",
+            "defs": [
+              {
+                "term": "Xen",
+                "text": "The hypervisor, type 1: it runs directly on the server hardware and shares its processors, memory and disks between several virtual machines, isolated from one another."
+              },
+              {
+                "term": "XCP-ng",
+                "text": "The open-source virtualization platform built on Xen. Installed on your physical servers, it provides everything needed to run virtual machines and to group several servers together."
+              },
+              {
+                "term": "Xen Orchestra",
+                "text": "The management interface, in a web browser. It handles XCP-ng servers, virtual machines, backups and day-to-day operations from a single place."
+              }
+            ]
+          },
+          {
+            "title": "What virtualization brings you",
+            "list": [
+              "Several virtual machines on one physical server: less hardware to buy and to power.",
+              "Shared resources, allocated according to the needs of each service.",
+              "Each service in its own machine: a failure or an update does not take the others down with it.",
+              "Backups of entire virtual machines, and faster recovery after a failure.",
+              "Centralized administration, from a web browser.",
+              "A setup that grows with you: add a virtual machine, or a second server."
+            ]
+          },
+          {
+            "title": "XenServer and VMware",
+            "text": "I also maintain existing XenServer servers, and I migrate your machines from VMware."
+          },
+          {
+            "title": "Monitoring with Zabbix",
+            "text": "Zabbix continuously monitors your servers, your virtual machines and your network, and warns you when something goes wrong.",
+            "list": [
+              "Availability of servers, virtual machines and services.",
+              "Processor, memory and storage usage.",
+              "Network equipment: switches, firewalls, Wi-Fi, UPS units.",
+              "Alerts by email or by message, with thresholds suited to your setup.",
+              "History and dashboards, to see problems coming: a disk filling up, an overloaded server."
+            ]
+          },
+          {
+            "title": "Business applications and private cloud",
+            "text": "On this infrastructure, I install your business applications: Nextcloud for your files and teamwork, Odoo for management (customers, sales, invoicing, depending on the modules chosen). Odoo and Nextcloud are developed by their publishers: I install them, configure them and adapt them to your business."
+          },
+          {
+            "title": "A consistent infrastructure",
+            "text": "These tools complement each other. For example: an XCP-ng server managed with Xen Orchestra, Linux and Windows virtual machines, Zabbix for monitoring, GLPI for the inventory, Nextcloud and Odoo for everyday work. We choose together what is useful to you: a small business does not need everything."
+          },
+          {
+            "title": "On your premises, with us or in the cloud",
+            "text": "Your virtual servers can run on your premises, on servers rented by Chantrea Systems, or with a large hosting provider."
+          },
+          {
+            "title": "How it works",
+            "list": [
+              "A visit of your premises.",
+              "A detailed quote: hardware, cabling and labour listed separately.",
+              "Ordering the hardware, then installation.",
+              "Handover of the documents: network plan, list of hardware, warranties."
+            ]
+          },
+          {
+            "title": "Maintenance contract",
+            "text": "Regular follow-up, updates, and a call-out when something breaks down. Plans and prices: [À COMPLÉTER PAR STEFAN]"
+          },
+          {
+            "title": "On site or remote",
+            "text": "On site in Kampot and the surrounding area, elsewhere in Cambodia depending on the project. Remotely when possible."
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "The technologies shown here are the ones I work with. Not all of them are useful to every client: we choose together what serves you.",
+              "For your project, I tell you clearly what I have already set up elsewhere, and what would be new."
+            ]
+          }
+        ],
+        "trademarks": "Xen, XCP-ng, Xen Orchestra, XenServer, VMware, Zabbix, Windows, Linux, Odoo, Nextcloud and GLPI are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+      },
+      {
+        "id": "security",
+        "title": "Cybersecurity and IT asset management",
+        "summary": "Automatic inventory of your IT assets with GLPI and GLPI Agent, tracking of security flaws, updates, backups and access control.",
+        "points": [
+          "Inventory with GLPI and GLPI Agent",
+          "Tracking of published vulnerabilities",
+          "Updates in order of priority",
+          "Accounts, access and backups"
+        ],
+        "lead": "Security starts with knowing what you have. I keep the inventory of your IT assets up to date, I follow the flaws that affect it, and I help you fix them in the right order.",
+        "metaTitle": "IT security and asset management with GLPI in Cambodia — Chantrea Systems",
+        "metaDescription": "IT asset management with GLPI, automatic hardware and software inventory with GLPI Agent, vulnerability tracking, updates, backups and access. Kampot, Cambodia.",
+        "sections": [
+          {
+            "title": "GLPI, IT asset management",
+            "text": "GLPI is open-source IT asset management software. It brings together in one place everything the business owns:",
+            "list": [
+              "The inventory of computers, servers, printers and network equipment.",
+              "Hardware: specifications, location, user, warranty.",
+              "Installed software and licenses.",
+              "The history of each device.",
+              "Support requests and interventions, tracked until they are resolved."
+            ]
+          },
+          {
+            "title": "GLPI Agent, automatic inventory",
+            "text": "GLPI Agent is a small program installed on each computer and each server, running Windows, Linux or macOS. It regularly sends the machine's inventory to GLPI, with no manual entry. So you know:",
+            "list": [
+              "which computers are in your IT estate;",
+              "which operating system each one runs, and which version;",
+              "which software is installed, and in which versions;",
+              "which devices are tracked;",
+              "how your IT estate changes: machines added or removed, software updated."
+            ]
+          },
+          {
+            "title": "Security monitoring",
+            "text": "The inventory tells you what is installed. Security monitoring tells you what is a problem. I follow the security information published for the software in your inventory:",
+            "list": [
+              "outdated versions;",
+              "software at end of support, which no longer receives patches;",
+              "security advisories from software publishers;",
+              "published vulnerabilities (CVE references);",
+              "available patches;",
+              "priorities: what to update first."
+            ]
+          },
+          {
+            "figure": "inventory"
+          },
+          {
+            "title": "What GLPI Agent does not do",
+            "text": "GLPI Agent is not a vulnerability scanner: it lists what is installed, nothing more. Matching it against published flaws is separate work, of monitoring and comparison, based on that inventory. It is the combination of the two that makes it possible to act."
+          },
+          {
+            "title": "Day-to-day security",
+            "list": [
+              "System hardening: unnecessary services turned off, security settings applied.",
+              "Update management: tested, then deployed.",
+              "Accounts and permissions: everyone has access only to what they need.",
+              "Access control, including remote access.",
+              "Backups, with a copy in a second location and restore tests.",
+              "Service monitoring with Zabbix.",
+              "Logs: keeping track of what happens on the servers.",
+              "Incident tracking in GLPI.",
+              "Documentation of your IT estate: what exists, where, and how it is set up."
+            ]
+          },
+          {
+            "title": "What I don't do",
+            "list": [
+              "I do not carry out certified audits or penetration tests.",
+              "I do not issue compliance certifications.",
+              "My work is day-to-day security: IT assets that are known, up to date, backed up and monitored."
+            ]
+          },
+          {
+            "title": "Let's talk about your situation",
+            "text": "Every business is different. Tell me what worries you, and we'll work out together what is useful for you."
+          }
+        ],
+        "trademarks": "GLPI, GLPI Agent, Zabbix, Windows, Linux and macOS are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
       },
       {
         "id": "business-software",
+        "parent": "infrastructure",
         "title": "Odoo and Nextcloud",
         "summary": "Your business management and your shared files, on open-source software. Installed on your premises, with us or in the cloud.",
         "lead": "I install, adapt and maintain Odoo and Nextcloud. You choose where they run, and your data stays yours.",
+        "metaTitle": "Odoo and Nextcloud in Cambodia: setup and customization — Chantrea Systems",
+        "metaDescription": "Installation, configuration, custom modules and maintenance for Odoo (business management) and Nextcloud (private cloud). On your premises, with us or in the cloud.",
         "sections": [
           {
             "title": "Odoo, to run your business",
@@ -236,120 +540,197 @@
           {
             "title": "Good to know",
             "list": [
+              "Odoo and Nextcloud are developed by their publishers. I install them, configure them and adapt them to your business.",
               "Odoo comes in a free version and a paid version. I tell you honestly whether the free version is enough for you.",
               "Odoo releases a new version every year: plan for an upgrade every two or three years.",
               "Your data stays yours. If you change provider, you get a full copy and the access details."
             ]
           }
         ],
-        "trademarks": "Odoo and Nextcloud are trademarks of their respective owners."
-      },
+        "trademarks": "Odoo and Nextcloud are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+      }
+    ]
+  },
+  "tech": {
+    "title": "The technologies I use",
+    "intro": "Well-established tools, most of them open source, chosen for their reliability. For each one: what it is for, and where it fits in the services.",
+    "note": "The names mentioned are trademarks of their respective owners. Mentioning them does not imply any partnership or certification.",
+    "groups": [
       {
-        "id": "ai",
-        "title": "Artificial intelligence",
-        "summary": "Adding AI to the tools you already use. Only where it really saves you time.",
-        "lead": "AI can save time on repetitive tasks. I add it to your current tools, without changing everything.",
-        "sections": [
+        "domain": "development",
+        "items": [
           {
-            "title": "A few possible examples",
-            "list": [
-              "Drafting answers to your customers' frequent questions.",
-              "Translating texts between Khmer, English, French and other languages.",
-              "Summarizing or sorting documents and emails.",
-              "Pulling information out of invoices or forms."
-            ]
+            "name": "Android",
+            "text": "The system on most phones. I build apps on it for your customers or for your team."
           },
           {
-            "title": "How I do it",
-            "list": [
-              "We start small, with a single task.",
-              "You stay in control: the AI suggests, a person decides.",
-              "I tell you honestly what AI does badly, and what it costs."
-            ]
-          },
-          {
-            "title": "AI that stays on your premises",
-            "text": "With Ollama, open AI models run on a server installed on your premises. Your documents do not go out on the internet."
-          },
-          {
-            "title": "The hardware",
-            "text": "A server or a computer with a graphics card, chosen for the task and the number of users. I tell you what you really need."
-          },
-          {
-            "title": "Good to know",
-            "list": [
-              "Quality varies between languages, Khmer in particular: we test on your documents before deciding.",
-              "An AI installed on your premises is less powerful than the biggest online services.",
-              "The server needs an air-conditioned room and a UPS."
-            ]
+            "name": "Astro",
+            "text": "For multilingual websites that are light and fast, like this one."
           }
         ]
       },
       {
-        "id": "infrastructure",
-        "title": "Infrastructure",
-        "summary": "Setup of servers, networks, Wi-Fi and UPS units, cabling, Windows and Linux, virtualization with XCP-ng and XenServer.",
-        "lead": "From choosing the hardware to maintenance, I look after your installation from start to finish.",
-        "sections": [
+        "domain": "ai",
+        "items": [
           {
-            "title": "The hardware",
-            "text": "Servers, switches, firewalls, Wi-Fi, UPS units and backup storage. New hardware, bought from the official distributors in Cambodia, with the manufacturer's warranty. I choose what fits your size, not the most expensive."
-          },
-          {
-            "title": "The cabling",
-            "text": "The cabling is done by installers I choose and supervise. Every socket is tested and labelled. You receive the plan of your network."
-          },
-          {
-            "title": "Windows and Linux",
-            "text": "Setup, updates and troubleshooting of workstations and servers, on Windows as well as Linux."
-          },
-          {
-            "title": "Virtualization with XCP-ng and XenServer",
-            "text": "Several virtual servers on one physical machine, managed from a web browser with Xen Orchestra: less hardware to buy, simpler backups, faster recovery after a failure. I also maintain existing XenServer servers, and I migrate your machines from VMware."
-          },
-          {
-            "title": "On your premises, with us or in the cloud",
-            "text": "Your virtual servers can run on your premises, on servers rented by Chantrea Systems, or with a large hosting provider."
-          },
-          {
-            "title": "How it works",
-            "list": [
-              "A visit of your premises.",
-              "A detailed quote: hardware, cabling and labour listed separately.",
-              "Ordering the hardware, then installation.",
-              "Handover of the documents: network plan, list of hardware, warranties."
-            ]
-          },
-          {
-            "title": "Maintenance contract",
-            "text": "Regular follow-up, updates, and a call-out when something breaks down. Plans and prices: [À COMPLÉTER PAR STEFAN]"
-          },
-          {
-            "title": "On site or remote",
-            "text": "On site in Kampot. Elsewhere, remotely when possible."
+            "name": "Ollama",
+            "text": "Runs open AI models on your own server. The basis of a private AI that stays on your premises."
           }
-        ],
-        "trademarks": "XCP-ng, Xen Orchestra and XenServer are trademarks of their respective owners."
+        ]
       },
       {
-        "id": "security",
-        "title": "IT security",
-        "summary": "Protecting your data and access is part of every project. Let's talk about your situation.",
-        "lead": "Your data, your accounts and your access need to stay protected. Security is part of every project I take on.",
-        "sections": [
+        "domain": "infrastructure",
+        "items": [
           {
-            "title": "Let's talk about your situation",
-            "text": "Every business is different. Tell me what worries you, and we'll work out together what is useful for you."
+            "name": "Windows",
+            "text": "Windows workstations and Windows Server: installation, administration, updates."
+          },
+          {
+            "name": "Linux",
+            "text": "Linux servers and workstations: the basis of most of the services I install, from virtualization to applications."
+          },
+          {
+            "name": "Xen",
+            "text": "The open-source type 1 hypervisor that runs several isolated virtual machines on the same server."
+          },
+          {
+            "name": "XCP-ng",
+            "text": "The open-source virtualization platform built on Xen, installed on your physical servers."
+          },
+          {
+            "name": "Xen Orchestra",
+            "text": "The web interface that manages XCP-ng: virtual machines, backups, restores."
+          },
+          {
+            "name": "Zabbix",
+            "text": "Monitoring: availability, load, storage and network, with alerts and history."
+          },
+          {
+            "name": "Nextcloud",
+            "text": "A private cloud: files, sharing, sync, calendars and teamwork, on a server you choose."
+          },
+          {
+            "name": "Odoo",
+            "text": "Business management software (ERP): customers, sales, invoicing, stock, depending on the modules. Developed by its publisher; I install it, configure it and adapt it."
+          }
+        ]
+      },
+      {
+        "domain": "security",
+        "items": [
+          {
+            "name": "GLPI",
+            "text": "IT asset management: hardware, software, licenses, history and support requests."
+          },
+          {
+            "name": "GLPI Agent",
+            "text": "Installed on each machine, it automatically sends its inventory to GLPI. It takes inventory; it does not search for vulnerabilities."
           }
         ]
       }
     ]
   },
+  "diagram": {
+    "title": "An infrastructure, from the bottom up",
+    "caption": "An example setup. Each installation is sized to your needs.",
+    "layers": [
+      {
+        "label": "Applications",
+        "items": [
+          "Odoo",
+          "Nextcloud",
+          "HMS",
+          "GLPI",
+          "Zabbix",
+          "Ollama"
+        ]
+      },
+      {
+        "label": "Virtual machines",
+        "items": [
+          "Linux",
+          "Windows Server"
+        ]
+      },
+      {
+        "label": "Virtualization",
+        "items": [
+          "XCP-ng, on the Xen hypervisor"
+        ]
+      },
+      {
+        "label": "Hardware",
+        "items": [
+          "Server",
+          "Storage",
+          "Network",
+          "UPS"
+        ]
+      }
+    ],
+    "side": [
+      {
+        "label": "Administration",
+        "name": "Xen Orchestra",
+        "text": "virtual machines, backups"
+      },
+      {
+        "label": "Monitoring",
+        "name": "Zabbix",
+        "text": "alerts, dashboards"
+      },
+      {
+        "label": "Inventory",
+        "name": "GLPI Agent → GLPI",
+        "text": "hardware and software"
+      }
+    ]
+  },
+  "inventoryFlow": {
+    "title": "How it works, in five steps",
+    "steps": [
+      {
+        "title": "GLPI Agent collects",
+        "text": "On each workstation and each server, the agent records the hardware, the operating system and the installed software."
+      },
+      {
+        "title": "GLPI centralizes",
+        "text": "The inventories arrive in GLPI: an overview of your IT assets, kept up to date."
+      },
+      {
+        "title": "Versions are analyzed",
+        "text": "Software and versions are grouped together: what is outdated or at end of support stands out."
+      },
+      {
+        "title": "Monitoring makes the link",
+        "text": "These versions are compared with published security advisories and vulnerabilities."
+      },
+      {
+        "title": "Priorities are set",
+        "text": "Software that needs particular attention is identified, and updates are done in the right order."
+      }
+    ],
+    "note": "GLPI Agent takes the inventory. Detecting vulnerabilities is a separate step: the monitoring, done from that inventory."
+  },
   "hms": {
-    "eyebrow": "Product",
+    "eyebrow": "Product · Hotel management software",
     "title": "HMS, running your hotel",
     "lead": "One program for bookings, front desk, billing, housekeeping and the restaurant. For hotels and guesthouses, in five languages.",
     "cta": "Request a demo",
+    "intro": {
+      "title": "Complete software for hotels",
+      "text": "HMS brings together in one program what runs a hotel day to day, from the booking to the end-of-day closing. Developed by Chantrea Systems in Kampot, it is designed for establishments in Cambodia: several currencies including the riel, five languages, and it keeps working when the internet is down."
+    },
+    "demo": {
+      "eyebrow": "Real hotel environment",
+      "title": "Demonstrated in a real hotel environment — The Moon Kampot Boutique, Kampot, Cambodia.",
+      "text": "HMS is shown in a real hotel environment, not on a mock-up.",
+      "points": [
+        "All modules: bookings, front desk, billing, housekeeping, restaurant, reports",
+        "On computer, tablet and phone",
+        "On site in Kampot, or remotely"
+      ]
+    },
     "featuresTitle": "What HMS does",
     "groups": [
       {
@@ -460,9 +841,13 @@
       "title": "Languages and currencies",
       "text": "Screens in Khmer, English, French, Chinese and Russian. One main currency, and other currencies accepted with their exchange rates."
     },
+    "audience": {
+      "title": "Who it's for",
+      "text": "Hotels, guesthouses and boutique hotels, with or without a restaurant."
+    },
     "gallery": {
       "title": "Screenshots",
-      "note": "Screens from the demo hotel: guests and amounts are made up.",
+      "note": "Screens from the demonstration at The Moon Kampot Boutique. To protect privacy, the guests, figures and amounts are made up.",
       "enlarge": "enlarge image",
       "captions": {
         "calendar": "The room calendar: drag a booking to change room or dates.",
@@ -477,7 +862,7 @@
     }
   },
   "rally": {
-    "eyebrow": "Project · Android game",
+    "eyebrow": "R&D · Android game",
     "title": "Cambodia Rally",
     "lead": "A 3D race on the real roads around the temples of Angkor. With friends, one phone each, on the same Wi-Fi or one phone's hotspot: no internet needed.",
     "status": "Playable, not published yet",
@@ -562,7 +947,7 @@
     }
   },
   "angkor": {
-    "eyebrow": "Project · 3D world",
+    "eyebrow": "R&D · 3D world",
     "title": "Angkor World Engine",
     "lead": "The Angkor and Siem Reap region rebuilt in 3D at real scale, from open geographic data. One metre on screen is a real metre: a journey takes as long as it really would. Fly over it or drive through it.",
     "status": "Prototype in development",
@@ -655,11 +1040,13 @@
     "status": "Status",
     "products": {
       "title": "Products",
-      "intro": "What I can offer a client."
+      "intro": "What I can offer a client.",
+      "tag": "Product"
     },
     "skills": {
-      "title": "Proof of skills",
-      "intro": "Projects that show what I can do."
+      "title": "Technical projects and R&D",
+      "intro": "Research and experimental projects: 3D, networking, sound, geographic data. They are not sold as they are, but the same know-how goes into client projects.",
+      "tag": "R&D"
     },
     "items": {
       "hms": {
@@ -735,8 +1122,25 @@
         "text": "You talk directly to me, in your language: translation is done by AI. No middleman, nothing lost between departments. I tell you clearly what I can do, and what I don't do."
       },
       {
+        "title": "My role",
+        "text": "I am responsible for every project, from the first conversation to technical follow-up: design, development, installation, commissioning and maintenance. You always know who is looking after your setup."
+      },
+      {
+        "title": "What Chantrea Systems does",
+        "list": [
+          "Software and digital solutions: business software, web and Android apps, multilingual websites.",
+          "AI and automation: AI models added to your tools, installed on your premises if you wish.",
+          "Infrastructure and systems: Windows and Linux servers, virtualization, monitoring, backups.",
+          "Cybersecurity and IT asset management: inventory, tracking of security flaws, updates, access."
+        ]
+      },
+      {
+        "title": "Where I work",
+        "text": "In Kampot and the surrounding area, elsewhere in Cambodia depending on the project, and remotely for clients abroad."
+      },
+      {
         "title": "What interests me",
-        "text": "Linux and free software, Android, video games, AI tools, creative coding."
+        "text": "Linux and free software, virtualization and server administration, Android, artificial intelligence tools, video games, creative coding."
       },
       {
         "title": "Background",
@@ -759,7 +1163,7 @@
     ],
     "emailTitle": "Email",
     "whereTitle": "Where",
-    "where": "Kampot, Cambodia. On site in Kampot, remote everywhere else."
+    "where": "Kampot, Cambodia. On site in Kampot and the surrounding area, elsewhere in Cambodia depending on the project, remote everywhere else."
   },
   "notFound": {
     "title": "Page not found",
@@ -781,8 +1185,11 @@
     "choose": "Choose your language"
   },
   "footer": {
-    "tagline": "IT services in Kampot, Cambodia.",
+    "tagline": "Software, AI, infrastructure and IT security. Kampot, Cambodia.",
     "privacy": "This site uses no cookies and no trackers.",
     "copyright": "© {year} Chantrea Systems"
+  },
+  "brand": {
+    "khmerName": "ចន្ទ្រា"
   }
 }
