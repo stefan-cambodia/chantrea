@@ -54,8 +54,12 @@ affichés en cartes sur l'accueil et la page Services. Chacun a `summary` (texte
 de recherche).
 
 Une offre détaillée qui dépend d'un domaine porte `"parent": "<id du domaine>"` : elle a sa propre
-page (ex. `/fr/services/business-software/`, Odoo et Nextcloud), mais n'apparaît pas comme un
-domaine ; un lien vers elle s'affiche sur la page du domaine.
+page (ex. `/fr/services/business-software/`, Odoo, Nextcloud et Mattermost), mais n'apparaît pas
+comme un domaine ; un lien vers elle s'affiche sur la page du domaine.
+
+Une offre détaillée peut avoir sa propre sous-offre, avec `"parent": "<id de l'offre>"` :
+`odoo-cambodia` (Odoo en khmer, pour le Cambodge) dépend de `odoo-development` (développement de
+modules Odoo), qui dépend du domaine `development`. La page Services liste les deux sous le domaine.
 
 Les technologies présentées sur la page Services sont dans `tech.groups` (une liste par domaine).
 

@@ -12,6 +12,8 @@ const tr = t(lang);
 const s = tr.services;
 const domains = s.items.filter((i) => !i.parent);
 const childrenOf = (id) => s.items.filter((i) => i.parent === id);
+// Offres détaillées d'un domaine, avec leurs propres sous-offres (ex. Odoo → Odoo au Cambodge).
+const offersOf = (id) => childrenOf(id).flatMap((c) => [c, ...offersOf(c.id)]);
 const titleOf = (id) => s.items.find((i) => i.id === id)?.title;
 const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
 ---
@@ -29,7 +31,7 @@ const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
             <h2 class="h3">{item.title}</h2>
             <p>{item.summary}</p>
             <ul class="checklist checklist--sm">{item.points.map((p) => <li>{p}</li>)}</ul>
-            {childrenOf(item.id).map((c) => (
+            {offersOf(item.id).map((c) => (
               <p class="domain__sub">
                 {s.related} : <a href={href(lang, `services/${c.id}`)}>{c.title}</a>
               </p>

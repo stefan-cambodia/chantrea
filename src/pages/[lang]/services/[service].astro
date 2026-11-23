@@ -1,7 +1,8 @@
 ---
 // Une page par offre. Le contenu vient de services.items dans les fichiers de langue.
-// Les quatre domaines n'ont pas de « parent » ; une offre détaillée (ex. Odoo et Nextcloud)
-// indique son domaine avec « parent » et s'affiche sous celui-ci.
+// Les quatre domaines n'ont pas de « parent » ; une offre détaillée (ex. Odoo, Nextcloud et
+// Mattermost) indique son domaine avec « parent » et s'affiche sous celui-ci. Une offre peut
+// elle-même avoir une sous-offre (ex. Développement Odoo → Odoo en khmer, pour le Cambodge).
 import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
 import Sections from '../../../components/Sections.astro';
