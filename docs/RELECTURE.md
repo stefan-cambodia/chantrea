@@ -8,12 +8,12 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 728 textes relus.
+0 / 748 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
 | ⏳ à relire | `meta.home.title` | Chantrea Systems — សេវាកម្មព័ត៌មានវិទ្យានៅកំពត កម្ពុជា | Chantrea Systems — Services informatiques à Kampot, Cambodge |
-| ⏳ à relire | `meta.home.description` | ការអភិវឌ្ឍកម្មវិធី កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ HMS បញ្ញាសិប្បនិម្មិត (AI) ដែលដំឡើងនៅកន្លែងលោកអ្នក ម៉ាស៊ីនមេ Windows និង Linux និម្មិតកម្ម XCP-ng ការតាមដានប្រព័ន្ធជាមួយ Zabbix ការគ្រប់គ្រងឧបករណ៍ព័ត៌មានវិទ្យាជាមួយ GLPI។ នៅកំពត កម្ពុជា និងពីចម្ងាយ។ | Développement de logiciels, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance. |
+| ⏳ à relire | `meta.home.description` | កម្មវិធី និងមុខងារបន្ថែម (module) Odoo កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ HMS បញ្ញាសិប្បនិម្មិត (AI) ដែលដំឡើងនៅកន្លែងលោកអ្នក ម៉ាស៊ីនមេ Windows និង Linux និម្មិតកម្ម XCP-ng, Mattermost ការតាមដានប្រព័ន្ធជាមួយ Zabbix ការគ្រប់គ្រងឧបករណ៍ព័ត៌មានវិទ្យាជាមួយ GLPI។ នៅកំពត កម្ពុជា និងពីចម្ងាយ។ | Logiciels et modules Odoo, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, Mattermost, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `meta.chooser.title` | Chantrea Systems | Chantrea Systems |
 | ⏳ à relire | `meta.chooser.description` | សេវាកម្មព័ត៌មានវិទ្យានៅកំពត កម្ពុជា។ សូមជ្រើសរើសភាសារបស់លោកអ្នក។ | Services informatiques à Kampot, Cambodge. Choisissez votre langue. |
 | ⏳ à relire | `meta.services.title` | សេវាកម្មព័ត៌មានវិទ្យានៅកម្ពុជា — Chantrea Systems | Services informatiques au Cambodge — Chantrea Systems |
@@ -74,6 +74,25 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.infra.points.2` | ការជូនដំណឹង នៅពេលសេវាកម្ម ថាស (disk) ឬបណ្ដាញមានបញ្ហា | Des alertes quand un service, un disque ou un réseau pose problème |
 | ⏳ à relire | `home.infra.points.3` | នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud) | Chez vous, chez nous ou dans le cloud |
 | ⏳ à relire | `home.infra.cta` | មើលសេវាហេដ្ឋារចនាសម្ព័ន្ធ | Voir l'offre infrastructure |
+| ⏳ à relire | `home.apps.eyebrow` | កម្មវិធីសម្រាប់អាជីវកម្ម | Applications d'entreprise |
+| ⏳ à relire | `home.apps.title` | Odoo និង Mattermost ដែលកែសម្រួលឱ្យត្រូវនឹងអាជីវកម្មរបស់លោកអ្នក | Odoo et Mattermost, adaptés à votre entreprise |
+| ⏳ à relire | `home.apps.text` | Odoo សម្រាប់គ្រប់គ្រងអាជីវកម្ម Mattermost សម្រាប់ការផ្ញើសាររបស់ក្រុមការងារ និង Nextcloud សម្រាប់ឯកសាររបស់លោកអ្នក។ ដំឡើងនៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud) ហើយកែសម្រួលឱ្យត្រូវនឹងរបៀបធ្វើការរបស់លោកអ្នក។ | Odoo pour gérer l'entreprise, Mattermost pour la messagerie de l'équipe, Nextcloud pour vos fichiers. Installés chez vous, chez nous ou dans le cloud, et adaptés à votre façon de travailler. |
+| ⏳ à relire | `home.apps.cards.0.title` | Odoo | Odoo |
+| ⏳ à relire | `home.apps.cards.0.text` | អតិថិជន សម្រង់តម្លៃ ការលក់ វិក្កយបត្រ ស្តុក៖ កម្មវិធីគ្រប់គ្រងអាជីវកម្ម ដែលបំពេញបន្ថែមដោយមុខងារបន្ថែម (module) តាមតម្រូវការ នៅពេលខ្វះអ្វីមួយ។ | Clients, devis, ventes, factures, stocks : un logiciel de gestion, complété par des modules sur mesure quand il manque quelque chose. |
+| ⏳ à relire | `home.apps.cards.0.points.0` | មុខងារបន្ថែមតាមតម្រូវការ៖ អេក្រង់ ឯកសារ របាយការណ៍ ការភ្ជាប់ជាមួយកម្មវិធីរបស់លោកអ្នក | Modules sur mesure : écrans, documents, rapports, liens avec vos logiciels |
+| ⏳ à relire | `home.apps.cards.0.points.1` | ជាភាសាខ្មែរ៖ អេក្រង់ វិក្កយបត្រ និងបង្កាន់ដៃ | En khmer : écrans, factures et reçus |
+| ⏳ à relire | `home.apps.cards.0.points.2` | តម្លៃជាប្រាក់ដុល្លារ សរុបជាប្រាក់រៀលនៅលើវិក្កយបត្រ | Prix en dollars, total en riels sur la facture |
+| ⏳ à relire | `home.apps.cards.0.links.0.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `home.apps.cards.0.links.0.label` | ការអភិវឌ្ឍមុខងារបន្ថែម Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `home.apps.cards.0.links.1.page` | services/odoo-cambodia | services/odoo-cambodia |
+| ⏳ à relire | `home.apps.cards.0.links.1.label` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `home.apps.cards.1.title` | Mattermost | Mattermost |
+| ⏳ à relire | `home.apps.cards.1.text` | ការផ្ញើសាររបស់ក្រុមការងាររបស់លោកអ្នក៖ ឆានែល (channel) តាមក្រុម ឬតាមគម្រោង សារផ្ទាល់ខ្លួន ខ្សែសន្ទនា (thread) និងឯកសារចែករំលែក។ | La messagerie de votre équipe : canaux par équipe ou par projet, messages directs, fils de discussion et fichiers partagés. |
+| ⏳ à relire | `home.apps.cards.1.points.0` | ការសន្ទនាការងារនៅលើម៉ាស៊ីនមេ (server) របស់លោកអ្នក | Les échanges de travail restent sur votre serveur |
+| ⏳ à relire | `home.apps.cards.1.points.1` | ការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក ដូចជា Zabbix នៅក្នុងឆានែលមួយ | Les alertes de vos outils, comme Zabbix, dans un canal |
+| ⏳ à relire | `home.apps.cards.1.points.2` | លើកុំព្យូទ័រ និងទូរស័ព្ទ | Sur ordinateur et sur téléphone |
+| ⏳ à relire | `home.apps.cards.1.links.0.page` | services/business-software | services/business-software |
+| ⏳ à relire | `home.apps.cards.1.links.0.label` | Odoo, Nextcloud និង Mattermost | Odoo, Nextcloud et Mattermost |
 | ⏳ à relire | `home.security.eyebrow` | សន្តិសុខសាយប័រ និងការគ្រប់គ្រងឧបករណ៍ព័ត៌មានវិទ្យា | Cybersécurité et gestion du parc |
 | ⏳ à relire | `home.security.title` | ដឹងថាមានអ្វីខ្លះត្រូវបានដំឡើង ដើម្បីការពារវាបានល្អជាងមុន | Savoir ce qui est installé, pour mieux le protéger |
 | ⏳ à relire | `home.security.text` | យើងការពារបានល្អ នូវអ្វីដែលយើងស្គាល់។ បញ្ជីសារពើភណ្ឌ (inventory) នៃឧបករណ៍ព័ត៌មានវិទ្យារបស់លោកអ្នក ដែលធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ ជាមូលដ្ឋានសម្រាប់ការតាមដានចំណុចខ្សោយសុវត្ថិភាព និងសម្រាប់ការធ្វើបច្ចុប្បន្នភាពតាមលំដាប់ត្រឹមត្រូវ។ | On protège bien ce que l'on connaît. L'inventaire de votre parc, tenu à jour automatiquement, sert de base à une veille sur les failles de sécurité et à des mises à jour faites dans le bon ordre. |
@@ -429,10 +448,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `diagram.layers.0.label` | កម្មវិធី | Applications |
 | ⏳ à relire | `diagram.layers.0.items.0` | Odoo | Odoo |
 | ⏳ à relire | `diagram.layers.0.items.1` | Nextcloud | Nextcloud |
-| ⏳ à relire | `diagram.layers.0.items.2` | HMS | HMS |
-| ⏳ à relire | `diagram.layers.0.items.3` | GLPI | GLPI |
-| ⏳ à relire | `diagram.layers.0.items.4` | Zabbix | Zabbix |
-| ⏳ à relire | `diagram.layers.0.items.5` | Ollama | Ollama |
+| ⏳ à relire | `diagram.layers.0.items.2` | Mattermost | Mattermost |
+| ⏳ à relire | `diagram.layers.0.items.3` | HMS | HMS |
+| ⏳ à relire | `diagram.layers.0.items.4` | GLPI | GLPI |
+| ⏳ à relire | `diagram.layers.0.items.5` | Zabbix | Zabbix |
+| ⏳ à relire | `diagram.layers.0.items.6` | Ollama | Ollama |
 | ⏳ à relire | `diagram.layers.1.label` | ម៉ាស៊ីននិម្មិត | Machines virtuelles |
 | ⏳ à relire | `diagram.layers.1.items.0` | Linux | Linux |
 | ⏳ à relire | `diagram.layers.1.items.1` | Windows Server | Windows Server |
@@ -743,12 +763,12 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 728 textes relus.
+0 / 748 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
 | ⏳ à relire | `meta.home.title` | Chantrea Systems — IT-услуги в Кампоте, Камбоджа | Chantrea Systems — Services informatiques à Kampot, Cambodge |
-| ⏳ à relire | `meta.home.description` | Разработка программного обеспечения, программа для управления отелем HMS, ИИ, установленный у вас, серверы Windows и Linux, виртуализация XCP-ng, мониторинг Zabbix, учёт IT-парка в GLPI. Кампот, Камбоджа, и удалённо. | Développement de logiciels, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance. |
+| ⏳ à relire | `meta.home.description` | Программы и модули Odoo, программа для управления отелем HMS, ИИ, установленный у вас, серверы Windows и Linux, виртуализация XCP-ng, Mattermost, мониторинг Zabbix, учёт IT-парка в GLPI. Кампот, Камбоджа, и удалённо. | Logiciels et modules Odoo, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, Mattermost, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `meta.chooser.title` | Chantrea Systems | Chantrea Systems |
 | ⏳ à relire | `meta.chooser.description` | IT-услуги в Кампоте, Камбоджа. Выберите язык. | Services informatiques à Kampot, Cambodge. Choisissez votre langue. |
 | ⏳ à relire | `meta.services.title` | IT-услуги в Камбодже — Chantrea Systems | Services informatiques au Cambodge — Chantrea Systems |
@@ -809,6 +829,25 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.infra.points.2` | Оповещения, когда с сервисом, диском или сетью возникает проблема | Des alertes quand un service, un disque ou un réseau pose problème |
 | ⏳ à relire | `home.infra.points.3` | У вас, у нас или в облаке | Chez vous, chez nous ou dans le cloud |
 | ⏳ à relire | `home.infra.cta` | Подробнее об инфраструктуре | Voir l'offre infrastructure |
+| ⏳ à relire | `home.apps.eyebrow` | Корпоративные приложения | Applications d'entreprise |
+| ⏳ à relire | `home.apps.title` | Odoo и Mattermost, настроенные под вашу компанию | Odoo et Mattermost, adaptés à votre entreprise |
+| ⏳ à relire | `home.apps.text` | Odoo — для управления компанией, Mattermost — для переписки команды, Nextcloud — для ваших файлов. Установка у вас, у нас или в облаке, с настройкой под ваш порядок работы. | Odoo pour gérer l'entreprise, Mattermost pour la messagerie de l'équipe, Nextcloud pour vos fichiers. Installés chez vous, chez nous ou dans le cloud, et adaptés à votre façon de travailler. |
+| ⏳ à relire | `home.apps.cards.0.title` | Odoo | Odoo |
+| ⏳ à relire | `home.apps.cards.0.text` | Клиенты, коммерческие предложения, продажи, счета, склад: программа для управления, дополненная модулями на заказ, когда чего-то не хватает. | Clients, devis, ventes, factures, stocks : un logiciel de gestion, complété par des modules sur mesure quand il manque quelque chose. |
+| ⏳ à relire | `home.apps.cards.0.points.0` | Модули на заказ: экраны, документы, отчёты, связь с вашими программами | Modules sur mesure : écrans, documents, rapports, liens avec vos logiciels |
+| ⏳ à relire | `home.apps.cards.0.points.1` | На кхмерском: экраны, счета и квитанции | En khmer : écrans, factures et reçus |
+| ⏳ à relire | `home.apps.cards.0.points.2` | Цены в долларах, итог в риелях в счёте | Prix en dollars, total en riels sur la facture |
+| ⏳ à relire | `home.apps.cards.0.links.0.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `home.apps.cards.0.links.0.label` | Разработка модулей Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `home.apps.cards.0.links.1.page` | services/odoo-cambodia | services/odoo-cambodia |
+| ⏳ à relire | `home.apps.cards.0.links.1.label` | Odoo на кхмерском, для Камбоджи | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `home.apps.cards.1.title` | Mattermost | Mattermost |
+| ⏳ à relire | `home.apps.cards.1.text` | Переписка вашей команды: каналы по командам или по проектам, личные сообщения, ветки обсуждений и общие файлы. | La messagerie de votre équipe : canaux par équipe ou par projet, messages directs, fils de discussion et fichiers partagés. |
+| ⏳ à relire | `home.apps.cards.1.points.0` | Рабочая переписка остаётся на вашем сервере | Les échanges de travail restent sur votre serveur |
+| ⏳ à relire | `home.apps.cards.1.points.1` | Оповещения ваших систем, например Zabbix, в отдельном канале | Les alertes de vos outils, comme Zabbix, dans un canal |
+| ⏳ à relire | `home.apps.cards.1.points.2` | На компьютере и на телефоне | Sur ordinateur et sur téléphone |
+| ⏳ à relire | `home.apps.cards.1.links.0.page` | services/business-software | services/business-software |
+| ⏳ à relire | `home.apps.cards.1.links.0.label` | Odoo, Nextcloud и Mattermost | Odoo, Nextcloud et Mattermost |
 | ⏳ à relire | `home.security.eyebrow` | Кибербезопасность и управление IT-парком | Cybersécurité et gestion du parc |
 | ⏳ à relire | `home.security.title` | Знать, что установлено, чтобы лучше это защищать | Savoir ce qui est installé, pour mieux le protéger |
 | ⏳ à relire | `home.security.text` | Хорошо защитить можно только то, что знаешь. Инвентаризация вашего IT-парка, которая автоматически поддерживается в актуальном состоянии, служит основой для отслеживания уязвимостей и для обновлений в правильном порядке. | On protège bien ce que l'on connaît. L'inventaire de votre parc, tenu à jour automatiquement, sert de base à une veille sur les failles de sécurité et à des mises à jour faites dans le bon ordre. |
@@ -1164,10 +1203,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `diagram.layers.0.label` | Приложения | Applications |
 | ⏳ à relire | `diagram.layers.0.items.0` | Odoo | Odoo |
 | ⏳ à relire | `diagram.layers.0.items.1` | Nextcloud | Nextcloud |
-| ⏳ à relire | `diagram.layers.0.items.2` | HMS | HMS |
-| ⏳ à relire | `diagram.layers.0.items.3` | GLPI | GLPI |
-| ⏳ à relire | `diagram.layers.0.items.4` | Zabbix | Zabbix |
-| ⏳ à relire | `diagram.layers.0.items.5` | Ollama | Ollama |
+| ⏳ à relire | `diagram.layers.0.items.2` | Mattermost | Mattermost |
+| ⏳ à relire | `diagram.layers.0.items.3` | HMS | HMS |
+| ⏳ à relire | `diagram.layers.0.items.4` | GLPI | GLPI |
+| ⏳ à relire | `diagram.layers.0.items.5` | Zabbix | Zabbix |
+| ⏳ à relire | `diagram.layers.0.items.6` | Ollama | Ollama |
 | ⏳ à relire | `diagram.layers.1.label` | Виртуальные машины | Machines virtuelles |
 | ⏳ à relire | `diagram.layers.1.items.0` | Linux | Linux |
 | ⏳ à relire | `diagram.layers.1.items.1` | Windows Server | Windows Server |
@@ -1478,12 +1518,12 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 728 textes relus.
+0 / 748 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
 | ⏳ à relire | `meta.home.title` | Chantrea Systems — 柬埔寨贡布的 IT 服务 | Chantrea Systems — Services informatiques à Kampot, Cambodge |
-| ⏳ à relire | `meta.home.description` | 软件开发、HMS 酒店管理软件、安装在您那里的 AI、Windows 和 Linux 服务器、XCP-ng 服务器虚拟化、Zabbix 监控、GLPI IT 资产管理。柬埔寨贡布，也可远程服务。 | Développement de logiciels, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance. |
+| ⏳ à relire | `meta.home.description` | 软件和 Odoo 模块开发、HMS 酒店管理软件、安装在您那里的 AI、Windows 和 Linux 服务器、XCP-ng 服务器虚拟化、Mattermost、Zabbix 监控、GLPI IT 资产管理。柬埔寨贡布，也可远程服务。 | Logiciels et modules Odoo, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, Mattermost, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `meta.chooser.title` | Chantrea Systems | Chantrea Systems |
 | ⏳ à relire | `meta.chooser.description` | 柬埔寨贡布的 IT 服务。请选择语言。 | Services informatiques à Kampot, Cambodge. Choisissez votre langue. |
 | ⏳ à relire | `meta.services.title` | 柬埔寨 IT 服务 — Chantrea Systems | Services informatiques au Cambodge — Chantrea Systems |
@@ -1544,6 +1584,25 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.infra.points.2` | 服务、磁盘或网络出问题时发出告警 | Des alertes quand un service, un disque ou un réseau pose problème |
 | ⏳ à relire | `home.infra.points.3` | 在您那里、我们这里，或云端 | Chez vous, chez nous ou dans le cloud |
 | ⏳ à relire | `home.infra.cta` | 查看基础设施服务 | Voir l'offre infrastructure |
+| ⏳ à relire | `home.apps.eyebrow` | 企业应用 | Applications d'entreprise |
+| ⏳ à relire | `home.apps.title` | 按您的企业调整好的 Odoo 和 Mattermost | Odoo et Mattermost, adaptés à votre entreprise |
+| ⏳ à relire | `home.apps.text` | Odoo 管理企业，Mattermost 做团队通讯，Nextcloud 存放文件。可以装在您那里、我们这里或云端，并按您的工作方式调整。 | Odoo pour gérer l'entreprise, Mattermost pour la messagerie de l'équipe, Nextcloud pour vos fichiers. Installés chez vous, chez nous ou dans le cloud, et adaptés à votre façon de travailler. |
+| ⏳ à relire | `home.apps.cards.0.title` | Odoo | Odoo |
+| ⏳ à relire | `home.apps.cards.0.text` | 客户、报价、销售、发票、库存：一套企业管理软件，缺什么功能就用定制模块补上。 | Clients, devis, ventes, factures, stocks : un logiciel de gestion, complété par des modules sur mesure quand il manque quelque chose. |
+| ⏳ à relire | `home.apps.cards.0.points.0` | 定制模块：界面、单据、报表、与您软件的对接 | Modules sur mesure : écrans, documents, rapports, liens avec vos logiciels |
+| ⏳ à relire | `home.apps.cards.0.points.1` | 高棉语：界面、发票和收据 | En khmer : écrans, factures et reçus |
+| ⏳ à relire | `home.apps.cards.0.points.2` | 美元标价，发票上显示瑞尔合计 | Prix en dollars, total en riels sur la facture |
+| ⏳ à relire | `home.apps.cards.0.links.0.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `home.apps.cards.0.links.0.label` | Odoo 模块开发 | Le développement de modules Odoo |
+| ⏳ à relire | `home.apps.cards.0.links.1.page` | services/odoo-cambodia | services/odoo-cambodia |
+| ⏳ à relire | `home.apps.cards.0.links.1.label` | 高棉语 Odoo，面向柬埔寨 | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `home.apps.cards.1.title` | Mattermost | Mattermost |
+| ⏳ à relire | `home.apps.cards.1.text` | 您团队的通讯工具：按团队或按项目建频道，私信、讨论串和共享文件。 | La messagerie de votre équipe : canaux par équipe ou par projet, messages directs, fils de discussion et fichiers partagés. |
+| ⏳ à relire | `home.apps.cards.1.points.0` | 工作上的交流留在您自己的服务器上 | Les échanges de travail restent sur votre serveur |
+| ⏳ à relire | `home.apps.cards.1.points.1` | Zabbix 等系统的警报直接发到频道 | Les alertes de vos outils, comme Zabbix, dans un canal |
+| ⏳ à relire | `home.apps.cards.1.points.2` | 电脑和手机都能用 | Sur ordinateur et sur téléphone |
+| ⏳ à relire | `home.apps.cards.1.links.0.page` | services/business-software | services/business-software |
+| ⏳ à relire | `home.apps.cards.1.links.0.label` | Odoo、Nextcloud 和 Mattermost | Odoo, Nextcloud et Mattermost |
 | ⏳ à relire | `home.security.eyebrow` | 网络安全与 IT 资产管理 | Cybersécurité et gestion du parc |
 | ⏳ à relire | `home.security.title` | 清楚装了什么，才能更好地保护 | Savoir ce qui est installé, pour mieux le protéger |
 | ⏳ à relire | `home.security.text` | 清楚了解的东西，才能保护好。自动保持更新的 IT 资产清单，是跟踪安全漏洞、按正确顺序进行更新的基础。 | On protège bien ce que l'on connaît. L'inventaire de votre parc, tenu à jour automatiquement, sert de base à une veille sur les failles de sécurité et à des mises à jour faites dans le bon ordre. |
@@ -1899,10 +1958,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `diagram.layers.0.label` | 应用 | Applications |
 | ⏳ à relire | `diagram.layers.0.items.0` | Odoo | Odoo |
 | ⏳ à relire | `diagram.layers.0.items.1` | Nextcloud | Nextcloud |
-| ⏳ à relire | `diagram.layers.0.items.2` | HMS | HMS |
-| ⏳ à relire | `diagram.layers.0.items.3` | GLPI | GLPI |
-| ⏳ à relire | `diagram.layers.0.items.4` | Zabbix | Zabbix |
-| ⏳ à relire | `diagram.layers.0.items.5` | Ollama | Ollama |
+| ⏳ à relire | `diagram.layers.0.items.2` | Mattermost | Mattermost |
+| ⏳ à relire | `diagram.layers.0.items.3` | HMS | HMS |
+| ⏳ à relire | `diagram.layers.0.items.4` | GLPI | GLPI |
+| ⏳ à relire | `diagram.layers.0.items.5` | Zabbix | Zabbix |
+| ⏳ à relire | `diagram.layers.0.items.6` | Ollama | Ollama |
 | ⏳ à relire | `diagram.layers.1.label` | 虚拟机 | Machines virtuelles |
 | ⏳ à relire | `diagram.layers.1.items.0` | Linux | Linux |
 | ⏳ à relire | `diagram.layers.1.items.1` | Windows Server | Windows Server |

@@ -2,7 +2,7 @@
   "meta": {
     "home": {
       "title": "Chantrea Systems — IT services in Kampot, Cambodia",
-      "description": "Software development, HMS hotel software, AI installed on your premises, Windows and Linux servers, XCP-ng virtualization, Zabbix monitoring, GLPI IT asset management. Kampot, Cambodia, and remote."
+      "description": "Software and Odoo modules, HMS hotel software, AI installed on your premises, Windows and Linux servers, XCP-ng virtualization, Mattermost, Zabbix monitoring, GLPI IT asset management. Kampot, Cambodia, and remote."
     },
     "chooser": {
       "title": "Chantrea Systems",
@@ -99,6 +99,47 @@
         "On your premises, with us or in the cloud"
       ],
       "cta": "See the infrastructure offer"
+    },
+    "apps": {
+      "eyebrow": "Business applications",
+      "title": "Odoo and Mattermost, adapted to your business",
+      "text": "Odoo to run your business, Mattermost for your team's messaging, Nextcloud for your files. Installed on your premises, with us or in the cloud, and adapted to the way you work.",
+      "cards": [
+        {
+          "title": "Odoo",
+          "text": "Customers, quotes, sales, invoices, stock: business management software, extended with custom modules when something is missing.",
+          "points": [
+            "Custom modules: screens, documents, reports, links with your software",
+            "In Khmer: screens, invoices and receipts",
+            "Prices in dollars, total in riels on the invoice"
+          ],
+          "links": [
+            {
+              "page": "services/odoo-development",
+              "label": "Odoo module development"
+            },
+            {
+              "page": "services/odoo-cambodia",
+              "label": "Odoo in Khmer, for Cambodia"
+            }
+          ]
+        },
+        {
+          "title": "Mattermost",
+          "text": "Your team's messaging: channels by team or by project, direct messages, threads and shared files.",
+          "points": [
+            "Work conversations stay on your server",
+            "Alerts from your tools, such as Zabbix, in a channel",
+            "On computer and phone"
+          ],
+          "links": [
+            {
+              "page": "services/business-software",
+              "label": "Odoo, Nextcloud and Mattermost"
+            }
+          ]
+        }
+      ]
     },
     "security": {
       "eyebrow": "Cybersecurity and IT asset management",
@@ -754,6 +795,7 @@
         "items": [
           "Odoo",
           "Nextcloud",
+          "Mattermost",
           "HMS",
           "GLPI",
           "Zabbix",

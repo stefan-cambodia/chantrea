@@ -2,7 +2,7 @@
   "meta": {
     "home": {
       "title": "Chantrea Systems — Services informatiques à Kampot, Cambodge",
-      "description": "Développement de logiciels, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance."
+      "description": "Logiciels et modules Odoo, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, Mattermost, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance."
     },
     "chooser": {
       "title": "Chantrea Systems",
@@ -99,6 +99,47 @@
         "Chez vous, chez nous ou dans le cloud"
       ],
       "cta": "Voir l'offre infrastructure"
+    },
+    "apps": {
+      "eyebrow": "Applications d'entreprise",
+      "title": "Odoo et Mattermost, adaptés à votre entreprise",
+      "text": "Odoo pour gérer l'entreprise, Mattermost pour la messagerie de l'équipe, Nextcloud pour vos fichiers. Installés chez vous, chez nous ou dans le cloud, et adaptés à votre façon de travailler.",
+      "cards": [
+        {
+          "title": "Odoo",
+          "text": "Clients, devis, ventes, factures, stocks : un logiciel de gestion, complété par des modules sur mesure quand il manque quelque chose.",
+          "points": [
+            "Modules sur mesure : écrans, documents, rapports, liens avec vos logiciels",
+            "En khmer : écrans, factures et reçus",
+            "Prix en dollars, total en riels sur la facture"
+          ],
+          "links": [
+            {
+              "page": "services/odoo-development",
+              "label": "Le développement de modules Odoo"
+            },
+            {
+              "page": "services/odoo-cambodia",
+              "label": "Odoo en khmer, pour le Cambodge"
+            }
+          ]
+        },
+        {
+          "title": "Mattermost",
+          "text": "La messagerie de votre équipe : canaux par équipe ou par projet, messages directs, fils de discussion et fichiers partagés.",
+          "points": [
+            "Les échanges de travail restent sur votre serveur",
+            "Les alertes de vos outils, comme Zabbix, dans un canal",
+            "Sur ordinateur et sur téléphone"
+          ],
+          "links": [
+            {
+              "page": "services/business-software",
+              "label": "Odoo, Nextcloud et Mattermost"
+            }
+          ]
+        }
+      ]
     },
     "security": {
       "eyebrow": "Cybersécurité et gestion du parc",
@@ -754,6 +795,7 @@
         "items": [
           "Odoo",
           "Nextcloud",
+          "Mattermost",
           "HMS",
           "GLPI",
           "Zabbix",

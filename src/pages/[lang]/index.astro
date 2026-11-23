@@ -1,5 +1,5 @@
 ---
-// Accueil : présentation, quatre domaines, HMS, infrastructure, sécurité,
+// Accueil : présentation, quatre domaines, HMS, infrastructure, Odoo et Mattermost, sécurité,
 // sélection de réalisations (produits puis R&D), fondateur et méthode, publics, contact.
 import Page from '../../layouts/Page.astro';
 import Txt from '../../components/Txt.astro';
@@ -111,7 +111,29 @@ const rd = [
     </div>
   </section>
 
-  <section class="section section--alt" aria-labelledby="security-title">
+  <section class="section section--alt" aria-labelledby="apps-title">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">{h.apps.eyebrow}</p>
+        <h2 id="apps-title">{h.apps.title}</h2>
+        <p class="section__intro">{h.apps.text}</p>
+      </div>
+      <ul class="cards cards--2">
+        {h.apps.cards.map((c) => (
+          <li class="card">
+            <h3>{c.title}</h3>
+            <p>{c.text}</p>
+            <ul class="checklist checklist--sm">{c.points.map((p) => <li>{p}</li>)}</ul>
+            <p class="card__links">
+              {c.links.map((l) => <a class="card__link" href={href(lang, l.page)}>{l.label} →</a>)}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="security-title">
     <div class="container">
       <div class="section-head">
         <p class="eyebrow">{h.security.eyebrow}</p>
@@ -125,7 +147,7 @@ const rd = [
     </div>
   </section>
 
-  <section class="section" aria-labelledby="work-title">
+  <section class="section section--alt" aria-labelledby="work-title">
     <div class="container">
       <h2 id="work-title">{h.work.title}</h2>
       <p class="section__intro">{h.work.text}</p>
@@ -170,7 +192,7 @@ const rd = [
     </div>
   </section>
 
-  <section class="section section--alt" aria-labelledby="single-title">
+  <section class="section" aria-labelledby="single-title">
     <div class="container split">
       <div>
         <h2 id="single-title">{h.single.title}</h2>
@@ -183,7 +205,7 @@ const rd = [
     </div>
   </section>
 
-  <section class="section" aria-labelledby="steps-title">
+  <section class="section section--alt" aria-labelledby="steps-title">
     <div class="container">
       <h2 id="steps-title">{h.steps.title}</h2>
       <ol class="steps">
@@ -198,7 +220,7 @@ const rd = [
     </div>
   </section>
 
-  <section class="section section--alt" aria-labelledby="audiences-title">
+  <section class="section" aria-labelledby="audiences-title">
     <div class="container">
       <h2 id="audiences-title">{h.audiences.title}</h2>
       <ul class="cards cards--4">
