@@ -103,7 +103,7 @@
     "security": {
       "eyebrow": "Cybersecurity and IT asset management",
       "title": "Know what is installed, to protect it better",
-      "text": "You protect well what you know. An inventory of your IT assets, kept up to date automatically, is the basis for tracking security flaws and for applying updates in the right order.",
+      "text": "You can only protect well what you know. An inventory of your IT assets, kept up to date automatically, is the basis for a watch on security flaws and for applying updates in the right order.",
       "cta": "See the security approach"
     },
     "single": {
@@ -450,8 +450,8 @@
             ]
           },
           {
-            "title": "Security monitoring",
-            "text": "The inventory tells you what is installed. Security monitoring tells you what is a problem. I follow the security information published for the software in your inventory:",
+            "title": "Security watch",
+            "text": "The inventory tells you what is installed. The security watch tells you what is a problem. I follow the security information published for the software in your inventory:",
             "list": [
               "outdated versions;",
               "software at end of support, which no longer receives patches;",
@@ -466,7 +466,7 @@
           },
           {
             "title": "What GLPI Agent does not do",
-            "text": "GLPI Agent is not a vulnerability scanner: it lists what is installed, nothing more. Matching it against published flaws is separate work, of monitoring and comparison, based on that inventory. It is the combination of the two that makes it possible to act."
+            "text": "GLPI Agent is not a vulnerability scanner: it lists what is installed, nothing more. Matching that list against published flaws is separate work, a security watch, based on the inventory. It is the combination of the two that makes it possible to act."
           },
           {
             "title": "Day-to-day security",
@@ -702,7 +702,7 @@
         "text": "Software and versions are grouped together: what is outdated or at end of support stands out."
       },
       {
-        "title": "Monitoring makes the link",
+        "title": "The security watch connects them",
         "text": "These versions are compared with published security advisories and vulnerabilities."
       },
       {
@@ -710,7 +710,7 @@
         "text": "Software that needs particular attention is identified, and updates are done in the right order."
       }
     ],
-    "note": "GLPI Agent takes the inventory. Detecting vulnerabilities is a separate step: the monitoring, done from that inventory."
+    "note": "GLPI Agent takes the inventory. Detecting vulnerabilities is a separate step: the security watch, done from that inventory."
   },
   "hms": {
     "eyebrow": "Product · Hotel management software",
