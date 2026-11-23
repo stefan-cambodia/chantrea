@@ -40,7 +40,27 @@ Pour ajouter un paragraphe à une page de service, d'à propos ou de sécurité,
 ```json
 { "title": "Titre du bloc", "text": "Un paragraphe." }
 { "title": "Titre du bloc", "list": ["Point 1", "Point 2"] }
+{ "title": "Titre du bloc", "defs": [{ "term": "XCP-ng", "text": "Ce que c'est." }] }
+{ "title": "Titre du bloc", "text": "…", "link": { "page": "hms", "label": "Découvrir HMS" } }
+{ "figure": "infra" }        // schéma d'infrastructure (textes : diagram)
+{ "figure": "inventory" }    // inventaire et veille en cinq étapes (textes : inventoryFlow)
 ```
+
+## Services : quatre domaines et offres détaillées
+
+`services.items` contient les quatre domaines (`development`, `ai`, `infrastructure`, `security`),
+affichés en cartes sur l'accueil et la page Services. Chacun a `summary` (texte court), `points`
+(4 mots-clés pour la carte), `metaTitle` et `metaDescription` (titre et description pour les moteurs
+de recherche).
+
+Une offre détaillée qui dépend d'un domaine porte `"parent": "<id du domaine>"` : elle a sa propre
+page (ex. `/fr/services/business-software/`, Odoo et Nextcloud), mais n'apparaît pas comme un
+domaine ; un lien vers elle s'affiche sur la page du domaine.
+
+Les technologies présentées sur la page Services sont dans `tech.groups` (une liste par domaine).
+
+Les valeurs `id`, `parent`, `figure`, `domain`, `page`, `name` et `term` ne se traduisent pas :
+elles sont identiques dans les cinq fichiers.
 
 ## Ajouter une réalisation
 
@@ -48,7 +68,7 @@ Pour ajouter un paragraphe à une page de service, d'à propos ou de sécurité,
    ```js
    { id: 'monprojet', group: 'skills', url: 'https://…' },
    ```
-   `group` vaut `products` (proposable à un client) ou `skills` (preuve de compétence).
+   `group` vaut `products` (proposable à un client) ou `skills` (projet technique et R&D, preuve de compétence).
    `url` est facultatif et doit être un lien **public** (jamais un dépôt privé).
 2. Dans **chaque** fichier `src/i18n/<langue>.json`, sous `work.items`, ajouter :
    ```json
