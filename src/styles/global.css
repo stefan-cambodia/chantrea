@@ -195,7 +195,7 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   .mobile-nav { display: none; }
 }
 /* Avec le lien « Espace client », le menu complet demande plus de place. */
-@media (min-width: 1000px) and (max-width: 1099.98px) {
+@media (min-width: 1000px) and (max-width: 1199.98px) {
   .has-portal .main-nav { display: none; }
   .has-portal .site-header__tools { margin-left: auto; }
   .has-portal .mobile-nav { display: block; }
