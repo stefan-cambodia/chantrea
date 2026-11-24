@@ -30,7 +30,11 @@
     },
     "about": {
       "title": "À propos — Chantrea Systems",
-      "description": "Stefan, fondateur de Chantrea Systems, à Kampot. Logiciels, IA, infrastructure et sécurité : vous parlez directement à la personne qui fait le travail."
+      "description": "Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance."
+    },
+    "jobs": {
+      "title": "Recrutement : traducteur khmer agréé — Chantrea Systems",
+      "description": "Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer, avec des connaissances en fiscalité cambodgienne. Kampot ou à distance."
     },
     "contact": {
       "title": "Contact — Chantrea Systems",
@@ -58,6 +62,7 @@
     "angkor": "Angkor 3D",
     "work": "Réalisations",
     "about": "À propos",
+    "jobs": "Recrutement",
     "contact": "Contact",
     "portal": "Espace client"
   },
@@ -65,13 +70,13 @@
     "hero": {
       "eyebrow": "Services informatiques · Kampot, Cambodge",
       "title": "Logiciels, IA, serveurs et sécurité pour votre entreprise.",
-      "lead": "Chantrea Systems conçoit, développe, installe, intègre et maintient des solutions informatiques adaptées aux besoins réels des entreprises. Vous parlez toujours à la même personne.",
+      "lead": "Chantrea Systems conçoit, développe, installe, intègre et maintient des solutions informatiques adaptées aux besoins réels des entreprises.",
       "ctaPrimary": "Parlons de votre projet",
       "ctaSecondary": "Voir les services"
     },
     "services": {
       "title": "Quatre domaines complémentaires",
-      "intro": "Du serveur physique à l'application que votre équipe utilise chaque jour. Je vous réponds moi-même."
+      "intro": "Du serveur physique à l'application que votre équipe utilise chaque jour."
     },
     "hms": {
       "eyebrow": "Produit · Logiciel hôtelier",
@@ -163,8 +168,8 @@
       "cta": "Voir l'approche sécurité"
     },
     "single": {
-      "title": "Un seul interlocuteur",
-      "text": "Je suis Stefan, fondateur de Chantrea Systems. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail.",
+      "title": "Un suivi du début à la fin",
+      "text": "Je suis Stefan, fondateur de Chantrea Systems. Je suis votre projet du premier échange à la maintenance, et je vous explique simplement ce qui est fait.",
       "points": [
         "Vous savez toujours qui fait quoi.",
         "Des explications simples, sans jargon.",
@@ -206,7 +211,7 @@
         },
         {
           "title": "Expatriés et entreprises étrangères",
-          "text": "Installés au Cambodge, avec un interlocuteur direct."
+          "text": "Installés au Cambodge, avec des échanges dans votre langue."
         },
         {
           "title": "Clients à l'étranger",
@@ -278,7 +283,7 @@
             "list": [
               "Une version à essayer avant la mise en ligne.",
               "Des explications pour vous en servir.",
-              "Un seul interlocuteur, du début à la fin."
+              "Un suivi du début à la fin."
             ]
           }
         ],
@@ -1518,8 +1523,8 @@
         "text": "Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils."
       },
       {
-        "title": "Un seul interlocuteur",
-        "text": "Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas."
+        "title": "Des échanges clairs",
+        "text": "Pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas."
       },
       {
         "title": "Mon rôle",
@@ -1549,12 +1554,56 @@
       {
         "title": "Langues de travail",
         "text": "[À COMPLÉTER PAR STEFAN]"
+      },
+      {
+        "title": "Recrutement",
+        "text": "Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer.",
+        "link": {
+          "page": "jobs",
+          "label": "Voir l'annonce"
+        }
       }
     ]
   },
+  "jobs": {
+    "title": "Recrutement",
+    "lead": "Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer, pour travailler avec Stefan auprès des entreprises cambodgiennes.",
+    "sections": [
+      {
+        "title": "Le rôle",
+        "list": [
+          "Faire le lien en khmer entre les clients et Stefan : réunions, messages, explications sur les projets.",
+          "Traduire et relire les textes en khmer des logiciels (Odoo, HMS), des documents et des factures. L'IA prépare souvent un premier jet : vous le corrigez et le validez.",
+          "Suivre autant que possible les mêmes clients, pour qu'ils gardent le même interlocuteur."
+        ]
+      },
+      {
+        "title": "Le profil",
+        "list": [
+          "Khmer langue maternelle, et anglais ou français courant.",
+          "Traducteur ou traductrice agréé(e) par les autorités cambodgiennes.",
+          "Connaissances en fiscalité cambodgienne : TVA, factures, déclarations, vocabulaire comptable.",
+          "À l'aise avec l'ordinateur. Des connaissances en informatique sont un plus, pas une obligation."
+        ]
+      },
+      {
+        "title": "Conditions",
+        "list": [
+          "Lieu : Kampot ou à distance.",
+          "Type de collaboration : [À COMPLÉTER PAR STEFAN]"
+        ]
+      },
+      {
+        "title": "Postuler",
+        "text": "Envoyez par e-mail un CV, une copie de votre agrément et quelques lignes sur votre expérience, en khmer et en anglais ou en français."
+      }
+    ],
+    "apply": "Postuler par e-mail",
+    "emailSubject": "Candidature : traducteur khmer"
+  },
   "contactPage": {
     "title": "Contact",
-    "lead": "Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp. Je vous réponds moi-même.",
+    "lead": "Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp.",
     "tipsTitle": "Pour aller plus vite, dites-moi :",
     "tips": [
       "qui vous êtes et ce que fait votre entreprise ;",
@@ -1572,7 +1621,7 @@
   },
   "cta": {
     "title": "Parlons de votre projet",
-    "text": "Écrivez-moi par e-mail, Telegram ou WhatsApp. Je vous réponds moi-même."
+    "text": "Écrivez-moi par e-mail, Telegram ou WhatsApp."
   },
   "contact": {
     "email": "Écrire un e-mail",

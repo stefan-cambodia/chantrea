@@ -1,0 +1,24 @@
+---
+// Page Recrutement : les offres de collaboration de Chantrea Systems.
+import config from '../../../site.config.mjs';
+import Page from '../../layouts/Page.astro';
+import PageHero from '../../components/PageHero.astro';
+import Sections from '../../components/Sections.astro';
+import { langPaths, t } from '../../i18n/index.js';
+
+export const getStaticPaths = langPaths;
+
+const { lang } = Astro.params;
+const tr = t(lang);
+const j = tr.jobs;
+const mailto = `mailto:${config.contact.email}?subject=${encodeURIComponent(j.emailSubject)}`;
+---
+<Page lang={lang} page="jobs" title={tr.meta.jobs.title} description={tr.meta.jobs.description} cta={false}>
+  <PageHero title={j.title} lead={j.lead} />
+  <section class="section">
+    <div class="container narrow">
+      <Sections sections={j.sections} lang={lang} />
+      <p><a class="btn btn--primary" href={mailto}>{j.apply}</a></p>
+    </div>
+  </section>
+</Page>

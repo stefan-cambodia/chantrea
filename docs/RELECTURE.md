@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 887 textes relus.
+0 / 912 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -27,7 +27,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.work.title` | ស្នាដៃ — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ HMS និងគេហទំព័ររៀនភាសាខ្មែរ បន្ទាប់មកគម្រោងបច្ចេកទេស៖ ហ្គេម Android 3D តំបន់អង្គរជា 3D និងឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ | Le logiciel hôtelier HMS, un site pour apprendre le khmer, et des projets techniques : jeux Android en 3D, Angkor en 3D, musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | អំពីខ្ញុំ — Chantrea Systems | À propos — Chantrea Systems |
-| ⏳ à relire | `meta.about.description` | Stefan ស្ថាបនិកនៃ Chantrea Systems នៅកំពត កម្ពុជា។ កម្មវិធី បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ និងសុវត្ថិភាព៖ លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ ដែលជាអ្នកធ្វើការងារនោះ។ | Stefan, fondateur de Chantrea Systems, à Kampot. Logiciels, IA, infrastructure et sécurité : vous parlez directement à la personne qui fait le travail. |
+| ⏳ à relire | `meta.about.description` | Chantrea Systems បង្កើតឡើងដោយ Stefan នៅកំពត។ កម្មវិធី បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ និងសុវត្ថិភាព នៅកម្ពុជា និងពីចម្ងាយ។ | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
+| ⏳ à relire | `meta.jobs.title` | ឱកាសការងារ៖ អ្នកបកប្រែភាសាខ្មែរ — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
+| ⏳ à relire | `meta.jobs.description` | Chantrea Systems កំពុងស្វែងរកអ្នកបកប្រែ អង់គ្លេស ឬបារាំង ↔ ខ្មែរ ដែលមានការទទួលស្គាល់ពីអាជ្ញាធរកម្ពុជា និងមានចំណេះដឹងអំពីពន្ធដារកម្ពុជា។ នៅកំពត ឬពីចម្ងាយ។ | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer, avec des connaissances en fiscalité cambodgienne. Kampot ou à distance. |
 | ⏳ à relire | `meta.contact.title` | ទំនាក់ទំនង — Chantrea Systems | Contact — Chantrea Systems |
 | ⏳ à relire | `meta.contact.description` | សរសេរមក Chantrea Systems តាមអ៊ីមែល Telegram ឬ WhatsApp។ កំពត កម្ពុជា។ | Écrivez à Chantrea Systems par e-mail, Telegram ou WhatsApp. Kampot, Cambodge. |
 | ⏳ à relire | `meta.notFound.title` | រកមិនឃើញទំព័រ — Chantrea Systems | Page introuvable — Chantrea Systems |
@@ -46,15 +48,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.angkor` | អង្គរ 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | ស្នាដៃ | Réalisations |
 | ⏳ à relire | `nav.about` | អំពីខ្ញុំ | À propos |
+| ⏳ à relire | `nav.jobs` | ឱកាសការងារ | Recrutement |
 | ⏳ à relire | `nav.contact` | ទំនាក់ទំនង | Contact |
 | ⏳ à relire | `nav.portal` | តំបន់អតិថិជន | Espace client |
 | ⏳ à relire | `home.hero.eyebrow` | សេវាកម្មព័ត៌មានវិទ្យា · កំពត កម្ពុជា | Services informatiques · Kampot, Cambodge |
 | ⏳ à relire | `home.hero.title` | កម្មវិធី បញ្ញាសិប្បនិម្មិត ម៉ាស៊ីនមេ និងសុវត្ថិភាព សម្រាប់អាជីវកម្មរបស់លោកអ្នក។ | Logiciels, IA, serveurs et sécurité pour votre entreprise. |
-| ⏳ à relire | `home.hero.lead` | Chantrea Systems រចនា អភិវឌ្ឍ ដំឡើង ភ្ជាប់ចូលប្រព័ន្ធដែលមានស្រាប់ និងថែទាំដំណោះស្រាយព័ត៌មានវិទ្យា ដែលត្រូវនឹងតម្រូវការពិតរបស់អាជីវកម្ម។ លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ ជាភាសារបស់លោកអ្នក។ | Chantrea Systems conçoit, développe, installe, intègre et maintient des solutions informatiques adaptées aux besoins réels des entreprises. Vous parlez toujours à la même personne. |
+| ⏳ à relire | `home.hero.lead` | Chantrea Systems រចនា អភិវឌ្ឍ ដំឡើង ភ្ជាប់ចូលប្រព័ន្ធដែលមានស្រាប់ និងថែទាំដំណោះស្រាយព័ត៌មានវិទ្យា ដែលត្រូវនឹងតម្រូវការពិតរបស់អាជីវកម្ម។ | Chantrea Systems conçoit, développe, installe, intègre et maintient des solutions informatiques adaptées aux besoins réels des entreprises. |
 | ⏳ à relire | `home.hero.ctaPrimary` | ពិភាក្សាអំពីគម្រោងរបស់លោកអ្នក | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | មើលសេវាកម្ម | Voir les services |
 | ⏳ à relire | `home.services.title` | ផ្នែកបួន ដែលបំពេញគ្នាទៅវិញទៅមក | Quatre domaines complémentaires |
-| ⏳ à relire | `home.services.intro` | ចាប់ពីម៉ាស៊ីនមេពិត រហូតដល់កម្មវិធីដែលក្រុមការងាររបស់លោកអ្នកប្រើរៀងរាល់ថ្ងៃ។ ខ្ញុំឆ្លើយតបលោកអ្នកដោយខ្លួនឯង។ | Du serveur physique à l'application que votre équipe utilise chaque jour. Je vous réponds moi-même. |
+| ⏳ à relire | `home.services.intro` | ចាប់ពីម៉ាស៊ីនមេពិត រហូតដល់កម្មវិធីដែលក្រុមការងាររបស់លោកអ្នកប្រើរៀងរាល់ថ្ងៃ។ | Du serveur physique à l'application que votre équipe utilise chaque jour. |
 | ⏳ à relire | `home.hms.eyebrow` | ផលិតផល · កម្មវិធីសណ្ឋាគារ | Produit · Logiciel hôtelier |
 | ⏳ à relire | `home.hms.title` | HMS កម្មវិធីគ្រប់គ្រងសណ្ឋាគាររបស់លោកអ្នក | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | ការកក់បន្ទប់ ផ្នែកទទួលភ្ញៀវ វិក្កយបត្រ ការសម្អាត ភោជនីយដ្ឋាន៖ ទាំងអស់នៅកន្លែងតែមួយ។ ប្រើលើកុំព្យូទ័រ ថេប្លេត ឬទូរស័ព្ទ។ ជាភាសាខ្មែរ អង់គ្លេស បារាំង ចិន និងរុស្ស៊ី។ | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -104,8 +107,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.security.title` | ដឹងថាមានអ្វីខ្លះត្រូវបានដំឡើង ដើម្បីការពារវាបានល្អជាងមុន | Savoir ce qui est installé, pour mieux le protéger |
 | ⏳ à relire | `home.security.text` | យើងការពារបានល្អ នូវអ្វីដែលយើងស្គាល់។ បញ្ជីសារពើភណ្ឌ (inventory) នៃឧបករណ៍ព័ត៌មានវិទ្យារបស់លោកអ្នក ដែលធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ ជាមូលដ្ឋានសម្រាប់ការតាមដានចំណុចខ្សោយសុវត្ថិភាព និងសម្រាប់ការធ្វើបច្ចុប្បន្នភាពតាមលំដាប់ត្រឹមត្រូវ។ | On protège bien ce que l'on connaît. L'inventaire de votre parc, tenu à jour automatiquement, sert de base à une veille sur les failles de sécurité et à des mises à jour faites dans le bon ordre. |
 | ⏳ à relire | `home.security.cta` | មើលវិធីសាស្ត្រសុវត្ថិភាព | Voir l'approche sécurité |
-| ⏳ à relire | `home.single.title` | លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ | Un seul interlocuteur |
-| ⏳ à relire | `home.single.text` | ខ្ញុំឈ្មោះ Stefan ជាស្ថាបនិកនៃ Chantrea Systems។ គ្មានអ្នកទទួលទូរស័ព្ទ គ្មានអ្នកកណ្ដាល។ មនុស្សដែលស្តាប់លោកអ្នក គឺជាមនុស្សដែលធ្វើការងារ។ | Je suis Stefan, fondateur de Chantrea Systems. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
+| ⏳ à relire | `home.single.title` | ការតាមដានពីដើមដល់ចប់ | Un suivi du début à la fin |
+| ⏳ à relire | `home.single.text` | ខ្ញុំឈ្មោះ Stefan ជាស្ថាបនិកនៃ Chantrea Systems។ ខ្ញុំតាមដានគម្រោងរបស់លោកអ្នក ចាប់ពីការពិភាក្សាដំបូង រហូតដល់ការថែទាំ ហើយពន្យល់យ៉ាងសាមញ្ញអំពីការងារដែលបានធ្វើ។ | Je suis Stefan, fondateur de Chantrea Systems. Je suis votre projet du premier échange à la maintenance, et je vous explique simplement ce qui est fait. |
 | ⏳ à relire | `home.single.points.0` | លោកអ្នកតែងតែដឹងថា នរណាធ្វើអ្វី។ | Vous savez toujours qui fait quoi. |
 | ⏳ à relire | `home.single.points.1` | ការពន្យល់សាមញ្ញ គ្មានពាក្យបច្ចេកទេសពិបាកយល់។ | Des explications simples, sans jargon. |
 | ⏳ à relire | `home.single.points.2` | នៅនឹងកន្លែងនៅកំពត និងក្នុងប្រទេសកម្ពុជា។ ពីចម្ងាយសម្រាប់កន្លែងផ្សេងទៀត។ | Sur place à Kampot et au Cambodge. À distance partout ailleurs. |
@@ -125,7 +128,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.audiences.items.1.title` | ហាង សហគ្រាសធុនតូច និងមធ្យម និងអ្នកប្រកបរបរឯករាជ្យ | Commerces, PME et indépendants |
 | ⏳ à relire | `home.audiences.items.1.text` | ការគ្រប់គ្រង ឯកសារចែករំលែក កុំព្យូទ័រ និងម៉ាស៊ីនមេ តាមទំហំអាជីវកម្មរបស់លោកអ្នក។ | Gestion, fichiers partagés, postes et serveurs, à la taille de votre activité. |
 | ⏳ à relire | `home.audiences.items.2.title` | ជនបរទេស និងក្រុមហ៊ុនបរទេស | Expatriés et entreprises étrangères |
-| ⏳ à relire | `home.audiences.items.2.text` | ដែលមានមូលដ្ឋាននៅកម្ពុជា ដោយការសន្ទនាជាភាសារបស់លោកអ្នក។ | Installés au Cambodge, avec un interlocuteur direct. |
+| ⏳ à relire | `home.audiences.items.2.text` | ដែលមានមូលដ្ឋាននៅកម្ពុជា ដោយការសន្ទនាជាភាសារបស់លោកអ្នក។ | Installés au Cambodge, avec des échanges dans votre langue. |
 | ⏳ à relire | `home.audiences.items.3.title` | អតិថិជននៅបរទេស | Clients à l'étranger |
 | ⏳ à relire | `home.audiences.items.3.text` | គម្រោងតាមដានពីចម្ងាយ តាមអ៊ីមែល Telegram ឬ WhatsApp។ | Projets suivis à distance, par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `home.work.title` | ស្នាដៃ | Réalisations |
@@ -165,7 +168,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.sections.7.title` | អ្វីដែលលោកអ្នកទទួលបាន | Ce que vous obtenez |
 | ⏳ à relire | `services.items.0.sections.7.list.0` | កំណែមួយសម្រាប់សាកល្បង មុនពេលដាក់ឱ្យដំណើរការលើអ៊ីនធឺណិត។ | Une version à essayer avant la mise en ligne. |
 | ⏳ à relire | `services.items.0.sections.7.list.1` | ការពន្យល់អំពីរបៀបប្រើប្រាស់។ | Des explications pour vous en servir. |
-| ⏳ à relire | `services.items.0.sections.7.list.2` | លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ ពីដើមដល់ចប់។ | Un seul interlocuteur, du début à la fin. |
+| ⏳ à relire | `services.items.0.sections.7.list.2` | ការតាមដានពីដើមដល់ចប់។ | Un suivi du début à la fin. |
 | ⏳ à relire | `services.items.0.examples` | ឧទាហរណ៍៖ កម្មវិធីសណ្ឋាគារ HMS គេហទំព័ររៀនភាសាជាបីភាសា ហ្គេម Android 3D។ | Exemples : le logiciel hôtelier HMS, un site d'apprentissage en trois langues, des jeux Android en 3D. |
 | ⏳ à relire | `services.items.0.trademarks` | Android, Astro និង Odoo គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Android, Astro et Odoo sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.1.id` | ai | ai |
@@ -858,8 +861,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.lead` | ខ្ញុំឈ្មោះ Stefan ជាស្ថាបនិកនៃ Chantrea Systems។ ខ្ញុំរស់នៅកំពត កម្ពុជា។ | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | ហេតុអ្វីបានជាឈ្មោះ «Chantrea» | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea (ចន្ទ្រា) មានន័យថា «ពន្លឺព្រះចន្ទ» ជាភាសាខ្មែរ។ ពន្លឺដ៏ស្ងប់ ដែលបំភ្លឺដោយមិនចាំងភ្នែក។ នោះហើយជាអ្វីដែលខ្ញុំចង់នាំមកឱ្យឧបករណ៍របស់លោកអ្នក។ | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
-| ⏳ à relire | `about.sections.1.title` | លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ | Un seul interlocuteur |
-| ⏳ à relire | `about.sections.1.text` | លោកអ្នកទាក់ទងផ្ទាល់ជាមួយខ្ញុំ ជាភាសារបស់លោកអ្នក៖ ការបកប្រែធ្វើឡើងដោយបញ្ញាសិប្បនិម្មិត (AI)។ គ្មានអ្នកកណ្ដាល គ្មានសារណាមួយបាត់បង់នៅចន្លោះផ្នែកផ្សេងៗឡើយ។ ខ្ញុំប្រាប់លោកអ្នកយ៉ាងច្បាស់ពីអ្វីដែលខ្ញុំអាចធ្វើបាន និងអ្វីដែលខ្ញុំមិនធ្វើ។ | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
+| ⏳ à relire | `about.sections.1.title` | ការប្រាស្រ័យទាក់ទងច្បាស់លាស់ | Des échanges clairs |
+| ⏳ à relire | `about.sections.1.text` | សូមសរសេរជាភាសារបស់លោកអ្នក៖ ខ្ញុំឆ្លើយតបដោយមានជំនួយពីការបកប្រែដោយបញ្ញាសិប្បនិម្មិត (AI)។ គ្មានសារណាមួយបាត់បង់នៅចន្លោះផ្នែកផ្សេងៗឡើយ។ ខ្ញុំប្រាប់លោកអ្នកយ៉ាងច្បាស់ពីអ្វីដែលខ្ញុំអាចធ្វើបាន និងអ្វីដែលខ្ញុំមិនធ្វើ។ | Pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
 | ⏳ à relire | `about.sections.2.title` | តួនាទីរបស់ខ្ញុំ | Mon rôle |
 | ⏳ à relire | `about.sections.2.text` | ខ្ញុំទទួលខុសត្រូវលើគម្រោងនីមួយៗ ចាប់ពីការពិភាក្សាដំបូង រហូតដល់ការតាមដានបច្ចេកទេស៖ ការរចនា ការអភិវឌ្ឍ ការដំឡើង ការដាក់ឱ្យដំណើរការ និងការថែទាំ។ លោកអ្នកតែងតែដឹងថា នរណាជាអ្នកមើលការខុសត្រូវលើការដំឡើងរបស់លោកអ្នក។ | Je suis responsable de chaque projet, du premier échange au suivi technique : conception, développement, installation, mise en service et maintenance. Vous savez toujours qui s'occupe de votre installation. |
 | ⏳ à relire | `about.sections.3.title` | អ្វីដែល Chantrea Systems ធ្វើ | Ce que fait Chantrea Systems |
@@ -875,8 +878,30 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.sections.6.text` | [À COMPLÉTER PAR STEFAN] | [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `about.sections.7.title` | ភាសាធ្វើការ | Langues de travail |
 | ⏳ à relire | `about.sections.7.text` | [À COMPLÉTER PAR STEFAN] | [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `about.sections.8.title` | ឱកាសការងារ | Recrutement |
+| ⏳ à relire | `about.sections.8.text` | Chantrea Systems កំពុងស្វែងរកអ្នកបកប្រែ អង់គ្លេស ឬបារាំង ↔ ខ្មែរ ដែលមានការទទួលស្គាល់ពីអាជ្ញាធរកម្ពុជា។ | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer. |
+| ⏳ à relire | `about.sections.8.link.page` | jobs | jobs |
+| ⏳ à relire | `about.sections.8.link.label` | មើលសេចក្តីប្រកាស | Voir l'annonce |
+| ⏳ à relire | `jobs.title` | ឱកាសការងារ | Recrutement |
+| ⏳ à relire | `jobs.lead` | Chantrea Systems កំពុងស្វែងរកអ្នកបកប្រែ អង់គ្លេស ឬបារាំង ↔ ខ្មែរ ដែលមានការទទួលស្គាល់ពីអាជ្ញាធរកម្ពុជា ដើម្បីធ្វើការជាមួយ Stefan ក្នុងការបម្រើអាជីវកម្មនៅកម្ពុជា។ | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer, pour travailler avec Stefan auprès des entreprises cambodgiennes. |
+| ⏳ à relire | `jobs.sections.0.title` | តួនាទី | Le rôle |
+| ⏳ à relire | `jobs.sections.0.list.0` | ធ្វើជាស្ពានភ្ជាប់ជាភាសាខ្មែរ រវាងអតិថិជន និង Stefan៖ កិច្ចប្រជុំ សារ និងការពន្យល់អំពីគម្រោង។ | Faire le lien en khmer entre les clients et Stefan : réunions, messages, explications sur les projets. |
+| ⏳ à relire | `jobs.sections.0.list.1` | បកប្រែ និងពិនិត្យអត្ថបទភាសាខ្មែររបស់កម្មវិធី (Odoo, HMS) ឯកសារ និងវិក្កយបត្រ។ ជាញឹកញាប់ AI រៀបចំសេចក្តីព្រាងដំបូង៖ លោកអ្នកកែតម្រូវ និងអនុម័តវា។ | Traduire et relire les textes en khmer des logiciels (Odoo, HMS), des documents et des factures. L'IA prépare souvent un premier jet : vous le corrigez et le validez. |
+| ⏳ à relire | `jobs.sections.0.list.2` | តាមដានអតិថិជនដដែលៗ តាមដែលអាចធ្វើបាន ដើម្បីឱ្យពួកគេមានអ្នកទំនាក់ទំនងដដែល។ | Suivre autant que possible les mêmes clients, pour qu'ils gardent le même interlocuteur. |
+| ⏳ à relire | `jobs.sections.1.title` | លក្ខណៈសម្បត្តិ | Le profil |
+| ⏳ à relire | `jobs.sections.1.list.0` | ភាសាខ្មែរជាភាសាកំណើត និងចេះភាសាអង់គ្លេស ឬបារាំងស្ទាត់ជំនាញ។ | Khmer langue maternelle, et anglais ou français courant. |
+| ⏳ à relire | `jobs.sections.1.list.1` | អ្នកបកប្រែដែលមានការទទួលស្គាល់ពីអាជ្ញាធរកម្ពុជា។ | Traducteur ou traductrice agréé(e) par les autorités cambodgiennes. |
+| ⏳ à relire | `jobs.sections.1.list.2` | មានចំណេះដឹងអំពីពន្ធដារកម្ពុជា៖ អាករលើតម្លៃបន្ថែម (អតប) វិក្កយបត្រ ការប្រកាសពន្ធ និងវាក្យសព្ទគណនេយ្យ។ | Connaissances en fiscalité cambodgienne : TVA, factures, déclarations, vocabulaire comptable. |
+| ⏳ à relire | `jobs.sections.1.list.3` | ប្រើកុំព្យូទ័របានស្ទាត់។ ចំណេះដឹងផ្នែកព័ត៌មានវិទ្យាជាអត្ថប្រយោជន៍បន្ថែម មិនមែនជាលក្ខខណ្ឌចាំបាច់ទេ។ | À l'aise avec l'ordinateur. Des connaissances en informatique sont un plus, pas une obligation. |
+| ⏳ à relire | `jobs.sections.2.title` | លក្ខខណ្ឌ | Conditions |
+| ⏳ à relire | `jobs.sections.2.list.0` | ទីកន្លែង៖ នៅកំពត ឬពីចម្ងាយ។ | Lieu : Kampot ou à distance. |
+| ⏳ à relire | `jobs.sections.2.list.1` | ប្រភេទនៃកិច្ចសហការ៖ [À COMPLÉTER PAR STEFAN] | Type de collaboration : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `jobs.sections.3.title` | របៀបដាក់ពាក្យ | Postuler |
+| ⏳ à relire | `jobs.sections.3.text` | សូមផ្ញើតាមអ៊ីមែល នូវប្រវត្តិរូបសង្ខេប (CV) ច្បាប់ចម្លងនៃលិខិតទទួលស្គាល់របស់លោកអ្នក និងការពិពណ៌នាខ្លីអំពីបទពិសោធន៍របស់លោកអ្នក ជាភាសាខ្មែរ និងជាភាសាអង់គ្លេស ឬបារាំង។ | Envoyez par e-mail un CV, une copie de votre agrément et quelques lignes sur votre expérience, en khmer et en anglais ou en français. |
+| ⏳ à relire | `jobs.apply` | ដាក់ពាក្យតាមអ៊ីមែល | Postuler par e-mail |
+| ⏳ à relire | `jobs.emailSubject` | ដាក់ពាក្យ៖ អ្នកបកប្រែភាសាខ្មែរ | Candidature : traducteur khmer |
 | ⏳ à relire | `contactPage.title` | ទំនាក់ទំនង | Contact |
-| ⏳ à relire | `contactPage.lead` | វិធីងាយស្រួលបំផុត៖ អ៊ីមែល ឬសារតាម Telegram ឬ WhatsApp។ ខ្ញុំឆ្លើយតបលោកអ្នកដោយខ្លួនឯង។ | Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp. Je vous réponds moi-même. |
+| ⏳ à relire | `contactPage.lead` | វិធីងាយស្រួលបំផុត៖ អ៊ីមែល ឬសារតាម Telegram ឬ WhatsApp។ | Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp. |
 | ⏳ à relire | `contactPage.tipsTitle` | ដើម្បីឱ្យលឿនជាងមុន សូមប្រាប់ខ្ញុំ៖ | Pour aller plus vite, dites-moi : |
 | ⏳ à relire | `contactPage.tips.0` | លោកអ្នកជានរណា និងអាជីវកម្មរបស់លោកអ្នកធ្វើអ្វី | qui vous êtes et ce que fait votre entreprise ; |
 | ⏳ à relire | `contactPage.tips.1` | អ្វីដែលលោកអ្នកត្រូវការ តាមពាក្យសម្ដីរបស់លោកអ្នកផ្ទាល់ | ce dont vous avez besoin, avec vos mots ; |
@@ -888,7 +913,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `notFound.text` | ទំព័រនេះមិនមាន ឬលែងមានទៀតហើយ។ | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | ត្រឡប់ទៅទំព័រដើម | Retour à l'accueil |
 | ⏳ à relire | `cta.title` | ពិភាក្សាអំពីគម្រោងរបស់លោកអ្នក | Parlons de votre projet |
-| ⏳ à relire | `cta.text` | សរសេរមកខ្ញុំតាមអ៊ីមែល Telegram ឬ WhatsApp។ ខ្ញុំឆ្លើយតបលោកអ្នកដោយខ្លួនឯង។ | Écrivez-moi par e-mail, Telegram ou WhatsApp. Je vous réponds moi-même. |
+| ⏳ à relire | `cta.text` | សរសេរមកខ្ញុំតាមអ៊ីមែល Telegram ឬ WhatsApp។ | Écrivez-moi par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `contact.email` | ផ្ញើអ៊ីមែល | Écrire un e-mail |
 | ⏳ à relire | `contact.telegram` | Telegram | Telegram |
 | ⏳ à relire | `contact.whatsapp` | WhatsApp | WhatsApp |
@@ -902,7 +927,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 886 textes relus.
+0 / 911 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -921,7 +946,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.work.title` | Проекты — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | Программа для отелей HMS, сайт для изучения кхмерского и технические проекты: 3D-игры для Android, Ангкор в 3D, музыкальные инструменты в браузере. | Le logiciel hôtelier HMS, un site pour apprendre le khmer, et des projets techniques : jeux Android en 3D, Angkor en 3D, musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | Обо мне — Chantrea Systems | À propos — Chantrea Systems |
-| ⏳ à relire | `meta.about.description` | Стефан, основатель Chantrea Systems, Кампот, Камбоджа. ПО, ИИ, инфраструктура и безопасность: вы общаетесь напрямую с тем, кто делает работу. | Stefan, fondateur de Chantrea Systems, à Kampot. Logiciels, IA, infrastructure et sécurité : vous parlez directement à la personne qui fait le travail. |
+| ⏳ à relire | `meta.about.description` | Chantrea Systems, основана Стефаном в Кампоте. ПО, ИИ, инфраструктура и безопасность — в Камбодже и удалённо. | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
+| ⏳ à relire | `meta.jobs.title` | Вакансия: переводчик кхмерского языка — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
+| ⏳ à relire | `meta.jobs.description` | Chantrea Systems ищет аккредитованного переводчика (английский или французский ↔ кхмерский) со знанием налогообложения Камбоджи. Кампот или удалённо. | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer, avec des connaissances en fiscalité cambodgienne. Kampot ou à distance. |
 | ⏳ à relire | `meta.contact.title` | Контакты — Chantrea Systems | Contact — Chantrea Systems |
 | ⏳ à relire | `meta.contact.description` | Напишите в Chantrea Systems по электронной почте, в Telegram или WhatsApp. Кампот, Камбоджа. | Écrivez à Chantrea Systems par e-mail, Telegram ou WhatsApp. Kampot, Cambodge. |
 | ⏳ à relire | `meta.notFound.title` | Страница не найдена — Chantrea Systems | Page introuvable — Chantrea Systems |
@@ -940,15 +967,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.angkor` | Ангкор 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | Проекты | Réalisations |
 | ⏳ à relire | `nav.about` | Обо мне | À propos |
+| ⏳ à relire | `nav.jobs` | Вакансии | Recrutement |
 | ⏳ à relire | `nav.contact` | Контакты | Contact |
 | ⏳ à relire | `nav.portal` | Личный кабинет | Espace client |
 | ⏳ à relire | `home.hero.eyebrow` | IT-услуги · Кампот, Камбоджа | Services informatiques · Kampot, Cambodge |
 | ⏳ à relire | `home.hero.title` | Программное обеспечение, ИИ, серверы и безопасность для вашего бизнеса. | Logiciels, IA, serveurs et sécurité pour votre entreprise. |
-| ⏳ à relire | `home.hero.lead` | Chantrea Systems проектирует, разрабатывает, устанавливает, интегрирует и обслуживает IT-решения под реальные потребности компаний. Вы всегда общаетесь с одним и тем же человеком. | Chantrea Systems conçoit, développe, installe, intègre et maintient des solutions informatiques adaptées aux besoins réels des entreprises. Vous parlez toujours à la même personne. |
+| ⏳ à relire | `home.hero.lead` | Chantrea Systems проектирует, разрабатывает, устанавливает, интегрирует и обслуживает IT-решения под реальные потребности компаний. | Chantrea Systems conçoit, développe, installe, intègre et maintient des solutions informatiques adaptées aux besoins réels des entreprises. |
 | ⏳ à relire | `home.hero.ctaPrimary` | Обсудить ваш проект | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | Посмотреть услуги | Voir les services |
 | ⏳ à relire | `home.services.title` | Четыре взаимодополняющих направления | Quatre domaines complémentaires |
-| ⏳ à relire | `home.services.intro` | От физического сервера до приложения, которым ваша команда пользуется каждый день. Я отвечаю вам сам. | Du serveur physique à l'application que votre équipe utilise chaque jour. Je vous réponds moi-même. |
+| ⏳ à relire | `home.services.intro` | От физического сервера до приложения, которым ваша команда пользуется каждый день. | Du serveur physique à l'application que votre équipe utilise chaque jour. |
 | ⏳ à relire | `home.hms.eyebrow` | Продукт · Программа для отелей | Produit · Logiciel hôtelier |
 | ⏳ à relire | `home.hms.title` | HMS — программа для управления вашим отелем | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | Бронирования, ресепшен, счета, уборка, ресторан — всё в одном месте. На компьютере, планшете или телефоне. На кхмерском, английском, французском, китайском и русском. | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -998,8 +1026,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.security.title` | Знать, что установлено, чтобы лучше это защищать | Savoir ce qui est installé, pour mieux le protéger |
 | ⏳ à relire | `home.security.text` | Хорошо защитить можно только то, что знаешь. Инвентаризация вашего IT-парка, которая автоматически поддерживается в актуальном состоянии, служит основой для отслеживания уязвимостей и для обновлений в правильном порядке. | On protège bien ce que l'on connaît. L'inventaire de votre parc, tenu à jour automatiquement, sert de base à une veille sur les failles de sécurité et à des mises à jour faites dans le bon ordre. |
 | ⏳ à relire | `home.security.cta` | Подробнее о подходе к безопасности | Voir l'approche sécurité |
-| ⏳ à relire | `home.single.title` | Один человек на связи | Un seul interlocuteur |
-| ⏳ à relire | `home.single.text` | Меня зовут Стефан, я основатель Chantrea Systems. Без колл-центра и без посредников. Вас выслушивает тот же человек, который делает работу. | Je suis Stefan, fondateur de Chantrea Systems. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
+| ⏳ à relire | `home.single.title` | Сопровождение от начала до конца | Un suivi du début à la fin |
+| ⏳ à relire | `home.single.text` | Меня зовут Стефан, я основатель Chantrea Systems. Я веду ваш проект от первого разговора до обслуживания и простыми словами объясняю, что делается. | Je suis Stefan, fondateur de Chantrea Systems. Je suis votre projet du premier échange à la maintenance, et je vous explique simplement ce qui est fait. |
 | ⏳ à relire | `home.single.points.0` | Вы всегда знаете, кто что делает. | Vous savez toujours qui fait quoi. |
 | ⏳ à relire | `home.single.points.1` | Простые объяснения, без жаргона. | Des explications simples, sans jargon. |
 | ⏳ à relire | `home.single.points.2` | На месте — в Кампоте и в Камбодже. Удалённо — везде. | Sur place à Kampot et au Cambodge. À distance partout ailleurs. |
@@ -1019,7 +1047,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.audiences.items.1.title` | Магазины, малый и средний бизнес, частные специалисты | Commerces, PME et indépendants |
 | ⏳ à relire | `home.audiences.items.1.text` | Управление, общие файлы, рабочие станции и серверы — по масштабу вашего бизнеса. | Gestion, fichiers partagés, postes et serveurs, à la taille de votre activité. |
 | ⏳ à relire | `home.audiences.items.2.title` | Экспаты и иностранные компании | Expatriés et entreprises étrangères |
-| ⏳ à relire | `home.audiences.items.2.text` | Работающие в Камбодже, с прямым контактом с исполнителем. | Installés au Cambodge, avec un interlocuteur direct. |
+| ⏳ à relire | `home.audiences.items.2.text` | Работающие в Камбодже, общение на вашем языке. | Installés au Cambodge, avec des échanges dans votre langue. |
 | ⏳ à relire | `home.audiences.items.3.title` | Клиенты за рубежом | Clients à l'étranger |
 | ⏳ à relire | `home.audiences.items.3.text` | Удалённое ведение проектов по электронной почте, в Telegram или WhatsApp. | Projets suivis à distance, par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `home.work.title` | Проекты | Réalisations |
@@ -1059,7 +1087,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.sections.7.title` | Что вы получаете | Ce que vous obtenez |
 | ⏳ à relire | `services.items.0.sections.7.list.0` | Версию, которую можно опробовать до запуска. | Une version à essayer avant la mise en ligne. |
 | ⏳ à relire | `services.items.0.sections.7.list.1` | Объяснения, как ею пользоваться. | Des explications pour vous en servir. |
-| ⏳ à relire | `services.items.0.sections.7.list.2` | Одного человека на связи от начала до конца. | Un seul interlocuteur, du début à la fin. |
+| ⏳ à relire | `services.items.0.sections.7.list.2` | Сопровождение от начала до конца. | Un suivi du début à la fin. |
 | ⏳ à relire | `services.items.0.examples` | Примеры: программа для отелей HMS, обучающий сайт на трёх языках, 3D-игры для Android. | Exemples : le logiciel hôtelier HMS, un site d'apprentissage en trois langues, des jeux Android en 3D. |
 | ⏳ à relire | `services.items.0.trademarks` | Android, Astro и Odoo — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Android, Astro et Odoo sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.1.id` | ai | ai |
@@ -1751,8 +1779,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.lead` | Меня зовут Стефан, я основатель Chantrea Systems. Я живу в Кампоте, Камбоджа. | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | Почему «Chantrea» | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea по-кхмерски значит «лунный свет». Спокойный свет, который освещает, но не слепит. Именно это я хочу привнести в ваши инструменты. | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
-| ⏳ à relire | `about.sections.1.title` | Вы общаетесь напрямую со мной | Un seul interlocuteur |
-| ⏳ à relire | `about.sections.1.text` | Вы общаетесь напрямую со мной, на своём языке: перевод делает ИИ. Без посредников, сообщения не теряются между отделами. Я прямо говорю, что могу сделать, а чего не делаю. | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
+| ⏳ à relire | `about.sections.1.title` | Понятное общение | Des échanges clairs |
+| ⏳ à relire | `about.sections.1.text` | Пишите на своём языке: я отвечаю с помощью перевода ИИ. Сообщения не теряются между отделами. Я прямо говорю, что могу сделать, а чего не делаю. | Pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
 | ⏳ à relire | `about.sections.2.title` | Моя роль | Mon rôle |
 | ⏳ à relire | `about.sections.2.text` | Я отвечаю за каждый проект — от первого разговора до технического сопровождения: проектирование, разработка, установка, ввод в эксплуатацию и обслуживание. Вы всегда знаете, кто занимается вашей установкой. | Je suis responsable de chaque projet, du premier échange au suivi technique : conception, développement, installation, mise en service et maintenance. Vous savez toujours qui s'occupe de votre installation. |
 | ⏳ à relire | `about.sections.3.title` | Чем занимается Chantrea Systems | Ce que fait Chantrea Systems |
@@ -1768,8 +1796,30 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.sections.6.text` | [À COMPLÉTER PAR STEFAN] | [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `about.sections.7.title` | Рабочие языки | Langues de travail |
 | ⏳ à relire | `about.sections.7.text` | [À COMPLÉTER PAR STEFAN] | [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `about.sections.8.title` | Вакансии | Recrutement |
+| ⏳ à relire | `about.sections.8.text` | Chantrea Systems ищет аккредитованного переводчика (английский или французский ↔ кхмерский). | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer. |
+| ⏳ à relire | `about.sections.8.link.page` | jobs | jobs |
+| ⏳ à relire | `about.sections.8.link.label` | Смотреть вакансию | Voir l'annonce |
+| ⏳ à relire | `jobs.title` | Вакансии | Recrutement |
+| ⏳ à relire | `jobs.lead` | Chantrea Systems ищет аккредитованного переводчика (английский или французский ↔ кхмерский) для работы вместе со Стефаном с камбоджийскими компаниями. | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer, pour travailler avec Stefan auprès des entreprises cambodgiennes. |
+| ⏳ à relire | `jobs.sections.0.title` | Задачи | Le rôle |
+| ⏳ à relire | `jobs.sections.0.list.0` | Быть связующим звеном на кхмерском между клиентами и Стефаном: встречи, сообщения, объяснения по проектам. | Faire le lien en khmer entre les clients et Stefan : réunions, messages, explications sur les projets. |
+| ⏳ à relire | `jobs.sections.0.list.1` | Переводить и вычитывать кхмерские тексты программ (Odoo, HMS), документов и счетов. Первый вариант часто готовит ИИ: вы его исправляете и утверждаете. | Traduire et relire les textes en khmer des logiciels (Odoo, HMS), des documents et des factures. L'IA prépare souvent un premier jet : vous le corrigez et le validez. |
+| ⏳ à relire | `jobs.sections.0.list.2` | По возможности вести одних и тех же клиентов, чтобы у них был один и тот же контактный человек. | Suivre autant que possible les mêmes clients, pour qu'ils gardent le même interlocuteur. |
+| ⏳ à relire | `jobs.sections.1.title` | Требования | Le profil |
+| ⏳ à relire | `jobs.sections.1.list.0` | Родной язык — кхмерский, свободное владение английским или французским. | Khmer langue maternelle, et anglais ou français courant. |
+| ⏳ à relire | `jobs.sections.1.list.1` | Аккредитация переводчика от властей Камбоджи. | Traducteur ou traductrice agréé(e) par les autorités cambodgiennes. |
+| ⏳ à relire | `jobs.sections.1.list.2` | Знание налогообложения Камбоджи: НДС, счета, налоговые декларации, бухгалтерская терминология. | Connaissances en fiscalité cambodgienne : TVA, factures, déclarations, vocabulaire comptable. |
+| ⏳ à relire | `jobs.sections.1.list.3` | Уверенная работа с компьютером. Знания в IT — плюс, но не обязательное условие. | À l'aise avec l'ordinateur. Des connaissances en informatique sont un plus, pas une obligation. |
+| ⏳ à relire | `jobs.sections.2.title` | Условия | Conditions |
+| ⏳ à relire | `jobs.sections.2.list.0` | Место работы: Кампот или удалённо. | Lieu : Kampot ou à distance. |
+| ⏳ à relire | `jobs.sections.2.list.1` | Форма сотрудничества: [À COMPLÉTER PAR STEFAN] | Type de collaboration : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `jobs.sections.3.title` | Как откликнуться | Postuler |
+| ⏳ à relire | `jobs.sections.3.text` | Отправьте по электронной почте резюме, копию документа об аккредитации и несколько строк о своём опыте — на кхмерском и на английском или французском. | Envoyez par e-mail un CV, une copie de votre agrément et quelques lignes sur votre expérience, en khmer et en anglais ou en français. |
+| ⏳ à relire | `jobs.apply` | Откликнуться по почте | Postuler par e-mail |
+| ⏳ à relire | `jobs.emailSubject` | Отклик: переводчик кхмерского языка | Candidature : traducteur khmer |
 | ⏳ à relire | `contactPage.title` | Контакты | Contact |
-| ⏳ à relire | `contactPage.lead` | Проще всего — написать на электронную почту или в Telegram или WhatsApp. Я отвечаю сам. | Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp. Je vous réponds moi-même. |
+| ⏳ à relire | `contactPage.lead` | Проще всего — написать на электронную почту или в Telegram или WhatsApp. | Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp. |
 | ⏳ à relire | `contactPage.tipsTitle` | Чтобы ускорить дело, напишите: | Pour aller plus vite, dites-moi : |
 | ⏳ à relire | `contactPage.tips.0` | кто вы и чем занимается ваша компания; | qui vous êtes et ce que fait votre entreprise ; |
 | ⏳ à relire | `contactPage.tips.1` | что вам нужно, своими словами; | ce dont vous avez besoin, avec vos mots ; |
@@ -1781,7 +1831,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `notFound.text` | Такой страницы нет или больше нет. | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | На главную | Retour à l'accueil |
 | ⏳ à relire | `cta.title` | Давайте обсудим ваш проект | Parlons de votre projet |
-| ⏳ à relire | `cta.text` | Напишите мне на электронную почту, в Telegram или WhatsApp. Я отвечаю сам. | Écrivez-moi par e-mail, Telegram ou WhatsApp. Je vous réponds moi-même. |
+| ⏳ à relire | `cta.text` | Напишите мне на электронную почту, в Telegram или WhatsApp. | Écrivez-moi par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `contact.email` | Написать письмо | Écrire un e-mail |
 | ⏳ à relire | `contact.telegram` | Telegram | Telegram |
 | ⏳ à relire | `contact.whatsapp` | WhatsApp | WhatsApp |
@@ -1795,7 +1845,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 886 textes relus.
+0 / 911 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1814,7 +1864,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.work.title` | 项目案例 — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | HMS 酒店管理软件和一个高棉语学习网站，以及一些技术项目：Android 3D 游戏、3D 吴哥地区、在浏览器里运行的乐器。 | Le logiciel hôtelier HMS, un site pour apprendre le khmer, et des projets techniques : jeux Android en 3D, Angkor en 3D, musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | 关于 — Chantrea Systems | À propos — Chantrea Systems |
-| ⏳ à relire | `meta.about.description` | Stefan，Chantrea Systems 的创办人，在柬埔寨贡布。软件、AI、基础设施和安全：您直接与做事的人沟通。 | Stefan, fondateur de Chantrea Systems, à Kampot. Logiciels, IA, infrastructure et sécurité : vous parlez directement à la personne qui fait le travail. |
+| ⏳ à relire | `meta.about.description` | Chantrea Systems 由 Stefan 在柬埔寨贡布创办。软件、AI、基础设施和安全，在柬埔寨现场或远程服务。 | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
+| ⏳ à relire | `meta.jobs.title` | 招聘：高棉语认证翻译 — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
+| ⏳ à relire | `meta.jobs.description` | Chantrea Systems 招聘经柬埔寨主管部门认证的英语或法语 ↔ 高棉语翻译，需了解柬埔寨税务。贡布或远程。 | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer, avec des connaissances en fiscalité cambodgienne. Kampot ou à distance. |
 | ⏳ à relire | `meta.contact.title` | 联系 — Chantrea Systems | Contact — Chantrea Systems |
 | ⏳ à relire | `meta.contact.description` | 通过电子邮件、Telegram 或 WhatsApp 联系 Chantrea Systems。柬埔寨贡布。 | Écrivez à Chantrea Systems par e-mail, Telegram ou WhatsApp. Kampot, Cambodge. |
 | ⏳ à relire | `meta.notFound.title` | 页面不存在 — Chantrea Systems | Page introuvable — Chantrea Systems |
@@ -1833,15 +1885,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.angkor` | 吴哥 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | 项目案例 | Réalisations |
 | ⏳ à relire | `nav.about` | 关于 | À propos |
+| ⏳ à relire | `nav.jobs` | 招聘 | Recrutement |
 | ⏳ à relire | `nav.contact` | 联系 | Contact |
 | ⏳ à relire | `nav.portal` | 客户专区 | Espace client |
 | ⏳ à relire | `home.hero.eyebrow` | IT 服务 · 柬埔寨贡布 | Services informatiques · Kampot, Cambodge |
 | ⏳ à relire | `home.hero.title` | 为您的企业提供软件、AI、服务器和安全服务。 | Logiciels, IA, serveurs et sécurité pour votre entreprise. |
-| ⏳ à relire | `home.hero.lead` | Chantrea Systems 根据企业的实际需求，设计、开发、安装、集成和维护 IT 解决方案。您始终和同一个人沟通。 | Chantrea Systems conçoit, développe, installe, intègre et maintient des solutions informatiques adaptées aux besoins réels des entreprises. Vous parlez toujours à la même personne. |
+| ⏳ à relire | `home.hero.lead` | Chantrea Systems 根据企业的实际需求，设计、开发、安装、集成和维护 IT 解决方案。 | Chantrea Systems conçoit, développe, installe, intègre et maintient des solutions informatiques adaptées aux besoins réels des entreprises. |
 | ⏳ à relire | `home.hero.ctaPrimary` | 聊聊您的项目 | Parlons de votre projet |
 | ⏳ à relire | `home.hero.ctaSecondary` | 查看服务 | Voir les services |
 | ⏳ à relire | `home.services.title` | 四个互补的领域 | Quatre domaines complémentaires |
-| ⏳ à relire | `home.services.intro` | 从物理服务器，到您的团队每天使用的应用。我会亲自回复您。 | Du serveur physique à l'application que votre équipe utilise chaque jour. Je vous réponds moi-même. |
+| ⏳ à relire | `home.services.intro` | 从物理服务器，到您的团队每天使用的应用。 | Du serveur physique à l'application que votre équipe utilise chaque jour. |
 | ⏳ à relire | `home.hms.eyebrow` | 产品 · 酒店管理软件 | Produit · Logiciel hôtelier |
 | ⏳ à relire | `home.hms.title` | HMS，您的酒店管理软件 | HMS, le logiciel de gestion de votre hôtel |
 | ⏳ à relire | `home.hms.text` | 预订、前台、账单、客房清洁、餐厅：全部集中在一处。电脑、平板、手机都能用。支持高棉语、英语、法语、中文和俄语。 | Réservations, réception, facturation, ménage, restaurant : tout au même endroit. Sur ordinateur, tablette ou téléphone. En khmer, anglais, français, chinois et russe. |
@@ -1891,8 +1944,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.security.title` | 清楚装了什么，才能更好地保护 | Savoir ce qui est installé, pour mieux le protéger |
 | ⏳ à relire | `home.security.text` | 清楚了解的东西，才能保护好。自动保持更新的 IT 资产清单，是跟踪安全漏洞、按正确顺序进行更新的基础。 | On protège bien ce que l'on connaît. L'inventaire de votre parc, tenu à jour automatiquement, sert de base à une veille sur les failles de sécurité et à des mises à jour faites dans le bon ordre. |
 | ⏳ à relire | `home.security.cta` | 查看安全服务 | Voir l'approche sécurité |
-| ⏳ à relire | `home.single.title` | 只需对接一个人 | Un seul interlocuteur |
-| ⏳ à relire | `home.single.text` | 我是 Stefan，Chantrea Systems 的创办人。没有总机，没有中间人。听您讲需求的人，就是做事的人。 | Je suis Stefan, fondateur de Chantrea Systems. Pas de standard, pas d'intermédiaire. La personne qui vous écoute est celle qui fait le travail. |
+| ⏳ à relire | `home.single.title` | 从头到尾全程跟进 | Un suivi du début à la fin |
+| ⏳ à relire | `home.single.text` | 我是 Stefan，Chantrea Systems 的创办人。从第一次沟通到后期维护，我全程跟进您的项目，并用简单的话说明做了什么。 | Je suis Stefan, fondateur de Chantrea Systems. Je suis votre projet du premier échange à la maintenance, et je vous explique simplement ce qui est fait. |
 | ⏳ à relire | `home.single.points.0` | 您始终清楚谁在做什么。 | Vous savez toujours qui fait quoi. |
 | ⏳ à relire | `home.single.points.1` | 解释简单，不说行话。 | Des explications simples, sans jargon. |
 | ⏳ à relire | `home.single.points.2` | 在贡布和柬埔寨各地上门服务，其他地方远程服务。 | Sur place à Kampot et au Cambodge. À distance partout ailleurs. |
@@ -1912,7 +1965,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.audiences.items.1.title` | 商店、中小企业和个体经营者 | Commerces, PME et indépendants |
 | ⏳ à relire | `home.audiences.items.1.text` | 企业管理、共享文件、电脑和服务器，按您的业务规模来配置。 | Gestion, fichiers partagés, postes et serveurs, à la taille de votre activité. |
 | ⏳ à relire | `home.audiences.items.2.title` | 外籍人士和外国企业 | Expatriés et entreprises étrangères |
-| ⏳ à relire | `home.audiences.items.2.text` | 身在柬埔寨，直接与我对接。 | Installés au Cambodge, avec un interlocuteur direct. |
+| ⏳ à relire | `home.audiences.items.2.text` | 身在柬埔寨，用您的语言沟通。 | Installés au Cambodge, avec des échanges dans votre langue. |
 | ⏳ à relire | `home.audiences.items.3.title` | 海外客户 | Clients à l'étranger |
 | ⏳ à relire | `home.audiences.items.3.text` | 远程跟进项目，通过电子邮件、Telegram 或 WhatsApp 沟通。 | Projets suivis à distance, par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `home.work.title` | 项目案例 | Réalisations |
@@ -1952,7 +2005,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.sections.7.title` | 您将得到 | Ce que vous obtenez |
 | ⏳ à relire | `services.items.0.sections.7.list.0` | 上线前可以先试用的版本。 | Une version à essayer avant la mise en ligne. |
 | ⏳ à relire | `services.items.0.sections.7.list.1` | 使用说明。 | Des explications pour vous en servir. |
-| ⏳ à relire | `services.items.0.sections.7.list.2` | 从头到尾只对接一个人。 | Un seul interlocuteur, du début à la fin. |
+| ⏳ à relire | `services.items.0.sections.7.list.2` | 从头到尾全程跟进。 | Un suivi du début à la fin. |
 | ⏳ à relire | `services.items.0.examples` | 案例：HMS 酒店管理软件，一个三语学习网站，几款 Android 3D 游戏。 | Exemples : le logiciel hôtelier HMS, un site d'apprentissage en trois langues, des jeux Android en 3D. |
 | ⏳ à relire | `services.items.0.trademarks` | Android、Astro 和 Odoo 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Android, Astro et Odoo sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.1.id` | ai | ai |
@@ -2644,8 +2697,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.lead` | 我是 Stefan，Chantrea Systems 的创办人，住在柬埔寨贡布。 | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |
 | ⏳ à relire | `about.sections.0.title` | 为什么叫「Chantrea」 | Pourquoi « Chantrea » |
 | ⏳ à relire | `about.sections.0.text` | Chantrea 在高棉语里是「月光」的意思。一种平静的光，照亮四周，却不刺眼。这正是我想为您的工具带来的。 | Chantrea veut dire « clair de lune » en khmer. Une lumière calme, qui éclaire sans éblouir. C'est ce que je veux apporter à vos outils. |
-| ⏳ à relire | `about.sections.1.title` | 您直接与我沟通 | Un seul interlocuteur |
-| ⏳ à relire | `about.sections.1.text` | 您用自己的语言直接与我沟通，翻译由人工智能完成。没有中间人，信息不会在多个部门之间遗漏。我会清楚地告诉您，我能做什么，不做什么。 | Vous parlez directement à la personne qui fait le travail. Pas d'intermédiaire, pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
+| ⏳ à relire | `about.sections.1.title` | 沟通清楚 | Des échanges clairs |
+| ⏳ à relire | `about.sections.1.text` | 请用您自己的语言写信：我借助人工智能翻译回复您。信息不会在多个部门之间遗漏。我会清楚地告诉您，我能做什么，不做什么。 | Pas de message perdu entre plusieurs services. Je vous dis clairement ce que je peux faire, et ce que je ne fais pas. |
 | ⏳ à relire | `about.sections.2.title` | 我的角色 | Mon rôle |
 | ⏳ à relire | `about.sections.2.text` | 每个项目都由我负责，从第一次沟通到后续技术跟进：设计、开发、安装、上线和维护。您始终清楚由谁负责您的系统。 | Je suis responsable de chaque projet, du premier échange au suivi technique : conception, développement, installation, mise en service et maintenance. Vous savez toujours qui s'occupe de votre installation. |
 | ⏳ à relire | `about.sections.3.title` | Chantrea Systems 做什么 | Ce que fait Chantrea Systems |
@@ -2661,8 +2714,30 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.sections.6.text` | [À COMPLÉTER PAR STEFAN] | [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `about.sections.7.title` | 工作语言 | Langues de travail |
 | ⏳ à relire | `about.sections.7.text` | [À COMPLÉTER PAR STEFAN] | [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `about.sections.8.title` | 招聘 | Recrutement |
+| ⏳ à relire | `about.sections.8.text` | Chantrea Systems 招聘一名经柬埔寨主管部门认证的翻译（英语或法语 ↔ 高棉语）。 | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer. |
+| ⏳ à relire | `about.sections.8.link.page` | jobs | jobs |
+| ⏳ à relire | `about.sections.8.link.label` | 查看招聘信息 | Voir l'annonce |
+| ⏳ à relire | `jobs.title` | 招聘 | Recrutement |
+| ⏳ à relire | `jobs.lead` | Chantrea Systems 招聘一名经柬埔寨主管部门认证的翻译（英语或法语 ↔ 高棉语），与 Stefan 一起为柬埔寨企业服务。 | Chantrea Systems cherche un traducteur agréé ou une traductrice agréée, anglais ou français ↔ khmer, pour travailler avec Stefan auprès des entreprises cambodgiennes. |
+| ⏳ à relire | `jobs.sections.0.title` | 工作内容 | Le rôle |
+| ⏳ à relire | `jobs.sections.0.list.0` | 在客户和 Stefan 之间用高棉语沟通：会议、消息、项目说明。 | Faire le lien en khmer entre les clients et Stefan : réunions, messages, explications sur les projets. |
+| ⏳ à relire | `jobs.sections.0.list.1` | 翻译和校对软件（Odoo、HMS）、文件和发票中的高棉语文本。初稿通常由 AI 准备，由您修改并确认。 | Traduire et relire les textes en khmer des logiciels (Odoo, HMS), des documents et des factures. L'IA prépare souvent un premier jet : vous le corrigez et le validez. |
+| ⏳ à relire | `jobs.sections.0.list.2` | 尽可能长期跟进同一批客户，让他们始终有同一位联系人。 | Suivre autant que possible les mêmes clients, pour qu'ils gardent le même interlocuteur. |
+| ⏳ à relire | `jobs.sections.1.title` | 任职要求 | Le profil |
+| ⏳ à relire | `jobs.sections.1.list.0` | 母语为高棉语，英语或法语流利。 | Khmer langue maternelle, et anglais ou français courant. |
+| ⏳ à relire | `jobs.sections.1.list.1` | 经柬埔寨主管部门认证的翻译。 | Traducteur ou traductrice agréé(e) par les autorités cambodgiennes. |
+| ⏳ à relire | `jobs.sections.1.list.2` | 了解柬埔寨税务：增值税、发票、纳税申报、会计术语。 | Connaissances en fiscalité cambodgienne : TVA, factures, déclarations, vocabulaire comptable. |
+| ⏳ à relire | `jobs.sections.1.list.3` | 熟练使用电脑。具备 IT 知识者优先，但不是必需条件。 | À l'aise avec l'ordinateur. Des connaissances en informatique sont un plus, pas une obligation. |
+| ⏳ à relire | `jobs.sections.2.title` | 工作条件 | Conditions |
+| ⏳ à relire | `jobs.sections.2.list.0` | 工作地点：贡布或远程。 | Lieu : Kampot ou à distance. |
+| ⏳ à relire | `jobs.sections.2.list.1` | 合作方式：[À COMPLÉTER PAR STEFAN] | Type de collaboration : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `jobs.sections.3.title` | 如何申请 | Postuler |
+| ⏳ à relire | `jobs.sections.3.text` | 请通过电子邮件发送简历、认证证书复印件，以及几句关于您经验的介绍，用高棉语和英语或法语书写。 | Envoyez par e-mail un CV, une copie de votre agrément et quelques lignes sur votre expérience, en khmer et en anglais ou en français. |
+| ⏳ à relire | `jobs.apply` | 通过电子邮件申请 | Postuler par e-mail |
+| ⏳ à relire | `jobs.emailSubject` | 应聘：高棉语翻译 | Candidature : traducteur khmer |
 | ⏳ à relire | `contactPage.title` | 联系 | Contact |
-| ⏳ à relire | `contactPage.lead` | 最简单的方式：发电子邮件，或在 Telegram、WhatsApp 上给我留言。我会亲自回复您。 | Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp. Je vous réponds moi-même. |
+| ⏳ à relire | `contactPage.lead` | 最简单的方式：发电子邮件，或在 Telegram、WhatsApp 上给我留言。 | Le plus simple : un e-mail, ou un message sur Telegram ou WhatsApp. |
 | ⏳ à relire | `contactPage.tipsTitle` | 为了更快处理，请告诉我： | Pour aller plus vite, dites-moi : |
 | ⏳ à relire | `contactPage.tips.0` | 您是谁，您的企业做什么； | qui vous êtes et ce que fait votre entreprise ; |
 | ⏳ à relire | `contactPage.tips.1` | 您需要什么，用您自己的话说； | ce dont vous avez besoin, avec vos mots ; |
@@ -2674,7 +2749,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `notFound.text` | 此页面不存在，或已不再提供。 | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | 返回首页 | Retour à l'accueil |
 | ⏳ à relire | `cta.title` | 聊聊您的项目 | Parlons de votre projet |
-| ⏳ à relire | `cta.text` | 通过电子邮件、Telegram 或 WhatsApp 联系我。我会亲自回复您。 | Écrivez-moi par e-mail, Telegram ou WhatsApp. Je vous réponds moi-même. |
+| ⏳ à relire | `cta.text` | 通过电子邮件、Telegram 或 WhatsApp 联系我。 | Écrivez-moi par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `contact.email` | 发送电子邮件 | Écrire un e-mail |
 | ⏳ à relire | `contact.telegram` | Telegram | Telegram |
 | ⏳ à relire | `contact.whatsapp` | WhatsApp | WhatsApp |
