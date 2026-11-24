@@ -741,7 +741,8 @@
             "list": [
               "It is the open-source edition of Odoo (LGPL v3 licence): no per-user subscription to pay to the publisher.",
               "Its code is open: we adapt it with custom modules, installed on your server.",
-              "Your data sits in a database you control."
+              "Your data sits in a database you control.",
+              "Odoo 20 is already out, but the open-source OCA modules that complement the free edition are mostly available for version 19: as of November 2026, very few have been adapted to version 20. When they are, I will tell you whether switching is worth it."
             ]
           },
           {

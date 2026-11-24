@@ -741,7 +741,8 @@
             "list": [
               "C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur.",
               "Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur.",
-              "Vos données sont dans une base que vous contrôlez."
+              "Vos données sont dans une base que vous contrôlez.",
+              "La version 20 d'Odoo est déjà sortie, mais les modules libres de la communauté OCA, qui complètent la version gratuite, sont surtout disponibles pour la 19 : en novembre 2026, très peu ont été adaptés à la 20. Quand ils le seront, je vous dis s'il vaut la peine de changer."
             ]
           },
           {

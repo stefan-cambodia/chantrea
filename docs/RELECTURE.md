@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 886 textes relus.
+0 / 887 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -435,6 +435,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.7.sections.1.list.0` | វាជាកំណែកូដបើកចំហ (open source) របស់ Odoo (អាជ្ញាប័ណ្ណ LGPL v3)៖ មិនមានការជាវប្រចាំតាមអ្នកប្រើប្រាស់ ដែលត្រូវបង់ឱ្យក្រុមហ៊ុនបង្កើតកម្មវិធីទេ។ | C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur. |
 | ⏳ à relire | `services.items.7.sections.1.list.1` | កូដរបស់វាបើកចំហ៖ យើងកែសម្រួលវាដោយមុខងារបន្ថែម (module) តាមតម្រូវការ ដែលដំឡើងលើម៉ាស៊ីនមេរបស់លោកអ្នក។ | Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur. |
 | ⏳ à relire | `services.items.7.sections.1.list.2` | ទិន្នន័យរបស់លោកអ្នកស្ថិតនៅក្នុងមូលដ្ឋានទិន្នន័យ ដែលលោកអ្នកគ្រប់គ្រង។ | Vos données sont dans une base que vous contrôlez. |
+| ⏳ à relire | `services.items.7.sections.1.list.3` | Odoo កំណែ 20 បានចេញហើយ ប៉ុន្តែមុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA ដែលបំពេញបន្ថែមលើកំណែឥតគិតថ្លៃ ភាគច្រើនមានសម្រាប់កំណែ 19៖ គិតត្រឹមខែវិច្ឆិកា ឆ្នាំ 2026 មានតិចតួចណាស់ដែលត្រូវបានកែសម្រួលសម្រាប់កំណែ 20។ នៅពេលវារួចរាល់ ខ្ញុំនឹងប្រាប់លោកអ្នកថា តើគួរប្ដូរកំណែឬអត់។ | La version 20 d'Odoo est déjà sortie, mais les modules libres de la communauté OCA, qui complètent la version gratuite, sont surtout disponibles pour la 19 : en novembre 2026, très peu ont été adaptés à la 20. Quand ils le seront, je vous dis s'il vaut la peine de changer. |
 | ⏳ à relire | `services.items.7.sections.2.title` | អ្វីដែលកំណែឥតគិតថ្លៃមិនមាន | Ce que la version gratuite n'a pas |
 | ⏳ à relire | `services.items.7.sections.2.text` | កម្មវិធីរងមួយចំនួនមានតែនៅក្នុងកំណែបង់ប្រាក់ គឺ Odoo Enterprise។ ឧទាហរណ៍ គណនេយ្យពេញលេញ៖ Community មានការចេញវិក្កយបត្រ (វិក្កយបត្រ និងការទូទាត់) ហើយមុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA (Odoo Community Association) បន្ថែមមុខងារគណនេយ្យ អាស្រ័យលើថាតើវាមានសម្រាប់កំណែ 19 ហើយឬនៅ។ Odoo Studio ដែលជាឧបករណ៍សម្រាប់កែប្រែ Odoo ដោយមិនចាំបាច់សរសេរកូដ ក៏មានតែនៅក្នុង Enterprise ដែរ៖ ជាមួយ Community ការកែប្រែទាំងនោះធ្វើឡើងដោយមុខងារបន្ថែម (module) តាមតម្រូវការ។ ប្រសិនបើថ្ងៃណាមួយលោកអ្នកត្រូវការ Enterprise យើងអាចប្ដូរកំណែបាន។ | Certaines applications sont réservées à la version payante, Odoo Enterprise. Par exemple la comptabilité complète : Community a la facturation (factures et paiements), et des modules libres de la communauté OCA (Odoo Community Association) ajoutent des fonctions comptables, selon leur disponibilité pour la version 19. Odoo Studio, l'outil pour modifier Odoo sans programmer, est aussi réservé à Enterprise : avec Community, ces changements se font par des modules sur mesure. Si un jour vous avez besoin d'Enterprise, on peut changer de version. |
 | ⏳ à relire | `services.items.7.sections.3.title` | កែសម្រួលសម្រាប់ទីផ្សារកម្ពុជា | Adapté au marché cambodgien |
