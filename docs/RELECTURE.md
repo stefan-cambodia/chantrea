@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 912 textes relus.
+0 / 916 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -670,9 +670,13 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.7.items.0` | ម៉ឺនុយ តុ និងអេក្រង់សម្រាប់ផ្ទះបាយ | Cartes, tables et écran pour la cuisine |
 | ⏳ à relire | `hms.groups.7.items.1` | បំបែកវិក្កយបត្រ ឬបញ្ចូលទៅក្នុងគណនីបន្ទប់ | Addition partagée, ou ajoutée à la note de la chambre |
 | ⏳ à relire | `hms.groups.7.items.2` | បញ្ជីអាហារពេលព្រឹក និងរបាយការណ៍លក់ | Liste des petits-déjeuners et rapport des ventes |
+| ⏳ à relire | `hms.groups.7.items.3` | ការកក់តុ និងការកុម្ម៉ង់ដោយភ្ញៀវផ្ទាល់ តាមរយៈកូដ QR | Réservations de tables, et commandes passées par le client depuis un QR code |
+| ⏳ à relire | `hms.groups.7.items.4` | ស្តុក រូបមន្តម្ហូប និងការបញ្ជាទិញពីអ្នកផ្គត់ផ្គង់ | Stock, recettes et commandes aux fournisseurs |
 | ⏳ à relire | `hms.groups.8.title` | ការជួលយានយន្ត | Location de véhicules |
 | ⏳ à relire | `hms.groups.8.items.0` | យានយន្ត ការកក់ ការបញ្ចេញ និងការប្រគល់មកវិញ | Véhicules, réservations, départ et retour |
 | ⏳ à relire | `hms.groups.8.items.1` | កិច្ចសន្យាជួលជា PDF | Contrat de location en PDF |
+| ⏳ à relire | `hms.groups.8.items.2` | រូបថតយានយន្ត ពេលបញ្ចេញ និងពេលប្រគល់មកវិញ | Photos du véhicule au départ et au retour |
+| ⏳ à relire | `hms.groups.8.items.3` | ភ្ញៀវអាចស្នើសុំជួលតាមអនឡាញ ហើយបុគ្គលិកជាអ្នកបញ្ជាក់ | Demandes de location en ligne par les clients, confirmées par l'équipe |
 | ⏳ à relire | `hms.groups.9.title` | របាយការណ៍ | Rapports |
 | ⏳ à relire | `hms.groups.9.items.0` | អត្រាបន្ទប់មានភ្ញៀវ តម្លៃមធ្យមក្នុងមួយបន្ទប់ ចំណូលក្នុងមួយបន្ទប់ដែលមាន | Taux d'occupation, prix moyen par chambre, revenu par chambre disponible |
 | ⏳ à relire | `hms.groups.9.items.1` | ការព្យាករ និងការប្រៀបធៀប | Prévisions et comparaisons |
@@ -704,7 +708,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.kitchen` | អេក្រង់ផ្ទះបាយរបស់ភោជនីយដ្ឋាន។ | L'écran de la cuisine du restaurant. |
 | ⏳ à relire | `hms.gallery.captions.tablet` | ប្រតិទិននៅលើថេប្លេត។ | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | ផ្ទាំងគ្រប់គ្រង៖ អត្រាបន្ទប់មានភ្ញៀវ ការមកដល់ និងការចាកចេញថ្ងៃនេះ។ | Le tableau de bord : occupation, arrivées et départs du jour. |
-| ⏳ à relire | `hms.gallery.captions.reports` | របាយការណ៍៖ អត្រាបន្ទប់មានភ្ញៀវ តម្លៃមធ្យម និងចំណូលក្នុងមួយបន្ទប់។ | Les rapports : occupation, prix moyen, revenu par chambre. |
+| ⏳ à relire | `hms.gallery.captions.reports` | របាយការណ៍៖ អត្រាបន្ទប់មានភ្ញៀវ តម្លៃមធ្យម និងចំណូលក្នុងមួយបន្ទប់ ក្នុងរយៈពេល 30 ថ្ងៃចុងក្រោយ ធៀបនឹង 30 ថ្ងៃមុននោះ។ | Les rapports : occupation, prix moyen, revenu par chambre, sur les 30 derniers jours comparés aux 30 précédents. |
 | ⏳ à relire | `rally.eyebrow` | R&D · ហ្គេម Android | R&D · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | ការប្រណាំង 3D លើផ្លូវពិតៗជុំវិញប្រាសាទអង្គរ។ លេងជាមួយមិត្តភក្តិ ម្នាក់ទូរស័ព្ទមួយ នៅលើ Wi-Fi តែមួយ ឬការចែករំលែកអ៊ីនធឺណិតពីទូរស័ព្ទ (hotspot)៖ មិនត្រូវការអ៊ីនធឺណិតទេ។ | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
@@ -895,7 +899,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `jobs.sections.1.list.3` | ប្រើកុំព្យូទ័របានស្ទាត់។ ចំណេះដឹងផ្នែកព័ត៌មានវិទ្យាជាអត្ថប្រយោជន៍បន្ថែម មិនមែនជាលក្ខខណ្ឌចាំបាច់ទេ។ | À l'aise avec l'ordinateur. Des connaissances en informatique sont un plus, pas une obligation. |
 | ⏳ à relire | `jobs.sections.2.title` | លក្ខខណ្ឌ | Conditions |
 | ⏳ à relire | `jobs.sections.2.list.0` | ទីកន្លែង៖ នៅកំពត ឬពីចម្ងាយ។ | Lieu : Kampot ou à distance. |
-| ⏳ à relire | `jobs.sections.2.list.1` | ប្រភេទនៃកិច្ចសហការ៖ [À COMPLÉTER PAR STEFAN] | Type de collaboration : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `jobs.sections.2.list.1` | ប្រភេទនៃកិច្ចសហការ៖ ការងារឯករាជ្យ (freelance) ទទួលប្រាក់តាមគម្រោង។ | Type de collaboration : en freelance, payé par projet. |
 | ⏳ à relire | `jobs.sections.3.title` | របៀបដាក់ពាក្យ | Postuler |
 | ⏳ à relire | `jobs.sections.3.text` | សូមផ្ញើតាមអ៊ីមែល នូវប្រវត្តិរូបសង្ខេប (CV) ច្បាប់ចម្លងនៃលិខិតទទួលស្គាល់របស់លោកអ្នក និងការពិពណ៌នាខ្លីអំពីបទពិសោធន៍របស់លោកអ្នក ជាភាសាខ្មែរ និងជាភាសាអង់គ្លេស ឬបារាំង។ | Envoyez par e-mail un CV, une copie de votre agrément et quelques lignes sur votre expérience, en khmer et en anglais ou en français. |
 | ⏳ à relire | `jobs.apply` | ដាក់ពាក្យតាមអ៊ីមែល | Postuler par e-mail |
@@ -927,7 +931,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 911 textes relus.
+0 / 915 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1588,9 +1592,13 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.7.items.0` | Меню, столы и экран для кухни | Cartes, tables et écran pour la cuisine |
 | ⏳ à relire | `hms.groups.7.items.1` | Раздельный счёт или перенос на счёт номера | Addition partagée, ou ajoutée à la note de la chambre |
 | ⏳ à relire | `hms.groups.7.items.2` | Список завтраков и отчёт о продажах | Liste des petits-déjeuners et rapport des ventes |
+| ⏳ à relire | `hms.groups.7.items.3` | Бронирование столов и заказы гостей по QR-коду | Réservations de tables, et commandes passées par le client depuis un QR code |
+| ⏳ à relire | `hms.groups.7.items.4` | Склад, рецепты и заказы поставщикам | Stock, recettes et commandes aux fournisseurs |
 | ⏳ à relire | `hms.groups.8.title` | Аренда транспорта | Location de véhicules |
 | ⏳ à relire | `hms.groups.8.items.0` | Транспорт, бронирования, выдача и возврат | Véhicules, réservations, départ et retour |
 | ⏳ à relire | `hms.groups.8.items.1` | Договор аренды в PDF | Contrat de location en PDF |
+| ⏳ à relire | `hms.groups.8.items.2` | Фото транспорта при выдаче и возврате | Photos du véhicule au départ et au retour |
+| ⏳ à relire | `hms.groups.8.items.3` | Онлайн-заявки гостей на аренду, подтверждаемые персоналом | Demandes de location en ligne par les clients, confirmées par l'équipe |
 | ⏳ à relire | `hms.groups.9.title` | Отчёты | Rapports |
 | ⏳ à relire | `hms.groups.9.items.0` | Загрузка номерного фонда, средняя цена номера, доход на доступный номер | Taux d'occupation, prix moyen par chambre, revenu par chambre disponible |
 | ⏳ à relire | `hms.groups.9.items.1` | Прогнозы и сравнения | Prévisions et comparaisons |
@@ -1622,7 +1630,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.kitchen` | Экран кухни ресторана. | L'écran de la cuisine du restaurant. |
 | ⏳ à relire | `hms.gallery.captions.tablet` | Календарь на планшете. | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | Панель управления: загрузка, заезды и выезды за день. | Le tableau de bord : occupation, arrivées et départs du jour. |
-| ⏳ à relire | `hms.gallery.captions.reports` | Отчёты: загрузка, средняя цена, доход на номер. | Les rapports : occupation, prix moyen, revenu par chambre. |
+| ⏳ à relire | `hms.gallery.captions.reports` | Отчёты: загрузка, средняя цена, доход на номер за последние 30 дней в сравнении с 30 днями до них. | Les rapports : occupation, prix moyen, revenu par chambre, sur les 30 derniers jours comparés aux 30 précédents. |
 | ⏳ à relire | `rally.eyebrow` | R&D · Игра для Android | R&D · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | 3D-гонка по настоящим дорогам вокруг храмов Ангкора. С друзьями, у каждого свой телефон, в одной сети Wi-Fi или через точку доступа телефона: интернет не нужен. | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
@@ -1813,7 +1821,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `jobs.sections.1.list.3` | Уверенная работа с компьютером. Знания в IT — плюс, но не обязательное условие. | À l'aise avec l'ordinateur. Des connaissances en informatique sont un plus, pas une obligation. |
 | ⏳ à relire | `jobs.sections.2.title` | Условия | Conditions |
 | ⏳ à relire | `jobs.sections.2.list.0` | Место работы: Кампот или удалённо. | Lieu : Kampot ou à distance. |
-| ⏳ à relire | `jobs.sections.2.list.1` | Форма сотрудничества: [À COMPLÉTER PAR STEFAN] | Type de collaboration : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `jobs.sections.2.list.1` | Форма сотрудничества: фриланс, оплата за проект. | Type de collaboration : en freelance, payé par projet. |
 | ⏳ à relire | `jobs.sections.3.title` | Как откликнуться | Postuler |
 | ⏳ à relire | `jobs.sections.3.text` | Отправьте по электронной почте резюме, копию документа об аккредитации и несколько строк о своём опыте — на кхмерском и на английском или французском. | Envoyez par e-mail un CV, une copie de votre agrément et quelques lignes sur votre expérience, en khmer et en anglais ou en français. |
 | ⏳ à relire | `jobs.apply` | Откликнуться по почте | Postuler par e-mail |
@@ -1845,7 +1853,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 911 textes relus.
+0 / 915 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2506,9 +2514,13 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.7.items.0` | 菜单、餐桌和厨房显示屏 | Cartes, tables et écran pour la cuisine |
 | ⏳ à relire | `hms.groups.7.items.1` | 分单结账，或记入房账 | Addition partagée, ou ajoutée à la note de la chambre |
 | ⏳ à relire | `hms.groups.7.items.2` | 早餐名单和销售报表 | Liste des petits-déjeuners et rapport des ventes |
+| ⏳ à relire | `hms.groups.7.items.3` | 餐桌预订，客人扫描二维码自助点餐 | Réservations de tables, et commandes passées par le client depuis un QR code |
+| ⏳ à relire | `hms.groups.7.items.4` | 库存、配方和供应商采购单 | Stock, recettes et commandes aux fournisseurs |
 | ⏳ à relire | `hms.groups.8.title` | 车辆租赁 | Location de véhicules |
 | ⏳ à relire | `hms.groups.8.items.0` | 车辆、预订、出车和还车 | Véhicules, réservations, départ et retour |
 | ⏳ à relire | `hms.groups.8.items.1` | PDF 租赁合同 | Contrat de location en PDF |
+| ⏳ à relire | `hms.groups.8.items.2` | 出车和还车时为车辆拍照 | Photos du véhicule au départ et au retour |
+| ⏳ à relire | `hms.groups.8.items.3` | 客人在线提交租车申请，由员工确认 | Demandes de location en ligne par les clients, confirmées par l'équipe |
 | ⏳ à relire | `hms.groups.9.title` | 报表 | Rapports |
 | ⏳ à relire | `hms.groups.9.items.0` | 入住率、平均房价、每间可售房收入 | Taux d'occupation, prix moyen par chambre, revenu par chambre disponible |
 | ⏳ à relire | `hms.groups.9.items.1` | 预测和对比 | Prévisions et comparaisons |
@@ -2540,7 +2552,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.kitchen` | 餐厅的厨房显示屏。 | L'écran de la cuisine du restaurant. |
 | ⏳ à relire | `hms.gallery.captions.tablet` | 平板电脑上的房态日历。 | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | 仪表盘：入住率、今日抵店和离店。 | Le tableau de bord : occupation, arrivées et départs du jour. |
-| ⏳ à relire | `hms.gallery.captions.reports` | 报表：入住率、平均房价、每间可售房收入。 | Les rapports : occupation, prix moyen, revenu par chambre. |
+| ⏳ à relire | `hms.gallery.captions.reports` | 报表：最近 30 天的入住率、平均房价和每间可售房收入，与之前 30 天对比。 | Les rapports : occupation, prix moyen, revenu par chambre, sur les 30 derniers jours comparés aux 30 précédents. |
 | ⏳ à relire | `rally.eyebrow` | 研发 · Android 游戏 | R&D · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | 在吴哥寺庙周边的真实道路上进行 3D 赛车。和朋友一起，每人一部手机，连接同一个 Wi-Fi 或手机热点即可：无需互联网。 | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
@@ -2731,7 +2743,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `jobs.sections.1.list.3` | 熟练使用电脑。具备 IT 知识者优先，但不是必需条件。 | À l'aise avec l'ordinateur. Des connaissances en informatique sont un plus, pas une obligation. |
 | ⏳ à relire | `jobs.sections.2.title` | 工作条件 | Conditions |
 | ⏳ à relire | `jobs.sections.2.list.0` | 工作地点：贡布或远程。 | Lieu : Kampot ou à distance. |
-| ⏳ à relire | `jobs.sections.2.list.1` | 合作方式：[À COMPLÉTER PAR STEFAN] | Type de collaboration : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `jobs.sections.2.list.1` | 合作方式：自由职业，按项目付费。 | Type de collaboration : en freelance, payé par projet. |
 | ⏳ à relire | `jobs.sections.3.title` | 如何申请 | Postuler |
 | ⏳ à relire | `jobs.sections.3.text` | 请通过电子邮件发送简历、认证证书复印件，以及几句关于您经验的介绍，用高棉语和英语或法语书写。 | Envoyez par e-mail un CV, une copie de votre agrément et quelques lignes sur votre expérience, en khmer et en anglais ou en français. |
 | ⏳ à relire | `jobs.apply` | 通过电子邮件申请 | Postuler par e-mail |

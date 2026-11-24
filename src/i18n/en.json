@@ -1198,14 +1198,18 @@
         "items": [
           "Menus, tables and a kitchen screen",
           "Split bill, or charge to the room bill",
-          "Breakfast list and sales report"
+          "Breakfast list and sales report",
+          "Table bookings, and orders placed by guests from a QR code",
+          "Stock, recipes and purchase orders to suppliers"
         ]
       },
       {
         "title": "Vehicle rental",
         "items": [
           "Vehicles, bookings, pick-up and return",
-          "Rental contract as PDF"
+          "Rental contract as PDF",
+          "Photos of the vehicle at pick-up and return",
+          "Online rental requests from guests, confirmed by the staff"
         ]
       },
       {
@@ -1262,7 +1266,7 @@
         "kitchen": "The restaurant's kitchen screen.",
         "tablet": "The calendar on a tablet.",
         "dashboard": "The dashboard: occupancy, today's arrivals and departures.",
-        "reports": "Reports: occupancy, average rate, revenue per room."
+        "reports": "Reports: occupancy, average rate, revenue per room, over the last 30 days compared with the 30 before."
       }
     }
   },
@@ -1590,7 +1594,7 @@
         "title": "Conditions",
         "list": [
           "Location: Kampot or remote.",
-          "Type of collaboration: [À COMPLÉTER PAR STEFAN]"
+          "Type of collaboration: freelance, paid per project."
         ]
       },
       {

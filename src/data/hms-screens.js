@@ -1,7 +1,7 @@
 // Captures d'écran de HMS, dans la langue de chaque page du site.
 // Hôtel de démonstration « The Moon Kampot Boutique » (base de démo du dépôt hms,
 // `tools/screenshots/reset-db.sh` + `seed_activity.py`) : clients et montants fictifs.
-// Captures du 22 novembre 2026, bureau 1440×900 et iPad Pro 11" à l'horizontale.
+// Captures du 24 novembre 2026 (six mois d'activité fictive), bureau 1440×900 et iPad Pro 11" à l'horizontale.
 //
 // Rangement : src/assets/hms/<langue>/<écran>.png, une série complète par langue
 // (en, fr, km, ru, zh). Pour les remplacer : copier les nouvelles images sous le même nom.

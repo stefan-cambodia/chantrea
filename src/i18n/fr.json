@@ -1198,14 +1198,18 @@
         "items": [
           "Cartes, tables et écran pour la cuisine",
           "Addition partagée, ou ajoutée à la note de la chambre",
-          "Liste des petits-déjeuners et rapport des ventes"
+          "Liste des petits-déjeuners et rapport des ventes",
+          "Réservations de tables, et commandes passées par le client depuis un QR code",
+          "Stock, recettes et commandes aux fournisseurs"
         ]
       },
       {
         "title": "Location de véhicules",
         "items": [
           "Véhicules, réservations, départ et retour",
-          "Contrat de location en PDF"
+          "Contrat de location en PDF",
+          "Photos du véhicule au départ et au retour",
+          "Demandes de location en ligne par les clients, confirmées par l'équipe"
         ]
       },
       {
@@ -1262,7 +1266,7 @@
         "kitchen": "L'écran de la cuisine du restaurant.",
         "tablet": "Le calendrier sur tablette.",
         "dashboard": "Le tableau de bord : occupation, arrivées et départs du jour.",
-        "reports": "Les rapports : occupation, prix moyen, revenu par chambre."
+        "reports": "Les rapports : occupation, prix moyen, revenu par chambre, sur les 30 derniers jours comparés aux 30 précédents."
       }
     }
   },
@@ -1590,7 +1594,7 @@
         "title": "Conditions",
         "list": [
           "Lieu : Kampot ou à distance.",
-          "Type de collaboration : [À COMPLÉTER PAR STEFAN]"
+          "Type de collaboration : en freelance, payé par projet."
         ]
       },
       {
