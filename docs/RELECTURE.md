@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 916 textes relus.
+0 / 918 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -659,6 +659,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.4.items.2` | គណនីក្រុមហ៊ុន ជាមួយរបាយការណ៍គណនី | Comptes entreprises avec relevés |
 | ⏳ à relire | `hms.groups.4.items.3` | ការរាប់លុយក្នុងកេះ | Comptage de caisse |
 | ⏳ à relire | `hms.groups.4.items.4` | រូបិយប័ណ្ណច្រើន ជាមួយអត្រាប្ដូរប្រាក់ | Plusieurs devises, avec taux de change |
+| ⏳ à relire | `hms.groups.4.items.5` | តំណបង់ប្រាក់ ABA PayWay (កាត ABA Pay KHQR)៖ កំពុងត្រួតពិនិត្យ | Liens de paiement ABA PayWay (carte, ABA Pay, KHQR) : en cours de validation |
 | ⏳ à relire | `hms.groups.5.title` | ការបិទបញ្ជីប្រចាំថ្ងៃ | Clôture de journée |
 | ⏳ à relire | `hms.groups.5.items.0` | បិទបញ្ជីរៀងរាល់ថ្ងៃ ជាមួយរបាយការណ៍ PDF | Clôture quotidienne avec rapport en PDF |
 | ⏳ à relire | `hms.groups.5.items.1` | ថ្ងៃដែលបានបិទបញ្ជីហើយ មិនអាចកែប្រែបានទៀតទេ | Une journée clôturée ne peut plus être modifiée |
@@ -677,6 +678,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.8.items.1` | កិច្ចសន្យាជួលជា PDF | Contrat de location en PDF |
 | ⏳ à relire | `hms.groups.8.items.2` | រូបថតយានយន្ត ពេលបញ្ចេញ និងពេលប្រគល់មកវិញ | Photos du véhicule au départ et au retour |
 | ⏳ à relire | `hms.groups.8.items.3` | ភ្ញៀវអាចស្នើសុំជួលតាមអនឡាញ ហើយបុគ្គលិកជាអ្នកបញ្ជាក់ | Demandes de location en ligne par les clients, confirmées par l'équipe |
+| ⏳ à relire | `hms.groups.8.items.4` | ការតាមដានយានយន្តតាម GPS (Traccar)៖ កំពុងត្រួតពិនិត្យ | Suivi GPS des véhicules (Traccar) : en cours de validation |
 | ⏳ à relire | `hms.groups.9.title` | របាយការណ៍ | Rapports |
 | ⏳ à relire | `hms.groups.9.items.0` | អត្រាបន្ទប់មានភ្ញៀវ តម្លៃមធ្យមក្នុងមួយបន្ទប់ ចំណូលក្នុងមួយបន្ទប់ដែលមាន | Taux d'occupation, prix moyen par chambre, revenu par chambre disponible |
 | ⏳ à relire | `hms.groups.9.items.1` | ការព្យាករ និងការប្រៀបធៀប | Prévisions et comparaisons |
@@ -931,7 +933,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 915 textes relus.
+0 / 917 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1581,6 +1583,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.4.items.2` | Корпоративные счета с выписками | Comptes entreprises avec relevés |
 | ⏳ à relire | `hms.groups.4.items.3` | Пересчёт кассы | Comptage de caisse |
 | ⏳ à relire | `hms.groups.4.items.4` | Несколько валют с курсами обмена | Plusieurs devises, avec taux de change |
+| ⏳ à relire | `hms.groups.4.items.5` | Ссылки на оплату ABA PayWay (карта, ABA Pay, KHQR): проходят проверку | Liens de paiement ABA PayWay (carte, ABA Pay, KHQR) : en cours de validation |
 | ⏳ à relire | `hms.groups.5.title` | Закрытие дня | Clôture de journée |
 | ⏳ à relire | `hms.groups.5.items.0` | Ежедневное закрытие с отчётом в PDF | Clôture quotidienne avec rapport en PDF |
 | ⏳ à relire | `hms.groups.5.items.1` | Закрытый день больше нельзя изменить | Une journée clôturée ne peut plus être modifiée |
@@ -1599,6 +1602,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.8.items.1` | Договор аренды в PDF | Contrat de location en PDF |
 | ⏳ à relire | `hms.groups.8.items.2` | Фото транспорта при выдаче и возврате | Photos du véhicule au départ et au retour |
 | ⏳ à relire | `hms.groups.8.items.3` | Онлайн-заявки гостей на аренду, подтверждаемые персоналом | Demandes de location en ligne par les clients, confirmées par l'équipe |
+| ⏳ à relire | `hms.groups.8.items.4` | GPS-отслеживание транспорта (Traccar): проходит проверку | Suivi GPS des véhicules (Traccar) : en cours de validation |
 | ⏳ à relire | `hms.groups.9.title` | Отчёты | Rapports |
 | ⏳ à relire | `hms.groups.9.items.0` | Загрузка номерного фонда, средняя цена номера, доход на доступный номер | Taux d'occupation, prix moyen par chambre, revenu par chambre disponible |
 | ⏳ à relire | `hms.groups.9.items.1` | Прогнозы и сравнения | Prévisions et comparaisons |
@@ -1853,7 +1857,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 915 textes relus.
+0 / 917 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2503,6 +2507,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.4.items.2` | 企业账户及对账单 | Comptes entreprises avec relevés |
 | ⏳ à relire | `hms.groups.4.items.3` | 现金盘点 | Comptage de caisse |
 | ⏳ à relire | `hms.groups.4.items.4` | 多种货币，支持汇率 | Plusieurs devises, avec taux de change |
+| ⏳ à relire | `hms.groups.4.items.5` | ABA PayWay 付款链接（银行卡、ABA Pay、KHQR）：验证中 | Liens de paiement ABA PayWay (carte, ABA Pay, KHQR) : en cours de validation |
 | ⏳ à relire | `hms.groups.5.title` | 日结 | Clôture de journée |
 | ⏳ à relire | `hms.groups.5.items.0` | 每日结账，生成 PDF 报告 | Clôture quotidienne avec rapport en PDF |
 | ⏳ à relire | `hms.groups.5.items.1` | 已日结的日期不能再修改 | Une journée clôturée ne peut plus être modifiée |
@@ -2521,6 +2526,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.8.items.1` | PDF 租赁合同 | Contrat de location en PDF |
 | ⏳ à relire | `hms.groups.8.items.2` | 出车和还车时为车辆拍照 | Photos du véhicule au départ et au retour |
 | ⏳ à relire | `hms.groups.8.items.3` | 客人在线提交租车申请，由员工确认 | Demandes de location en ligne par les clients, confirmées par l'équipe |
+| ⏳ à relire | `hms.groups.8.items.4` | 车辆 GPS 定位（Traccar）：验证中 | Suivi GPS des véhicules (Traccar) : en cours de validation |
 | ⏳ à relire | `hms.groups.9.title` | 报表 | Rapports |
 | ⏳ à relire | `hms.groups.9.items.0` | 入住率、平均房价、每间可售房收入 | Taux d'occupation, prix moyen par chambre, revenu par chambre disponible |
 | ⏳ à relire | `hms.groups.9.items.1` | 预测和对比 | Prévisions et comparaisons |

@@ -1175,7 +1175,8 @@
           "Factures et reçus numérotés sans trou, avoirs",
           "Comptes entreprises avec relevés",
           "Comptage de caisse",
-          "Plusieurs devises, avec taux de change"
+          "Plusieurs devises, avec taux de change",
+          "Liens de paiement ABA PayWay (carte, ABA Pay, KHQR) : en cours de validation"
         ]
       },
       {
@@ -1209,7 +1210,8 @@
           "Véhicules, réservations, départ et retour",
           "Contrat de location en PDF",
           "Photos du véhicule au départ et au retour",
-          "Demandes de location en ligne par les clients, confirmées par l'équipe"
+          "Demandes de location en ligne par les clients, confirmées par l'équipe",
+          "Suivi GPS des véhicules (Traccar) : en cours de validation"
         ]
       },
       {

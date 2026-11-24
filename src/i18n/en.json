@@ -1175,7 +1175,8 @@
           "Invoices and receipts with gap-free numbering, credit notes",
           "Company accounts with statements",
           "Cash count",
-          "Several currencies, with exchange rates"
+          "Several currencies, with exchange rates",
+          "ABA PayWay payment links (card, ABA Pay, KHQR): being validated"
         ]
       },
       {
@@ -1209,7 +1210,8 @@
           "Vehicles, bookings, pick-up and return",
           "Rental contract as PDF",
           "Photos of the vehicle at pick-up and return",
-          "Online rental requests from guests, confirmed by the staff"
+          "Online rental requests from guests, confirmed by the staff",
+          "GPS tracking of the vehicles (Traccar): being validated"
         ]
       },
       {
