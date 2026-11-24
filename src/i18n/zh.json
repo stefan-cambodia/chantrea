@@ -2,7 +2,7 @@
   "meta": {
     "home": {
       "title": "Chantrea Systems — 柬埔寨贡布的 IT 服务",
-      "description": "软件和 Odoo 模块开发、HMS 酒店管理软件、安装在您那里的 AI、Windows 和 Linux 服务器、XCP-ng 服务器虚拟化、Mattermost、Zabbix 监控、GLPI IT 资产管理。柬埔寨贡布，也可远程服务。"
+      "description": "软件和 Odoo 模块、HMS 酒店管理软件、装在您那里的 AI、服务器与虚拟化、GLPI IT 资产管理。柬埔寨贡布，也可远程服务。"
     },
     "chooser": {
       "title": "Chantrea Systems",
@@ -362,8 +362,8 @@
           "备份与恢复"
         ],
         "lead": "我负责设计、安装和管理运行您应用的环境：从硬件到监控，包括虚拟化和备份。",
-        "metaTitle": "柬埔寨 IT 基础设施：服务器、XCP-ng 虚拟化、Zabbix — Chantrea Systems",
-        "metaDescription": "Windows 和 Linux 服务器管理，用 Xen、XCP-ng 和 Xen Orchestra 做服务器虚拟化，Zabbix 监控，备份，网络，Nextcloud 私有云、Odoo 和 Mattermost。柬埔寨贡布，也可远程服务。",
+        "metaTitle": "柬埔寨服务器与 XCP-ng 虚拟化 — Chantrea Systems",
+        "metaDescription": "Windows 和 Linux 服务器管理，用 Xen、XCP-ng 和 Xen Orchestra 做虚拟化，Zabbix 监控，备份，网络。柬埔寨贡布，也可远程服务。",
         "sections": [
           {
             "figure": "infra"
@@ -480,7 +480,7 @@
           "账户、访问权限和备份"
         ],
         "lead": "安全从清楚自己有什么开始。我让您的 IT 资产清单保持最新，跟踪与之相关的漏洞，并帮助您按正确顺序修复。",
-        "metaTitle": "柬埔寨 IT 安全与资产管理：GLPI、资产清单、漏洞跟踪 — Chantrea Systems",
+        "metaTitle": "柬埔寨 IT 安全与 GLPI 资产管理 — Chantrea Systems",
         "metaDescription": "用 GLPI 做 IT 资产管理，用 GLPI Agent 自动清点硬件和软件，跟踪漏洞，更新，备份和访问控制。柬埔寨贡布。",
         "sections": [
           {
@@ -559,7 +559,7 @@
         "title": "Odoo、Nextcloud 和 Mattermost",
         "summary": "您的企业管理、共享文件和团队通讯，都用开源软件。可以装在您那里、我们这里，或云端。",
         "lead": "我负责安装、调整和维护 Odoo、Nextcloud 和 Mattermost。在哪里运行由您来选，数据始终归您所有。",
-        "metaTitle": "柬埔寨 Odoo、Nextcloud 和 Mattermost：安装与定制 — Chantrea Systems",
+        "metaTitle": "柬埔寨 Odoo、Nextcloud 和 Mattermost — Chantrea Systems",
         "metaDescription": "Odoo（企业管理）、Nextcloud（私有云）和 Mattermost（团队通讯）的安装、配置、定制模块和维护。可以装在您那里、我们这里，或云端。",
         "sections": [
           {
@@ -621,7 +621,7 @@
         "summary": "为 Odoo 定制模块：您的界面、单据、业务规则，以及与其他软件的对接。另有专门面向柬埔寨和高棉语的方向。",
         "lead": "Odoo 能满足很多需求，但每家企业都有自己的做法。缺了什么，我就开发一个模块加到 Odoo 上，不改动它的原始代码。",
         "metaTitle": "柬埔寨 Odoo 定制模块开发 — Chantrea Systems",
-        "metaDescription": "Odoo 定制模块：字段和界面、符合您格式的发票和报表、自动化、数据导入、与其他软件的对接。针对柬埔寨的本地化：高棉语、美元和瑞尔。柬埔寨贡布，也可远程服务。",
+        "metaDescription": "Odoo 定制模块：界面、符合您格式的发票和报表、自动化、数据导入、与其他软件对接。支持高棉语、美元和瑞尔。",
         "sections": [
           {
             "title": "模块能做什么",
@@ -670,7 +670,7 @@
         "title": "高棉语 Odoo，面向柬埔寨",
         "summary": "专门面向柬埔寨企业的方向：高棉语 Odoo、高棉语或双语单据、美元和瑞尔、本地规则。",
         "lead": "我以 Odoo 的开源免费版 Odoo 19 Community 为基础，针对柬埔寨进行调整：员工的语言、两种货币、客户期待的单据。",
-        "metaTitle": "柬埔寨高棉语 Odoo：高棉语发票、美元和瑞尔 — Chantrea Systems",
+        "metaTitle": "柬埔寨高棉语 Odoo：美元和瑞尔 — Chantrea Systems",
         "metaDescription": "为柬埔寨企业调整的 Odoo：高棉语界面，高棉语或高棉语-英语双语的发票和收据，美元和瑞尔，与您的会计确认过的税务规则。柬埔寨贡布。",
         "sections": [
           {
@@ -719,8 +719,8 @@
         "title": "Odoo：管理您的企业",
         "summary": "销售、发票、采购、库存、收银、项目：Odoo 19 Community，即 Odoo 的开源免费版，为您安装好，并针对柬埔寨市场进行调整。",
         "lead": "Odoo 把企业管理所需的各个应用集中在一套软件里。我以开源免费的 Odoo 19 Community 为基础，按您的企业和柬埔寨的情况进行调整：高棉语、美元和瑞尔、您的单据。",
-        "metaTitle": "柬埔寨 Odoo 19 Community：高棉语企业管理软件 — Chantrea Systems",
-        "metaDescription": "Odoo 19 Community，开源免费的企业管理软件：销售、开票、采购、库存、销售点、CRM、项目。针对柬埔寨调整：高棉语、美元和瑞尔。可以装在您那里、我们这里，或云端。",
+        "metaTitle": "柬埔寨 Odoo 19 Community，支持高棉语 — Chantrea Systems",
+        "metaDescription": "Odoo 19 Community，开源免费的企业管理软件：销售、开票、采购、库存、销售点、CRM。针对柬埔寨调整：高棉语、美元和瑞尔。",
         "sections": [
           {
             "title": "Odoo 能做什么",
@@ -799,7 +799,7 @@
         "title": "Mattermost：您团队的通讯工具",
         "summary": "安装在您服务器上的团队通讯工具：频道、私信、讨论串、文件，以及来自您各种工具的警报。",
         "lead": "Mattermost 像大型企业通讯软件一样，按频道组织团队的交流，只是放在您选择的服务器上。工作上的对话不再经过个人聊天软件。",
-        "metaTitle": "柬埔寨 Mattermost：装在您那里的私有团队通讯工具 — Chantrea Systems",
+        "metaTitle": "柬埔寨 Mattermost 私有团队通讯 — Chantrea Systems",
         "metaDescription": "Mattermost，安装在您服务器上的团队通讯工具：频道、私信、讨论串、共享文件，电脑和手机应用，Zabbix 警报。可以装在您那里、我们这里，或云端。",
         "sections": [
           {
@@ -870,7 +870,7 @@
         "title": "Nextcloud：您的文件和团队协作",
         "summary": "您的文件、日历、通讯录、通话和共享文档，放在您选择的服务器上。开源免费，全部功能都可用。",
         "lead": "在文件和团队协作方面，Nextcloud 能做到大型在线服务能做的事，只是放在您选择的服务器上：您的场所内、我们这里，或托管服务商那里。",
-        "metaTitle": "柬埔寨 Nextcloud：存放文件、团队协作的私有云 — Chantrea Systems",
+        "metaTitle": "柬埔寨 Nextcloud 私有云 — Chantrea Systems",
         "metaDescription": "Nextcloud，开源免费的私有云：文件在电脑和手机上同步，通过链接共享，日历和通讯录，视频通话，多人同时编辑文档。可以装在您那里、我们这里，或云端。",
         "sections": [
           {

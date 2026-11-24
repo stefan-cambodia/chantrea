@@ -2,7 +2,7 @@
   "meta": {
     "home": {
       "title": "Chantrea Systems — Services informatiques à Kampot, Cambodge",
-      "description": "Logiciels et modules Odoo, logiciel hôtelier HMS, IA installée chez vous, serveurs Windows et Linux, virtualisation XCP-ng, Mattermost, supervision Zabbix, gestion de parc GLPI. Kampot, Cambodge, et à distance."
+      "description": "Logiciels et modules Odoo, logiciel hôtelier HMS, IA installée chez vous, serveurs et virtualisation, gestion de parc GLPI. Kampot, Cambodge, et à distance."
     },
     "chooser": {
       "title": "Chantrea Systems",
@@ -10,27 +10,27 @@
     },
     "services": {
       "title": "Services informatiques au Cambodge — Chantrea Systems",
-      "description": "Logiciels et applications, IA et automatisation, infrastructure et virtualisation, cybersécurité et gestion du parc informatique. À Kampot, ailleurs au Cambodge, ou à distance."
+      "description": "Logiciels et applications, IA et automatisation, infrastructure et virtualisation, cybersécurité et gestion du parc. Kampot, Cambodge, ou à distance."
     },
     "hms": {
       "title": "HMS, logiciel de gestion hôtelière au Cambodge — Chantrea Systems",
-      "description": "Réservations, réception, facturation, ménage, restaurant et rapports dans un seul logiciel, en cinq langues. Démonstration en conditions réelles à The Moon Kampot Boutique, à Kampot."
+      "description": "Réservations, réception, facturation, ménage, restaurant et rapports, en cinq langues. Démonstration en conditions réelles à The Moon Kampot Boutique, Kampot."
     },
     "rally": {
-      "title": "Cambodia Rally, course en 3D autour d'Angkor — Chantrea Systems",
-      "description": "Un jeu de course en 3D pour Android, sur les vraies routes autour des temples d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits, 7 langues."
+      "title": "Cambodia Rally, course 3D autour d'Angkor — Chantrea Systems",
+      "description": "Jeu de course en 3D pour Android, sur les vraies routes autour d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits."
     },
     "angkor": {
-      "title": "Angkor World Engine, la région d'Angkor en 3D — Chantrea Systems",
-      "description": "La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, 37 × 45 km, à partir de données géographiques ouvertes. On la survole ou on y conduit, sur ordinateur et sur téléphone Android."
+      "title": "Angkor World Engine, Angkor en 3D — Chantrea Systems",
+      "description": "La région d'Angkor et de Siem Reap en 3D à l'échelle réelle (37 × 45 km), à partir de données géographiques ouvertes. Sur ordinateur et téléphone Android."
     },
     "work": {
       "title": "Réalisations — Chantrea Systems",
-      "description": "Le logiciel hôtelier HMS et un site d'apprentissage du khmer, puis des projets techniques : jeux Android en 3D, la région d'Angkor en 3D, instruments de musique dans le navigateur."
+      "description": "Le logiciel hôtelier HMS, un site pour apprendre le khmer, et des projets techniques : jeux Android en 3D, Angkor en 3D, musique dans le navigateur."
     },
     "about": {
       "title": "À propos — Chantrea Systems",
-      "description": "Stefan, fondateur de Chantrea Systems, à Kampot, au Cambodge. Logiciels, IA, infrastructure et sécurité : vous parlez directement à la personne qui fait le travail."
+      "description": "Stefan, fondateur de Chantrea Systems, à Kampot. Logiciels, IA, infrastructure et sécurité : vous parlez directement à la personne qui fait le travail."
     },
     "contact": {
       "title": "Contact — Chantrea Systems",
@@ -238,8 +238,8 @@
           "API et intégrations"
         ],
         "lead": "Des logiciels et des applications qui suivent la façon dont votre entreprise travaille vraiment, dans les langues de vos clients et de votre équipe.",
-        "metaTitle": "Développement de logiciels et d'applications au Cambodge — Chantrea Systems",
-        "metaDescription": "Logiciels métier, modules Odoo sur mesure, applications de gestion, applications web et Android, sites multilingues, bases de données, API et intégrations. Kampot, Cambodge, et à distance.",
+        "metaTitle": "Développement de logiciels au Cambodge — Chantrea Systems",
+        "metaDescription": "Logiciels métier, modules Odoo, applications web et Android, sites multilingues, bases de données, API et intégrations. Kampot, Cambodge, et à distance.",
         "sections": [
           {
             "title": "Logiciels métier et applications de gestion",
@@ -296,8 +296,8 @@
           "Assistants spécialisés"
         ],
         "lead": "L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer.",
-        "metaTitle": "IA privée et automatisation pour les entreprises au Cambodge — Chantrea Systems",
-        "metaDescription": "Intégration de modèles d'IA, IA installée sur votre serveur avec Ollama, traitement de documents, traduction, automatisation des tâches répétitives. L'IA propose, une personne décide.",
+        "metaTitle": "IA privée et automatisation au Cambodge — Chantrea Systems",
+        "metaDescription": "Intégration de modèles d'IA, IA installée sur votre serveur avec Ollama, traitement de documents, traduction, automatisation. L'IA propose, une personne décide.",
         "sections": [
           {
             "title": "Quelques exemples possibles",
@@ -362,8 +362,8 @@
           "Sauvegardes et restauration"
         ],
         "lead": "Je conçois, j'installe et j'administre l'environnement qui fait tourner vos applications : du matériel à la supervision, en passant par la virtualisation et les sauvegardes.",
-        "metaTitle": "Infrastructure informatique au Cambodge : serveurs, virtualisation XCP-ng, Zabbix — Chantrea Systems",
-        "metaDescription": "Administration de serveurs Windows et Linux, virtualisation avec Xen, XCP-ng et Xen Orchestra, supervision Zabbix, sauvegardes, réseau, cloud privé Nextcloud, Odoo et Mattermost. Kampot, Cambodge, et à distance.",
+        "metaTitle": "Serveurs et virtualisation XCP-ng au Cambodge — Chantrea Systems",
+        "metaDescription": "Serveurs Windows et Linux, virtualisation avec Xen, XCP-ng et Xen Orchestra, supervision Zabbix, sauvegardes, réseau. Kampot, Cambodge, et à distance.",
         "sections": [
           {
             "figure": "infra"
@@ -480,8 +480,8 @@
           "Comptes, accès et sauvegardes"
         ],
         "lead": "La sécurité commence par savoir ce que vous avez. Je tiens l'inventaire de votre parc à jour, je suis les failles qui le concernent et je vous aide à corriger dans le bon ordre.",
-        "metaTitle": "Sécurité informatique et gestion de parc au Cambodge : GLPI, inventaire, veille — Chantrea Systems",
-        "metaDescription": "Gestion du parc informatique avec GLPI, inventaire automatique du matériel et des logiciels avec GLPI Agent, veille sur les vulnérabilités, mises à jour, sauvegardes et accès. Kampot, Cambodge.",
+        "metaTitle": "Sécurité informatique et parc GLPI au Cambodge — Chantrea Systems",
+        "metaDescription": "Parc informatique géré avec GLPI, inventaire automatique avec GLPI Agent, veille sur les vulnérabilités, mises à jour, sauvegardes et accès. Kampot, Cambodge.",
         "sections": [
           {
             "title": "GLPI, la gestion du parc informatique",
@@ -559,8 +559,8 @@
         "title": "Odoo, Nextcloud et Mattermost",
         "summary": "Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud.",
         "lead": "J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous.",
-        "metaTitle": "Odoo, Nextcloud et Mattermost au Cambodge : installation et adaptation — Chantrea Systems",
-        "metaDescription": "Installation, configuration, modules sur mesure et entretien d'Odoo (gestion d'entreprise), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous, chez nous ou dans le cloud.",
+        "metaTitle": "Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems",
+        "metaDescription": "Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud.",
         "sections": [
           {
             "title": "Odoo, pour gérer l'entreprise",
@@ -620,8 +620,8 @@
         "title": "Développement de modules Odoo",
         "summary": "Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer.",
         "lead": "Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine.",
-        "metaTitle": "Développement de modules Odoo sur mesure au Cambodge — Chantrea Systems",
-        "metaDescription": "Modules Odoo sur mesure : champs et écrans, factures et rapports à votre format, automatisations, imports de données, liens avec vos autres logiciels. Adaptation au Cambodge : khmer, dollar et riel. Kampot, Cambodge, et à distance.",
+        "metaTitle": "Modules Odoo sur mesure au Cambodge — Chantrea Systems",
+        "metaDescription": "Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel.",
         "sections": [
           {
             "title": "Ce qu'un module peut faire",
@@ -670,8 +670,8 @@
         "title": "Odoo en khmer, pour le Cambodge",
         "summary": "Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales.",
         "lead": "Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent.",
-        "metaTitle": "Odoo en khmer au Cambodge : factures en khmer, dollar et riel — Chantrea Systems",
-        "metaDescription": "Odoo adapté aux entreprises cambodgiennes : écrans en khmer, factures et reçus en khmer ou bilingues khmer-anglais, dollar et riel, règles fiscales validées avec votre comptable. Kampot, Cambodge.",
+        "metaTitle": "Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems",
+        "metaDescription": "Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable.",
         "sections": [
           {
             "title": "Odoo dans la langue de votre équipe",
@@ -719,8 +719,8 @@
         "title": "Odoo : la gestion de votre entreprise",
         "summary": "Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien.",
         "lead": "Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents.",
-        "metaTitle": "Odoo 19 Community au Cambodge : gestion d'entreprise en khmer — Chantrea Systems",
-        "metaDescription": "Odoo 19 Community, logiciel de gestion libre et gratuit : ventes, facturation, achats, stocks, point de vente, CRM, projets. Adapté au Cambodge : khmer, dollar et riel. Installé chez vous, chez nous ou dans le cloud.",
+        "metaTitle": "Odoo 19 Community au Cambodge, en khmer — Chantrea Systems",
+        "metaDescription": "Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel.",
         "sections": [
           {
             "title": "Ce que fait Odoo",
@@ -800,8 +800,8 @@
         "title": "Mattermost : la messagerie de votre équipe",
         "summary": "Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils.",
         "lead": "Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles.",
-        "metaTitle": "Mattermost au Cambodge : messagerie d'équipe privée, installée chez vous — Chantrea Systems",
-        "metaDescription": "Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers partagés, applications pour ordinateur et téléphone, alertes Zabbix. Chez vous, chez nous ou dans le cloud.",
+        "metaTitle": "Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems",
+        "metaDescription": "Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix.",
         "sections": [
           {
             "title": "Ce que fait Mattermost",
@@ -871,8 +871,8 @@
         "title": "Nextcloud : vos fichiers et le travail en équipe",
         "summary": "Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions.",
         "lead": "Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur.",
-        "metaTitle": "Nextcloud au Cambodge : cloud privé pour vos fichiers et votre équipe — Chantrea Systems",
-        "metaDescription": "Nextcloud, cloud privé libre et gratuit : fichiers synchronisés sur ordinateur et téléphone, partage par lien, agendas et contacts, appels vidéo, édition de documents à plusieurs. Installé chez vous, chez nous ou dans le cloud.",
+        "metaTitle": "Nextcloud au Cambodge : votre cloud privé — Chantrea Systems",
+        "metaDescription": "Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud.",
         "sections": [
           {
             "title": "Vos fichiers, partout",
