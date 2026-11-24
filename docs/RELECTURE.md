@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 918 textes relus.
+0 / 919 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -643,6 +643,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.0.items.0` | ប្រតិទិនបន្ទប់ អាចអូស និងទម្លាក់បាន | Calendrier des chambres, avec glisser-déposer |
 | ⏳ à relire | `hms.groups.0.items.1` | ការកក់ច្រើនបន្ទប់ សម្រង់តម្លៃ ការកែប្រែ និងការលុបចោល | Réservations de plusieurs chambres, devis, modifications et annulations |
 | ⏳ à relire | `hms.groups.0.items.2` | ទិដ្ឋភាពប្រចាំថ្ងៃ និងទិដ្ឋភាពតាមប្រភេទបន្ទប់ | Vue du jour et vue par type de chambre |
+| ⏳ à relire | `hms.groups.0.items.3` | កម្មវិធីគ្រប់គ្រងបណ្ដាញលក់ (channel manager) SiteMinder សម្រាប់ Booking.com Agoda និងគេហទំព័រកក់ផ្សេងទៀត៖ កំពុងត្រួតពិនិត្យ | Channel manager SiteMinder, pour Booking.com, Agoda et d'autres sites de réservation : en cours de validation |
 | ⏳ à relire | `hms.groups.1.title` | ផ្នែកទទួលភ្ញៀវ | Réception |
 | ⏳ à relire | `hms.groups.1.items.0` | ភ្ញៀវមកដល់ ភ្ញៀវចាកចេញ និងភ្ញៀវដែលមិនបានកក់ទុកមុន | Arrivées, départs et clients sans réservation |
 | ⏳ à relire | `hms.groups.1.items.1` | ការប្ដូរបន្ទប់ និងការចាកចេញមុនកាលកំណត់ | Changement de chambre et départ anticipé |
@@ -933,7 +934,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 917 textes relus.
+0 / 918 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1567,6 +1568,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.0.items.0` | Календарь номеров с перетаскиванием | Calendrier des chambres, avec glisser-déposer |
 | ⏳ à relire | `hms.groups.0.items.1` | Бронирование нескольких номеров, сметы, изменения и отмены | Réservations de plusieurs chambres, devis, modifications et annulations |
 | ⏳ à relire | `hms.groups.0.items.2` | Вид на день и вид по типам номеров | Vue du jour et vue par type de chambre |
+| ⏳ à relire | `hms.groups.0.items.3` | Channel manager SiteMinder для Booking.com, Agoda и других сайтов бронирования: проходит проверку | Channel manager SiteMinder, pour Booking.com, Agoda et d'autres sites de réservation : en cours de validation |
 | ⏳ à relire | `hms.groups.1.title` | Ресепшен | Réception |
 | ⏳ à relire | `hms.groups.1.items.0` | Заезды, выезды и гости без бронирования | Arrivées, départs et clients sans réservation |
 | ⏳ à relire | `hms.groups.1.items.1` | Смена номера и досрочный выезд | Changement de chambre et départ anticipé |
@@ -1857,7 +1859,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 917 textes relus.
+0 / 918 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2491,6 +2493,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.0.items.0` | 房间日历，支持拖放 | Calendrier des chambres, avec glisser-déposer |
 | ⏳ à relire | `hms.groups.0.items.1` | 多房间预订、报价、修改和取消 | Réservations de plusieurs chambres, devis, modifications et annulations |
 | ⏳ à relire | `hms.groups.0.items.2` | 当日视图和按房型视图 | Vue du jour et vue par type de chambre |
+| ⏳ à relire | `hms.groups.0.items.3` | SiteMinder 渠道管理，对接 Booking.com、Agoda 等预订网站：验证中 | Channel manager SiteMinder, pour Booking.com, Agoda et d'autres sites de réservation : en cours de validation |
 | ⏳ à relire | `hms.groups.1.title` | 前台 | Réception |
 | ⏳ à relire | `hms.groups.1.items.0` | 入住、退房和无预订散客 | Arrivées, départs et clients sans réservation |
 | ⏳ à relire | `hms.groups.1.items.1` | 换房和提前退房 | Changement de chambre et départ anticipé |

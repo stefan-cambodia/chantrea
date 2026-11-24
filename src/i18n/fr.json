@@ -1143,7 +1143,8 @@
         "items": [
           "Calendrier des chambres, avec glisser-déposer",
           "Réservations de plusieurs chambres, devis, modifications et annulations",
-          "Vue du jour et vue par type de chambre"
+          "Vue du jour et vue par type de chambre",
+          "Channel manager SiteMinder, pour Booking.com, Agoda et d'autres sites de réservation : en cours de validation"
         ]
       },
       {

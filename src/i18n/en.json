@@ -1143,7 +1143,8 @@
         "items": [
           "Room calendar, with drag and drop",
           "Multi-room bookings, quotes, changes and cancellations",
-          "Day view and view by room type"
+          "Day view and view by room type",
+          "SiteMinder channel manager, for Booking.com, Agoda and other booking sites: being validated"
         ]
       },
       {
