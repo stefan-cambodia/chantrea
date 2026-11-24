@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 919 textes relus.
+0 / 920 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -692,6 +692,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.11.items.0` | អេក្រង់ទាំងអស់ធ្វើបច្ចុប្បន្នភាពភ្លាមៗ | Tous les écrans se mettent à jour en direct |
 | ⏳ à relire | `hms.groups.11.items.1` | ការបម្រុងទុកទិន្នន័យដោយស្វ័យប្រវត្តិ ដែលត្រូវបានផ្ទៀងផ្ទាត់ និងការស្ដារឡើងវិញពីអេក្រង់ | Sauvegardes automatiques vérifiées, restauration depuis l'écran |
 | ⏳ à relire | `hms.groups.11.items.2` | វិក្កយបត្រ បង្កាន់ដៃ និងកិច្ចសន្យា អាចបោះពុម្ពជាប្រាំភាសា | Factures, reçus et contrats imprimables en cinq langues |
+| ⏳ à relire | `hms.groups.11.items.3` | កម្មវិធីសម្រាប់កុំព្យូទ័រ Windows និង Linux ដែលធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ៖ កំពុងត្រួតពិនិត្យ | Application pour ordinateurs Windows et Linux, avec mise à jour automatique : en cours de validation |
 | ⏳ à relire | `hms.how.title` | របៀបដែលវាដំណើរការ | Comment ça marche |
 | ⏳ à relire | `hms.how.items.0` | HMS ត្រូវបានដំឡើងនៅលើម៉ាស៊ីនមេ (server) នៅក្នុងសណ្ឋាគាររបស់លោកអ្នក ឬនៅលើអ៊ីនធឺណិត។ | HMS s'installe sur un serveur, dans votre hôtel ou en ligne. |
 | ⏳ à relire | `hms.how.items.1` | ក្រុមការងាររបស់លោកអ្នកប្រើវាតាមកម្មវិធីរុករក (browser)៖ កុំព្យូទ័រ ថេប្លេត ឬទូរស័ព្ទ។ | Votre équipe l'utilise dans un navigateur : ordinateur, tablette ou téléphone. |
@@ -934,7 +935,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 918 textes relus.
+0 / 919 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1617,6 +1618,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.11.items.0` | Все экраны обновляются в реальном времени | Tous les écrans se mettent à jour en direct |
 | ⏳ à relire | `hms.groups.11.items.1` | Автоматические резервные копии с проверкой, восстановление прямо с экрана | Sauvegardes automatiques vérifiées, restauration depuis l'écran |
 | ⏳ à relire | `hms.groups.11.items.2` | Счета, чеки и договоры для печати на пяти языках | Factures, reçus et contrats imprimables en cinq langues |
+| ⏳ à relire | `hms.groups.11.items.3` | Приложение для компьютеров на Windows и Linux с автоматическим обновлением: проходит проверку | Application pour ordinateurs Windows et Linux, avec mise à jour automatique : en cours de validation |
 | ⏳ à relire | `hms.how.title` | Как это работает | Comment ça marche |
 | ⏳ à relire | `hms.how.items.0` | HMS устанавливается на сервер — в вашем отеле или в интернете. | HMS s'installe sur un serveur, dans votre hôtel ou en ligne. |
 | ⏳ à relire | `hms.how.items.1` | Ваши сотрудники работают в нём через браузер: на компьютере, планшете или телефоне. | Votre équipe l'utilise dans un navigateur : ordinateur, tablette ou téléphone. |
@@ -1859,7 +1861,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 918 textes relus.
+0 / 919 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2542,6 +2544,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.groups.11.items.0` | 所有界面实时更新 | Tous les écrans se mettent à jour en direct |
 | ⏳ à relire | `hms.groups.11.items.1` | 自动备份并经过校验，可在界面上直接恢复 | Sauvegardes automatiques vérifiées, restauration depuis l'écran |
 | ⏳ à relire | `hms.groups.11.items.2` | 发票、收据和合同可用五种语言打印 | Factures, reçus et contrats imprimables en cinq langues |
+| ⏳ à relire | `hms.groups.11.items.3` | Windows 和 Linux 电脑版应用，支持自动更新：验证中 | Application pour ordinateurs Windows et Linux, avec mise à jour automatique : en cours de validation |
 | ⏳ à relire | `hms.how.title` | 工作方式 | Comment ça marche |
 | ⏳ à relire | `hms.how.items.0` | HMS 安装在服务器上，可以放在您的酒店里，也可以在线部署。 | HMS s'installe sur un serveur, dans votre hôtel ou en ligne. |
 | ⏳ à relire | `hms.how.items.1` | 您的员工用浏览器操作：电脑、平板或手机。 | Votre équipe l'utilise dans un navigateur : ordinateur, tablette ou téléphone. |
