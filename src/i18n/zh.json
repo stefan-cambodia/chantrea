@@ -102,21 +102,21 @@
     },
     "apps": {
       "eyebrow": "企业应用",
-      "title": "按您的企业调整好的 Odoo 和 Mattermost",
-      "text": "Odoo 管理企业，Mattermost 做团队通讯，Nextcloud 存放文件。可以装在您那里、我们这里或云端，并按您的工作方式调整。",
+      "title": "按您的企业调整好的 Odoo、Mattermost 和 Nextcloud",
+      "text": "三款软件，可以装在您那里、我们这里，或云端：Odoo 管理企业，Mattermost 做团队通讯，Nextcloud 存放文件、协同工作。",
       "cards": [
         {
           "title": "Odoo",
-          "text": "客户、报价、销售、发票、库存：一套企业管理软件，缺什么功能就用定制模块补上。",
+          "text": "企业管理软件：销售、发票、采购、库存、收银、项目。每项需求对应一个应用，各个应用相互连通。",
           "points": [
-            "定制模块：界面、单据、报表、与您软件的对接",
-            "高棉语：界面、发票和收据",
-            "美元标价，发票上显示瑞尔合计"
+            "Odoo 19 Community，开源免费版",
+            "针对柬埔寨调整：高棉语、美元和瑞尔",
+            "缺什么功能，就用定制模块补上"
           ],
           "links": [
             {
-              "page": "services/odoo-development",
-              "label": "Odoo 模块开发"
+              "page": "services/odoo",
+              "label": "了解 Odoo"
             },
             {
               "page": "services/odoo-cambodia",
@@ -126,16 +126,31 @@
         },
         {
           "title": "Mattermost",
-          "text": "您团队的通讯工具：按团队或按项目建频道，私信、讨论串和共享文件。",
+          "text": "团队通讯工具：按团队或按项目建频道，私信、讨论串和文件。",
           "points": [
             "工作上的交流留在您自己的服务器上",
-            "Zabbix 等系统的警报直接发到频道",
-            "电脑和手机都能用"
+            "Zabbix 等工具的警报直接发到频道",
+            "电脑和手机都有应用"
           ],
           "links": [
             {
-              "page": "services/business-software",
-              "label": "Odoo、Nextcloud 和 Mattermost"
+              "page": "services/mattermost",
+              "label": "了解 Mattermost"
+            }
+          ]
+        },
+        {
+          "title": "Nextcloud",
+          "text": "您的文件和团队协作：同步的文件、共享、日历、视频通话、多人同时编辑。",
+          "points": [
+            "在电脑和手机上同步",
+            "通过链接共享，可设密码和有效期",
+            "免费，全部功能都可用"
+          ],
+          "links": [
+            {
+              "page": "services/nextcloud",
+              "label": "了解 Nextcloud"
             }
           ]
         }
@@ -590,7 +605,7 @@
             "title": "需要了解的事",
             "list": [
               "Odoo、Nextcloud 和 Mattermost 由各自的开发商开发。我负责安装、配置，并根据您的企业进行调整。",
-              "Odoo 和 Mattermost 都有免费版和付费版。免费版够不够用，我会坦白告诉您。",
+              "Odoo 方面，我以开源免费的 Odoo 19 Community 为基础。Mattermost 有免费版和付费版：免费版够不够用，我会坦白告诉您。",
               "Nextcloud 本身已有聊天功能。如果您的团队沟通频繁、同时跟进多个项目，Mattermost 会更合适：根据您的工作方式来选。",
               "Odoo 每年发布一个新版本：每两到三年要安排一次升级。",
               "数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。"
@@ -622,6 +637,7 @@
           {
             "title": "我的做法",
             "list": [
+              "我为 Odoo 的开源免费版 Odoo 19 Community 开发模块。",
               "先看 Odoo 本身或现成的模块能不能解决。OCA 社区（Odoo Community Association）的开源模块已覆盖很多需求。这样您花的钱更少。",
               "独立的模块，不改动 Odoo 的代码：以后照样可以升级。",
               "上线前，先在您数据库的副本上用真实数据测试。",
@@ -653,13 +669,13 @@
         "parent": "odoo-development",
         "title": "高棉语 Odoo，面向柬埔寨",
         "summary": "专门面向柬埔寨企业的方向：高棉语 Odoo、高棉语或双语单据、美元和瑞尔、本地规则。",
-        "lead": "Odoo 是为全世界设计的。在柬埔寨，往往需要做些调整：员工的语言、两种货币、客户期待的单据。",
+        "lead": "我以 Odoo 的开源免费版 Odoo 19 Community 为基础，针对柬埔寨进行调整：员工的语言、两种货币、客户期待的单据。",
         "metaTitle": "柬埔寨高棉语 Odoo：高棉语发票、美元和瑞尔 — Chantrea Systems",
         "metaDescription": "为柬埔寨企业调整的 Odoo：高棉语界面，高棉语或高棉语-英语双语的发票和收据，美元和瑞尔，与您的会计确认过的税务规则。柬埔寨贡布。",
         "sections": [
           {
             "title": "用员工的语言使用 Odoo",
-            "text": "Odoo 可以显示高棉语，但视模块而定，部分界面仍是英文。我会把您团队实际用到的界面补译完整，您的定制模块也一并翻译。每位用户自选语言：高棉语、英语或其他语言。"
+            "text": "Odoo 的语言列表里有高棉语，但开发商提供的翻译几乎是空的：在 Odoo 19 的销售、会计、库存和销售点应用中，译成高棉语的文本不到十分之一。我会把您团队实际用到的界面补译完整，您的定制模块也一并翻译。每位用户自选语言：高棉语、英语或其他语言。"
           },
           {
             "title": "高棉语单据",
@@ -696,6 +712,232 @@
           }
         ],
         "trademarks": "Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。"
+      },
+      {
+        "id": "odoo",
+        "parent": "business-software",
+        "title": "Odoo：管理您的企业",
+        "summary": "销售、发票、采购、库存、收银、项目：Odoo 19 Community，即 Odoo 的开源免费版，为您安装好，并针对柬埔寨市场进行调整。",
+        "lead": "Odoo 把企业管理所需的各个应用集中在一套软件里。我以开源免费的 Odoo 19 Community 为基础，按您的企业和柬埔寨的情况进行调整：高棉语、美元和瑞尔、您的单据。",
+        "metaTitle": "柬埔寨 Odoo 19 Community：高棉语企业管理软件 — Chantrea Systems",
+        "metaDescription": "Odoo 19 Community，开源免费的企业管理软件：销售、开票、采购、库存、销售点、CRM、项目。针对柬埔寨调整：高棉语、美元和瑞尔。可以装在您那里、我们这里，或云端。",
+        "sections": [
+          {
+            "title": "Odoo 能做什么",
+            "text": "Odoo 是一套企业管理软件（ERP）。每项需求都有对应的应用，所有应用共用同一份数据：客户接受的报价变成订单，订单让库存出库，然后生成发票。您可以先用一两个应用，其余以后再加。",
+            "list": [
+              "客户和潜在客户（CRM）：跟进每位联系人、每笔商机。",
+              "销售：报价、订单、发票。",
+              "采购：询价和向供应商下单。",
+              "库存：入库、出库、盘点，支持多个仓库。",
+              "销售点：商店或餐厅的收银台。",
+              "项目和工时表。",
+              "网站和网店。",
+              "员工、休假和费用报销。"
+            ]
+          },
+          {
+            "title": "为什么选 Odoo 19 Community",
+            "list": [
+              "这是 Odoo 的开源版（LGPL v3 许可证）：不用按用户数向开发商支付订阅费。",
+              "源代码是开放的：可以用定制模块来调整，装在您的服务器上。",
+              "您的数据存放在由您掌控的数据库里。"
+            ]
+          },
+          {
+            "title": "免费版没有的功能",
+            "text": "有些应用只在付费版 Odoo Enterprise 中提供。例如完整的会计功能：Community 有开票功能（发票和收款），OCA 社区（Odoo Community Association）的开源模块可以补充会计功能，具体取决于这些模块是否已支持 19 版。Odoo Studio，即无需编程就能修改 Odoo 的工具，也只在 Enterprise 中提供：使用 Community 时，这类修改通过定制模块来实现。如果有一天您需要 Enterprise，可以更换版本。"
+          },
+          {
+            "title": "针对柬埔寨市场调整",
+            "text": "Odoo 的语言列表里有高棉语，但开发商提供的翻译几乎是空的：在 Odoo 19 的销售、会计、库存和销售点应用中，译成高棉语的文本不到十分之一。我会把您团队使用的界面补译完整，并调整单据、美元和瑞尔，以及本地规则。",
+            "link": {
+              "page": "services/odoo-cambodia",
+              "label": "高棉语 Odoo，面向柬埔寨"
+            }
+          },
+          {
+            "title": "在哪里运行",
+            "list": [
+              "装在您场所内的服务器上：断网时，现场的员工照常工作。",
+              "装在由 Chantrea Systems 租用并维护的服务器上，或放在大型托管服务商那里，用您自己名下的账户。",
+              "Odoo Online，即 Odoo 开发商提供的托管服务，不适合这种情况：它使用 Enterprise 版，而且不支持定制模块。"
+            ]
+          },
+          {
+            "title": "我为您做什么",
+            "list": [
+              "和您一起选出有用的应用，以及可以以后再上的应用。",
+              "安装并配置 Odoo 19 Community：您的公司、产品、税项和单据。",
+              "从 Excel 文件或您的旧软件导入数据。",
+              "把您团队使用的界面的高棉语翻译补充完整。",
+              "缺什么功能，就开发模块补上。",
+              "教您的团队如何使用，之后在日常工作中提供帮助。",
+              "维护：每晚备份，安全更新，升级到新版本。"
+            ],
+            "link": {
+              "page": "services/odoo-development",
+              "label": "Odoo 模块开发"
+            }
+          },
+          {
+            "title": "需要了解的事",
+            "list": [
+              "Odoo 每年发布一个新版本：每两到三年要安排一次升级，届时定制模块也要相应调整。",
+              "使用 Community 版时，技术支持由您的服务商提供：开发商的技术支持包含在 Enterprise 订阅中。",
+              "Odoo 由其开发商 Odoo SA 开发。我不是该开发商的官方合作伙伴。",
+              "数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。",
+              "方案和价格：[À COMPLÉTER PAR STEFAN]"
+            ]
+          }
+        ],
+        "trademarks": "Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。"
+      },
+      {
+        "id": "mattermost",
+        "parent": "business-software",
+        "title": "Mattermost：您团队的通讯工具",
+        "summary": "安装在您服务器上的团队通讯工具：频道、私信、讨论串、文件，以及来自您各种工具的警报。",
+        "lead": "Mattermost 像大型企业通讯软件一样，按频道组织团队的交流，只是放在您选择的服务器上。工作上的对话不再经过个人聊天软件。",
+        "metaTitle": "柬埔寨 Mattermost：装在您那里的私有团队通讯工具 — Chantrea Systems",
+        "metaDescription": "Mattermost，安装在您服务器上的团队通讯工具：频道、私信、讨论串、共享文件，电脑和手机应用，Zabbix 警报。可以装在您那里、我们这里，或云端。",
+        "sections": [
+          {
+            "title": "Mattermost 能做什么",
+            "list": [
+              "按团队、按项目或按客户建频道，公开或私密。",
+              "私信和群聊。",
+              "讨论串：回复某条消息，不会刷屏整个频道。",
+              "共享文件和图片，并可搜索消息。",
+              "Windows、macOS、Linux、Android 和 iPhone 应用，还有浏览器版本。"
+            ]
+          },
+          {
+            "title": "来自您各种工具的警报",
+            "text": "Mattermost 通过 webhook 接收其他软件发来的消息。一条 Zabbix 监控警报，或您自己软件发出的消息，会发到某个频道：团队在同一个地方看到它，并一起讨论。"
+          },
+          {
+            "title": "选哪个版本",
+            "text": "Mattermost 有好几个版本，差别很重要。选择之前，我会给您解释清楚：",
+            "defs": [
+              {
+                "term": "Team Edition",
+                "text": "免费（MIT 许可证）。具备通讯的基本功能，保留全部消息记录，但功能比其他版本少。适合不需要单点登录（SSO）的小团队。"
+              },
+              {
+                "term": "Entry",
+                "text": "免费，采用商业许可证，适用于不到 50 人的团队。它有付费版的功能，但所有频道加起来，只有最近 10,000 条消息可以查看和搜索。开发商还公布了其他限制，例如通话时长 40 分钟。"
+              },
+              {
+                "term": "Professional, Enterprise",
+                "text": "付费，按订阅收费。Professional 主要增加了：连接企业目录服务（AD/LDAP）、单点登录（SSO）、访客账户、多重身份验证、群组通话和屏幕共享。Enterprise 还增加了合规存档和高可用性。"
+              }
+            ]
+          },
+          {
+            "title": "Mattermost 还是 Nextcloud Talk？",
+            "text": "Nextcloud 也有自己的聊天工具 Talk。如果您装 Nextcloud 是为了存放文件，Talk 往往就够用了。Mattermost 首先是为团队讨论设计的：大量频道、讨论串，以及与您其他工具的对接。",
+            "link": {
+              "page": "services/nextcloud",
+              "label": "了解 Nextcloud"
+            }
+          },
+          {
+            "title": "我为您做什么",
+            "list": [
+              "和您一起选出合适的版本。",
+              "把 Mattermost 安装在选定的服务器上。",
+              "创建团队和频道，并邀请您的用户。",
+              "对接您的工具，例如 Zabbix 警报。",
+              "在电脑和手机上安装应用。",
+              "维护：每晚备份，安全更新，升级到新版本。"
+            ]
+          },
+          {
+            "title": "需要了解的事",
+            "list": [
+              "Mattermost 没有高棉语版本：界面有英语、法语、中文、俄语等约二十种语言。",
+              "Mattermost 由其开发商 Mattermost, Inc. 开发。我负责安装、配置和维护。",
+              "数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。"
+            ]
+          }
+        ],
+        "trademarks": "Mattermost、Zabbix、Nextcloud、Windows、macOS、Linux、Android 和 iPhone 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
+      },
+      {
+        "id": "nextcloud",
+        "parent": "business-software",
+        "title": "Nextcloud：您的文件和团队协作",
+        "summary": "您的文件、日历、通讯录、通话和共享文档，放在您选择的服务器上。开源免费，全部功能都可用。",
+        "lead": "在文件和团队协作方面，Nextcloud 能做到大型在线服务能做的事，只是放在您选择的服务器上：您的场所内、我们这里，或托管服务商那里。",
+        "metaTitle": "柬埔寨 Nextcloud：存放文件、团队协作的私有云 — Chantrea Systems",
+        "metaDescription": "Nextcloud，开源免费的私有云：文件在电脑和手机上同步，通过链接共享，日历和通讯录，视频通话，多人同时编辑文档。可以装在您那里、我们这里，或云端。",
+        "sections": [
+          {
+            "title": "您的文件，随处可用",
+            "list": [
+              "在您的电脑（Windows、macOS、Linux）和手机（Android、iPhone）上同步。",
+              "可以共享给一位同事、一个团队，或通过链接共享给外部人员，链接可设密码和有效期。",
+              "文件的旧版本会保留下来，可以恢复。",
+              "误删的文件可以从回收站找回。",
+              "现有的 Windows 共享文件夹（SMB）可以接入 Nextcloud。"
+            ]
+          },
+          {
+            "title": "Talk：消息和通话",
+            "text": "消息、语音和视频通话、屏幕共享，有 Android 和 iPhone 应用。网络研讨会和多人通话需要一个额外组件：High Performance Backend。"
+          },
+          {
+            "title": "日历、通讯录和电子邮件",
+            "text": "共享的日历和通讯录，与手机同步；还有一个在浏览器里使用的邮件客户端，用来收发您现有邮箱的邮件。Deck 用看板来安排团队的任务。"
+          },
+          {
+            "title": "Office：多人同时编辑",
+            "text": "在浏览器里使用的办公套件：文档、电子表格和演示文稿，可以多人同时修改。它能打开和保存 Microsoft Office 格式（DOCX、XLSX、PPTX）和 OpenDocument 格式（ODT、ODS、ODP）。"
+          },
+          {
+            "title": "留在您那里的 AI 助手",
+            "text": "Nextcloud 提供一个 AI 助手，可以使用安装在您自己服务器上的模型。",
+            "link": {
+              "page": "services/ai",
+              "label": "AI 与自动化"
+            }
+          },
+          {
+            "title": "安全",
+            "list": [
+              "两步验证。",
+              "防止反复尝试登录。",
+              "服务器端加密，敏感文件夹还可以端到端加密。",
+              "连接企业的目录服务（LDAP 或 Active Directory）。",
+              "按人员和按组设置权限：每个人只看到与自己相关的内容。"
+            ]
+          },
+          {
+            "title": "开源免费",
+            "text": "Nextcloud 是开源软件（AGPL v3 许可证），免费，全部功能都可用。开发商出售一项订阅服务 Nextcloud Enterprise，提供直接的技术支持，以及每个版本的长期支持。您是否需要，我会告诉您。"
+          },
+          {
+            "title": "我为您做什么",
+            "list": [
+              "把 Nextcloud 安装在选定的服务器上，可以从互联网安全访问。",
+              "为您的团队创建账户、用户组和共享文件夹。",
+              "在电脑和手机上安装应用。",
+              "教您的团队如何使用。",
+              "维护：每晚备份，安全更新，升级到新版本。"
+            ]
+          },
+          {
+            "title": "需要了解的事",
+            "list": [
+              "Nextcloud 没有高棉语版本：界面有英语、法语、中文、俄语以及约六十种其他语言。",
+              "如果服务器放在您的场所内，从外部访问要看您的互联网连接。",
+              "Nextcloud 由其开发商 Nextcloud GmbH 开发。我负责安装、配置和维护。",
+              "数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。"
+            ]
+          }
+        ],
+        "trademarks": "Nextcloud、Windows、macOS、Linux、Android、iPhone、Microsoft Office 和 Active Directory 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
       }
     ]
   },

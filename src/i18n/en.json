@@ -102,21 +102,21 @@
     },
     "apps": {
       "eyebrow": "Business applications",
-      "title": "Odoo and Mattermost, adapted to your business",
-      "text": "Odoo to run your business, Mattermost for your team's messaging, Nextcloud for your files. Installed on your premises, with us or in the cloud, and adapted to the way you work.",
+      "title": "Odoo, Mattermost and Nextcloud, adapted to your business",
+      "text": "Three pieces of software installed on your premises, with us or in the cloud: Odoo for management, Mattermost for your team's messaging, Nextcloud for files and working together.",
       "cards": [
         {
           "title": "Odoo",
-          "text": "Customers, quotes, sales, invoices, stock: business management software, extended with custom modules when something is missing.",
+          "text": "Business management software: sales, invoices, purchases, stock, point of sale, projects. One app for each need, all linked together.",
           "points": [
-            "Custom modules: screens, documents, reports, links with your software",
-            "In Khmer: screens, invoices and receipts",
-            "Prices in dollars, total in riels on the invoice"
+            "Odoo 19 Community, the free and open-source edition",
+            "Adapted to Cambodia: Khmer, dollar and riel",
+            "Custom modules when something is missing"
           ],
           "links": [
             {
-              "page": "services/odoo-development",
-              "label": "Odoo module development"
+              "page": "services/odoo",
+              "label": "Discover Odoo"
             },
             {
               "page": "services/odoo-cambodia",
@@ -126,16 +126,31 @@
         },
         {
           "title": "Mattermost",
-          "text": "Your team's messaging: channels by team or by project, direct messages, threads and shared files.",
+          "text": "Your team's messaging: channels by team or by project, direct messages, threads, files.",
           "points": [
             "Work conversations stay on your server",
             "Alerts from your tools, such as Zabbix, in a channel",
-            "On computer and phone"
+            "Apps for computer and phone"
           ],
           "links": [
             {
-              "page": "services/business-software",
-              "label": "Odoo, Nextcloud and Mattermost"
+              "page": "services/mattermost",
+              "label": "Discover Mattermost"
+            }
+          ]
+        },
+        {
+          "title": "Nextcloud",
+          "text": "Your files and teamwork: synced documents, sharing, calendars, video calls, editing together.",
+          "points": [
+            "Synced on computer and phone",
+            "Share links with a password and an expiry date",
+            "Free, with all its features"
+          ],
+          "links": [
+            {
+              "page": "services/nextcloud",
+              "label": "Discover Nextcloud"
             }
           ]
         }
@@ -590,7 +605,7 @@
             "title": "Good to know",
             "list": [
               "Odoo, Nextcloud and Mattermost are developed by their publishers. I install them, configure them and adapt them to your business.",
-              "Odoo and Mattermost come in a free version and a paid version. I tell you honestly whether the free version is enough for you.",
+              "For Odoo, I start from Odoo 19 Community, the free and open-source edition. Mattermost comes in free and paid editions: I tell you honestly whether the free edition is enough for you.",
               "Nextcloud already has its own chat. Mattermost is useful when your team talks a lot, across several projects: we choose based on the way you work.",
               "Odoo releases a new version every year: plan for an upgrade every two or three years.",
               "Your data stays yours. If you change provider, you get a full copy and the access details."
@@ -622,6 +637,7 @@
           {
             "title": "How I work",
             "list": [
+              "I develop for Odoo 19 Community, the free and open-source edition of Odoo.",
               "First, check whether Odoo, or an existing module, already does the job. The open-source modules of the OCA community (Odoo Community Association) cover many needs. That costs you less.",
               "A separate module that does not change Odoo's code: updates remain possible.",
               "A trial on a copy of your database, with your real data, before going live.",
@@ -653,13 +669,13 @@
         "parent": "odoo-development",
         "title": "Odoo in Khmer, for Cambodia",
         "summary": "A branch dedicated to businesses in Cambodia: Odoo in Khmer, documents in Khmer or bilingual, dollar and riel, local rules.",
-        "lead": "Odoo is designed for the whole world. In Cambodia, it often needs adapting: your team's language, the two currencies, the documents your customers expect.",
+        "lead": "I start from Odoo 19 Community, the free and open-source edition of Odoo, and adapt it to Cambodia: your team's language, the two currencies, the documents your customers expect.",
         "metaTitle": "Odoo in Khmer in Cambodia: Khmer invoices, dollar and riel — Chantrea Systems",
         "metaDescription": "Odoo adapted for Cambodian businesses: screens in Khmer, invoices and receipts in Khmer or bilingual Khmer-English, dollar and riel, tax rules validated with your accountant. Kampot, Cambodia.",
         "sections": [
           {
             "title": "Odoo in your team's language",
-            "text": "Odoo can be displayed in Khmer, but depending on the modules, some screens remain in English. I complete the translation of the screens your team actually uses, and your custom modules are translated too. Each user chooses their language: Khmer, English or another one."
+            "text": "Odoo lists Khmer among its languages, but the publisher's translation is almost empty: in Odoo 19, fewer than one text in ten is translated into Khmer in the Sales, Accounting, Inventory and Point of Sale apps. I complete the translation of the screens your team actually uses, and your custom modules are translated too. Each user chooses their language: Khmer, English or another one."
           },
           {
             "title": "Documents in Khmer",
@@ -696,6 +712,232 @@
           }
         ],
         "trademarks": "Odoo is a trademark of its owner. Mentioning it does not imply any partnership with its publisher."
+      },
+      {
+        "id": "odoo",
+        "parent": "business-software",
+        "title": "Odoo: running your business",
+        "summary": "Sales, invoices, purchases, stock, point of sale, projects: Odoo 19 Community, the free and open-source edition of Odoo, installed and adapted to the Cambodian market.",
+        "lead": "Odoo brings a company's management apps together in one piece of software. I start from Odoo 19 Community, the free and open-source edition, and adapt it to your business and to Cambodia: the Khmer language, the dollar and the riel, your documents.",
+        "metaTitle": "Odoo 19 Community in Cambodia: business management in Khmer — Chantrea Systems",
+        "metaDescription": "Odoo 19 Community, free and open-source business software: sales, invoicing, purchases, stock, point of sale, CRM, projects. Adapted to Cambodia: Khmer, dollar and riel. On your premises, with us or in the cloud.",
+        "sections": [
+          {
+            "title": "What Odoo does",
+            "text": "Odoo is business management software (ERP). Each need has its own app, and they all share the same data: an accepted quote becomes an order, the order takes items out of stock, then becomes an invoice. You start with one or two apps and add the others later.",
+            "list": [
+              "Customers and leads (CRM): every contact and every deal tracked.",
+              "Sales: quotes, orders, invoices.",
+              "Purchases: requests for quotation and orders to suppliers.",
+              "Stock: receipts, deliveries, inventory counts, several warehouses.",
+              "Point of sale: a till for a shop or a restaurant.",
+              "Projects and timesheets.",
+              "Website and online shop.",
+              "Employees, time off and expenses."
+            ]
+          },
+          {
+            "title": "Why Odoo 19 Community",
+            "list": [
+              "It is the open-source edition of Odoo (LGPL v3 licence): no per-user subscription to pay to the publisher.",
+              "Its code is open: we adapt it with custom modules, installed on your server.",
+              "Your data sits in a database you control."
+            ]
+          },
+          {
+            "title": "What the free edition does not have",
+            "text": "Some apps are only in the paid edition, Odoo Enterprise. Full accounting, for example: Community has invoicing (invoices and payments), and open-source modules from the OCA community (Odoo Community Association) add accounting features, depending on their availability for version 19. Odoo Studio, the tool for changing Odoo without programming, is also Enterprise-only: with Community, those changes are made with custom modules. If one day you need Enterprise, you can switch editions."
+          },
+          {
+            "title": "Adapted to the Cambodian market",
+            "text": "Odoo lists Khmer among its languages, but the publisher's translation is almost empty: in Odoo 19, fewer than one text in ten is translated into Khmer in the Sales, Accounting, Inventory and Point of Sale apps. I complete the translation of the screens your team uses, and adapt the documents, the dollar and the riel, and local rules.",
+            "link": {
+              "page": "services/odoo-cambodia",
+              "label": "Odoo in Khmer, for Cambodia"
+            }
+          },
+          {
+            "title": "Where it runs",
+            "list": [
+              "On a server in your own offices: your staff on site keep working when the internet is down.",
+              "On a server rented and maintained by Chantrea Systems, or with a large hosting provider, on an account in your name.",
+              "Odoo Online, the publisher's hosting, does not fit here: it runs the Enterprise edition and does not accept custom modules."
+            ]
+          },
+          {
+            "title": "What I do for you",
+            "list": [
+              "Choose with you the apps that are useful, and those that can wait.",
+              "Install Odoo 19 Community and configure it: your company, your products, your taxes, your documents.",
+              "Bring in your data from Excel files or your old software.",
+              "Complete the Khmer translation of the screens your team uses.",
+              "Build modules when something is missing.",
+              "Show your team how to use it, then help them day to day.",
+              "Maintain it: a backup every night, security updates, moving to new versions."
+            ],
+            "link": {
+              "page": "services/odoo-development",
+              "label": "Odoo module development"
+            }
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "Odoo releases a new version every year: plan for an upgrade every two or three years, and adapt the custom modules at that time.",
+              "With the Community edition, support comes from your provider: the publisher's support is part of the Enterprise subscription.",
+              "Odoo is developed by its publisher, Odoo SA. I am not an official partner of the publisher.",
+              "Your data stays yours. If you change provider, you get a full copy and the access details.",
+              "Plans and prices: [À COMPLÉTER PAR STEFAN]"
+            ]
+          }
+        ],
+        "trademarks": "Odoo is a trademark of its owner. Mentioning it does not imply any partnership with its publisher."
+      },
+      {
+        "id": "mattermost",
+        "parent": "business-software",
+        "title": "Mattermost: your team's messaging",
+        "summary": "Team messaging installed on your server: channels, direct messages, threads, files, and alerts from your tools.",
+        "lead": "Mattermost organises your team's conversations in channels, like the big business messaging apps, but on a server you choose. Work conversations no longer go through personal messaging apps.",
+        "metaTitle": "Mattermost in Cambodia: private team messaging, installed on your premises — Chantrea Systems",
+        "metaDescription": "Mattermost, team messaging installed on your server: channels, direct messages, threads, shared files, apps for computer and phone, Zabbix alerts. On your premises, with us or in the cloud.",
+        "sections": [
+          {
+            "title": "What Mattermost does",
+            "list": [
+              "Channels by team, by project or by customer, public or private.",
+              "Direct messages and group conversations.",
+              "Threads, to reply to a message without cluttering the channel.",
+              "Shared files and images, and search across messages.",
+              "Apps for Windows, macOS, Linux, Android and iPhone, and a version in the browser."
+            ]
+          },
+          {
+            "title": "Alerts from your tools",
+            "text": "Mattermost receives messages from other software through webhooks. A Zabbix monitoring alert, or a message from your own software, arrives in a channel: the team sees it and discusses it in the same place."
+          },
+          {
+            "title": "Which edition to choose",
+            "text": "Mattermost comes in several editions, and the differences matter. I explain them to you before you choose:",
+            "defs": [
+              {
+                "term": "Team Edition",
+                "text": "Free (MIT licence). The core of the messaging, with the full message history, but fewer features than the other editions. Intended for small teams that do not need single sign-on (SSO)."
+              },
+              {
+                "term": "Entry",
+                "text": "Free, under a commercial licence, for teams of fewer than 50 people. It has the features of the paid editions, but only the last 10,000 messages, across all channels, stay visible and searchable. The publisher announces other limits, such as 40-minute calls."
+              },
+              {
+                "term": "Professional, Enterprise",
+                "text": "Paid, by subscription. Professional adds, among other things, connection to the company directory (AD/LDAP), single sign-on (SSO), guest accounts, multi-factor authentication, group calls and screen sharing. Enterprise adds compliance archiving and high availability."
+              }
+            ]
+          },
+          {
+            "title": "Mattermost or Nextcloud Talk?",
+            "text": "Nextcloud also has its own messaging, Talk. If you install Nextcloud for your files, Talk is often enough. Mattermost is designed first for team discussion: many channels, threads, links with your other tools.",
+            "link": {
+              "page": "services/nextcloud",
+              "label": "Discover Nextcloud"
+            }
+          },
+          {
+            "title": "What I do for you",
+            "list": [
+              "Choose with you the right edition.",
+              "Install Mattermost on the chosen server.",
+              "Create the teams and channels, and invite your users.",
+              "Connect your tools, for example Zabbix alerts.",
+              "Install the apps on computers and phones.",
+              "Maintain it: a backup every night, security updates, moving to new versions."
+            ]
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "Mattermost is not available in Khmer: its screens are in English, French, Chinese, Russian and about twenty languages.",
+              "Mattermost is developed by its publisher, Mattermost, Inc. I install it, configure it and maintain it.",
+              "Your data stays yours. If you change provider, you get a full copy and the access details."
+            ]
+          }
+        ],
+        "trademarks": "Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android and iPhone are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+      },
+      {
+        "id": "nextcloud",
+        "parent": "business-software",
+        "title": "Nextcloud: your files and teamwork",
+        "summary": "Your shared files, calendars, contacts, calls and documents, on a server you choose. Free and open source, with all its features.",
+        "lead": "Nextcloud does what the big online services do for files and teamwork, but on a server you choose: in your own offices, with us or with a hosting provider.",
+        "metaTitle": "Nextcloud in Cambodia: a private cloud for your files and your team — Chantrea Systems",
+        "metaDescription": "Nextcloud, a free and open-source private cloud: files synced on computer and phone, share links, calendars and contacts, video calls, editing documents together. On your premises, with us or in the cloud.",
+        "sections": [
+          {
+            "title": "Your files, everywhere",
+            "list": [
+              "Synced on your computers (Windows, macOS, Linux) and your phones (Android, iPhone).",
+              "Shared with a colleague, a team, or through a link to the outside, protected by a password and an expiry date.",
+              "Older versions of a file stay available and can be restored.",
+              "A file deleted by mistake can be recovered from the trash.",
+              "Existing Windows shares (SMB) can be connected to Nextcloud."
+            ]
+          },
+          {
+            "title": "Talk: messages and calls",
+            "text": "Messages, audio and video calls, screen sharing, with apps for Android and iPhone. Webinars and calls with many participants need an extra component, the High Performance Backend."
+          },
+          {
+            "title": "Calendars, contacts and email",
+            "text": "Shared calendars and contacts, synced with phones, and an email client in the browser for your existing mailboxes. Deck organises the team's tasks on boards."
+          },
+          {
+            "title": "Office: editing together",
+            "text": "An office suite in the browser: documents, spreadsheets and presentations, edited by several people at the same time. It opens and saves Microsoft Office formats (DOCX, XLSX, PPTX) and OpenDocument formats (ODT, ODS, ODP)."
+          },
+          {
+            "title": "An AI assistant that stays with you",
+            "text": "Nextcloud offers an AI assistant that can work with a model installed on your own server.",
+            "link": {
+              "page": "services/ai",
+              "label": "AI and automation"
+            }
+          },
+          {
+            "title": "Security",
+            "list": [
+              "Two-factor authentication.",
+              "Protection against repeated login attempts.",
+              "Server-side encryption, and end-to-end encryption for sensitive folders.",
+              "Connection to the company directory (LDAP or Active Directory).",
+              "Rights per person and per group: everyone sees what concerns them."
+            ]
+          },
+          {
+            "title": "Free and open source",
+            "text": "Nextcloud is open-source software (AGPL v3 licence) and free, with all its features. The publisher sells a subscription, Nextcloud Enterprise, for direct support and long-term support of each version. I tell you whether you need it."
+          },
+          {
+            "title": "What I do for you",
+            "list": [
+              "Install Nextcloud on the chosen server, securely reachable from the internet.",
+              "Create your team's accounts, groups and shared folders.",
+              "Install the apps on computers and phones.",
+              "Show your team how to use it.",
+              "Maintain it: a backup every night, security updates, moving to new versions."
+            ]
+          },
+          {
+            "title": "Good to know",
+            "list": [
+              "Nextcloud is not available in Khmer: its screens are in English, French, Chinese, Russian and about sixty other languages.",
+              "If the server is in your offices, access from outside depends on your internet connection.",
+              "Nextcloud is developed by its publisher, Nextcloud GmbH. I install it, configure it and maintain it.",
+              "Your data stays yours. If you change provider, you get a full copy and the access details."
+            ]
+          }
+        ],
+        "trademarks": "Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office and Active Directory are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
       }
     ]
   },

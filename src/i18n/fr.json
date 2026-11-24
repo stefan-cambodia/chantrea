@@ -102,21 +102,21 @@
     },
     "apps": {
       "eyebrow": "Applications d'entreprise",
-      "title": "Odoo et Mattermost, adaptés à votre entreprise",
-      "text": "Odoo pour gérer l'entreprise, Mattermost pour la messagerie de l'équipe, Nextcloud pour vos fichiers. Installés chez vous, chez nous ou dans le cloud, et adaptés à votre façon de travailler.",
+      "title": "Odoo, Mattermost et Nextcloud, adaptés à votre entreprise",
+      "text": "Trois logiciels installés chez vous, chez nous ou dans le cloud : Odoo pour la gestion, Mattermost pour la messagerie de l'équipe, Nextcloud pour les fichiers et le travail en commun.",
       "cards": [
         {
           "title": "Odoo",
-          "text": "Clients, devis, ventes, factures, stocks : un logiciel de gestion, complété par des modules sur mesure quand il manque quelque chose.",
+          "text": "Le logiciel de gestion : ventes, factures, achats, stocks, caisse, projets. Une application par besoin, toutes reliées entre elles.",
           "points": [
-            "Modules sur mesure : écrans, documents, rapports, liens avec vos logiciels",
-            "En khmer : écrans, factures et reçus",
-            "Prix en dollars, total en riels sur la facture"
+            "Odoo 19 Community, la version libre et gratuite",
+            "Adapté au Cambodge : khmer, dollar et riel",
+            "Modules sur mesure quand il manque quelque chose"
           ],
           "links": [
             {
-              "page": "services/odoo-development",
-              "label": "Le développement de modules Odoo"
+              "page": "services/odoo",
+              "label": "Découvrir Odoo"
             },
             {
               "page": "services/odoo-cambodia",
@@ -126,16 +126,31 @@
         },
         {
           "title": "Mattermost",
-          "text": "La messagerie de votre équipe : canaux par équipe ou par projet, messages directs, fils de discussion et fichiers partagés.",
+          "text": "La messagerie de l'équipe : canaux par équipe ou par projet, messages directs, fils de discussion, fichiers.",
           "points": [
             "Les échanges de travail restent sur votre serveur",
             "Les alertes de vos outils, comme Zabbix, dans un canal",
-            "Sur ordinateur et sur téléphone"
+            "Applications pour ordinateur et téléphone"
           ],
           "links": [
             {
-              "page": "services/business-software",
-              "label": "Odoo, Nextcloud et Mattermost"
+              "page": "services/mattermost",
+              "label": "Découvrir Mattermost"
+            }
+          ]
+        },
+        {
+          "title": "Nextcloud",
+          "text": "Vos fichiers et le travail en équipe : documents synchronisés, partages, agendas, appels vidéo, édition à plusieurs.",
+          "points": [
+            "Synchronisé sur ordinateur et téléphone",
+            "Partage par lien, avec mot de passe et date d'expiration",
+            "Gratuit, avec toutes ses fonctions"
+          ],
+          "links": [
+            {
+              "page": "services/nextcloud",
+              "label": "Découvrir Nextcloud"
             }
           ]
         }
@@ -590,7 +605,7 @@
             "title": "Ce qu'il faut savoir",
             "list": [
               "Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs. Je les installe, je les configure et je les adapte à votre entreprise.",
-              "Odoo et Mattermost existent en version gratuite et en version payante. Je vous dis franchement si la version gratuite vous suffit.",
+              "Pour Odoo, je pars d'Odoo 19 Community, la version libre et gratuite. Mattermost existe en versions gratuites et payantes : je vous dis franchement si la version gratuite vous suffit.",
               "Nextcloud a déjà sa propre messagerie. Mattermost est utile quand votre équipe échange beaucoup, sur plusieurs projets : on choisit selon votre façon de travailler.",
               "Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans.",
               "Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès."
@@ -622,6 +637,7 @@
           {
             "title": "Ma façon de faire",
             "list": [
+              "Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo.",
               "D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous.",
               "Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles.",
               "Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service.",
@@ -653,13 +669,13 @@
         "parent": "odoo-development",
         "title": "Odoo en khmer, pour le Cambodge",
         "summary": "Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales.",
-        "lead": "Odoo est conçu pour le monde entier. Au Cambodge, il faut souvent l'adapter : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent.",
+        "lead": "Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent.",
         "metaTitle": "Odoo en khmer au Cambodge : factures en khmer, dollar et riel — Chantrea Systems",
         "metaDescription": "Odoo adapté aux entreprises cambodgiennes : écrans en khmer, factures et reçus en khmer ou bilingues khmer-anglais, dollar et riel, règles fiscales validées avec votre comptable. Kampot, Cambodge.",
         "sections": [
           {
             "title": "Odoo dans la langue de votre équipe",
-            "text": "Odoo peut s'afficher en khmer, mais selon les modules, une partie des écrans reste en anglais. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre."
+            "text": "Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre."
           },
           {
             "title": "Des documents en khmer",
@@ -696,6 +712,232 @@
           }
         ],
         "trademarks": "Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur."
+      },
+      {
+        "id": "odoo",
+        "parent": "business-software",
+        "title": "Odoo : la gestion de votre entreprise",
+        "summary": "Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien.",
+        "lead": "Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents.",
+        "metaTitle": "Odoo 19 Community au Cambodge : gestion d'entreprise en khmer — Chantrea Systems",
+        "metaDescription": "Odoo 19 Community, logiciel de gestion libre et gratuit : ventes, facturation, achats, stocks, point de vente, CRM, projets. Adapté au Cambodge : khmer, dollar et riel. Installé chez vous, chez nous ou dans le cloud.",
+        "sections": [
+          {
+            "title": "Ce que fait Odoo",
+            "text": "Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard.",
+            "list": [
+              "Clients et prospects (CRM) : chaque contact et chaque affaire suivis.",
+              "Ventes : devis, commandes, factures.",
+              "Achats : demandes de prix et commandes aux fournisseurs.",
+              "Stock : entrées, sorties, inventaires, plusieurs entrepôts.",
+              "Point de vente : une caisse pour une boutique ou un restaurant.",
+              "Projets et feuilles de temps.",
+              "Site web et boutique en ligne.",
+              "Employés, congés et notes de frais."
+            ]
+          },
+          {
+            "title": "Pourquoi Odoo 19 Community",
+            "list": [
+              "C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur.",
+              "Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur.",
+              "Vos données sont dans une base que vous contrôlez."
+            ]
+          },
+          {
+            "title": "Ce que la version gratuite n'a pas",
+            "text": "Certaines applications sont réservées à la version payante, Odoo Enterprise. Par exemple la comptabilité complète : Community a la facturation (factures et paiements), et des modules libres de la communauté OCA (Odoo Community Association) ajoutent des fonctions comptables, selon leur disponibilité pour la version 19. Odoo Studio, l'outil pour modifier Odoo sans programmer, est aussi réservé à Enterprise : avec Community, ces changements se font par des modules sur mesure. Si un jour vous avez besoin d'Enterprise, on peut changer de version."
+          },
+          {
+            "title": "Adapté au marché cambodgien",
+            "text": "Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales.",
+            "link": {
+              "page": "services/odoo-cambodia",
+              "label": "Odoo en khmer, pour le Cambodge"
+            }
+          },
+          {
+            "title": "Où il tourne",
+            "list": [
+              "Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé.",
+              "Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom.",
+              "Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure."
+            ]
+          },
+          {
+            "title": "Ce que je fais pour vous",
+            "list": [
+              "Choisir avec vous les applications utiles, et celles qui peuvent attendre.",
+              "Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents.",
+              "Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel.",
+              "Compléter la traduction khmère des écrans que votre équipe utilise.",
+              "Développer des modules quand il manque quelque chose.",
+              "Montrer à votre équipe comment s'en servir, puis l'aider au quotidien.",
+              "Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions."
+            ],
+            "link": {
+              "page": "services/odoo-development",
+              "label": "Le développement de modules Odoo"
+            }
+          },
+          {
+            "title": "Ce qu'il faut savoir",
+            "list": [
+              "Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là.",
+              "Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise.",
+              "Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur.",
+              "Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès.",
+              "Formules et tarifs : [À COMPLÉTER PAR STEFAN]"
+            ]
+          }
+        ],
+        "trademarks": "Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur."
+      },
+      {
+        "id": "mattermost",
+        "parent": "business-software",
+        "title": "Mattermost : la messagerie de votre équipe",
+        "summary": "Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils.",
+        "lead": "Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles.",
+        "metaTitle": "Mattermost au Cambodge : messagerie d'équipe privée, installée chez vous — Chantrea Systems",
+        "metaDescription": "Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers partagés, applications pour ordinateur et téléphone, alertes Zabbix. Chez vous, chez nous ou dans le cloud.",
+        "sections": [
+          {
+            "title": "Ce que fait Mattermost",
+            "list": [
+              "Des canaux par équipe, par projet ou par client, publics ou privés.",
+              "Des messages directs et des discussions de groupe.",
+              "Des fils de discussion, pour répondre à un message sans encombrer le canal.",
+              "Des fichiers et des images partagés, et une recherche dans les messages.",
+              "Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur."
+            ]
+          },
+          {
+            "title": "Les alertes de vos outils",
+            "text": "Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit."
+          },
+          {
+            "title": "Quelle version choisir",
+            "text": "Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir :",
+            "defs": [
+              {
+                "term": "Team Edition",
+                "text": "Gratuite (licence MIT). L'essentiel de la messagerie, avec tout l'historique des messages, mais moins de fonctions que les autres versions. Prévue pour les petites équipes qui n'ont pas besoin de connexion unique (SSO)."
+              },
+              {
+                "term": "Entry",
+                "text": "Gratuite, sous licence commerciale, pour les équipes de moins de 50 personnes. Elle a les fonctions des versions payantes, mais seuls les 10 000 derniers messages, tous canaux confondus, restent visibles et cherchables. L'éditeur annonce d'autres limites, comme des appels de 40 minutes."
+              },
+              {
+                "term": "Professional, Enterprise",
+                "text": "Payantes, par abonnement. Professional ajoute notamment la connexion à l'annuaire de l'entreprise (AD/LDAP), la connexion unique (SSO), les comptes invités, l'authentification à plusieurs facteurs, les appels de groupe et le partage d'écran. Enterprise ajoute l'archivage pour la conformité et la haute disponibilité."
+              }
+            ]
+          },
+          {
+            "title": "Mattermost ou Nextcloud Talk ?",
+            "text": "Nextcloud a aussi sa messagerie, Talk. Si vous installez Nextcloud pour vos fichiers, Talk suffit souvent. Mattermost est pensé d'abord pour la discussion d'équipe : de nombreux canaux, des fils de discussion, des liens avec vos autres outils.",
+            "link": {
+              "page": "services/nextcloud",
+              "label": "Découvrir Nextcloud"
+            }
+          },
+          {
+            "title": "Ce que je fais pour vous",
+            "list": [
+              "Choisir avec vous la version qui convient.",
+              "Installer Mattermost sur le serveur choisi.",
+              "Créer les équipes et les canaux, et inviter vos utilisateurs.",
+              "Relier vos outils, par exemple les alertes Zabbix.",
+              "Installer les applications sur les ordinateurs et les téléphones.",
+              "Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions."
+            ]
+          },
+          {
+            "title": "Ce qu'il faut savoir",
+            "list": [
+              "Mattermost n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une vingtaine de langues.",
+              "Mattermost est développé par son éditeur, Mattermost, Inc. Je l'installe, je le configure et je l'entretiens.",
+              "Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès."
+            ]
+          }
+        ],
+        "trademarks": "Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android et iPhone sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
+      },
+      {
+        "id": "nextcloud",
+        "parent": "business-software",
+        "title": "Nextcloud : vos fichiers et le travail en équipe",
+        "summary": "Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions.",
+        "lead": "Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur.",
+        "metaTitle": "Nextcloud au Cambodge : cloud privé pour vos fichiers et votre équipe — Chantrea Systems",
+        "metaDescription": "Nextcloud, cloud privé libre et gratuit : fichiers synchronisés sur ordinateur et téléphone, partage par lien, agendas et contacts, appels vidéo, édition de documents à plusieurs. Installé chez vous, chez nous ou dans le cloud.",
+        "sections": [
+          {
+            "title": "Vos fichiers, partout",
+            "list": [
+              "Synchronisés sur vos ordinateurs (Windows, macOS, Linux) et vos téléphones (Android, iPhone).",
+              "Partagés avec un collègue, une équipe, ou par un lien vers l'extérieur, protégé par un mot de passe et une date d'expiration.",
+              "Les anciennes versions d'un fichier restent disponibles, et on peut les restaurer.",
+              "Un fichier effacé par erreur se récupère dans la corbeille.",
+              "Les partages Windows existants (SMB) peuvent être reliés à Nextcloud."
+            ]
+          },
+          {
+            "title": "Talk : messages et appels",
+            "text": "Messages, appels audio et vidéo, partage d'écran, avec des applications pour Android et iPhone. Les webinaires et les appels à nombreux participants demandent un composant supplémentaire, le High Performance Backend."
+          },
+          {
+            "title": "Agendas, contacts et e-mails",
+            "text": "Des agendas et des contacts partagés, synchronisés avec les téléphones, et une messagerie dans le navigateur pour vos boîtes e-mail existantes. Deck organise les tâches de l'équipe en tableaux."
+          },
+          {
+            "title": "Office : éditer à plusieurs",
+            "text": "Une suite bureautique dans le navigateur : textes, tableurs et présentations, modifiés à plusieurs en même temps. Elle ouvre et enregistre les formats Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP)."
+          },
+          {
+            "title": "Un assistant d'IA qui reste chez vous",
+            "text": "Nextcloud propose un assistant d'IA qui peut fonctionner avec un modèle installé sur votre propre serveur.",
+            "link": {
+              "page": "services/ai",
+              "label": "IA et automatisation"
+            }
+          },
+          {
+            "title": "La sécurité",
+            "list": [
+              "Double authentification.",
+              "Protection contre les tentatives de connexion répétées.",
+              "Chiffrement côté serveur, et chiffrement de bout en bout pour les dossiers sensibles.",
+              "Connexion à l'annuaire de l'entreprise (LDAP ou Active Directory).",
+              "Des droits par personne et par groupe : chacun voit ce qui le concerne."
+            ]
+          },
+          {
+            "title": "Libre et gratuit",
+            "text": "Nextcloud est un logiciel libre (licence AGPL v3) et gratuit, avec toutes ses fonctions. L'éditeur vend un abonnement, Nextcloud Enterprise, pour une assistance directe et un support à long terme de chaque version. Je vous dis si vous en avez besoin."
+          },
+          {
+            "title": "Ce que je fais pour vous",
+            "list": [
+              "Installer Nextcloud sur le serveur choisi, accessible de façon sécurisée depuis internet.",
+              "Créer les comptes, les groupes et les dossiers partagés de votre équipe.",
+              "Installer les applications sur les ordinateurs et les téléphones.",
+              "Montrer à votre équipe comment s'en servir.",
+              "Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions."
+            ]
+          },
+          {
+            "title": "Ce qu'il faut savoir",
+            "list": [
+              "Nextcloud n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une soixantaine d'autres langues.",
+              "Si le serveur est dans vos locaux, l'accès depuis l'extérieur dépend de votre connexion internet.",
+              "Nextcloud est développé par son éditeur, Nextcloud GmbH. Je l'installe, je le configure et je l'entretiens.",
+              "Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès."
+            ]
+          }
+        ],
+        "trademarks": "Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office et Active Directory sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
       }
     ]
   },
