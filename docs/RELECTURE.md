@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1131 textes relus.
+0 / 1134 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -33,7 +33,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.velocity.title` | Velocity ការប្រណាំងប្រឆាំងទំនាញសម្រាប់ Android — Chantrea Systems | Velocity, course anti-gravité pour Android — Chantrea Systems |
 | ⏳ à relire | `meta.velocity.description` | ហ្គេមប្រណាំងប្រឆាំងទំនាញសម្រាប់ Android៖ ផ្លូវប្រណាំង 12 ក្រុម 8 របៀបលេង 6 អាជីពអ្នកប្រណាំង ការប្រកួតជើងឯក អាវុធ និងជំនួយ។ | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | ស្នាដៃ — Chantrea Systems | Réalisations — Chantrea Systems |
-| ⏳ à relire | `meta.work.description` | កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ HMS គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម និងកម្មវិធីត្រាប់តាម (emulator) សម្រាប់ Android ព្រមទាំងគម្រោងកំពុងអភិវឌ្ឍ៖ តំបន់អង្គរជា 3D និងតន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, et des projets en cours : Angkor en 3D, musique dans le navigateur. |
+| ⏳ à relire | `meta.work.description` | កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ HMS គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម និងកម្មវិធីត្រាប់តាម (emulator) សម្រាប់ Android គម្រោងកំពុងអភិវឌ្ឍ ដូចជាតំបន់អង្គរជា 3D និងតន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, des projets en cours comme Angkor en 3D, et de la musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | អំពីខ្ញុំ — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems បង្កើតឡើងដោយ Stefan នៅកំពត។ កម្មវិធី បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ និងសុវត្ថិភាព នៅកម្ពុជា និងពីចម្ងាយ។ | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
 | ⏳ à relire | `meta.jobs.title` | ឱកាសការងារ៖ អ្នកបកប្រែភាសាខ្មែរ — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
@@ -1016,8 +1016,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.products.intro` | កម្មវិធី និងហ្គេម Android ដែលបានធ្វើរហូតដល់កំណែដែលអាចប្រើបាន ដោយពិពណ៌នាតាមស្ថានភាពពិតនាពេលបច្ចុប្បន្ន។ | Des logiciels, des applications et des jeux Android menés jusqu'à une version utilisable, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.products.tag` | រួចរាល់ | Réalisation |
 | ⏳ à relire | `work.skills.title` | កំពុងអភិវឌ្ឍ | En cours de développement |
-| ⏳ à relire | `work.skills.intro` | គម្រោងដែលកំពុងធ្វើនៅឡើយ៖ 3D បណ្ដាញ សំឡេង ទិន្នន័យភូមិសាស្ត្រ។ គម្រោងទាំងនេះមិនត្រូវបានលក់ដូចដែលវាមាននោះទេ ប៉ុន្តែជំនាញដដែលនេះ ត្រូវបានប្រើក្នុងគម្រោងរបស់អតិថិជន។ | Des projets encore en chantier : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
+| ⏳ à relire | `work.skills.intro` | គម្រោងដែលកំពុងធ្វើនៅឡើយ៖ 3D បណ្ដាញ ទិន្នន័យភូមិសាស្ត្រ។ គម្រោងទាំងនេះមិនត្រូវបានលក់ដូចដែលវាមាននោះទេ ប៉ុន្តែជំនាញដដែលនេះ ត្រូវបានប្រើក្នុងគម្រោងរបស់អតិថិជន។ | Des projets encore en chantier : 3D, réseau, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
 | ⏳ à relire | `work.skills.tag` | កំពុងធ្វើ | En cours |
+| ⏳ à relire | `work.sound.title` | សំឡេង និងតន្ត្រី | Son et musique |
+| ⏳ à relire | `work.sound.intro` | ឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser) និងកម្មវិធីតន្ត្រីសម្រាប់កុំព្យូទ័រ។ | Des instruments de musique dans le navigateur et un logiciel de musique pour ordinateur. |
+| ⏳ à relire | `work.sound.tag` | សំឡេង | Son |
 | ⏳ à relire | `work.items.hms.title` | HMS | HMS |
 | ⏳ à relire | `work.items.hms.kind` | កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ | Logiciel de gestion hôtelière |
 | ⏳ à relire | `work.items.hms.status` | មុខងារសំខាន់ៗបានបញ្ចប់ | Fonctions principales terminées |
@@ -1146,7 +1149,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1130 textes relus.
+0 / 1133 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1171,7 +1174,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.velocity.title` | Velocity, антигравитационная гонка для Android — Chantrea Systems | Velocity, course anti-gravité pour Android — Chantrea Systems |
 | ⏳ à relire | `meta.velocity.description` | Антигравитационная гонка для Android: 12 трасс, 8 команд, 6 режимов, карьера и чемпионаты, оружие и бонусы. | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | Проекты — Chantrea Systems | Réalisations — Chantrea Systems |
-| ⏳ à relire | `meta.work.description` | Программа для отелей HMS, сайт для изучения кхмерского, игры и эмулятор для Android, а также проекты в разработке: Ангкор в 3D, музыка в браузере. | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, et des projets en cours : Angkor en 3D, musique dans le navigateur. |
+| ⏳ à relire | `meta.work.description` | Программа для отелей HMS, сайт для изучения кхмерского, игры и эмулятор для Android, проекты в разработке, например Ангкор в 3D, и музыка в браузере. | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, des projets en cours comme Angkor en 3D, et de la musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | Обо мне — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems, основана Стефаном в Кампоте. ПО, ИИ, инфраструктура и безопасность — в Камбодже и удалённо. | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
 | ⏳ à relire | `meta.jobs.title` | Вакансия: переводчик кхмерского языка — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
@@ -2153,8 +2156,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.products.intro` | Программы, приложения и игры для Android, доведённые до рабочей версии и описанные такими, какие они есть сегодня. | Des logiciels, des applications et des jeux Android menés jusqu'à une version utilisable, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.products.tag` | Готово | Réalisation |
 | ⏳ à relire | `work.skills.title` | В разработке | En cours de développement |
-| ⏳ à relire | `work.skills.intro` | Проекты, работа над которыми продолжается: 3D, сети, звук, географические данные. Они не продаются как есть, но те же навыки применяются в проектах для клиентов. | Des projets encore en chantier : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
+| ⏳ à relire | `work.skills.intro` | Проекты, работа над которыми продолжается: 3D, сети, географические данные. Они не продаются как есть, но те же навыки применяются в проектах для клиентов. | Des projets encore en chantier : 3D, réseau, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
 | ⏳ à relire | `work.skills.tag` | В работе | En cours |
+| ⏳ à relire | `work.sound.title` | Звук и музыка | Son et musique |
+| ⏳ à relire | `work.sound.intro` | Музыкальные инструменты в браузере и музыкальная программа для компьютера. | Des instruments de musique dans le navigateur et un logiciel de musique pour ordinateur. |
+| ⏳ à relire | `work.sound.tag` | Звук | Son |
 | ⏳ à relire | `work.items.hms.title` | HMS | HMS |
 | ⏳ à relire | `work.items.hms.kind` | Программа для управления отелем | Logiciel de gestion hôtelière |
 | ⏳ à relire | `work.items.hms.status` | Основные функции готовы | Fonctions principales terminées |
@@ -2283,7 +2289,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1130 textes relus.
+0 / 1133 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2308,7 +2314,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.velocity.title` | Velocity，Android 反重力赛车 — Chantrea Systems | Velocity, course anti-gravité pour Android — Chantrea Systems |
 | ⏳ à relire | `meta.velocity.description` | Android 反重力赛车游戏：12 条赛道，8 支车队，6 种模式，生涯和锦标赛，武器和道具。 | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | 项目案例 — Chantrea Systems | Réalisations — Chantrea Systems |
-| ⏳ à relire | `meta.work.description` | HMS 酒店管理软件、一个高棉语学习网站、Android 游戏和模拟器，以及开发中的项目：3D 吴哥、在浏览器里运行的音乐。 | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, et des projets en cours : Angkor en 3D, musique dans le navigateur. |
+| ⏳ à relire | `meta.work.description` | HMS 酒店管理软件、一个高棉语学习网站、Android 游戏和模拟器、开发中的项目（如 3D 吴哥），以及在浏览器里运行的音乐。 | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, des projets en cours comme Angkor en 3D, et de la musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | 关于 — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems 由 Stefan 在柬埔寨贡布创办。软件、AI、基础设施和安全，在柬埔寨现场或远程服务。 | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
 | ⏳ à relire | `meta.jobs.title` | 招聘：高棉语认证翻译 — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
@@ -3290,8 +3296,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.products.intro` | 已经做到可用版本的软件、应用和 Android 游戏，按它们目前的实际状态介绍。 | Des logiciels, des applications et des jeux Android menés jusqu'à une version utilisable, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.products.tag` | 已完成 | Réalisation |
 | ⏳ à relire | `work.skills.title` | 开发中 | En cours de développement |
-| ⏳ à relire | `work.skills.intro` | 仍在进行中的项目：3D、网络、声音、地理数据。它们不按原样出售，但同样的技术能力会用在客户项目中。 | Des projets encore en chantier : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
+| ⏳ à relire | `work.skills.intro` | 仍在进行中的项目：3D、网络、地理数据。它们不按原样出售，但同样的技术能力会用在客户项目中。 | Des projets encore en chantier : 3D, réseau, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
 | ⏳ à relire | `work.skills.tag` | 进行中 | En cours |
+| ⏳ à relire | `work.sound.title` | 声音与音乐 | Son et musique |
+| ⏳ à relire | `work.sound.intro` | 在浏览器里运行的乐器，以及电脑上的音乐软件。 | Des instruments de musique dans le navigateur et un logiciel de musique pour ordinateur. |
+| ⏳ à relire | `work.sound.tag` | 声音 | Son |
 | ⏳ à relire | `work.items.hms.title` | HMS | HMS |
 | ⏳ à relire | `work.items.hms.kind` | 酒店管理软件 | Logiciel de gestion hôtelière |
 | ⏳ à relire | `work.items.hms.status` | 主要功能已完成 | Fonctions principales terminées |

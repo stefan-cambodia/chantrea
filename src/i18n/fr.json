@@ -42,7 +42,7 @@
     },
     "work": {
       "title": "Réalisations — Chantrea Systems",
-      "description": "Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, et des projets en cours : Angkor en 3D, musique dans le navigateur."
+      "description": "Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, des projets en cours comme Angkor en 3D, et de la musique dans le navigateur."
     },
     "about": {
       "title": "À propos — Chantrea Systems",
@@ -1807,8 +1807,13 @@
     },
     "skills": {
       "title": "En cours de développement",
-      "intro": "Des projets encore en chantier : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients.",
+      "intro": "Des projets encore en chantier : 3D, réseau, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients.",
       "tag": "En cours"
+    },
+    "sound": {
+      "title": "Son et musique",
+      "intro": "Des instruments de musique dans le navigateur et un logiciel de musique pour ordinateur.",
+      "tag": "Son"
     },
     "items": {
       "hms": {

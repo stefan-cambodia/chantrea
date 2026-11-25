@@ -1,5 +1,5 @@
 ---
-// Réalisations : « Nos réalisations » puis « En cours de développement », une vignette par carte.
+// Réalisations : « En cours de développement », « Nos réalisations » puis « Son et musique », une vignette par carte.
 // Projets : src/data/projects.js ; vignettes : src/data/work-images.js.
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
@@ -15,7 +15,13 @@ const { lang } = Astro.params;
 const tr = t(lang);
 const w = tr.work;
 const images = { ...workImages, hms: [screensFor(lang).find((s) => s.caption === 'dashboard').src] };
-const groups = ['products', 'skills'].map((g) => ({
+// Style de chaque section : étiquette et carte.
+const style = {
+  skills: { tag: 'tag--rd', card: 'project--rd' },
+  products: { tag: 'tag--product', card: 'project--product' },
+  sound: { tag: 'tag--sound', card: 'project--sound' },
+};
+const groups = ['skills', 'products', 'sound'].map((g) => ({
   id: g,
   ...w[g],
   items: projects
@@ -30,7 +36,7 @@ const groups = ['products', 'skills'].map((g) => ({
 ---
 <Page lang={lang} page="work" title={tr.meta.work.title} description={tr.meta.work.description}>
   <PageHero title={w.title} lead={w.lead}>
-    {/* Raccourcis vers les deux sections, avec le nombre de projets. */}
+    {/* Raccourcis vers les sections, avec le nombre de projets. */}
     <ul class="work-jump">
       {groups.map((g) => (
         <li>
@@ -43,11 +49,11 @@ const groups = ['products', 'skills'].map((g) => ({
   {groups.map((g, gi) => (
     <section id={g.id} class={`section work-group ${gi % 2 ? 'section--alt' : ''}`} aria-labelledby={`${g.id}-title`}>
       <div class="container">
-        <h2 id={`${g.id}-title`} class="group-title"><span class={`tag ${g.id === 'products' ? 'tag--product' : 'tag--rd'}`}>{g.tag}</span> {g.title}</h2>
+        <h2 id={`${g.id}-title`} class="group-title"><span class={`tag ${style[g.id].tag}`}>{g.tag}</span> {g.title}</h2>
         <p class="section__intro">{g.intro}</p>
         <ul class="cards cards--2 work-cards">
           {g.items.map((p) => (
-            <li class={`card project ${g.id === 'products' ? 'project--product' : 'project--rd'}`}>
+            <li class={`card project ${style[g.id].card}`}>
               {p.images.length > 0 && (
                 <a
                   class={p.images.length > 1 ? 'project__media project__media--mosaic' : 'project__media'}

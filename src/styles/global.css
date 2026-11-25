@@ -419,6 +419,8 @@ h2.group-title { margin-top: 0; }
 .tag--rd { border: 1.5px dashed var(--muted); color: var(--muted); }
 .project--product { border-top: 3px solid var(--accent); }
 .project--rd { border-style: dashed; }
+.tag--sound { border: 1.5px solid var(--accent); color: var(--accent); }
+.project--sound { border-top: 3px solid var(--muted); }
 .project__media { display: block; margin: -1.4rem -1.4rem 1.1rem; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; }
 .project__media img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
 .project h4 { margin-bottom: .5rem; }

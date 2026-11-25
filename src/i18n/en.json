@@ -42,7 +42,7 @@
     },
     "work": {
       "title": "Work — Chantrea Systems",
-      "description": "The HMS hotel software, a site for learning Khmer, Android games and an emulator, and projects in development: Angkor in 3D, music in the browser."
+      "description": "The HMS hotel software, a site for learning Khmer, Android games and an emulator, projects in development such as Angkor in 3D, and music in the browser."
     },
     "about": {
       "title": "About — Chantrea Systems",
@@ -1807,8 +1807,13 @@
     },
     "skills": {
       "title": "In development",
-      "intro": "Projects still under way: 3D, networking, sound, geographic data. They are not sold as they are, but the same know-how goes into client projects.",
+      "intro": "Projects still under way: 3D, networking, geographic data. They are not sold as they are, but the same know-how goes into client projects.",
       "tag": "In progress"
+    },
+    "sound": {
+      "title": "Sound and music",
+      "intro": "Musical instruments in the browser and music software for the computer.",
+      "tag": "Sound"
     },
     "items": {
       "hms": {
