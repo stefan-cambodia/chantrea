@@ -6,6 +6,7 @@
 import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
 import Sections from '../../../components/Sections.astro';
+import HmsIcon from '../../../components/HmsIcon.astro';
 import { languages, t, href } from '../../../i18n/index.js';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
 import { Picture } from 'astro:assets';
@@ -46,7 +47,8 @@ const shown = (showcase[service] ?? []).map((id) => {
     <div class="container narrow">
       <Sections sections={item.sections} lang={lang} />
       {children.map((c) => (
-        <aside class="card offer-link" aria-labelledby={`offer-${c.id}`}>
+        <aside class={c.icon ? 'card offer-link offer-link--icon' : 'card offer-link'} aria-labelledby={`offer-${c.id}`}>
+          {c.icon && <span class="hms-icon-box"><HmsIcon name={c.icon} /></span>}
           <p class="eyebrow">{tr.services.related}</p>
           <h2 class="h3" id={`offer-${c.id}`}>{c.title}</h2>
           <p>{c.summary}</p>

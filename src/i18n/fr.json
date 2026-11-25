@@ -714,31 +714,42 @@
         "title": "Odoo, Nextcloud et Mattermost",
         "summary": "Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud.",
         "lead": "J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous.",
+        "badges": [
+          "Odoo",
+          "Nextcloud",
+          "Mattermost"
+        ],
         "metaTitle": "Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems",
         "metaDescription": "Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud.",
         "sections": [
           {
+            "icon": "receipt",
             "title": "Odoo, pour gérer l'entreprise",
             "text": "Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard."
           },
           {
+            "icon": "cloud",
             "title": "Nextcloud, pour vos fichiers et votre équipe",
             "text": "Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez."
           },
           {
+            "icon": "chat",
             "title": "Mattermost, pour la messagerie de l'équipe",
             "text": "Des canaux par équipe ou par projet, des messages directs, des fils de discussion et des fichiers partagés, sur ordinateur et sur téléphone. Les échanges de travail restent sur votre serveur, et non dans une messagerie grand public. Les alertes de vos outils, par exemple celles de Zabbix, peuvent arriver dans un canal."
           },
           {
+            "icon": "home",
             "title": "Où ils tournent",
             "list": [
               "Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé.",
               "Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays].",
               "Dans le cloud : chez un grand hébergeur, sur un compte à votre nom.",
               "Dans tous les cas, vous savez dans quel pays sont vos données."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "layers",
             "title": "Des modules Odoo faits pour vous",
             "text": "Quand Odoo ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous.",
             "link": {
@@ -747,6 +758,7 @@
             }
           },
           {
+            "icon": "shield",
             "title": "L'entretien",
             "list": [
               "Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers.",
@@ -757,6 +769,7 @@
             ]
           },
           {
+            "icon": "info",
             "title": "Ce qu'il faut savoir",
             "list": [
               "Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs. Je les installe, je les configure et je les adapte à votre entreprise.",
@@ -886,6 +899,7 @@
       {
         "id": "odoo",
         "parent": "business-software",
+        "icon": "receipt",
         "title": "Odoo : la gestion de votre entreprise",
         "summary": "Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien.",
         "lead": "Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents.",
@@ -1021,6 +1035,7 @@
       {
         "id": "mattermost",
         "parent": "business-software",
+        "icon": "chat",
         "title": "Mattermost : la messagerie de votre équipe",
         "summary": "Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils.",
         "lead": "Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles.",
@@ -1092,6 +1107,7 @@
       {
         "id": "nextcloud",
         "parent": "business-software",
+        "icon": "cloud",
         "title": "Nextcloud : vos fichiers et le travail en équipe",
         "summary": "Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions.",
         "lead": "Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur.",

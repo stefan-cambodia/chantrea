@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1216 textes relus.
+0 / 1219 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -387,6 +387,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.4.title` | Odoo, Nextcloud និង Mattermost | Odoo, Nextcloud et Mattermost |
 | ⏳ à relire | `services.items.4.summary` | ការគ្រប់គ្រងអាជីវកម្ម ឯកសារចែករំលែក និងការផ្ញើសាររបស់ក្រុមការងាររបស់លោកអ្នក លើកម្មវិធីកូដបើកចំហ (open source)។ ដំឡើងនៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud)។ | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
 | ⏳ à relire | `services.items.4.lead` | ខ្ញុំដំឡើង កែសម្រួល និងថែទាំ Odoo, Nextcloud និង Mattermost។ លោកអ្នកជាអ្នកជ្រើសរើសកន្លែងដែលវាដំណើរការ ហើយទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.4.badges.0` | Odoo | Odoo |
+| ⏳ à relire | `services.items.4.badges.1` | Nextcloud | Nextcloud |
+| ⏳ à relire | `services.items.4.badges.2` | Mattermost | Mattermost |
 | ⏳ à relire | `services.items.4.metaTitle` | Odoo, Nextcloud និង Mattermost នៅកម្ពុជា — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.4.metaDescription` | ការដំឡើង មុខងារបន្ថែម (module) តាមតម្រូវការ និងការថែទាំ Odoo (ការគ្រប់គ្រងអាជីវកម្ម) Nextcloud (ក្លោដឯកជន) និង Mattermost (ការផ្ញើសាររបស់ក្រុមការងារ)។ នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ។ | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
 | ⏳ à relire | `services.items.4.sections.0.title` | Odoo សម្រាប់គ្រប់គ្រងអាជីវកម្ម | Odoo, pour gérer l'entreprise |
@@ -1231,7 +1234,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1215 textes relus.
+0 / 1218 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1610,6 +1613,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.4.title` | Odoo, Nextcloud и Mattermost | Odoo, Nextcloud et Mattermost |
 | ⏳ à relire | `services.items.4.summary` | Управление компанией, общие файлы и переписка команды — на свободном ПО. Установка у вас, у нас или в облаке. | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
 | ⏳ à relire | `services.items.4.lead` | Я устанавливаю, настраиваю под вас и обслуживаю Odoo, Nextcloud и Mattermost. Вы выбираете, где они работают, а ваши данные остаются вашими. | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.4.badges.0` | Odoo | Odoo |
+| ⏳ à relire | `services.items.4.badges.1` | Nextcloud | Nextcloud |
+| ⏳ à relire | `services.items.4.badges.2` | Mattermost | Mattermost |
 | ⏳ à relire | `services.items.4.metaTitle` | Odoo, Nextcloud и Mattermost в Камбодже — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.4.metaDescription` | Установка, модули на заказ и обслуживание Odoo (управление), Nextcloud (частное облако) и Mattermost (командный мессенджер). У вас или в облаке. | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
 | ⏳ à relire | `services.items.4.sections.0.title` | Odoo — для управления компанией | Odoo, pour gérer l'entreprise |
@@ -2453,7 +2459,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1215 textes relus.
+0 / 1218 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2832,6 +2838,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.4.title` | Odoo、Nextcloud 和 Mattermost | Odoo, Nextcloud et Mattermost |
 | ⏳ à relire | `services.items.4.summary` | 您的企业管理、共享文件和团队通讯，都用开源软件。可以装在您那里、我们这里，或云端。 | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
 | ⏳ à relire | `services.items.4.lead` | 我负责安装、调整和维护 Odoo、Nextcloud 和 Mattermost。在哪里运行由您来选，数据始终归您所有。 | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.4.badges.0` | Odoo | Odoo |
+| ⏳ à relire | `services.items.4.badges.1` | Nextcloud | Nextcloud |
+| ⏳ à relire | `services.items.4.badges.2` | Mattermost | Mattermost |
 | ⏳ à relire | `services.items.4.metaTitle` | 柬埔寨 Odoo、Nextcloud 和 Mattermost — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.4.metaDescription` | Odoo（企业管理）、Nextcloud（私有云）和 Mattermost（团队通讯）的安装、配置、定制模块和维护。可以装在您那里、我们这里，或云端。 | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
 | ⏳ à relire | `services.items.4.sections.0.title` | Odoo：管理企业 | Odoo, pour gérer l'entreprise |

@@ -681,6 +681,8 @@ h2.group-title { margin-top: 0; }
 .prose-section--figure .flow__step::after { display: none; }
 .prose-section--figure .flow-block__note { margin-bottom: 0; }
 .offer-link { margin-top: 2.5rem; border-left: 3px solid var(--accent); }
+.offer-link + .offer-link { margin-top: 1rem; }
+.offer-link--icon .hms-icon-box { margin-bottom: .8rem; }
 .offer-link .eyebrow { margin-bottom: .4rem; }
 
 /* ─── Technologies (page Services) ─────────────────────────── */

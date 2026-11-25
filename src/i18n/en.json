@@ -714,31 +714,42 @@
         "title": "Odoo, Nextcloud and Mattermost",
         "summary": "Your business management, your shared files and your team's messaging, on open-source software. Installed on your premises, with us or in the cloud.",
         "lead": "I install, adapt and maintain Odoo, Nextcloud and Mattermost. You choose where they run, and your data stays yours.",
+        "badges": [
+          "Odoo",
+          "Nextcloud",
+          "Mattermost"
+        ],
         "metaTitle": "Odoo, Nextcloud and Mattermost in Cambodia — Chantrea Systems",
         "metaDescription": "Setup, custom modules and maintenance for Odoo (ERP), Nextcloud (private cloud) and Mattermost (team messaging). On your premises or in the cloud.",
         "sections": [
           {
+            "icon": "receipt",
             "title": "Odoo, to run your business",
             "text": "Customers, quotes, sales, invoices, purchases, stock, projects: one piece of software, with one app for each need. We start with what is really useful to you, and add the rest later."
           },
           {
+            "icon": "cloud",
             "title": "Nextcloud, for your files and your team",
             "text": "Your shared documents, calendars and contacts, on computer and phone, with chat and video calls for the team. Like the big online services, but on a server you choose."
           },
           {
+            "icon": "chat",
             "title": "Mattermost, for your team's messaging",
             "text": "Channels by team or by project, direct messages, threads and shared files, on computer and phone. Work conversations stay on your server, not in a consumer messaging app. Alerts from your tools, for example from Zabbix, can arrive in a channel."
           },
           {
+            "icon": "home",
             "title": "Where they run",
             "list": [
               "On your premises: on a server installed in your own offices. Your staff on site keep working when the internet is down.",
               "With us: on a server rented and maintained by Chantrea Systems, in [À COMPLÉTER PAR STEFAN : pays].",
               "In the cloud: with a large hosting provider, on an account in your name.",
               "In every case, you know which country your data is in."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "layers",
             "title": "Odoo modules made for you",
             "text": "When Odoo does not do what you need, I build a custom module: a report, an invoice in your format, a link with another piece of software. I first check whether an existing module already does the job: that costs you less.",
             "link": {
@@ -747,6 +758,7 @@
             }
           },
           {
+            "icon": "shield",
             "title": "Maintenance",
             "list": [
               "A backup every night, copied to a second location, and regular restore tests.",
@@ -757,6 +769,7 @@
             ]
           },
           {
+            "icon": "info",
             "title": "Good to know",
             "list": [
               "Odoo, Nextcloud and Mattermost are developed by their publishers. I install them, configure them and adapt them to your business.",
@@ -886,6 +899,7 @@
       {
         "id": "odoo",
         "parent": "business-software",
+        "icon": "receipt",
         "title": "Odoo: running your business",
         "summary": "Sales, invoices, purchases, stock, point of sale, projects: Odoo 19 Community, the free and open-source edition of Odoo, installed and adapted to the Cambodian market.",
         "lead": "Odoo brings a company's management apps together in one piece of software. I start from Odoo 19 Community, the free and open-source edition, and adapt it to your business and to Cambodia: the Khmer language, the dollar and the riel, your documents.",
@@ -1021,6 +1035,7 @@
       {
         "id": "mattermost",
         "parent": "business-software",
+        "icon": "chat",
         "title": "Mattermost: your team's messaging",
         "summary": "Team messaging installed on your server: channels, direct messages, threads, files, and alerts from your tools.",
         "lead": "Mattermost organises your team's conversations in channels, like the big business messaging apps, but on a server you choose. Work conversations no longer go through personal messaging apps.",
@@ -1092,6 +1107,7 @@
       {
         "id": "nextcloud",
         "parent": "business-software",
+        "icon": "cloud",
         "title": "Nextcloud: your files and teamwork",
         "summary": "Your shared files, calendars, contacts, calls and documents, on a server you choose. Free and open source, with all its features.",
         "lead": "Nextcloud does what the big online services do for files and teamwork, but on a server you choose: in your own offices, with us or with a hosting provider.",

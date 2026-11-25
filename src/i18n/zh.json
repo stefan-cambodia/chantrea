@@ -714,31 +714,42 @@
         "title": "Odoo、Nextcloud 和 Mattermost",
         "summary": "您的企业管理、共享文件和团队通讯，都用开源软件。可以装在您那里、我们这里，或云端。",
         "lead": "我负责安装、调整和维护 Odoo、Nextcloud 和 Mattermost。在哪里运行由您来选，数据始终归您所有。",
+        "badges": [
+          "Odoo",
+          "Nextcloud",
+          "Mattermost"
+        ],
         "metaTitle": "柬埔寨 Odoo、Nextcloud 和 Mattermost — Chantrea Systems",
         "metaDescription": "Odoo（企业管理）、Nextcloud（私有云）和 Mattermost（团队通讯）的安装、配置、定制模块和维护。可以装在您那里、我们这里，或云端。",
         "sections": [
           {
+            "icon": "receipt",
             "title": "Odoo：管理企业",
             "text": "客户、报价、销售、发票、采购、库存、项目：一套软件，每项需求对应一个应用。先上您真正用得着的，其余以后再加。"
           },
           {
+            "icon": "cloud",
             "title": "Nextcloud：您的文件和团队",
             "text": "共享的文件、日历和通讯录，电脑和手机都能用，还有团队聊天和视频通话。和大型在线服务一样，只是放在您自己选的服务器上。"
           },
           {
+            "icon": "chat",
             "title": "Mattermost：团队通讯",
             "text": "按团队或按项目建频道，私信、讨论串和共享文件，电脑和手机都能用。工作上的交流留在您自己的服务器上，而不是在大众聊天软件里。您的系统发出的警报，比如 Zabbix 的警报，可以直接发到某个频道。"
           },
           {
+            "icon": "home",
             "title": "在哪里运行",
             "list": [
               "在您那里：装在您场所内的服务器上。断网时，现场的员工照常工作。",
               "在我们这里：装在由 Chantrea Systems 租用并维护的服务器上，位于 [À COMPLÉTER PAR STEFAN : pays]。",
               "在云端：放在大型托管服务商那里，用您自己名下的账户。",
               "无论哪种方式，您都清楚自己的数据在哪个国家。"
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "layers",
             "title": "为您定制的 Odoo 模块",
             "text": "Odoo 满足不了您的需要时，我来开发定制模块：一份报表、一种符合您格式的发票、与另一套软件的对接。我会先查一查有没有现成的模块可用：这样您花的钱更少。",
             "link": {
@@ -747,6 +758,7 @@
             }
           },
           {
+            "icon": "shield",
             "title": "维护",
             "list": [
               "每晚备份一次，并在另一个地点再存一份，定期做恢复测试。",
@@ -757,6 +769,7 @@
             ]
           },
           {
+            "icon": "info",
             "title": "需要了解的事",
             "list": [
               "Odoo、Nextcloud 和 Mattermost 由各自的开发商开发。我负责安装、配置，并根据您的企业进行调整。",
@@ -886,6 +899,7 @@
       {
         "id": "odoo",
         "parent": "business-software",
+        "icon": "receipt",
         "title": "Odoo：管理您的企业",
         "summary": "销售、发票、采购、库存、收银、项目：Odoo 19 Community，即 Odoo 的开源免费版，为您安装好，并针对柬埔寨市场进行调整。",
         "lead": "Odoo 把企业管理所需的各个应用集中在一套软件里。我以开源免费的 Odoo 19 Community 为基础，按您的企业和柬埔寨的情况进行调整：高棉语、美元和瑞尔、您的单据。",
@@ -1020,6 +1034,7 @@
       {
         "id": "mattermost",
         "parent": "business-software",
+        "icon": "chat",
         "title": "Mattermost：您团队的通讯工具",
         "summary": "安装在您服务器上的团队通讯工具：频道、私信、讨论串、文件，以及来自您各种工具的警报。",
         "lead": "Mattermost 像大型企业通讯软件一样，按频道组织团队的交流，只是放在您选择的服务器上。工作上的对话不再经过个人聊天软件。",
@@ -1091,6 +1106,7 @@
       {
         "id": "nextcloud",
         "parent": "business-software",
+        "icon": "cloud",
         "title": "Nextcloud：您的文件和团队协作",
         "summary": "您的文件、日历、通讯录、通话和共享文档，放在您选择的服务器上。开源免费，全部功能都可用。",
         "lead": "在文件和团队协作方面，Nextcloud 能做到大型在线服务能做的事，只是放在您选择的服务器上：您的场所内、我们这里，或托管服务商那里。",
