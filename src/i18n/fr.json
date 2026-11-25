@@ -1132,10 +1132,17 @@
         "title": "Nextcloud : vos fichiers et le travail en équipe",
         "summary": "Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions.",
         "lead": "Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur.",
+        "badges": [
+          "Files",
+          "Talk",
+          "Office",
+          "Deck"
+        ],
         "metaTitle": "Nextcloud au Cambodge : votre cloud privé — Chantrea Systems",
         "metaDescription": "Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud.",
         "sections": [
           {
+            "icon": "cloud",
             "title": "Vos fichiers, partout",
             "list": [
               "Synchronisés sur vos ordinateurs (Windows, macOS, Linux) et vos téléphones (Android, iPhone).",
@@ -1143,21 +1150,26 @@
               "Les anciennes versions d'un fichier restent disponibles, et on peut les restaurer.",
               "Un fichier effacé par erreur se récupère dans la corbeille.",
               "Les partages Windows existants (SMB) peuvent être reliés à Nextcloud."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "chat",
             "title": "Talk : messages et appels",
             "text": "Messages, appels audio et vidéo, partage d'écran, avec des applications pour Android et iPhone. Les webinaires et les appels à nombreux participants demandent un composant supplémentaire, le High Performance Backend."
           },
           {
+            "icon": "calendar",
             "title": "Agendas, contacts et e-mails",
             "text": "Des agendas et des contacts partagés, synchronisés avec les téléphones, et une messagerie dans le navigateur pour vos boîtes e-mail existantes. Deck organise les tâches de l'équipe en tableaux."
           },
           {
+            "icon": "receipt",
             "title": "Office : éditer à plusieurs",
             "text": "Une suite bureautique dans le navigateur : textes, tableurs et présentations, modifiés à plusieurs en même temps. Elle ouvre et enregistre les formats Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP)."
           },
           {
+            "icon": "sparkles",
             "title": "Un assistant d'IA qui reste chez vous",
             "text": "Nextcloud propose un assistant d'IA qui peut fonctionner avec un modèle installé sur votre propre serveur.",
             "link": {
@@ -1166,6 +1178,7 @@
             }
           },
           {
+            "icon": "shield",
             "title": "La sécurité",
             "list": [
               "Double authentification.",
@@ -1173,13 +1186,16 @@
               "Chiffrement côté serveur, et chiffrement de bout en bout pour les dossiers sensibles.",
               "Connexion à l'annuaire de l'entreprise (LDAP ou Active Directory).",
               "Des droits par personne et par groupe : chacun voit ce qui le concerne."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "callout": true,
             "title": "Libre et gratuit",
             "text": "Nextcloud est un logiciel libre (licence AGPL v3) et gratuit, avec toutes ses fonctions. L'éditeur vend un abonnement, Nextcloud Enterprise, pour une assistance directe et un support à long terme de chaque version. Je vous dis si vous en avez besoin."
           },
           {
+            "icon": "wrench",
             "title": "Ce que je fais pour vous",
             "list": [
               "Installer Nextcloud sur le serveur choisi, accessible de façon sécurisée depuis internet.",
@@ -1187,9 +1203,11 @@
               "Installer les applications sur les ordinateurs et les téléphones.",
               "Montrer à votre équipe comment s'en servir.",
               "Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "info",
             "title": "Ce qu'il faut savoir",
             "list": [
               "Nextcloud n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une soixantaine d'autres langues.",

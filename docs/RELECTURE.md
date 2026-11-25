@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1228 textes relus.
+0 / 1232 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -608,6 +608,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.9.title` | Nextcloud៖ ឯកសាររបស់លោកអ្នក និងការងារជាក្រុម | Nextcloud : vos fichiers et le travail en équipe |
 | ⏳ à relire | `services.items.9.summary` | ឯកសារ ប្រតិទិន បញ្ជីទំនាក់ទំនង ការហៅ និងឯកសារចែករំលែករបស់លោកអ្នក នៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស។ កូដបើកចំហ (open source) និងឥតគិតថ្លៃ ជាមួយមុខងារទាំងអស់របស់វា។ | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
 | ⏳ à relire | `services.items.9.lead` | Nextcloud ធ្វើអ្វីដែលសេវាអនឡាញធំៗធ្វើ សម្រាប់ឯកសារ និងការងារជាក្រុម ប៉ុន្តែនៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស៖ នៅក្នុងទីតាំងរបស់លោកអ្នក នៅកន្លែងយើង ឬនៅក្រុមហ៊ុនបង្ហោះ (hosting) មួយ។ | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
+| ⏳ à relire | `services.items.9.badges.0` | Files | Files |
+| ⏳ à relire | `services.items.9.badges.1` | Talk | Talk |
+| ⏳ à relire | `services.items.9.badges.2` | Office | Office |
+| ⏳ à relire | `services.items.9.badges.3` | Deck | Deck |
 | ⏳ à relire | `services.items.9.metaTitle` | Nextcloud នៅកម្ពុជា៖ ក្លោដឯកជនរបស់លោកអ្នក — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
 | ⏳ à relire | `services.items.9.metaDescription` | Nextcloud ក្លោដឯកជនកូដបើកចំហ និងឥតគិតថ្លៃ៖ ឯកសារធ្វើសមកាលកម្ម (sync) ការចែករំលែកតាមតំណភ្ជាប់ ប្រតិទិន ការហៅជាវីដេអូ ការកែសម្រួលឯកសាររួមគ្នា។ នៅកន្លែងលោកអ្នក ឬនៅលើក្លោដ។ | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
 | ⏳ à relire | `services.items.9.sections.0.title` | ឯកសាររបស់លោកអ្នក នៅគ្រប់ទីកន្លែង | Vos fichiers, partout |
@@ -1243,7 +1247,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1227 textes relus.
+0 / 1231 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1842,6 +1846,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.9.title` | Nextcloud: ваши файлы и командная работа | Nextcloud : vos fichiers et le travail en équipe |
 | ⏳ à relire | `services.items.9.summary` | Ваши файлы, календари, контакты, звонки и общие документы — на сервере, который выбираете вы. Свободное и бесплатное ПО, со всеми функциями. | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
 | ⏳ à relire | `services.items.9.lead` | Nextcloud делает для файлов и командной работы то же, что крупные онлайн-сервисы, но на сервере, который выбираете вы: в вашем помещении, у нас или у хостинг-провайдера. | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
+| ⏳ à relire | `services.items.9.badges.0` | Files | Files |
+| ⏳ à relire | `services.items.9.badges.1` | Talk | Talk |
+| ⏳ à relire | `services.items.9.badges.2` | Office | Office |
+| ⏳ à relire | `services.items.9.badges.3` | Deck | Deck |
 | ⏳ à relire | `services.items.9.metaTitle` | Nextcloud в Камбодже: ваше частное облако — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
 | ⏳ à relire | `services.items.9.metaDescription` | Nextcloud — свободное и бесплатное частное облако: синхронизация файлов, ссылки, календари, видеозвонки, совместная работа с документами. У вас или в облаке. | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
 | ⏳ à relire | `services.items.9.sections.0.title` | Ваши файлы — везде | Vos fichiers, partout |
@@ -2477,7 +2485,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1227 textes relus.
+0 / 1231 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -3076,6 +3084,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.9.title` | Nextcloud：您的文件和团队协作 | Nextcloud : vos fichiers et le travail en équipe |
 | ⏳ à relire | `services.items.9.summary` | 您的文件、日历、通讯录、通话和共享文档，放在您选择的服务器上。开源免费，全部功能都可用。 | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
 | ⏳ à relire | `services.items.9.lead` | 在文件和团队协作方面，Nextcloud 能做到大型在线服务能做的事，只是放在您选择的服务器上：您的场所内、我们这里，或托管服务商那里。 | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
+| ⏳ à relire | `services.items.9.badges.0` | Files | Files |
+| ⏳ à relire | `services.items.9.badges.1` | Talk | Talk |
+| ⏳ à relire | `services.items.9.badges.2` | Office | Office |
+| ⏳ à relire | `services.items.9.badges.3` | Deck | Deck |
 | ⏳ à relire | `services.items.9.metaTitle` | 柬埔寨 Nextcloud 私有云 — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
 | ⏳ à relire | `services.items.9.metaDescription` | Nextcloud，开源免费的私有云：文件在电脑和手机上同步，通过链接共享，日历和通讯录，视频通话，多人同时编辑文档。可以装在您那里、我们这里，或云端。 | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
 | ⏳ à relire | `services.items.9.sections.0.title` | 您的文件，随处可用 | Vos fichiers, partout |

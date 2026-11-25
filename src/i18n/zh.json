@@ -1131,10 +1131,17 @@
         "title": "Nextcloud：您的文件和团队协作",
         "summary": "您的文件、日历、通讯录、通话和共享文档，放在您选择的服务器上。开源免费，全部功能都可用。",
         "lead": "在文件和团队协作方面，Nextcloud 能做到大型在线服务能做的事，只是放在您选择的服务器上：您的场所内、我们这里，或托管服务商那里。",
+        "badges": [
+          "Files",
+          "Talk",
+          "Office",
+          "Deck"
+        ],
         "metaTitle": "柬埔寨 Nextcloud 私有云 — Chantrea Systems",
         "metaDescription": "Nextcloud，开源免费的私有云：文件在电脑和手机上同步，通过链接共享，日历和通讯录，视频通话，多人同时编辑文档。可以装在您那里、我们这里，或云端。",
         "sections": [
           {
+            "icon": "cloud",
             "title": "您的文件，随处可用",
             "list": [
               "在您的电脑（Windows、macOS、Linux）和手机（Android、iPhone）上同步。",
@@ -1142,21 +1149,26 @@
               "文件的旧版本会保留下来，可以恢复。",
               "误删的文件可以从回收站找回。",
               "现有的 Windows 共享文件夹（SMB）可以接入 Nextcloud。"
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "chat",
             "title": "Talk：消息和通话",
             "text": "消息、语音和视频通话、屏幕共享，有 Android 和 iPhone 应用。网络研讨会和多人通话需要一个额外组件：High Performance Backend。"
           },
           {
+            "icon": "calendar",
             "title": "日历、通讯录和电子邮件",
             "text": "共享的日历和通讯录，与手机同步；还有一个在浏览器里使用的邮件客户端，用来收发您现有邮箱的邮件。Deck 用看板来安排团队的任务。"
           },
           {
+            "icon": "receipt",
             "title": "Office：多人同时编辑",
             "text": "在浏览器里使用的办公套件：文档、电子表格和演示文稿，可以多人同时修改。它能打开和保存 Microsoft Office 格式（DOCX、XLSX、PPTX）和 OpenDocument 格式（ODT、ODS、ODP）。"
           },
           {
+            "icon": "sparkles",
             "title": "留在您那里的 AI 助手",
             "text": "Nextcloud 提供一个 AI 助手，可以使用安装在您自己服务器上的模型。",
             "link": {
@@ -1165,6 +1177,7 @@
             }
           },
           {
+            "icon": "shield",
             "title": "安全",
             "list": [
               "两步验证。",
@@ -1172,13 +1185,16 @@
               "服务器端加密，敏感文件夹还可以端到端加密。",
               "连接企业的目录服务（LDAP 或 Active Directory）。",
               "按人员和按组设置权限：每个人只看到与自己相关的内容。"
-            ]
+            ],
+            "tiles": true
           },
           {
+            "callout": true,
             "title": "开源免费",
             "text": "Nextcloud 是开源软件（AGPL v3 许可证），免费，全部功能都可用。开发商出售一项订阅服务 Nextcloud Enterprise，提供直接的技术支持，以及每个版本的长期支持。您是否需要，我会告诉您。"
           },
           {
+            "icon": "wrench",
             "title": "我为您做什么",
             "list": [
               "把 Nextcloud 安装在选定的服务器上，可以从互联网安全访问。",
@@ -1186,9 +1202,11 @@
               "在电脑和手机上安装应用。",
               "教您的团队如何使用。",
               "维护：每晚备份，安全更新，升级到新版本。"
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "info",
             "title": "需要了解的事",
             "list": [
               "Nextcloud 没有高棉语版本：界面有英语、法语、中文、俄语以及约六十种其他语言。",

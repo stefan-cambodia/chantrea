@@ -1132,10 +1132,17 @@
         "title": "Nextcloud: your files and teamwork",
         "summary": "Your shared files, calendars, contacts, calls and documents, on a server you choose. Free and open source, with all its features.",
         "lead": "Nextcloud does what the big online services do for files and teamwork, but on a server you choose: in your own offices, with us or with a hosting provider.",
+        "badges": [
+          "Files",
+          "Talk",
+          "Office",
+          "Deck"
+        ],
         "metaTitle": "Nextcloud in Cambodia: your private cloud — Chantrea Systems",
         "metaDescription": "Nextcloud, a free, open-source private cloud: synced files, share links, calendars, video calls, editing documents together. On your premises or in the cloud.",
         "sections": [
           {
+            "icon": "cloud",
             "title": "Your files, everywhere",
             "list": [
               "Synced on your computers (Windows, macOS, Linux) and your phones (Android, iPhone).",
@@ -1143,21 +1150,26 @@
               "Older versions of a file stay available and can be restored.",
               "A file deleted by mistake can be recovered from the trash.",
               "Existing Windows shares (SMB) can be connected to Nextcloud."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "chat",
             "title": "Talk: messages and calls",
             "text": "Messages, audio and video calls, screen sharing, with apps for Android and iPhone. Webinars and calls with many participants need an extra component, the High Performance Backend."
           },
           {
+            "icon": "calendar",
             "title": "Calendars, contacts and email",
             "text": "Shared calendars and contacts, synced with phones, and an email client in the browser for your existing mailboxes. Deck organises the team's tasks on boards."
           },
           {
+            "icon": "receipt",
             "title": "Office: editing together",
             "text": "An office suite in the browser: documents, spreadsheets and presentations, edited by several people at the same time. It opens and saves Microsoft Office formats (DOCX, XLSX, PPTX) and OpenDocument formats (ODT, ODS, ODP)."
           },
           {
+            "icon": "sparkles",
             "title": "An AI assistant that stays with you",
             "text": "Nextcloud offers an AI assistant that can work with a model installed on your own server.",
             "link": {
@@ -1166,6 +1178,7 @@
             }
           },
           {
+            "icon": "shield",
             "title": "Security",
             "list": [
               "Two-factor authentication.",
@@ -1173,13 +1186,16 @@
               "Server-side encryption, and end-to-end encryption for sensitive folders.",
               "Connection to the company directory (LDAP or Active Directory).",
               "Rights per person and per group: everyone sees what concerns them."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "callout": true,
             "title": "Free and open source",
             "text": "Nextcloud is open-source software (AGPL v3 licence) and free, with all its features. The publisher sells a subscription, Nextcloud Enterprise, for direct support and long-term support of each version. I tell you whether you need it."
           },
           {
+            "icon": "wrench",
             "title": "What I do for you",
             "list": [
               "Install Nextcloud on the chosen server, securely reachable from the internet.",
@@ -1187,9 +1203,11 @@
               "Install the apps on computers and phones.",
               "Show your team how to use it.",
               "Maintain it: a backup every night, security updates, moving to new versions."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "info",
             "title": "Good to know",
             "list": [
               "Nextcloud is not available in Khmer: its screens are in English, French, Chinese, Russian and about sixty other languages.",
