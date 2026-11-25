@@ -538,6 +538,32 @@ h2.group-title { margin-top: 0; }
   .contact-channel:hover { transform: none; }
 }
 
+/* ─── Page Recrutement ───────────────────────────────────────── */
+.jobs-pair { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: 1.4rem 0 0; }
+.jobs-pair span {
+  display: inline-grid; place-items: center; min-width: 3rem; height: 2.6rem; padding: 0 .8rem; border-radius: 10px;
+  border: 1px solid var(--night-line); background: var(--night-surface); color: var(--night-text);
+  font-family: var(--font-mono); font-weight: 700; letter-spacing: .05em;
+}
+.jobs-pair span[lang="km"] { font-family: "Kantumruy Pro", var(--font-km); font-weight: 500; letter-spacing: 0; color: var(--moon-ink); background: var(--moon); border-color: var(--moon); }
+.jobs-pair .jobs-pair__arrow { min-width: 0; border: 0; background: transparent; color: var(--moon); font-size: 1.4rem; padding: 0 .2rem; }
+.jobs-chips { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 0; }
+.jobs-chips li { padding: .35rem .85rem; border-radius: 999px; border: 1px solid var(--night-line); color: var(--night-muted); font-size: .92rem; }
+.jobs { display: grid; gap: 1.5rem; }
+.jobs-cards { gap: 1.25rem; }
+.jobs-card { gap: .2rem; }
+.jobs-card .h3 { margin: .9rem 0 .8rem; }
+.jobs-apply {
+  display: grid; gap: 1.2rem; align-items: center; padding: clamp(1.4rem, 4vw, 2rem); border-radius: var(--radius);
+  background: radial-gradient(circle at 90% 30%, #1d2a45 0, var(--night-bg) 65%); color: var(--night-text);
+  border: 1px solid var(--night-line);
+}
+.jobs-apply .h3 { margin: 0 0 .4rem; color: var(--night-text); }
+.jobs-apply p { margin: 0; color: var(--night-muted); }
+.jobs-apply .btn--primary { background: var(--moon); color: var(--moon-ink); }
+.jobs-apply__icon { display: inline-grid; place-items: center; width: 3.2rem; height: 3.2rem; border-radius: 14px; color: var(--moon); background: color-mix(in srgb, var(--moon) 14%, var(--night-bg)); }
+@media (min-width: 760px) { .jobs-apply { grid-template-columns: auto 1fr auto; } }
+
 /* ─── Page Réalisations : vignettes, raccourcis, survol ─────── */
 .work-jump { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; }
 .work-jump a {

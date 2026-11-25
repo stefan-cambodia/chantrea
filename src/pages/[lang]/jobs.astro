@@ -1,9 +1,13 @@
 ---
 // Page Recrutement : les offres de collaboration de Chantrea Systems.
+// Mise en page : paire de langues et conditions dans le haut de page, « Le rôle » et « Le profil » en cartes,
+// « Postuler » en bandeau. Repose sur l'ordre de jobs.sections : 0 rôle, 1 profil, 2 conditions, 3 postuler.
 import config from '../../../site.config.mjs';
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
-import Sections from '../../components/Sections.astro';
+import Txt from '../../components/Txt.astro';
+import AboutIcon from '../../components/AboutIcon.astro';
+import HmsIcon from '../../components/HmsIcon.astro';
 import { langPaths, t } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -12,13 +16,51 @@ const { lang } = Astro.params;
 const tr = t(lang);
 const j = tr.jobs;
 const mailto = `mailto:${config.contact.email}?subject=${encodeURIComponent(j.emailSubject)}`;
+const [role, profile, conditions, apply, ...rest] = j.sections;
 ---
 <Page lang={lang} page="jobs" title={tr.meta.jobs.title} description={tr.meta.jobs.description} cta={false}>
-  <PageHero title={j.title} lead={j.lead} />
+  <PageHero title={j.title} lead={j.lead}>
+    {/* Paire de langues du poste (décorative, le texte la dit déjà). */}
+    <p class="jobs-pair" aria-hidden="true">
+      <span>EN</span><span>FR</span><span class="jobs-pair__arrow">⇄</span><span lang="km">ខ្មែរ</span>
+    </p>
+    {conditions?.list && (
+      <ul class="jobs-chips">{conditions.list.map((c) => <li><Txt text={c} /></li>)}</ul>
+    )}
+    <div class="actions"><a class="btn btn--primary" href={mailto}>{j.apply} →</a></div>
+  </PageHero>
+
   <section class="section">
-    <div class="container narrow">
-      <Sections sections={j.sections} lang={lang} />
-      <p><a class="btn btn--primary" href={mailto}>{j.apply}</a></p>
+    <div class="container jobs">
+      <div class="cards cards--2 jobs-cards">
+        {[role, profile].filter(Boolean).map((s, i) => (
+          <section class="card jobs-card">
+            <span class="hms-icon-box">{i === 0 ? <AboutIcon name="chat" /> : <HmsIcon name="badge" />}</span>
+            <h2 class="h3">{s.title}</h2>
+            {s.text && <p><Txt text={s.text} /></p>}
+            {s.list && <ul class="checklist checklist--sm">{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
+          </section>
+        ))}
+      </div>
+
+      {rest.map((s) => (
+        <section class="card jobs-card">
+          <h2 class="h3">{s.title}</h2>
+          {s.text && <p><Txt text={s.text} /></p>}
+          {s.list && <ul class="checklist checklist--sm">{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
+        </section>
+      ))}
+
+      {apply && (
+        <section class="jobs-apply" aria-labelledby="apply-title">
+          <span class="jobs-apply__icon"><AboutIcon name="mail" size={28} /></span>
+          <div>
+            <h2 id="apply-title" class="h3">{apply.title}</h2>
+            {apply.text && <p><Txt text={apply.text} /></p>}
+          </div>
+          <a class="btn btn--primary" href={mailto}>{j.apply} →</a>
+        </section>
+      )}
     </div>
   </section>
 </Page>
