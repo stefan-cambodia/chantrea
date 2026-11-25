@@ -1,5 +1,5 @@
 ---
-// Accueil : présentation, quatre domaines, HMS, infrastructure, Odoo et Mattermost, sécurité,
+// Accueil : présentation (captures HMS et Vigie), quatre domaines, HMS, infrastructure, Odoo et Mattermost, sécurité,
 // sélection de réalisations (« En cours », « Nos réalisations », « Son et musique », comme la page Réalisations),
 // fondateur et méthode, publics, contact.
 import Page from '../../layouts/Page.astro';
@@ -9,12 +9,14 @@ import DomainIcon from '../../components/DomainIcon.astro';
 import InfraDiagram from '../../components/InfraDiagram.astro';
 import InventoryFlow from '../../components/InventoryFlow.astro';
 import InvoiceMock from '../../components/InvoiceMock.astro';
+import HmsIcon from '../../components/HmsIcon.astro';
 import { Picture } from 'astro:assets';
 import { homeScreen as rallyScreen } from '../../data/rally-screens.js';
 import { homeScreen as angkorScreen } from '../../data/angkor-screens.js';
 import { screensFor } from '../../data/hms-screens.js';
 import projects from '../../data/projects.js';
 import workImages from '../../data/work-images.js';
+import vigieScreens from '../../data/vigie-screens.js';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -25,7 +27,18 @@ const h = tr.home;
 const w = tr.work;
 const phases = [0.25, 0.5, 0.75, 1];
 const domains = tr.services.items.filter((i) => !i.parent);
-const hmsScreen = screensFor(lang).find((s) => s.caption === 'dashboard');
+const hmsScreens = screensFor(lang);
+const hmsScreen = hmsScreens.find((s) => s.caption === 'dashboard');
+// Bloc HMS : le calendrier, pour ne pas répéter le tableau de bord du bandeau.
+const hmsCalendar = hmsScreens.find((s) => s.caption === 'calendar');
+// Vigie (veille de sécurité) : textes de l'offre et lien de la page Cybersécurité ; captures de démonstration.
+const vigie = tr.services.items.find((i) => i.id === 'vigie');
+const vigieLink = tr.services.items.find((i) => i.id === 'security').sections.find((x) => x.link?.page === 'services/vigie').link;
+const vigieShot = vigieScreens.find((s) => s.caption === 'expositions');
+const vigiePhone = vigieScreens.find((s) => s.caption === 'mobile');
+// Pictogrammes, dans l'ordre des cartes (identique dans les cinq langues).
+const appIcons = ['receipt', 'chat', 'cloud'];
+const audienceIcons = ['hotel', 'tag', 'globe', 'cloud'];
 // Bandeau « Développement de modules Odoo » : textes de l'offre (services.items), rien de nouveau.
 const odooDev = tr.services.items.find((i) => i.id === 'odoo-development');
 const odooDomain = tr.services.items.find((i) => i.id === odooDev.parent);
@@ -53,13 +66,26 @@ const workGroups = [
 ---
 <Page lang={lang} title={tr.meta.home.title} description={tr.meta.home.description}>
   <section class="hero night">
-    <div class="container hero__inner">
-      <p class="eyebrow">{h.hero.eyebrow}</p>
-      <h1>{h.hero.title}</h1>
-      <p class="lead">{h.hero.lead}</p>
-      <div class="actions">
-        <a class="btn btn--primary" href={href(lang, 'contact')}>{h.hero.ctaPrimary}</a>
-        <a class="btn btn--ghost" href={href(lang, 'services')}>{h.hero.ctaSecondary}</a>
+    <div class="container home-hero__grid">
+      <div class="home-hero__text">
+        <p class="eyebrow">{h.hero.eyebrow}</p>
+        <h1>{h.hero.title}</h1>
+        <p class="lead">{h.hero.lead}</p>
+        <div class="actions">
+          <a class="btn btn--primary" href={href(lang, 'contact')}>{h.hero.ctaPrimary}</a>
+          <a class="btn btn--ghost" href={href(lang, 'services')}>{h.hero.ctaSecondary}</a>
+        </div>
+      </div>
+      <div class="home-hero__devices" aria-hidden="true">
+        <div class="browser-frame">
+          <div class="browser-frame__bar"><span></span><span></span><span></span></div>
+          <Picture src={hmsScreen.src} alt="" formats={['avif', 'webp']} widths={[560, 840, 1120]}
+                   sizes="(min-width: 1120px) 560px, (min-width: 900px) 50vw, 100vw" quality={78} loading="eager" />
+        </div>
+        <div class="phone-frame">
+          <Picture src={vigiePhone.src} alt="" formats={['avif', 'webp']} widths={[160, 240, 320]}
+                   sizes="(min-width: 900px) 150px, 26vw" quality={78} loading="eager" />
+        </div>
       </div>
     </div>
     <div class="hero__moon" aria-hidden="true"></div>
@@ -103,7 +129,7 @@ const workGroups = [
       </div>
       <a class="media" href={href(lang, 'hms')} tabindex="-1" aria-hidden="true">
         <Picture
-          src={hmsScreen.src}
+          src={hmsCalendar.src}
           alt=""
           formats={['avif', 'webp']}
           widths={[480, 720, 960]}
@@ -154,8 +180,9 @@ const workGroups = [
         <p class="section__intro">{h.apps.text}</p>
       </div>
       <ul class="cards cards--3">
-        {h.apps.cards.map((c) => (
-          <li class="card">
+        {h.apps.cards.map((c, i) => (
+          <li class="card app-card">
+            <span class="app-card__icon"><HmsIcon name={appIcons[i]} size={26} /></span>
             <h3>{c.title}</h3>
             <p>{c.text}</p>
             <ul class="checklist checklist--sm">{c.points.map((p) => <li>{p}</li>)}</ul>
@@ -179,6 +206,21 @@ const workGroups = [
       <div class="actions">
         <a class="btn btn--primary" href={href(lang, 'services/security')}>{h.security.cta}</a>
       </div>
+      <div class="vigie-band">
+        <div class="vigie-band__text">
+          <p class="vigie-band__free">{vigie.badges[0]}</p>
+          <h3>{vigie.title}</h3>
+          <p>{vigie.summary}</p>
+          <ol class="vigie-band__scale" aria-hidden="true">
+            {[1, 2, 3, 4].map((n) => <li class={`vigie-band__p vigie-band__p--${n}`}>P{n}</li>)}
+          </ol>
+          <a class="btn btn--primary" href={href(lang, vigieLink.page)}>{vigieLink.label} →</a>
+        </div>
+        <a class="vigie-band__shot" href={href(lang, vigieLink.page)} tabindex="-1" aria-hidden="true">
+          <Picture src={vigieShot.src} alt="" formats={['avif', 'webp']} widths={[480, 720, 960]}
+                   sizes="(min-width: 1120px) 560px, (min-width: 900px) 50vw, 100vw" quality={78} loading="lazy" />
+        </a>
+      </div>
     </div>
   </section>
 
@@ -190,7 +232,7 @@ const workGroups = [
       {workGroups.map((g) => (
         <>
           <h3 class="group-title"><span class={`tag ${g.tag}`}>{w[g.id].tag}</span> {w[g.id].title}</h3>
-          <ul class="cards cards--2">
+          <ul class={`cards ${g.id === 'products' ? 'cards--3 cards--work' : 'cards--2'}`}>
             {g.items.map((p) => {
               const target = p.page ? href(lang, p.page) : p.url;
               const external = !p.page && p.url;
@@ -204,7 +246,7 @@ const workGroups = [
                         alt=""
                         formats={['avif', 'webp']}
                         widths={[480, 720]}
-                        sizes="(min-width: 1120px) 536px, (min-width: 640px) 50vw, 100vw"
+                        sizes={g.id === 'products' ? '(min-width: 1120px) 360px, (min-width: 1000px) 33vw, (min-width: 640px) 50vw, 100vw' : '(min-width: 1120px) 536px, (min-width: 640px) 50vw, 100vw'}
                         quality={75}
                         loading="lazy"
                       />
@@ -236,7 +278,7 @@ const workGroups = [
         <p class="lead-sm">{h.single.text}</p>
         <a class="card__link" href={href(lang, 'about')}>{tr.nav.about} →</a>
       </div>
-      <ul class="checklist">
+      <ul class="checklist single-panel">
         {h.single.points.map((p) => <li><Txt text={p} /></li>)}
       </ul>
     </div>
@@ -245,7 +287,7 @@ const workGroups = [
   <section class="section section--alt" aria-labelledby="steps-title">
     <div class="container">
       <h2 id="steps-title">{h.steps.title}</h2>
-      <ol class="steps">
+      <ol class="steps steps--line">
         {h.steps.items.map((s, i) => (
           <li class="step">
             <MoonPhase lit={phases[i]} />
@@ -261,8 +303,9 @@ const workGroups = [
     <div class="container">
       <h2 id="audiences-title">{h.audiences.title}</h2>
       <ul class="cards cards--4">
-        {h.audiences.items.map((a) => (
-          <li class="card card--plain">
+        {h.audiences.items.map((a, i) => (
+          <li class="card card--plain audience">
+            <span class="audience__icon"><HmsIcon name={audienceIcons[i]} size={26} /></span>
             <h3>{a.title}</h3>
             <p>{a.text}</p>
           </li>
