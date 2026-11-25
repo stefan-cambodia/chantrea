@@ -1,21 +1,29 @@
 ---
-// Page « introuvable », dans toutes les langues publiées.
+// Page « introuvable », dans toutes les langues publiées : le « 0 » de 404 est un croissant de lune,
+// puis une carte par langue (titre, phrase, lien vers l'accueil de cette langue).
 import Base from '../layouts/Base.astro';
 import Logo from '../components/Logo.astro';
 import { languages, t, href } from '../i18n/index.js';
 const first = languages[0].code;
 ---
 <Base lang={first} title={t(first).meta.notFound.title} description={t(first).meta.notFound.description} noindex>
-  <main id="main" class="chooser night">
-    <div class="chooser__box">
-      <Logo size={96} id="logo-404" />
-      <h1>404</h1>
-      <ul class="notfound">
-        {languages.map((l) => (
-          <li lang={l.hreflang}>
-            <strong>{t(l.code).notFound.title}</strong> — <a href={href(l.code)}>{t(l.code).notFound.back}</a>
-          </li>
-        ))}
+  <main id="main" class="chooser night lost">
+    <div class="lost__stars" aria-hidden="true"></div>
+    <div class="chooser__box lost__box">
+      <a href={href(first)} class="lost__logo" aria-label="Chantrea Systems"><Logo size={72} id="logo-404" /></a>
+      <h1 class="lost__code"><span>4</span><span class="lost__moon" aria-hidden="true"></span><span class="sr-only">0</span><span>4</span></h1>
+      <ul class="lost__langs">
+        {languages.map((l) => {
+          const n = t(l.code).notFound;
+          return (
+            <li lang={l.hreflang} class="lost__card">
+              <span class="lost__label">{l.label}</span>
+              <strong>{n.title}</strong>
+              <p>{n.text}</p>
+              <a href={href(l.code)}>{n.back} →</a>
+            </li>
+          );
+        })}
       </ul>
     </div>
   </main>

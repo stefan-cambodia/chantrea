@@ -310,7 +310,6 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .card__links { margin: auto 0 0; padding-top: .5rem; display: grid; gap: .35rem; }
 .card .card__links .card__link { margin-top: 0; padding-top: 0; }
 .email { font-size: 1.1rem; font-weight: 600; word-break: break-all; }
-.notfound { margin-top: 1.5rem; display: grid; gap: .6rem; color: var(--night-text); }
 
 /* En-tête sur petit écran : code court de la langue, icône de menu */
 .lang-short { display: none; }
@@ -1070,3 +1069,50 @@ h2.group-title { margin-top: 0; }
 }
 .code-band__out svg { width: 50%; height: auto; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; stroke-linecap: round; }
 .code-band__out svg .f { fill: currentColor; fill-opacity: .35; }
+
+/* ─── Page 404 : « 4 ☾ 4 », ciel étoilé, une carte par langue ─── */
+.lost { position: relative; overflow: hidden; }
+.lost__stars {
+  position: absolute; inset: 0; opacity: .55; pointer-events: none;
+  background-image:
+    radial-gradient(1.5px 1.5px at 12% 18%, #fff 50%, transparent 51%),
+    radial-gradient(1px 1px at 28% 72%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 44% 34%, #fff 50%, transparent 51%),
+    radial-gradient(1px 1px at 63% 12%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 78% 58%, #fff 50%, transparent 51%),
+    radial-gradient(1px 1px at 88% 26%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 8% 84%, #fff 50%, transparent 51%),
+    radial-gradient(1px 1px at 55% 90%, #fff 50%, transparent 51%),
+    radial-gradient(1px 1px at 93% 82%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 36% 8%, #fff 50%, transparent 51%);
+}
+.lost__box { position: relative; z-index: 1; width: min(100%, 60rem); }
+.lost__logo { display: inline-block; }
+.lost__code {
+  display: flex; align-items: center; justify-content: center; gap: clamp(.4rem, 2vw, 1rem); margin: 1rem 0 2rem;
+  font-size: clamp(5rem, 18vw, 9rem) !important; line-height: 1; font-weight: 800; letter-spacing: -.02em; color: var(--night-text);
+}
+.lost__moon {
+  display: inline-block; width: .78em; aspect-ratio: 1; border-radius: 50%;
+  box-shadow: inset .2em -.06em 0 0 var(--moon), 0 0 60px -10px rgba(233, 223, 199, .45);
+  transform: rotate(-18deg);
+}
+.lost__langs { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; text-align: left; }
+.lost__langs > li { flex: 1 1 100%; }
+@media (min-width: 640px) { .lost__langs > li { flex: 0 1 calc(50% - .4rem); } }
+@media (min-width: 960px) { .lost__langs > li { flex: 0 1 calc(33.333% - .55rem); } }
+.lost__card {
+  display: grid; gap: .3rem; align-content: start; padding: 1.1rem 1.2rem; border-radius: var(--radius);
+  background: var(--night-surface); border: 1px solid var(--night-line); color: var(--night-text);
+}
+.lost__label {
+  justify-self: start; margin-bottom: .2rem; padding: .05rem .55rem; border-radius: 999px; font-size: .8rem; font-weight: 700;
+  color: var(--moon-ink); background: var(--moon);
+}
+.lost__card strong { font-size: 1.1rem; }
+.lost__card p { margin: 0; color: var(--night-muted); font-size: .95rem; }
+.lost__card a { margin-top: .4rem; font-weight: 600; }
+@media (prefers-reduced-motion: no-preference) {
+  .lost__moon { animation: lost-glow 5s ease-in-out infinite; }
+  @keyframes lost-glow { 50% { box-shadow: inset .2em -.06em 0 0 var(--moon), 0 0 90px -6px rgba(233, 223, 199, .6); } }
+}
