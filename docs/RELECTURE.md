@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1329 textes relus.
+0 / 1339 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1114,6 +1114,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `apps.snake3d.title` | 3D Snake | 3D Snake |
 | ⏳ à relire | `apps.snake3d.lead` | ហ្គេមពស់ ដែលមើលពីក្រោយក្បាលពស់។ អ្នកដឹកនាំពស់មួយក្បាល ឆ្លងកាត់កោះទីសក្ការៈនៅមាត់បឹង ដែលមានទួល ខឿនថ្ម និងផ្លូវជម្រាល ក្នុងពិភពមួយដែលគ្រប់ម៉ូដែល វាយនភាព សំឡេង និងណោតតន្ត្រី សុទ្ធតែបង្កើតដោយកូដ។ | Le jeu du serpent, vu de derrière la tête de l'animal. On guide un serpent sur des îles-sanctuaires au bord d'un lac, avec collines, terrasses de pierre et rampes, dans un monde dont chaque modèle, texture, son et note de musique est généré par le code. |
 | ⏳ à relire | `apps.snake3d.status` | រួចរាល់ មិនទាន់ចេញផ្សាយ | Terminé, pas encore publié |
+| ⏳ à relire | `apps.snake3d.badges.0` | Android | Android |
+| ⏳ à relire | `apps.snake3d.badges.1` | 14 ដំណាក់កាល | 14 étapes |
+| ⏳ à relire | `apps.snake3d.badges.2` | ទីសក្ការៈ 8 | 8 sanctuaires |
+| ⏳ à relire | `apps.snake3d.badges.3` | រូបរាងពស់ 13 | 13 apparences |
+| ⏳ à relire | `apps.snake3d.badges.4` | 18 ភាសា | 18 langues |
 | ⏳ à relire | `apps.snake3d.gallery.title` | រូបភាពអេក្រង់ | En images |
 | ⏳ à relire | `apps.snake3d.gallery.note` | រូបភាពហ្គេម នៅក្នុងទីសក្ការៈមួយចំនួន។ | Captures du jeu dans quelques-uns de ses sanctuaires. |
 | ⏳ à relire | `apps.snake3d.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
@@ -1161,6 +1166,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `apps.velocity.title` | Velocity | Velocity |
 | ⏳ à relire | `apps.velocity.lead` | ហ្គេមប្រណាំងប្រឆាំងទំនាញ ដែលជាស្នាដៃដើម។ ក្រុមចំនួន 8 បើកយានអណ្ដែតក្នុងល្បឿនជាង 900 គីឡូម៉ែត្រក្នុងមួយម៉ោង លើផ្លូវប្រណាំង 12 ហ្វ្រាំងដោយហ្វ្រាំងខ្យល់ (airbrake) និងដណ្ដើមចំណាត់ថ្នាក់ដោយអាវុធ និងជំនួយ 8 ប្រភេទ។ | Un jeu de course anti-gravité original. Huit écuries pilotent des vaisseaux en sustentation à plus de 900 km/h sur douze circuits, freinent aux aérofreins et se disputent les places avec huit armes et bonus. |
 | ⏳ à relire | `apps.velocity.status` | អាចលេងបាន ប៉ុន្តែមិនទាន់ចេញផ្សាយ | Jouable, pas encore publié |
+| ⏳ à relire | `apps.velocity.badges.0` | Android | Android |
+| ⏳ à relire | `apps.velocity.badges.1` | ផ្លូវប្រណាំង 12 | 12 circuits |
+| ⏳ à relire | `apps.velocity.badges.2` | ក្រុម 8 | 8 écuries |
+| ⏳ à relire | `apps.velocity.badges.3` | របៀបលេង 6 | 6 modes de jeu |
+| ⏳ à relire | `apps.velocity.badges.4` | ជាង 900 គីឡូម៉ែត្រ/ម៉ោង | plus de 900 km/h |
 | ⏳ à relire | `apps.velocity.gallery.title` | រូបភាពអេក្រង់ | En images |
 | ⏳ à relire | `apps.velocity.gallery.note` | រូបភាពហ្គេម លើផ្លូវប្រណាំងមួយចំនួន ក្នុងចំណោមផ្លូវទាំង 12។ | Captures du jeu sur quelques-uns de ses douze circuits. |
 | ⏳ à relire | `apps.velocity.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
@@ -1344,7 +1354,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1329 textes relus.
+0 / 1339 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2450,6 +2460,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `apps.snake3d.title` | 3D Snake | 3D Snake |
 | ⏳ à relire | `apps.snake3d.lead` | «Змейка» с видом из-за головы змеи. Вы ведёте змею по островам-святилищам у озера, с холмами, каменными террасами и пандусами, в мире, где каждая модель, текстура, звук и нота музыки созданы программным кодом. | Le jeu du serpent, vu de derrière la tête de l'animal. On guide un serpent sur des îles-sanctuaires au bord d'un lac, avec collines, terrasses de pierre et rampes, dans un monde dont chaque modèle, texture, son et note de musique est généré par le code. |
 | ⏳ à relire | `apps.snake3d.status` | Готова, ещё не опубликована | Terminé, pas encore publié |
+| ⏳ à relire | `apps.snake3d.badges.0` | Android | Android |
+| ⏳ à relire | `apps.snake3d.badges.1` | 14 этапов | 14 étapes |
+| ⏳ à relire | `apps.snake3d.badges.2` | 8 святилищ | 8 sanctuaires |
+| ⏳ à relire | `apps.snake3d.badges.3` | 13 обликов | 13 apparences |
+| ⏳ à relire | `apps.snake3d.badges.4` | 18 языков | 18 langues |
 | ⏳ à relire | `apps.snake3d.gallery.title` | Скриншоты | En images |
 | ⏳ à relire | `apps.snake3d.gallery.note` | Кадры из игры в нескольких святилищах. | Captures du jeu dans quelques-uns de ses sanctuaires. |
 | ⏳ à relire | `apps.snake3d.gallery.enlarge` | увеличить изображение | agrandir l'image |
@@ -2497,6 +2512,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `apps.velocity.title` | Velocity | Velocity |
 | ⏳ à relire | `apps.velocity.lead` | Оригинальная антигравитационная гонка. Восемь команд ведут парящие корабли со скоростью более 900 км/ч по двенадцати трассам, тормозят воздушными тормозами и борются за места с помощью восьми видов оружия и бонусов. | Un jeu de course anti-gravité original. Huit écuries pilotent des vaisseaux en sustentation à plus de 900 km/h sur douze circuits, freinent aux aérofreins et se disputent les places avec huit armes et bonus. |
 | ⏳ à relire | `apps.velocity.status` | Играбельная версия, ещё не опубликована | Jouable, pas encore publié |
+| ⏳ à relire | `apps.velocity.badges.0` | Android | Android |
+| ⏳ à relire | `apps.velocity.badges.1` | 12 трасс | 12 circuits |
+| ⏳ à relire | `apps.velocity.badges.2` | 8 команд | 8 écuries |
+| ⏳ à relire | `apps.velocity.badges.3` | 6 режимов | 6 modes de jeu |
+| ⏳ à relire | `apps.velocity.badges.4` | более 900 км/ч | plus de 900 km/h |
 | ⏳ à relire | `apps.velocity.gallery.title` | Скриншоты | En images |
 | ⏳ à relire | `apps.velocity.gallery.note` | Кадры из игры на нескольких из двенадцати трасс. | Captures du jeu sur quelques-uns de ses douze circuits. |
 | ⏳ à relire | `apps.velocity.gallery.enlarge` | увеличить изображение | agrandir l'image |
@@ -2680,7 +2700,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1328 textes relus.
+0 / 1338 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -3785,6 +3805,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `apps.snake3d.title` | 3D Snake | 3D Snake |
 | ⏳ à relire | `apps.snake3d.lead` | 视角位于蛇头后方的贪吃蛇。你引导一条蛇穿过湖边的岛屿圣地，那里有山丘、石砌台地和坡道；这个世界里的每个模型、纹理、声音和音符都由代码生成。 | Le jeu du serpent, vu de derrière la tête de l'animal. On guide un serpent sur des îles-sanctuaires au bord d'un lac, avec collines, terrasses de pierre et rampes, dans un monde dont chaque modèle, texture, son et note de musique est généré par le code. |
 | ⏳ à relire | `apps.snake3d.status` | 已完成，尚未发布 | Terminé, pas encore publié |
+| ⏳ à relire | `apps.snake3d.badges.0` | Android | Android |
+| ⏳ à relire | `apps.snake3d.badges.1` | 14 个阶段 | 14 étapes |
+| ⏳ à relire | `apps.snake3d.badges.2` | 8 座圣地 | 8 sanctuaires |
+| ⏳ à relire | `apps.snake3d.badges.3` | 13 种皮肤 | 13 apparences |
+| ⏳ à relire | `apps.snake3d.badges.4` | 18 种语言 | 18 langues |
 | ⏳ à relire | `apps.snake3d.gallery.title` | 界面截图 | En images |
 | ⏳ à relire | `apps.snake3d.gallery.note` | 游戏中几座圣地的画面。 | Captures du jeu dans quelques-uns de ses sanctuaires. |
 | ⏳ à relire | `apps.snake3d.gallery.enlarge` | 放大图片 | agrandir l'image |
@@ -3832,6 +3857,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `apps.velocity.title` | Velocity | Velocity |
 | ⏳ à relire | `apps.velocity.lead` | 一款原创反重力赛车游戏。八支车队驾驶悬浮飞船，以超过 900 公里/小时的速度在十二条赛道上飞驰，用空气制动减速，并用八种武器和道具争夺名次。 | Un jeu de course anti-gravité original. Huit écuries pilotent des vaisseaux en sustentation à plus de 900 km/h sur douze circuits, freinent aux aérofreins et se disputent les places avec huit armes et bonus. |
 | ⏳ à relire | `apps.velocity.status` | 可以玩，尚未发布 | Jouable, pas encore publié |
+| ⏳ à relire | `apps.velocity.badges.0` | Android | Android |
+| ⏳ à relire | `apps.velocity.badges.1` | 12 条赛道 | 12 circuits |
+| ⏳ à relire | `apps.velocity.badges.2` | 8 支车队 | 8 écuries |
+| ⏳ à relire | `apps.velocity.badges.3` | 6 种游戏模式 | 6 modes de jeu |
+| ⏳ à relire | `apps.velocity.badges.4` | 时速超过 900 公里 | plus de 900 km/h |
 | ⏳ à relire | `apps.velocity.gallery.title` | 界面截图 | En images |
 | ⏳ à relire | `apps.velocity.gallery.note` | 十二条赛道中几条的游戏画面。 | Captures du jeu sur quelques-uns de ses douze circuits. |
 | ⏳ à relire | `apps.velocity.gallery.enlarge` | 放大图片 | agrandir l'image |

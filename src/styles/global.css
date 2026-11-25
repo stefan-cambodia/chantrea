@@ -1054,3 +1054,19 @@ h2.group-title { margin-top: 0; }
 }
 .soko-langs__phone { width: min(55%, 13rem); margin-inline: auto; }
 .soko-langs__icon { display: inline-grid; place-items: center; width: 3rem; height: 3rem; border-radius: 50%; color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface)); }
+
+/* ─── 3D Snake, Velocity : captures et bloc « généré par le code » ─── */
+.game-shot img, img.game-shot { display: block; width: 100%; height: auto; border-radius: var(--radius); box-shadow: 0 18px 44px rgba(11, 18, 32, .22); }
+.code-band { display: grid; grid-template-columns: auto auto; justify-content: center; align-items: center; gap: 1.4rem; }
+.code-band__src {
+  position: relative; margin: 0; padding: 1rem 1.1rem; border-radius: 14px; font-family: var(--font-mono); font-size: 1.8rem; font-weight: 700;
+  color: var(--moon-ink); background: var(--moon);
+}
+.code-band__src::after { content: ""; position: absolute; left: 100%; top: 50%; width: 1.2rem; height: 2px; background: var(--moon); }
+.code-band__out { display: grid; grid-template-columns: repeat(2, clamp(4.5rem, 14vw, 6.5rem)); gap: .8rem; padding-left: 1.2rem; border-left: 2px solid var(--moon); }
+.code-band__out li {
+  display: grid; place-items: center; aspect-ratio: 1; border-radius: 14px;
+  background: var(--night-surface); border: 1px solid var(--night-line); color: var(--moon);
+}
+.code-band__out svg { width: 50%; height: auto; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; stroke-linecap: round; }
+.code-band__out svg .f { fill: currentColor; fill-opacity: .35; }

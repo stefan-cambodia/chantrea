@@ -2099,6 +2099,13 @@
       "title": "3D Snake",
       "lead": "Le jeu du serpent, vu de derrière la tête de l'animal. On guide un serpent sur des îles-sanctuaires au bord d'un lac, avec collines, terrasses de pierre et rampes, dans un monde dont chaque modèle, texture, son et note de musique est généré par le code.",
       "status": "Terminé, pas encore publié",
+      "badges": [
+        "Android",
+        "14 étapes",
+        "8 sanctuaires",
+        "13 apparences",
+        "18 langues"
+      ],
       "gallery": {
         "title": "En images",
         "note": "Captures du jeu dans quelques-uns de ses sanctuaires.",
@@ -2182,6 +2189,13 @@
       "title": "Velocity",
       "lead": "Un jeu de course anti-gravité original. Huit écuries pilotent des vaisseaux en sustentation à plus de 900 km/h sur douze circuits, freinent aux aérofreins et se disputent les places avec huit armes et bonus.",
       "status": "Jouable, pas encore publié",
+      "badges": [
+        "Android",
+        "12 circuits",
+        "8 écuries",
+        "6 modes de jeu",
+        "plus de 900 km/h"
+      ],
       "gallery": {
         "title": "En images",
         "note": "Captures du jeu sur quelques-uns de ses douze circuits.",

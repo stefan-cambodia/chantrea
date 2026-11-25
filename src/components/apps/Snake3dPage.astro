@@ -1,0 +1,82 @@
+---
+// Corps de la fiche 3D Snake, dans src/pages/[lang]/[app].astro.
+// Bandeau photo (aube, montagne-temple) et badges, la règle avec une partie sous la pluie, galerie,
+// « tout est généré par le code », points et récompenses avec les apparences, autres points avec pictogrammes.
+// Textes : apps.snake3d.* de chaque fichier de langue (badges compris).
+import ScreenGallery from '../ScreenGallery.astro';
+import HmsIcon from '../HmsIcon.astro';
+import CodeBand from './CodeBand.astro';
+import { Picture } from 'astro:assets';
+import { href } from '../../i18n/index.js';
+
+interface Props { app: any; a: any; tr: any; lang: string }
+const { app, a, tr, lang } = Astro.props;
+const shot = (c) => app.screens.find((s) => s.caption === c);
+// groups : 0 règle, 1 relief, 2 récompenses, 3 généré par le code, 4 accessible, 5 langues.
+const [rule, relief, rewards, code, access, langs] = a.groups;
+const cards = [relief, access, langs];
+const cardIcons = ['layers', 'users', 'lang'];
+const img = { formats: ['avif', 'webp'], widths: [480, 720, 960], quality: 78, sizes: '(min-width: 1120px) 536px, (min-width: 860px) 48vw, 100vw' };
+const km = (b) => (/[ក-៿]/.test(b) ? 'km' : undefined);
+---
+<section class="page-hero night photo-hero">
+  <Picture class="photo-hero__bg" src={shot('dawn').src} alt="" formats={['avif', 'webp']} widths={[640, 960, 1440, 1920]}
+           sizes="100vw" quality={72} loading="eager" aria-hidden="true" />
+  <div class="container">
+    <p class="eyebrow">{a.eyebrow}</p>
+    <h1>{a.title}</h1>
+    <p class="lead">{a.lead}</p>
+    <p class="status"><span class="sr-only">{tr.work.status} : </span>{a.status}</p>
+    <p class="hero-badges">{a.badges.map((b) => <span lang={km(b)}>{b}</span>)}</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="rule-title">
+  <div class="container split split--center">
+    <Picture class="game-shot" src={shot('monsoon').src} alt={a.gallery.captions.monsoon} {...img} loading="lazy" />
+    <div>
+      <h2 id="rule-title">{rule.title}</h2>
+      <ul class="checklist">{rule.items.map((i) => <li>{i}</li>)}</ul>
+    </div>
+  </div>
+</section>
+
+<ScreenGallery screens={app.screens} texts={a.gallery} alt />
+
+<CodeBand group={code} />
+
+<section class="section" aria-labelledby="rewards-title">
+  <div class="container split split--center">
+    <div>
+      <h2 id="rewards-title">{rewards.title}</h2>
+      <ul class="checklist">{rewards.items.map((i) => <li>{i}</li>)}</ul>
+    </div>
+    <Picture class="game-shot" src={shot('skins').src} alt={a.gallery.captions.skins} {...img} loading="lazy" />
+  </div>
+</section>
+
+<section class="section section--alt" aria-labelledby="features-title">
+  <div class="container">
+    <h2 id="features-title">{a.featuresTitle}</h2>
+    <ul class="cards cards--3 rally-features">
+      {cards.map((g, i) => (
+        <li class="card">
+          <span class="rally-features__icon"><HmsIcon name={cardIcons[i]} size={26} /></span>
+          <h3>{g.title}</h3>
+          <ul class="checklist checklist--sm">{g.items.map((i) => <li>{i}</li>)}</ul>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="shows-title">
+  <div class="container split split--center">
+    <div>
+      <h2 id="shows-title">{a.shows.title}</h2>
+      <p class="lead-sm">{a.shows.text}</p>
+      <a class="btn btn--ghost" href={href(lang, 'work')}>{a.shows.cta}</a>
+    </div>
+    <ul class="checklist single-panel">{a.shows.items.map((i) => <li>{i}</li>)}</ul>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+---
+// Bloc « Tout est généré par le code » des fiches 3D Snake et Velocity : quatre pictogrammes
+// (modèle 3D, texture, son, musique), sans texte, puis la liste du groupe.
+interface Props { group: { title: string; items: string[] } }
+const { group } = Astro.props;
+---
+<section class="section night" aria-labelledby="code-title">
+  <div class="container split split--center">
+    <div>
+      <h2 id="code-title">{group.title}</h2>
+      <ul class="checklist">{group.items.map((i) => <li>{i}</li>)}</ul>
+    </div>
+    <div class="code-band" aria-hidden="true">
+      <p class="code-band__src">{'{ }'}</p>
+      <ul class="code-band__out">
+        <li><svg viewBox="0 0 32 32" width="38" height="38"><path d="M16 4l11 6v12l-11 6-11-6V10z M16 16l11-6 M16 16v12 M16 16L5 10" /></svg></li>
+        <li><svg viewBox="0 0 32 32" width="38" height="38"><rect x="5" y="5" width="22" height="22" rx="2" /><path d="M5 12.3h22M5 19.6h22M12.3 5v22M19.6 5v22" /><rect x="5" y="5" width="7.3" height="7.3" class="f" /><rect x="19.6" y="12.3" width="7.4" height="7.3" class="f" /><rect x="12.3" y="19.6" width="7.3" height="7.4" class="f" /></svg></li>
+        <li><svg viewBox="0 0 32 32" width="38" height="38"><path d="M3 16h3l3-8 4 16 4-20 4 18 3-6h5" /></svg></li>
+        <li><svg viewBox="0 0 32 32" width="38" height="38"><path d="M12 24V7l14-3v17" /><circle cx="8.5" cy="24" r="3.5" class="f" /><circle cx="22.5" cy="21" r="3.5" class="f" /></svg></li>
+      </ul>
+    </div>
+  </div>
+</section>
