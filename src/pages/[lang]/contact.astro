@@ -1,8 +1,11 @@
 ---
+// Contact : trois cartes (e-mail, Telegram, WhatsApp), les conseils en trois étapes numérotées, et la zone d'intervention.
+// Coordonnées : site.config.mjs (contact) ; un identifiant « [À COMPLÉTER] » s'affiche surligné, sans lien.
 import config from '../../../site.config.mjs';
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
-import ContactButtons from '../../components/ContactButtons.astro';
+import AboutIcon from '../../components/AboutIcon.astro';
+import MoonPhase from '../../components/MoonPhase.astro';
 import { langPaths, t } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -10,24 +13,55 @@ export const getStaticPaths = langPaths;
 const { lang } = Astro.params;
 const tr = t(lang);
 const c = tr.contactPage;
-const mailto = `mailto:${config.contact.email}?subject=${encodeURIComponent(tr.contact.emailSubject)}`;
+const { email, telegram, whatsapp } = config.contact;
+const isTodo = (v: string) => !v || v.startsWith('[');
+const mailto = `mailto:${email}?subject=${encodeURIComponent(tr.contact.emailSubject)}`;
+const channels = [
+  { id: 'mail', icon: 'mail', title: c.emailTitle, value: email, href: mailto, label: tr.contact.email, primary: true },
+  { id: 'telegram', icon: 'send', title: tr.contact.telegram, value: telegram, href: isTodo(telegram) ? null : `https://t.me/${telegram}`, label: tr.contact.telegram },
+  { id: 'whatsapp', icon: 'phone', title: tr.contact.whatsapp, value: whatsapp, href: isTodo(whatsapp) ? null : `https://wa.me/${whatsapp}`, label: tr.contact.whatsapp },
+];
+const phases = [0.25, 0.5, 0.75];
 ---
 <Page lang={lang} page="contact" title={tr.meta.contact.title} description={tr.meta.contact.description} cta={false}>
-  <PageHero title={c.title} lead={c.lead}>
-    <div class="actions"><ContactButtons lang={lang} /></div>
-  </PageHero>
-  <section class="section">
-    <div class="container split">
-      <div>
-        <h2>{c.tipsTitle}</h2>
-        <ul class="checklist">{c.tips.map((tip) => <li>{tip}</li>)}</ul>
-      </div>
-      <div>
-        <h2>{c.emailTitle}</h2>
-        <p><a class="email" href={mailto}>{config.contact.email}</a></p>
-        <h2>{c.whereTitle}</h2>
-        <p>{c.where}</p>
-      </div>
+  <PageHero title={c.title} lead={c.lead} />
+
+  <section class="section contact-page">
+    <div class="container">
+      <ul class="cards contact-channels">
+        {channels.map((ch) => (
+          <li class={`card contact-channel contact-channel--${ch.id}`}>
+            <span class="contact-channel__icon"><AboutIcon name={ch.icon} size={26} /></span>
+            <h2 class="h3">{ch.title}</h2>
+            <p class="contact-channel__value">
+              {isTodo(ch.value) ? <mark class="todo">{ch.value}</mark> : ch.id === 'mail' ? <a class="email" href={ch.href}>{ch.value}</a> : ch.value}
+            </p>
+            {ch.href
+              ? <a class={`btn ${ch.primary ? 'btn--primary' : 'btn--ghost'}`} href={ch.href} rel={ch.primary ? undefined : 'noopener'}>{ch.label} →</a>
+              : <span class="btn btn--ghost is-todo" aria-disabled="true">{ch.label}</span>}
+          </li>
+        ))}
+      </ul>
+
+      <section class="contact-tips" aria-labelledby="tips-title">
+        <h2 id="tips-title">{c.tipsTitle}</h2>
+        <ol class="contact-tips__list">
+          {c.tips.map((tip, i) => (
+            <li>
+              <span class="contact-tips__step" aria-hidden="true"><MoonPhase lit={phases[i] ?? 1} size={34} /><span>{i + 1}</span></span>
+              <p>{tip}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="contact-where" aria-labelledby="where-title">
+        <span class="contact-channel__icon"><AboutIcon name="globe" size={26} /></span>
+        <div>
+          <h2 id="where-title" class="h3">{c.whereTitle}</h2>
+          <p>{c.where}</p>
+        </div>
+      </section>
     </div>
   </section>
 </Page>

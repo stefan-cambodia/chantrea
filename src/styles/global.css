@@ -465,6 +465,44 @@ h2.group-title { margin-top: 0; }
 .about-jobs .h3 { margin: 0 0 .3rem; }
 @media (min-width: 760px) { .about-jobs { grid-template-columns: auto 1fr auto; } }
 
+/* ─── Page Contact ───────────────────────────────────────────── */
+.contact-page .container { display: grid; gap: 2.5rem; }
+.contact-channels { gap: 1.25rem; }
+@media (min-width: 760px) { .contact-channels { grid-template-columns: repeat(3, 1fr); } }
+.contact-channel { gap: .4rem; align-items: flex-start; transition: transform .2s ease, box-shadow .2s ease; }
+.contact-channel:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(11, 18, 32, .1); }
+.contact-channel--mail { border-top: 4px solid var(--accent); }
+.contact-channel .h3 { margin: .8rem 0 0; }
+.contact-channel__value { margin: 0 0 1rem; color: var(--text) !important; }
+.contact-channel .btn { margin-top: auto; }
+.contact-channel__icon {
+  display: inline-grid; place-items: center; flex: none; width: 3.2rem; height: 3.2rem; border-radius: 14px;
+  color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+}
+.contact-tips h2 { margin-bottom: 1.2rem; }
+.contact-tips__list { display: grid; gap: 1rem; counter-reset: none; }
+@media (min-width: 760px) { .contact-tips__list { grid-template-columns: repeat(3, 1fr); } }
+.contact-tips__list li {
+  display: flex; gap: .9rem; align-items: flex-start; padding: 1.2rem 1.3rem;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+}
+.contact-tips__list p { margin: .35rem 0 0; }
+.contact-tips__step { position: relative; display: grid; place-items: center; flex: none; }
+.contact-tips__step span {
+  position: absolute; right: -.45rem; bottom: -.35rem; display: grid; place-items: center; width: 1.3rem; height: 1.3rem;
+  border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-family: var(--font-mono); font-size: .72rem; font-weight: 700;
+}
+.contact-where {
+  display: flex; gap: 1.1rem; align-items: flex-start; padding: 1.5rem; border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+}
+.contact-where .h3 { margin: .2rem 0 .3rem; }
+.contact-where p { margin: 0; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) {
+  .contact-channel { transition: none; }
+  .contact-channel:hover { transform: none; }
+}
+
 /* ─── Page Réalisations : vignettes, raccourcis, survol ─────── */
 .work-jump { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; }
 .work-jump a {
