@@ -370,6 +370,41 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .hms-facts h2 { margin-bottom: .8rem; }
 .hms-facts p { color: var(--muted); }
 
+/* ─── Page HMS : haut de page avec capture, pictogrammes ────── */
+.hms-hero__grid { display: grid; gap: 2rem; align-items: center; }
+@media (min-width: 900px) { .hms-hero__grid { grid-template-columns: 1fr 1.05fr; gap: 3rem; } }
+.hms-hero h1 { max-width: none; }
+.browser-frame {
+  position: relative; z-index: 1; border-radius: 12px; overflow: hidden; background: #fff;
+  border: 1px solid var(--night-line); box-shadow: 0 24px 60px rgba(0, 0, 0, .45);
+  transform: perspective(1400px) rotateY(-4deg); transform-origin: left center;
+}
+.browser-frame__bar { display: flex; gap: .4rem; padding: .55rem .7rem; background: var(--night-surface); border-bottom: 1px solid var(--night-line); }
+.browser-frame__bar span { width: .6rem; height: .6rem; border-radius: 50%; background: var(--night-line); }
+.browser-frame img { display: block; width: 100%; height: auto; }
+@media (max-width: 899px) { .browser-frame { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .browser-frame { transform: none; } }
+.hms-icon-box {
+  display: inline-grid; place-items: center; flex: none; width: 2.6rem; height: 2.6rem; border-radius: 11px;
+  color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+}
+.hms-features__head { display: flex; align-items: center; gap: .75rem; margin-bottom: .9rem; }
+.hms-features__head h3 { margin: 0; }
+.hms-features .card { transition: transform .2s ease, box-shadow .2s ease; }
+.hms-features .card:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(11, 18, 32, .1); }
+.hms-facts .card h2 { margin: .9rem 0 .6rem; }
+.hms-steps { display: grid; gap: .6rem; counter-reset: step; font-size: .97rem; }
+.hms-steps li { position: relative; padding-left: 2.1rem; counter-increment: step; }
+.hms-steps li::before {
+  content: counter(step); position: absolute; left: 0; top: .05rem; display: grid; place-items: center;
+  width: 1.45rem; height: 1.45rem; border-radius: 50%; background: var(--accent); color: var(--accent-ink);
+  font-family: var(--font-mono); font-size: .75rem; font-weight: 700;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hms-features .card { transition: none; }
+  .hms-features .card:hover { transform: none; }
+}
+
 /* ─── Schéma d'infrastructure ──────────────────────────────── */
 .split--center { align-items: center; }
 .infra { margin: 0; }

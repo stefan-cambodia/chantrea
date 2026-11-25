@@ -2,7 +2,7 @@
 // Galerie de captures : images optimisées (AVIF/WebP, plusieurs tailles),
 // chargées seulement quand elles approchent de l'écran. Un clic ouvre la grande version.
 // screens : [{ caption, src }], la première en grand (sauf capture en hauteur).
-// Les captures en hauteur (téléphone tenu droit) s'affichent deux par ligne sur téléphone, quatre sur grand écran.
+// Les captures de téléphone tenu droit (hauteur > 1,6 × largeur) s'affichent deux par ligne sur téléphone, quatre sur grand écran.
 // texts   : { title, note, enlarge, captions } (ex. hms.gallery d'un fichier de langue).
 // alt     : fond alterné (section--alt).
 import { Picture, getImage } from 'astro:assets';
@@ -14,8 +14,10 @@ const screens = await Promise.all(
     ...s,
     alt: g.captions[s.caption],
     full: (await getImage({ src: s.src, width: Math.min(1440, s.src.width), format: 'webp', quality: 85 })).src,
-    tall: s.src.height > s.src.width,
-    featured: i === 0 && s.src.height <= s.src.width,
+    // Capture de téléphone tenu droit : nettement plus haute que large (ex. 540 × 1200).
+    // Une capture d'ordinateur un peu haute (ex. 1440 × 1795) garde la largeur normale.
+    tall: s.src.height > s.src.width * 1.6,
+    featured: i === 0 && s.src.height <= s.src.width * 1.6,
     eager: i === 0,
   })),
 );

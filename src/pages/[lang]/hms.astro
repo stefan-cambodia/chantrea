@@ -1,7 +1,8 @@
 ---
 import config from '../../../site.config.mjs';
 import Page from '../../layouts/Page.astro';
-import PageHero from '../../components/PageHero.astro';
+import HmsIcon from '../../components/HmsIcon.astro';
+import { Picture } from 'astro:assets';
 import ScreenGallery from '../../components/ScreenGallery.astro';
 import { screensFor } from '../../data/hms-screens.js';
 import { langPaths, t, href } from '../../i18n/index.js';
@@ -11,6 +12,10 @@ export const getStaticPaths = langPaths;
 const { lang } = Astro.params;
 const tr = t(lang);
 const h = tr.hms;
+const screens = screensFor(lang);
+const heroScreen = screens.find((s) => s.caption === 'dashboard');
+// Pictogramme de chaque groupe de fonctions, dans l'ordre de hms.groups (identique dans toutes les langues).
+const groupIcons = ['calendar', 'bell', 'users', 'tag', 'receipt', 'moon', 'wrench', 'utensils', 'car', 'chart', 'badge', 'sun'];
 
 // Données structurées : le logiciel, sans note, prix ni avis (rien d'inventé).
 const softwareJsonLd = {
@@ -26,9 +31,33 @@ const softwareJsonLd = {
 };
 ---
 <Page lang={lang} page="hms" title={tr.meta.hms.title} description={tr.meta.hms.description} jsonLd={[softwareJsonLd]}>
-  <PageHero eyebrow={h.eyebrow} title={h.title} lead={h.lead}>
-    <div class="actions"><a class="btn btn--primary" href={href(lang, 'contact')}>{h.cta}</a></div>
-  </PageHero>
+  <section class="page-hero night hms-hero">
+    <div class="container hms-hero__grid">
+      <div>
+        <p class="eyebrow">{h.eyebrow}</p>
+        <h1>{h.title}</h1>
+        <p class="lead">{h.lead}</p>
+        <div class="actions">
+          <a class="btn btn--primary" href={href(lang, 'contact')}>{h.cta}</a>
+          <a class="btn btn--ghost" href="#gallery-title">{h.gallery.title} ↓</a>
+        </div>
+      </div>
+      {/* Capture du tableau de bord dans un cadre de navigateur (décoratif : la même capture est dans la galerie). */}
+      <div class="browser-frame" aria-hidden="true">
+        <div class="browser-frame__bar"><span></span><span></span><span></span></div>
+        <Picture
+          src={heroScreen.src}
+          alt=""
+          formats={['avif', 'webp']}
+          widths={[480, 720, 960]}
+          sizes="(min-width: 1120px) 560px, (min-width: 900px) 50vw, 100vw"
+          quality={80}
+          loading="eager"
+        />
+      </div>
+    </div>
+    <div class="hero__moon hero__moon--small" aria-hidden="true"></div>
+  </section>
 
   <section class="section" aria-labelledby="intro-title">
     <div class="container split">
@@ -46,15 +75,18 @@ const softwareJsonLd = {
     </div>
   </section>
 
-  <ScreenGallery screens={screensFor(lang)} texts={h.gallery} alt />
+  <ScreenGallery screens={screens} texts={h.gallery} alt />
 
   <section class="section" aria-labelledby="features-title">
     <div class="container">
       <h2 id="features-title">{h.featuresTitle}</h2>
-      <ul class="cards cards--3 features">
-        {h.groups.map((g) => (
+      <ul class="cards cards--3 features hms-features">
+        {h.groups.map((g, i) => (
           <li class="card">
-            <h3>{g.title}</h3>
+            <div class="hms-features__head">
+              <span class="hms-icon-box"><HmsIcon name={groupIcons[i] ?? 'dot'} /></span>
+              <h3>{g.title}</h3>
+            </div>
             <ul class="checklist checklist--sm">{g.items.map((i) => <li>{i}</li>)}</ul>
           </li>
         ))}
@@ -64,15 +96,18 @@ const softwareJsonLd = {
 
   <section class="section section--alt" aria-labelledby="how-title">
     <div class="container cards cards--3 hms-facts">
-      <div>
+      <div class="card">
+        <span class="hms-icon-box"><HmsIcon name="server" /></span>
         <h2 class="h3" id="how-title">{h.how.title}</h2>
-        <ul class="checklist checklist--sm">{h.how.items.map((i) => <li>{i}</li>)}</ul>
+        <ol class="hms-steps">{h.how.items.map((i) => <li>{i}</li>)}</ol>
       </div>
-      <div>
+      <div class="card">
+        <span class="hms-icon-box"><HmsIcon name="lang" /></span>
         <h2 class="h3">{h.languages.title}</h2>
         <p>{h.languages.text}</p>
       </div>
-      <div>
+      <div class="card">
+        <span class="hms-icon-box"><HmsIcon name="hotel" /></span>
         <h2 class="h3">{h.audience.title}</h2>
         <p>{h.audience.text}</p>
       </div>
