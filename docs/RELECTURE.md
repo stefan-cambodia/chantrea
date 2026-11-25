@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1219 textes relus.
+0 / 1228 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -560,6 +560,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.8.title` | Mattermost៖ ការផ្ញើសាររបស់ក្រុមការងាររបស់លោកអ្នក | Mattermost : la messagerie de votre équipe |
 | ⏳ à relire | `services.items.8.summary` | កម្មវិធីផ្ញើសាររបស់ក្រុមការងារ ដែលដំឡើងលើម៉ាស៊ីនមេ (server) របស់លោកអ្នក៖ ឆានែល (channel) សារផ្ទាល់ខ្លួន ខ្សែសន្ទនា (thread) ឯកសារ និងការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក។ | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
 | ⏳ à relire | `services.items.8.lead` | Mattermost រៀបចំការសន្ទនារបស់ក្រុមការងារតាមឆានែល (channel) ដូចកម្មវិធីផ្ញើសារធំៗសម្រាប់ក្រុមហ៊ុនដែរ ប៉ុន្តែនៅលើម៉ាស៊ីនមេដែលលោកអ្នកជ្រើសរើស។ ការសន្ទនាការងារលែងឆ្លងកាត់កម្មវិធីផ្ញើសារសម្រាប់ប្រើផ្ទាល់ខ្លួនទៀតហើយ។ | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
+| ⏳ à relire | `services.items.8.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.8.badges.1` | macOS | macOS |
+| ⏳ à relire | `services.items.8.badges.2` | Linux | Linux |
+| ⏳ à relire | `services.items.8.badges.3` | Android | Android |
+| ⏳ à relire | `services.items.8.badges.4` | iPhone | iPhone |
 | ⏳ à relire | `services.items.8.metaTitle` | Mattermost នៅកម្ពុជា៖ ការផ្ញើសាររបស់ក្រុមការងារ — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
 | ⏳ à relire | `services.items.8.metaDescription` | Mattermost កម្មវិធីផ្ញើសាររបស់ក្រុមការងារ ដែលដំឡើងលើម៉ាស៊ីនមេរបស់លោកអ្នក៖ ឆានែល (channel) សារផ្ទាល់ខ្លួន ឯកសារចែករំលែក កម្មវិធីសម្រាប់កុំព្យូទ័រ និងទូរស័ព្ទ ការជូនដំណឹងពី Zabbix។ | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
 | ⏳ à relire | `services.items.8.sections.0.title` | អ្វីដែល Mattermost ធ្វើ | Ce que fait Mattermost |
@@ -570,6 +575,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.8.sections.0.list.4` | កម្មវិធីសម្រាប់ Windows, macOS, Linux, Android និង iPhone និងកំណែមួយក្នុងកម្មវិធីរុករក (browser)។ | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
 | ⏳ à relire | `services.items.8.sections.1.title` | ការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក | Les alertes de vos outils |
 | ⏳ à relire | `services.items.8.sections.1.text` | Mattermost ទទួលសារពីកម្មវិធីផ្សេងទៀត តាមរយៈ webhook។ ការជូនដំណឹងពីការតាមដានប្រព័ន្ធ (monitoring) Zabbix ឬសារពីកម្មវិធីផ្ទាល់របស់លោកអ្នក មកដល់ក្នុងឆានែលមួយ៖ ក្រុមការងារឃើញវា ហើយពិភាក្សាអំពីវានៅកន្លែងតែមួយ។ | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
+| ⏳ à relire | `services.items.8.sections.1.flow.0` | Zabbix រកឃើញបញ្ហា | Zabbix détecte un problème |
+| ⏳ à relire | `services.items.8.sections.1.flow.1` | Webhook | Webhook |
+| ⏳ à relire | `services.items.8.sections.1.flow.2` | ឆានែល «ការជូនដំណឹង» | Canal « alertes » |
+| ⏳ à relire | `services.items.8.sections.1.flow.3` | ក្រុមការងារពិភាក្សាគ្នា | L'équipe en discute |
 | ⏳ à relire | `services.items.8.sections.2.title` | គួរជ្រើសរើសកំណែមួយណា | Quelle version choisir |
 | ⏳ à relire | `services.items.8.sections.2.text` | Mattermost មានច្រើនកំណែ ហើយភាពខុសគ្នារវាងកំណែទាំងនោះមានសារៈសំខាន់។ ខ្ញុំពន្យល់វាដល់លោកអ្នក មុនពេលជ្រើសរើស៖ | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
 | ⏳ à relire | `services.items.8.sections.2.defs.0.term` | Team Edition | Team Edition |
@@ -1234,7 +1243,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1218 textes relus.
+0 / 1227 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1785,6 +1794,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.8.title` | Mattermost: переписка вашей команды | Mattermost : la messagerie de votre équipe |
 | ⏳ à relire | `services.items.8.summary` | Командный мессенджер, установленный на вашем сервере: каналы, личные сообщения, ветки обсуждений, файлы и оповещения ваших систем. | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
 | ⏳ à relire | `services.items.8.lead` | Mattermost организует общение команды по каналам, как крупные корпоративные мессенджеры, но на сервере, который выбираете вы. Рабочие разговоры больше не идут через личные мессенджеры. | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
+| ⏳ à relire | `services.items.8.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.8.badges.1` | macOS | macOS |
+| ⏳ à relire | `services.items.8.badges.2` | Linux | Linux |
+| ⏳ à relire | `services.items.8.badges.3` | Android | Android |
+| ⏳ à relire | `services.items.8.badges.4` | iPhone | iPhone |
 | ⏳ à relire | `services.items.8.metaTitle` | Mattermost в Камбодже: мессенджер для команды — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
 | ⏳ à relire | `services.items.8.metaDescription` | Mattermost — командный мессенджер на вашем сервере: каналы, личные сообщения, ветки, общие файлы, приложения для компьютера и телефона, оповещения Zabbix. | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
 | ⏳ à relire | `services.items.8.sections.0.title` | Что делает Mattermost | Ce que fait Mattermost |
@@ -1795,6 +1809,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.8.sections.0.list.4` | Приложения для Windows, macOS, Linux, Android и iPhone, а также версия в браузере. | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
 | ⏳ à relire | `services.items.8.sections.1.title` | Оповещения ваших систем | Les alertes de vos outils |
 | ⏳ à relire | `services.items.8.sections.1.text` | Mattermost получает сообщения от других программ через вебхуки. Оповещение мониторинга Zabbix или сообщение от ваших собственных программ приходит в канал: команда видит его и обсуждает в одном месте. | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
+| ⏳ à relire | `services.items.8.sections.1.flow.0` | Zabbix обнаруживает проблему | Zabbix détecte un problème |
+| ⏳ à relire | `services.items.8.sections.1.flow.1` | Webhook | Webhook |
+| ⏳ à relire | `services.items.8.sections.1.flow.2` | Канал «Оповещения» | Canal « alertes » |
+| ⏳ à relire | `services.items.8.sections.1.flow.3` | Команда обсуждает | L'équipe en discute |
 | ⏳ à relire | `services.items.8.sections.2.title` | Какую версию выбрать | Quelle version choisir |
 | ⏳ à relire | `services.items.8.sections.2.text` | У Mattermost есть несколько версий, и различия между ними важны. Я объясню их вам до того, как вы выберете: | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
 | ⏳ à relire | `services.items.8.sections.2.defs.0.term` | Team Edition | Team Edition |
@@ -2459,7 +2477,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1218 textes relus.
+0 / 1227 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -3010,6 +3028,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.8.title` | Mattermost：您团队的通讯工具 | Mattermost : la messagerie de votre équipe |
 | ⏳ à relire | `services.items.8.summary` | 安装在您服务器上的团队通讯工具：频道、私信、讨论串、文件，以及来自您各种工具的警报。 | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
 | ⏳ à relire | `services.items.8.lead` | Mattermost 像大型企业通讯软件一样，按频道组织团队的交流，只是放在您选择的服务器上。工作上的对话不再经过个人聊天软件。 | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
+| ⏳ à relire | `services.items.8.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.8.badges.1` | macOS | macOS |
+| ⏳ à relire | `services.items.8.badges.2` | Linux | Linux |
+| ⏳ à relire | `services.items.8.badges.3` | Android | Android |
+| ⏳ à relire | `services.items.8.badges.4` | iPhone | iPhone |
 | ⏳ à relire | `services.items.8.metaTitle` | 柬埔寨 Mattermost 私有团队通讯 — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
 | ⏳ à relire | `services.items.8.metaDescription` | Mattermost，安装在您服务器上的团队通讯工具：频道、私信、讨论串、共享文件，电脑和手机应用，Zabbix 警报。可以装在您那里、我们这里，或云端。 | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
 | ⏳ à relire | `services.items.8.sections.0.title` | Mattermost 能做什么 | Ce que fait Mattermost |
@@ -3020,6 +3043,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.8.sections.0.list.4` | Windows、macOS、Linux、Android 和 iPhone 应用，还有浏览器版本。 | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
 | ⏳ à relire | `services.items.8.sections.1.title` | 来自您各种工具的警报 | Les alertes de vos outils |
 | ⏳ à relire | `services.items.8.sections.1.text` | Mattermost 通过 webhook 接收其他软件发来的消息。一条 Zabbix 监控警报，或您自己软件发出的消息，会发到某个频道：团队在同一个地方看到它，并一起讨论。 | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
+| ⏳ à relire | `services.items.8.sections.1.flow.0` | Zabbix 发现问题 | Zabbix détecte un problème |
+| ⏳ à relire | `services.items.8.sections.1.flow.1` | Webhook | Webhook |
+| ⏳ à relire | `services.items.8.sections.1.flow.2` | “警报”频道 | Canal « alertes » |
+| ⏳ à relire | `services.items.8.sections.1.flow.3` | 团队讨论处理 | L'équipe en discute |
 | ⏳ à relire | `services.items.8.sections.2.title` | 选哪个版本 | Quelle version choisir |
 | ⏳ à relire | `services.items.8.sections.2.text` | Mattermost 有好几个版本，差别很重要。选择之前，我会给您解释清楚： | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
 | ⏳ à relire | `services.items.8.sections.2.defs.0.term` | Team Edition | Team Edition |

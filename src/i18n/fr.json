@@ -1039,10 +1039,18 @@
         "title": "Mattermost : la messagerie de votre équipe",
         "summary": "Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils.",
         "lead": "Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles.",
+        "badges": [
+          "Windows",
+          "macOS",
+          "Linux",
+          "Android",
+          "iPhone"
+        ],
         "metaTitle": "Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems",
         "metaDescription": "Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix.",
         "sections": [
           {
+            "icon": "chat",
             "title": "Ce que fait Mattermost",
             "list": [
               "Des canaux par équipe, par projet ou par client, publics ou privés.",
@@ -1050,13 +1058,22 @@
               "Des fils de discussion, pour répondre à un message sans encombrer le canal.",
               "Des fichiers et des images partagés, et une recherche dans les messages.",
               "Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur."
+            ],
+            "tiles": true
+          },
+          {
+            "icon": "pulse",
+            "title": "Les alertes de vos outils",
+            "text": "Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit.",
+            "flow": [
+              "Zabbix détecte un problème",
+              "Webhook",
+              "Canal « alertes »",
+              "L'équipe en discute"
             ]
           },
           {
-            "title": "Les alertes de vos outils",
-            "text": "Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit."
-          },
-          {
+            "icon": "layers",
             "title": "Quelle version choisir",
             "text": "Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir :",
             "defs": [
@@ -1075,6 +1092,7 @@
             ]
           },
           {
+            "icon": "cloud",
             "title": "Mattermost ou Nextcloud Talk ?",
             "text": "Nextcloud a aussi sa messagerie, Talk. Si vous installez Nextcloud pour vos fichiers, Talk suffit souvent. Mattermost est pensé d'abord pour la discussion d'équipe : de nombreux canaux, des fils de discussion, des liens avec vos autres outils.",
             "link": {
@@ -1083,6 +1101,7 @@
             }
           },
           {
+            "icon": "calendar",
             "title": "Ce que je fais pour vous",
             "list": [
               "Choisir avec vous la version qui convient.",
@@ -1091,9 +1110,11 @@
               "Relier vos outils, par exemple les alertes Zabbix.",
               "Installer les applications sur les ordinateurs et les téléphones.",
               "Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "info",
             "title": "Ce qu'il faut savoir",
             "list": [
               "Mattermost n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une vingtaine de langues.",

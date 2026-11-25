@@ -1038,10 +1038,18 @@
         "title": "Mattermost：您团队的通讯工具",
         "summary": "安装在您服务器上的团队通讯工具：频道、私信、讨论串、文件，以及来自您各种工具的警报。",
         "lead": "Mattermost 像大型企业通讯软件一样，按频道组织团队的交流，只是放在您选择的服务器上。工作上的对话不再经过个人聊天软件。",
+        "badges": [
+          "Windows",
+          "macOS",
+          "Linux",
+          "Android",
+          "iPhone"
+        ],
         "metaTitle": "柬埔寨 Mattermost 私有团队通讯 — Chantrea Systems",
         "metaDescription": "Mattermost，安装在您服务器上的团队通讯工具：频道、私信、讨论串、共享文件，电脑和手机应用，Zabbix 警报。可以装在您那里、我们这里，或云端。",
         "sections": [
           {
+            "icon": "chat",
             "title": "Mattermost 能做什么",
             "list": [
               "按团队、按项目或按客户建频道，公开或私密。",
@@ -1049,13 +1057,22 @@
               "讨论串：回复某条消息，不会刷屏整个频道。",
               "共享文件和图片，并可搜索消息。",
               "Windows、macOS、Linux、Android 和 iPhone 应用，还有浏览器版本。"
+            ],
+            "tiles": true
+          },
+          {
+            "icon": "pulse",
+            "title": "来自您各种工具的警报",
+            "text": "Mattermost 通过 webhook 接收其他软件发来的消息。一条 Zabbix 监控警报，或您自己软件发出的消息，会发到某个频道：团队在同一个地方看到它，并一起讨论。",
+            "flow": [
+              "Zabbix 发现问题",
+              "Webhook",
+              "“警报”频道",
+              "团队讨论处理"
             ]
           },
           {
-            "title": "来自您各种工具的警报",
-            "text": "Mattermost 通过 webhook 接收其他软件发来的消息。一条 Zabbix 监控警报，或您自己软件发出的消息，会发到某个频道：团队在同一个地方看到它，并一起讨论。"
-          },
-          {
+            "icon": "layers",
             "title": "选哪个版本",
             "text": "Mattermost 有好几个版本，差别很重要。选择之前，我会给您解释清楚：",
             "defs": [
@@ -1074,6 +1091,7 @@
             ]
           },
           {
+            "icon": "cloud",
             "title": "Mattermost 还是 Nextcloud Talk？",
             "text": "Nextcloud 也有自己的聊天工具 Talk。如果您装 Nextcloud 是为了存放文件，Talk 往往就够用了。Mattermost 首先是为团队讨论设计的：大量频道、讨论串，以及与您其他工具的对接。",
             "link": {
@@ -1082,6 +1100,7 @@
             }
           },
           {
+            "icon": "calendar",
             "title": "我为您做什么",
             "list": [
               "和您一起选出合适的版本。",
@@ -1090,9 +1109,11 @@
               "对接您的工具，例如 Zabbix 警报。",
               "在电脑和手机上安装应用。",
               "维护：每晚备份，安全更新，升级到新版本。"
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "info",
             "title": "需要了解的事",
             "list": [
               "Mattermost 没有高棉语版本：界面有英语、法语、中文、俄语等约二十种语言。",

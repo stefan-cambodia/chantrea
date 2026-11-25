@@ -1039,10 +1039,18 @@
         "title": "Mattermost: your team's messaging",
         "summary": "Team messaging installed on your server: channels, direct messages, threads, files, and alerts from your tools.",
         "lead": "Mattermost organises your team's conversations in channels, like the big business messaging apps, but on a server you choose. Work conversations no longer go through personal messaging apps.",
+        "badges": [
+          "Windows",
+          "macOS",
+          "Linux",
+          "Android",
+          "iPhone"
+        ],
         "metaTitle": "Mattermost in Cambodia: team messaging — Chantrea Systems",
         "metaDescription": "Mattermost, team messaging on your own server: channels, direct messages, threads, shared files, apps for computer and phone, Zabbix alerts.",
         "sections": [
           {
+            "icon": "chat",
             "title": "What Mattermost does",
             "list": [
               "Channels by team, by project or by customer, public or private.",
@@ -1050,13 +1058,22 @@
               "Threads, to reply to a message without cluttering the channel.",
               "Shared files and images, and search across messages.",
               "Apps for Windows, macOS, Linux, Android and iPhone, and a version in the browser."
+            ],
+            "tiles": true
+          },
+          {
+            "icon": "pulse",
+            "title": "Alerts from your tools",
+            "text": "Mattermost receives messages from other software through webhooks. A Zabbix monitoring alert, or a message from your own software, arrives in a channel: the team sees it and discusses it in the same place.",
+            "flow": [
+              "Zabbix detects a problem",
+              "Webhook",
+              "“Alerts” channel",
+              "The team discusses it"
             ]
           },
           {
-            "title": "Alerts from your tools",
-            "text": "Mattermost receives messages from other software through webhooks. A Zabbix monitoring alert, or a message from your own software, arrives in a channel: the team sees it and discusses it in the same place."
-          },
-          {
+            "icon": "layers",
             "title": "Which edition to choose",
             "text": "Mattermost comes in several editions, and the differences matter. I explain them to you before you choose:",
             "defs": [
@@ -1075,6 +1092,7 @@
             ]
           },
           {
+            "icon": "cloud",
             "title": "Mattermost or Nextcloud Talk?",
             "text": "Nextcloud also has its own messaging, Talk. If you install Nextcloud for your files, Talk is often enough. Mattermost is designed first for team discussion: many channels, threads, links with your other tools.",
             "link": {
@@ -1083,6 +1101,7 @@
             }
           },
           {
+            "icon": "calendar",
             "title": "What I do for you",
             "list": [
               "Choose with you the right edition.",
@@ -1091,9 +1110,11 @@
               "Connect your tools, for example Zabbix alerts.",
               "Install the apps on computers and phones.",
               "Maintain it: a backup every night, security updates, moving to new versions."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "info",
             "title": "Good to know",
             "list": [
               "Mattermost is not available in Khmer: its screens are in English, French, Chinese, Russian and about twenty languages.",
