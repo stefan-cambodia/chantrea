@@ -1,6 +1,7 @@
 ---
 // Accueil : présentation, quatre domaines, HMS, infrastructure, Odoo et Mattermost, sécurité,
-// sélection de réalisations (« Nos réalisations » puis « En cours »), fondateur et méthode, publics, contact.
+// sélection de réalisations (« En cours », « Nos réalisations », « Son et musique », comme la page Réalisations),
+// fondateur et méthode, publics, contact.
 import Page from '../../layouts/Page.astro';
 import Txt from '../../components/Txt.astro';
 import MoonPhase from '../../components/MoonPhase.astro';
@@ -12,6 +13,7 @@ import { homeScreen as rallyScreen } from '../../data/rally-screens.js';
 import { homeScreen as angkorScreen } from '../../data/angkor-screens.js';
 import { screensFor } from '../../data/hms-screens.js';
 import projects from '../../data/projects.js';
+import workImages from '../../data/work-images.js';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -24,12 +26,20 @@ const phases = [0.25, 0.5, 0.75, 1];
 const domains = tr.services.items.filter((i) => !i.parent);
 const hmsScreen = screensFor(lang).find((s) => s.caption === 'dashboard');
 
-// Sélection de réalisations : « Nos réalisations », puis deux projets en cours de développement avec image.
+// Sélection de réalisations, dans l'ordre de la page Réalisations :
+// deux projets en cours avec image, tous les projets de « Nos réalisations », puis « Son et musique » avec image.
 const project = (id) => ({ ...projects.find((p) => p.id === id), ...w.items[id] });
-const products = projects.filter((p) => p.group === 'products').map((p) => project(p.id));
-const rd = [
-  { ...project('rally'), image: rallyScreen.src },
-  { ...project('angkor'), image: angkorScreen.src },
+const byGroup = (g) => projects.filter((p) => p.group === g).map((p) => project(p.id));
+const workGroups = [
+  {
+    id: 'skills', tag: 'tag--rd', card: 'project--rd',
+    items: [
+      { ...project('rally'), image: rallyScreen.src },
+      { ...project('angkor'), image: angkorScreen.src },
+    ],
+  },
+  { id: 'products', tag: 'tag--product', card: 'project--product', items: byGroup('products') },
+  { id: 'sound', tag: 'tag--sound', card: 'project--sound', items: byGroup('sound').map((p) => ({ ...p, image: workImages[p.id]?.[0] })) },
 ];
 ---
 <Page lang={lang} title={tr.meta.home.title} description={tr.meta.home.description}>
@@ -152,42 +162,44 @@ const rd = [
       <h2 id="work-title">{h.work.title}</h2>
       <p class="section__intro">{h.work.text}</p>
 
-      <h3 class="group-title"><span class="tag tag--product">{w.products.tag}</span> {w.products.title}</h3>
-      <ul class="cards cards--2">
-        {products.map((p) => (
-          <li class="card project project--product">
-            <p class="eyebrow">{p.kind}</p>
-            <h4 class="h3">{p.title}</h4>
-            <p class="status"><span class="sr-only">{w.status} : </span>{p.status}</p>
-            <p>{p.text}</p>
-            {p.link && p.page && <a class="card__link" href={href(lang, p.page)}>{p.link} →</a>}
-          </li>
-        ))}
-      </ul>
-
-      <h3 class="group-title"><span class="tag tag--rd">{w.skills.tag}</span> {w.skills.title}</h3>
-      <ul class="cards cards--2">
-        {rd.map((p) => (
-          <li class="card project project--rd">
-            <a class="project__media" href={href(lang, p.page)} tabindex="-1" aria-hidden="true">
-              <Picture
-                src={p.image}
-                alt=""
-                formats={['avif', 'webp']}
-                widths={[480, 720]}
-                sizes="(min-width: 1120px) 536px, (min-width: 640px) 50vw, 100vw"
-                quality={75}
-                loading="lazy"
-              />
-            </a>
-            <p class="eyebrow">{p.kind}</p>
-            <h4 class="h3">{p.title}</h4>
-            <p class="status"><span class="sr-only">{w.status} : </span>{p.status}</p>
-            <p>{p.text}</p>
-            <a class="card__link" href={href(lang, p.page)}>{p.link} →</a>
-          </li>
-        ))}
-      </ul>
+      {workGroups.map((g) => (
+        <>
+          <h3 class="group-title"><span class={`tag ${g.tag}`}>{w[g.id].tag}</span> {w[g.id].title}</h3>
+          <ul class="cards cards--2">
+            {g.items.map((p) => {
+              const target = p.page ? href(lang, p.page) : p.url;
+              const external = !p.page && p.url;
+              return (
+                <li class={`card project ${g.card}`}>
+                  {p.image && (
+                    <a class="project__media" href={target} target={external ? '_blank' : undefined}
+                       rel={external ? 'noopener' : undefined} tabindex="-1" aria-hidden="true">
+                      <Picture
+                        src={p.image}
+                        alt=""
+                        formats={['avif', 'webp']}
+                        widths={[480, 720]}
+                        sizes="(min-width: 1120px) 536px, (min-width: 640px) 50vw, 100vw"
+                        quality={75}
+                        loading="lazy"
+                      />
+                    </a>
+                  )}
+                  <p class="eyebrow">{p.kind}</p>
+                  <h4 class="h3">{p.title}</h4>
+                  <p class="status"><span class="sr-only">{w.status} : </span>{p.status}</p>
+                  <p>{p.text}</p>
+                  {p.link && target && (
+                    <a class="card__link" href={target} target={external ? '_blank' : undefined} rel={external ? 'noopener' : undefined}>
+                      {p.link} {external ? '↗' : '→'}{external && <span class="sr-only"> {tr.a11y.newWindow}</span>}
+                    </a>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      ))}
       <p class="more-link"><a class="btn btn--ghost" href={href(lang, 'work')}>{h.work.cta}</a></p>
     </div>
   </section>
