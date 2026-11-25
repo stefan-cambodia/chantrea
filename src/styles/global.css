@@ -967,3 +967,45 @@ h2.group-title { margin-top: 0; }
 .angkor-temples__shots picture:last-child img { display: block; width: 100%; height: auto; border-radius: 10px; border: 4px solid var(--surface); box-shadow: 0 14px 36px rgba(11, 18, 32, .3); }
 @media (max-width: 559px) { .angkor-temples__shots picture:last-child { right: 0; } }
 .angkor-temples__names { margin: 1rem 0 1.4rem; }
+
+/* ─── Acpc (émulateur Amstrad CPC) ───────────────────────── */
+.acpc-hero__badges span { font-family: var(--font-mono); }
+.acpc-hero__badges span:first-child { background: var(--night-surface); color: var(--night-text); border-color: var(--night-line); }
+.acpc-phone {
+  position: relative; z-index: 1; padding: .6rem 1.4rem; border-radius: 26px; background: #11161f;
+  border: 1px solid var(--night-line); box-shadow: 0 24px 60px rgba(0, 0, 0, .5);
+}
+.acpc-phone img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.acpc-duo { display: grid; gap: 1.2rem; }
+@media (min-width: 900px) { .acpc-duo { grid-template-columns: 1fr 1fr; } }
+.acpc-panel { padding: clamp(1.3rem, 3vw, 1.8rem); border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+.acpc-panel h2 { font-size: clamp(1.3rem, 2.6vw, 1.6rem); }
+.acpc-models { display: grid; grid-template-columns: repeat(auto-fill, minmax(5.6rem, 1fr)); gap: .5rem; margin: 1rem 0 1.3rem; }
+.acpc-models li {
+  display: grid; place-items: center; min-height: 3.6rem; padding: .4rem .2rem; border-radius: 8px; text-align: center;
+  background: #000080; border: 3px solid #1a1a5c; box-shadow: inset 0 0 18px rgba(0, 0, 0, .45);
+}
+.acpc-models span { font-family: var(--font-mono); font-weight: 700; font-size: .84rem; white-space: nowrap; color: #ffff00; letter-spacing: .02em; }
+.acpc-models li:nth-child(4) { background: #00007a; border-color: #5a5ab0; }
+.acpc-models li:nth-child(5) { background: #1b1b1b; border-color: #444; }
+.acpc-models li:nth-child(5) span { color: #ff5a5a; }
+.acpc-formats { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; margin: 1rem 0 1.3rem; }
+.acpc-formats li {
+  display: grid; justify-items: center; gap: .35rem; padding: .7rem .3rem; border-radius: 10px;
+  color: var(--accent); background: color-mix(in srgb, var(--accent) 9%, var(--surface)); border: 1px solid var(--line);
+}
+.acpc-formats b { font-family: var(--font-mono); font-size: .95rem; color: var(--text); }
+.acpc-steps { display: grid; gap: 1rem; margin-top: 1.4rem; counter-reset: none; }
+@media (min-width: 860px) { .acpc-steps { grid-template-columns: repeat(3, 1fr); } }
+.acpc-steps li { position: relative; padding: 1.2rem 1.3rem; border-radius: var(--radius); background: var(--night-surface); border: 1px solid var(--night-line); }
+.acpc-steps p { margin: .7rem 0 0; color: var(--night-text); }
+.acpc-steps__num {
+  display: inline-grid; place-items: center; width: 2.2rem; height: 2.2rem; border-radius: 50%;
+  font-family: var(--font-mono); font-weight: 700; color: #000080; background: #ffff00;
+}
+@media (min-width: 860px) {
+  .acpc-steps li:not(:last-child)::after {
+    content: "→"; position: absolute; right: -.85rem; top: 50%; translate: 0 -50%; z-index: 1;
+    color: var(--moon); font-weight: 700;
+  }
+}

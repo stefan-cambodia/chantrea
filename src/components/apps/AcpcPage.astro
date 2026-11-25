@@ -1,0 +1,110 @@
+---
+// Corps de la fiche Acpc (émulateur Amstrad CPC pour Android), dans src/pages/[lang]/[app].astro.
+// Bandeau avec la capture du CPC 6128 dans un téléphone tenu en largeur, les cinq machines façon écran CPC,
+// les supports (.dsk, .cdt, .cpr, .sna), galerie, « un jeu choisi, un jeu lancé » en trois étapes,
+// autres points avec pictogrammes, ce que le projet montre.
+// Textes : apps.acpc.* de chaque fichier de langue ; aucun texte propre à ce composant
+// (noms de machines et extensions de fichiers : identiques dans toutes les langues).
+import ScreenGallery from '../ScreenGallery.astro';
+import HmsIcon from '../HmsIcon.astro';
+import { Picture } from 'astro:assets';
+import { href } from '../../i18n/index.js';
+
+interface Props { app: any; a: any; tr: any; lang: string }
+const { app, a, tr, lang } = Astro.props;
+const boot = app.screens.find((s) => s.caption === 'basic');
+// groups : 0 machines, 1 supports, 2 lancement, 3 tactile, 4 bibliothèque, 5 tests.
+const [machines, media, launch, ...rest] = a.groups;
+const restIcons = ['mobile', 'database', 'badge'];
+const models = ['CPC 464', 'CPC 664', 'CPC 6128', '6128 Plus', 'GX4000'];
+const formats = [
+  { ext: '.dsk', icon: 'disk' },
+  { ext: '.cdt', icon: 'tape' },
+  { ext: '.cpr', icon: 'cart' },
+  { ext: '.sna', icon: 'snap' },
+];
+---
+<section class="page-hero night acpc-hero">
+  <div class="container hms-hero__grid">
+    <div>
+      <p class="eyebrow">{a.eyebrow}</p>
+      <h1>{a.title}</h1>
+      <p class="lead">{a.lead}</p>
+      <p class="status"><span class="sr-only">{tr.work.status} : </span>{a.status}</p>
+      <p class="hero-badges acpc-hero__badges">{models.map((m) => <span>{m}</span>)}</p>
+    </div>
+    <div class="acpc-phone" aria-hidden="true">
+      <Picture src={boot.src} alt="" formats={['avif', 'webp']} widths={[480, 720, 1080]}
+               sizes="(min-width: 1120px) 540px, (min-width: 900px) 48vw, 100vw" quality={80} loading="eager" />
+    </div>
+  </div>
+  <div class="hero__moon hero__moon--small" aria-hidden="true"></div>
+</section>
+
+<section class="section" aria-labelledby="machines-title">
+  <div class="container acpc-duo">
+    <div class="acpc-panel">
+      <h2 id="machines-title">{machines.title}</h2>
+      <ul class="acpc-models" aria-hidden="true">
+        {models.map((m) => <li><span>{m}</span></li>)}
+      </ul>
+      <ul class="checklist checklist--sm">{machines.items.map((i) => <li>{i}</li>)}</ul>
+    </div>
+    <div class="acpc-panel">
+      <h2>{media.title}</h2>
+      <ul class="acpc-formats" aria-hidden="true">
+        {formats.map((f) => (
+          <li>
+            <svg viewBox="0 0 32 32" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+              {f.icon === 'disk' && <><rect x="5" y="4" width="22" height="24" rx="2" /><rect x="10" y="4" width="12" height="8" /><rect x="9" y="17" width="14" height="11" rx="1" /></>}
+              {f.icon === 'tape' && <><rect x="3" y="7" width="26" height="18" rx="2" /><circle cx="11" cy="15" r="3" /><circle cx="21" cy="15" r="3" /><path d="M8 25l2-4h12l2 4" /></>}
+              {f.icon === 'cart' && <><path d="M6 5h20v18l-3 4H9l-3-4z" /><path d="M10 27v-3M14 27v-3M18 27v-3M22 27v-3" /><rect x="10" y="9" width="12" height="8" rx="1" /></>}
+              {f.icon === 'snap' && <><rect x="4" y="9" width="24" height="17" rx="2" /><path d="M11 9l2-3h6l2 3" /><circle cx="16" cy="17" r="4.5" /></>}
+            </svg>
+            <b>{f.ext}</b>
+          </li>
+        ))}
+      </ul>
+      <ul class="checklist checklist--sm">{media.items.map((i) => <li>{i}</li>)}</ul>
+    </div>
+  </div>
+</section>
+
+<ScreenGallery screens={app.screens} texts={a.gallery} alt />
+
+<section class="section night acpc-launch" aria-labelledby="launch-title">
+  <div class="container">
+    <h2 id="launch-title">{launch.title}</h2>
+    <ol class="acpc-steps">
+      {launch.items.map((i, n) => (
+        <li><span class="acpc-steps__num" aria-hidden="true">{n + 1}</span><p>{i}</p></li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="features-title">
+  <div class="container">
+    <h2 id="features-title">{a.featuresTitle}</h2>
+    <ul class="cards cards--3 rally-features">
+      {rest.map((g, i) => (
+        <li class="card">
+          <span class="rally-features__icon"><HmsIcon name={restIcons[i]} size={26} /></span>
+          <h3>{g.title}</h3>
+          <ul class="checklist checklist--sm">{g.items.map((i) => <li>{i}</li>)}</ul>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<section class="section section--alt" aria-labelledby="shows-title">
+  <div class="container split split--center">
+    <div>
+      <h2 id="shows-title">{a.shows.title}</h2>
+      <p class="lead-sm">{a.shows.text}</p>
+      <a class="btn btn--ghost" href={href(lang, 'work')}>{a.shows.cta}</a>
+    </div>
+    <ul class="checklist single-panel">{a.shows.items.map((i) => <li>{i}</li>)}</ul>
+  </div>
+</section>
