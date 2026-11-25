@@ -74,6 +74,7 @@
   "nav": {
     "services": "服务",
     "hms": "HMS",
+    "odoo": "Odoo",
     "rally": "Cambodia Rally",
     "angkor": "吴哥 3D",
     "work": "项目案例",
@@ -785,13 +786,21 @@
       {
         "id": "odoo-development",
         "parent": "development",
+        "icon": "layers",
         "title": "Odoo 模块开发",
         "summary": "为 Odoo 定制模块：您的界面、单据、业务规则，以及与其他软件的对接。另有专门面向柬埔寨和高棉语的方向。",
         "lead": "Odoo 能满足很多需求，但每家企业都有自己的做法。缺了什么，我就开发一个模块加到 Odoo 上，不改动它的原始代码。",
+        "badges": [
+          "Odoo 19 Community",
+          "OCA",
+          "ខ្មែរ",
+          "USD · KHR"
+        ],
         "metaTitle": "柬埔寨 Odoo 定制模块开发 — Chantrea Systems",
         "metaDescription": "Odoo 定制模块：界面、符合您格式的发票和报表、自动化、数据导入、与其他软件对接。支持高棉语、美元和瑞尔。",
         "sections": [
           {
+            "icon": "layers",
             "title": "模块能做什么",
             "list": [
               "按您的工作方式增加字段、界面和流程步骤。",
@@ -800,9 +809,23 @@
               "自动任务：提醒、催款、定时操作、审核前的检查。",
               "从 Excel 文件或旧软件导入您的数据。",
               "通过 API 与您的其他软件对接：网站、网店、行业软件。"
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "receipt",
+            "title": "已经完成：我们自己的 Odoo",
+            "text": "我们为 Chantrea Systems 开发了自己的 Odoo 19 Community 模块：高棉语和英语的报价单和发票，并以美元和瑞尔显示总额；三种语言的客户门户；约 700 条翻译成高棉语的文本；以及由客户现场签字确认的上门服务。",
+            "link": {
+              "page": "services/odoo",
+              "label": "查看我们对 Odoo 的改进"
+            }
+          },
+          {
+            "figure": "invoice"
+          },
+          {
+            "icon": "calendar",
             "title": "我的做法",
             "list": [
               "我为 Odoo 的开源免费版 Odoo 19 Community 开发模块。",
@@ -810,9 +833,11 @@
               "独立的模块，不改动 Odoo 的代码：以后照样可以升级。",
               "上线前，先在您数据库的副本上用真实数据测试。",
               "模块附带说明：它做什么，怎么设置。"
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "server",
             "title": "您的 Odoo 在哪里运行",
             "text": "定制模块需要把 Odoo 装在服务器上：您那里、我们这里或云端。Odoo Online（由 Odoo 开发商托管的版本）不支持定制模块。",
             "link": {
@@ -821,6 +846,7 @@
             }
           },
           {
+            "icon": "info",
             "title": "需要了解的事",
             "list": [
               "Odoo 每年发布一个新版本。每次升级，定制模块都要相应调整：需要提前考虑。",
@@ -835,6 +861,7 @@
       {
         "id": "odoo-cambodia",
         "parent": "odoo-development",
+        "icon": "lang",
         "title": "高棉语 Odoo，面向柬埔寨",
         "summary": "专门面向柬埔寨企业的方向：高棉语 Odoo、高棉语或双语单据、美元和瑞尔、本地规则。",
         "lead": "我以 Odoo 的开源免费版 Odoo 19 Community 为基础，针对柬埔寨进行调整：员工的语言、两种货币、客户期待的单据。",

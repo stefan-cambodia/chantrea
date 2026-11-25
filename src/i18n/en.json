@@ -74,6 +74,7 @@
   "nav": {
     "services": "Services",
     "hms": "HMS",
+    "odoo": "Odoo",
     "rally": "Cambodia Rally",
     "angkor": "Angkor 3D",
     "work": "Work",
@@ -785,13 +786,21 @@
       {
         "id": "odoo-development",
         "parent": "development",
+        "icon": "layers",
         "title": "Odoo module development",
         "summary": "Custom modules for Odoo: your screens, your documents, your rules and your links with other software. With a branch dedicated to Cambodia and Khmer.",
         "lead": "Odoo covers many needs, but every business has its own habits. When something is missing, I develop a module that adds to Odoo, without changing its original code.",
+        "badges": [
+          "Odoo 19 Community",
+          "OCA",
+          "ខ្មែរ",
+          "USD · KHR"
+        ],
         "metaTitle": "Custom Odoo modules in Cambodia — Chantrea Systems",
         "metaDescription": "Custom Odoo modules: screens, invoices and reports in your format, automations, data imports, links with your software. Khmer, dollar and riel.",
         "sections": [
           {
+            "icon": "layers",
             "title": "What a module can do",
             "list": [
               "Fields, screens and steps that follow the way you work.",
@@ -800,9 +809,23 @@
               "Automatic tasks: reminders, follow-ups, scheduled actions, checks before validation.",
               "Importing your data from Excel files or from your old software.",
               "Links with your other software through APIs: website, online shop, business software."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "receipt",
+            "title": "Already done: our own Odoo",
+            "text": "For Chantrea Systems, we have developed our own Odoo 19 Community modules: quotations and invoices in Khmer and English, with totals in US dollars and riels, a customer portal in three languages, about 700 texts translated into Khmer, and on-site jobs signed by the customer.",
+            "link": {
+              "page": "services/odoo",
+              "label": "See our changes to Odoo"
+            }
+          },
+          {
+            "figure": "invoice"
+          },
+          {
+            "icon": "calendar",
             "title": "How I work",
             "list": [
               "I develop for Odoo 19 Community, the free and open-source edition of Odoo.",
@@ -810,9 +833,11 @@
               "A separate module that does not change Odoo's code: updates remain possible.",
               "A trial on a copy of your database, with your real data, before going live.",
               "A documented module: what it does, and how to configure it."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "server",
             "title": "Where your Odoo runs",
             "text": "Custom modules need Odoo installed on a server: on your premises, with us or in the cloud. Odoo Online, the version hosted by the publisher, does not accept them.",
             "link": {
@@ -821,6 +846,7 @@
             }
           },
           {
+            "icon": "info",
             "title": "Good to know",
             "list": [
               "Odoo releases a new version every year. At each upgrade, custom modules have to be adapted: plan for it.",
@@ -835,6 +861,7 @@
       {
         "id": "odoo-cambodia",
         "parent": "odoo-development",
+        "icon": "lang",
         "title": "Odoo in Khmer, for Cambodia",
         "summary": "A branch dedicated to businesses in Cambodia: Odoo in Khmer, documents in Khmer or bilingual, dollar and riel, local rules.",
         "lead": "I start from Odoo 19 Community, the free and open-source edition of Odoo, and adapt it to Cambodia: your team's language, the two currencies, the documents your customers expect.",

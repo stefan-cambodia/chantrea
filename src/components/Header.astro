@@ -7,13 +7,24 @@ import config from '../../site.config.mjs';
 interface Props { lang: string; page?: string }
 const { lang, page = '' } = Astro.props;
 const tr = t(lang);
-// Cambodia Rally, Angkor 3D et les fiches Android sont rangés sous « Réalisations ».
+// Cambodia Rally, Angkor 3D et les fiches Android sont rangés sous « Réalisations » ;
+// la page « Odoo en khmer » est rangée sous le lien « Odoo » (développement de modules Odoo).
 const sectionOf: Record<string, string> = {
   rally: 'work', angkor: 'work', acpc: 'work', asokoban: 'work', '3d-snake': 'work', velocity: 'work',
+  'services/odoo-cambodia': 'services/odoo-development',
 };
-const links = ['services', 'hms', 'work', 'about', 'jobs', 'contact'].map((slug) => ({
+// key : texte dans nav ; slug : adresse de la page.
+const links = [
+  { key: 'services', slug: 'services' },
+  { key: 'hms', slug: 'hms' },
+  { key: 'odoo', slug: 'services/odoo-development' },
+  { key: 'work', slug: 'work' },
+  { key: 'about', slug: 'about' },
+  { key: 'jobs', slug: 'jobs' },
+  { key: 'contact', slug: 'contact' },
+].map(({ key, slug }) => ({
   slug,
-  label: tr.nav[slug],
+  label: tr.nav[key],
   current: page === slug ? 'page' : page.startsWith(`${slug}/`) || sectionOf[page] === slug ? 'true' : undefined,
 }));
 // Lien « Espace client » : affiché seulement quand portalUrl est renseigné dans site.config.mjs.

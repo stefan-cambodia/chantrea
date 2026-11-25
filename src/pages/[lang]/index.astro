@@ -8,6 +8,7 @@ import MoonPhase from '../../components/MoonPhase.astro';
 import DomainIcon from '../../components/DomainIcon.astro';
 import InfraDiagram from '../../components/InfraDiagram.astro';
 import InventoryFlow from '../../components/InventoryFlow.astro';
+import InvoiceMock from '../../components/InvoiceMock.astro';
 import { Picture } from 'astro:assets';
 import { homeScreen as rallyScreen } from '../../data/rally-screens.js';
 import { homeScreen as angkorScreen } from '../../data/angkor-screens.js';
@@ -25,6 +26,10 @@ const w = tr.work;
 const phases = [0.25, 0.5, 0.75, 1];
 const domains = tr.services.items.filter((i) => !i.parent);
 const hmsScreen = screensFor(lang).find((s) => s.caption === 'dashboard');
+// Bandeau « Développement de modules Odoo » : textes de l'offre (services.items), rien de nouveau.
+const odooDev = tr.services.items.find((i) => i.id === 'odoo-development');
+const odooDomain = tr.services.items.find((i) => i.id === odooDev.parent);
+const odooKh = tr.services.items.find((i) => i.id === 'odoo-cambodia');
 
 // Sélection de réalisations, dans l'ordre de la page Réalisations :
 // deux projets en cours, tous les projets de « Nos réalisations », puis « Son et musique », chacun avec son image
@@ -107,6 +112,22 @@ const workGroups = [
           loading="lazy"
         />
       </a>
+    </div>
+  </section>
+
+  <section class="section night odoo-band" aria-labelledby="odoo-dev-title">
+    <div class="container split split--center">
+      <div>
+        <p class="eyebrow">{odooDomain.title}</p>
+        <h2 id="odoo-dev-title">{odooDev.title}</h2>
+        <p class="lead-sm">{odooDev.summary}</p>
+        <ul class="checklist">{odooDev.sections[0].list.slice(0, 4).map((p) => <li>{p}</li>)}</ul>
+        <div class="actions">
+          <a class="btn btn--primary" href={href(lang, 'services/odoo-development')}>{tr.services.more}<span class="sr-only"> : {odooDev.title}</span> →</a>
+          <a class="btn btn--ghost" href={href(lang, 'services/odoo-cambodia')}>{odooKh.title}</a>
+        </div>
+      </div>
+      <InvoiceMock />
     </div>
   </section>
 

@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1232 textes relus.
+0 / 1242 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -52,6 +52,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `a11y.newWindow` | (បើកក្នុងផ្ទាំងថ្មី) | (s'ouvre dans un nouvel onglet) |
 | ⏳ à relire | `nav.services` | សេវាកម្ម | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
+| ⏳ à relire | `nav.odoo` | Odoo | Odoo |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | អង្គរ 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | ស្នាដៃ | Réalisations |
@@ -425,6 +426,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.5.title` | ការអភិវឌ្ឍមុខងារបន្ថែម (module) Odoo | Développement de modules Odoo |
 | ⏳ à relire | `services.items.5.summary` | មុខងារបន្ថែម (module) តាមតម្រូវការសម្រាប់ Odoo៖ អេក្រង់ ឯកសារ ច្បាប់ការងារ និងការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀតរបស់លោកអ្នក។ ព្រមទាំងផ្នែកមួយដែលឧទ្ទិសសម្រាប់កម្ពុជា និងភាសាខ្មែរ។ | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
 | ⏳ à relire | `services.items.5.lead` | Odoo ឆ្លើយតបនឹងតម្រូវការជាច្រើន ប៉ុន្តែអាជីវកម្មនីមួយៗមានទម្លាប់ការងាររៀងៗខ្លួន។ នៅពេលខ្វះអ្វីមួយ ខ្ញុំអភិវឌ្ឍមុខងារបន្ថែម (module) ដែលបន្ថែមលើ Odoo ដោយមិនកែប្រែកូដដើមរបស់វា។ | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
+| ⏳ à relire | `services.items.5.badges.0` | Odoo 19 Community | Odoo 19 Community |
+| ⏳ à relire | `services.items.5.badges.1` | OCA | OCA |
+| ⏳ à relire | `services.items.5.badges.2` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.5.badges.3` | USD · KHR | USD · KHR |
 | ⏳ à relire | `services.items.5.metaTitle` | មុខងារបន្ថែម Odoo តាមតម្រូវការ នៅកម្ពុជា — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.5.metaDescription` | មុខងារបន្ថែម (module) Odoo តាមតម្រូវការ៖ អេក្រង់ វិក្កយបត្រ និងរបាយការណ៍តាមទម្រង់របស់លោកអ្នក ការងារស្វ័យប្រវត្តិ ការនាំចូលទិន្នន័យ ការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀត។ ភាសាខ្មែរ ប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
 | ⏳ à relire | `services.items.5.sections.0.title` | អ្វីដែលមុខងារបន្ថែមមួយអាចធ្វើបាន | Ce qu'un module peut faire |
@@ -434,21 +439,26 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.5.sections.0.list.3` | ការងារស្វ័យប្រវត្តិ៖ ការរំលឹក ការដាស់តឿន សកម្មភាពតាមកាលវិភាគ និងការត្រួតពិនិត្យមុនពេលអនុម័ត។ | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
 | ⏳ à relire | `services.items.5.sections.0.list.4` | ការនាំចូលទិន្នន័យរបស់លោកអ្នក ពីឯកសារ Excel ឬពីកម្មវិធីចាស់របស់លោកអ្នក។ | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
 | ⏳ à relire | `services.items.5.sections.0.list.5` | ការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀតរបស់លោកអ្នក តាមរយៈ API៖ គេហទំព័រ ហាងអនឡាញ កម្មវិធីអាជីវកម្ម។ | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
-| ⏳ à relire | `services.items.5.sections.1.title` | របៀបធ្វើការរបស់ខ្ញុំ | Ma façon de faire |
-| ⏳ à relire | `services.items.5.sections.1.list.0` | ខ្ញុំអភិវឌ្ឍសម្រាប់ Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo។ | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.1.list.1` | ជាដំបូង ពិនិត្យមើលថា តើ Odoo ឬមុខងារបន្ថែមដែលមានស្រាប់ អាចធ្វើបានហើយឬនៅ។ មុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA (Odoo Community Association) ឆ្លើយតបនឹងតម្រូវការជាច្រើន។ វាចំណាយតិចជាងសម្រាប់លោកអ្នក។ | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
-| ⏳ à relire | `services.items.5.sections.1.list.2` | មុខងារបន្ថែមដាច់ដោយឡែក ដែលមិនកែប្រែកូដរបស់ Odoo៖ ការធ្វើបច្ចុប្បន្នភាពនៅតែអាចធ្វើបាន។ | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
-| ⏳ à relire | `services.items.5.sections.1.list.3` | ការសាកល្បងលើច្បាប់ចម្លងនៃមូលដ្ឋានទិន្នន័យរបស់លោកអ្នក ជាមួយទិន្នន័យពិត មុនពេលដាក់ឱ្យប្រើប្រាស់។ | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
-| ⏳ à relire | `services.items.5.sections.1.list.4` | មុខងារបន្ថែមដែលមានឯកសារពន្យល់៖ វាធ្វើអ្វីខ្លះ និងរបៀបកំណត់វា។ | Un module documenté : ce qu'il fait, et comment le régler. |
-| ⏳ à relire | `services.items.5.sections.2.title` | កន្លែងដែល Odoo របស់លោកអ្នកដំណើរការ | Où tourne votre Odoo |
-| ⏳ à relire | `services.items.5.sections.2.text` | មុខងារបន្ថែមតាមតម្រូវការ ត្រូវការ Odoo ដែលដំឡើងលើម៉ាស៊ីនមេ (server)៖ នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud)។ Odoo Online ដែលជាកំណែបង្ហោះដោយក្រុមហ៊ុន Odoo ផ្ទាល់ មិនទទួលយកមុខងារបន្ថែមទាំងនេះទេ។ | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
-| ⏳ à relire | `services.items.5.sections.2.link.page` | services/business-software | services/business-software |
-| ⏳ à relire | `services.items.5.sections.2.link.label` | ការដំឡើង និងការថែទាំ Odoo | Installer et entretenir Odoo |
-| ⏳ à relire | `services.items.5.sections.3.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.5.sections.3.list.0` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ។ រាល់ពេលដំឡើងកំណែ (upgrade) មុខងារបន្ថែមតាមតម្រូវការត្រូវតែកែសម្រួល៖ ត្រូវគ្រោងទុកជាមុន។ | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
-| ⏳ à relire | `services.items.5.sections.3.list.1` | មុខងារបន្ថែមតូចមួយដែលមានគោលដៅច្បាស់ ល្អជាងមុខងារបន្ថែមធំ៖ មានអ្វីតិចជាងដែលត្រូវកែសម្រួល នៅរាល់កំណែថ្មី។ | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
-| ⏳ à relire | `services.items.5.sections.3.list.2` | Odoo ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា។ ខ្ញុំមិនមែនជាដៃគូផ្លូវការរបស់ក្រុមហ៊ុន Odoo ទេ។ | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.3.list.3` | សម្រាប់គម្រោងរបស់លោកអ្នក ខ្ញុំប្រាប់លោកអ្នកយ៉ាងច្បាស់ ពីអ្វីដែលខ្ញុំបានធ្វើរួចហើយនៅកន្លែងផ្សេង និងអ្វីដែលនឹងជារឿងថ្មី។ | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
+| ⏳ à relire | `services.items.5.sections.1.title` | បានធ្វើរួចហើយ៖ Odoo ផ្ទាល់ខ្លួនរបស់យើង | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.5.sections.1.text` | សម្រាប់ Chantrea Systems យើងបានអភិវឌ្ឍម៉ូឌុល Odoo 19 Community ផ្ទាល់ខ្លួន៖ សម្រង់តម្លៃ និងវិក្កយបត្រជាភាសាខ្មែរ និងអង់គ្លេស ដែលមានចំនួនសរុបជាប្រាក់ដុល្លារ និងប្រាក់រៀល ទំព័រអតិថិជនជាបីភាសា អត្ថបទប្រហែល 700 ដែលបានបកប្រែជាភាសាខ្មែរ និងការងារនៅទីតាំង ដែលអតិថិជនចុះហត្ថលេខានៅនឹងកន្លែង។ | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.5.sections.1.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.5.sections.1.link.label` | មើលការកែសម្រួល Odoo របស់យើង | Voir nos modifications d'Odoo |
+| ⏳ à relire | `services.items.5.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.5.sections.3.title` | របៀបធ្វើការរបស់ខ្ញុំ | Ma façon de faire |
+| ⏳ à relire | `services.items.5.sections.3.list.0` | ខ្ញុំអភិវឌ្ឍសម្រាប់ Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo។ | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
+| ⏳ à relire | `services.items.5.sections.3.list.1` | ជាដំបូង ពិនិត្យមើលថា តើ Odoo ឬមុខងារបន្ថែមដែលមានស្រាប់ អាចធ្វើបានហើយឬនៅ។ មុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA (Odoo Community Association) ឆ្លើយតបនឹងតម្រូវការជាច្រើន។ វាចំណាយតិចជាងសម្រាប់លោកអ្នក។ | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
+| ⏳ à relire | `services.items.5.sections.3.list.2` | មុខងារបន្ថែមដាច់ដោយឡែក ដែលមិនកែប្រែកូដរបស់ Odoo៖ ការធ្វើបច្ចុប្បន្នភាពនៅតែអាចធ្វើបាន។ | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
+| ⏳ à relire | `services.items.5.sections.3.list.3` | ការសាកល្បងលើច្បាប់ចម្លងនៃមូលដ្ឋានទិន្នន័យរបស់លោកអ្នក ជាមួយទិន្នន័យពិត មុនពេលដាក់ឱ្យប្រើប្រាស់។ | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
+| ⏳ à relire | `services.items.5.sections.3.list.4` | មុខងារបន្ថែមដែលមានឯកសារពន្យល់៖ វាធ្វើអ្វីខ្លះ និងរបៀបកំណត់វា។ | Un module documenté : ce qu'il fait, et comment le régler. |
+| ⏳ à relire | `services.items.5.sections.4.title` | កន្លែងដែល Odoo របស់លោកអ្នកដំណើរការ | Où tourne votre Odoo |
+| ⏳ à relire | `services.items.5.sections.4.text` | មុខងារបន្ថែមតាមតម្រូវការ ត្រូវការ Odoo ដែលដំឡើងលើម៉ាស៊ីនមេ (server)៖ នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud)។ Odoo Online ដែលជាកំណែបង្ហោះដោយក្រុមហ៊ុន Odoo ផ្ទាល់ មិនទទួលយកមុខងារបន្ថែមទាំងនេះទេ។ | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
+| ⏳ à relire | `services.items.5.sections.4.link.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.5.sections.4.link.label` | ការដំឡើង និងការថែទាំ Odoo | Installer et entretenir Odoo |
+| ⏳ à relire | `services.items.5.sections.5.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.5.sections.5.list.0` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ។ រាល់ពេលដំឡើងកំណែ (upgrade) មុខងារបន្ថែមតាមតម្រូវការត្រូវតែកែសម្រួល៖ ត្រូវគ្រោងទុកជាមុន។ | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
+| ⏳ à relire | `services.items.5.sections.5.list.1` | មុខងារបន្ថែមតូចមួយដែលមានគោលដៅច្បាស់ ល្អជាងមុខងារបន្ថែមធំ៖ មានអ្វីតិចជាងដែលត្រូវកែសម្រួល នៅរាល់កំណែថ្មី។ | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
+| ⏳ à relire | `services.items.5.sections.5.list.2` | Odoo ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា។ ខ្ញុំមិនមែនជាដៃគូផ្លូវការរបស់ក្រុមហ៊ុន Odoo ទេ។ | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
+| ⏳ à relire | `services.items.5.sections.5.list.3` | សម្រាប់គម្រោងរបស់លោកអ្នក ខ្ញុំប្រាប់លោកអ្នកយ៉ាងច្បាស់ ពីអ្វីដែលខ្ញុំបានធ្វើរួចហើយនៅកន្លែងផ្សេង និងអ្វីដែលនឹងជារឿងថ្មី។ | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
 | ⏳ à relire | `services.items.5.trademarks` | Odoo គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់របស់វា។ ការលើកឡើងឈ្មោះនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.6.id` | odoo-cambodia | odoo-cambodia |
 | ⏳ à relire | `services.items.6.parent` | odoo-development | odoo-development |
@@ -1247,7 +1257,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1231 textes relus.
+0 / 1241 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1291,6 +1301,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `a11y.newWindow` | (откроется в новой вкладке) | (s'ouvre dans un nouvel onglet) |
 | ⏳ à relire | `nav.services` | Услуги | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
+| ⏳ à relire | `nav.odoo` | Odoo | Odoo |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | Ангкор 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | Проекты | Réalisations |
@@ -1664,6 +1675,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.5.title` | Разработка модулей Odoo | Développement de modules Odoo |
 | ⏳ à relire | `services.items.5.summary` | Модули на заказ для Odoo: ваши экраны, документы, правила и связи с другими программами. С отдельным направлением для Камбоджи и кхмерского языка. | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
 | ⏳ à relire | `services.items.5.lead` | Odoo закрывает многие задачи, но у каждой компании свои привычки. Когда чего-то не хватает, я разрабатываю модуль, который дополняет Odoo, не меняя его исходный код. | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
+| ⏳ à relire | `services.items.5.badges.0` | Odoo 19 Community | Odoo 19 Community |
+| ⏳ à relire | `services.items.5.badges.1` | OCA | OCA |
+| ⏳ à relire | `services.items.5.badges.2` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.5.badges.3` | USD · KHR | USD · KHR |
 | ⏳ à relire | `services.items.5.metaTitle` | Модули Odoo на заказ в Камбодже — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.5.metaDescription` | Модули Odoo на заказ: экраны, счета и отчёты в вашем формате, автоматизация, импорт данных, связь с вашими программами. Кхмерский, доллар и риель. | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
 | ⏳ à relire | `services.items.5.sections.0.title` | Что может модуль | Ce qu'un module peut faire |
@@ -1673,21 +1688,26 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.5.sections.0.list.3` | Автоматические задачи: напоминания, повторные уведомления, действия по расписанию, проверки перед подтверждением. | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
 | ⏳ à relire | `services.items.5.sections.0.list.4` | Импорт ваших данных из файлов Excel или из старой программы. | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
 | ⏳ à relire | `services.items.5.sections.0.list.5` | Связь с другими вашими программами через API: сайт, интернет-магазин, отраслевое ПО. | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
-| ⏳ à relire | `services.items.5.sections.1.title` | Как я работаю | Ma façon de faire |
-| ⏳ à relire | `services.items.5.sections.1.list.0` | Я разрабатываю для Odoo 19 Community — свободной и бесплатной версии Odoo. | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.1.list.1` | Сначала проверяю, не решает ли задачу сам Odoo или уже существующий модуль. Свободные модули сообщества OCA (Odoo Community Association) закрывают многие потребности. Так для вас дешевле. | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
-| ⏳ à relire | `services.items.5.sections.1.list.2` | Отдельный модуль, который не меняет код Odoo: обновления остаются возможными. | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
-| ⏳ à relire | `services.items.5.sections.1.list.3` | Проверка на копии вашей базы, с вашими реальными данными, до запуска. | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
-| ⏳ à relire | `services.items.5.sections.1.list.4` | Модуль с документацией: что он делает и как его настроить. | Un module documenté : ce qu'il fait, et comment le régler. |
-| ⏳ à relire | `services.items.5.sections.2.title` | Где работает ваш Odoo | Où tourne votre Odoo |
-| ⏳ à relire | `services.items.5.sections.2.text` | Модулям на заказ нужен Odoo, установленный на сервере: у вас, у нас или в облаке. Odoo Online — версия, которую размещает сам разработчик Odoo, — их не принимает. | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
-| ⏳ à relire | `services.items.5.sections.2.link.page` | services/business-software | services/business-software |
-| ⏳ à relire | `services.items.5.sections.2.link.label` | Установка и обслуживание Odoo | Installer et entretenir Odoo |
-| ⏳ à relire | `services.items.5.sections.3.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.5.sections.3.list.0` | Новая версия Odoo выходит каждый год. При каждом переходе на новую версию модули на заказ нужно адаптировать: это стоит учесть заранее. | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
-| ⏳ à relire | `services.items.5.sections.3.list.1` | Небольшой модуль с чёткой задачей лучше большого: с каждой новой версией меньше переделок. | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
-| ⏳ à relire | `services.items.5.sections.3.list.2` | Odoo создаётся своим разработчиком. Я не являюсь официальным партнёром разработчика Odoo. | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.3.list.3` | По вашему проекту я прямо скажу, что уже делал раньше, а что будет впервые. | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
+| ⏳ à relire | `services.items.5.sections.1.title` | Уже сделано: наш собственный Odoo | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.5.sections.1.text` | Для Chantrea Systems мы разработали собственные модули Odoo 19 Community: предложения и счета на кхмерском и английском с итогами в долларах и риелях, личный кабинет клиента на трёх языках, около 700 текстов, переведённых на кхмерский, и выезды, которые клиент подписывает на месте. | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.5.sections.1.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.5.sections.1.link.label` | Наши доработки Odoo | Voir nos modifications d'Odoo |
+| ⏳ à relire | `services.items.5.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.5.sections.3.title` | Как я работаю | Ma façon de faire |
+| ⏳ à relire | `services.items.5.sections.3.list.0` | Я разрабатываю для Odoo 19 Community — свободной и бесплатной версии Odoo. | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
+| ⏳ à relire | `services.items.5.sections.3.list.1` | Сначала проверяю, не решает ли задачу сам Odoo или уже существующий модуль. Свободные модули сообщества OCA (Odoo Community Association) закрывают многие потребности. Так для вас дешевле. | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
+| ⏳ à relire | `services.items.5.sections.3.list.2` | Отдельный модуль, который не меняет код Odoo: обновления остаются возможными. | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
+| ⏳ à relire | `services.items.5.sections.3.list.3` | Проверка на копии вашей базы, с вашими реальными данными, до запуска. | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
+| ⏳ à relire | `services.items.5.sections.3.list.4` | Модуль с документацией: что он делает и как его настроить. | Un module documenté : ce qu'il fait, et comment le régler. |
+| ⏳ à relire | `services.items.5.sections.4.title` | Где работает ваш Odoo | Où tourne votre Odoo |
+| ⏳ à relire | `services.items.5.sections.4.text` | Модулям на заказ нужен Odoo, установленный на сервере: у вас, у нас или в облаке. Odoo Online — версия, которую размещает сам разработчик Odoo, — их не принимает. | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
+| ⏳ à relire | `services.items.5.sections.4.link.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.5.sections.4.link.label` | Установка и обслуживание Odoo | Installer et entretenir Odoo |
+| ⏳ à relire | `services.items.5.sections.5.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.5.sections.5.list.0` | Новая версия Odoo выходит каждый год. При каждом переходе на новую версию модули на заказ нужно адаптировать: это стоит учесть заранее. | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
+| ⏳ à relire | `services.items.5.sections.5.list.1` | Небольшой модуль с чёткой задачей лучше большого: с каждой новой версией меньше переделок. | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
+| ⏳ à relire | `services.items.5.sections.5.list.2` | Odoo создаётся своим разработчиком. Я не являюсь официальным партнёром разработчика Odoo. | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
+| ⏳ à relire | `services.items.5.sections.5.list.3` | По вашему проекту я прямо скажу, что уже делал раньше, а что будет впервые. | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
 | ⏳ à relire | `services.items.5.trademarks` | Odoo — товарный знак своего владельца. Его упоминание не означает какого-либо партнёрства с его разработчиком. | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.6.id` | odoo-cambodia | odoo-cambodia |
 | ⏳ à relire | `services.items.6.parent` | odoo-development | odoo-development |
@@ -2485,7 +2505,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1231 textes relus.
+0 / 1241 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2529,6 +2549,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `a11y.newWindow` | （在新标签页中打开） | (s'ouvre dans un nouvel onglet) |
 | ⏳ à relire | `nav.services` | 服务 | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
+| ⏳ à relire | `nav.odoo` | Odoo | Odoo |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | 吴哥 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | 项目案例 | Réalisations |
@@ -2902,6 +2923,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.5.title` | Odoo 模块开发 | Développement de modules Odoo |
 | ⏳ à relire | `services.items.5.summary` | 为 Odoo 定制模块：您的界面、单据、业务规则，以及与其他软件的对接。另有专门面向柬埔寨和高棉语的方向。 | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
 | ⏳ à relire | `services.items.5.lead` | Odoo 能满足很多需求，但每家企业都有自己的做法。缺了什么，我就开发一个模块加到 Odoo 上，不改动它的原始代码。 | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
+| ⏳ à relire | `services.items.5.badges.0` | Odoo 19 Community | Odoo 19 Community |
+| ⏳ à relire | `services.items.5.badges.1` | OCA | OCA |
+| ⏳ à relire | `services.items.5.badges.2` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.5.badges.3` | USD · KHR | USD · KHR |
 | ⏳ à relire | `services.items.5.metaTitle` | 柬埔寨 Odoo 定制模块开发 — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.5.metaDescription` | Odoo 定制模块：界面、符合您格式的发票和报表、自动化、数据导入、与其他软件对接。支持高棉语、美元和瑞尔。 | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
 | ⏳ à relire | `services.items.5.sections.0.title` | 模块能做什么 | Ce qu'un module peut faire |
@@ -2911,21 +2936,26 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.5.sections.0.list.3` | 自动任务：提醒、催款、定时操作、审核前的检查。 | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
 | ⏳ à relire | `services.items.5.sections.0.list.4` | 从 Excel 文件或旧软件导入您的数据。 | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
 | ⏳ à relire | `services.items.5.sections.0.list.5` | 通过 API 与您的其他软件对接：网站、网店、行业软件。 | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
-| ⏳ à relire | `services.items.5.sections.1.title` | 我的做法 | Ma façon de faire |
-| ⏳ à relire | `services.items.5.sections.1.list.0` | 我为 Odoo 的开源免费版 Odoo 19 Community 开发模块。 | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.1.list.1` | 先看 Odoo 本身或现成的模块能不能解决。OCA 社区（Odoo Community Association）的开源模块已覆盖很多需求。这样您花的钱更少。 | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
-| ⏳ à relire | `services.items.5.sections.1.list.2` | 独立的模块，不改动 Odoo 的代码：以后照样可以升级。 | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
-| ⏳ à relire | `services.items.5.sections.1.list.3` | 上线前，先在您数据库的副本上用真实数据测试。 | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
-| ⏳ à relire | `services.items.5.sections.1.list.4` | 模块附带说明：它做什么，怎么设置。 | Un module documenté : ce qu'il fait, et comment le régler. |
-| ⏳ à relire | `services.items.5.sections.2.title` | 您的 Odoo 在哪里运行 | Où tourne votre Odoo |
-| ⏳ à relire | `services.items.5.sections.2.text` | 定制模块需要把 Odoo 装在服务器上：您那里、我们这里或云端。Odoo Online（由 Odoo 开发商托管的版本）不支持定制模块。 | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
-| ⏳ à relire | `services.items.5.sections.2.link.page` | services/business-software | services/business-software |
-| ⏳ à relire | `services.items.5.sections.2.link.label` | Odoo 的安装与维护 | Installer et entretenir Odoo |
-| ⏳ à relire | `services.items.5.sections.3.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.5.sections.3.list.0` | Odoo 每年发布一个新版本。每次升级，定制模块都要相应调整：需要提前考虑。 | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
-| ⏳ à relire | `services.items.5.sections.3.list.1` | 小而专一的模块比大模块好：每次新版本需要调整的地方更少。 | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
-| ⏳ à relire | `services.items.5.sections.3.list.2` | Odoo 由其开发商开发。我不是 Odoo 开发商的官方合作伙伴。 | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.3.list.3` | 关于您的项目，哪些我在别处做过，哪些是新的，我会说清楚。 | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
+| ⏳ à relire | `services.items.5.sections.1.title` | 已经完成：我们自己的 Odoo | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.5.sections.1.text` | 我们为 Chantrea Systems 开发了自己的 Odoo 19 Community 模块：高棉语和英语的报价单和发票，并以美元和瑞尔显示总额；三种语言的客户门户；约 700 条翻译成高棉语的文本；以及由客户现场签字确认的上门服务。 | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.5.sections.1.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.5.sections.1.link.label` | 查看我们对 Odoo 的改进 | Voir nos modifications d'Odoo |
+| ⏳ à relire | `services.items.5.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.5.sections.3.title` | 我的做法 | Ma façon de faire |
+| ⏳ à relire | `services.items.5.sections.3.list.0` | 我为 Odoo 的开源免费版 Odoo 19 Community 开发模块。 | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
+| ⏳ à relire | `services.items.5.sections.3.list.1` | 先看 Odoo 本身或现成的模块能不能解决。OCA 社区（Odoo Community Association）的开源模块已覆盖很多需求。这样您花的钱更少。 | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
+| ⏳ à relire | `services.items.5.sections.3.list.2` | 独立的模块，不改动 Odoo 的代码：以后照样可以升级。 | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
+| ⏳ à relire | `services.items.5.sections.3.list.3` | 上线前，先在您数据库的副本上用真实数据测试。 | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
+| ⏳ à relire | `services.items.5.sections.3.list.4` | 模块附带说明：它做什么，怎么设置。 | Un module documenté : ce qu'il fait, et comment le régler. |
+| ⏳ à relire | `services.items.5.sections.4.title` | 您的 Odoo 在哪里运行 | Où tourne votre Odoo |
+| ⏳ à relire | `services.items.5.sections.4.text` | 定制模块需要把 Odoo 装在服务器上：您那里、我们这里或云端。Odoo Online（由 Odoo 开发商托管的版本）不支持定制模块。 | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
+| ⏳ à relire | `services.items.5.sections.4.link.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.5.sections.4.link.label` | Odoo 的安装与维护 | Installer et entretenir Odoo |
+| ⏳ à relire | `services.items.5.sections.5.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.5.sections.5.list.0` | Odoo 每年发布一个新版本。每次升级，定制模块都要相应调整：需要提前考虑。 | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
+| ⏳ à relire | `services.items.5.sections.5.list.1` | 小而专一的模块比大模块好：每次新版本需要调整的地方更少。 | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
+| ⏳ à relire | `services.items.5.sections.5.list.2` | Odoo 由其开发商开发。我不是 Odoo 开发商的官方合作伙伴。 | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
+| ⏳ à relire | `services.items.5.sections.5.list.3` | 关于您的项目，哪些我在别处做过，哪些是新的，我会说清楚。 | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
 | ⏳ à relire | `services.items.5.trademarks` | Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。 | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.6.id` | odoo-cambodia | odoo-cambodia |
 | ⏳ à relire | `services.items.6.parent` | odoo-development | odoo-development |

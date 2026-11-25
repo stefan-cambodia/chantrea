@@ -74,6 +74,7 @@
   "nav": {
     "services": "Services",
     "hms": "HMS",
+    "odoo": "Odoo",
     "rally": "Cambodia Rally",
     "angkor": "Angkor 3D",
     "work": "Réalisations",
@@ -785,13 +786,21 @@
       {
         "id": "odoo-development",
         "parent": "development",
+        "icon": "layers",
         "title": "Développement de modules Odoo",
         "summary": "Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer.",
         "lead": "Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine.",
+        "badges": [
+          "Odoo 19 Community",
+          "OCA",
+          "ខ្មែរ",
+          "USD · KHR"
+        ],
         "metaTitle": "Modules Odoo sur mesure au Cambodge — Chantrea Systems",
         "metaDescription": "Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel.",
         "sections": [
           {
+            "icon": "layers",
             "title": "Ce qu'un module peut faire",
             "list": [
               "Des champs, des écrans et des étapes qui suivent votre façon de travailler.",
@@ -800,9 +809,23 @@
               "Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation.",
               "L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel.",
               "Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "receipt",
+            "title": "Déjà réalisé : notre propre Odoo",
+            "text": "Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place.",
+            "link": {
+              "page": "services/odoo",
+              "label": "Voir nos modifications d'Odoo"
+            }
+          },
+          {
+            "figure": "invoice"
+          },
+          {
+            "icon": "calendar",
             "title": "Ma façon de faire",
             "list": [
               "Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo.",
@@ -810,9 +833,11 @@
               "Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles.",
               "Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service.",
               "Un module documenté : ce qu'il fait, et comment le régler."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "server",
             "title": "Où tourne votre Odoo",
             "text": "Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas.",
             "link": {
@@ -821,6 +846,7 @@
             }
           },
           {
+            "icon": "info",
             "title": "Ce qu'il faut savoir",
             "list": [
               "Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir.",
@@ -835,6 +861,7 @@
       {
         "id": "odoo-cambodia",
         "parent": "odoo-development",
+        "icon": "lang",
         "title": "Odoo en khmer, pour le Cambodge",
         "summary": "Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales.",
         "lead": "Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent.",

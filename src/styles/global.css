@@ -199,6 +199,8 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   .has-portal .main-nav { display: none; }
   .has-portal .site-header__tools { margin-left: auto; }
   .has-portal .mobile-nav { display: block; }
+  /* Sept liens (avec « Odoo ») : liens un peu plus serrés pour tenir à 1000 px. */
+  .main-nav a { padding-inline: .4rem; font-size: .95rem; }
 }
 
 /* ─── Accueil ──────────────────────────────────────────────── */
@@ -619,6 +621,13 @@ h2.group-title { margin-top: 0; }
 .showcase img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-bottom: 1px solid var(--line); }
 .showcase span { display: block; padding: .5rem .7rem; font-weight: 600; font-size: .9rem; }
 @media (prefers-reduced-motion: reduce) { .showcase a { transition: none; } .showcase a:hover { transform: none; } }
+
+/* Accueil : bandeau de nuit « Développement de modules Odoo » */
+.odoo-band { position: relative; overflow: hidden; background: radial-gradient(circle at 85% 30%, #1d2a45 0, var(--night-bg) 60%); }
+.odoo-band .eyebrow { color: var(--moon); }
+.odoo-band .lead-sm { color: var(--night-muted); }
+.odoo-band .checklist { margin: 1.2rem 0 1.6rem; color: var(--night-text); --accent: var(--moon); --surface: var(--night-bg); }
+.odoo-band .invoice-mock { background: transparent; border: 0; padding: 0; }
 
 /* Bloc en carte (icon), bloc « en cours » (pending) */
 .prose-section--card, .prose-section--pending { padding: 1.4rem 1.5rem; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
