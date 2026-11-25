@@ -1731,6 +1731,13 @@
     "title": "Cambodia Rally",
     "lead": "A 3D race on the real roads around the temples of Angkor. With friends, one phone each, on the same Wi-Fi or one phone's hotspot: no internet needed.",
     "status": "Playable, not published yet",
+    "badges": [
+      "Android",
+      "2 to 8 players",
+      "2 circuits",
+      "8 vehicles",
+      "7 languages"
+    ],
     "gallery": {
       "title": "Screenshots",
       "note": "In-game captures from both tracks.",

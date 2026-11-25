@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1314 textes relus.
+0 / 1319 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -905,6 +905,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | ការប្រណាំង 3D លើផ្លូវពិតៗជុំវិញប្រាសាទអង្គរ។ លេងជាមួយមិត្តភក្តិ ម្នាក់ទូរស័ព្ទមួយ នៅលើ Wi-Fi តែមួយ ឬការចែករំលែកអ៊ីនធឺណិតពីទូរស័ព្ទ (hotspot)៖ មិនត្រូវការអ៊ីនធឺណិតទេ។ | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
 | ⏳ à relire | `rally.status` | អាចលេងបាន ប៉ុន្តែមិនទាន់ចេញផ្សាយ | Jouable, pas encore publié |
+| ⏳ à relire | `rally.badges.0` | Android | Android |
+| ⏳ à relire | `rally.badges.1` | អ្នកលេង 2 ដល់ 8 នាក់ | 2 à 8 joueurs |
+| ⏳ à relire | `rally.badges.2` | សៀគ្វី 2 | 2 circuits |
+| ⏳ à relire | `rally.badges.3` | យានយន្ត 8 | 8 véhicules |
+| ⏳ à relire | `rally.badges.4` | 7 ភាសា | 7 langues |
 | ⏳ à relire | `rally.gallery.title` | រូបភាពអេក្រង់ | En images |
 | ⏳ à relire | `rally.gallery.note` | រូបភាពពីក្នុងហ្គេម លើផ្លូវប្រណាំងទាំងពីរ។ | Captures du jeu sur ses deux circuits. |
 | ⏳ à relire | `rally.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
@@ -1329,7 +1334,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1314 textes relus.
+0 / 1319 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2226,6 +2231,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | 3D-гонка по настоящим дорогам вокруг храмов Ангкора. С друзьями, у каждого свой телефон, в одной сети Wi-Fi или через точку доступа телефона: интернет не нужен. | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
 | ⏳ à relire | `rally.status` | Играбельная версия, ещё не опубликована | Jouable, pas encore publié |
+| ⏳ à relire | `rally.badges.0` | Android | Android |
+| ⏳ à relire | `rally.badges.1` | от 2 до 8 игроков | 2 à 8 joueurs |
+| ⏳ à relire | `rally.badges.2` | 2 маршрута | 2 circuits |
+| ⏳ à relire | `rally.badges.3` | 8 машин | 8 véhicules |
+| ⏳ à relire | `rally.badges.4` | 7 языков | 7 langues |
 | ⏳ à relire | `rally.gallery.title` | Скриншоты | En images |
 | ⏳ à relire | `rally.gallery.note` | Кадры из игры на обеих трассах. | Captures du jeu sur ses deux circuits. |
 | ⏳ à relire | `rally.gallery.enlarge` | увеличить изображение | agrandir l'image |
@@ -2650,7 +2660,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1313 textes relus.
+0 / 1318 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -3546,6 +3556,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | 在吴哥寺庙周边的真实道路上进行 3D 赛车。和朋友一起，每人一部手机，连接同一个 Wi-Fi 或手机热点即可：无需互联网。 | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
 | ⏳ à relire | `rally.status` | 可以玩，尚未发布 | Jouable, pas encore publié |
+| ⏳ à relire | `rally.badges.0` | Android | Android |
+| ⏳ à relire | `rally.badges.1` | 2 至 8 名玩家 | 2 à 8 joueurs |
+| ⏳ à relire | `rally.badges.2` | 2 条路线 | 2 circuits |
+| ⏳ à relire | `rally.badges.3` | 8 款车辆 | 8 véhicules |
+| ⏳ à relire | `rally.badges.4` | 7 种语言 | 7 langues |
 | ⏳ à relire | `rally.gallery.title` | 界面截图 | En images |
 | ⏳ à relire | `rally.gallery.note` | 两条赛道上的游戏画面。 | Captures du jeu sur ses deux circuits. |
 | ⏳ à relire | `rally.gallery.enlarge` | 放大图片 | agrandir l'image |

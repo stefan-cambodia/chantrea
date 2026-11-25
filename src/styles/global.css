@@ -887,3 +887,51 @@ h2.group-title { margin-top: 0; }
     opacity: .5;
   }
 }
+
+/* ─── Cambodia Rally ─────────────────────────────────────── */
+.rally-hero { padding: clamp(4rem, 12vw, 8rem) 0 clamp(3rem, 8vw, 5rem); }
+.rally-hero__bg, .rally-hero picture { position: absolute; inset: 0; }
+.rally-hero__bg { width: 100%; height: 100%; object-fit: cover; object-position: center 60%; }
+.rally-hero::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(11, 18, 32, .94) 0%, rgba(11, 18, 32, .8) 45%, rgba(11, 18, 32, .25) 100%),
+              linear-gradient(0deg, rgba(11, 18, 32, .7), transparent 40%);
+}
+@media (max-width: 760px) { .rally-hero::after { background: linear-gradient(0deg, rgba(11, 18, 32, .95) 25%, rgba(11, 18, 32, .7)); } }
+.rally-hero .container { z-index: 2; }
+.rally-hero .lead { color: #e4e8f0; max-width: 36rem; }
+.rally-hero .status { margin-top: .4rem; border-color: var(--moon); color: var(--moon) !important; }
+
+.rally-circuits { display: grid; gap: 1.2rem; }
+@media (min-width: 760px) { .rally-circuits { grid-template-columns: 1fr 1fr; } }
+.rally-circuit { border-radius: var(--radius); overflow: hidden; background: var(--surface); border: 1px solid var(--line); }
+.rally-circuit img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 8; object-fit: cover; }
+.rally-circuit__body { padding: 1.2rem 1.4rem 1.4rem; }
+.rally-circuit h3 { display: flex; align-items: center; gap: .6rem; margin-bottom: .9rem; }
+.rally-circuit__num {
+  display: inline-grid; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 50%; flex: none;
+  font-size: .95rem; color: var(--moon-ink); background: var(--moon);
+}
+.rally-circuit__places { display: flex; flex-wrap: wrap; gap: .4rem; }
+.rally-circuit__places li {
+  padding: .2rem .65rem; border-radius: 999px; font-size: .9rem;
+  background: var(--bg-alt); border: 1px solid var(--line);
+}
+.rally-map-note { display: flex; align-items: center; gap: .5rem; margin-top: 1rem; color: var(--muted); font-size: .95rem; }
+
+.rally-friends__icon { display: inline-grid; place-items: center; width: 3rem; height: 3rem; border-radius: 50%; color: var(--moon-ink); background: var(--moon); }
+.rally-friends .checklist { margin-top: 1rem; }
+.rally-net { width: 100%; max-width: 26rem; margin-inline: auto; display: block; }
+.rally-net__links path { stroke: var(--moon); stroke-width: 2; stroke-dasharray: 5 6; fill: none; opacity: .7; }
+.rally-net__wifi path { stroke: var(--moon); stroke-width: 3; fill: none; stroke-linecap: round; }
+.rally-net__wifi circle { fill: var(--moon); }
+.rally-net__phone rect:first-child { fill: #1a2233; stroke: var(--night-line); stroke-width: 1.5; }
+.rally-net__screen { fill: #2c3a55; }
+.rally-net__phone--host rect:first-child { stroke: var(--moon); stroke-width: 2; }
+.rally-net__light { fill: #3faa7a; }
+
+.rally-features .card { border-top: 3px solid var(--accent); }
+.rally-features__icon {
+  display: inline-grid; place-items: center; width: 2.9rem; height: 2.9rem; margin-bottom: .9rem; border-radius: 12px;
+  color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+}

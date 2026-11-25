@@ -1,8 +1,12 @@
 ---
+// Cambodia Rally : bandeau sur une capture du jeu, les deux circuits en images, galerie,
+// jeu entre amis (schéma des téléphones reliés), autres points du jeu avec pictogrammes, ce que le projet montre.
+// Textes : rally.* de chaque fichier de langue ; captures : src/data/rally-screens.js.
 import Page from '../../layouts/Page.astro';
-import PageHero from '../../components/PageHero.astro';
 import ScreenGallery from '../../components/ScreenGallery.astro';
-import screens from '../../data/rally-screens.js';
+import HmsIcon from '../../components/HmsIcon.astro';
+import { Picture } from 'astro:assets';
+import screens, { homeScreen } from '../../data/rally-screens.js';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -10,20 +14,89 @@ export const getStaticPaths = langPaths;
 const { lang } = Astro.params;
 const tr = t(lang);
 const r = tr.rally;
+const shot = (c) => screens.find((s) => s.caption === c).src;
+
+// groups[0] : les deux circuits (« Nom : temple, temple… ») et la note sur OpenStreetMap.
+const [circuitsGroup, friends, ...others] = r.groups;
+const circuits = circuitsGroup.items.slice(0, 2).map((item, i) => {
+  const at = item.search(/[:：៖]/);
+  const name = item.slice(0, at).trim();
+  const places = item.slice(at + 1).trim().split(lang === 'km' ? /\s+/ : /\s*[,、]\s*/).filter(Boolean);
+  const c = i === 0 ? 'flyover' : 'paddies';
+  return { name, places, image: shot(c), alt: r.gallery.captions[c] };
+});
+const mapNote = circuitsGroup.items[2];
+// Pictogrammes des autres groupes, dans l'ordre : contre la montre, véhicules, monde vivant, langues.
+const otherIcons = ['hourglass', 'car', 'sun', 'lang'];
 ---
 <Page lang={lang} page="rally" title={tr.meta.rally.title} description={tr.meta.rally.description}>
-  <PageHero eyebrow={r.eyebrow} title={r.title} lead={r.lead}>
-    <p class="status"><span class="sr-only">{tr.work.status} : </span>{r.status}</p>
-  </PageHero>
+  <section class="page-hero night rally-hero">
+    <Picture class="rally-hero__bg" src={homeScreen.src} alt="" formats={['avif', 'webp']} widths={[640, 960, 1280]}
+             sizes="100vw" quality={72} loading="eager" aria-hidden="true" />
+    <div class="container">
+      <p class="eyebrow">{r.eyebrow}</p>
+      <h1>{r.title}</h1>
+      <p class="lead">{r.lead}</p>
+      <p class="status"><span class="sr-only">{tr.work.status} : </span>{r.status}</p>
+      <p class="hero-badges">{r.badges.map((b) => <span lang={/[ក-៿]/.test(b) ? 'km' : undefined}>{b}</span>)}</p>
+    </div>
+  </section>
 
-  <ScreenGallery screens={screens} texts={r.gallery} />
+  <section class="section" aria-labelledby="circuits-title">
+    <div class="container">
+      <h2 id="circuits-title">{circuitsGroup.title}</h2>
+      <ul class="rally-circuits">
+        {circuits.map((c, i) => (
+          <li class="rally-circuit">
+            <Picture src={c.image} alt={c.alt} formats={['avif', 'webp']} widths={[480, 720, 960]}
+                     sizes="(min-width: 1120px) 536px, (min-width: 760px) 50vw, 100vw" quality={78} loading="lazy" />
+            <div class="rally-circuit__body">
+              <h3><span class="rally-circuit__num" aria-hidden="true">{i + 1}</span>{c.name}</h3>
+              <ul class="rally-circuit__places">{c.places.map((p) => <li>{p}</li>)}</ul>
+            </div>
+          </li>
+        ))}
+      </ul>
+      <p class="rally-map-note"><HmsIcon name="globe" size={20} />{mapNote}</p>
+    </div>
+  </section>
 
-  <section class="section section--alt" aria-labelledby="features-title">
+  <ScreenGallery screens={screens} texts={r.gallery} alt />
+
+  <section class="section night rally-friends" aria-labelledby="friends-title">
+    <div class="container split split--center">
+      <div>
+        <p class="rally-friends__icon"><HmsIcon name="users" size={28} /></p>
+        <h2 id="friends-title">{friends.title}</h2>
+        <ul class="checklist">{friends.items.map((i) => <li>{i}</li>)}</ul>
+      </div>
+      <svg class="rally-net" viewBox="0 0 360 260" aria-hidden="true" focusable="false">
+        <g class="rally-net__links">
+          <path d="M180 130 L60 50" /><path d="M180 130 L300 50" /><path d="M180 130 L60 210" /><path d="M180 130 L300 210" />
+        </g>
+        <g class="rally-net__wifi" transform="translate(180 62)">
+          <path d="M-22 0 a31 31 0 0 1 44 0" /><path d="M-14 8 a20 20 0 0 1 28 0" /><circle cx="0" cy="16" r="3" />
+        </g>
+        {[[60, 50], [300, 50], [60, 210], [300, 210]].map(([x, y]) => (
+          <g transform={`translate(${x - 18} ${y - 30})`} class="rally-net__phone">
+            <rect width="36" height="60" rx="7" /><rect x="5" y="8" width="26" height="40" rx="2" class="rally-net__screen" />
+          </g>
+        ))}
+        <g transform="translate(156 88)" class="rally-net__phone rally-net__phone--host">
+          <rect width="48" height="84" rx="9" /><rect x="6" y="10" width="36" height="58" rx="3" class="rally-net__screen" />
+          <circle cx="24" cy="39" r="9" class="rally-net__light" />
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="features-title">
     <div class="container">
       <h2 id="features-title">{r.featuresTitle}</h2>
-      <ul class="cards cards--3 features">
-        {r.groups.map((g) => (
+      <ul class="cards cards--4 rally-features">
+        {others.map((g, i) => (
           <li class="card">
+            <span class="rally-features__icon"><HmsIcon name={otherIcons[i]} size={26} /></span>
             <h3>{g.title}</h3>
             <ul class="checklist checklist--sm">{g.items.map((i) => <li>{i}</li>)}</ul>
           </li>
@@ -32,14 +105,14 @@ const r = tr.rally;
     </div>
   </section>
 
-  <section class="section" aria-labelledby="shows-title">
-    <div class="container split">
+  <section class="section section--alt" aria-labelledby="shows-title">
+    <div class="container split split--center">
       <div>
         <h2 id="shows-title">{r.shows.title}</h2>
-        <p>{r.shows.text}</p>
+        <p class="lead-sm">{r.shows.text}</p>
         <a class="btn btn--ghost" href={href(lang, 'work')}>{r.shows.cta}</a>
       </div>
-      <ul class="checklist">{r.shows.items.map((i) => <li>{i}</li>)}</ul>
+      <ul class="checklist single-panel">{r.shows.items.map((i) => <li>{i}</li>)}</ul>
     </div>
   </section>
 </Page>
