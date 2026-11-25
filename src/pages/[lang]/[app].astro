@@ -1,11 +1,12 @@
 ---
 // Fiche d'une réalisation Android (Acpc, ASokoban, 3D Snake, Velocity) : une page par fiche et par langue.
 // Liste des fiches et captures : src/data/app-pages.js ; textes : apps.<id> et meta.<id>.
-// Acpc a sa propre mise en page : src/components/apps/AcpcPage.astro.
+// Acpc et ASokoban ont leur propre mise en page : src/components/apps/AcpcPage.astro, AsokobanPage.astro.
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
 import ScreenGallery from '../../components/ScreenGallery.astro';
 import AcpcPage from '../../components/apps/AcpcPage.astro';
+import AsokobanPage from '../../components/apps/AsokobanPage.astro';
 import apps from '../../data/app-pages.js';
 import { languages, t, href } from '../../i18n/index.js';
 
@@ -20,9 +21,10 @@ const { app } = Astro.props;
 const tr = t(lang);
 const a = tr.apps[app.id];
 const meta = tr.meta[app.id];
+const Custom = { acpc: AcpcPage, asokoban: AsokobanPage }[app.id];
 ---
 <Page lang={lang} page={app.slug} title={meta.title} description={meta.description}>
-  {app.id === 'acpc' ? <AcpcPage app={app} a={a} tr={tr} lang={lang} /> : <>
+  {Custom ? <Custom app={app} a={a} tr={tr} lang={lang} /> : <>
   <PageHero eyebrow={a.eyebrow} title={a.title} lead={a.lead}>
     <p class="status"><span class="sr-only">{tr.work.status} : </span>{a.status}</p>
   </PageHero>
