@@ -901,6 +901,20 @@
             "text": "TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande."
           },
           {
+            "icon": "receipt",
+            "title": "Déjà réalisé : notre propre Odoo",
+            "text": "Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place.",
+            "link": {
+              "page": "services/odoo",
+              "label": "Voir nos modifications d'Odoo"
+            }
+          },
+          {
+            "callout": true,
+            "title": "Vers une traduction khmère certifiée",
+            "text": "Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui."
+          },
+          {
             "pending": true,
             "title": "En cours de développement",
             "text": "Ces fonctions sont en préparation, et pas encore disponibles :",

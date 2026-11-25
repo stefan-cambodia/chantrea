@@ -901,6 +901,20 @@
             "text": "VAT, invoice numbering, mandatory mentions, reports for your accountant: I set up in Odoo the rules your accountant has validated. I build the software; your accountant says what the law requires."
           },
           {
+            "icon": "receipt",
+            "title": "Already done: our own Odoo",
+            "text": "For Chantrea Systems, we have developed our own Odoo 19 Community modules: quotations and invoices in Khmer and English, with totals in US dollars and riels, a customer portal in three languages, about 700 texts translated into Khmer, and on-site jobs signed by the customer.",
+            "link": {
+              "page": "services/odoo",
+              "label": "See our changes to Odoo"
+            }
+          },
+          {
+            "callout": true,
+            "title": "Towards a certified Khmer translation",
+            "text": "Our Khmer texts were translated with the help of AI and have not been reviewed yet. We are seeking to have all of these translations certified by the Cambodian authorities. They are not certified today."
+          },
+          {
             "pending": true,
             "title": "In development",
             "text": "These features are being prepared and are not available yet:",
