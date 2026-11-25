@@ -18,25 +18,38 @@ const titleOf = (id) => s.items.find((i) => i.id === id)?.title;
 const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
 ---
 <Page lang={lang} page="services" title={tr.meta.services.title} description={tr.meta.services.description} jsonLd={jsonLd}>
-  <PageHero title={s.title} lead={s.lead} />
+  <PageHero title={s.title} lead={s.lead}>
+    {/* Raccourcis vers les quatre domaines, chacun dans sa couleur. */}
+    <ul class="domain-jump">
+      {domains.map((item) => (
+        <li data-domain={item.id}>
+          <a href={`#${item.id}`}><DomainIcon id={item.id} size={20} />{item.title}</a>
+        </li>
+      ))}
+    </ul>
+  </PageHero>
   <section class="section">
     <div class="container">
-      <ol class="cards cards--2 domains">
+      <ol class="cards cards--2 domains domains--page">
         {domains.map((item, i) => (
-          <li class="card domain">
+          <li class="card domain" id={item.id} data-domain={item.id}>
+            <span class="domain__bignum" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
             <div class="domain__head">
-              <DomainIcon id={item.id} />
-              <span class="domain__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+              <DomainIcon id={item.id} size={30} />
             </div>
             <h2 class="h3">{item.title}</h2>
             <p>{item.summary}</p>
             <ul class="checklist checklist--sm">{item.points.map((p) => <li>{p}</li>)}</ul>
-            {offersOf(item.id).map((c) => (
-              <p class="domain__sub">
-                {s.related} : <a href={href(lang, `services/${c.id}`)}>{c.title}</a>
-              </p>
-            ))}
-            <a class="card__link" href={href(lang, `services/${item.id}`)}>
+            {offersOf(item.id).length > 0 && (
+              <ul class="domain__offers">
+                {offersOf(item.id).map((c) => (
+                  <li>
+                    <a href={href(lang, `services/${c.id}`)}><span class="sr-only">{s.related} : </span>{c.title}</a>
+                  </li>
+                ))}
+              </ul>
+            )}
+            <a class="btn btn--primary domain__cta" href={href(lang, `services/${item.id}`)}>
               {s.more}<span class="sr-only"> : {item.title}</span> →
             </a>
           </li>
@@ -51,7 +64,7 @@ const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
       <p class="section__intro">{tr.tech.intro}</p>
       <div class="tech">
         {tr.tech.groups.map((g) => (
-          <section class="tech__group" aria-labelledby={`tech-${g.domain}`}>
+          <section class="tech__group" data-domain={g.domain} aria-labelledby={`tech-${g.domain}`}>
             <h3 id={`tech-${g.domain}`} class="tech__domain">
               <DomainIcon id={g.domain} size={22} />
               <a href={href(lang, `services/${g.domain}`)}>{titleOf(g.domain)}</a>
