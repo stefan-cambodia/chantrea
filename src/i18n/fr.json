@@ -24,9 +24,25 @@
       "title": "Angkor World Engine, Angkor en 3D — Chantrea Systems",
       "description": "La région d'Angkor et de Siem Reap en 3D à l'échelle réelle (37 × 45 km), à partir de données géographiques ouvertes. Sur ordinateur et téléphone Android."
     },
+    "acpc": {
+      "title": "Acpc, émulateur Amstrad CPC pour Android — Chantrea Systems",
+      "description": "Les Amstrad CPC 464, 664, 6128, 6128 Plus et GX4000 sur Android : disquettes, cassettes, cartouches, lancement automatique des jeux. Environ 700 titres testés."
+    },
+    "asokoban": {
+      "title": "ASokoban, jeu de réflexion pour Android — Chantrea Systems",
+      "description": "Le pousse-caisses pour Android : 70 niveaux conçus à la main et vérifiés solvables, plateau 2D ou 3D, annulation illimitée. En anglais et en khmer."
+    },
+    "snake3d": {
+      "title": "3D Snake, le jeu du serpent en 3D pour Android — Chantrea Systems",
+      "description": "Le jeu du serpent en 3D sur des îles-sanctuaires : 14 étapes, 9 sanctuaires, 18 langues dont le khmer. Modèles, sons et musique générés par le code."
+    },
+    "velocity": {
+      "title": "Velocity, course anti-gravité pour Android — Chantrea Systems",
+      "description": "Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus."
+    },
     "work": {
       "title": "Réalisations — Chantrea Systems",
-      "description": "Le logiciel hôtelier HMS, un site pour apprendre le khmer, et des projets techniques : jeux Android en 3D, Angkor en 3D, musique dans le navigateur."
+      "description": "Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, et des projets en cours : Angkor en 3D, musique dans le navigateur."
     },
     "about": {
       "title": "À propos — Chantrea Systems",
@@ -221,7 +237,7 @@
     },
     "work": {
       "title": "Réalisations",
-      "text": "Des produits pour les entreprises, et des projets techniques qui montrent ce que je sais faire.",
+      "text": "Des logiciels et des applications menés à terme, et des projets encore en cours de développement.",
       "cta": "Voir les réalisations"
     }
   },
@@ -1447,19 +1463,352 @@
     },
     "credits": "Données : © contributeurs OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0)"
   },
+  "apps": {
+    "acpc": {
+      "eyebrow": "Application Android · Émulateur",
+      "title": "Acpc",
+      "lead": "Les Amstrad CPC 464, 664 et 6128, le 6128 Plus et la console GX4000, sur un téléphone ou une tablette Android. Acpc démarre le vrai système de la machine, fait tourner les jeux depuis disquettes, cassettes et cartouches, et les lance tout seul.",
+      "status": "Version utilisable, pas publiée",
+      "gallery": {
+        "title": "En images",
+        "note": "Captures de l'application sur un téléphone Android.",
+        "enlarge": "agrandir l'image",
+        "captions": {
+          "basic": "Un CPC 6128 au démarrage, avec le joystick et les boutons de tir à l'écran.",
+          "library": "La bibliothèque : fichiers du téléphone, favoris et serveurs distants.",
+          "remote": "Une collection de jeux sur archive.org, parcourue et cherchée depuis l'application.",
+          "settings": "Les réglages de la machine : modèle, vitesse, lancement automatique."
+        }
+      },
+      "featuresTitle": "L'application",
+      "groups": [
+        {
+          "title": "Cinq machines",
+          "items": [
+            "CPC 464, 664 et 6128",
+            "CPC 6128 Plus, avec ses sprites matériels et ses 4096 couleurs",
+            "Console GX4000 : le jeu démarre depuis sa cartouche",
+            "Les ROM Amstrad ne sont pas fournies : on importe ses propres copies"
+          ]
+        },
+        {
+          "title": "Les supports de l'époque",
+          "items": [
+            "Disquettes .dsk, cassettes .cdt, cartouches .cpr",
+            "Sauvegardes d'état .sna",
+            "Les parties et records enregistrés par les jeux sont conservés",
+            "Jeux sur plusieurs disquettes ou faces de cassette"
+          ]
+        },
+        {
+          "title": "Un jeu choisi, un jeu lancé",
+          "items": [
+            "Acpc trouve le bon programme sur la disquette et tape la commande",
+            "Il choisit aussi la machine : GX4000 pour une cartouche, 6128 Plus pour un jeu Plus",
+            "Chargement des cassettes en accéléré"
+          ]
+        },
+        {
+          "title": "Fait pour l'écran tactile",
+          "items": [
+            "Joystick et boutons tactiles, déplaçables",
+            "Clavier CPC à l'écran, clavier Android pour le texte",
+            "Claviers et manettes Bluetooth ou USB"
+          ]
+        },
+        {
+          "title": "Une bibliothèque de jeux",
+          "items": [
+            "Fichiers du téléphone et favoris",
+            "Serveurs distants et collections archive.org, avec recherche",
+            "Un toucher : le jeu est téléchargé, gardé en mémoire et lancé"
+          ]
+        },
+        {
+          "title": "Testé sur de vrais logiciels",
+          "items": [
+            "Environ 700 titres passés par des tests automatiques",
+            "Les 26 jeux de la GX4000",
+            "Chaque échec suivi jusqu'à sa cause"
+          ]
+        }
+      ],
+      "shows": {
+        "title": "Ce que ce projet montre",
+        "text": "Un émulateur reproduit, puce par puce, le fonctionnement d'un ordinateur. Le même soin sert pour un logiciel métier qui doit être exact.",
+        "items": [
+          "Une application Android écrite en Kotlin",
+          "Le fonctionnement d'un ordinateur reproduit composant par composant",
+          "Des tests automatiques sur des centaines de logiciels réels",
+          "Des commandes tactiles, clavier et manette"
+        ],
+        "cta": "Voir toutes les réalisations"
+      }
+    },
+    "asokoban": {
+      "eyebrow": "Jeu Android · Réflexion",
+      "title": "ASokoban",
+      "lead": "Le grand classique du pousse-caisses, refait avec soin pour Android : 70 niveaux conçus à la main, tous vérifiés solvables, sur un plateau 2D épuré ou en 3D animée.",
+      "status": "Terminé, pas encore publié",
+      "gallery": {
+        "title": "En images",
+        "note": "Captures du jeu sur un téléphone Android.",
+        "enlarge": "agrandir l'image",
+        "captions": {
+          "home": "L'écran d'accueil.",
+          "levels": "Le choix du niveau : la carte de chaque salle, ses étoiles et le meilleur nombre de coups.",
+          "board3dDark": "Un niveau sur le plateau 3D, en thème sombre.",
+          "complete": "Niveau terminé : trois étoiles et un nouveau record.",
+          "board2d": "Le niveau 37 sur le plateau 2D.",
+          "board3d": "La même position sur le plateau 3D.",
+          "zoomed": "Une grande salle, agrandie autour du personnage.",
+          "khmer": "Le choix du niveau dans la version en khmer."
+        }
+      },
+      "featuresTitle": "Le jeu",
+      "groups": [
+        {
+          "title": "Pousser, jamais tirer",
+          "items": [
+            "Une caisse à la fois, et toutes doivent finir sur une cible",
+            "70 niveaux en sept mondes",
+            "Les premiers niveaux expliquent la règle"
+          ]
+        },
+        {
+          "title": "Des niveaux sans erreur",
+          "items": [
+            "Chaque niveau a une solution enregistrée",
+            "Les tests rejouent chaque solution à chaque version",
+            "Jusqu'à trois étoiles selon le nombre de coups"
+          ]
+        },
+        {
+          "title": "Le droit à l'erreur",
+          "items": [
+            "Annulation illimitée",
+            "Le jeu repère une caisse bloquée et propose d'annuler",
+            "Un niveau réussi ouvre les deux suivants"
+          ]
+        },
+        {
+          "title": "2D ou 3D",
+          "items": [
+            "Plateau 3D animé, ou 2D épuré",
+            "Les grandes salles s'agrandissent du bout des doigts",
+            "Thème clair ou sombre"
+          ]
+        },
+        {
+          "title": "Quatre façons de jouer",
+          "items": [
+            "Croix directionnelle à l'écran",
+            "Glisser le doigt",
+            "Toucher une case pour y aller",
+            "Clavier"
+          ]
+        },
+        {
+          "title": "En anglais et en khmer",
+          "items": [
+            "Deux applications, une par langue",
+            "Une typographie adaptée à l'écriture khmère",
+            "Sans publicité, sans compte, aucune donnée collectée"
+          ]
+        }
+      ],
+      "shows": {
+        "title": "Ce que ce projet montre",
+        "text": "Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure.",
+        "items": [
+          "Une application Android moderne (Kotlin, Jetpack Compose)",
+          "De la 3D dans une application, avec retour en 2D si le téléphone ne la gère pas",
+          "Des tests qui bloquent une version défectueuse",
+          "Une application en khmer"
+        ],
+        "cta": "Voir toutes les réalisations"
+      }
+    },
+    "snake3d": {
+      "eyebrow": "Jeu Android · Arcade en 3D",
+      "title": "3D Snake",
+      "lead": "Le jeu du serpent, vu de derrière la tête de l'animal. On guide un serpent sur des îles-sanctuaires au bord d'un lac, avec collines, terrasses de pierre et rampes, dans un monde dont chaque modèle, texture, son et note de musique est généré par le code.",
+      "status": "Terminé, pas encore publié",
+      "gallery": {
+        "title": "En images",
+        "note": "Captures du jeu dans quelques-uns de ses sanctuaires.",
+        "enlarge": "agrandir l'image",
+        "captions": {
+          "dawn": "Aube dorée : la montagne-temple.",
+          "mist": "Matin brumeux : la pagode.",
+          "lagoon": "Lagon turquoise : le temple marin.",
+          "aurora": "Aurore violette : l'observatoire.",
+          "frost": "Givre argenté : le cercle de pierres.",
+          "monsoon": "Mousson de jade : une partie sous la pluie.",
+          "skins": "Les apparences de serpent et les sanctuaires à débloquer.",
+          "khmer": "Le menu principal en khmer."
+        }
+      },
+      "featuresTitle": "Le jeu",
+      "groups": [
+        {
+          "title": "La règle de toujours",
+          "items": [
+            "Manger pour grandir, ne rien toucher, surtout pas soi-même",
+            "14 étapes : le serpent accélère et des monolithes sortent du sol",
+            "Une accélération qui puise dans une réserve d'endurance"
+          ]
+        },
+        {
+          "title": "Un vrai relief",
+          "items": [
+            "Collines, terrasses murées et rampes pavées",
+            "Le serpent grimpe les rampes ; les murs arrêtent la partie",
+            "De la nourriture aussi sur les terrasses"
+          ]
+        },
+        {
+          "title": "Points et récompenses",
+          "items": [
+            "Fruits, cristaux de vitesse et reliques rares",
+            "Combos jusqu'à ×3, bonus quand on frôle un obstacle",
+            "13 apparences de serpent et 8 sanctuaires à débloquer"
+          ]
+        },
+        {
+          "title": "Tout est généré par le code",
+          "items": [
+            "Modèles, textures, effets sonores et musique",
+            "Seules les polices de caractères viennent d'ailleurs",
+            "Pluie, neige et feuillages d'automne selon le sanctuaire"
+          ]
+        },
+        {
+          "title": "Accessible",
+          "items": [
+            "Mouvements réduits, contre le mal des transports",
+            "Texte du jeu agrandi",
+            "Couleur d'alerte adaptée au daltonisme",
+            "Trois façons de diriger, disposition pour gauchers"
+          ]
+        },
+        {
+          "title": "18 langues",
+          "items": [
+            "Dont le khmer, le thaï, le vietnamien et le chinois",
+            "Le jeu suit la langue du téléphone"
+          ]
+        }
+      ],
+      "shows": {
+        "title": "Ce que ce projet montre",
+        "text": "Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure.",
+        "items": [
+          "Un jeu en 3D sur téléphone Android, testé à 60 images par seconde",
+          "Des contenus créés par le code plutôt que dessinés",
+          "Une application traduite en 18 langues, khmer compris",
+          "Des réglages d'accessibilité"
+        ],
+        "cta": "Voir toutes les réalisations"
+      }
+    },
+    "velocity": {
+      "eyebrow": "Jeu Android · Course",
+      "title": "Velocity",
+      "lead": "Un jeu de course anti-gravité original. Huit écuries pilotent des vaisseaux en sustentation à plus de 900 km/h sur douze circuits, freinent aux aérofreins et se disputent les places avec huit armes et bonus.",
+      "status": "Jouable, pas encore publié",
+      "gallery": {
+        "title": "En images",
+        "note": "Captures du jeu sur quelques-uns de ses douze circuits.",
+        "enlarge": "agrandir l'image",
+        "captions": {
+          "hud": "Helix Bay, une mégapole au crépuscule, en pleine course.",
+          "lagrange": "Lagrange Station : la vrille, en orbite.",
+          "serra": "Serra Verde : le pont à haubans sous la pluie.",
+          "atacama": "Atacama Spaceport : la boucle autour du pas de tir.",
+          "glacier": "Glacier Ring : sous l'aurore boréale.",
+          "helix": "Helix Bay vue du ciel : la spirale autour de la tour.",
+          "weapons": "Tirs de plasma sur la grande ligne droite.",
+          "noctis": "Noctis Rift : le pont du rift au coucher du soleil martien.",
+          "thalassa": "Thalassa Deep : le trou bleu et sa tour de recherche."
+        }
+      },
+      "featuresTitle": "Le jeu",
+      "groups": [
+        {
+          "title": "Douze circuits",
+          "items": [
+            "D'une mégapole au crépuscule à une colonie sur Mars",
+            "Station arctique, station en orbite, cité sous-marine",
+            "Spirales, tunnels, ponts et sauts"
+          ]
+        },
+        {
+          "title": "Le pilotage",
+          "items": [
+            "Des vaisseaux en sustentation, à plus de 900 km/h",
+            "Deux aérofreins indépendants pour tourner et freiner",
+            "Commandes tactiles, inclinaison du téléphone, clavier ou manette"
+          ]
+        },
+        {
+          "title": "Six modes de jeu",
+          "items": [
+            "Course simple, élimination, combat",
+            "Défi de vitesse, contre-la-montre, entraînement",
+            "Une carrière de 47 épreuves et 9 coupes"
+          ]
+        },
+        {
+          "title": "Armes et bonus",
+          "items": [
+            "Huit objets : plasma, missile, EMP, bouclier, mines, turbo…",
+            "Un bouclier qui s'use à chaque choc",
+            "Huit écuries, chacune avec son vaisseau"
+          ]
+        },
+        {
+          "title": "Des adversaires pilotés par l'ordinateur",
+          "items": [
+            "Cinq caractères de pilote",
+            "Trois niveaux de difficulté",
+            "Pas de rattrapage artificiel"
+          ]
+        },
+        {
+          "title": "Tout est généré par le code",
+          "items": [
+            "Modèles, textures, sons et musique",
+            "Seules les polices de caractères viennent d'ailleurs"
+          ]
+        }
+      ],
+      "shows": {
+        "title": "Ce que ce projet montre",
+        "text": "Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure.",
+        "items": [
+          "Un jeu de course en 3D sur téléphone Android",
+          "Une physique de vol et des adversaires pilotés par l'ordinateur",
+          "Des mondes en 3D créés par le code",
+          "Des tests automatiques de la conduite et des courses"
+        ],
+        "cta": "Voir toutes les réalisations"
+      }
+    }
+  },
   "work": {
     "title": "Réalisations",
     "lead": "Des projets réels, décrits tels qu'ils sont aujourd'hui.",
     "status": "État",
     "products": {
-      "title": "Produits",
-      "intro": "Ce que je peux proposer à un client.",
-      "tag": "Produit"
+      "title": "Nos réalisations",
+      "intro": "Des logiciels, des applications et des jeux Android menés jusqu'à une version utilisable, décrits tels qu'ils sont aujourd'hui.",
+      "tag": "Réalisation"
     },
     "skills": {
-      "title": "Projets techniques et R&D",
-      "intro": "Des projets de recherche et d'expérimentation : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients.",
-      "tag": "R&D"
+      "title": "En cours de développement",
+      "intro": "Des projets encore en chantier : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients.",
+      "tag": "En cours"
     },
     "items": {
       "hms": {
@@ -1474,6 +1823,34 @@
         "kind": "Site d'apprentissage des langues",
         "status": "Version utilisable, pas encore en ligne",
         "text": "Apprendre le khmer, le français et l'anglais, en partant du français, de l'anglais ou du khmer. 60 leçons, l'alphabet avec le son, un lexique d'environ 600 mots et des cartes de révision."
+      },
+      "acpc": {
+        "title": "Acpc",
+        "kind": "Émulateur Amstrad CPC pour Android",
+        "status": "Version utilisable, pas publiée",
+        "text": "Les Amstrad CPC 464, 664 et 6128, le 6128 Plus et la console GX4000 sur un téléphone ou une tablette Android. Disquettes, cassettes et cartouches, lancement automatique des jeux, sauvegardes d'état. Environ 700 titres testés.",
+        "link": "Découvrir Acpc"
+      },
+      "asokoban": {
+        "title": "ASokoban",
+        "kind": "Jeu de réflexion pour Android",
+        "status": "Terminé, pas encore publié",
+        "text": "Le jeu du pousse-caisses : 70 niveaux conçus à la main, tous vérifiés solvables, sur un plateau 2D ou en 3D animée. En anglais et en khmer.",
+        "link": "Découvrir ASokoban"
+      },
+      "snake3d": {
+        "title": "3D Snake",
+        "kind": "Jeu d'arcade en 3D pour Android",
+        "status": "Terminé, pas encore publié",
+        "text": "Le jeu du serpent en 3D, vu de derrière la tête, sur des îles avec collines, terrasses et rampes. 14 étapes, 9 sanctuaires, 18 langues dont le khmer. Modèles, textures, sons et musique sont générés par le code.",
+        "link": "Découvrir 3D Snake"
+      },
+      "velocity": {
+        "title": "Velocity",
+        "kind": "Jeu de course anti-gravité pour Android",
+        "status": "Jouable, pas encore publié",
+        "text": "Huit écuries de vaisseaux en sustentation sur douze circuits, d'une mégapole au crépuscule à une colonie sur Mars. Six modes de jeu, une carrière, des championnats, huit armes et bonus.",
+        "link": "Découvrir Velocity"
       },
       "rally": {
         "title": "Cambodia Rally",
@@ -1510,13 +1887,9 @@
         "title": "Autres jeux et applications Android",
         "list": [
           "3D Buggy : course tout-terrain d'arcade",
-          "ASokoban : un Sokoban de 70 niveaux",
           "Fluxline : puzzle d'arcade où l'on relie des tuyaux",
-          "3D Snake : un serpent en 3D",
           "3D Frog : jeu d'arcade où il faut traverser",
-          "Velocity : course anti-gravité",
-          "Gemstone Caverns : creuser et ramasser des pierres dans des grottes",
-          "Acpc : émulateur d'ordinateurs Amstrad CPC"
+          "Gemstone Caverns : creuser et ramasser des pierres dans des grottes"
         ],
         "link": "Voir le portfolio"
       }

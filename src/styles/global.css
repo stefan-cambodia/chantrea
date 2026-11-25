@@ -322,8 +322,16 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 @media (max-width: 380px) { .brand__sub { display: none; } }
 
 /* ─── Galerie de captures ──────────────────────────────────── */
-.gallery { display: grid; gap: 1.5rem; }
-@media (min-width: 700px) { .gallery { grid-template-columns: repeat(2, 1fr); } .gallery__item--featured { grid-column: 1 / -1; } }
+/* Grille de 4 colonnes : capture en largeur = 2 colonnes, en hauteur (téléphone) = 1 colonne. */
+.gallery { display: grid; gap: 1.5rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gallery__item { grid-column: 1 / -1; }
+.gallery__item--tall { grid-column: auto; }
+@media (min-width: 700px) {
+  .gallery { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .gallery__item { grid-column: span 2; }
+  .gallery__item--featured { grid-column: 1 / -1; }
+  .gallery__item--tall { grid-column: span 1; }
+}
 .gallery figure { margin: 0; }
 .gallery__link { display: block; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 8px 24px rgba(11, 18, 32, .08); }
 .gallery__link:hover { border-color: var(--accent); }

@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 920 textes relus.
+0 / 1131 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -24,8 +24,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.rally.description` | ហ្គេមប្រណាំង 3D សម្រាប់ Android លើផ្លូវពិតៗជុំវិញប្រាសាទអង្គរ។ អ្នកលេងពី 2 ដល់ 8 នាក់ នៅលើ Wi-Fi តែមួយ ដោយមិនត្រូវការអ៊ីនធឺណិត។ យានយន្ត 8 ផ្លូវប្រណាំង 2 និង 7 ភាសា។ | Jeu de course en 3D pour Android, sur les vraies routes autour d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits. |
 | ⏳ à relire | `meta.angkor.title` | Angkor World Engine តំបន់អង្គរជា 3D — Chantrea Systems | Angkor World Engine, Angkor en 3D — Chantrea Systems |
 | ⏳ à relire | `meta.angkor.description` | តំបន់អង្គរ និងសៀមរាប ដែលបានបង្កើតឡើងវិញជា 3D តាមទំហំពិត 37 × 45 គីឡូម៉ែត្រ ពីទិន្នន័យភូមិសាស្ត្របើកចំហ។ អាចហោះពីលើ ឬបើកបរនៅក្នុងនោះ លើកុំព្យូទ័រ និងទូរស័ព្ទ Android។ | La région d'Angkor et de Siem Reap en 3D à l'échelle réelle (37 × 45 km), à partir de données géographiques ouvertes. Sur ordinateur et téléphone Android. |
+| ⏳ à relire | `meta.acpc.title` | Acpc កម្មវិធីត្រាប់តាម Amstrad CPC សម្រាប់ Android — Chantrea Systems | Acpc, émulateur Amstrad CPC pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.acpc.description` | Amstrad CPC 464, 664, 6128, 6128 Plus និង GX4000 នៅលើ Android៖ ឌីស ខ្សែអាត់ កាតទ្រីត និងការបើកហ្គេមដោយស្វ័យប្រវត្តិ។ បានសាកល្បងប្រហែល 700 ចំណងជើង។ | Les Amstrad CPC 464, 664, 6128, 6128 Plus et GX4000 sur Android : disquettes, cassettes, cartouches, lancement automatique des jeux. Environ 700 titres testés. |
+| ⏳ à relire | `meta.asokoban.title` | ASokoban ហ្គេមល្បែងប្រាជ្ញាសម្រាប់ Android — Chantrea Systems | ASokoban, jeu de réflexion pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.asokoban.description` | ហ្គេមរុញប្រអប់សម្រាប់ Android៖ 70 កម្រិតដែលរចនាដោយដៃ និងផ្ទៀងផ្ទាត់ថាអាចដោះស្រាយបាន ក្ដារ 2D ឬ 3D ត្រឡប់ក្រោយបានមិនកំណត់។ ជាភាសាអង់គ្លេស និងខ្មែរ។ | Le pousse-caisses pour Android : 70 niveaux conçus à la main et vérifiés solvables, plateau 2D ou 3D, annulation illimitée. En anglais et en khmer. |
+| ⏳ à relire | `meta.snake3d.title` | 3D Snake ហ្គេមពស់ 3D សម្រាប់ Android — Chantrea Systems | 3D Snake, le jeu du serpent en 3D pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.snake3d.description` | ហ្គេមពស់ 3D លើកោះទីសក្ការៈ៖ 14 ដំណាក់កាល 9 ទីសក្ការៈ 18 ភាសា រួមទាំងភាសាខ្មែរ។ ម៉ូដែល សំឡេង និងតន្ត្រី បង្កើតដោយកូដ។ | Le jeu du serpent en 3D sur des îles-sanctuaires : 14 étapes, 9 sanctuaires, 18 langues dont le khmer. Modèles, sons et musique générés par le code. |
+| ⏳ à relire | `meta.velocity.title` | Velocity ការប្រណាំងប្រឆាំងទំនាញសម្រាប់ Android — Chantrea Systems | Velocity, course anti-gravité pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.velocity.description` | ហ្គេមប្រណាំងប្រឆាំងទំនាញសម្រាប់ Android៖ ផ្លូវប្រណាំង 12 ក្រុម 8 របៀបលេង 6 អាជីពអ្នកប្រណាំង ការប្រកួតជើងឯក អាវុធ និងជំនួយ។ | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | ស្នាដៃ — Chantrea Systems | Réalisations — Chantrea Systems |
-| ⏳ à relire | `meta.work.description` | កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ HMS និងគេហទំព័ររៀនភាសាខ្មែរ បន្ទាប់មកគម្រោងបច្ចេកទេស៖ ហ្គេម Android 3D តំបន់អង្គរជា 3D និងឧបករណ៍តន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ | Le logiciel hôtelier HMS, un site pour apprendre le khmer, et des projets techniques : jeux Android en 3D, Angkor en 3D, musique dans le navigateur. |
+| ⏳ à relire | `meta.work.description` | កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ HMS គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម និងកម្មវិធីត្រាប់តាម (emulator) សម្រាប់ Android ព្រមទាំងគម្រោងកំពុងអភិវឌ្ឍ៖ តំបន់អង្គរជា 3D និងតន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, et des projets en cours : Angkor en 3D, musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | អំពីខ្ញុំ — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems បង្កើតឡើងដោយ Stefan នៅកំពត។ កម្មវិធី បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ និងសុវត្ថិភាព នៅកម្ពុជា និងពីចម្ងាយ។ | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
 | ⏳ à relire | `meta.jobs.title` | ឱកាសការងារ៖ អ្នកបកប្រែភាសាខ្មែរ — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
@@ -132,7 +140,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.audiences.items.3.title` | អតិថិជននៅបរទេស | Clients à l'étranger |
 | ⏳ à relire | `home.audiences.items.3.text` | គម្រោងតាមដានពីចម្ងាយ តាមអ៊ីមែល Telegram ឬ WhatsApp។ | Projets suivis à distance, par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `home.work.title` | ស្នាដៃ | Réalisations |
-| ⏳ à relire | `home.work.text` | ផលិតផលសម្រាប់អាជីវកម្ម និងគម្រោងបច្ចេកទេស ដែលបង្ហាញពីអ្វីដែលខ្ញុំចេះធ្វើ។ | Des produits pour les entreprises, et des projets techniques qui montrent ce que je sais faire. |
+| ⏳ à relire | `home.work.text` | កម្មវិធីដែលបានធ្វើរួចរាល់ និងគម្រោងដែលកំពុងអភិវឌ្ឍនៅឡើយ។ | Des logiciels et des applications menés à terme, et des projets encore en cours de développement. |
 | ⏳ à relire | `home.work.cta` | មើលស្នាដៃ | Voir les réalisations |
 | ⏳ à relire | `services.title` | សេវាកម្ម | Services |
 | ⏳ à relire | `services.lead` | ផ្នែកបួន ដែលបំពេញគ្នាទៅវិញទៅមក។ នៅកំពត និងតំបន់ជុំវិញ នៅកន្លែងផ្សេងទៀតក្នុងប្រទេសកម្ពុជា និងពីចម្ងាយសម្រាប់អតិថិជននៅបរទេស។ | Quatre domaines complémentaires. À Kampot et dans ses environs, ailleurs au Cambodge, et à distance pour les clients à l'étranger. |
@@ -814,15 +822,202 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `angkor.shows.items.3` | ប្រភពនៃទិន្នន័យនីមួយៗត្រូវបានបញ្ជាក់ ហើយអ្វីដែលប៉ាន់ស្មានត្រូវបានសម្គាល់ | La source de chaque donnée indiquée, et ce qui est estimé signalé |
 | ⏳ à relire | `angkor.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
 | ⏳ à relire | `angkor.credits` | ទិន្នន័យ៖ © OpenStreetMap contributors (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) | Données : © contributeurs OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) |
+| ⏳ à relire | `apps.acpc.eyebrow` | កម្មវិធី Android · កម្មវិធីត្រាប់តាម | Application Android · Émulateur |
+| ⏳ à relire | `apps.acpc.title` | Acpc | Acpc |
+| ⏳ à relire | `apps.acpc.lead` | កុំព្យូទ័រ Amstrad CPC 464, 664 និង 6128, 6128 Plus និងម៉ាស៊ីនហ្គេម GX4000 នៅលើទូរស័ព្ទ ឬថេប្លេត Android។ Acpc ចាប់ផ្ដើមប្រព័ន្ធពិតរបស់ម៉ាស៊ីន ដំណើរការហ្គេមពីឌីស ខ្សែអាត់ និងកាតទ្រីត ហើយបើកហ្គេមទាំងនោះដោយខ្លួនឯង។ | Les Amstrad CPC 464, 664 et 6128, le 6128 Plus et la console GX4000, sur un téléphone ou une tablette Android. Acpc démarre le vrai système de la machine, fait tourner les jeux depuis disquettes, cassettes et cartouches, et les lance tout seul. |
+| ⏳ à relire | `apps.acpc.status` | កំណែអាចប្រើបាន មិនទាន់ចេញផ្សាយ | Version utilisable, pas publiée |
+| ⏳ à relire | `apps.acpc.gallery.title` | រូបភាពអេក្រង់ | En images |
+| ⏳ à relire | `apps.acpc.gallery.note` | រូបភាពកម្មវិធីនៅលើទូរស័ព្ទ Android។ | Captures de l'application sur un téléphone Android. |
+| ⏳ à relire | `apps.acpc.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
+| ⏳ à relire | `apps.acpc.gallery.captions.basic` | CPC 6128 ពេលចាប់ផ្ដើម ជាមួយដងបញ្ជា (joystick) និងប៊ូតុងបាញ់នៅលើអេក្រង់។ | Un CPC 6128 au démarrage, avec le joystick et les boutons de tir à l'écran. |
+| ⏳ à relire | `apps.acpc.gallery.captions.library` | បណ្ណាល័យ៖ ឯកសារក្នុងទូរស័ព្ទ ចំណូលចិត្ត និងម៉ាស៊ីនមេពីចម្ងាយ។ | La bibliothèque : fichiers du téléphone, favoris et serveurs distants. |
+| ⏳ à relire | `apps.acpc.gallery.captions.remote` | បណ្ដុំហ្គេមនៅលើ archive.org ដែលអាចមើល និងស្វែងរកពីក្នុងកម្មវិធី។ | Une collection de jeux sur archive.org, parcourue et cherchée depuis l'application. |
+| ⏳ à relire | `apps.acpc.gallery.captions.settings` | ការកំណត់ម៉ាស៊ីន៖ ម៉ូដែល ល្បឿន និងការចាប់ផ្ដើមដោយស្វ័យប្រវត្តិ។ | Les réglages de la machine : modèle, vitesse, lancement automatique. |
+| ⏳ à relire | `apps.acpc.featuresTitle` | កម្មវិធី | L'application |
+| ⏳ à relire | `apps.acpc.groups.0.title` | ម៉ាស៊ីន 5 | Cinq machines |
+| ⏳ à relire | `apps.acpc.groups.0.items.0` | CPC 464, 664 និង 6128 | CPC 464, 664 et 6128 |
+| ⏳ à relire | `apps.acpc.groups.0.items.1` | CPC 6128 Plus ជាមួយ sprite ផ្នែករឹង និង 4096 ពណ៌ | CPC 6128 Plus, avec ses sprites matériels et ses 4096 couleurs |
+| ⏳ à relire | `apps.acpc.groups.0.items.2` | ម៉ាស៊ីនហ្គេម GX4000៖ ហ្គេមចាប់ផ្ដើមពីកាតទ្រីតរបស់វា | Console GX4000 : le jeu démarre depuis sa cartouche |
+| ⏳ à relire | `apps.acpc.groups.0.items.3` | មិនភ្ជាប់មកជាមួយ ROM របស់ Amstrad ទេ៖ អ្នកប្រើត្រូវនាំចូលច្បាប់ចម្លងផ្ទាល់ខ្លួន | Les ROM Amstrad ne sont pas fournies : on importe ses propres copies |
+| ⏳ à relire | `apps.acpc.groups.1.title` | ឧបករណ៍ផ្ទុកនាសម័យនោះ | Les supports de l'époque |
+| ⏳ à relire | `apps.acpc.groups.1.items.0` | ឌីស .dsk ខ្សែអាត់ .cdt កាតទ្រីត .cpr | Disquettes .dsk, cassettes .cdt, cartouches .cpr |
+| ⏳ à relire | `apps.acpc.groups.1.items.1` | ការរក្សាទុកស្ថានភាព .sna | Sauvegardes d'état .sna |
+| ⏳ à relire | `apps.acpc.groups.1.items.2` | វគ្គលេង និងពិន្ទុខ្ពស់ដែលហ្គេមរក្សាទុក មិនបាត់ឡើយ | Les parties et records enregistrés par les jeux sont conservés |
+| ⏳ à relire | `apps.acpc.groups.1.items.3` | ហ្គេមដែលមានឌីសច្រើន ឬខ្សែអាត់ច្រើនផ្នែក | Jeux sur plusieurs disquettes ou faces de cassette |
+| ⏳ à relire | `apps.acpc.groups.2.title` | ជ្រើសហ្គេម ហ្គេមក៏ចាប់ផ្ដើម | Un jeu choisi, un jeu lancé |
+| ⏳ à relire | `apps.acpc.groups.2.items.0` | Acpc រកកម្មវិធីត្រឹមត្រូវនៅលើឌីស ហើយវាយបញ្ជាដោយខ្លួនឯង | Acpc trouve le bon programme sur la disquette et tape la commande |
+| ⏳ à relire | `apps.acpc.groups.2.items.1` | វាក៏ជ្រើសម៉ាស៊ីនផងដែរ៖ GX4000 សម្រាប់កាតទ្រីត និង 6128 Plus សម្រាប់ហ្គេម Plus | Il choisit aussi la machine : GX4000 pour une cartouche, 6128 Plus pour un jeu Plus |
+| ⏳ à relire | `apps.acpc.groups.2.items.2` | ការផ្ទុកពីខ្សែអាត់បានលឿន | Chargement des cassettes en accéléré |
+| ⏳ à relire | `apps.acpc.groups.3.title` | សម្រាប់អេក្រង់ប៉ះ | Fait pour l'écran tactile |
+| ⏳ à relire | `apps.acpc.groups.3.items.0` | ដងបញ្ជា និងប៊ូតុងប៉ះ ដែលអាចផ្លាស់ទីតាំងបាន | Joystick et boutons tactiles, déplaçables |
+| ⏳ à relire | `apps.acpc.groups.3.items.1` | ក្ដារចុច CPC នៅលើអេក្រង់ និងក្ដារចុច Android សម្រាប់វាយអត្ថបទ | Clavier CPC à l'écran, clavier Android pour le texte |
+| ⏳ à relire | `apps.acpc.groups.3.items.2` | ក្ដារចុច និងដៃបញ្ជាហ្គេម Bluetooth ឬ USB | Claviers et manettes Bluetooth ou USB |
+| ⏳ à relire | `apps.acpc.groups.4.title` | បណ្ណាល័យហ្គេម | Une bibliothèque de jeux |
+| ⏳ à relire | `apps.acpc.groups.4.items.0` | ឯកសារក្នុងទូរស័ព្ទ និងចំណូលចិត្ត | Fichiers du téléphone et favoris |
+| ⏳ à relire | `apps.acpc.groups.4.items.1` | ម៉ាស៊ីនមេពីចម្ងាយ និងបណ្ដុំនៅលើ archive.org ដែលអាចស្វែងរកបាន | Serveurs distants et collections archive.org, avec recherche |
+| ⏳ à relire | `apps.acpc.groups.4.items.2` | ប៉ះម្ដង៖ ហ្គេមត្រូវបានទាញយក រក្សាទុក និងចាប់ផ្ដើម | Un toucher : le jeu est téléchargé, gardé en mémoire et lancé |
+| ⏳ à relire | `apps.acpc.groups.5.title` | សាកល្បងជាមួយកម្មវិធីពិត | Testé sur de vrais logiciels |
+| ⏳ à relire | `apps.acpc.groups.5.items.0` | ប្រហែល 700 ចំណងជើង បានឆ្លងកាត់ការសាកល្បងដោយស្វ័យប្រវត្តិ | Environ 700 titres passés par des tests automatiques |
+| ⏳ à relire | `apps.acpc.groups.5.items.1` | ហ្គេម GX4000 ទាំង 26 | Les 26 jeux de la GX4000 |
+| ⏳ à relire | `apps.acpc.groups.5.items.2` | កំហុសនីមួយៗ ត្រូវបានតាមដានរហូតដល់មូលហេតុ | Chaque échec suivi jusqu'à sa cause |
+| ⏳ à relire | `apps.acpc.shows.title` | អ្វីដែលគម្រោងនេះបង្ហាញ | Ce que ce projet montre |
+| ⏳ à relire | `apps.acpc.shows.text` | កម្មវិធីត្រាប់តាម បង្កើតឡើងវិញនូវដំណើរការរបស់កុំព្យូទ័រ ឈីបមួយម្ដងៗ។ ការយកចិត្តទុកដាក់ដដែលនេះ ប្រើសម្រាប់កម្មវិធីអាជីវកម្មដែលត្រូវតែត្រឹមត្រូវ។ | Un émulateur reproduit, puce par puce, le fonctionnement d'un ordinateur. Le même soin sert pour un logiciel métier qui doit être exact. |
+| ⏳ à relire | `apps.acpc.shows.items.0` | កម្មវិធី Android ដែលសរសេរជាភាសា Kotlin | Une application Android écrite en Kotlin |
+| ⏳ à relire | `apps.acpc.shows.items.1` | កុំព្យូទ័រមួយ ដែលបង្កើតឡើងវិញគ្រឿងបន្លាស់មួយម្ដងៗ | Le fonctionnement d'un ordinateur reproduit composant par composant |
+| ⏳ à relire | `apps.acpc.shows.items.2` | ការសាកល្បងដោយស្វ័យប្រវត្តិលើកម្មវិធីពិតរាប់រយ | Des tests automatiques sur des centaines de logiciels réels |
+| ⏳ à relire | `apps.acpc.shows.items.3` | ការបញ្ជាដោយប៉ះ ក្ដារចុច និងដៃបញ្ជាហ្គេម | Des commandes tactiles, clavier et manette |
+| ⏳ à relire | `apps.acpc.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
+| ⏳ à relire | `apps.asokoban.eyebrow` | ហ្គេម Android · ល្បែងប្រាជ្ញា | Jeu Android · Réflexion |
+| ⏳ à relire | `apps.asokoban.title` | ASokoban | ASokoban |
+| ⏳ à relire | `apps.asokoban.lead` | ហ្គេមរុញប្រអប់បុរាណ ដែលបង្កើតឡើងវិញយ៉ាងយកចិត្តទុកដាក់សម្រាប់ Android៖ 70 កម្រិតដែលរចនាដោយដៃ គ្រប់កម្រិតត្រូវបានផ្ទៀងផ្ទាត់ថាអាចដោះស្រាយបាន លើក្ដារ 2D សាមញ្ញ ឬក្ដារ 3D ដែលមានចលនា។ | Le grand classique du pousse-caisses, refait avec soin pour Android : 70 niveaux conçus à la main, tous vérifiés solvables, sur un plateau 2D épuré ou en 3D animée. |
+| ⏳ à relire | `apps.asokoban.status` | រួចរាល់ មិនទាន់ចេញផ្សាយ | Terminé, pas encore publié |
+| ⏳ à relire | `apps.asokoban.gallery.title` | រូបភាពអេក្រង់ | En images |
+| ⏳ à relire | `apps.asokoban.gallery.note` | រូបភាពហ្គេមនៅលើទូរស័ព្ទ Android។ | Captures du jeu sur un téléphone Android. |
+| ⏳ à relire | `apps.asokoban.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
+| ⏳ à relire | `apps.asokoban.gallery.captions.home` | អេក្រង់ដើម។ | L'écran d'accueil. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.levels` | ការជ្រើសកម្រិត៖ ផែនទីនៃបន្ទប់នីមួយៗ ផ្កាយ និងចំនួនជំហានល្អបំផុត។ | Le choix du niveau : la carte de chaque salle, ses étoiles et le meilleur nombre de coups. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board3dDark` | កម្រិតមួយលើក្ដារ 3D ក្នុងរចនាបថងងឹត។ | Un niveau sur le plateau 3D, en thème sombre. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.complete` | បញ្ចប់កម្រិត៖ ផ្កាយបី និងកំណត់ត្រាថ្មី។ | Niveau terminé : trois étoiles et un nouveau record. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board2d` | កម្រិតទី 37 លើក្ដារ 2D។ | Le niveau 37 sur le plateau 2D. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board3d` | ទីតាំងដដែល លើក្ដារ 3D។ | La même position sur le plateau 3D. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.zoomed` | បន្ទប់ធំមួយ ដែលពង្រីកនៅជុំវិញតួអង្គ។ | Une grande salle, agrandie autour du personnage. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.khmer` | ការជ្រើសកម្រិត ក្នុងកំណែភាសាខ្មែរ។ | Le choix du niveau dans la version en khmer. |
+| ⏳ à relire | `apps.asokoban.featuresTitle` | ហ្គេម | Le jeu |
+| ⏳ à relire | `apps.asokoban.groups.0.title` | រុញ មិនមែនទាញ | Pousser, jamais tirer |
+| ⏳ à relire | `apps.asokoban.groups.0.items.0` | រុញប្រអប់ម្ដងមួយ ហើយប្រអប់ទាំងអស់ត្រូវនៅលើគោលដៅ | Une caisse à la fois, et toutes doivent finir sur une cible |
+| ⏳ à relire | `apps.asokoban.groups.0.items.1` | 70 កម្រិត ក្នុង 7 ពិភព | 70 niveaux en sept mondes |
+| ⏳ à relire | `apps.asokoban.groups.0.items.2` | កម្រិតដំបូងៗ ពន្យល់ពីច្បាប់លេង | Les premiers niveaux expliquent la règle |
+| ⏳ à relire | `apps.asokoban.groups.1.title` | កម្រិតដែលគ្មានកំហុស | Des niveaux sans erreur |
+| ⏳ à relire | `apps.asokoban.groups.1.items.0` | កម្រិតនីមួយៗ មានដំណោះស្រាយដែលបានរក្សាទុក | Chaque niveau a une solution enregistrée |
+| ⏳ à relire | `apps.asokoban.groups.1.items.1` | ការសាកល្បងលេងដំណោះស្រាយទាំងអស់ឡើងវិញ នៅគ្រប់កំណែ | Les tests rejouent chaque solution à chaque version |
+| ⏳ à relire | `apps.asokoban.groups.1.items.2` | ទទួលបានរហូតដល់ផ្កាយបី តាមចំនួនជំហាន | Jusqu'à trois étoiles selon le nombre de coups |
+| ⏳ à relire | `apps.asokoban.groups.2.title` | ខុសក៏មិនអីដែរ | Le droit à l'erreur |
+| ⏳ à relire | `apps.asokoban.groups.2.items.0` | ត្រឡប់ក្រោយបានមិនកំណត់ | Annulation illimitée |
+| ⏳ à relire | `apps.asokoban.groups.2.items.1` | ហ្គេមដឹងពេលប្រអប់ជាប់គាំង ហើយណែនាំឱ្យត្រឡប់ក្រោយ | Le jeu repère une caisse bloquée et propose d'annuler |
+| ⏳ à relire | `apps.asokoban.groups.2.items.2` | ឆ្លងកាត់កម្រិតមួយ បើកកម្រិតពីរបន្ទាប់ | Un niveau réussi ouvre les deux suivants |
+| ⏳ à relire | `apps.asokoban.groups.3.title` | 2D ឬ 3D | 2D ou 3D |
+| ⏳ à relire | `apps.asokoban.groups.3.items.0` | ក្ដារ 3D មានចលនា ឬក្ដារ 2D សាមញ្ញ | Plateau 3D animé, ou 2D épuré |
+| ⏳ à relire | `apps.asokoban.groups.3.items.1` | បន្ទប់ធំៗ អាចពង្រីកដោយម្រាមដៃពីរ | Les grandes salles s'agrandissent du bout des doigts |
+| ⏳ à relire | `apps.asokoban.groups.3.items.2` | រចនាបថភ្លឺ ឬងងឹត | Thème clair ou sombre |
+| ⏳ à relire | `apps.asokoban.groups.4.title` | វិធីលេង 4 យ៉ាង | Quatre façons de jouer |
+| ⏳ à relire | `apps.asokoban.groups.4.items.0` | ប៊ូតុងទិសដៅនៅលើអេក្រង់ | Croix directionnelle à l'écran |
+| ⏳ à relire | `apps.asokoban.groups.4.items.1` | អូសម្រាមដៃ | Glisser le doigt |
+| ⏳ à relire | `apps.asokoban.groups.4.items.2` | ប៉ះប្រឡោះមួយ ដើម្បីដើរទៅទីនោះ | Toucher une case pour y aller |
+| ⏳ à relire | `apps.asokoban.groups.4.items.3` | ក្ដារចុច | Clavier |
+| ⏳ à relire | `apps.asokoban.groups.5.title` | ភាសាអង់គ្លេស និងភាសាខ្មែរ | En anglais et en khmer |
+| ⏳ à relire | `apps.asokoban.groups.5.items.0` | កម្មវិធីពីរ មួយសម្រាប់ភាសានីមួយៗ | Deux applications, une par langue |
+| ⏳ à relire | `apps.asokoban.groups.5.items.1` | ការរៀបចំអក្សរ ដែលសម្របទៅនឹងអក្សរខ្មែរ | Une typographie adaptée à l'écriture khmère |
+| ⏳ à relire | `apps.asokoban.groups.5.items.2` | គ្មានការផ្សាយពាណិជ្ជកម្ម គ្មានគណនី មិនប្រមូលទិន្នន័យ | Sans publicité, sans compte, aucune donnée collectée |
+| ⏳ à relire | `apps.asokoban.shows.title` | អ្វីដែលគម្រោងនេះបង្ហាញ | Ce que ce projet montre |
+| ⏳ à relire | `apps.asokoban.shows.text` | ហ្គេមនេះជាភស្តុតាងនៃជំនាញ។ ជំនាញដដែលនេះ ប្រើសម្រាប់កម្មវិធីដែលធ្វើតាមតម្រូវការផងដែរ។ | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.asokoban.shows.items.0` | កម្មវិធី Android ទំនើប (Kotlin, Jetpack Compose) | Une application Android moderne (Kotlin, Jetpack Compose) |
+| ⏳ à relire | `apps.asokoban.shows.items.1` | រូបភាព 3D ក្នុងកម្មវិធី ហើយប្ដូរទៅ 2D បើទូរស័ព្ទមិនគាំទ្រ | De la 3D dans une application, avec retour en 2D si le téléphone ne la gère pas |
+| ⏳ à relire | `apps.asokoban.shows.items.2` | ការសាកល្បងដែលរារាំងកំណែមានកំហុស | Des tests qui bloquent une version défectueuse |
+| ⏳ à relire | `apps.asokoban.shows.items.3` | កម្មវិធីជាភាសាខ្មែរ | Une application en khmer |
+| ⏳ à relire | `apps.asokoban.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
+| ⏳ à relire | `apps.snake3d.eyebrow` | ហ្គេម Android · អាខេត 3D | Jeu Android · Arcade en 3D |
+| ⏳ à relire | `apps.snake3d.title` | 3D Snake | 3D Snake |
+| ⏳ à relire | `apps.snake3d.lead` | ហ្គេមពស់ ដែលមើលពីក្រោយក្បាលពស់។ អ្នកដឹកនាំពស់មួយក្បាល ឆ្លងកាត់កោះទីសក្ការៈនៅមាត់បឹង ដែលមានទួល ខឿនថ្ម និងផ្លូវជម្រាល ក្នុងពិភពមួយដែលគ្រប់ម៉ូដែល វាយនភាព សំឡេង និងណោតតន្ត្រី សុទ្ធតែបង្កើតដោយកូដ។ | Le jeu du serpent, vu de derrière la tête de l'animal. On guide un serpent sur des îles-sanctuaires au bord d'un lac, avec collines, terrasses de pierre et rampes, dans un monde dont chaque modèle, texture, son et note de musique est généré par le code. |
+| ⏳ à relire | `apps.snake3d.status` | រួចរាល់ មិនទាន់ចេញផ្សាយ | Terminé, pas encore publié |
+| ⏳ à relire | `apps.snake3d.gallery.title` | រូបភាពអេក្រង់ | En images |
+| ⏳ à relire | `apps.snake3d.gallery.note` | រូបភាពហ្គេម នៅក្នុងទីសក្ការៈមួយចំនួន។ | Captures du jeu dans quelques-uns de ses sanctuaires. |
+| ⏳ à relire | `apps.snake3d.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
+| ⏳ à relire | `apps.snake3d.gallery.captions.dawn` | Golden Dawn៖ ប្រាសាទភ្នំ។ | Aube dorée : la montagne-temple. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.mist` | Misty Morning៖ ចេតិយ។ | Matin brumeux : la pagode. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.lagoon` | Turquoise Lagoon៖ ប្រាសាទសមុទ្រ។ | Lagon turquoise : le temple marin. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.aurora` | Violet Aurora៖ ទីសង្កេតផ្កាយ។ | Aurore violette : l'observatoire. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.frost` | Silver Frost៖ រង្វង់ថ្ម។ | Givre argenté : le cercle de pierres. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.monsoon` | Jade Monsoon៖ ការលេងនៅពេលភ្លៀង។ | Mousson de jade : une partie sous la pluie. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.skins` | រូបរាងពស់ និងទីសក្ការៈដែលអាចដោះសោបាន។ | Les apparences de serpent et les sanctuaires à débloquer. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.khmer` | ម៉ឺនុយមេជាភាសាខ្មែរ។ | Le menu principal en khmer. |
+| ⏳ à relire | `apps.snake3d.featuresTitle` | ហ្គេម | Le jeu |
+| ⏳ à relire | `apps.snake3d.groups.0.title` | ច្បាប់ដែលគ្រប់គ្នាស្គាល់ | La règle de toujours |
+| ⏳ à relire | `apps.snake3d.groups.0.items.0` | ស៊ីដើម្បីលូតលាស់ កុំបុកអ្វីទាំងអស់ ជាពិសេសខ្លួនឯង | Manger pour grandir, ne rien toucher, surtout pas soi-même |
+| ⏳ à relire | `apps.snake3d.groups.0.items.1` | 14 ដំណាក់កាល៖ ពស់កាន់តែលឿន ហើយសសរថ្មដុះចេញពីដី | 14 étapes : le serpent accélère et des monolithes sortent du sol |
+| ⏳ à relire | `apps.snake3d.groups.0.items.2` | ការបង្កើនល្បឿន ដែលប្រើកម្លាំងបម្រុង | Une accélération qui puise dans une réserve d'endurance |
+| ⏳ à relire | `apps.snake3d.groups.1.title` | ដីខ្ពស់ទាបពិតប្រាកដ | Un vrai relief |
+| ⏳ à relire | `apps.snake3d.groups.1.items.0` | ទួល ខឿនដែលមានជញ្ជាំង និងផ្លូវជម្រាលក្រាលថ្ម | Collines, terrasses murées et rampes pavées |
+| ⏳ à relire | `apps.snake3d.groups.1.items.1` | ពស់ឡើងផ្លូវជម្រាលបាន ប៉ុន្តែបុកជញ្ជាំងគឺចាញ់ | Le serpent grimpe les rampes ; les murs arrêtent la partie |
+| ⏳ à relire | `apps.snake3d.groups.1.items.2` | មានចំណីនៅលើខឿនផងដែរ | De la nourriture aussi sur les terrasses |
+| ⏳ à relire | `apps.snake3d.groups.2.title` | ពិន្ទុ និងរង្វាន់ | Points et récompenses |
+| ⏳ à relire | `apps.snake3d.groups.2.items.0` | ផ្លែឈើ គ្រីស្តាល់ល្បឿន និងវត្ថុបុរាណកម្រ | Fruits, cristaux de vitesse et reliques rares |
+| ⏳ à relire | `apps.snake3d.groups.2.items.1` | ពិន្ទុបន្តបន្ទាប់រហូតដល់ ×3 និងរង្វាន់ពេលឆៀងកៀកឧបសគ្គ | Combos jusqu'à ×3, bonus quand on frôle un obstacle |
+| ⏳ à relire | `apps.snake3d.groups.2.items.2` | រូបរាងពស់ 13 និងទីសក្ការៈ 8 ដែលអាចដោះសោបាន | 13 apparences de serpent et 8 sanctuaires à débloquer |
+| ⏳ à relire | `apps.snake3d.groups.3.title` | បង្កើតដោយកូដទាំងអស់ | Tout est généré par le code |
+| ⏳ à relire | `apps.snake3d.groups.3.items.0` | ម៉ូដែល វាយនភាព សំឡេង និងតន្ត្រី | Modèles, textures, effets sonores et musique |
+| ⏳ à relire | `apps.snake3d.groups.3.items.1` | មានតែពុម្ពអក្សរប៉ុណ្ណោះ ដែលមកពីខាងក្រៅ | Seules les polices de caractères viennent d'ailleurs |
+| ⏳ à relire | `apps.snake3d.groups.3.items.2` | ភ្លៀង ព្រិល និងស្លឹកឈើរដូវស្លឹកឈើជ្រុះ តាមទីសក្ការៈ | Pluie, neige et feuillages d'automne selon le sanctuaire |
+| ⏳ à relire | `apps.snake3d.groups.4.title` | ងាយស្រួលសម្រាប់គ្រប់គ្នា | Accessible |
+| ⏳ à relire | `apps.snake3d.groups.4.items.0` | កាត់បន្ថយចលនា ដើម្បីកុំឱ្យវិលមុខ | Mouvements réduits, contre le mal des transports |
+| ⏳ à relire | `apps.snake3d.groups.4.items.1` | អក្សរក្នុងហ្គេមធំជាងមុន | Texte du jeu agrandi |
+| ⏳ à relire | `apps.snake3d.groups.4.items.2` | ពណ៌ព្រមានដែលសមស្របសម្រាប់អ្នកមើលពណ៌មិនច្បាស់ | Couleur d'alerte adaptée au daltonisme |
+| ⏳ à relire | `apps.snake3d.groups.4.items.3` | វិធីបញ្ជា 3 យ៉ាង និងការរៀបចំសម្រាប់អ្នកប្រើដៃឆ្វេង | Trois façons de diriger, disposition pour gauchers |
+| ⏳ à relire | `apps.snake3d.groups.5.title` | 18 ភាសា | 18 langues |
+| ⏳ à relire | `apps.snake3d.groups.5.items.0` | រួមទាំងភាសាខ្មែរ ថៃ វៀតណាម និងចិន | Dont le khmer, le thaï, le vietnamien et le chinois |
+| ⏳ à relire | `apps.snake3d.groups.5.items.1` | ហ្គេមប្រើភាសារបស់ទូរស័ព្ទ | Le jeu suit la langue du téléphone |
+| ⏳ à relire | `apps.snake3d.shows.title` | អ្វីដែលគម្រោងនេះបង្ហាញ | Ce que ce projet montre |
+| ⏳ à relire | `apps.snake3d.shows.text` | ហ្គេមនេះជាភស្តុតាងនៃជំនាញ។ ជំនាញដដែលនេះ ប្រើសម្រាប់កម្មវិធីដែលធ្វើតាមតម្រូវការផងដែរ។ | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.snake3d.shows.items.0` | ហ្គេម 3D លើទូរស័ព្ទ Android ដែលសាកល្បងបាន 60 រូបភាពក្នុងមួយវិនាទី | Un jeu en 3D sur téléphone Android, testé à 60 images par seconde |
+| ⏳ à relire | `apps.snake3d.shows.items.1` | មាតិកាដែលបង្កើតដោយកូដ ជំនួសឱ្យការគូរ | Des contenus créés par le code plutôt que dessinés |
+| ⏳ à relire | `apps.snake3d.shows.items.2` | កម្មវិធីបកប្រែជា 18 ភាសា រួមទាំងភាសាខ្មែរ | Une application traduite en 18 langues, khmer compris |
+| ⏳ à relire | `apps.snake3d.shows.items.3` | ការកំណត់ភាពងាយស្រួលប្រើ | Des réglages d'accessibilité |
+| ⏳ à relire | `apps.snake3d.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
+| ⏳ à relire | `apps.velocity.eyebrow` | ហ្គេម Android · ការប្រណាំង | Jeu Android · Course |
+| ⏳ à relire | `apps.velocity.title` | Velocity | Velocity |
+| ⏳ à relire | `apps.velocity.lead` | ហ្គេមប្រណាំងប្រឆាំងទំនាញ ដែលជាស្នាដៃដើម។ ក្រុមចំនួន 8 បើកយានអណ្ដែតក្នុងល្បឿនជាង 900 គីឡូម៉ែត្រក្នុងមួយម៉ោង លើផ្លូវប្រណាំង 12 ហ្វ្រាំងដោយហ្វ្រាំងខ្យល់ (airbrake) និងដណ្ដើមចំណាត់ថ្នាក់ដោយអាវុធ និងជំនួយ 8 ប្រភេទ។ | Un jeu de course anti-gravité original. Huit écuries pilotent des vaisseaux en sustentation à plus de 900 km/h sur douze circuits, freinent aux aérofreins et se disputent les places avec huit armes et bonus. |
+| ⏳ à relire | `apps.velocity.status` | អាចលេងបាន ប៉ុន្តែមិនទាន់ចេញផ្សាយ | Jouable, pas encore publié |
+| ⏳ à relire | `apps.velocity.gallery.title` | រូបភាពអេក្រង់ | En images |
+| ⏳ à relire | `apps.velocity.gallery.note` | រូបភាពហ្គេម លើផ្លូវប្រណាំងមួយចំនួន ក្នុងចំណោមផ្លូវទាំង 12។ | Captures du jeu sur quelques-uns de ses douze circuits. |
+| ⏳ à relire | `apps.velocity.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
+| ⏳ à relire | `apps.velocity.gallery.captions.hud` | Helix Bay ទីក្រុងធំពេលព្រលប់ ក្នុងពេលប្រណាំង។ | Helix Bay, une mégapole au crépuscule, en pleine course. |
+| ⏳ à relire | `apps.velocity.gallery.captions.lagrange` | Lagrange Station៖ ផ្លូវរមួលក្នុងគន្លងគោចរ។ | Lagrange Station : la vrille, en orbite. |
+| ⏳ à relire | `apps.velocity.gallery.captions.serra` | Serra Verde៖ ស្ពានខ្សែកាប ក្រោមភ្លៀង។ | Serra Verde : le pont à haubans sous la pluie. |
+| ⏳ à relire | `apps.velocity.gallery.captions.atacama` | Atacama Spaceport៖ ផ្លូវរង្វង់ជុំវិញកន្លែងបាញ់រ៉ុក្កែត។ | Atacama Spaceport : la boucle autour du pas de tir. |
+| ⏳ à relire | `apps.velocity.gallery.captions.glacier` | Glacier Ring៖ ក្រោមពន្លឺអូរ៉ូរ៉ា។ | Glacier Ring : sous l'aurore boréale. |
+| ⏳ à relire | `apps.velocity.gallery.captions.helix` | Helix Bay មើលពីលើ៖ ផ្លូវវង់ជុំវិញអគារខ្ពស់។ | Helix Bay vue du ciel : la spirale autour de la tour. |
+| ⏳ à relire | `apps.velocity.gallery.captions.weapons` | គ្រាប់ប្លាស្មា លើផ្លូវត្រង់ធំ។ | Tirs de plasma sur la grande ligne droite. |
+| ⏳ à relire | `apps.velocity.gallery.captions.noctis` | Noctis Rift៖ ស្ពានឆ្លងជ្រលងភ្នំ ពេលថ្ងៃលិចលើភពព្រះអង្គារ។ | Noctis Rift : le pont du rift au coucher du soleil martien. |
+| ⏳ à relire | `apps.velocity.gallery.captions.thalassa` | Thalassa Deep៖ រន្ធខៀវ និងអគារស្រាវជ្រាវ។ | Thalassa Deep : le trou bleu et sa tour de recherche. |
+| ⏳ à relire | `apps.velocity.featuresTitle` | ហ្គេម | Le jeu |
+| ⏳ à relire | `apps.velocity.groups.0.title` | ផ្លូវប្រណាំង 12 | Douze circuits |
+| ⏳ à relire | `apps.velocity.groups.0.items.0` | ចាប់ពីទីក្រុងធំពេលព្រលប់ រហូតដល់អាណានិគមលើភពព្រះអង្គារ | D'une mégapole au crépuscule à une colonie sur Mars |
+| ⏳ à relire | `apps.velocity.groups.0.items.1` | ស្ថានីយអាក់ទិក ស្ថានីយក្នុងគន្លងគោចរ ទីក្រុងក្រោមសមុទ្រ | Station arctique, station en orbite, cité sous-marine |
+| ⏳ à relire | `apps.velocity.groups.0.items.2` | ផ្លូវវង់ ផ្លូវរូងក្រោមដី ស្ពាន និងការលោត | Spirales, tunnels, ponts et sauts |
+| ⏳ à relire | `apps.velocity.groups.1.title` | ការបើកបរ | Le pilotage |
+| ⏳ à relire | `apps.velocity.groups.1.items.0` | យានអណ្ដែត ក្នុងល្បឿនជាង 900 គីឡូម៉ែត្រក្នុងមួយម៉ោង | Des vaisseaux en sustentation, à plus de 900 km/h |
+| ⏳ à relire | `apps.velocity.groups.1.items.1` | ហ្វ្រាំងខ្យល់ពីរដាច់ដោយឡែក សម្រាប់បត់ និងបន្ថយល្បឿន | Deux aérofreins indépendants pour tourner et freiner |
+| ⏳ à relire | `apps.velocity.groups.1.items.2` | ការបញ្ជាដោយប៉ះ ការផ្អៀងទូរស័ព្ទ ក្ដារចុច ឬដៃបញ្ជាហ្គេម | Commandes tactiles, inclinaison du téléphone, clavier ou manette |
+| ⏳ à relire | `apps.velocity.groups.2.title` | របៀបលេង 6 | Six modes de jeu |
+| ⏳ à relire | `apps.velocity.groups.2.items.0` | ការប្រណាំងធម្មតា ការដកចេញ និងការប្រយុទ្ធ | Course simple, élimination, combat |
+| ⏳ à relire | `apps.velocity.groups.2.items.1` | ការប្រកួតល្បឿន ការប្រណាំងរកពេលវេលា និងការហ្វឹកហាត់ | Défi de vitesse, contre-la-montre, entraînement |
+| ⏳ à relire | `apps.velocity.groups.2.items.2` | អាជីពអ្នកប្រណាំង មាន 47 ព្រឹត្តិការណ៍ និង 9 ពានរង្វាន់ | Une carrière de 47 épreuves et 9 coupes |
+| ⏳ à relire | `apps.velocity.groups.3.title` | អាវុធ និងជំនួយ | Armes et bonus |
+| ⏳ à relire | `apps.velocity.groups.3.items.0` | វត្ថុ 8៖ ប្លាស្មា មីស៊ីល EMP ខែល មីន ការបង្កើនល្បឿន… | Huit objets : plasma, missile, EMP, bouclier, mines, turbo… |
+| ⏳ à relire | `apps.velocity.groups.3.items.1` | ខែលដែលខ្សោយទៅៗ រាល់ពេលត្រូវបុក | Un bouclier qui s'use à chaque choc |
+| ⏳ à relire | `apps.velocity.groups.3.items.2` | ក្រុម 8 ក្រុមនីមួយៗមានយានរបស់ខ្លួន | Huit écuries, chacune avec son vaisseau |
+| ⏳ à relire | `apps.velocity.groups.4.title` | គូប្រកួតដែលកុំព្យូទ័របញ្ជា | Des adversaires pilotés par l'ordinateur |
+| ⏳ à relire | `apps.velocity.groups.4.items.0` | អ្នកបើកបរ 5 ចរិត | Cinq caractères de pilote |
+| ⏳ à relire | `apps.velocity.groups.4.items.1` | កម្រិតលំបាក 3 | Trois niveaux de difficulté |
+| ⏳ à relire | `apps.velocity.groups.4.items.2` | គ្មានការជួយឱ្យតាមទាន់ដោយសិប្បនិម្មិត | Pas de rattrapage artificiel |
+| ⏳ à relire | `apps.velocity.groups.5.title` | បង្កើតដោយកូដទាំងអស់ | Tout est généré par le code |
+| ⏳ à relire | `apps.velocity.groups.5.items.0` | ម៉ូដែល វាយនភាព សំឡេង និងតន្ត្រី | Modèles, textures, sons et musique |
+| ⏳ à relire | `apps.velocity.groups.5.items.1` | មានតែពុម្ពអក្សរប៉ុណ្ណោះ ដែលមកពីខាងក្រៅ | Seules les polices de caractères viennent d'ailleurs |
+| ⏳ à relire | `apps.velocity.shows.title` | អ្វីដែលគម្រោងនេះបង្ហាញ | Ce que ce projet montre |
+| ⏳ à relire | `apps.velocity.shows.text` | ហ្គេមនេះជាភស្តុតាងនៃជំនាញ។ ជំនាញដដែលនេះ ប្រើសម្រាប់កម្មវិធីដែលធ្វើតាមតម្រូវការផងដែរ។ | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.velocity.shows.items.0` | ហ្គេមប្រណាំង 3D លើទូរស័ព្ទ Android | Un jeu de course en 3D sur téléphone Android |
+| ⏳ à relire | `apps.velocity.shows.items.1` | រូបវិទ្យានៃការហោះ និងគូប្រកួតដែលកុំព្យូទ័របញ្ជា | Une physique de vol et des adversaires pilotés par l'ordinateur |
+| ⏳ à relire | `apps.velocity.shows.items.2` | ពិភព 3D ដែលបង្កើតដោយកូដ | Des mondes en 3D créés par le code |
+| ⏳ à relire | `apps.velocity.shows.items.3` | ការសាកល្បងដោយស្វ័យប្រវត្តិ លើការបើកបរ និងការប្រណាំង | Des tests automatiques de la conduite et des courses |
+| ⏳ à relire | `apps.velocity.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
 | ⏳ à relire | `work.title` | ស្នាដៃ | Réalisations |
 | ⏳ à relire | `work.lead` | គម្រោងពិតៗ ដែលពិពណ៌នាតាមស្ថានភាពបច្ចុប្បន្ន។ | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | ស្ថានភាព | État |
-| ⏳ à relire | `work.products.title` | ផលិតផល | Produits |
-| ⏳ à relire | `work.products.intro` | អ្វីដែលខ្ញុំអាចផ្ដល់ជូនអតិថិជន។ | Ce que je peux proposer à un client. |
-| ⏳ à relire | `work.products.tag` | ផលិតផល | Produit |
-| ⏳ à relire | `work.skills.title` | គម្រោងបច្ចេកទេស និងការស្រាវជ្រាវ (R&D) | Projets techniques et R&D |
-| ⏳ à relire | `work.skills.intro` | គម្រោងស្រាវជ្រាវ និងពិសោធន៍៖ 3D បណ្ដាញ សំឡេង ទិន្នន័យភូមិសាស្ត្រ។ គម្រោងទាំងនេះមិនត្រូវបានលក់ដូចដែលវាមាននោះទេ ប៉ុន្តែជំនាញដដែលនេះ ត្រូវបានប្រើក្នុងគម្រោងរបស់អតិថិជន។ | Des projets de recherche et d'expérimentation : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
-| ⏳ à relire | `work.skills.tag` | R&D | R&D |
+| ⏳ à relire | `work.products.title` | ស្នាដៃរបស់យើង | Nos réalisations |
+| ⏳ à relire | `work.products.intro` | កម្មវិធី និងហ្គេម Android ដែលបានធ្វើរហូតដល់កំណែដែលអាចប្រើបាន ដោយពិពណ៌នាតាមស្ថានភាពពិតនាពេលបច្ចុប្បន្ន។ | Des logiciels, des applications et des jeux Android menés jusqu'à une version utilisable, décrits tels qu'ils sont aujourd'hui. |
+| ⏳ à relire | `work.products.tag` | រួចរាល់ | Réalisation |
+| ⏳ à relire | `work.skills.title` | កំពុងអភិវឌ្ឍ | En cours de développement |
+| ⏳ à relire | `work.skills.intro` | គម្រោងដែលកំពុងធ្វើនៅឡើយ៖ 3D បណ្ដាញ សំឡេង ទិន្នន័យភូមិសាស្ត្រ។ គម្រោងទាំងនេះមិនត្រូវបានលក់ដូចដែលវាមាននោះទេ ប៉ុន្តែជំនាញដដែលនេះ ត្រូវបានប្រើក្នុងគម្រោងរបស់អតិថិជន។ | Des projets encore en chantier : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
+| ⏳ à relire | `work.skills.tag` | កំពុងធ្វើ | En cours |
 | ⏳ à relire | `work.items.hms.title` | HMS | HMS |
 | ⏳ à relire | `work.items.hms.kind` | កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ | Logiciel de gestion hôtelière |
 | ⏳ à relire | `work.items.hms.status` | មុខងារសំខាន់ៗបានបញ្ចប់ | Fonctions principales terminées |
@@ -832,6 +1027,26 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.learnkh.kind` | គេហទំព័ររៀនភាសា | Site d'apprentissage des langues |
 | ⏳ à relire | `work.items.learnkh.status` | កំណែអាចប្រើបាន ប៉ុន្តែមិនទាន់ដាក់លើអ៊ីនធឺណិត | Version utilisable, pas encore en ligne |
 | ⏳ à relire | `work.items.learnkh.text` | រៀនភាសាខ្មែរ បារាំង និងអង់គ្លេស ដោយចាប់ផ្ដើមពីភាសាបារាំង អង់គ្លេស ឬខ្មែរ។ 60 មេរៀន អក្សរក្រមជាមួយសំឡេង វាក្យសព្ទប្រហែល 600 ពាក្យ និងកាតសម្រាប់រំលឹកមេរៀន។ | Apprendre le khmer, le français et l'anglais, en partant du français, de l'anglais ou du khmer. 60 leçons, l'alphabet avec le son, un lexique d'environ 600 mots et des cartes de révision. |
+| ⏳ à relire | `work.items.acpc.title` | Acpc | Acpc |
+| ⏳ à relire | `work.items.acpc.kind` | កម្មវិធីត្រាប់តាម (emulator) Amstrad CPC សម្រាប់ Android | Émulateur Amstrad CPC pour Android |
+| ⏳ à relire | `work.items.acpc.status` | កំណែអាចប្រើបាន មិនទាន់ចេញផ្សាយ | Version utilisable, pas publiée |
+| ⏳ à relire | `work.items.acpc.text` | កុំព្យូទ័រ Amstrad CPC 464, 664 និង 6128, 6128 Plus និងម៉ាស៊ីនហ្គេម GX4000 នៅលើទូរស័ព្ទ ឬថេប្លេត Android។ ឌីស ខ្សែអាត់ និងកាតទ្រីត (cartridge) ការបើកហ្គេមដោយស្វ័យប្រវត្តិ និងការរក្សាទុកស្ថានភាពហ្គេម។ បានសាកល្បងប្រហែល 700 ចំណងជើង។ | Les Amstrad CPC 464, 664 et 6128, le 6128 Plus et la console GX4000 sur un téléphone ou une tablette Android. Disquettes, cassettes et cartouches, lancement automatique des jeux, sauvegardes d'état. Environ 700 titres testés. |
+| ⏳ à relire | `work.items.acpc.link` | ស្វែងយល់ពី Acpc | Découvrir Acpc |
+| ⏳ à relire | `work.items.asokoban.title` | ASokoban | ASokoban |
+| ⏳ à relire | `work.items.asokoban.kind` | ហ្គេមល្បែងប្រាជ្ញាសម្រាប់ Android | Jeu de réflexion pour Android |
+| ⏳ à relire | `work.items.asokoban.status` | រួចរាល់ មិនទាន់ចេញផ្សាយ | Terminé, pas encore publié |
+| ⏳ à relire | `work.items.asokoban.text` | ហ្គេមរុញប្រអប់៖ 70 កម្រិតដែលរចនាដោយដៃ គ្រប់កម្រិតត្រូវបានផ្ទៀងផ្ទាត់ថាអាចដោះស្រាយបាន លើក្ដារ 2D ឬក្ដារ 3D ដែលមានចលនា។ មានជាភាសាអង់គ្លេស និងភាសាខ្មែរ។ | Le jeu du pousse-caisses : 70 niveaux conçus à la main, tous vérifiés solvables, sur un plateau 2D ou en 3D animée. En anglais et en khmer. |
+| ⏳ à relire | `work.items.asokoban.link` | ស្វែងយល់ពី ASokoban | Découvrir ASokoban |
+| ⏳ à relire | `work.items.snake3d.title` | 3D Snake | 3D Snake |
+| ⏳ à relire | `work.items.snake3d.kind` | ហ្គេមអាខេត 3D សម្រាប់ Android | Jeu d'arcade en 3D pour Android |
+| ⏳ à relire | `work.items.snake3d.status` | រួចរាល់ មិនទាន់ចេញផ្សាយ | Terminé, pas encore publié |
+| ⏳ à relire | `work.items.snake3d.text` | ហ្គេមពស់ 3D មើលពីក្រោយក្បាលពស់ លើកោះដែលមានទួល ខឿន និងផ្លូវជម្រាល។ 14 ដំណាក់កាល 9 ទីសក្ការៈ 18 ភាសា រួមទាំងភាសាខ្មែរ។ ម៉ូដែល វាយនភាព សំឡេង និងតន្ត្រី សុទ្ធតែបង្កើតដោយកូដ។ | Le jeu du serpent en 3D, vu de derrière la tête, sur des îles avec collines, terrasses et rampes. 14 étapes, 9 sanctuaires, 18 langues dont le khmer. Modèles, textures, sons et musique sont générés par le code. |
+| ⏳ à relire | `work.items.snake3d.link` | ស្វែងយល់ពី 3D Snake | Découvrir 3D Snake |
+| ⏳ à relire | `work.items.velocity.title` | Velocity | Velocity |
+| ⏳ à relire | `work.items.velocity.kind` | ហ្គេមប្រណាំងប្រឆាំងទំនាញសម្រាប់ Android | Jeu de course anti-gravité pour Android |
+| ⏳ à relire | `work.items.velocity.status` | អាចលេងបាន ប៉ុន្តែមិនទាន់ចេញផ្សាយ | Jouable, pas encore publié |
+| ⏳ à relire | `work.items.velocity.text` | ក្រុមចំនួន 8 បើកយានអណ្ដែត លើផ្លូវប្រណាំង 12 ចាប់ពីទីក្រុងធំពេលព្រលប់ រហូតដល់អាណានិគមលើភពព្រះអង្គារ។ របៀបលេង 6 អាជីពអ្នកប្រណាំង ការប្រកួតជើងឯក និងអាវុធ និងជំនួយ 8 ប្រភេទ។ | Huit écuries de vaisseaux en sustentation sur douze circuits, d'une mégapole au crépuscule à une colonie sur Mars. Six modes de jeu, une carrière, des championnats, huit armes et bonus. |
+| ⏳ à relire | `work.items.velocity.link` | ស្វែងយល់ពី Velocity | Découvrir Velocity |
 | ⏳ à relire | `work.items.rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `work.items.rally.kind` | ហ្គេមប្រណាំងសម្រាប់ Android | Jeu de course pour Android |
 | ⏳ à relire | `work.items.rally.status` | អាចលេងបាន ប៉ុន្តែមិនទាន់ចេញផ្សាយ | Jouable, pas encore publié |
@@ -857,13 +1072,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.vsm.shows` | បង្ហាញ៖ កម្មវិធីកុំព្យូទ័រដែលស្មុគស្មាញ ការដំណើរការសំឡេង។ | Montre : logiciel de bureau exigeant, traitement du son. |
 | ⏳ à relire | `work.items.games.title` | ហ្គេម និងកម្មវិធី Android ផ្សេងទៀត | Autres jeux et applications Android |
 | ⏳ à relire | `work.items.games.list.0` | 3D Buggy៖ ការប្រណាំងឡានលើផ្លូវគ្រប់ប្រភេទ បែបអាខេត (arcade) | 3D Buggy : course tout-terrain d'arcade |
-| ⏳ à relire | `work.items.games.list.1` | ASokoban៖ ហ្គេម Sokoban មាន 70 កម្រិត | ASokoban : un Sokoban de 70 niveaux |
-| ⏳ à relire | `work.items.games.list.2` | Fluxline៖ ហ្គេមល្បែងប្រាជ្ញាបែបអាខេត ដែលត្រូវតភ្ជាប់បំពង់ | Fluxline : puzzle d'arcade où l'on relie des tuyaux |
-| ⏳ à relire | `work.items.games.list.3` | 3D Snake៖ ហ្គេមពស់ 3D | 3D Snake : un serpent en 3D |
-| ⏳ à relire | `work.items.games.list.4` | 3D Frog៖ ហ្គេមអាខេតដែលត្រូវឆ្លងកាត់ផ្លូវ | 3D Frog : jeu d'arcade où il faut traverser |
-| ⏳ à relire | `work.items.games.list.5` | Velocity៖ ការប្រណាំងប្រឆាំងទំនាញ | Velocity : course anti-gravité |
-| ⏳ à relire | `work.items.games.list.6` | Gemstone Caverns៖ ជីក និងប្រមូលត្បូងនៅក្នុងរូងភ្នំ | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
-| ⏳ à relire | `work.items.games.list.7` | Acpc៖ កម្មវិធីត្រាប់តាម (emulator) កុំព្យូទ័រ Amstrad CPC | Acpc : émulateur d'ordinateurs Amstrad CPC |
+| ⏳ à relire | `work.items.games.list.1` | Fluxline៖ ហ្គេមល្បែងប្រាជ្ញាបែបអាខេត ដែលត្រូវតភ្ជាប់បំពង់ | Fluxline : puzzle d'arcade où l'on relie des tuyaux |
+| ⏳ à relire | `work.items.games.list.2` | 3D Frog៖ ហ្គេមអាខេតដែលត្រូវឆ្លងកាត់ផ្លូវ | 3D Frog : jeu d'arcade où il faut traverser |
+| ⏳ à relire | `work.items.games.list.3` | Gemstone Caverns៖ ជីក និងប្រមូលត្បូងនៅក្នុងរូងភ្នំ | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
 | ⏳ à relire | `work.items.games.link` | មើលបញ្ជីស្នាដៃ (portfolio) | Voir le portfolio |
 | ⏳ à relire | `about.title` | អំពីខ្ញុំ | À propos |
 | ⏳ à relire | `about.lead` | ខ្ញុំឈ្មោះ Stefan ជាស្ថាបនិកនៃ Chantrea Systems។ ខ្ញុំរស់នៅកំពត កម្ពុជា។ | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |
@@ -935,7 +1146,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 919 textes relus.
+0 / 1130 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -951,8 +1162,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.rally.description` | Гоночная 3D-игра для Android по настоящим дорогам вокруг храмов Ангкора. От 2 до 8 игроков в одной сети Wi-Fi, без интернета. 8 машин, 2 трассы, 7 языков. | Jeu de course en 3D pour Android, sur les vraies routes autour d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits. |
 | ⏳ à relire | `meta.angkor.title` | Angkor World Engine, район Ангкора в 3D — Chantrea Systems | Angkor World Engine, Angkor en 3D — Chantrea Systems |
 | ⏳ à relire | `meta.angkor.description` | Район Ангкора и Сиемреапа в 3D в реальном масштабе (37 × 45 км) по открытым географическим данным. Полёт или поездка, на компьютере и на Android. | La région d'Angkor et de Siem Reap en 3D à l'échelle réelle (37 × 45 km), à partir de données géographiques ouvertes. Sur ordinateur et téléphone Android. |
+| ⏳ à relire | `meta.acpc.title` | Acpc, эмулятор Amstrad CPC для Android — Chantrea Systems | Acpc, émulateur Amstrad CPC pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.acpc.description` | Amstrad CPC 464, 664, 6128, 6128 Plus и GX4000 на Android: дискеты, кассеты, картриджи, автоматический запуск игр. Проверено около 700 программ. | Les Amstrad CPC 464, 664, 6128, 6128 Plus et GX4000 sur Android : disquettes, cassettes, cartouches, lancement automatique des jeux. Environ 700 titres testés. |
+| ⏳ à relire | `meta.asokoban.title` | ASokoban, головоломка для Android — Chantrea Systems | ASokoban, jeu de réflexion pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.asokoban.description` | «Сокобан» для Android: 70 уровней ручной работы с проверенными решениями, 2D- или 3D-поле, неограниченная отмена ходов. На английском и кхмерском. | Le pousse-caisses pour Android : 70 niveaux conçus à la main et vérifiés solvables, plateau 2D ou 3D, annulation illimitée. En anglais et en khmer. |
+| ⏳ à relire | `meta.snake3d.title` | 3D Snake, «змейка» в 3D для Android — Chantrea Systems | 3D Snake, le jeu du serpent en 3D pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.snake3d.description` | «Змейка» в 3D на островах-святилищах: 14 этапов, 9 святилищ, 18 языков, включая кхмерский. Модели, звуки и музыка созданы кодом. | Le jeu du serpent en 3D sur des îles-sanctuaires : 14 étapes, 9 sanctuaires, 18 langues dont le khmer. Modèles, sons et musique générés par le code. |
+| ⏳ à relire | `meta.velocity.title` | Velocity, антигравитационная гонка для Android — Chantrea Systems | Velocity, course anti-gravité pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.velocity.description` | Антигравитационная гонка для Android: 12 трасс, 8 команд, 6 режимов, карьера и чемпионаты, оружие и бонусы. | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | Проекты — Chantrea Systems | Réalisations — Chantrea Systems |
-| ⏳ à relire | `meta.work.description` | Программа для отелей HMS, сайт для изучения кхмерского и технические проекты: 3D-игры для Android, Ангкор в 3D, музыкальные инструменты в браузере. | Le logiciel hôtelier HMS, un site pour apprendre le khmer, et des projets techniques : jeux Android en 3D, Angkor en 3D, musique dans le navigateur. |
+| ⏳ à relire | `meta.work.description` | Программа для отелей HMS, сайт для изучения кхмерского, игры и эмулятор для Android, а также проекты в разработке: Ангкор в 3D, музыка в браузере. | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, et des projets en cours : Angkor en 3D, musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | Обо мне — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems, основана Стефаном в Кампоте. ПО, ИИ, инфраструктура и безопасность — в Камбодже и удалённо. | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
 | ⏳ à relire | `meta.jobs.title` | Вакансия: переводчик кхмерского языка — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
@@ -1059,7 +1278,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.audiences.items.3.title` | Клиенты за рубежом | Clients à l'étranger |
 | ⏳ à relire | `home.audiences.items.3.text` | Удалённое ведение проектов по электронной почте, в Telegram или WhatsApp. | Projets suivis à distance, par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `home.work.title` | Проекты | Réalisations |
-| ⏳ à relire | `home.work.text` | Продукты для бизнеса и технические проекты, которые показывают, что я умею. | Des produits pour les entreprises, et des projets techniques qui montrent ce que je sais faire. |
+| ⏳ à relire | `home.work.text` | Программы и приложения, доведённые до конца, и проекты, которые ещё в разработке. | Des logiciels et des applications menés à terme, et des projets encore en cours de développement. |
 | ⏳ à relire | `home.work.cta` | Посмотреть проекты | Voir les réalisations |
 | ⏳ à relire | `services.title` | Услуги | Services |
 | ⏳ à relire | `services.lead` | Четыре взаимодополняющих направления. В Кампоте и окрестностях, в других районах Камбоджи, а для клиентов за рубежом — удалённо. | Quatre domaines complémentaires. À Kampot et dans ses environs, ailleurs au Cambodge, et à distance pour les clients à l'étranger. |
@@ -1740,15 +1959,202 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `angkor.shows.items.3` | Источник каждого элемента данных указан, оценки отмечены | La source de chaque donnée indiquée, et ce qui est estimé signalé |
 | ⏳ à relire | `angkor.shows.cta` | Все проекты | Voir toutes les réalisations |
 | ⏳ à relire | `angkor.credits` | Данные: © участники OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) | Données : © contributeurs OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) |
+| ⏳ à relire | `apps.acpc.eyebrow` | Приложение для Android · Эмулятор | Application Android · Émulateur |
+| ⏳ à relire | `apps.acpc.title` | Acpc | Acpc |
+| ⏳ à relire | `apps.acpc.lead` | Amstrad CPC 464, 664 и 6128, 6128 Plus и приставка GX4000 на телефоне или планшете Android. Acpc загружает настоящую систему машины, запускает игры с дискет, кассет и картриджей — и делает это сам. | Les Amstrad CPC 464, 664 et 6128, le 6128 Plus et la console GX4000, sur un téléphone ou une tablette Android. Acpc démarre le vrai système de la machine, fait tourner les jeux depuis disquettes, cassettes et cartouches, et les lance tout seul. |
+| ⏳ à relire | `apps.acpc.status` | Рабочая версия, не опубликована | Version utilisable, pas publiée |
+| ⏳ à relire | `apps.acpc.gallery.title` | Скриншоты | En images |
+| ⏳ à relire | `apps.acpc.gallery.note` | Снимки приложения на телефоне Android. | Captures de l'application sur un téléphone Android. |
+| ⏳ à relire | `apps.acpc.gallery.enlarge` | увеличить изображение | agrandir l'image |
+| ⏳ à relire | `apps.acpc.gallery.captions.basic` | CPC 6128 при запуске, с экранным джойстиком и кнопками огня. | Un CPC 6128 au démarrage, avec le joystick et les boutons de tir à l'écran. |
+| ⏳ à relire | `apps.acpc.gallery.captions.library` | Библиотека: файлы телефона, избранное и удалённые серверы. | La bibliothèque : fichiers du téléphone, favoris et serveurs distants. |
+| ⏳ à relire | `apps.acpc.gallery.captions.remote` | Коллекция игр на archive.org: просмотр и поиск прямо из приложения. | Une collection de jeux sur archive.org, parcourue et cherchée depuis l'application. |
+| ⏳ à relire | `apps.acpc.gallery.captions.settings` | Настройки машины: модель, скорость, автозапуск. | Les réglages de la machine : modèle, vitesse, lancement automatique. |
+| ⏳ à relire | `apps.acpc.featuresTitle` | Приложение | L'application |
+| ⏳ à relire | `apps.acpc.groups.0.title` | Пять машин | Cinq machines |
+| ⏳ à relire | `apps.acpc.groups.0.items.0` | CPC 464, 664 и 6128 | CPC 464, 664 et 6128 |
+| ⏳ à relire | `apps.acpc.groups.0.items.1` | CPC 6128 Plus с аппаратными спрайтами и 4096 цветами | CPC 6128 Plus, avec ses sprites matériels et ses 4096 couleurs |
+| ⏳ à relire | `apps.acpc.groups.0.items.2` | Приставка GX4000: игра запускается со своего картриджа | Console GX4000 : le jeu démarre depuis sa cartouche |
+| ⏳ à relire | `apps.acpc.groups.0.items.3` | ПЗУ Amstrad не входят в комплект: нужно загрузить свои копии | Les ROM Amstrad ne sont pas fournies : on importe ses propres copies |
+| ⏳ à relire | `apps.acpc.groups.1.title` | Носители той эпохи | Les supports de l'époque |
+| ⏳ à relire | `apps.acpc.groups.1.items.0` | Дискеты .dsk, кассеты .cdt, картриджи .cpr | Disquettes .dsk, cassettes .cdt, cartouches .cpr |
+| ⏳ à relire | `apps.acpc.groups.1.items.1` | Сохранения состояния .sna | Sauvegardes d'état .sna |
+| ⏳ à relire | `apps.acpc.groups.1.items.2` | Сохранённые игрой партии и рекорды не теряются | Les parties et records enregistrés par les jeux sont conservés |
+| ⏳ à relire | `apps.acpc.groups.1.items.3` | Игры на нескольких дискетах или сторонах кассеты | Jeux sur plusieurs disquettes ou faces de cassette |
+| ⏳ à relire | `apps.acpc.groups.2.title` | Выбрал игру — она запустилась | Un jeu choisi, un jeu lancé |
+| ⏳ à relire | `apps.acpc.groups.2.items.0` | Acpc находит нужную программу на дискете и сам вводит команду | Acpc trouve le bon programme sur la disquette et tape la commande |
+| ⏳ à relire | `apps.acpc.groups.2.items.1` | Он выбирает и машину: GX4000 для картриджа, 6128 Plus для игры под Plus | Il choisit aussi la machine : GX4000 pour une cartouche, 6128 Plus pour un jeu Plus |
+| ⏳ à relire | `apps.acpc.groups.2.items.2` | Ускоренная загрузка с кассет | Chargement des cassettes en accéléré |
+| ⏳ à relire | `apps.acpc.groups.3.title` | Для сенсорного экрана | Fait pour l'écran tactile |
+| ⏳ à relire | `apps.acpc.groups.3.items.0` | Перемещаемые сенсорные джойстик и кнопки | Joystick et boutons tactiles, déplaçables |
+| ⏳ à relire | `apps.acpc.groups.3.items.1` | Экранная клавиатура CPC, клавиатура Android для текста | Clavier CPC à l'écran, clavier Android pour le texte |
+| ⏳ à relire | `apps.acpc.groups.3.items.2` | Клавиатуры и геймпады Bluetooth или USB | Claviers et manettes Bluetooth ou USB |
+| ⏳ à relire | `apps.acpc.groups.4.title` | Библиотека игр | Une bibliothèque de jeux |
+| ⏳ à relire | `apps.acpc.groups.4.items.0` | Файлы телефона и избранное | Fichiers du téléphone et favoris |
+| ⏳ à relire | `apps.acpc.groups.4.items.1` | Удалённые серверы и коллекции archive.org, с поиском | Serveurs distants et collections archive.org, avec recherche |
+| ⏳ à relire | `apps.acpc.groups.4.items.2` | Одно касание: игра скачана, сохранена и запущена | Un toucher : le jeu est téléchargé, gardé en mémoire et lancé |
+| ⏳ à relire | `apps.acpc.groups.5.title` | Проверено на настоящих программах | Testé sur de vrais logiciels |
+| ⏳ à relire | `apps.acpc.groups.5.items.0` | Около 700 программ прошли автоматические тесты | Environ 700 titres passés par des tests automatiques |
+| ⏳ à relire | `apps.acpc.groups.5.items.1` | Все 26 игр GX4000 | Les 26 jeux de la GX4000 |
+| ⏳ à relire | `apps.acpc.groups.5.items.2` | Каждая ошибка прослежена до причины | Chaque échec suivi jusqu'à sa cause |
+| ⏳ à relire | `apps.acpc.shows.title` | Что показывает этот проект | Ce que ce projet montre |
+| ⏳ à relire | `apps.acpc.shows.text` | Эмулятор воспроизводит работу компьютера микросхема за микросхемой. Та же тщательность нужна в бизнес-программах, где важна точность. | Un émulateur reproduit, puce par puce, le fonctionnement d'un ordinateur. Le même soin sert pour un logiciel métier qui doit être exact. |
+| ⏳ à relire | `apps.acpc.shows.items.0` | Приложение для Android на Kotlin | Une application Android écrite en Kotlin |
+| ⏳ à relire | `apps.acpc.shows.items.1` | Компьютер, воспроизведённый по компонентам | Le fonctionnement d'un ordinateur reproduit composant par composant |
+| ⏳ à relire | `apps.acpc.shows.items.2` | Автоматические тесты на сотнях настоящих программ | Des tests automatiques sur des centaines de logiciels réels |
+| ⏳ à relire | `apps.acpc.shows.items.3` | Сенсорное управление, клавиатура и геймпад | Des commandes tactiles, clavier et manette |
+| ⏳ à relire | `apps.acpc.shows.cta` | Все проекты | Voir toutes les réalisations |
+| ⏳ à relire | `apps.asokoban.eyebrow` | Игра для Android · Головоломка | Jeu Android · Réflexion |
+| ⏳ à relire | `apps.asokoban.title` | ASokoban | ASokoban |
+| ⏳ à relire | `apps.asokoban.lead` | Классический «Сокобан», бережно переделанный для Android: 70 уровней, созданных вручную, у каждого проверено решение, на чистом 2D-поле или анимированном 3D-поле. | Le grand classique du pousse-caisses, refait avec soin pour Android : 70 niveaux conçus à la main, tous vérifiés solvables, sur un plateau 2D épuré ou en 3D animée. |
+| ⏳ à relire | `apps.asokoban.status` | Готова, ещё не опубликована | Terminé, pas encore publié |
+| ⏳ à relire | `apps.asokoban.gallery.title` | Скриншоты | En images |
+| ⏳ à relire | `apps.asokoban.gallery.note` | Снимки игры на телефоне Android. | Captures du jeu sur un téléphone Android. |
+| ⏳ à relire | `apps.asokoban.gallery.enlarge` | увеличить изображение | agrandir l'image |
+| ⏳ à relire | `apps.asokoban.gallery.captions.home` | Главный экран. | L'écran d'accueil. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.levels` | Выбор уровня: карта каждой комнаты, звёзды и лучший результат по ходам. | Le choix du niveau : la carte de chaque salle, ses étoiles et le meilleur nombre de coups. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board3dDark` | Уровень на 3D-поле, тёмная тема. | Un niveau sur le plateau 3D, en thème sombre. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.complete` | Уровень пройден: три звезды и новый рекорд. | Niveau terminé : trois étoiles et un nouveau record. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board2d` | Уровень 37 на 2D-поле. | Le niveau 37 sur le plateau 2D. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board3d` | Та же позиция на 3D-поле. | La même position sur le plateau 3D. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.zoomed` | Большая комната, увеличенная вокруг героя. | Une grande salle, agrandie autour du personnage. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.khmer` | Выбор уровня в кхмерской версии. | Le choix du niveau dans la version en khmer. |
+| ⏳ à relire | `apps.asokoban.featuresTitle` | Игра | Le jeu |
+| ⏳ à relire | `apps.asokoban.groups.0.title` | Толкать, но не тянуть | Pousser, jamais tirer |
+| ⏳ à relire | `apps.asokoban.groups.0.items.0` | Один ящик за раз, и все должны оказаться на целях | Une caisse à la fois, et toutes doivent finir sur une cible |
+| ⏳ à relire | `apps.asokoban.groups.0.items.1` | 70 уровней в семи мирах | 70 niveaux en sept mondes |
+| ⏳ à relire | `apps.asokoban.groups.0.items.2` | Первые уровни объясняют правила | Les premiers niveaux expliquent la règle |
+| ⏳ à relire | `apps.asokoban.groups.1.title` | Уровни без ошибок | Des niveaux sans erreur |
+| ⏳ à relire | `apps.asokoban.groups.1.items.0` | У каждого уровня есть сохранённое решение | Chaque niveau a une solution enregistrée |
+| ⏳ à relire | `apps.asokoban.groups.1.items.1` | Тесты проигрывают каждое решение в каждой версии | Les tests rejouent chaque solution à chaque version |
+| ⏳ à relire | `apps.asokoban.groups.1.items.2` | До трёх звёзд в зависимости от числа ходов | Jusqu'à trois étoiles selon le nombre de coups |
+| ⏳ à relire | `apps.asokoban.groups.2.title` | Ошибаться не страшно | Le droit à l'erreur |
+| ⏳ à relire | `apps.asokoban.groups.2.items.0` | Неограниченная отмена ходов | Annulation illimitée |
+| ⏳ à relire | `apps.asokoban.groups.2.items.1` | Игра замечает застрявший ящик и предлагает отменить ход | Le jeu repère une caisse bloquée et propose d'annuler |
+| ⏳ à relire | `apps.asokoban.groups.2.items.2` | Пройденный уровень открывает два следующих | Un niveau réussi ouvre les deux suivants |
+| ⏳ à relire | `apps.asokoban.groups.3.title` | 2D или 3D | 2D ou 3D |
+| ⏳ à relire | `apps.asokoban.groups.3.items.0` | Анимированное 3D-поле или чистое 2D | Plateau 3D animé, ou 2D épuré |
+| ⏳ à relire | `apps.asokoban.groups.3.items.1` | Большие комнаты увеличиваются жестом | Les grandes salles s'agrandissent du bout des doigts |
+| ⏳ à relire | `apps.asokoban.groups.3.items.2` | Светлая или тёмная тема | Thème clair ou sombre |
+| ⏳ à relire | `apps.asokoban.groups.4.title` | Четыре способа управления | Quatre façons de jouer |
+| ⏳ à relire | `apps.asokoban.groups.4.items.0` | Экранная крестовина | Croix directionnelle à l'écran |
+| ⏳ à relire | `apps.asokoban.groups.4.items.1` | Свайпы | Glisser le doigt |
+| ⏳ à relire | `apps.asokoban.groups.4.items.2` | Касание клетки, чтобы пойти туда | Toucher une case pour y aller |
+| ⏳ à relire | `apps.asokoban.groups.4.items.3` | Клавиатура | Clavier |
+| ⏳ à relire | `apps.asokoban.groups.5.title` | На английском и кхмерском | En anglais et en khmer |
+| ⏳ à relire | `apps.asokoban.groups.5.items.0` | Два приложения, по одному на язык | Deux applications, une par langue |
+| ⏳ à relire | `apps.asokoban.groups.5.items.1` | Типографика, адаптированная к кхмерскому письму | Une typographie adaptée à l'écriture khmère |
+| ⏳ à relire | `apps.asokoban.groups.5.items.2` | Без рекламы, без аккаунта, без сбора данных | Sans publicité, sans compte, aucune donnée collectée |
+| ⏳ à relire | `apps.asokoban.shows.title` | Что показывает этот проект | Ce que ce projet montre |
+| ⏳ à relire | `apps.asokoban.shows.text` | Эта игра подтверждает навыки. Те же умения идут в приложения на заказ. | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.asokoban.shows.items.0` | Современное приложение для Android (Kotlin, Jetpack Compose) | Une application Android moderne (Kotlin, Jetpack Compose) |
+| ⏳ à relire | `apps.asokoban.shows.items.1` | 3D в приложении, с переходом на 2D, если телефон не справляется | De la 3D dans une application, avec retour en 2D si le téléphone ne la gère pas |
+| ⏳ à relire | `apps.asokoban.shows.items.2` | Тесты, которые не пропускают версию с ошибкой | Des tests qui bloquent une version défectueuse |
+| ⏳ à relire | `apps.asokoban.shows.items.3` | Приложение на кхмерском | Une application en khmer |
+| ⏳ à relire | `apps.asokoban.shows.cta` | Все проекты | Voir toutes les réalisations |
+| ⏳ à relire | `apps.snake3d.eyebrow` | Игра для Android · 3D-аркада | Jeu Android · Arcade en 3D |
+| ⏳ à relire | `apps.snake3d.title` | 3D Snake | 3D Snake |
+| ⏳ à relire | `apps.snake3d.lead` | «Змейка» с видом из-за головы змеи. Вы ведёте змею по островам-святилищам у озера, с холмами, каменными террасами и пандусами, в мире, где каждая модель, текстура, звук и нота музыки созданы программным кодом. | Le jeu du serpent, vu de derrière la tête de l'animal. On guide un serpent sur des îles-sanctuaires au bord d'un lac, avec collines, terrasses de pierre et rampes, dans un monde dont chaque modèle, texture, son et note de musique est généré par le code. |
+| ⏳ à relire | `apps.snake3d.status` | Готова, ещё не опубликована | Terminé, pas encore publié |
+| ⏳ à relire | `apps.snake3d.gallery.title` | Скриншоты | En images |
+| ⏳ à relire | `apps.snake3d.gallery.note` | Кадры из игры в нескольких святилищах. | Captures du jeu dans quelques-uns de ses sanctuaires. |
+| ⏳ à relire | `apps.snake3d.gallery.enlarge` | увеличить изображение | agrandir l'image |
+| ⏳ à relire | `apps.snake3d.gallery.captions.dawn` | Golden Dawn: храм-гора. | Aube dorée : la montagne-temple. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.mist` | Misty Morning: пагода. | Matin brumeux : la pagode. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.lagoon` | Turquoise Lagoon: морской храм. | Lagon turquoise : le temple marin. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.aurora` | Violet Aurora: обсерватория. | Aurore violette : l'observatoire. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.frost` | Silver Frost: каменный круг. | Givre argenté : le cercle de pierres. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.monsoon` | Jade Monsoon: игра под дождём. | Mousson de jade : une partie sous la pluie. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.skins` | Облики змеи и святилища, которые можно открыть. | Les apparences de serpent et les sanctuaires à débloquer. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.khmer` | Главное меню на кхмерском. | Le menu principal en khmer. |
+| ⏳ à relire | `apps.snake3d.featuresTitle` | Игра | Le jeu |
+| ⏳ à relire | `apps.snake3d.groups.0.title` | Знакомые правила | La règle de toujours |
+| ⏳ à relire | `apps.snake3d.groups.0.items.0` | Есть, чтобы расти, и ни во что не врезаться, особенно в себя | Manger pour grandir, ne rien toucher, surtout pas soi-même |
+| ⏳ à relire | `apps.snake3d.groups.0.items.1` | 14 этапов: змея ускоряется, из земли поднимаются монолиты | 14 étapes : le serpent accélère et des monolithes sortent du sol |
+| ⏳ à relire | `apps.snake3d.groups.0.items.2` | Ускорение за счёт запаса выносливости | Une accélération qui puise dans une réserve d'endurance |
+| ⏳ à relire | `apps.snake3d.groups.1.title` | Настоящий рельеф | Un vrai relief |
+| ⏳ à relire | `apps.snake3d.groups.1.items.0` | Холмы, террасы со стенами и мощёные пандусы | Collines, terrasses murées et rampes pavées |
+| ⏳ à relire | `apps.snake3d.groups.1.items.1` | Змея поднимается по пандусам; стены заканчивают игру | Le serpent grimpe les rampes ; les murs arrêtent la partie |
+| ⏳ à relire | `apps.snake3d.groups.1.items.2` | Еда появляется и на террасах | De la nourriture aussi sur les terrasses |
+| ⏳ à relire | `apps.snake3d.groups.2.title` | Очки и награды | Points et récompenses |
+| ⏳ à relire | `apps.snake3d.groups.2.items.0` | Фрукты, кристаллы скорости и редкие реликвии | Fruits, cristaux de vitesse et reliques rares |
+| ⏳ à relire | `apps.snake3d.groups.2.items.1` | Комбо до ×3, бонус за проход вплотную к препятствию | Combos jusqu'à ×3, bonus quand on frôle un obstacle |
+| ⏳ à relire | `apps.snake3d.groups.2.items.2` | 13 обликов змеи и 8 святилищ, которые можно открыть | 13 apparences de serpent et 8 sanctuaires à débloquer |
+| ⏳ à relire | `apps.snake3d.groups.3.title` | Всё создано кодом | Tout est généré par le code |
+| ⏳ à relire | `apps.snake3d.groups.3.items.0` | Модели, текстуры, звуковые эффекты и музыка | Modèles, textures, effets sonores et musique |
+| ⏳ à relire | `apps.snake3d.groups.3.items.1` | Сторонние только шрифты | Seules les polices de caractères viennent d'ailleurs |
+| ⏳ à relire | `apps.snake3d.groups.3.items.2` | Дождь, снег и осенняя листва в зависимости от святилища | Pluie, neige et feuillages d'automne selon le sanctuaire |
+| ⏳ à relire | `apps.snake3d.groups.4.title` | Доступность | Accessible |
+| ⏳ à relire | `apps.snake3d.groups.4.items.0` | Уменьшение движения против укачивания | Mouvements réduits, contre le mal des transports |
+| ⏳ à relire | `apps.snake3d.groups.4.items.1` | Крупный текст в игре | Texte du jeu agrandi |
+| ⏳ à relire | `apps.snake3d.groups.4.items.2` | Цвет предупреждения для людей с дальтонизмом | Couleur d'alerte adaptée au daltonisme |
+| ⏳ à relire | `apps.snake3d.groups.4.items.3` | Три способа управления, вариант для левшей | Trois façons de diriger, disposition pour gauchers |
+| ⏳ à relire | `apps.snake3d.groups.5.title` | 18 языков | 18 langues |
+| ⏳ à relire | `apps.snake3d.groups.5.items.0` | В том числе кхмерский, тайский, вьетнамский и китайский | Dont le khmer, le thaï, le vietnamien et le chinois |
+| ⏳ à relire | `apps.snake3d.groups.5.items.1` | Игра выбирает язык телефона | Le jeu suit la langue du téléphone |
+| ⏳ à relire | `apps.snake3d.shows.title` | Что показывает этот проект | Ce que ce projet montre |
+| ⏳ à relire | `apps.snake3d.shows.text` | Эта игра подтверждает навыки. Те же умения идут в приложения на заказ. | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.snake3d.shows.items.0` | 3D-игра для телефонов Android, проверенная на 60 кадрах в секунду | Un jeu en 3D sur téléphone Android, testé à 60 images par seconde |
+| ⏳ à relire | `apps.snake3d.shows.items.1` | Контент, созданный кодом, а не нарисованный | Des contenus créés par le code plutôt que dessinés |
+| ⏳ à relire | `apps.snake3d.shows.items.2` | Приложение на 18 языках, включая кхмерский | Une application traduite en 18 langues, khmer compris |
+| ⏳ à relire | `apps.snake3d.shows.items.3` | Настройки доступности | Des réglages d'accessibilité |
+| ⏳ à relire | `apps.snake3d.shows.cta` | Все проекты | Voir toutes les réalisations |
+| ⏳ à relire | `apps.velocity.eyebrow` | Игра для Android · Гонки | Jeu Android · Course |
+| ⏳ à relire | `apps.velocity.title` | Velocity | Velocity |
+| ⏳ à relire | `apps.velocity.lead` | Оригинальная антигравитационная гонка. Восемь команд ведут парящие корабли со скоростью более 900 км/ч по двенадцати трассам, тормозят воздушными тормозами и борются за места с помощью восьми видов оружия и бонусов. | Un jeu de course anti-gravité original. Huit écuries pilotent des vaisseaux en sustentation à plus de 900 km/h sur douze circuits, freinent aux aérofreins et se disputent les places avec huit armes et bonus. |
+| ⏳ à relire | `apps.velocity.status` | Играбельная версия, ещё не опубликована | Jouable, pas encore publié |
+| ⏳ à relire | `apps.velocity.gallery.title` | Скриншоты | En images |
+| ⏳ à relire | `apps.velocity.gallery.note` | Кадры из игры на нескольких из двенадцати трасс. | Captures du jeu sur quelques-uns de ses douze circuits. |
+| ⏳ à relire | `apps.velocity.gallery.enlarge` | увеличить изображение | agrandir l'image |
+| ⏳ à relire | `apps.velocity.gallery.captions.hud` | Helix Bay, мегаполис в сумерках, в разгар гонки. | Helix Bay, une mégapole au crépuscule, en pleine course. |
+| ⏳ à relire | `apps.velocity.gallery.captions.lagrange` | Lagrange Station: штопор на орбите. | Lagrange Station : la vrille, en orbite. |
+| ⏳ à relire | `apps.velocity.gallery.captions.serra` | Serra Verde: вантовый мост под дождём. | Serra Verde : le pont à haubans sous la pluie. |
+| ⏳ à relire | `apps.velocity.gallery.captions.atacama` | Atacama Spaceport: петля вокруг стартовой площадки. | Atacama Spaceport : la boucle autour du pas de tir. |
+| ⏳ à relire | `apps.velocity.gallery.captions.glacier` | Glacier Ring: под северным сиянием. | Glacier Ring : sous l'aurore boréale. |
+| ⏳ à relire | `apps.velocity.gallery.captions.helix` | Helix Bay с высоты: спираль вокруг башни. | Helix Bay vue du ciel : la spirale autour de la tour. |
+| ⏳ à relire | `apps.velocity.gallery.captions.weapons` | Плазменные выстрелы на главной прямой. | Tirs de plasma sur la grande ligne droite. |
+| ⏳ à relire | `apps.velocity.gallery.captions.noctis` | Noctis Rift: мост над разломом на марсианском закате. | Noctis Rift : le pont du rift au coucher du soleil martien. |
+| ⏳ à relire | `apps.velocity.gallery.captions.thalassa` | Thalassa Deep: голубая дыра и исследовательская башня. | Thalassa Deep : le trou bleu et sa tour de recherche. |
+| ⏳ à relire | `apps.velocity.featuresTitle` | Игра | Le jeu |
+| ⏳ à relire | `apps.velocity.groups.0.title` | Двенадцать трасс | Douze circuits |
+| ⏳ à relire | `apps.velocity.groups.0.items.0` | От мегаполиса в сумерках до колонии на Марсе | D'une mégapole au crépuscule à une colonie sur Mars |
+| ⏳ à relire | `apps.velocity.groups.0.items.1` | Арктическая станция, орбитальная станция, подводный город | Station arctique, station en orbite, cité sous-marine |
+| ⏳ à relire | `apps.velocity.groups.0.items.2` | Спирали, тоннели, мосты и прыжки | Spirales, tunnels, ponts et sauts |
+| ⏳ à relire | `apps.velocity.groups.1.title` | Управление | Le pilotage |
+| ⏳ à relire | `apps.velocity.groups.1.items.0` | Парящие корабли, более 900 км/ч | Des vaisseaux en sustentation, à plus de 900 km/h |
+| ⏳ à relire | `apps.velocity.groups.1.items.1` | Два независимых воздушных тормоза для поворотов и торможения | Deux aérofreins indépendants pour tourner et freiner |
+| ⏳ à relire | `apps.velocity.groups.1.items.2` | Сенсорное управление, наклон телефона, клавиатура или геймпад | Commandes tactiles, inclinaison du téléphone, clavier ou manette |
+| ⏳ à relire | `apps.velocity.groups.2.title` | Шесть режимов | Six modes de jeu |
+| ⏳ à relire | `apps.velocity.groups.2.items.0` | Одиночная гонка, выбывание, бой | Course simple, élimination, combat |
+| ⏳ à relire | `apps.velocity.groups.2.items.1` | Скоростное испытание, заезд на время, тренировка | Défi de vitesse, contre-la-montre, entraînement |
+| ⏳ à relire | `apps.velocity.groups.2.items.2` | Карьера из 47 соревнований и 9 кубков | Une carrière de 47 épreuves et 9 coupes |
+| ⏳ à relire | `apps.velocity.groups.3.title` | Оружие и бонусы | Armes et bonus |
+| ⏳ à relire | `apps.velocity.groups.3.items.0` | Восемь предметов: плазма, ракета, ЭМИ, щит, мины, турбо… | Huit objets : plasma, missile, EMP, bouclier, mines, turbo… |
+| ⏳ à relire | `apps.velocity.groups.3.items.1` | Щит слабеет с каждым ударом | Un bouclier qui s'use à chaque choc |
+| ⏳ à relire | `apps.velocity.groups.3.items.2` | Восемь команд, у каждой свой корабль | Huit écuries, chacune avec son vaisseau |
+| ⏳ à relire | `apps.velocity.groups.4.title` | Соперники под управлением компьютера | Des adversaires pilotés par l'ordinateur |
+| ⏳ à relire | `apps.velocity.groups.4.items.0` | Пять характеров пилотов | Cinq caractères de pilote |
+| ⏳ à relire | `apps.velocity.groups.4.items.1` | Три уровня сложности | Trois niveaux de difficulté |
+| ⏳ à relire | `apps.velocity.groups.4.items.2` | Без искусственного подтягивания отстающих | Pas de rattrapage artificiel |
+| ⏳ à relire | `apps.velocity.groups.5.title` | Всё создано кодом | Tout est généré par le code |
+| ⏳ à relire | `apps.velocity.groups.5.items.0` | Модели, текстуры, звуки и музыка | Modèles, textures, sons et musique |
+| ⏳ à relire | `apps.velocity.groups.5.items.1` | Сторонние только шрифты | Seules les polices de caractères viennent d'ailleurs |
+| ⏳ à relire | `apps.velocity.shows.title` | Что показывает этот проект | Ce que ce projet montre |
+| ⏳ à relire | `apps.velocity.shows.text` | Эта игра подтверждает навыки. Те же умения идут в приложения на заказ. | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.velocity.shows.items.0` | 3D-гонка для телефонов Android | Un jeu de course en 3D sur téléphone Android |
+| ⏳ à relire | `apps.velocity.shows.items.1` | Физика полёта и соперники под управлением компьютера | Une physique de vol et des adversaires pilotés par l'ordinateur |
+| ⏳ à relire | `apps.velocity.shows.items.2` | 3D-миры, созданные кодом | Des mondes en 3D créés par le code |
+| ⏳ à relire | `apps.velocity.shows.items.3` | Автоматические тесты управления и гонок | Des tests automatiques de la conduite et des courses |
+| ⏳ à relire | `apps.velocity.shows.cta` | Все проекты | Voir toutes les réalisations |
 | ⏳ à relire | `work.title` | Проекты | Réalisations |
 | ⏳ à relire | `work.lead` | Реальные проекты, описанные такими, какие они есть сегодня. | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | Статус | État |
-| ⏳ à relire | `work.products.title` | Продукты | Produits |
-| ⏳ à relire | `work.products.intro` | То, что я могу предложить клиенту. | Ce que je peux proposer à un client. |
-| ⏳ à relire | `work.products.tag` | Продукт | Produit |
-| ⏳ à relire | `work.skills.title` | Технические проекты и R&D | Projets techniques et R&D |
-| ⏳ à relire | `work.skills.intro` | Исследовательские и экспериментальные проекты: 3D, сети, звук, географические данные. Они не продаются как есть, но те же навыки применяются в проектах для клиентов. | Des projets de recherche et d'expérimentation : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
-| ⏳ à relire | `work.skills.tag` | R&D | R&D |
+| ⏳ à relire | `work.products.title` | Наши работы | Nos réalisations |
+| ⏳ à relire | `work.products.intro` | Программы, приложения и игры для Android, доведённые до рабочей версии и описанные такими, какие они есть сегодня. | Des logiciels, des applications et des jeux Android menés jusqu'à une version utilisable, décrits tels qu'ils sont aujourd'hui. |
+| ⏳ à relire | `work.products.tag` | Готово | Réalisation |
+| ⏳ à relire | `work.skills.title` | В разработке | En cours de développement |
+| ⏳ à relire | `work.skills.intro` | Проекты, работа над которыми продолжается: 3D, сети, звук, географические данные. Они не продаются как есть, но те же навыки применяются в проектах для клиентов. | Des projets encore en chantier : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
+| ⏳ à relire | `work.skills.tag` | В работе | En cours |
 | ⏳ à relire | `work.items.hms.title` | HMS | HMS |
 | ⏳ à relire | `work.items.hms.kind` | Программа для управления отелем | Logiciel de gestion hôtelière |
 | ⏳ à relire | `work.items.hms.status` | Основные функции готовы | Fonctions principales terminées |
@@ -1758,6 +2164,26 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.learnkh.kind` | Сайт для изучения языков | Site d'apprentissage des langues |
 | ⏳ à relire | `work.items.learnkh.status` | Рабочая версия, ещё не опубликована | Version utilisable, pas encore en ligne |
 | ⏳ à relire | `work.items.learnkh.text` | Изучение кхмерского, французского и английского с французского, английского или кхмерского. 60 уроков, алфавит с озвучкой, словарь примерно на 600 слов и карточки для повторения. | Apprendre le khmer, le français et l'anglais, en partant du français, de l'anglais ou du khmer. 60 leçons, l'alphabet avec le son, un lexique d'environ 600 mots et des cartes de révision. |
+| ⏳ à relire | `work.items.acpc.title` | Acpc | Acpc |
+| ⏳ à relire | `work.items.acpc.kind` | Эмулятор Amstrad CPC для Android | Émulateur Amstrad CPC pour Android |
+| ⏳ à relire | `work.items.acpc.status` | Рабочая версия, не опубликована | Version utilisable, pas publiée |
+| ⏳ à relire | `work.items.acpc.text` | Amstrad CPC 464, 664 и 6128, 6128 Plus и приставка GX4000 на телефоне или планшете Android. Дискеты, кассеты и картриджи, автоматический запуск игр, сохранение состояния. Проверено около 700 программ. | Les Amstrad CPC 464, 664 et 6128, le 6128 Plus et la console GX4000 sur un téléphone ou une tablette Android. Disquettes, cassettes et cartouches, lancement automatique des jeux, sauvegardes d'état. Environ 700 titres testés. |
+| ⏳ à relire | `work.items.acpc.link` | Подробнее об Acpc | Découvrir Acpc |
+| ⏳ à relire | `work.items.asokoban.title` | ASokoban | ASokoban |
+| ⏳ à relire | `work.items.asokoban.kind` | Головоломка для Android | Jeu de réflexion pour Android |
+| ⏳ à relire | `work.items.asokoban.status` | Готова, ещё не опубликована | Terminé, pas encore publié |
+| ⏳ à relire | `work.items.asokoban.text` | «Сокобан»: 70 уровней, созданных вручную, у каждого проверено решение, на 2D-поле или анимированном 3D-поле. На английском и кхмерском. | Le jeu du pousse-caisses : 70 niveaux conçus à la main, tous vérifiés solvables, sur un plateau 2D ou en 3D animée. En anglais et en khmer. |
+| ⏳ à relire | `work.items.asokoban.link` | Подробнее об ASokoban | Découvrir ASokoban |
+| ⏳ à relire | `work.items.snake3d.title` | 3D Snake | 3D Snake |
+| ⏳ à relire | `work.items.snake3d.kind` | 3D-аркада для Android | Jeu d'arcade en 3D pour Android |
+| ⏳ à relire | `work.items.snake3d.status` | Готова, ещё не опубликована | Terminé, pas encore publié |
+| ⏳ à relire | `work.items.snake3d.text` | «Змейка» в 3D, вид из-за головы, на островах с холмами, террасами и пандусами. 14 этапов, 9 святилищ, 18 языков, включая кхмерский. Модели, текстуры, звуки и музыка созданы программным кодом. | Le jeu du serpent en 3D, vu de derrière la tête, sur des îles avec collines, terrasses et rampes. 14 étapes, 9 sanctuaires, 18 langues dont le khmer. Modèles, textures, sons et musique sont générés par le code. |
+| ⏳ à relire | `work.items.snake3d.link` | Подробнее о 3D Snake | Découvrir 3D Snake |
+| ⏳ à relire | `work.items.velocity.title` | Velocity | Velocity |
+| ⏳ à relire | `work.items.velocity.kind` | Антигравитационная гонка для Android | Jeu de course anti-gravité pour Android |
+| ⏳ à relire | `work.items.velocity.status` | Играбельная версия, ещё не опубликована | Jouable, pas encore publié |
+| ⏳ à relire | `work.items.velocity.text` | Восемь команд на парящих кораблях, двенадцать трасс: от мегаполиса в сумерках до колонии на Марсе. Шесть режимов, карьера, чемпионаты, восемь видов оружия и бонусов. | Huit écuries de vaisseaux en sustentation sur douze circuits, d'une mégapole au crépuscule à une colonie sur Mars. Six modes de jeu, une carrière, des championnats, huit armes et bonus. |
+| ⏳ à relire | `work.items.velocity.link` | Подробнее о Velocity | Découvrir Velocity |
 | ⏳ à relire | `work.items.rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `work.items.rally.kind` | Гоночная игра для Android | Jeu de course pour Android |
 | ⏳ à relire | `work.items.rally.status` | Играбельная версия, ещё не опубликована | Jouable, pas encore publié |
@@ -1783,13 +2209,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.vsm.shows` | Показывает: сложная программа для компьютера, обработка звука. | Montre : logiciel de bureau exigeant, traitement du son. |
 | ⏳ à relire | `work.items.games.title` | Другие игры и приложения для Android | Autres jeux et applications Android |
 | ⏳ à relire | `work.items.games.list.0` | 3D Buggy: аркадная гонка по бездорожью | 3D Buggy : course tout-terrain d'arcade |
-| ⏳ à relire | `work.items.games.list.1` | ASokoban: «Сокобан» на 70 уровней | ASokoban : un Sokoban de 70 niveaux |
-| ⏳ à relire | `work.items.games.list.2` | Fluxline: аркадная головоломка, где нужно соединять трубы | Fluxline : puzzle d'arcade où l'on relie des tuyaux |
-| ⏳ à relire | `work.items.games.list.3` | 3D Snake: «змейка» в 3D | 3D Snake : un serpent en 3D |
-| ⏳ à relire | `work.items.games.list.4` | 3D Frog: аркада, где нужно перебраться на другую сторону | 3D Frog : jeu d'arcade où il faut traverser |
-| ⏳ à relire | `work.items.games.list.5` | Velocity: антигравитационная гонка | Velocity : course anti-gravité |
-| ⏳ à relire | `work.items.games.list.6` | Gemstone Caverns: копать и собирать камни в пещерах | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
-| ⏳ à relire | `work.items.games.list.7` | Acpc: эмулятор компьютеров Amstrad CPC | Acpc : émulateur d'ordinateurs Amstrad CPC |
+| ⏳ à relire | `work.items.games.list.1` | Fluxline: аркадная головоломка, где нужно соединять трубы | Fluxline : puzzle d'arcade où l'on relie des tuyaux |
+| ⏳ à relire | `work.items.games.list.2` | 3D Frog: аркада, где нужно перебраться на другую сторону | 3D Frog : jeu d'arcade où il faut traverser |
+| ⏳ à relire | `work.items.games.list.3` | Gemstone Caverns: копать и собирать камни в пещерах | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
 | ⏳ à relire | `work.items.games.link` | Посмотреть портфолио | Voir le portfolio |
 | ⏳ à relire | `about.title` | Обо мне | À propos |
 | ⏳ à relire | `about.lead` | Меня зовут Стефан, я основатель Chantrea Systems. Я живу в Кампоте, Камбоджа. | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |
@@ -1861,7 +2283,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 919 textes relus.
+0 / 1130 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1877,8 +2299,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.rally.description` | 一款 Android 3D 赛车游戏，赛道是吴哥寺庙周边的真实道路。2 到 8 名玩家连接同一个 Wi-Fi，无需互联网。8 款车辆，2 条赛道，7 种语言。 | Jeu de course en 3D pour Android, sur les vraies routes autour d'Angkor. De 2 à 8 joueurs sur le même Wi-Fi, sans internet. 8 véhicules, 2 circuits. |
 | ⏳ à relire | `meta.angkor.title` | Angkor World Engine，3D 吴哥地区 — Chantrea Systems | Angkor World Engine, Angkor en 3D — Chantrea Systems |
 | ⏳ à relire | `meta.angkor.description` | 基于开放地理数据，按真实比例用 3D 重建吴哥和暹粒地区，面积 37 × 45 公里。可以在上空飞行，也可以开车行驶，支持电脑和 Android 手机。 | La région d'Angkor et de Siem Reap en 3D à l'échelle réelle (37 × 45 km), à partir de données géographiques ouvertes. Sur ordinateur et téléphone Android. |
+| ⏳ à relire | `meta.acpc.title` | Acpc，Android 版 Amstrad CPC 模拟器 — Chantrea Systems | Acpc, émulateur Amstrad CPC pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.acpc.description` | 在 Android 上运行 Amstrad CPC 464、664、6128、6128 Plus 和 GX4000：磁盘、磁带、卡带，自动启动游戏。约 700 款软件经过测试。 | Les Amstrad CPC 464, 664, 6128, 6128 Plus et GX4000 sur Android : disquettes, cassettes, cartouches, lancement automatique des jeux. Environ 700 titres testés. |
+| ⏳ à relire | `meta.asokoban.title` | ASokoban，Android 益智游戏 — Chantrea Systems | ASokoban, jeu de réflexion pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.asokoban.description` | Android 推箱子游戏：70 个手工设计且经过验证可解的关卡，2D 或 3D 棋盘，无限撤销。英语版和高棉语版。 | Le pousse-caisses pour Android : 70 niveaux conçus à la main et vérifiés solvables, plateau 2D ou 3D, annulation illimitée. En anglais et en khmer. |
+| ⏳ à relire | `meta.snake3d.title` | 3D Snake，Android 3D 贪吃蛇 — Chantrea Systems | 3D Snake, le jeu du serpent en 3D pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.snake3d.description` | 在岛屿圣地上玩的 3D 贪吃蛇：14 个阶段，9 座圣地，18 种语言，包括高棉语。模型、声音和音乐由代码生成。 | Le jeu du serpent en 3D sur des îles-sanctuaires : 14 étapes, 9 sanctuaires, 18 langues dont le khmer. Modèles, sons et musique générés par le code. |
+| ⏳ à relire | `meta.velocity.title` | Velocity，Android 反重力赛车 — Chantrea Systems | Velocity, course anti-gravité pour Android — Chantrea Systems |
+| ⏳ à relire | `meta.velocity.description` | Android 反重力赛车游戏：12 条赛道，8 支车队，6 种模式，生涯和锦标赛，武器和道具。 | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | 项目案例 — Chantrea Systems | Réalisations — Chantrea Systems |
-| ⏳ à relire | `meta.work.description` | HMS 酒店管理软件和一个高棉语学习网站，以及一些技术项目：Android 3D 游戏、3D 吴哥地区、在浏览器里运行的乐器。 | Le logiciel hôtelier HMS, un site pour apprendre le khmer, et des projets techniques : jeux Android en 3D, Angkor en 3D, musique dans le navigateur. |
+| ⏳ à relire | `meta.work.description` | HMS 酒店管理软件、一个高棉语学习网站、Android 游戏和模拟器，以及开发中的项目：3D 吴哥、在浏览器里运行的音乐。 | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, et des projets en cours : Angkor en 3D, musique dans le navigateur. |
 | ⏳ à relire | `meta.about.title` | 关于 — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems 由 Stefan 在柬埔寨贡布创办。软件、AI、基础设施和安全，在柬埔寨现场或远程服务。 | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
 | ⏳ à relire | `meta.jobs.title` | 招聘：高棉语认证翻译 — Chantrea Systems | Recrutement : traducteur khmer agréé — Chantrea Systems |
@@ -1985,7 +2415,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.audiences.items.3.title` | 海外客户 | Clients à l'étranger |
 | ⏳ à relire | `home.audiences.items.3.text` | 远程跟进项目，通过电子邮件、Telegram 或 WhatsApp 沟通。 | Projets suivis à distance, par e-mail, Telegram ou WhatsApp. |
 | ⏳ à relire | `home.work.title` | 项目案例 | Réalisations |
-| ⏳ à relire | `home.work.text` | 面向企业的产品，以及展示我能力的技术项目。 | Des produits pour les entreprises, et des projets techniques qui montrent ce que je sais faire. |
+| ⏳ à relire | `home.work.text` | 已经完成的软件和应用，以及仍在开发中的项目。 | Des logiciels et des applications menés à terme, et des projets encore en cours de développement. |
 | ⏳ à relire | `home.work.cta` | 查看项目案例 | Voir les réalisations |
 | ⏳ à relire | `services.title` | 服务 | Services |
 | ⏳ à relire | `services.lead` | 四个互补的领域。在贡布及周边、柬埔寨其他地区上门服务，海外客户可远程服务。 | Quatre domaines complémentaires. À Kampot et dans ses environs, ailleurs au Cambodge, et à distance pour les clients à l'étranger. |
@@ -2666,15 +3096,202 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `angkor.shows.items.3` | 每项数据都注明来源，估算的部分都有标注 | La source de chaque donnée indiquée, et ce qui est estimé signalé |
 | ⏳ à relire | `angkor.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
 | ⏳ à relire | `angkor.credits` | 数据：© OpenStreetMap 贡献者 (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) | Données : © contributeurs OpenStreetMap (ODbL) · GEDTM30 © OpenGeoHub (CC BY 4.0) · ESA WorldCover 2021, Copernicus Sentinel (CC BY 4.0) · Canopy Height Maps © Meta, World Resources Institute (CC BY 4.0) |
+| ⏳ à relire | `apps.acpc.eyebrow` | Android 应用 · 模拟器 | Application Android · Émulateur |
+| ⏳ à relire | `apps.acpc.title` | Acpc | Acpc |
+| ⏳ à relire | `apps.acpc.lead` | 在 Android 手机或平板上运行 Amstrad CPC 464、664 和 6128、6128 Plus 以及 GX4000 游戏机。Acpc 启动机器的真实系统，从磁盘、磁带和卡带运行游戏，并且会自动启动它们。 | Les Amstrad CPC 464, 664 et 6128, le 6128 Plus et la console GX4000, sur un téléphone ou une tablette Android. Acpc démarre le vrai système de la machine, fait tourner les jeux depuis disquettes, cassettes et cartouches, et les lance tout seul. |
+| ⏳ à relire | `apps.acpc.status` | 可以使用，未发布 | Version utilisable, pas publiée |
+| ⏳ à relire | `apps.acpc.gallery.title` | 界面截图 | En images |
+| ⏳ à relire | `apps.acpc.gallery.note` | 应用在 Android 手机上的截图。 | Captures de l'application sur un téléphone Android. |
+| ⏳ à relire | `apps.acpc.gallery.enlarge` | 放大图片 | agrandir l'image |
+| ⏳ à relire | `apps.acpc.gallery.captions.basic` | 启动时的 CPC 6128，屏幕上有虚拟摇杆和开火按钮。 | Un CPC 6128 au démarrage, avec le joystick et les boutons de tir à l'écran. |
+| ⏳ à relire | `apps.acpc.gallery.captions.library` | 游戏库：手机里的文件、收藏和远程服务器。 | La bibliothèque : fichiers du téléphone, favoris et serveurs distants. |
+| ⏳ à relire | `apps.acpc.gallery.captions.remote` | 在应用里浏览和搜索 archive.org 上的游戏合集。 | Une collection de jeux sur archive.org, parcourue et cherchée depuis l'application. |
+| ⏳ à relire | `apps.acpc.gallery.captions.settings` | 机器设置：型号、速度、自动启动。 | Les réglages de la machine : modèle, vitesse, lancement automatique. |
+| ⏳ à relire | `apps.acpc.featuresTitle` | 应用功能 | L'application |
+| ⏳ à relire | `apps.acpc.groups.0.title` | 五种机器 | Cinq machines |
+| ⏳ à relire | `apps.acpc.groups.0.items.0` | CPC 464、664 和 6128 | CPC 464, 664 et 6128 |
+| ⏳ à relire | `apps.acpc.groups.0.items.1` | CPC 6128 Plus，支持硬件精灵和 4096 种颜色 | CPC 6128 Plus, avec ses sprites matériels et ses 4096 couleurs |
+| ⏳ à relire | `apps.acpc.groups.0.items.2` | GX4000 游戏机：游戏直接从卡带启动 | Console GX4000 : le jeu démarre depuis sa cartouche |
+| ⏳ à relire | `apps.acpc.groups.0.items.3` | 不附带 Amstrad ROM：需要导入自己的副本 | Les ROM Amstrad ne sont pas fournies : on importe ses propres copies |
+| ⏳ à relire | `apps.acpc.groups.1.title` | 当年的各种介质 | Les supports de l'époque |
+| ⏳ à relire | `apps.acpc.groups.1.items.0` | .dsk 磁盘、.cdt 磁带、.cpr 卡带 | Disquettes .dsk, cassettes .cdt, cartouches .cpr |
+| ⏳ à relire | `apps.acpc.groups.1.items.1` | .sna 状态存档 | Sauvegardes d'état .sna |
+| ⏳ à relire | `apps.acpc.groups.1.items.2` | 游戏保存的进度和最高分会保留下来 | Les parties et records enregistrés par les jeux sont conservés |
+| ⏳ à relire | `apps.acpc.groups.1.items.3` | 支持多张磁盘或多面磁带的游戏 | Jeux sur plusieurs disquettes ou faces de cassette |
+| ⏳ à relire | `apps.acpc.groups.2.title` | 选好游戏，直接开始 | Un jeu choisi, un jeu lancé |
+| ⏳ à relire | `apps.acpc.groups.2.items.0` | Acpc 在磁盘上找到正确的程序，并自动输入命令 | Acpc trouve le bon programme sur la disquette et tape la commande |
+| ⏳ à relire | `apps.acpc.groups.2.items.1` | 它也会选择机器：卡带用 GX4000，Plus 游戏用 6128 Plus | Il choisit aussi la machine : GX4000 pour une cartouche, 6128 Plus pour un jeu Plus |
+| ⏳ à relire | `apps.acpc.groups.2.items.2` | 磁带快速加载 | Chargement des cassettes en accéléré |
+| ⏳ à relire | `apps.acpc.groups.3.title` | 为触摸屏设计 | Fait pour l'écran tactile |
+| ⏳ à relire | `apps.acpc.groups.3.items.0` | 可移动的触摸摇杆和按钮 | Joystick et boutons tactiles, déplaçables |
+| ⏳ à relire | `apps.acpc.groups.3.items.1` | 屏幕上的 CPC 键盘，输入文字用 Android 键盘 | Clavier CPC à l'écran, clavier Android pour le texte |
+| ⏳ à relire | `apps.acpc.groups.3.items.2` | 支持蓝牙或 USB 键盘和手柄 | Claviers et manettes Bluetooth ou USB |
+| ⏳ à relire | `apps.acpc.groups.4.title` | 游戏库 | Une bibliothèque de jeux |
+| ⏳ à relire | `apps.acpc.groups.4.items.0` | 手机里的文件和收藏 | Fichiers du téléphone et favoris |
+| ⏳ à relire | `apps.acpc.groups.4.items.1` | 远程服务器和 archive.org 合集，可搜索 | Serveurs distants et collections archive.org, avec recherche |
+| ⏳ à relire | `apps.acpc.groups.4.items.2` | 点一下：下载、缓存并启动游戏 | Un toucher : le jeu est téléchargé, gardé en mémoire et lancé |
+| ⏳ à relire | `apps.acpc.groups.5.title` | 用真实软件测试 | Testé sur de vrais logiciels |
+| ⏳ à relire | `apps.acpc.groups.5.items.0` | 约 700 款软件经过自动测试 | Environ 700 titres passés par des tests automatiques |
+| ⏳ à relire | `apps.acpc.groups.5.items.1` | 全部 26 款 GX4000 游戏 | Les 26 jeux de la GX4000 |
+| ⏳ à relire | `apps.acpc.groups.5.items.2` | 每个失败都追查到原因 | Chaque échec suivi jusqu'à sa cause |
+| ⏳ à relire | `apps.acpc.shows.title` | 这个项目展示了什么 | Ce que ce projet montre |
+| ⏳ à relire | `apps.acpc.shows.text` | 模拟器要一个芯片一个芯片地重现电脑的工作方式。同样的细致也用于必须准确无误的业务软件。 | Un émulateur reproduit, puce par puce, le fonctionnement d'un ordinateur. Le même soin sert pour un logiciel métier qui doit être exact. |
+| ⏳ à relire | `apps.acpc.shows.items.0` | 用 Kotlin 编写的 Android 应用 | Une application Android écrite en Kotlin |
+| ⏳ à relire | `apps.acpc.shows.items.1` | 逐个部件重现的一台电脑 | Le fonctionnement d'un ordinateur reproduit composant par composant |
+| ⏳ à relire | `apps.acpc.shows.items.2` | 在数百款真实软件上进行的自动测试 | Des tests automatiques sur des centaines de logiciels réels |
+| ⏳ à relire | `apps.acpc.shows.items.3` | 触摸、键盘和手柄操作 | Des commandes tactiles, clavier et manette |
+| ⏳ à relire | `apps.acpc.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
+| ⏳ à relire | `apps.asokoban.eyebrow` | Android 游戏 · 益智 | Jeu Android · Réflexion |
+| ⏳ à relire | `apps.asokoban.title` | ASokoban | ASokoban |
+| ⏳ à relire | `apps.asokoban.lead` | 经典的推箱子游戏，为 Android 精心重做：70 个手工设计的关卡，每一关都经过验证可解，可选简洁的 2D 棋盘或 3D 动画棋盘。 | Le grand classique du pousse-caisses, refait avec soin pour Android : 70 niveaux conçus à la main, tous vérifiés solvables, sur un plateau 2D épuré ou en 3D animée. |
+| ⏳ à relire | `apps.asokoban.status` | 已完成，尚未发布 | Terminé, pas encore publié |
+| ⏳ à relire | `apps.asokoban.gallery.title` | 界面截图 | En images |
+| ⏳ à relire | `apps.asokoban.gallery.note` | 游戏在 Android 手机上的截图。 | Captures du jeu sur un téléphone Android. |
+| ⏳ à relire | `apps.asokoban.gallery.enlarge` | 放大图片 | agrandir l'image |
+| ⏳ à relire | `apps.asokoban.gallery.captions.home` | 主界面。 | L'écran d'accueil. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.levels` | 选关界面：每个房间的地图、星级和最少步数。 | Le choix du niveau : la carte de chaque salle, ses étoiles et le meilleur nombre de coups. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board3dDark` | 3D 棋盘上的一关，深色主题。 | Un niveau sur le plateau 3D, en thème sombre. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.complete` | 过关：三颗星，刷新纪录。 | Niveau terminé : trois étoiles et un nouveau record. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board2d` | 2D 棋盘上的第 37 关。 | Le niveau 37 sur le plateau 2D. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.board3d` | 同一局面在 3D 棋盘上。 | La même position sur le plateau 3D. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.zoomed` | 大房间，以主角为中心放大。 | Une grande salle, agrandie autour du personnage. |
+| ⏳ à relire | `apps.asokoban.gallery.captions.khmer` | 高棉语版的选关界面。 | Le choix du niveau dans la version en khmer. |
+| ⏳ à relire | `apps.asokoban.featuresTitle` | 游戏内容 | Le jeu |
+| ⏳ à relire | `apps.asokoban.groups.0.title` | 只能推，不能拉 | Pousser, jamais tirer |
+| ⏳ à relire | `apps.asokoban.groups.0.items.0` | 一次推一个箱子，所有箱子都要推到目标上 | Une caisse à la fois, et toutes doivent finir sur une cible |
+| ⏳ à relire | `apps.asokoban.groups.0.items.1` | 七个世界，70 个关卡 | 70 niveaux en sept mondes |
+| ⏳ à relire | `apps.asokoban.groups.0.items.2` | 前几关会讲解规则 | Les premiers niveaux expliquent la règle |
+| ⏳ à relire | `apps.asokoban.groups.1.title` | 不会出错的关卡 | Des niveaux sans erreur |
+| ⏳ à relire | `apps.asokoban.groups.1.items.0` | 每一关都保存了一个解法 | Chaque niveau a une solution enregistrée |
+| ⏳ à relire | `apps.asokoban.groups.1.items.1` | 每个版本的测试都会重放所有解法 | Les tests rejouent chaque solution à chaque version |
+| ⏳ à relire | `apps.asokoban.groups.1.items.2` | 按步数最多获得三颗星 | Jusqu'à trois étoiles selon le nombre de coups |
+| ⏳ à relire | `apps.asokoban.groups.2.title` | 犯错代价很小 | Le droit à l'erreur |
+| ⏳ à relire | `apps.asokoban.groups.2.items.0` | 无限撤销 | Annulation illimitée |
+| ⏳ à relire | `apps.asokoban.groups.2.items.1` | 游戏会发现卡死的箱子并建议撤销 | Le jeu repère une caisse bloquée et propose d'annuler |
+| ⏳ à relire | `apps.asokoban.groups.2.items.2` | 通过一关就会解锁后面两关 | Un niveau réussi ouvre les deux suivants |
+| ⏳ à relire | `apps.asokoban.groups.3.title` | 2D 或 3D | 2D ou 3D |
+| ⏳ à relire | `apps.asokoban.groups.3.items.0` | 3D 动画棋盘或简洁的 2D 棋盘 | Plateau 3D animé, ou 2D épuré |
+| ⏳ à relire | `apps.asokoban.groups.3.items.1` | 大房间可以用双指放大 | Les grandes salles s'agrandissent du bout des doigts |
+| ⏳ à relire | `apps.asokoban.groups.3.items.2` | 浅色或深色主题 | Thème clair ou sombre |
+| ⏳ à relire | `apps.asokoban.groups.4.title` | 四种操作方式 | Quatre façons de jouer |
+| ⏳ à relire | `apps.asokoban.groups.4.items.0` | 屏幕方向键 | Croix directionnelle à l'écran |
+| ⏳ à relire | `apps.asokoban.groups.4.items.1` | 滑动 | Glisser le doigt |
+| ⏳ à relire | `apps.asokoban.groups.4.items.2` | 点击格子走过去 | Toucher une case pour y aller |
+| ⏳ à relire | `apps.asokoban.groups.4.items.3` | 键盘 | Clavier |
+| ⏳ à relire | `apps.asokoban.groups.5.title` | 英语和高棉语 | En anglais et en khmer |
+| ⏳ à relire | `apps.asokoban.groups.5.items.0` | 两个应用，每种语言一个 | Deux applications, une par langue |
+| ⏳ à relire | `apps.asokoban.groups.5.items.1` | 针对高棉文字调整的排版 | Une typographie adaptée à l'écriture khmère |
+| ⏳ à relire | `apps.asokoban.groups.5.items.2` | 无广告，无需账号，不收集任何数据 | Sans publicité, sans compte, aucune donnée collectée |
+| ⏳ à relire | `apps.asokoban.shows.title` | 这个项目展示了什么 | Ce que ce projet montre |
+| ⏳ à relire | `apps.asokoban.shows.text` | 这款游戏是一项能力证明。同样的技术也用于定制应用。 | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.asokoban.shows.items.0` | 现代 Android 应用（Kotlin、Jetpack Compose） | Une application Android moderne (Kotlin, Jetpack Compose) |
+| ⏳ à relire | `apps.asokoban.shows.items.1` | 应用中的 3D 画面，手机不支持时自动改用 2D | De la 3D dans une application, avec retour en 2D si le téléphone ne la gère pas |
+| ⏳ à relire | `apps.asokoban.shows.items.2` | 能拦住有缺陷版本的测试 | Des tests qui bloquent une version défectueuse |
+| ⏳ à relire | `apps.asokoban.shows.items.3` | 高棉语应用 | Une application en khmer |
+| ⏳ à relire | `apps.asokoban.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
+| ⏳ à relire | `apps.snake3d.eyebrow` | Android 游戏 · 3D 街机 | Jeu Android · Arcade en 3D |
+| ⏳ à relire | `apps.snake3d.title` | 3D Snake | 3D Snake |
+| ⏳ à relire | `apps.snake3d.lead` | 视角位于蛇头后方的贪吃蛇。你引导一条蛇穿过湖边的岛屿圣地，那里有山丘、石砌台地和坡道；这个世界里的每个模型、纹理、声音和音符都由代码生成。 | Le jeu du serpent, vu de derrière la tête de l'animal. On guide un serpent sur des îles-sanctuaires au bord d'un lac, avec collines, terrasses de pierre et rampes, dans un monde dont chaque modèle, texture, son et note de musique est généré par le code. |
+| ⏳ à relire | `apps.snake3d.status` | 已完成，尚未发布 | Terminé, pas encore publié |
+| ⏳ à relire | `apps.snake3d.gallery.title` | 界面截图 | En images |
+| ⏳ à relire | `apps.snake3d.gallery.note` | 游戏中几座圣地的画面。 | Captures du jeu dans quelques-uns de ses sanctuaires. |
+| ⏳ à relire | `apps.snake3d.gallery.enlarge` | 放大图片 | agrandir l'image |
+| ⏳ à relire | `apps.snake3d.gallery.captions.dawn` | Golden Dawn：神庙山。 | Aube dorée : la montagne-temple. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.mist` | Misty Morning：宝塔。 | Matin brumeux : la pagode. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.lagoon` | Turquoise Lagoon：海上神庙。 | Lagon turquoise : le temple marin. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.aurora` | Violet Aurora：天文台。 | Aurore violette : l'observatoire. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.frost` | Silver Frost：石圈。 | Givre argenté : le cercle de pierres. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.monsoon` | Jade Monsoon：雨中的一局。 | Mousson de jade : une partie sous la pluie. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.skins` | 可解锁的蛇皮肤和圣地。 | Les apparences de serpent et les sanctuaires à débloquer. |
+| ⏳ à relire | `apps.snake3d.gallery.captions.khmer` | 高棉语主菜单。 | Le menu principal en khmer. |
+| ⏳ à relire | `apps.snake3d.featuresTitle` | 游戏内容 | Le jeu |
+| ⏳ à relire | `apps.snake3d.groups.0.title` | 大家熟悉的规则 | La règle de toujours |
+| ⏳ à relire | `apps.snake3d.groups.0.items.0` | 吃东西长大，什么都不能撞，尤其是自己 | Manger pour grandir, ne rien toucher, surtout pas soi-même |
+| ⏳ à relire | `apps.snake3d.groups.0.items.1` | 14 个阶段：蛇越来越快，地面会升起巨石 | 14 étapes : le serpent accélère et des monolithes sortent du sol |
+| ⏳ à relire | `apps.snake3d.groups.0.items.2` | 消耗体力的加速 | Une accélération qui puise dans une réserve d'endurance |
+| ⏳ à relire | `apps.snake3d.groups.1.title` | 真正的地形 | Un vrai relief |
+| ⏳ à relire | `apps.snake3d.groups.1.items.0` | 山丘、有围墙的台地和铺石坡道 | Collines, terrasses murées et rampes pavées |
+| ⏳ à relire | `apps.snake3d.groups.1.items.1` | 蛇可以爬坡道，撞墙则本局结束 | Le serpent grimpe les rampes ; les murs arrêtent la partie |
+| ⏳ à relire | `apps.snake3d.groups.1.items.2` | 台地上也会出现食物 | De la nourriture aussi sur les terrasses |
+| ⏳ à relire | `apps.snake3d.groups.2.title` | 分数和奖励 | Points et récompenses |
+| ⏳ à relire | `apps.snake3d.groups.2.items.0` | 水果、加速水晶和稀有遗物 | Fruits, cristaux de vitesse et reliques rares |
+| ⏳ à relire | `apps.snake3d.groups.2.items.1` | 最高 ×3 连击，擦过障碍物有奖励 | Combos jusqu'à ×3, bonus quand on frôle un obstacle |
+| ⏳ à relire | `apps.snake3d.groups.2.items.2` | 可解锁 13 种蛇皮肤和 8 座圣地 | 13 apparences de serpent et 8 sanctuaires à débloquer |
+| ⏳ à relire | `apps.snake3d.groups.3.title` | 全部由代码生成 | Tout est généré par le code |
+| ⏳ à relire | `apps.snake3d.groups.3.items.0` | 模型、纹理、音效和音乐 | Modèles, textures, effets sonores et musique |
+| ⏳ à relire | `apps.snake3d.groups.3.items.1` | 只有字体来自外部 | Seules les polices de caractères viennent d'ailleurs |
+| ⏳ à relire | `apps.snake3d.groups.3.items.2` | 不同圣地有雨、雪和秋叶 | Pluie, neige et feuillages d'automne selon le sanctuaire |
+| ⏳ à relire | `apps.snake3d.groups.4.title` | 无障碍 | Accessible |
+| ⏳ à relire | `apps.snake3d.groups.4.items.0` | 减少动态效果，防止晕动 | Mouvements réduits, contre le mal des transports |
+| ⏳ à relire | `apps.snake3d.groups.4.items.1` | 放大游戏内文字 | Texte du jeu agrandi |
+| ⏳ à relire | `apps.snake3d.groups.4.items.2` | 适合色盲的警告颜色 | Couleur d'alerte adaptée au daltonisme |
+| ⏳ à relire | `apps.snake3d.groups.4.items.3` | 三种操控方式，左手布局 | Trois façons de diriger, disposition pour gauchers |
+| ⏳ à relire | `apps.snake3d.groups.5.title` | 18 种语言 | 18 langues |
+| ⏳ à relire | `apps.snake3d.groups.5.items.0` | 包括高棉语、泰语、越南语和中文 | Dont le khmer, le thaï, le vietnamien et le chinois |
+| ⏳ à relire | `apps.snake3d.groups.5.items.1` | 游戏跟随手机语言 | Le jeu suit la langue du téléphone |
+| ⏳ à relire | `apps.snake3d.shows.title` | 这个项目展示了什么 | Ce que ce projet montre |
+| ⏳ à relire | `apps.snake3d.shows.text` | 这款游戏是一项能力证明。同样的技术也用于定制应用。 | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.snake3d.shows.items.0` | Android 手机上的 3D 游戏，测试达到每秒 60 帧 | Un jeu en 3D sur téléphone Android, testé à 60 images par seconde |
+| ⏳ à relire | `apps.snake3d.shows.items.1` | 由代码生成而不是手绘的内容 | Des contenus créés par le code plutôt que dessinés |
+| ⏳ à relire | `apps.snake3d.shows.items.2` | 翻译成 18 种语言的应用，包括高棉语 | Une application traduite en 18 langues, khmer compris |
+| ⏳ à relire | `apps.snake3d.shows.items.3` | 无障碍设置 | Des réglages d'accessibilité |
+| ⏳ à relire | `apps.snake3d.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
+| ⏳ à relire | `apps.velocity.eyebrow` | Android 游戏 · 赛车 | Jeu Android · Course |
+| ⏳ à relire | `apps.velocity.title` | Velocity | Velocity |
+| ⏳ à relire | `apps.velocity.lead` | 一款原创反重力赛车游戏。八支车队驾驶悬浮飞船，以超过 900 公里/小时的速度在十二条赛道上飞驰，用空气制动减速，并用八种武器和道具争夺名次。 | Un jeu de course anti-gravité original. Huit écuries pilotent des vaisseaux en sustentation à plus de 900 km/h sur douze circuits, freinent aux aérofreins et se disputent les places avec huit armes et bonus. |
+| ⏳ à relire | `apps.velocity.status` | 可以玩，尚未发布 | Jouable, pas encore publié |
+| ⏳ à relire | `apps.velocity.gallery.title` | 界面截图 | En images |
+| ⏳ à relire | `apps.velocity.gallery.note` | 十二条赛道中几条的游戏画面。 | Captures du jeu sur quelques-uns de ses douze circuits. |
+| ⏳ à relire | `apps.velocity.gallery.enlarge` | 放大图片 | agrandir l'image |
+| ⏳ à relire | `apps.velocity.gallery.captions.hud` | Helix Bay，黄昏中的大都市，比赛进行中。 | Helix Bay, une mégapole au crépuscule, en pleine course. |
+| ⏳ à relire | `apps.velocity.gallery.captions.lagrange` | Lagrange Station：轨道上的螺旋翻转赛道。 | Lagrange Station : la vrille, en orbite. |
+| ⏳ à relire | `apps.velocity.gallery.captions.serra` | Serra Verde：雨中的斜拉桥。 | Serra Verde : le pont à haubans sous la pluie. |
+| ⏳ à relire | `apps.velocity.gallery.captions.atacama` | Atacama Spaceport：环绕发射台的回环。 | Atacama Spaceport : la boucle autour du pas de tir. |
+| ⏳ à relire | `apps.velocity.gallery.captions.glacier` | Glacier Ring：极光之下。 | Glacier Ring : sous l'aurore boréale. |
+| ⏳ à relire | `apps.velocity.gallery.captions.helix` | 从空中看 Helix Bay：环绕高塔的螺旋赛道。 | Helix Bay vue du ciel : la spirale autour de la tour. |
+| ⏳ à relire | `apps.velocity.gallery.captions.weapons` | 主直道上的等离子弹。 | Tirs de plasma sur la grande ligne droite. |
+| ⏳ à relire | `apps.velocity.gallery.captions.noctis` | Noctis Rift：火星日落时的裂谷大桥。 | Noctis Rift : le pont du rift au coucher du soleil martien. |
+| ⏳ à relire | `apps.velocity.gallery.captions.thalassa` | Thalassa Deep：蓝洞和研究塔。 | Thalassa Deep : le trou bleu et sa tour de recherche. |
+| ⏳ à relire | `apps.velocity.featuresTitle` | 游戏内容 | Le jeu |
+| ⏳ à relire | `apps.velocity.groups.0.title` | 十二条赛道 | Douze circuits |
+| ⏳ à relire | `apps.velocity.groups.0.items.0` | 从黄昏中的大都市到火星殖民地 | D'une mégapole au crépuscule à une colonie sur Mars |
+| ⏳ à relire | `apps.velocity.groups.0.items.1` | 北极站、轨道站、海底城市 | Station arctique, station en orbite, cité sous-marine |
+| ⏳ à relire | `apps.velocity.groups.0.items.2` | 螺旋、隧道、桥梁和飞跃 | Spirales, tunnels, ponts et sauts |
+| ⏳ à relire | `apps.velocity.groups.1.title` | 驾驶 | Le pilotage |
+| ⏳ à relire | `apps.velocity.groups.1.items.0` | 悬浮飞船，时速超过 900 公里 | Des vaisseaux en sustentation, à plus de 900 km/h |
+| ⏳ à relire | `apps.velocity.groups.1.items.1` | 两个独立的空气制动，用来转弯和减速 | Deux aérofreins indépendants pour tourner et freiner |
+| ⏳ à relire | `apps.velocity.groups.1.items.2` | 触摸操作、倾斜手机、键盘或手柄 | Commandes tactiles, inclinaison du téléphone, clavier ou manette |
+| ⏳ à relire | `apps.velocity.groups.2.title` | 六种游戏模式 | Six modes de jeu |
+| ⏳ à relire | `apps.velocity.groups.2.items.0` | 单场比赛、淘汰赛、战斗 | Course simple, élimination, combat |
+| ⏳ à relire | `apps.velocity.groups.2.items.1` | 速度挑战、计时赛、练习 | Défi de vitesse, contre-la-montre, entraînement |
+| ⏳ à relire | `apps.velocity.groups.2.items.2` | 包含 47 项赛事和 9 个杯赛的生涯模式 | Une carrière de 47 épreuves et 9 coupes |
+| ⏳ à relire | `apps.velocity.groups.3.title` | 武器和道具 | Armes et bonus |
+| ⏳ à relire | `apps.velocity.groups.3.items.0` | 八种道具：等离子、导弹、电磁脉冲、护盾、地雷、加速…… | Huit objets : plasma, missile, EMP, bouclier, mines, turbo… |
+| ⏳ à relire | `apps.velocity.groups.3.items.1` | 每次受到撞击护盾都会减弱 | Un bouclier qui s'use à chaque choc |
+| ⏳ à relire | `apps.velocity.groups.3.items.2` | 八支车队，各有自己的飞船 | Huit écuries, chacune avec son vaisseau |
+| ⏳ à relire | `apps.velocity.groups.4.title` | 电脑控制的对手 | Des adversaires pilotés par l'ordinateur |
+| ⏳ à relire | `apps.velocity.groups.4.items.0` | 五种车手性格 | Cinq caractères de pilote |
+| ⏳ à relire | `apps.velocity.groups.4.items.1` | 三个难度等级 | Trois niveaux de difficulté |
+| ⏳ à relire | `apps.velocity.groups.4.items.2` | 没有人为的追赶机制 | Pas de rattrapage artificiel |
+| ⏳ à relire | `apps.velocity.groups.5.title` | 全部由代码生成 | Tout est généré par le code |
+| ⏳ à relire | `apps.velocity.groups.5.items.0` | 模型、纹理、声音和音乐 | Modèles, textures, sons et musique |
+| ⏳ à relire | `apps.velocity.groups.5.items.1` | 只有字体来自外部 | Seules les polices de caractères viennent d'ailleurs |
+| ⏳ à relire | `apps.velocity.shows.title` | 这个项目展示了什么 | Ce que ce projet montre |
+| ⏳ à relire | `apps.velocity.shows.text` | 这款游戏是一项能力证明。同样的技术也用于定制应用。 | Ce jeu est une preuve de compétence. Les mêmes savoir-faire servent pour une application sur mesure. |
+| ⏳ à relire | `apps.velocity.shows.items.0` | Android 手机上的 3D 赛车游戏 | Un jeu de course en 3D sur téléphone Android |
+| ⏳ à relire | `apps.velocity.shows.items.1` | 飞行物理和电脑控制的对手 | Une physique de vol et des adversaires pilotés par l'ordinateur |
+| ⏳ à relire | `apps.velocity.shows.items.2` | 由代码生成的 3D 世界 | Des mondes en 3D créés par le code |
+| ⏳ à relire | `apps.velocity.shows.items.3` | 针对驾驶和比赛的自动测试 | Des tests automatiques de la conduite et des courses |
+| ⏳ à relire | `apps.velocity.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
 | ⏳ à relire | `work.title` | 项目案例 | Réalisations |
 | ⏳ à relire | `work.lead` | 真实的项目，按目前的实际状态介绍。 | Des projets réels, décrits tels qu'ils sont aujourd'hui. |
 | ⏳ à relire | `work.status` | 状态 | État |
-| ⏳ à relire | `work.products.title` | 产品 | Produits |
-| ⏳ à relire | `work.products.intro` | 我可以提供给客户的产品。 | Ce que je peux proposer à un client. |
-| ⏳ à relire | `work.products.tag` | 产品 | Produit |
-| ⏳ à relire | `work.skills.title` | 技术项目与研发 | Projets techniques et R&D |
-| ⏳ à relire | `work.skills.intro` | 研究和实验项目：3D、网络、声音、地理数据。它们不按原样出售，但同样的技术能力会用在客户项目中。 | Des projets de recherche et d'expérimentation : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
-| ⏳ à relire | `work.skills.tag` | 研发 | R&D |
+| ⏳ à relire | `work.products.title` | 我们的作品 | Nos réalisations |
+| ⏳ à relire | `work.products.intro` | 已经做到可用版本的软件、应用和 Android 游戏，按它们目前的实际状态介绍。 | Des logiciels, des applications et des jeux Android menés jusqu'à une version utilisable, décrits tels qu'ils sont aujourd'hui. |
+| ⏳ à relire | `work.products.tag` | 已完成 | Réalisation |
+| ⏳ à relire | `work.skills.title` | 开发中 | En cours de développement |
+| ⏳ à relire | `work.skills.intro` | 仍在进行中的项目：3D、网络、声音、地理数据。它们不按原样出售，但同样的技术能力会用在客户项目中。 | Des projets encore en chantier : 3D, réseau, son, données géographiques. Ils ne sont pas vendus tels quels, mais les mêmes savoir-faire servent dans les projets des clients. |
+| ⏳ à relire | `work.skills.tag` | 进行中 | En cours |
 | ⏳ à relire | `work.items.hms.title` | HMS | HMS |
 | ⏳ à relire | `work.items.hms.kind` | 酒店管理软件 | Logiciel de gestion hôtelière |
 | ⏳ à relire | `work.items.hms.status` | 主要功能已完成 | Fonctions principales terminées |
@@ -2684,6 +3301,26 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.learnkh.kind` | 语言学习网站 | Site d'apprentissage des langues |
 | ⏳ à relire | `work.items.learnkh.status` | 已可使用，尚未上线 | Version utilisable, pas encore en ligne |
 | ⏳ à relire | `work.items.learnkh.text` | 学习高棉语、法语和英语，可以从法语、英语或高棉语入门。60 节课，带发音的字母表，约 600 个词的词汇表，以及复习卡片。 | Apprendre le khmer, le français et l'anglais, en partant du français, de l'anglais ou du khmer. 60 leçons, l'alphabet avec le son, un lexique d'environ 600 mots et des cartes de révision. |
+| ⏳ à relire | `work.items.acpc.title` | Acpc | Acpc |
+| ⏳ à relire | `work.items.acpc.kind` | Android 版 Amstrad CPC 模拟器 | Émulateur Amstrad CPC pour Android |
+| ⏳ à relire | `work.items.acpc.status` | 可以使用，未发布 | Version utilisable, pas publiée |
+| ⏳ à relire | `work.items.acpc.text` | 在 Android 手机或平板上运行 Amstrad CPC 464、664 和 6128、6128 Plus 以及 GX4000 游戏机。支持磁盘、磁带和卡带，自动启动游戏，保存进度状态。约 700 款软件经过测试。 | Les Amstrad CPC 464, 664 et 6128, le 6128 Plus et la console GX4000 sur un téléphone ou une tablette Android. Disquettes, cassettes et cartouches, lancement automatique des jeux, sauvegardes d'état. Environ 700 titres testés. |
+| ⏳ à relire | `work.items.acpc.link` | 了解 Acpc | Découvrir Acpc |
+| ⏳ à relire | `work.items.asokoban.title` | ASokoban | ASokoban |
+| ⏳ à relire | `work.items.asokoban.kind` | Android 益智游戏 | Jeu de réflexion pour Android |
+| ⏳ à relire | `work.items.asokoban.status` | 已完成，尚未发布 | Terminé, pas encore publié |
+| ⏳ à relire | `work.items.asokoban.text` | 推箱子游戏：70 个手工设计的关卡，每一关都经过验证可解，可选 2D 棋盘或 3D 动画棋盘。提供英语版和高棉语版。 | Le jeu du pousse-caisses : 70 niveaux conçus à la main, tous vérifiés solvables, sur un plateau 2D ou en 3D animée. En anglais et en khmer. |
+| ⏳ à relire | `work.items.asokoban.link` | 了解 ASokoban | Découvrir ASokoban |
+| ⏳ à relire | `work.items.snake3d.title` | 3D Snake | 3D Snake |
+| ⏳ à relire | `work.items.snake3d.kind` | Android 3D 街机游戏 | Jeu d'arcade en 3D pour Android |
+| ⏳ à relire | `work.items.snake3d.status` | 已完成，尚未发布 | Terminé, pas encore publié |
+| ⏳ à relire | `work.items.snake3d.text` | 3D 贪吃蛇，视角位于蛇头后方，在有山丘、台地和坡道的岛屿上进行。14 个阶段，9 座圣地，18 种语言，包括高棉语。模型、纹理、声音和音乐都由代码生成。 | Le jeu du serpent en 3D, vu de derrière la tête, sur des îles avec collines, terrasses et rampes. 14 étapes, 9 sanctuaires, 18 langues dont le khmer. Modèles, textures, sons et musique sont générés par le code. |
+| ⏳ à relire | `work.items.snake3d.link` | 了解 3D Snake | Découvrir 3D Snake |
+| ⏳ à relire | `work.items.velocity.title` | Velocity | Velocity |
+| ⏳ à relire | `work.items.velocity.kind` | Android 反重力赛车游戏 | Jeu de course anti-gravité pour Android |
+| ⏳ à relire | `work.items.velocity.status` | 可以玩，尚未发布 | Jouable, pas encore publié |
+| ⏳ à relire | `work.items.velocity.text` | 八支车队驾驶悬浮飞船，在十二条赛道上比赛，从黄昏中的大都市到火星殖民地。六种游戏模式、生涯模式、锦标赛，以及八种武器和道具。 | Huit écuries de vaisseaux en sustentation sur douze circuits, d'une mégapole au crépuscule à une colonie sur Mars. Six modes de jeu, une carrière, des championnats, huit armes et bonus. |
+| ⏳ à relire | `work.items.velocity.link` | 了解 Velocity | Découvrir Velocity |
 | ⏳ à relire | `work.items.rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `work.items.rally.kind` | Android 赛车游戏 | Jeu de course pour Android |
 | ⏳ à relire | `work.items.rally.status` | 可以玩，尚未发布 | Jouable, pas encore publié |
@@ -2709,13 +3346,9 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.vsm.shows` | 展示：要求较高的桌面软件、音频处理。 | Montre : logiciel de bureau exigeant, traitement du son. |
 | ⏳ à relire | `work.items.games.title` | 其他 Android 游戏和应用 | Autres jeux et applications Android |
 | ⏳ à relire | `work.items.games.list.0` | 3D Buggy：街机风格越野赛车 | 3D Buggy : course tout-terrain d'arcade |
-| ⏳ à relire | `work.items.games.list.1` | ASokoban：70 关推箱子游戏 | ASokoban : un Sokoban de 70 niveaux |
-| ⏳ à relire | `work.items.games.list.2` | Fluxline：连接管道的街机益智游戏 | Fluxline : puzzle d'arcade où l'on relie des tuyaux |
-| ⏳ à relire | `work.items.games.list.3` | 3D Snake：3D 贪吃蛇 | 3D Snake : un serpent en 3D |
-| ⏳ à relire | `work.items.games.list.4` | 3D Frog：穿越类街机游戏 | 3D Frog : jeu d'arcade où il faut traverser |
-| ⏳ à relire | `work.items.games.list.5` | Velocity：反重力赛车 | Velocity : course anti-gravité |
-| ⏳ à relire | `work.items.games.list.6` | Gemstone Caverns：在洞穴里挖掘、收集宝石 | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
-| ⏳ à relire | `work.items.games.list.7` | Acpc：Amstrad CPC 电脑模拟器 | Acpc : émulateur d'ordinateurs Amstrad CPC |
+| ⏳ à relire | `work.items.games.list.1` | Fluxline：连接管道的街机益智游戏 | Fluxline : puzzle d'arcade où l'on relie des tuyaux |
+| ⏳ à relire | `work.items.games.list.2` | 3D Frog：穿越类街机游戏 | 3D Frog : jeu d'arcade où il faut traverser |
+| ⏳ à relire | `work.items.games.list.3` | Gemstone Caverns：在洞穴里挖掘、收集宝石 | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
 | ⏳ à relire | `work.items.games.link` | 查看作品集 | Voir le portfolio |
 | ⏳ à relire | `about.title` | 关于 | À propos |
 | ⏳ à relire | `about.lead` | 我是 Stefan，Chantrea Systems 的创办人，住在柬埔寨贡布。 | Je suis Stefan, fondateur de Chantrea Systems, installé à Kampot, au Cambodge. |

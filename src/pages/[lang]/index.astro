@@ -24,9 +24,9 @@ const phases = [0.25, 0.5, 0.75, 1];
 const domains = tr.services.items.filter((i) => !i.parent);
 const hmsScreen = screensFor(lang).find((s) => s.caption === 'dashboard');
 
-// Sélection de réalisations : les produits, puis deux projets R&D avec image.
+// Sélection de réalisations : « Nos réalisations », puis deux projets en cours de développement avec image.
 const project = (id) => ({ ...projects.find((p) => p.id === id), ...w.items[id] });
-const products = ['hms', 'learnkh'].map(project);
+const products = projects.filter((p) => p.group === 'products').map((p) => project(p.id));
 const rd = [
   { ...project('rally'), image: rallyScreen.src },
   { ...project('angkor'), image: angkorScreen.src },
