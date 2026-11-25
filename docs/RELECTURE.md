@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1212 textes relus.
+0 / 1216 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -155,6 +155,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.points.2` | គេហទំព័រច្រើនភាសា | Sites web multilingues |
 | ⏳ à relire | `services.items.0.points.3` | API និងការតភ្ជាប់ប្រព័ន្ធ | API et intégrations |
 | ⏳ à relire | `services.items.0.lead` | កម្មវិធីដែលធ្វើតាមរបៀបដែលអាជីវកម្មរបស់លោកអ្នកធ្វើការពិតប្រាកដ ជាភាសារបស់អតិថិជន និងក្រុមការងាររបស់លោកអ្នក។ | Des logiciels et des applications qui suivent la façon dont votre entreprise travaille vraiment, dans les langues de vos clients et de votre équipe. |
+| ⏳ à relire | `services.items.0.badges.0` | Web | Web |
+| ⏳ à relire | `services.items.0.badges.1` | Android | Android |
+| ⏳ à relire | `services.items.0.badges.2` | Odoo | Odoo |
+| ⏳ à relire | `services.items.0.badges.3` | API | API |
 | ⏳ à relire | `services.items.0.metaTitle` | ការអភិវឌ្ឍកម្មវិធីនៅកម្ពុជា — Chantrea Systems | Développement de logiciels au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.0.metaDescription` | កម្មវិធីសម្រាប់អាជីវកម្ម មុខងារបន្ថែម (module) Odoo កម្មវិធីវេប និង Android គេហទំព័រច្រើនភាសា មូលដ្ឋានទិន្នន័យ API និងការតភ្ជាប់ប្រព័ន្ធ។ នៅកំពត កម្ពុជា និងពីចម្ងាយ។ | Logiciels métier, modules Odoo, applications web et Android, sites multilingues, bases de données, API et intégrations. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `services.items.0.sections.0.title` | កម្មវិធីសម្រាប់អាជីវកម្ម និងកម្មវិធីគ្រប់គ្រង | Logiciels métier et applications de gestion |
@@ -1227,7 +1231,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1211 textes relus.
+0 / 1215 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1374,6 +1378,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.points.2` | Многоязычные сайты | Sites web multilingues |
 | ⏳ à relire | `services.items.0.points.3` | API и интеграции | API et intégrations |
 | ⏳ à relire | `services.items.0.lead` | Программы и приложения, которые следуют тому, как на самом деле работает ваша компания, — на языках ваших клиентов и вашей команды. | Des logiciels et des applications qui suivent la façon dont votre entreprise travaille vraiment, dans les langues de vos clients et de votre équipe. |
+| ⏳ à relire | `services.items.0.badges.0` | Web | Web |
+| ⏳ à relire | `services.items.0.badges.1` | Android | Android |
+| ⏳ à relire | `services.items.0.badges.2` | Odoo | Odoo |
+| ⏳ à relire | `services.items.0.badges.3` | API | API |
 | ⏳ à relire | `services.items.0.metaTitle` | Разработка ПО и приложений в Камбодже — Chantrea Systems | Développement de logiciels au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.0.metaDescription` | ПО для бизнеса, модули Odoo на заказ, веб-приложения и приложения для Android, многоязычные сайты, базы данных, API и интеграции. Кампот, Камбоджа, и удалённо. | Logiciels métier, modules Odoo, applications web et Android, sites multilingues, bases de données, API et intégrations. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `services.items.0.sections.0.title` | Прикладное ПО и программы для управления | Logiciels métier et applications de gestion |
@@ -2445,7 +2453,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1211 textes relus.
+0 / 1215 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2592,6 +2600,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.0.points.2` | 多语言网站 | Sites web multilingues |
 | ⏳ à relire | `services.items.0.points.3` | API 和集成 | API et intégrations |
 | ⏳ à relire | `services.items.0.lead` | 软件和应用贴合您企业真正的工作方式，使用您客户和团队的语言。 | Des logiciels et des applications qui suivent la façon dont votre entreprise travaille vraiment, dans les langues de vos clients et de votre équipe. |
+| ⏳ à relire | `services.items.0.badges.0` | Web | Web |
+| ⏳ à relire | `services.items.0.badges.1` | Android | Android |
+| ⏳ à relire | `services.items.0.badges.2` | Odoo | Odoo |
+| ⏳ à relire | `services.items.0.badges.3` | API | API |
 | ⏳ à relire | `services.items.0.metaTitle` | 柬埔寨软件开发和应用开发 — Chantrea Systems | Développement de logiciels au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.0.metaDescription` | 业务软件、Odoo 定制模块、管理应用、Web 和 Android 应用、多语言网站、数据库、API 和集成。柬埔寨贡布，也可远程服务。 | Logiciels métier, modules Odoo, applications web et Android, sites multilingues, bases de données, API et intégrations. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `services.items.0.sections.0.title` | 业务软件和管理应用 | Logiciels métier et applications de gestion |

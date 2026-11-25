@@ -259,34 +259,47 @@
           "API et intégrations"
         ],
         "lead": "Des logiciels et des applications qui suivent la façon dont votre entreprise travaille vraiment, dans les langues de vos clients et de votre équipe.",
+        "badges": [
+          "Web",
+          "Android",
+          "Odoo",
+          "API"
+        ],
         "metaTitle": "Développement de logiciels au Cambodge — Chantrea Systems",
         "metaDescription": "Logiciels métier, modules Odoo, applications web et Android, sites multilingues, bases de données, API et intégrations. Kampot, Cambodge, et à distance.",
         "sections": [
           {
+            "icon": "layers",
             "title": "Logiciels métier et applications de gestion",
             "text": "Un outil construit autour de vos tâches : ventes, stocks, réservations, interventions, administration. Des écrans clairs pour votre équipe, des droits d'accès selon le rôle de chacun, des documents imprimables à votre format."
           },
           {
+            "icon": "globe",
             "title": "Applications web",
             "text": "Utilisables dans un navigateur, sur ordinateur, tablette ou téléphone, sans rien installer sur les postes. Installées sur votre serveur ou en ligne."
           },
           {
+            "icon": "mobile",
             "title": "Applications Android",
             "text": "Une application pour vos clients ou pour votre équipe : outil interne, catalogue, jeu. Je la construis et je la teste sur de vrais téléphones."
           },
           {
+            "icon": "lang",
             "title": "Sites web multilingues",
             "text": "Un site rapide et lisible sur téléphone, en khmer, anglais, français ou d'autres langues. Chaque langue a sa propre adresse, pour être trouvée sur les moteurs de recherche. Je les construis avec Astro, comme ce site : des pages légères, rapides même sur une connexion mobile."
           },
           {
+            "icon": "database",
             "title": "Bases de données, API et intégrations",
             "text": "Vos données rangées proprement dans une base de données, et sauvegardées. Vos logiciels reliés entre eux par des API : une réservation qui crée une facture, une vente qui met à jour le stock, sans ressaisie."
           },
           {
+            "icon": "swap",
             "title": "Automatiser ce qui se répète",
             "text": "Rapports envoyés automatiquement, documents générés, données importées d'un fichier : une tâche qui revient chaque jour peut souvent être confiée au logiciel. Avec l'IA quand c'est vraiment utile."
           },
           {
+            "icon": "hotel",
             "title": "Hôtellerie et tourisme",
             "text": "Pour les hôtels et les guesthouses, Chantrea Systems a développé HMS, un logiciel de gestion hôtelière : réservations, réception, facturation, ménage, restaurant et rapports.",
             "link": {
@@ -295,12 +308,14 @@
             }
           },
           {
+            "icon": "calendar",
             "title": "Ce que vous obtenez",
             "list": [
               "Une version à essayer avant la mise en ligne.",
               "Des explications pour vous en servir.",
               "Un suivi du début à la fin."
-            ]
+            ],
+            "steps": true
           }
         ],
         "examples": "Exemples : le logiciel hôtelier HMS, un site d'apprentissage en trois langues, des jeux Android en 3D.",

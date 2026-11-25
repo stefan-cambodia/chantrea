@@ -8,6 +8,11 @@ import PageHero from '../../../components/PageHero.astro';
 import Sections from '../../../components/Sections.astro';
 import { languages, t, href } from '../../../i18n/index.js';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
+import { Picture } from 'astro:assets';
+import showcase from '../../../data/showcase.js';
+import projects from '../../../data/projects.js';
+import workImages from '../../../data/work-images.js';
+import { screensFor } from '../../../data/hms-screens.js';
 
 export function getStaticPaths() {
   return languages.flatMap((l) =>
@@ -22,6 +27,12 @@ const item = items.find((i) => i.id === service);
 const parent = item.parent ? items.find((i) => i.id === item.parent) : null;
 const children = items.filter((i) => i.parent === item.id);
 const page = `services/${service}`;
+// Réalisations à montrer sur cette offre (src/data/showcase.js), avec leur image.
+const shown = (showcase[service] ?? []).map((id) => {
+  const p = projects.find((x) => x.id === id);
+  const image = id === 'hms' ? screensFor(lang).find((s) => s.caption === 'dashboard').src : workImages[id]?.[0];
+  return { ...p, ...tr.work.items[id], image, target: p.page ? href(lang, p.page) : href(lang, 'work') };
+});
 ---
 <Page lang={lang} page={page}
       title={item.metaTitle ?? `${item.title} — Chantrea Systems`}
@@ -44,6 +55,19 @@ const page = `services/${service}`;
           </a>
         </aside>
       ))}
+      {shown.length > 0 && (
+        <ul class="showcase">
+          {shown.map((p) => (
+            <li>
+              <a href={p.target}>
+                {p.image && <Picture src={p.image} alt="" formats={['avif', 'webp']} widths={[240, 360]}
+                  sizes="(min-width: 760px) 11rem, 45vw" quality={75} loading="lazy" />}
+                <span>{p.title}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
       {item.examples && (
         <p class="note">{item.examples} <a href={href(lang, 'work')}>{tr.nav.work}</a></p>
       )}

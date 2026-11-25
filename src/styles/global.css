@@ -611,6 +611,15 @@ h2.group-title { margin-top: 0; }
 .hero-badges span:first-child { background: var(--moon); color: var(--moon-ink); border-color: var(--moon); }
 .hero-badges span[lang="km"] { font-family: "Kantumruy Pro", var(--font-km); font-weight: 500; }
 
+/* Vignettes de réalisations sur une page d'offre (src/data/showcase.js) */
+.showcase { display: grid; grid-template-columns: repeat(2, 1fr); gap: .8rem; margin: 2rem 0 0; }
+@media (min-width: 760px) { .showcase { grid-template-columns: repeat(4, 1fr); } }
+.showcase a { display: block; border-radius: 10px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); text-decoration: none; color: var(--text); transition: transform .2s ease, border-color .2s ease; }
+.showcase a:hover { transform: translateY(-2px); border-color: var(--accent); }
+.showcase img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-bottom: 1px solid var(--line); }
+.showcase span { display: block; padding: .5rem .7rem; font-weight: 600; font-size: .9rem; }
+@media (prefers-reduced-motion: reduce) { .showcase a { transition: none; } .showcase a:hover { transform: none; } }
+
 /* Bloc en carte (icon), bloc « en cours » (pending) */
 .prose-section--card, .prose-section--pending { padding: 1.4rem 1.5rem; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
 .prose-section--pending { background: transparent; border: 2px dashed color-mix(in srgb, var(--accent) 45%, var(--line)); }

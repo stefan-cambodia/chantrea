@@ -259,34 +259,47 @@
           "APIs and integrations"
         ],
         "lead": "Software and apps that follow the way your business really works, in the languages of your customers and your team.",
+        "badges": [
+          "Web",
+          "Android",
+          "Odoo",
+          "API"
+        ],
         "metaTitle": "Software and app development in Cambodia — Chantrea Systems",
         "metaDescription": "Business software, custom Odoo modules, web and Android apps, multilingual websites, databases, APIs and integrations. Kampot, Cambodia, and remote.",
         "sections": [
           {
+            "icon": "layers",
             "title": "Business software and management applications",
             "text": "A tool built around your tasks: sales, stock, bookings, service calls, administration. Clear screens for your team, access rights according to each person's role, printable documents in your format."
           },
           {
+            "icon": "globe",
             "title": "Web apps",
             "text": "Used in a web browser, on a computer, tablet or phone, with nothing to install on each device. Installed on your server or online."
           },
           {
+            "icon": "mobile",
             "title": "Android apps",
             "text": "An app for your customers or for your staff: internal tool, catalog, game. I build it and test it on real phones."
           },
           {
+            "icon": "lang",
             "title": "Multilingual websites",
             "text": "A fast site that is easy to read on a phone, in Khmer, English, French or other languages. Each language has its own address, so it can be found on search engines. I build them with Astro, like this site: light pages, fast even on a mobile connection."
           },
           {
+            "icon": "database",
             "title": "Databases, APIs and integrations",
             "text": "Your data neatly organized in a database, and backed up. Your software connected through APIs: a booking that creates an invoice, a sale that updates the stock, with no retyping."
           },
           {
+            "icon": "swap",
             "title": "Automating what repeats",
             "text": "Reports sent automatically, documents generated, data imported from a file: a task that comes back every day can often be handed over to the software. With AI when it is really useful."
           },
           {
+            "icon": "hotel",
             "title": "Hotels and tourism",
             "text": "For hotels and guesthouses, Chantrea Systems has developed HMS, a hotel management software: bookings, front desk, billing, housekeeping, restaurant and reports.",
             "link": {
@@ -295,12 +308,14 @@
             }
           },
           {
+            "icon": "calendar",
             "title": "What you get",
             "list": [
               "A version to try before it goes live.",
               "Explanations on how to use it.",
               "Follow-up from start to finish."
-            ]
+            ],
+            "steps": true
           }
         ],
         "examples": "Examples: the HMS hotel software, a learning site in three languages, 3D Android games.",
