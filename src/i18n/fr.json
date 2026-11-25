@@ -652,7 +652,11 @@
               "les correctifs disponibles ;",
               "les priorités : ce qu'il faut mettre à jour d'abord."
             ],
-            "tiles": true
+            "tiles": true,
+            "link": {
+              "page": "services/vigie",
+              "label": "Découvrir Vigie"
+            }
           },
           {
             "figure": "inventory"
@@ -708,6 +712,120 @@
           }
         ],
         "trademarks": "GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
+      },
+      {
+        "id": "vigie",
+        "parent": "security",
+        "icon": "shield",
+        "title": "Vigie : la veille de sécurité de votre parc",
+        "summary": "Notre portail de veille : les failles qui touchent réellement les logiciels de votre parc, classées par priorité, avec des rappels. Gratuit pour nos clients dont le parc est suivi dans GLPI.",
+        "lead": "Chaque jour, des failles de sécurité sont publiées. Vigie les compare à l'inventaire GLPI de votre parc et vous dit lesquelles vous concernent vraiment, dans quel ordre les corriger, et vous le rappelle tant que ce n'est pas fait.",
+        "badges": [
+          "Gratuit avec GLPI",
+          "GLPI",
+          "CISA KEV",
+          "NVD",
+          "CERT-FR"
+        ],
+        "metaTitle": "Vigie, veille de sécurité pour votre parc GLPI — Chantrea Systems",
+        "metaDescription": "Vigie compare l'inventaire GLPI de votre parc aux failles publiées : priorités, rappels par e-mail, Slack ou ticket GLPI. Gratuit pour nos clients GLPI.",
+        "gallery": {
+          "title": "En images",
+          "note": "Captures du 25 novembre 2026 sur une base de démonstration : clients et postes fictifs ; les failles et les actualités sont les données publiques réelles du jour.",
+          "enlarge": "agrandir l'image",
+          "captions": {
+            "expositions": "Les failles qui touchent le parc d'un client, classées de P1 à P4 et regroupées par logiciel et version.",
+            "alertes": "La veille commune : les failles récentes de toutes les sources ; celles qui sont exploitées ressortent.",
+            "exposition": "Une faille, de la publication aux postes : ici WinRAR, exploitée selon la CISA, sur trois postes.",
+            "synthese": "La synthèse d'un client : failles ouvertes par priorité, machines, logiciels, dernier inventaire.",
+            "logiciels": "Tous les logiciels installés, obsolètes compris, avec leurs versions.",
+            "actualites": "Les publications du CERT-FR, de la CISA et du NCSC, traduites et résumées.",
+            "notifications": "Les règles d'alerte d'un client : quels événements, jusqu'à quelle priorité, par e-mail ou Slack.",
+            "mobile": "Les mêmes écrans sur téléphone."
+          }
+        },
+        "sections": [
+          {
+            "callout": true,
+            "title": "Gratuit pour nos clients GLPI",
+            "text": "Vigie est inclus sans frais pour tous les clients de Chantrea Systems dont le parc est suivi dans GLPI. Il prolonge l'inventaire : GLPI dit ce que vous avez, Vigie dit ce qui pose problème."
+          },
+          {
+            "title": "De la veille au rappel",
+            "cards": [
+              {
+                "icon": "globe",
+                "title": "Veiller",
+                "text": "Vigie lit chaque jour les sources publiques : failles publiées, failles exploitées, avis des éditeurs et des distributions Linux."
+              },
+              {
+                "icon": "layers",
+                "title": "Inventorier",
+                "text": "Le parc de chaque client arrive de GLPI, ou directement de GLPI Agent : tous les logiciels, avec leur version."
+              },
+              {
+                "icon": "swap",
+                "title": "Rapprocher",
+                "text": "Chaque version installée est comparée aux versions touchées : seules les failles qui concernent votre parc sont retenues."
+              },
+              {
+                "icon": "alert",
+                "title": "Rappeler",
+                "text": "Une alerte par e-mail, Slack ou ticket GLPI, et des rappels tant que la faille reste ouverte."
+              }
+            ]
+          },
+          {
+            "icon": "chart",
+            "title": "Des priorités claires",
+            "text": "Chaque faille est classée de P1 à P4 selon trois critères : est-elle déjà exploitée (catalogue KEV de la CISA), quelle est sa gravité, et combien de machines elle touche. Vous savez par quoi commencer."
+          },
+          {
+            "icon": "globe",
+            "title": "Les sources suivies",
+            "tiles": true,
+            "list": [
+              "Le catalogue des failles exploitées de la CISA (KEV).",
+              "La base américaine des vulnérabilités publiées (NVD).",
+              "Les avis de sécurité de Microsoft.",
+              "Les avis de Red Hat, Ubuntu et Debian.",
+              "Les publications du CERT-FR, de la CISA et du NCSC, traduites et résumées par un modèle d'IA installé sur notre serveur."
+            ]
+          },
+          {
+            "icon": "alert",
+            "title": "Alertes et suivi",
+            "list": [
+              "Une alerte dès qu'une faille grave touche votre parc.",
+              "Un récapitulatif régulier de tout ce qui reste ouvert.",
+              "Une relance quand une faille grave traîne.",
+              "Un ticket GLPI si vous le souhaitez, et Vigie en suit l'état.",
+              "Pour chaque faille : la prendre en compte, la déclarer faux positif ou accepter le risque, avec une trace."
+            ]
+          },
+          {
+            "icon": "shield",
+            "title": "Vos données",
+            "list": [
+              "Chaque client ne voit que son propre parc.",
+              "L'inventaire de votre parc n'est envoyé à aucun service extérieur.",
+              "Double authentification obligatoire pour nos techniciens.",
+              "Chaque action sensible est enregistrée dans un journal.",
+              "Une sauvegarde chiffrée chaque nuit, et une restauration vérifiée chaque semaine."
+            ]
+          },
+          {
+            "icon": "info",
+            "title": "Ce qu'il faut savoir",
+            "list": [
+              "Vigie n'est pas un scanner de vulnérabilités : il compare les versions installées aux failles publiées. Une faille pas encore publiée, ou un logiciel mal identifié, peut lui échapper.",
+              "Les applications Windows et macOS sont reliées à leur produit : Vigie propose la correspondance, nous la vérifions.",
+              "Vigie ne corrige rien tout seul : il dit quoi mettre à jour et dans quel ordre. Les mises à jour se font ensuite, avec vous.",
+              "Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation."
+            ]
+          }
+        ],
+        "trademarks": "GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian et Slack sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
       },
       {
         "id": "business-software",
@@ -1352,6 +1470,10 @@
           {
             "name": "Grafana",
             "text": "Des tableaux de bord sur l'état du parc et les alertes, à partir des données de Zabbix."
+          },
+          {
+            "name": "Vigie",
+            "text": "Notre portail de veille : les failles qui touchent votre parc GLPI, par ordre de priorité, avec des rappels."
           }
         ]
       }

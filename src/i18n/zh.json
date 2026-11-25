@@ -652,7 +652,11 @@
               "可用的补丁；",
               "优先级：哪些要先更新。"
             ],
-            "tiles": true
+            "tiles": true,
+            "link": {
+              "page": "services/vigie",
+              "label": "了解 Vigie"
+            }
           },
           {
             "figure": "inventory"
@@ -708,6 +712,120 @@
           }
         ],
         "trademarks": "GLPI、GLPI Agent、Zabbix、Grafana、Windows、Linux 和 macOS 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
+      },
+      {
+        "id": "vigie",
+        "parent": "security",
+        "icon": "shield",
+        "title": "Vigie：IT 资产的安全监测",
+        "summary": "我们的安全监测门户：真正影响您电脑上软件的漏洞，按优先级排列，并持续提醒。在 GLPI 中管理资产的客户可免费使用。",
+        "lead": "每天都有新的安全漏洞公布。Vigie 将它们与您在 GLPI 中的资产清单进行比对，告诉您哪些漏洞真正与您有关、应按什么顺序修复，并在修复完成前持续提醒您。",
+        "badges": [
+          "GLPI 客户免费",
+          "GLPI",
+          "CISA KEV",
+          "NVD",
+          "CERT-FR"
+        ],
+        "metaTitle": "Vigie，GLPI 资产的安全监测 — Chantrea Systems",
+        "metaDescription": "Vigie 将您 GLPI 中的资产清单与已公布的漏洞比对：优先级排序，通过电子邮件、Slack 或 GLPI 工单提醒。我们的 GLPI 客户可免费使用。",
+        "gallery": {
+          "title": "界面截图",
+          "note": "截图摄于 2026 年 11 月 25 日，使用演示数据库：客户和电脑均为虚构；漏洞和新闻是当天真实的公开数据。",
+          "enlarge": "放大图片",
+          "captions": {
+            "expositions": "影响某个客户资产的漏洞，按 P1 到 P4 排序，并按软件和版本分组。",
+            "alertes": "公共监测：来自所有来源的最新漏洞；已被利用的漏洞会突出显示。",
+            "exposition": "一个漏洞，从公布到受影响的电脑：这里是 WinRAR，据 CISA 称已被利用，影响三台电脑。",
+            "synthese": "客户概览：按优先级统计的未处理漏洞、机器、软件和最近一次清点。",
+            "logiciels": "所有已安装的软件，包括过时的版本。",
+            "actualites": "CERT-FR、CISA 和 NCSC 的发布内容，已翻译并摘要。",
+            "notifications": "某个客户的告警规则：哪些事件、到哪个优先级、通过电子邮件还是 Slack。",
+            "mobile": "手机上的同样界面。"
+          }
+        },
+        "sections": [
+          {
+            "callout": true,
+            "title": "GLPI 客户免费使用",
+            "text": "凡是在 GLPI 中管理资产的 Chantrea Systems 客户，都可免费使用 Vigie。它是资产清点的延伸：GLPI 告诉您有哪些资产，Vigie 告诉您哪里有问题。"
+          },
+          {
+            "title": "从监测到提醒",
+            "cards": [
+              {
+                "icon": "globe",
+                "title": "监测",
+                "text": "Vigie 每天读取公开来源：已公布的漏洞、已被利用的漏洞、软件厂商和 Linux 发行版的安全公告。"
+              },
+              {
+                "icon": "layers",
+                "title": "清点",
+                "text": "每个客户的资产来自 GLPI，或直接来自 GLPI Agent：所有软件及其版本。"
+              },
+              {
+                "icon": "swap",
+                "title": "比对",
+                "text": "每个已安装的版本都与受影响的版本进行比对：只保留与您的资产相关的漏洞。"
+              },
+              {
+                "icon": "alert",
+                "title": "提醒",
+                "text": "通过电子邮件、Slack 或 GLPI 工单告警，并在漏洞未修复期间持续提醒。"
+              }
+            ]
+          },
+          {
+            "icon": "chart",
+            "title": "清晰的优先级",
+            "text": "每个漏洞根据三个标准分为 P1 到 P4：是否已被利用（CISA 的 KEV 目录）、严重程度，以及影响多少台机器。您知道该从哪里开始。"
+          },
+          {
+            "icon": "globe",
+            "title": "我们关注的来源",
+            "tiles": true,
+            "list": [
+              "CISA 的已利用漏洞目录（KEV）。",
+              "美国国家漏洞数据库（NVD）。",
+              "Microsoft 安全公告。",
+              "Red Hat、Ubuntu 和 Debian 的安全公告。",
+              "CERT-FR、CISA 和 NCSC 的发布内容，由安装在我们服务器上的 AI 模型翻译并摘要。"
+            ]
+          },
+          {
+            "icon": "alert",
+            "title": "告警与跟进",
+            "list": [
+              "一旦有严重漏洞影响您的资产，立即告警。",
+              "定期汇总所有尚未处理的问题。",
+              "严重漏洞拖延未处理时再次提醒。",
+              "如您需要，可创建 GLPI 工单，Vigie 会跟踪其状态。",
+              "对每个漏洞：确认处理、标记为误报或接受风险，并留有记录。"
+            ]
+          },
+          {
+            "icon": "shield",
+            "title": "您的数据",
+            "list": [
+              "每个客户只能看到自己的资产。",
+              "您的资产清单不会发送给任何外部服务。",
+              "我们的技术人员必须使用双重身份验证。",
+              "每个敏感操作都记录在日志中。",
+              "每晚加密备份，每周检验恢复。"
+            ]
+          },
+          {
+            "icon": "info",
+            "title": "需要了解的事",
+            "list": [
+              "Vigie 不是漏洞扫描器：它把已安装的版本与已公布的漏洞进行比对。尚未公布的漏洞，或未被正确识别的软件，可能会被遗漏。",
+              "Windows 和 macOS 应用会关联到对应的产品：由 Vigie 提出匹配建议，我们来核实。",
+              "Vigie 不会自行修复任何问题：它告诉您该更新什么、按什么顺序。随后由我们与您一起完成更新。",
+              "Vigie 是 Chantrea Systems 的软件。它已完成开发和测试，正在准备上线。"
+            ]
+          }
+        ],
+        "trademarks": "GLPI、Microsoft、Windows、macOS、Red Hat、Ubuntu、Debian 和 Slack 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
       },
       {
         "id": "business-software",
@@ -1351,6 +1469,10 @@
           {
             "name": "Grafana",
             "text": "基于 Zabbix 数据的 IT 资产状态和告警仪表板。"
+          },
+          {
+            "name": "Vigie",
+            "text": "我们的安全监测门户：影响您 GLPI 资产的漏洞，按优先级排列，并持续提醒。"
           }
         ]
       }

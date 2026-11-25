@@ -652,7 +652,11 @@
               "available patches;",
               "priorities: what to update first."
             ],
-            "tiles": true
+            "tiles": true,
+            "link": {
+              "page": "services/vigie",
+              "label": "Discover Vigie"
+            }
           },
           {
             "figure": "inventory"
@@ -708,6 +712,120 @@
           }
         ],
         "trademarks": "GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux and macOS are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+      },
+      {
+        "id": "vigie",
+        "parent": "security",
+        "icon": "shield",
+        "title": "Vigie: security watch for your IT assets",
+        "summary": "Our security watch portal: the flaws that really affect the software on your computers, ranked by priority, with reminders. Free for our customers whose IT assets are tracked in GLPI.",
+        "lead": "Security flaws are published every day. Vigie compares them with the GLPI inventory of your IT assets and tells you which ones really concern you, in which order to fix them, and keeps reminding you until it's done.",
+        "badges": [
+          "Free with GLPI",
+          "GLPI",
+          "CISA KEV",
+          "NVD",
+          "CERT-FR"
+        ],
+        "metaTitle": "Vigie, security watch for your GLPI inventory — Chantrea Systems",
+        "metaDescription": "Vigie compares the GLPI inventory of your IT assets with published flaws: priorities, reminders by email, Slack or GLPI ticket. Free for our GLPI customers.",
+        "gallery": {
+          "title": "Screenshots",
+          "note": "Captured on 25 November 2026 on a demonstration database: customers and computers are fictitious; the flaws and the news are the real public data of the day.",
+          "enlarge": "enlarge image",
+          "captions": {
+            "expositions": "The flaws affecting a customer's computers, ranked P1 to P4 and grouped by software and version.",
+            "alertes": "The shared watch: recent flaws from every source; the exploited ones stand out.",
+            "exposition": "One flaw, from publication to the computers: here WinRAR, exploited according to CISA, on three computers.",
+            "synthese": "A customer's summary: open flaws by priority, machines, software, last inventory.",
+            "logiciels": "All installed software, outdated versions included.",
+            "actualites": "Publications from CERT-FR, CISA and NCSC, translated and summarised.",
+            "notifications": "A customer's alert rules: which events, up to which priority, by email or Slack.",
+            "mobile": "The same screens on a phone."
+          }
+        },
+        "sections": [
+          {
+            "callout": true,
+            "title": "Free for our GLPI customers",
+            "text": "Vigie is included at no cost for every Chantrea Systems customer whose IT assets are tracked in GLPI. It extends the inventory: GLPI says what you have, Vigie says what is a problem."
+          },
+          {
+            "title": "From watch to reminder",
+            "cards": [
+              {
+                "icon": "globe",
+                "title": "Watch",
+                "text": "Every day, Vigie reads the public sources: published flaws, exploited flaws, advisories from software publishers and Linux distributions."
+              },
+              {
+                "icon": "layers",
+                "title": "Inventory",
+                "text": "Each customer's IT assets come from GLPI, or straight from GLPI Agent: all the software, with its version."
+              },
+              {
+                "icon": "swap",
+                "title": "Match",
+                "text": "Each installed version is compared with the affected versions: only the flaws that concern your computers are kept."
+              },
+              {
+                "icon": "alert",
+                "title": "Remind",
+                "text": "An alert by email, Slack or GLPI ticket, and reminders for as long as the flaw stays open."
+              }
+            ]
+          },
+          {
+            "icon": "chart",
+            "title": "Clear priorities",
+            "text": "Each flaw is ranked P1 to P4 on three criteria: is it already exploited (CISA KEV catalogue), how severe is it, and how many machines does it affect. You know where to start."
+          },
+          {
+            "icon": "globe",
+            "title": "The sources we follow",
+            "tiles": true,
+            "list": [
+              "CISA's catalogue of exploited flaws (KEV).",
+              "The US National Vulnerability Database (NVD).",
+              "Microsoft security advisories.",
+              "Red Hat, Ubuntu and Debian advisories.",
+              "Publications from CERT-FR, CISA and NCSC, translated and summarised by an AI model installed on our server."
+            ]
+          },
+          {
+            "icon": "alert",
+            "title": "Alerts and follow-up",
+            "list": [
+              "An alert as soon as a severe flaw affects your computers.",
+              "A regular summary of everything still open.",
+              "A reminder when a severe flaw is left open too long.",
+              "A GLPI ticket if you wish, and Vigie follows its status.",
+              "For each flaw: acknowledge it, mark it as a false positive or accept the risk, with a record."
+            ]
+          },
+          {
+            "icon": "shield",
+            "title": "Your data",
+            "list": [
+              "Each customer only sees their own IT assets.",
+              "The inventory of your computers is not sent to any outside service.",
+              "Two-factor authentication required for our technicians.",
+              "Every sensitive action is recorded in a log.",
+              "An encrypted backup every night, and a restore checked every week."
+            ]
+          },
+          {
+            "icon": "info",
+            "title": "Good to know",
+            "list": [
+              "Vigie is not a vulnerability scanner: it compares installed versions with published flaws. A flaw not yet published, or badly identified software, can slip through.",
+              "Windows and macOS applications are linked to their product: Vigie suggests the match, we check it.",
+              "Vigie doesn't fix anything by itself: it tells you what to update and in which order. The updates are then done with you.",
+              "Vigie is software made by Chantrea Systems. It is built and tested; it is being prepared for production."
+            ]
+          }
+        ],
+        "trademarks": "GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian and Slack are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
       },
       {
         "id": "business-software",
@@ -1352,6 +1470,10 @@
           {
             "name": "Grafana",
             "text": "Dashboards on the state of your IT assets and on alerts, built from Zabbix data."
+          },
+          {
+            "name": "Vigie",
+            "text": "Our security watch portal: the flaws affecting your GLPI inventory, by priority, with reminders."
           }
         ]
       }

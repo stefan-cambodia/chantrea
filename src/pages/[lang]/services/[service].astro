@@ -11,6 +11,8 @@ import { languages, t, href } from '../../../i18n/index.js';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
 import { Picture } from 'astro:assets';
 import showcase from '../../../data/showcase.js';
+import galleries from '../../../data/service-galleries.js';
+import ScreenGallery from '../../../components/ScreenGallery.astro';
 import projects from '../../../data/projects.js';
 import workImages from '../../../data/work-images.js';
 import { screensFor } from '../../../data/hms-screens.js';
@@ -43,6 +45,7 @@ const shown = (showcase[service] ?? []).map((id) => {
     {/* Badges décoratifs facultatifs (ex. ខ្មែរ · English · USD · KHR), item.badges dans le fichier de langue. */}
     {item.badges && <p class="hero-badges" aria-hidden="true">{item.badges.map((b) => <span lang={/[\u1780-\u17FF]/.test(b) ? 'km' : undefined}>{b}</span>)}</p>}
   </PageHero>
+  {galleries[service] && item.gallery && <ScreenGallery screens={galleries[service]} texts={item.gallery} alt />}
   <section class="section">
     <div class="container narrow">
       <Sections sections={item.sections} lang={lang} />

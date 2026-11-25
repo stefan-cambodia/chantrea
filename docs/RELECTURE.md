@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1249 textes relus.
+0 / 1313 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -357,6 +357,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.2.list.3` | ចំណុចខ្សោយដែលបានប្រកាសជាសាធារណៈ (លេខយោង CVE)។ | les vulnérabilités publiées (références CVE) ; |
 | ⏳ à relire | `services.items.3.sections.2.list.4` | ការកែតម្រូវ (patch) ដែលមានស្រាប់។ | les correctifs disponibles ; |
 | ⏳ à relire | `services.items.3.sections.2.list.5` | អាទិភាព៖ អ្វីដែលត្រូវធ្វើបច្ចុប្បន្នភាពមុនគេ។ | les priorités : ce qu'il faut mettre à jour d'abord. |
+| ⏳ à relire | `services.items.3.sections.2.link.page` | services/vigie | services/vigie |
+| ⏳ à relire | `services.items.3.sections.2.link.label` | ស្វែងយល់ពី Vigie | Découvrir Vigie |
 | ⏳ à relire | `services.items.3.sections.3.figure` | inventory | inventory |
 | ⏳ à relire | `services.items.3.sections.4.title` | ការត្រួតពិនិត្យ៖ Zabbix និង Grafana | Surveiller : Zabbix et Grafana |
 | ⏳ à relire | `services.items.3.sections.4.text` | សុវត្ថិភាព ក៏មានន័យថាការមើលឃើញបញ្ហាទាន់ពេល មុនពេលវាកើតឡើងដែរ។ ឧបករណ៍ឥតគិតថ្លៃពីរ ធ្វើការជាមួយគ្នា៖ | La sécurité, c'est aussi voir à temps qu'un problème arrive. Deux outils libres travaillent ensemble : |
@@ -383,289 +385,349 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.8.title` | ពិភាក្សាអំពីស្ថានភាពរបស់លោកអ្នក | Parlons de votre situation |
 | ⏳ à relire | `services.items.3.sections.8.text` | អាជីវកម្មនីមួយៗខុសៗគ្នា។ សូមប្រាប់ខ្ញុំពីអ្វីដែលលោកអ្នកព្រួយបារម្ភ ហើយយើងនឹងរកមើលជាមួយគ្នាថា អ្វីខ្លះមានប្រយោជន៍សម្រាប់លោកអ្នក។ | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
 | ⏳ à relire | `services.items.3.trademarks` | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux និង macOS គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.4.id` | business-software | business-software |
-| ⏳ à relire | `services.items.4.parent` | infrastructure | infrastructure |
-| ⏳ à relire | `services.items.4.title` | Odoo, Nextcloud និង Mattermost | Odoo, Nextcloud et Mattermost |
-| ⏳ à relire | `services.items.4.summary` | ការគ្រប់គ្រងអាជីវកម្ម ឯកសារចែករំលែក និងការផ្ញើសាររបស់ក្រុមការងាររបស់លោកអ្នក លើកម្មវិធីកូដបើកចំហ (open source)។ ដំឡើងនៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud)។ | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
-| ⏳ à relire | `services.items.4.lead` | ខ្ញុំដំឡើង កែសម្រួល និងថែទាំ Odoo, Nextcloud និង Mattermost។ លោកអ្នកជាអ្នកជ្រើសរើសកន្លែងដែលវាដំណើរការ ហើយទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
-| ⏳ à relire | `services.items.4.badges.0` | Odoo | Odoo |
-| ⏳ à relire | `services.items.4.badges.1` | Nextcloud | Nextcloud |
-| ⏳ à relire | `services.items.4.badges.2` | Mattermost | Mattermost |
-| ⏳ à relire | `services.items.4.metaTitle` | Odoo, Nextcloud និង Mattermost នៅកម្ពុជា — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
-| ⏳ à relire | `services.items.4.metaDescription` | ការដំឡើង មុខងារបន្ថែម (module) តាមតម្រូវការ និងការថែទាំ Odoo (ការគ្រប់គ្រងអាជីវកម្ម) Nextcloud (ក្លោដឯកជន) និង Mattermost (ការផ្ញើសាររបស់ក្រុមការងារ)។ នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ។ | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
-| ⏳ à relire | `services.items.4.sections.0.title` | Odoo សម្រាប់គ្រប់គ្រងអាជីវកម្ម | Odoo, pour gérer l'entreprise |
-| ⏳ à relire | `services.items.4.sections.0.text` | អតិថិជន សម្រង់តម្លៃ ការលក់ វិក្កយបត្រ ការទិញ ស្តុក គម្រោង៖ កម្មវិធីតែមួយ ដែលមានកម្មវិធីរង (app) មួយសម្រាប់តម្រូវការនីមួយៗ។ យើងចាប់ផ្ដើមពីអ្វីដែលពិតជាមានប្រយោជន៍សម្រាប់លោកអ្នក ហើយបន្ថែមអ្វីដែលនៅសល់នៅពេលក្រោយ។ | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
-| ⏳ à relire | `services.items.4.sections.1.title` | Nextcloud សម្រាប់ឯកសារ និងក្រុមការងាររបស់លោកអ្នក | Nextcloud, pour vos fichiers et votre équipe |
-| ⏳ à relire | `services.items.4.sections.1.text` | ឯកសារ ប្រតិទិន និងបញ្ជីទំនាក់ទំនងដែលចែករំលែកគ្នា លើកុំព្យូទ័រ និងទូរស័ព្ទ ព្រមទាំងការផ្ញើសារ និងការហៅជាវីដេអូសម្រាប់ក្រុមការងារ។ ដូចសេវាអនឡាញធំៗដែរ ប៉ុន្តែនៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស។ | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
-| ⏳ à relire | `services.items.4.sections.2.title` | Mattermost សម្រាប់ការផ្ញើសាររបស់ក្រុមការងារ | Mattermost, pour la messagerie de l'équipe |
-| ⏳ à relire | `services.items.4.sections.2.text` | ឆានែល (channel) តាមក្រុម ឬតាមគម្រោង សារផ្ទាល់ខ្លួន ខ្សែសន្ទនា (thread) និងឯកសារចែករំលែក លើកុំព្យូទ័រ និងទូរស័ព្ទ។ ការសន្ទនាការងារនៅលើម៉ាស៊ីនមេ (server) របស់លោកអ្នក មិនមែននៅក្នុងកម្មវិធីផ្ញើសារសាធារណៈទេ។ ការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក ឧទាហរណ៍ពី Zabbix អាចផ្ញើចូលក្នុងឆានែលមួយបាន។ | Des canaux par équipe ou par projet, des messages directs, des fils de discussion et des fichiers partagés, sur ordinateur et sur téléphone. Les échanges de travail restent sur votre serveur, et non dans une messagerie grand public. Les alertes de vos outils, par exemple celles de Zabbix, peuvent arriver dans un canal. |
-| ⏳ à relire | `services.items.4.sections.3.title` | កន្លែងដែលវាដំណើរការ | Où ils tournent |
-| ⏳ à relire | `services.items.4.sections.3.list.0` | នៅកន្លែងលោកអ្នក៖ លើម៉ាស៊ីនមេ (server) ដែលដំឡើងនៅក្នុងទីតាំងរបស់លោកអ្នក។ ក្រុមការងារដែលនៅនឹងកន្លែង នៅតែអាចធ្វើការបាន ពេលដាច់អ៊ីនធឺណិត។ | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.4.sections.3.list.1` | នៅកន្លែងយើង៖ លើម៉ាស៊ីនមេដែល Chantrea Systems ជួល និងថែទាំ នៅ [À COMPLÉTER PAR STEFAN : pays]។ | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
-| ⏳ à relire | `services.items.4.sections.3.list.2` | នៅលើក្លោដ (cloud)៖ នៅក្រុមហ៊ុនបង្ហោះ (hosting) ធំមួយ ក្នុងគណនីដែលជាឈ្មោះរបស់លោកអ្នក។ | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.4.sections.3.list.3` | ក្នុងគ្រប់ករណី លោកអ្នកដឹងថាទិន្នន័យរបស់លោកអ្នកស្ថិតនៅប្រទេសណា។ | Dans tous les cas, vous savez dans quel pays sont vos données. |
-| ⏳ à relire | `services.items.4.sections.4.title` | មុខងារបន្ថែម (module) Odoo ដែលធ្វើសម្រាប់លោកអ្នក | Des modules Odoo faits pour vous |
-| ⏳ à relire | `services.items.4.sections.4.text` | នៅពេល Odoo មិនធ្វើអ្វីដែលលោកអ្នកត្រូវការ ខ្ញុំបង្កើតមុខងារបន្ថែម (module) តាមតម្រូវការ៖ របាយការណ៍មួយ វិក្កយបត្រតាមទម្រង់របស់លោកអ្នក ឬការភ្ជាប់ជាមួយកម្មវិធីមួយផ្សេងទៀត។ ជាដំបូង ខ្ញុំពិនិត្យមើលថា តើមានមុខងារបន្ថែមដែលមានស្រាប់ អាចប្រើបានហើយឬនៅ៖ វាចំណាយតិចជាងសម្រាប់លោកអ្នក។ | Quand Odoo ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
-| ⏳ à relire | `services.items.4.sections.4.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.4.sections.4.link.label` | ការអភិវឌ្ឍមុខងារបន្ថែម Odoo | Le développement de modules Odoo |
-| ⏳ à relire | `services.items.4.sections.5.title` | ការថែទាំ | L'entretien |
-| ⏳ à relire | `services.items.4.sections.5.list.0` | ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ដែលចម្លងទុកនៅកន្លែងទីពីរ និងការសាកល្បងស្ដារទិន្នន័យឡើងវិញជាប្រចាំ។ | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
-| ⏳ à relire | `services.items.4.sections.5.list.1` | ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព។ | Les mises à jour de sécurité. |
-| ⏳ à relire | `services.items.4.sections.5.list.2` | ការប្ដូរទៅកំណែថ្មី ដែលរៀបចំ និងសាកល្បងជាមុន។ | Le passage aux nouvelles versions, préparé et testé avant. |
-| ⏳ à relire | `services.items.4.sections.5.list.3` | ជំនួយសម្រាប់អ្នកប្រើប្រាស់របស់លោកអ្នក។ | De l'aide pour vos utilisateurs. |
-| ⏳ à relire | `services.items.4.sections.5.list.4` | កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.4.id` | vigie | vigie |
+| ⏳ à relire | `services.items.4.parent` | security | security |
+| ⏳ à relire | `services.items.4.title` | Vigie៖ ការតាមដានសុវត្ថិភាពនៃឧបករណ៍របស់លោកអ្នក | Vigie : la veille de sécurité de votre parc |
+| ⏳ à relire | `services.items.4.summary` | វិបផតថលតាមដានសុវត្ថិភាពរបស់យើង៖ ចំណុចខ្សោយដែលពាក់ព័ន្ធពិតប្រាកដនឹងកម្មវិធីលើឧបករណ៍របស់លោកអ្នក រៀបតាមអាទិភាព ព្រមទាំងការរំលឹក។ ឥតគិតថ្លៃសម្រាប់អតិថិជនរបស់យើង ដែលឧបករណ៍ត្រូវបានតាមដានក្នុង GLPI។ | Notre portail de veille : les failles qui touchent réellement les logiciels de votre parc, classées par priorité, avec des rappels. Gratuit pour nos clients dont le parc est suivi dans GLPI. |
+| ⏳ à relire | `services.items.4.lead` | រៀងរាល់ថ្ងៃ មានចំណុចខ្សោយសុវត្ថិភាពថ្មីៗត្រូវបានផ្សព្វផ្សាយ។ Vigie ប្រៀបធៀបវាជាមួយបញ្ជីសារពើភណ្ឌ GLPI នៃឧបករណ៍របស់លោកអ្នក ហើយប្រាប់ថាមួយណាពាក់ព័ន្ធនឹងលោកអ្នកពិតប្រាកដ គួរកែមួយណាមុន និងរំលឹកលោកអ្នក រហូតដល់ការកែត្រូវបានធ្វើរួច។ | Chaque jour, des failles de sécurité sont publiées. Vigie les compare à l'inventaire GLPI de votre parc et vous dit lesquelles vous concernent vraiment, dans quel ordre les corriger, et vous le rappelle tant que ce n'est pas fait. |
+| ⏳ à relire | `services.items.4.badges.0` | ឥតគិតថ្លៃជាមួយ GLPI | Gratuit avec GLPI |
+| ⏳ à relire | `services.items.4.badges.1` | GLPI | GLPI |
+| ⏳ à relire | `services.items.4.badges.2` | CISA KEV | CISA KEV |
+| ⏳ à relire | `services.items.4.badges.3` | NVD | NVD |
+| ⏳ à relire | `services.items.4.badges.4` | CERT-FR | CERT-FR |
+| ⏳ à relire | `services.items.4.metaTitle` | Vigie ការតាមដានសុវត្ថិភាពសម្រាប់ឧបករណ៍ក្នុង GLPI — Chantrea Systems | Vigie, veille de sécurité pour votre parc GLPI — Chantrea Systems |
+| ⏳ à relire | `services.items.4.metaDescription` | Vigie ប្រៀបធៀបបញ្ជីសារពើភណ្ឌ GLPI របស់លោកអ្នក ជាមួយចំណុចខ្សោយដែលបានផ្សព្វផ្សាយ៖ អាទិភាព ការរំលឹកតាមអ៊ីមែល Slack ឬសំណើជំនួយ GLPI។ ឥតគិតថ្លៃសម្រាប់អតិថិជន GLPI របស់យើង។ | Vigie compare l'inventaire GLPI de votre parc aux failles publiées : priorités, rappels par e-mail, Slack ou ticket GLPI. Gratuit pour nos clients GLPI. |
+| ⏳ à relire | `services.items.4.gallery.title` | រូបភាពអេក្រង់ | En images |
+| ⏳ à relire | `services.items.4.gallery.note` | រូបភាពថតនៅថ្ងៃទី 25 ខែវិច្ឆិកា ឆ្នាំ 2026 លើមូលដ្ឋានទិន្នន័យសាកល្បង៖ អតិថិជន និងកុំព្យូទ័រជាការប្រឌិត។ ចំណុចខ្សោយ និងព័ត៌មាន គឺជាទិន្នន័យសាធារណៈពិតប្រាកដនៃថ្ងៃនោះ។ | Captures du 25 novembre 2026 sur une base de démonstration : clients et postes fictifs ; les failles et les actualités sont les données publiques réelles du jour. |
+| ⏳ à relire | `services.items.4.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
+| ⏳ à relire | `services.items.4.gallery.captions.expositions` | ចំណុចខ្សោយដែលប៉ះពាល់ដល់ឧបករណ៍របស់អតិថិជនម្នាក់ រៀបពី P1 ដល់ P4 និងដាក់ជាក្រុមតាមកម្មវិធី និងកំណែ។ | Les failles qui touchent le parc d'un client, classées de P1 à P4 et regroupées par logiciel et version. |
+| ⏳ à relire | `services.items.4.gallery.captions.alertes` | ការតាមដានរួម៖ ចំណុចខ្សោយថ្មីៗពីគ្រប់ប្រភព។ ចំណុចខ្សោយដែលកំពុងត្រូវបានគេវាយប្រហារ ត្រូវបានបង្ហាញឱ្យលេចធ្លោ។ | La veille commune : les failles récentes de toutes les sources ; celles qui sont exploitées ressortent. |
+| ⏳ à relire | `services.items.4.gallery.captions.exposition` | ចំណុចខ្សោយមួយ ចាប់ពីការផ្សព្វផ្សាយ ដល់កុំព្យូទ័រ៖ នៅទីនេះគឺ WinRAR ដែលកំពុងត្រូវបានគេវាយប្រហារ យោងតាម CISA លើកុំព្យូទ័របី។ | Une faille, de la publication aux postes : ici WinRAR, exploitée selon la CISA, sur trois postes. |
+| ⏳ à relire | `services.items.4.gallery.captions.synthese` | សេចក្តីសង្ខេបរបស់អតិថិជនម្នាក់៖ ចំណុចខ្សោយដែលនៅបើកតាមអាទិភាព ម៉ាស៊ីន កម្មវិធី និងបញ្ជីសារពើភណ្ឌចុងក្រោយ។ | La synthèse d'un client : failles ouvertes par priorité, machines, logiciels, dernier inventaire. |
+| ⏳ à relire | `services.items.4.gallery.captions.logiciels` | កម្មវិធីដែលបានដំឡើងទាំងអស់ រួមទាំងកំណែចាស់ៗ។ | Tous les logiciels installés, obsolètes compris, avec leurs versions. |
+| ⏳ à relire | `services.items.4.gallery.captions.actualites` | ការផ្សព្វផ្សាយរបស់ CERT-FR, CISA និង NCSC ដែលបានបកប្រែ និងសង្ខេប។ | Les publications du CERT-FR, de la CISA et du NCSC, traduites et résumées. |
+| ⏳ à relire | `services.items.4.gallery.captions.notifications` | ច្បាប់ជូនដំណឹងរបស់អតិថិជនម្នាក់៖ ព្រឹត្តិការណ៍ណាខ្លះ រហូតដល់អាទិភាពណា តាមអ៊ីមែល ឬ Slack។ | Les règles d'alerte d'un client : quels événements, jusqu'à quelle priorité, par e-mail ou Slack. |
+| ⏳ à relire | `services.items.4.gallery.captions.mobile` | អេក្រង់ដដែលៗ នៅលើទូរស័ព្ទ។ | Les mêmes écrans sur téléphone. |
+| ⏳ à relire | `services.items.4.sections.0.title` | ឥតគិតថ្លៃសម្រាប់អតិថិជន GLPI របស់យើង | Gratuit pour nos clients GLPI |
+| ⏳ à relire | `services.items.4.sections.0.text` | Vigie ត្រូវបានផ្តល់ជូនដោយឥតគិតថ្លៃ សម្រាប់អតិថិជនទាំងអស់របស់ Chantrea Systems ដែលឧបករណ៍ត្រូវបានតាមដានក្នុង GLPI។ វាពង្រីកបញ្ជីសារពើភណ្ឌ៖ GLPI ប្រាប់ថាលោកអ្នកមានអ្វីខ្លះ ហើយ Vigie ប្រាប់ថាអ្វីខ្លះមានបញ្ហា។ | Vigie est inclus sans frais pour tous les clients de Chantrea Systems dont le parc est suivi dans GLPI. Il prolonge l'inventaire : GLPI dit ce que vous avez, Vigie dit ce qui pose problème. |
+| ⏳ à relire | `services.items.4.sections.1.title` | ពីការតាមដាន ដល់ការរំលឹក | De la veille au rappel |
+| ⏳ à relire | `services.items.4.sections.1.cards.0.title` | តាមដាន | Veiller |
+| ⏳ à relire | `services.items.4.sections.1.cards.0.text` | រៀងរាល់ថ្ងៃ Vigie អានប្រភពសាធារណៈ៖ ចំណុចខ្សោយដែលបានផ្សព្វផ្សាយ ចំណុចខ្សោយដែលកំពុងត្រូវបានគេវាយប្រហារ និងសេចក្តីជូនដំណឹងរបស់ក្រុមហ៊ុនកម្មវិធី និងប្រព័ន្ធ Linux។ | Vigie lit chaque jour les sources publiques : failles publiées, failles exploitées, avis des éditeurs et des distributions Linux. |
+| ⏳ à relire | `services.items.4.sections.1.cards.1.title` | ធ្វើបញ្ជីសារពើភណ្ឌ | Inventorier |
+| ⏳ à relire | `services.items.4.sections.1.cards.1.text` | ឧបករណ៍របស់អតិថិជននីមួយៗ មកពី GLPI ឬដោយផ្ទាល់ពី GLPI Agent៖ កម្មវិធីទាំងអស់ ជាមួយកំណែរបស់វា។ | Le parc de chaque client arrive de GLPI, ou directement de GLPI Agent : tous les logiciels, avec leur version. |
+| ⏳ à relire | `services.items.4.sections.1.cards.2.title` | ផ្គូផ្គង | Rapprocher |
+| ⏳ à relire | `services.items.4.sections.1.cards.2.text` | កំណែដែលបានដំឡើងនីមួយៗ ត្រូវបានប្រៀបធៀបជាមួយកំណែដែលរងផលប៉ះពាល់៖ មានតែចំណុចខ្សោយដែលពាក់ព័ន្ធនឹងឧបករណ៍របស់លោកអ្នកប៉ុណ្ណោះ ដែលត្រូវបានរក្សាទុក។ | Chaque version installée est comparée aux versions touchées : seules les failles qui concernent votre parc sont retenues. |
+| ⏳ à relire | `services.items.4.sections.1.cards.3.title` | រំលឹក | Rappeler |
+| ⏳ à relire | `services.items.4.sections.1.cards.3.text` | ការជូនដំណឹងតាមអ៊ីមែល Slack ឬសំណើជំនួយ GLPI និងការរំលឹក ដរាបណាចំណុចខ្សោយនៅតែបើក។ | Une alerte par e-mail, Slack ou ticket GLPI, et des rappels tant que la faille reste ouverte. |
+| ⏳ à relire | `services.items.4.sections.2.title` | អាទិភាពច្បាស់លាស់ | Des priorités claires |
+| ⏳ à relire | `services.items.4.sections.2.text` | ចំណុចខ្សោយនីមួយៗ ត្រូវបានរៀបពី P1 ដល់ P4 តាមលក្ខណៈវិនិច្ឆ័យបី៖ តើវាកំពុងត្រូវបានគេវាយប្រហារហើយឬនៅ (បញ្ជី KEV របស់ CISA) តើវាធ្ងន់ធ្ងរប៉ុណ្ណា និងតើវាប៉ះពាល់ម៉ាស៊ីនប៉ុន្មាន។ លោកអ្នកដឹងថាត្រូវចាប់ផ្តើមពីណា។ | Chaque faille est classée de P1 à P4 selon trois critères : est-elle déjà exploitée (catalogue KEV de la CISA), quelle est sa gravité, et combien de machines elle touche. Vous savez par quoi commencer. |
+| ⏳ à relire | `services.items.4.sections.3.title` | ប្រភពដែលយើងតាមដាន | Les sources suivies |
+| ⏳ à relire | `services.items.4.sections.3.list.0` | បញ្ជីចំណុចខ្សោយដែលកំពុងត្រូវបានគេវាយប្រហាររបស់ CISA (KEV)។ | Le catalogue des failles exploitées de la CISA (KEV). |
+| ⏳ à relire | `services.items.4.sections.3.list.1` | មូលដ្ឋានទិន្នន័យចំណុចខ្សោយរបស់សហរដ្ឋអាមេរិក (NVD)។ | La base américaine des vulnérabilités publiées (NVD). |
+| ⏳ à relire | `services.items.4.sections.3.list.2` | សេចក្តីជូនដំណឹងសុវត្ថិភាពរបស់ Microsoft។ | Les avis de sécurité de Microsoft. |
+| ⏳ à relire | `services.items.4.sections.3.list.3` | សេចក្តីជូនដំណឹងរបស់ Red Hat, Ubuntu និង Debian។ | Les avis de Red Hat, Ubuntu et Debian. |
+| ⏳ à relire | `services.items.4.sections.3.list.4` | ការផ្សព្វផ្សាយរបស់ CERT-FR, CISA និង NCSC ដែលត្រូវបានបកប្រែ និងសង្ខេប ដោយម៉ូដែល AI ដែលដំឡើងនៅលើម៉ាស៊ីនមេរបស់យើង។ | Les publications du CERT-FR, de la CISA et du NCSC, traduites et résumées par un modèle d'IA installé sur notre serveur. |
+| ⏳ à relire | `services.items.4.sections.4.title` | ការជូនដំណឹង និងការតាមដាន | Alertes et suivi |
+| ⏳ à relire | `services.items.4.sections.4.list.0` | ការជូនដំណឹងភ្លាមៗ នៅពេលចំណុចខ្សោយធ្ងន់ធ្ងរប៉ះពាល់ដល់ឧបករណ៍របស់លោកអ្នក។ | Une alerte dès qu'une faille grave touche votre parc. |
+| ⏳ à relire | `services.items.4.sections.4.list.1` | សេចក្តីសង្ខេបទៀងទាត់ អំពីអ្វីៗដែលនៅតែបើក។ | Un récapitulatif régulier de tout ce qui reste ouvert. |
+| ⏳ à relire | `services.items.4.sections.4.list.2` | ការរំលឹកម្តងទៀត នៅពេលចំណុចខ្សោយធ្ងន់ធ្ងរនៅយូរពេក។ | Une relance quand une faille grave traîne. |
+| ⏳ à relire | `services.items.4.sections.4.list.3` | សំណើជំនួយ GLPI ប្រសិនបើលោកអ្នកចង់បាន ហើយ Vigie តាមដានស្ថានភាពរបស់វា។ | Un ticket GLPI si vous le souhaitez, et Vigie en suit l'état. |
+| ⏳ à relire | `services.items.4.sections.4.list.4` | សម្រាប់ចំណុចខ្សោយនីមួយៗ៖ ទទួលស្គាល់វា កំណត់ថាជាការជូនដំណឹងខុស ឬទទួលយកហានិភ័យ ដោយមានកំណត់ត្រា។ | Pour chaque faille : la prendre en compte, la déclarer faux positif ou accepter le risque, avec une trace. |
+| ⏳ à relire | `services.items.4.sections.5.title` | ទិន្នន័យរបស់លោកអ្នក | Vos données |
+| ⏳ à relire | `services.items.4.sections.5.list.0` | អតិថិជនម្នាក់ៗ ឃើញតែឧបករណ៍របស់ខ្លួនប៉ុណ្ណោះ។ | Chaque client ne voit que son propre parc. |
+| ⏳ à relire | `services.items.4.sections.5.list.1` | បញ្ជីសារពើភណ្ឌឧបករណ៍របស់លោកអ្នក មិនត្រូវបានផ្ញើទៅសេវាខាងក្រៅណាមួយឡើយ។ | L'inventaire de votre parc n'est envoyé à aucun service extérieur. |
+| ⏳ à relire | `services.items.4.sections.5.list.2` | ការផ្ទៀងផ្ទាត់ពីរជំហាន ជាកាតព្វកិច្ចសម្រាប់អ្នកបច្ចេកទេសរបស់យើង។ | Double authentification obligatoire pour nos techniciens. |
+| ⏳ à relire | `services.items.4.sections.5.list.3` | រាល់សកម្មភាពសំខាន់ៗ ត្រូវបានកត់ត្រាទុកក្នុងកំណត់ហេតុ។ | Chaque action sensible est enregistrée dans un journal. |
+| ⏳ à relire | `services.items.4.sections.5.list.4` | ការបម្រុងទុកទិន្នន័យដែលបានអ៊ិនគ្រីបរៀងរាល់យប់ និងការស្ដារឡើងវិញដែលត្រូវបានពិនិត្យរៀងរាល់សប្តាហ៍។ | Une sauvegarde chiffrée chaque nuit, et une restauration vérifiée chaque semaine. |
 | ⏳ à relire | `services.items.4.sections.6.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.4.sections.6.list.0` | Odoo, Nextcloud និង Mattermost ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា។ ខ្ញុំដំឡើង កំណត់រចនាសម្ព័ន្ធ និងកែសម្រួលវាឱ្យត្រូវនឹងអាជីវកម្មរបស់លោកអ្នក។ | Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs. Je les installe, je les configure et je les adapte à votre entreprise. |
-| ⏳ à relire | `services.items.4.sections.6.list.1` | សម្រាប់ Odoo ខ្ញុំចាប់ផ្ដើមពី Odoo 19 Community ដែលជាកំណែកូដបើកចំហ និងឥតគិតថ្លៃ។ Mattermost មានកំណែឥតគិតថ្លៃ និងកំណែបង់ប្រាក់៖ ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ថាតើកំណែឥតគិតថ្លៃគ្រប់គ្រាន់សម្រាប់លោកអ្នកឬទេ។ | Pour Odoo, je pars d'Odoo 19 Community, la version libre et gratuite. Mattermost existe en versions gratuites et payantes : je vous dis franchement si la version gratuite vous suffit. |
-| ⏳ à relire | `services.items.4.sections.6.list.2` | Nextcloud មានការផ្ញើសាររបស់វារួចហើយ។ Mattermost មានប្រយោជន៍ នៅពេលក្រុមការងាររបស់លោកអ្នកទំនាក់ទំនងគ្នាច្រើន លើគម្រោងជាច្រើន៖ យើងជ្រើសរើសតាមរបៀបធ្វើការរបស់លោកអ្នក។ | Nextcloud a déjà sa propre messagerie. Mattermost est utile quand votre équipe échange beaucoup, sur plusieurs projets : on choisit selon votre façon de travailler. |
-| ⏳ à relire | `services.items.4.sections.6.list.3` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ៖ ត្រូវគ្រោងធ្វើការដំឡើងកំណែ (upgrade) រៀងរាល់ពីរ ឬបីឆ្នាំម្ដង។ | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
-| ⏳ à relire | `services.items.4.sections.6.list.4` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.4.trademarks` | Odoo, Nextcloud និង Mattermost គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo, Nextcloud et Mattermost sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.5.id` | odoo-development | odoo-development |
-| ⏳ à relire | `services.items.5.parent` | development | development |
-| ⏳ à relire | `services.items.5.title` | ការអភិវឌ្ឍមុខងារបន្ថែម (module) Odoo | Développement de modules Odoo |
-| ⏳ à relire | `services.items.5.summary` | មុខងារបន្ថែម (module) តាមតម្រូវការសម្រាប់ Odoo៖ អេក្រង់ ឯកសារ ច្បាប់ការងារ និងការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀតរបស់លោកអ្នក។ ព្រមទាំងផ្នែកមួយដែលឧទ្ទិសសម្រាប់កម្ពុជា និងភាសាខ្មែរ។ | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
-| ⏳ à relire | `services.items.5.lead` | Odoo ឆ្លើយតបនឹងតម្រូវការជាច្រើន ប៉ុន្តែអាជីវកម្មនីមួយៗមានទម្លាប់ការងាររៀងៗខ្លួន។ នៅពេលខ្វះអ្វីមួយ ខ្ញុំអភិវឌ្ឍមុខងារបន្ថែម (module) ដែលបន្ថែមលើ Odoo ដោយមិនកែប្រែកូដដើមរបស់វា។ | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
-| ⏳ à relire | `services.items.5.badges.0` | Odoo 19 Community | Odoo 19 Community |
-| ⏳ à relire | `services.items.5.badges.1` | OCA | OCA |
-| ⏳ à relire | `services.items.5.badges.2` | ខ្មែរ | ខ្មែរ |
-| ⏳ à relire | `services.items.5.badges.3` | USD · KHR | USD · KHR |
-| ⏳ à relire | `services.items.5.metaTitle` | មុខងារបន្ថែម Odoo តាមតម្រូវការ នៅកម្ពុជា — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
-| ⏳ à relire | `services.items.5.metaDescription` | មុខងារបន្ថែម (module) Odoo តាមតម្រូវការ៖ អេក្រង់ វិក្កយបត្រ និងរបាយការណ៍តាមទម្រង់របស់លោកអ្នក ការងារស្វ័យប្រវត្តិ ការនាំចូលទិន្នន័យ ការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀត។ ភាសាខ្មែរ ប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
-| ⏳ à relire | `services.items.5.sections.0.title` | អ្វីដែលមុខងារបន្ថែមមួយអាចធ្វើបាន | Ce qu'un module peut faire |
-| ⏳ à relire | `services.items.5.sections.0.list.0` | វាល (field) អេក្រង់ និងជំហានការងារ ដែលត្រូវនឹងរបៀបធ្វើការរបស់លោកអ្នក។ | Des champs, des écrans et des étapes qui suivent votre façon de travailler. |
-| ⏳ à relire | `services.items.5.sections.0.list.1` | សម្រង់តម្លៃ វិក្កយបត្រ បង្កាន់ដៃ និងប័ណ្ណដឹកជញ្ជូនទំនិញ តាមទម្រង់របស់លោកអ្នក ជាមួយឡូហ្គោ និងព័ត៌មានរបស់លោកអ្នក។ | Des devis, factures, reçus et bons de livraison à votre format, avec votre logo et vos mentions. |
-| ⏳ à relire | `services.items.5.sections.0.list.2` | របាយការណ៍ និងផ្ទាំងសង្ខេប (dashboard) អំពីអ្វីដែលសំខាន់សម្រាប់លោកអ្នក។ | Des rapports et des tableaux de bord sur ce qui compte pour vous. |
-| ⏳ à relire | `services.items.5.sections.0.list.3` | ការងារស្វ័យប្រវត្តិ៖ ការរំលឹក ការដាស់តឿន សកម្មភាពតាមកាលវិភាគ និងការត្រួតពិនិត្យមុនពេលអនុម័ត។ | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
-| ⏳ à relire | `services.items.5.sections.0.list.4` | ការនាំចូលទិន្នន័យរបស់លោកអ្នក ពីឯកសារ Excel ឬពីកម្មវិធីចាស់របស់លោកអ្នក។ | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
-| ⏳ à relire | `services.items.5.sections.0.list.5` | ការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀតរបស់លោកអ្នក តាមរយៈ API៖ គេហទំព័រ ហាងអនឡាញ កម្មវិធីអាជីវកម្ម។ | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
-| ⏳ à relire | `services.items.5.sections.1.title` | បានធ្វើរួចហើយ៖ Odoo ផ្ទាល់ខ្លួនរបស់យើង | Déjà réalisé : notre propre Odoo |
-| ⏳ à relire | `services.items.5.sections.1.text` | សម្រាប់ Chantrea Systems យើងបានអភិវឌ្ឍម៉ូឌុល Odoo 19 Community ផ្ទាល់ខ្លួន៖ សម្រង់តម្លៃ និងវិក្កយបត្រជាភាសាខ្មែរ និងអង់គ្លេស ដែលមានចំនួនសរុបជាប្រាក់ដុល្លារ និងប្រាក់រៀល ទំព័រអតិថិជនជាបីភាសា អត្ថបទប្រហែល 700 ដែលបានបកប្រែជាភាសាខ្មែរ និងការងារនៅទីតាំង ដែលអតិថិជនចុះហត្ថលេខានៅនឹងកន្លែង។ | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
-| ⏳ à relire | `services.items.5.sections.1.link.page` | services/odoo | services/odoo |
-| ⏳ à relire | `services.items.5.sections.1.link.label` | មើលការកែសម្រួល Odoo របស់យើង | Voir nos modifications d'Odoo |
-| ⏳ à relire | `services.items.5.sections.2.figure` | invoice | invoice |
-| ⏳ à relire | `services.items.5.sections.3.title` | របៀបធ្វើការរបស់ខ្ញុំ | Ma façon de faire |
-| ⏳ à relire | `services.items.5.sections.3.list.0` | ខ្ញុំអភិវឌ្ឍសម្រាប់ Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo។ | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.3.list.1` | ជាដំបូង ពិនិត្យមើលថា តើ Odoo ឬមុខងារបន្ថែមដែលមានស្រាប់ អាចធ្វើបានហើយឬនៅ។ មុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA (Odoo Community Association) ឆ្លើយតបនឹងតម្រូវការជាច្រើន។ វាចំណាយតិចជាងសម្រាប់លោកអ្នក។ | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
-| ⏳ à relire | `services.items.5.sections.3.list.2` | មុខងារបន្ថែមដាច់ដោយឡែក ដែលមិនកែប្រែកូដរបស់ Odoo៖ ការធ្វើបច្ចុប្បន្នភាពនៅតែអាចធ្វើបាន។ | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
-| ⏳ à relire | `services.items.5.sections.3.list.3` | ការសាកល្បងលើច្បាប់ចម្លងនៃមូលដ្ឋានទិន្នន័យរបស់លោកអ្នក ជាមួយទិន្នន័យពិត មុនពេលដាក់ឱ្យប្រើប្រាស់។ | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
-| ⏳ à relire | `services.items.5.sections.3.list.4` | មុខងារបន្ថែមដែលមានឯកសារពន្យល់៖ វាធ្វើអ្វីខ្លះ និងរបៀបកំណត់វា។ | Un module documenté : ce qu'il fait, et comment le régler. |
-| ⏳ à relire | `services.items.5.sections.4.title` | កន្លែងដែល Odoo របស់លោកអ្នកដំណើរការ | Où tourne votre Odoo |
-| ⏳ à relire | `services.items.5.sections.4.text` | មុខងារបន្ថែមតាមតម្រូវការ ត្រូវការ Odoo ដែលដំឡើងលើម៉ាស៊ីនមេ (server)៖ នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud)។ Odoo Online ដែលជាកំណែបង្ហោះដោយក្រុមហ៊ុន Odoo ផ្ទាល់ មិនទទួលយកមុខងារបន្ថែមទាំងនេះទេ។ | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
-| ⏳ à relire | `services.items.5.sections.4.link.page` | services/business-software | services/business-software |
-| ⏳ à relire | `services.items.5.sections.4.link.label` | ការដំឡើង និងការថែទាំ Odoo | Installer et entretenir Odoo |
-| ⏳ à relire | `services.items.5.sections.5.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.5.sections.5.list.0` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ។ រាល់ពេលដំឡើងកំណែ (upgrade) មុខងារបន្ថែមតាមតម្រូវការត្រូវតែកែសម្រួល៖ ត្រូវគ្រោងទុកជាមុន។ | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
-| ⏳ à relire | `services.items.5.sections.5.list.1` | មុខងារបន្ថែមតូចមួយដែលមានគោលដៅច្បាស់ ល្អជាងមុខងារបន្ថែមធំ៖ មានអ្វីតិចជាងដែលត្រូវកែសម្រួល នៅរាល់កំណែថ្មី។ | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
-| ⏳ à relire | `services.items.5.sections.5.list.2` | Odoo ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា។ ខ្ញុំមិនមែនជាដៃគូផ្លូវការរបស់ក្រុមហ៊ុន Odoo ទេ។ | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.5.list.3` | សម្រាប់គម្រោងរបស់លោកអ្នក ខ្ញុំប្រាប់លោកអ្នកយ៉ាងច្បាស់ ពីអ្វីដែលខ្ញុំបានធ្វើរួចហើយនៅកន្លែងផ្សេង និងអ្វីដែលនឹងជារឿងថ្មី។ | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
-| ⏳ à relire | `services.items.5.trademarks` | Odoo គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់របស់វា។ ការលើកឡើងឈ្មោះនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.6.id` | odoo-cambodia | odoo-cambodia |
-| ⏳ à relire | `services.items.6.parent` | odoo-development | odoo-development |
-| ⏳ à relire | `services.items.6.title` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.6.summary` | ផ្នែកមួយដែលឧទ្ទិសសម្រាប់អាជីវកម្មនៅកម្ពុជា៖ Odoo ជាភាសាខ្មែរ ឯកសារជាភាសាខ្មែរ ឬពីរភាសា ប្រាក់ដុល្លារ និងប្រាក់រៀល និងច្បាប់ក្នុងស្រុក។ | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
-| ⏳ à relire | `services.items.6.lead` | ខ្ញុំចាប់ផ្ដើមពី Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo ហើយកែសម្រួលវាសម្រាប់កម្ពុជា៖ ភាសារបស់ក្រុមការងាររបស់លោកអ្នក រូបិយប័ណ្ណទាំងពីរ និងឯកសារដែលអតិថិជនរបស់លោកអ្នករំពឹងចង់បាន។ | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
-| ⏳ à relire | `services.items.6.badges.0` | ខ្មែរ | ខ្មែរ |
-| ⏳ à relire | `services.items.6.badges.1` | English | English |
-| ⏳ à relire | `services.items.6.badges.2` | USD $ | USD $ |
-| ⏳ à relire | `services.items.6.badges.3` | KHR ៛ | KHR ៛ |
-| ⏳ à relire | `services.items.6.metaTitle` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា ប្រាក់ដុល្លារ និងប្រាក់រៀល — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
-| ⏳ à relire | `services.items.6.metaDescription` | Odoo សម្រាប់អាជីវកម្មកម្ពុជា៖ អេក្រង់ជាភាសាខ្មែរ វិក្កយបត្រជាភាសាខ្មែរ ឬពីរភាសា ប្រាក់ដុល្លារ និងប្រាក់រៀល ច្បាប់ពន្ធដារដែលបានផ្ទៀងផ្ទាត់ជាមួយគណនេយ្យកររបស់លោកអ្នក។ | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
-| ⏳ à relire | `services.items.6.sections.0.title` | Odoo ជាភាសារបស់ក្រុមការងាររបស់លោកអ្នក | Odoo dans la langue de votre équipe |
-| ⏳ à relire | `services.items.6.sections.0.text` | Odoo មានភាសាខ្មែរនៅក្នុងបញ្ជីភាសារបស់វា ប៉ុន្តែការបកប្រែរបស់ក្រុមហ៊ុនបង្កើតកម្មវិធី ស្ទើរតែទទេ៖ ក្នុង Odoo 19 មិនដល់ 1 អត្ថបទក្នុងចំណោម 10 អត្ថបទផង ដែលត្រូវបានបកប្រែជាភាសាខ្មែរ នៅក្នុងកម្មវិធីរង ការលក់ (Sales) គណនេយ្យ (Accounting) ស្តុក (Inventory) និងប្រព័ន្ធលក់ (Point of Sale)។ ខ្ញុំបំពេញការបកប្រែអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកពិតជាប្រើ ហើយមុខងារបន្ថែមតាមតម្រូវការរបស់លោកអ្នកក៏ត្រូវបានបកប្រែដែរ។ អ្នកប្រើប្រាស់នីមួយៗជ្រើសរើសភាសារបស់ខ្លួន៖ ខ្មែរ អង់គ្លេស ឬភាសាផ្សេងទៀត។ | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre. |
-| ⏳ à relire | `services.items.6.sections.1.title` | ឯកសារជាភាសាខ្មែរ | Des documents en khmer |
-| ⏳ à relire | `services.items.6.sections.1.list.0` | សម្រង់តម្លៃ វិក្កយបត្រ បង្កាន់ដៃ និងប័ណ្ណដឹកជញ្ជូនទំនិញ ជាភាសាខ្មែរ ឬពីរភាសា ខ្មែរ-អង់គ្លេស។ | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
-| ⏳ à relire | `services.items.6.sections.1.list.1` | ពុម្ពអក្សរខ្មែរ ដែលបង្ហាញ និងបោះពុម្ពបានត្រឹមត្រូវ រួមទាំងក្នុងឯកសារ PDF។ | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
+| ⏳ à relire | `services.items.4.sections.6.list.0` | Vigie មិនមែនជាកម្មវិធីស្កេនរកចំណុចខ្សោយទេ៖ វាប្រៀបធៀបកំណែដែលបានដំឡើង ជាមួយចំណុចខ្សោយដែលបានផ្សព្វផ្សាយ។ ចំណុចខ្សោយដែលមិនទាន់ផ្សព្វផ្សាយ ឬកម្មវិធីដែលមិនត្រូវបានស្គាល់ត្រឹមត្រូវ អាចរួចផុតពីវា។ | Vigie n'est pas un scanner de vulnérabilités : il compare les versions installées aux failles publiées. Une faille pas encore publiée, ou un logiciel mal identifié, peut lui échapper. |
+| ⏳ à relire | `services.items.4.sections.6.list.1` | កម្មវិធី Windows និង macOS ត្រូវបានភ្ជាប់ទៅផលិតផលរបស់វា៖ Vigie ស្នើការផ្គូផ្គង ហើយយើងពិនិត្យវា។ | Les applications Windows et macOS sont reliées à leur produit : Vigie propose la correspondance, nous la vérifions. |
+| ⏳ à relire | `services.items.4.sections.6.list.2` | Vigie មិនកែអ្វីដោយខ្លួនឯងទេ៖ វាប្រាប់ថាត្រូវធ្វើបច្ចុប្បន្នភាពអ្វី និងតាមលំដាប់ណា។ បន្ទាប់មក ការធ្វើបច្ចុប្បន្នភាពត្រូវបានធ្វើជាមួយលោកអ្នក។ | Vigie ne corrige rien tout seul : il dit quoi mettre à jour et dans quel ordre. Les mises à jour se font ensuite, avec vous. |
+| ⏳ à relire | `services.items.4.sections.6.list.3` | Vigie គឺជាកម្មវិធីរបស់ Chantrea Systems។ វាត្រូវបានអភិវឌ្ឍ និងសាកល្បងរួចហើយ ហើយការដាក់ឱ្យដំណើរការកំពុងត្រូវបានរៀបចំ។ | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
+| ⏳ à relire | `services.items.4.trademarks` | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian និង Slack គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian et Slack sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.5.id` | business-software | business-software |
+| ⏳ à relire | `services.items.5.parent` | infrastructure | infrastructure |
+| ⏳ à relire | `services.items.5.title` | Odoo, Nextcloud និង Mattermost | Odoo, Nextcloud et Mattermost |
+| ⏳ à relire | `services.items.5.summary` | ការគ្រប់គ្រងអាជីវកម្ម ឯកសារចែករំលែក និងការផ្ញើសាររបស់ក្រុមការងាររបស់លោកអ្នក លើកម្មវិធីកូដបើកចំហ (open source)។ ដំឡើងនៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud)។ | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
+| ⏳ à relire | `services.items.5.lead` | ខ្ញុំដំឡើង កែសម្រួល និងថែទាំ Odoo, Nextcloud និង Mattermost។ លោកអ្នកជាអ្នកជ្រើសរើសកន្លែងដែលវាដំណើរការ ហើយទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.5.badges.0` | Odoo | Odoo |
+| ⏳ à relire | `services.items.5.badges.1` | Nextcloud | Nextcloud |
+| ⏳ à relire | `services.items.5.badges.2` | Mattermost | Mattermost |
+| ⏳ à relire | `services.items.5.metaTitle` | Odoo, Nextcloud និង Mattermost នៅកម្ពុជា — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
+| ⏳ à relire | `services.items.5.metaDescription` | ការដំឡើង មុខងារបន្ថែម (module) តាមតម្រូវការ និងការថែទាំ Odoo (ការគ្រប់គ្រងអាជីវកម្ម) Nextcloud (ក្លោដឯកជន) និង Mattermost (ការផ្ញើសាររបស់ក្រុមការងារ)។ នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ។ | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
+| ⏳ à relire | `services.items.5.sections.0.title` | Odoo សម្រាប់គ្រប់គ្រងអាជីវកម្ម | Odoo, pour gérer l'entreprise |
+| ⏳ à relire | `services.items.5.sections.0.text` | អតិថិជន សម្រង់តម្លៃ ការលក់ វិក្កយបត្រ ការទិញ ស្តុក គម្រោង៖ កម្មវិធីតែមួយ ដែលមានកម្មវិធីរង (app) មួយសម្រាប់តម្រូវការនីមួយៗ។ យើងចាប់ផ្ដើមពីអ្វីដែលពិតជាមានប្រយោជន៍សម្រាប់លោកអ្នក ហើយបន្ថែមអ្វីដែលនៅសល់នៅពេលក្រោយ។ | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
+| ⏳ à relire | `services.items.5.sections.1.title` | Nextcloud សម្រាប់ឯកសារ និងក្រុមការងាររបស់លោកអ្នក | Nextcloud, pour vos fichiers et votre équipe |
+| ⏳ à relire | `services.items.5.sections.1.text` | ឯកសារ ប្រតិទិន និងបញ្ជីទំនាក់ទំនងដែលចែករំលែកគ្នា លើកុំព្យូទ័រ និងទូរស័ព្ទ ព្រមទាំងការផ្ញើសារ និងការហៅជាវីដេអូសម្រាប់ក្រុមការងារ។ ដូចសេវាអនឡាញធំៗដែរ ប៉ុន្តែនៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស។ | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
+| ⏳ à relire | `services.items.5.sections.2.title` | Mattermost សម្រាប់ការផ្ញើសាររបស់ក្រុមការងារ | Mattermost, pour la messagerie de l'équipe |
+| ⏳ à relire | `services.items.5.sections.2.text` | ឆានែល (channel) តាមក្រុម ឬតាមគម្រោង សារផ្ទាល់ខ្លួន ខ្សែសន្ទនា (thread) និងឯកសារចែករំលែក លើកុំព្យូទ័រ និងទូរស័ព្ទ។ ការសន្ទនាការងារនៅលើម៉ាស៊ីនមេ (server) របស់លោកអ្នក មិនមែននៅក្នុងកម្មវិធីផ្ញើសារសាធារណៈទេ។ ការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក ឧទាហរណ៍ពី Zabbix អាចផ្ញើចូលក្នុងឆានែលមួយបាន។ | Des canaux par équipe ou par projet, des messages directs, des fils de discussion et des fichiers partagés, sur ordinateur et sur téléphone. Les échanges de travail restent sur votre serveur, et non dans une messagerie grand public. Les alertes de vos outils, par exemple celles de Zabbix, peuvent arriver dans un canal. |
+| ⏳ à relire | `services.items.5.sections.3.title` | កន្លែងដែលវាដំណើរការ | Où ils tournent |
+| ⏳ à relire | `services.items.5.sections.3.list.0` | នៅកន្លែងលោកអ្នក៖ លើម៉ាស៊ីនមេ (server) ដែលដំឡើងនៅក្នុងទីតាំងរបស់លោកអ្នក។ ក្រុមការងារដែលនៅនឹងកន្លែង នៅតែអាចធ្វើការបាន ពេលដាច់អ៊ីនធឺណិត។ | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.5.sections.3.list.1` | នៅកន្លែងយើង៖ លើម៉ាស៊ីនមេដែល Chantrea Systems ជួល និងថែទាំ នៅ [À COMPLÉTER PAR STEFAN : pays]។ | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
+| ⏳ à relire | `services.items.5.sections.3.list.2` | នៅលើក្លោដ (cloud)៖ នៅក្រុមហ៊ុនបង្ហោះ (hosting) ធំមួយ ក្នុងគណនីដែលជាឈ្មោះរបស់លោកអ្នក។ | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.5.sections.3.list.3` | ក្នុងគ្រប់ករណី លោកអ្នកដឹងថាទិន្នន័យរបស់លោកអ្នកស្ថិតនៅប្រទេសណា។ | Dans tous les cas, vous savez dans quel pays sont vos données. |
+| ⏳ à relire | `services.items.5.sections.4.title` | មុខងារបន្ថែម (module) Odoo ដែលធ្វើសម្រាប់លោកអ្នក | Des modules Odoo faits pour vous |
+| ⏳ à relire | `services.items.5.sections.4.text` | នៅពេល Odoo មិនធ្វើអ្វីដែលលោកអ្នកត្រូវការ ខ្ញុំបង្កើតមុខងារបន្ថែម (module) តាមតម្រូវការ៖ របាយការណ៍មួយ វិក្កយបត្រតាមទម្រង់របស់លោកអ្នក ឬការភ្ជាប់ជាមួយកម្មវិធីមួយផ្សេងទៀត។ ជាដំបូង ខ្ញុំពិនិត្យមើលថា តើមានមុខងារបន្ថែមដែលមានស្រាប់ អាចប្រើបានហើយឬនៅ៖ វាចំណាយតិចជាងសម្រាប់លោកអ្នក។ | Quand Odoo ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
+| ⏳ à relire | `services.items.5.sections.4.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.5.sections.4.link.label` | ការអភិវឌ្ឍមុខងារបន្ថែម Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.5.sections.5.title` | ការថែទាំ | L'entretien |
+| ⏳ à relire | `services.items.5.sections.5.list.0` | ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ដែលចម្លងទុកនៅកន្លែងទីពីរ និងការសាកល្បងស្ដារទិន្នន័យឡើងវិញជាប្រចាំ។ | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
+| ⏳ à relire | `services.items.5.sections.5.list.1` | ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព។ | Les mises à jour de sécurité. |
+| ⏳ à relire | `services.items.5.sections.5.list.2` | ការប្ដូរទៅកំណែថ្មី ដែលរៀបចំ និងសាកល្បងជាមុន។ | Le passage aux nouvelles versions, préparé et testé avant. |
+| ⏳ à relire | `services.items.5.sections.5.list.3` | ជំនួយសម្រាប់អ្នកប្រើប្រាស់របស់លោកអ្នក។ | De l'aide pour vos utilisateurs. |
+| ⏳ à relire | `services.items.5.sections.5.list.4` | កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.5.sections.6.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.5.sections.6.list.0` | Odoo, Nextcloud និង Mattermost ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា។ ខ្ញុំដំឡើង កំណត់រចនាសម្ព័ន្ធ និងកែសម្រួលវាឱ្យត្រូវនឹងអាជីវកម្មរបស់លោកអ្នក។ | Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs. Je les installe, je les configure et je les adapte à votre entreprise. |
+| ⏳ à relire | `services.items.5.sections.6.list.1` | សម្រាប់ Odoo ខ្ញុំចាប់ផ្ដើមពី Odoo 19 Community ដែលជាកំណែកូដបើកចំហ និងឥតគិតថ្លៃ។ Mattermost មានកំណែឥតគិតថ្លៃ និងកំណែបង់ប្រាក់៖ ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ថាតើកំណែឥតគិតថ្លៃគ្រប់គ្រាន់សម្រាប់លោកអ្នកឬទេ។ | Pour Odoo, je pars d'Odoo 19 Community, la version libre et gratuite. Mattermost existe en versions gratuites et payantes : je vous dis franchement si la version gratuite vous suffit. |
+| ⏳ à relire | `services.items.5.sections.6.list.2` | Nextcloud មានការផ្ញើសាររបស់វារួចហើយ។ Mattermost មានប្រយោជន៍ នៅពេលក្រុមការងាររបស់លោកអ្នកទំនាក់ទំនងគ្នាច្រើន លើគម្រោងជាច្រើន៖ យើងជ្រើសរើសតាមរបៀបធ្វើការរបស់លោកអ្នក។ | Nextcloud a déjà sa propre messagerie. Mattermost est utile quand votre équipe échange beaucoup, sur plusieurs projets : on choisit selon votre façon de travailler. |
+| ⏳ à relire | `services.items.5.sections.6.list.3` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ៖ ត្រូវគ្រោងធ្វើការដំឡើងកំណែ (upgrade) រៀងរាល់ពីរ ឬបីឆ្នាំម្ដង។ | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
+| ⏳ à relire | `services.items.5.sections.6.list.4` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.5.trademarks` | Odoo, Nextcloud និង Mattermost គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo, Nextcloud et Mattermost sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.6.id` | odoo-development | odoo-development |
+| ⏳ à relire | `services.items.6.parent` | development | development |
+| ⏳ à relire | `services.items.6.title` | ការអភិវឌ្ឍមុខងារបន្ថែម (module) Odoo | Développement de modules Odoo |
+| ⏳ à relire | `services.items.6.summary` | មុខងារបន្ថែម (module) តាមតម្រូវការសម្រាប់ Odoo៖ អេក្រង់ ឯកសារ ច្បាប់ការងារ និងការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀតរបស់លោកអ្នក។ ព្រមទាំងផ្នែកមួយដែលឧទ្ទិសសម្រាប់កម្ពុជា និងភាសាខ្មែរ។ | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
+| ⏳ à relire | `services.items.6.lead` | Odoo ឆ្លើយតបនឹងតម្រូវការជាច្រើន ប៉ុន្តែអាជីវកម្មនីមួយៗមានទម្លាប់ការងាររៀងៗខ្លួន។ នៅពេលខ្វះអ្វីមួយ ខ្ញុំអភិវឌ្ឍមុខងារបន្ថែម (module) ដែលបន្ថែមលើ Odoo ដោយមិនកែប្រែកូដដើមរបស់វា។ | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
+| ⏳ à relire | `services.items.6.badges.0` | Odoo 19 Community | Odoo 19 Community |
+| ⏳ à relire | `services.items.6.badges.1` | OCA | OCA |
+| ⏳ à relire | `services.items.6.badges.2` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.6.badges.3` | USD · KHR | USD · KHR |
+| ⏳ à relire | `services.items.6.metaTitle` | មុខងារបន្ថែម Odoo តាមតម្រូវការ នៅកម្ពុជា — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
+| ⏳ à relire | `services.items.6.metaDescription` | មុខងារបន្ថែម (module) Odoo តាមតម្រូវការ៖ អេក្រង់ វិក្កយបត្រ និងរបាយការណ៍តាមទម្រង់របស់លោកអ្នក ការងារស្វ័យប្រវត្តិ ការនាំចូលទិន្នន័យ ការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀត។ ភាសាខ្មែរ ប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
+| ⏳ à relire | `services.items.6.sections.0.title` | អ្វីដែលមុខងារបន្ថែមមួយអាចធ្វើបាន | Ce qu'un module peut faire |
+| ⏳ à relire | `services.items.6.sections.0.list.0` | វាល (field) អេក្រង់ និងជំហានការងារ ដែលត្រូវនឹងរបៀបធ្វើការរបស់លោកអ្នក។ | Des champs, des écrans et des étapes qui suivent votre façon de travailler. |
+| ⏳ à relire | `services.items.6.sections.0.list.1` | សម្រង់តម្លៃ វិក្កយបត្រ បង្កាន់ដៃ និងប័ណ្ណដឹកជញ្ជូនទំនិញ តាមទម្រង់របស់លោកអ្នក ជាមួយឡូហ្គោ និងព័ត៌មានរបស់លោកអ្នក។ | Des devis, factures, reçus et bons de livraison à votre format, avec votre logo et vos mentions. |
+| ⏳ à relire | `services.items.6.sections.0.list.2` | របាយការណ៍ និងផ្ទាំងសង្ខេប (dashboard) អំពីអ្វីដែលសំខាន់សម្រាប់លោកអ្នក។ | Des rapports et des tableaux de bord sur ce qui compte pour vous. |
+| ⏳ à relire | `services.items.6.sections.0.list.3` | ការងារស្វ័យប្រវត្តិ៖ ការរំលឹក ការដាស់តឿន សកម្មភាពតាមកាលវិភាគ និងការត្រួតពិនិត្យមុនពេលអនុម័ត។ | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
+| ⏳ à relire | `services.items.6.sections.0.list.4` | ការនាំចូលទិន្នន័យរបស់លោកអ្នក ពីឯកសារ Excel ឬពីកម្មវិធីចាស់របស់លោកអ្នក។ | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
+| ⏳ à relire | `services.items.6.sections.0.list.5` | ការភ្ជាប់ជាមួយកម្មវិធីផ្សេងទៀតរបស់លោកអ្នក តាមរយៈ API៖ គេហទំព័រ ហាងអនឡាញ កម្មវិធីអាជីវកម្ម។ | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
+| ⏳ à relire | `services.items.6.sections.1.title` | បានធ្វើរួចហើយ៖ Odoo ផ្ទាល់ខ្លួនរបស់យើង | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.6.sections.1.text` | សម្រាប់ Chantrea Systems យើងបានអភិវឌ្ឍម៉ូឌុល Odoo 19 Community ផ្ទាល់ខ្លួន៖ សម្រង់តម្លៃ និងវិក្កយបត្រជាភាសាខ្មែរ និងអង់គ្លេស ដែលមានចំនួនសរុបជាប្រាក់ដុល្លារ និងប្រាក់រៀល ទំព័រអតិថិជនជាបីភាសា អត្ថបទប្រហែល 700 ដែលបានបកប្រែជាភាសាខ្មែរ និងការងារនៅទីតាំង ដែលអតិថិជនចុះហត្ថលេខានៅនឹងកន្លែង។ | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.6.sections.1.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.6.sections.1.link.label` | មើលការកែសម្រួល Odoo របស់យើង | Voir nos modifications d'Odoo |
 | ⏳ à relire | `services.items.6.sections.2.figure` | invoice | invoice |
-| ⏳ à relire | `services.items.6.sections.3.title` | ប្រាក់ដុល្លារ និងប្រាក់រៀល | Dollar et riel |
-| ⏳ à relire | `services.items.6.sections.3.text` | នៅកម្ពុជា ជារឿយៗគេលក់ជាប្រាក់ដុល្លារ ហើយក៏ទទួលប្រាក់រៀលផងដែរ។ Odoo គ្រប់គ្រងរូបិយប័ណ្ណច្រើនបាន ខ្ញុំកែសម្រួលវាឱ្យត្រូវនឹងរបៀបធ្វើការរបស់លោកអ្នក៖ តម្លៃជាប្រាក់ដុល្លារ សរុបជាប្រាក់រៀលនៅលើវិក្កយបត្រ និងអត្រាប្ដូរប្រាក់ដែលលោកអ្នកជ្រើសរើស។ | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
-| ⏳ à relire | `services.items.6.sections.4.title` | ច្បាប់ក្នុងស្រុក | Les règles locales |
-| ⏳ à relire | `services.items.6.sections.4.text` | អាករលើតម្លៃបន្ថែម (VAT) លេខរៀងវិក្កយបត្រ ព័ត៌មានដែលត្រូវតែមាន និងរបាយការណ៍សម្រាប់គណនេយ្យកររបស់លោកអ្នក៖ ខ្ញុំដាក់ចូលក្នុង Odoo នូវច្បាប់ដែលគណនេយ្យកររបស់លោកអ្នកបានផ្ទៀងផ្ទាត់។ ខ្ញុំអភិវឌ្ឍកម្មវិធី ចំណែកគណនេយ្យកររបស់លោកអ្នក ជាអ្នកប្រាប់ថាច្បាប់តម្រូវឱ្យមានអ្វីខ្លះ។ | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
-| ⏳ à relire | `services.items.6.sections.5.title` | បានធ្វើរួចហើយ៖ Odoo ផ្ទាល់ខ្លួនរបស់យើង | Déjà réalisé : notre propre Odoo |
-| ⏳ à relire | `services.items.6.sections.5.text` | សម្រាប់ Chantrea Systems យើងបានអភិវឌ្ឍម៉ូឌុល Odoo 19 Community ផ្ទាល់ខ្លួន៖ សម្រង់តម្លៃ និងវិក្កយបត្រជាភាសាខ្មែរ និងអង់គ្លេស ដែលមានចំនួនសរុបជាប្រាក់ដុល្លារ និងប្រាក់រៀល ទំព័រអតិថិជនជាបីភាសា អត្ថបទប្រហែល 700 ដែលបានបកប្រែជាភាសាខ្មែរ និងការងារនៅទីតាំង ដែលអតិថិជនចុះហត្ថលេខានៅនឹងកន្លែង។ | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
-| ⏳ à relire | `services.items.6.sections.5.link.page` | services/odoo | services/odoo |
-| ⏳ à relire | `services.items.6.sections.5.link.label` | មើលការកែសម្រួល Odoo របស់យើង | Voir nos modifications d'Odoo |
-| ⏳ à relire | `services.items.6.sections.6.title` | ឆ្ពោះទៅរកការបកប្រែភាសាខ្មែរដែលមានការទទួលស្គាល់ | Vers une traduction khmère certifiée |
-| ⏳ à relire | `services.items.6.sections.6.text` | អត្ថបទភាសាខ្មែររបស់យើង ត្រូវបានបកប្រែដោយមានជំនួយពី AI ហើយមិនទាន់ត្រូវបានពិនិត្យនៅឡើយទេ។ យើងកំពុងស្វែងរកការទទួលស្គាល់ (certification) ការបកប្រែទាំងអស់នេះ ពីអាជ្ញាធរកម្ពុជា។ បច្ចុប្បន្ន ការបកប្រែទាំងនេះមិនទាន់ទទួលបានការទទួលស្គាល់នៅឡើយទេ។ | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
-| ⏳ à relire | `services.items.6.sections.7.title` | កំពុងអភិវឌ្ឍ | En cours de développement |
-| ⏳ à relire | `services.items.6.sections.7.text` | មុខងារទាំងនេះកំពុងរៀបចំ ហើយមិនទាន់អាចប្រើបាននៅឡើយទេ៖ | Ces fonctions sont en préparation, et pas encore disponibles : |
-| ⏳ à relire | `services.items.6.sections.7.list.0` | កាលបរិច្ឆេទ និងលេខជាភាសាខ្មែរ នៅលើឯកសារ។ | Les dates et les chiffres en khmer sur les documents. |
-| ⏳ à relire | `services.items.6.sections.7.list.1` | បញ្ជរគិតលុយ (ប្រព័ន្ធលក់ Odoo) ដែលទទួលប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
-| ⏳ à relire | `services.items.6.sections.7.list.2` | ការទូទាត់ប្រាក់តាម KHQR។ | Le paiement par QR code KHQR. |
-| ⏳ à relire | `services.items.6.sections.8.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.6.sections.8.list.0` | ការបកប្រែជាភាសាខ្មែរ ត្រូវបានរៀបចំដោយ AI បន្ទាប់មកត្រូវបានពិនិត្យដោយបុគ្គលិកក្នុងក្រុមការងាររបស់លោកអ្នក ដែលចេះភាសាខ្មែរ មុនពេលដាក់ឱ្យប្រើប្រាស់។ | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
-| ⏳ à relire | `services.items.6.sections.8.list.1` | ការភ្ជាប់ជាមួយសេវាអនឡាញរបស់រដ្ឋបាល ឬរបស់ធនាគារ ត្រូវសិក្សាតាមករណីនីមួយៗ។ | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
-| ⏳ à relire | `services.items.6.sections.8.list.2` | ខ្ញុំមិនផ្ដល់វិញ្ញាបនបត្រ ឬការអនុញ្ញាតផ្នែកពន្ធដារណាមួយឡើយ។ | Je ne délivre aucune certification ni agrément fiscal. |
-| ⏳ à relire | `services.items.6.sections.8.list.3` | យើងសាកល្បងលើឯកសារពិតរបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | On teste sur vos vrais documents avant de décider. |
+| ⏳ à relire | `services.items.6.sections.3.title` | របៀបធ្វើការរបស់ខ្ញុំ | Ma façon de faire |
+| ⏳ à relire | `services.items.6.sections.3.list.0` | ខ្ញុំអភិវឌ្ឍសម្រាប់ Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo។ | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
+| ⏳ à relire | `services.items.6.sections.3.list.1` | ជាដំបូង ពិនិត្យមើលថា តើ Odoo ឬមុខងារបន្ថែមដែលមានស្រាប់ អាចធ្វើបានហើយឬនៅ។ មុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA (Odoo Community Association) ឆ្លើយតបនឹងតម្រូវការជាច្រើន។ វាចំណាយតិចជាងសម្រាប់លោកអ្នក។ | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
+| ⏳ à relire | `services.items.6.sections.3.list.2` | មុខងារបន្ថែមដាច់ដោយឡែក ដែលមិនកែប្រែកូដរបស់ Odoo៖ ការធ្វើបច្ចុប្បន្នភាពនៅតែអាចធ្វើបាន។ | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
+| ⏳ à relire | `services.items.6.sections.3.list.3` | ការសាកល្បងលើច្បាប់ចម្លងនៃមូលដ្ឋានទិន្នន័យរបស់លោកអ្នក ជាមួយទិន្នន័យពិត មុនពេលដាក់ឱ្យប្រើប្រាស់។ | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
+| ⏳ à relire | `services.items.6.sections.3.list.4` | មុខងារបន្ថែមដែលមានឯកសារពន្យល់៖ វាធ្វើអ្វីខ្លះ និងរបៀបកំណត់វា។ | Un module documenté : ce qu'il fait, et comment le régler. |
+| ⏳ à relire | `services.items.6.sections.4.title` | កន្លែងដែល Odoo របស់លោកអ្នកដំណើរការ | Où tourne votre Odoo |
+| ⏳ à relire | `services.items.6.sections.4.text` | មុខងារបន្ថែមតាមតម្រូវការ ត្រូវការ Odoo ដែលដំឡើងលើម៉ាស៊ីនមេ (server)៖ នៅកន្លែងលោកអ្នក នៅកន្លែងយើង ឬនៅលើក្លោដ (cloud)។ Odoo Online ដែលជាកំណែបង្ហោះដោយក្រុមហ៊ុន Odoo ផ្ទាល់ មិនទទួលយកមុខងារបន្ថែមទាំងនេះទេ។ | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
+| ⏳ à relire | `services.items.6.sections.4.link.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.6.sections.4.link.label` | ការដំឡើង និងការថែទាំ Odoo | Installer et entretenir Odoo |
+| ⏳ à relire | `services.items.6.sections.5.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.6.sections.5.list.0` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ។ រាល់ពេលដំឡើងកំណែ (upgrade) មុខងារបន្ថែមតាមតម្រូវការត្រូវតែកែសម្រួល៖ ត្រូវគ្រោងទុកជាមុន។ | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
+| ⏳ à relire | `services.items.6.sections.5.list.1` | មុខងារបន្ថែមតូចមួយដែលមានគោលដៅច្បាស់ ល្អជាងមុខងារបន្ថែមធំ៖ មានអ្វីតិចជាងដែលត្រូវកែសម្រួល នៅរាល់កំណែថ្មី។ | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
+| ⏳ à relire | `services.items.6.sections.5.list.2` | Odoo ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា។ ខ្ញុំមិនមែនជាដៃគូផ្លូវការរបស់ក្រុមហ៊ុន Odoo ទេ។ | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
+| ⏳ à relire | `services.items.6.sections.5.list.3` | សម្រាប់គម្រោងរបស់លោកអ្នក ខ្ញុំប្រាប់លោកអ្នកយ៉ាងច្បាស់ ពីអ្វីដែលខ្ញុំបានធ្វើរួចហើយនៅកន្លែងផ្សេង និងអ្វីដែលនឹងជារឿងថ្មី។ | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
 | ⏳ à relire | `services.items.6.trademarks` | Odoo គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់របស់វា។ ការលើកឡើងឈ្មោះនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.7.id` | odoo | odoo |
-| ⏳ à relire | `services.items.7.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.7.title` | Odoo៖ ការគ្រប់គ្រងអាជីវកម្មរបស់លោកអ្នក | Odoo : la gestion de votre entreprise |
-| ⏳ à relire | `services.items.7.summary` | ការលក់ វិក្កយបត្រ ការទិញ ស្តុក បញ្ជរគិតលុយ គម្រោង៖ Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo ដំឡើង និងកែសម្រួលសម្រាប់ទីផ្សារកម្ពុជា។ | Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien. |
-| ⏳ à relire | `services.items.7.lead` | Odoo ប្រមូលកម្មវិធីគ្រប់គ្រងរបស់អាជីវកម្មមួយ មកដាក់ក្នុងកម្មវិធីតែមួយ។ ខ្ញុំចាប់ផ្ដើមពី Odoo 19 Community ដែលជាកំណែកូដបើកចំហ និងឥតគិតថ្លៃ ហើយកែសម្រួលវាឱ្យត្រូវនឹងអាជីវកម្មរបស់លោកអ្នក និងនឹងកម្ពុជា៖ ភាសាខ្មែរ ប្រាក់ដុល្លារ និងប្រាក់រៀល និងឯកសាររបស់លោកអ្នក។ | Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents. |
-| ⏳ à relire | `services.items.7.metaTitle` | Odoo 19 Community នៅកម្ពុជា ជាភាសាខ្មែរ — Chantrea Systems | Odoo 19 Community au Cambodge, en khmer — Chantrea Systems |
-| ⏳ à relire | `services.items.7.metaDescription` | Odoo 19 Community កម្មវិធីគ្រប់គ្រងកូដបើកចំហ និងឥតគិតថ្លៃ៖ ការលក់ វិក្កយបត្រ ការទិញ ស្តុក ប្រព័ន្ធលក់ (point of sale) CRM។ កែសម្រួលសម្រាប់កម្ពុជា៖ ភាសាខ្មែរ ប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
-| ⏳ à relire | `services.items.7.sections.0.title` | អ្វីដែល Odoo ធ្វើ | Ce que fait Odoo |
-| ⏳ à relire | `services.items.7.sections.0.text` | Odoo គឺជាកម្មវិធីគ្រប់គ្រងអាជីវកម្ម (ERP)។ តម្រូវការនីមួយៗមានកម្មវិធីរង (app) របស់វា ហើយកម្មវិធីរងទាំងអស់ប្រើទិន្នន័យដូចគ្នា៖ សម្រង់តម្លៃដែលអតិថិជនយល់ព្រម ក្លាយជាការបញ្ជាទិញ ការបញ្ជាទិញនោះដកទំនិញចេញពីស្តុក បន្ទាប់មកក្លាយជាវិក្កយបត្រ។ លោកអ្នកចាប់ផ្ដើមជាមួយកម្មវិធីរងមួយ ឬពីរ ហើយបន្ថែមកម្មវិធីរងផ្សេងទៀតនៅពេលក្រោយ។ | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
-| ⏳ à relire | `services.items.7.sections.0.flow.0` | សម្រង់តម្លៃ | Devis |
-| ⏳ à relire | `services.items.7.sections.0.flow.1` | ការបញ្ជាទិញ | Commande |
-| ⏳ à relire | `services.items.7.sections.0.flow.2` | ស្តុក | Stock |
-| ⏳ à relire | `services.items.7.sections.0.flow.3` | វិក្កយបត្រ | Facture |
-| ⏳ à relire | `services.items.7.sections.0.list.0` | អតិថិជន និងអតិថិជនសក្ដានុពល (CRM)៖ ទំនាក់ទំនង និងឱកាសលក់នីមួយៗ ត្រូវបានតាមដាន។ | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
-| ⏳ à relire | `services.items.7.sections.0.list.1` | ការលក់៖ សម្រង់តម្លៃ ការបញ្ជាទិញ វិក្កយបត្រ។ | Ventes : devis, commandes, factures. |
-| ⏳ à relire | `services.items.7.sections.0.list.2` | ការទិញ៖ សំណើសុំតម្លៃ និងការបញ្ជាទិញទៅអ្នកផ្គត់ផ្គង់។ | Achats : demandes de prix et commandes aux fournisseurs. |
-| ⏳ à relire | `services.items.7.sections.0.list.3` | ស្តុក៖ ទំនិញចូល ទំនិញចេញ ការរាប់ស្តុក ឃ្លាំងច្រើន។ | Stock : entrées, sorties, inventaires, plusieurs entrepôts. |
-| ⏳ à relire | `services.items.7.sections.0.list.4` | ប្រព័ន្ធលក់ (point of sale)៖ បញ្ជរគិតលុយសម្រាប់ហាង ឬភោជនីយដ្ឋាន។ | Point de vente : une caisse pour une boutique ou un restaurant. |
-| ⏳ à relire | `services.items.7.sections.0.list.5` | គម្រោង និងតារាងម៉ោងធ្វើការ (timesheet)។ | Projets et feuilles de temps. |
-| ⏳ à relire | `services.items.7.sections.0.list.6` | គេហទំព័រ និងហាងអនឡាញ។ | Site web et boutique en ligne. |
-| ⏳ à relire | `services.items.7.sections.0.list.7` | បុគ្គលិក ការឈប់សម្រាក និងរបាយការណ៍ចំណាយ។ | Employés, congés et notes de frais. |
-| ⏳ à relire | `services.items.7.sections.1.title` | ហេតុអ្វី Odoo 19 Community | Pourquoi Odoo 19 Community |
-| ⏳ à relire | `services.items.7.sections.1.list.0` | វាជាកំណែកូដបើកចំហ (open source) របស់ Odoo (អាជ្ញាប័ណ្ណ LGPL v3)៖ មិនមានការជាវប្រចាំតាមអ្នកប្រើប្រាស់ ដែលត្រូវបង់ឱ្យក្រុមហ៊ុនបង្កើតកម្មវិធីទេ។ | C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.1.list.1` | កូដរបស់វាបើកចំហ៖ យើងកែសម្រួលវាដោយមុខងារបន្ថែម (module) តាមតម្រូវការ ដែលដំឡើងលើម៉ាស៊ីនមេរបស់លោកអ្នក។ | Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur. |
-| ⏳ à relire | `services.items.7.sections.1.list.2` | ទិន្នន័យរបស់លោកអ្នកស្ថិតនៅក្នុងមូលដ្ឋានទិន្នន័យ ដែលលោកអ្នកគ្រប់គ្រង។ | Vos données sont dans une base que vous contrôlez. |
-| ⏳ à relire | `services.items.7.sections.1.list.3` | Odoo កំណែ 20 បានចេញហើយ ប៉ុន្តែមុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA ដែលបំពេញបន្ថែមលើកំណែឥតគិតថ្លៃ ភាគច្រើនមានសម្រាប់កំណែ 19៖ គិតត្រឹមខែវិច្ឆិកា ឆ្នាំ 2026 មានតិចតួចណាស់ដែលត្រូវបានកែសម្រួលសម្រាប់កំណែ 20។ នៅពេលវារួចរាល់ ខ្ញុំនឹងប្រាប់លោកអ្នកថា តើគួរប្ដូរកំណែឬអត់។ | La version 20 d'Odoo est déjà sortie, mais les modules libres de la communauté OCA, qui complètent la version gratuite, sont surtout disponibles pour la 19 : en novembre 2026, très peu ont été adaptés à la 20. Quand ils le seront, je vous dis s'il vaut la peine de changer. |
-| ⏳ à relire | `services.items.7.sections.2.title` | អ្វីដែលកំណែឥតគិតថ្លៃមិនមាន | Ce que la version gratuite n'a pas |
-| ⏳ à relire | `services.items.7.sections.2.text` | កម្មវិធីរងមួយចំនួនមានតែនៅក្នុងកំណែបង់ប្រាក់ គឺ Odoo Enterprise។ ឧទាហរណ៍ គណនេយ្យពេញលេញ៖ Community មានការចេញវិក្កយបត្រ (វិក្កយបត្រ និងការទូទាត់) ហើយមុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA (Odoo Community Association) បន្ថែមមុខងារគណនេយ្យ អាស្រ័យលើថាតើវាមានសម្រាប់កំណែ 19 ហើយឬនៅ។ Odoo Studio ដែលជាឧបករណ៍សម្រាប់កែប្រែ Odoo ដោយមិនចាំបាច់សរសេរកូដ ក៏មានតែនៅក្នុង Enterprise ដែរ៖ ជាមួយ Community ការកែប្រែទាំងនោះធ្វើឡើងដោយមុខងារបន្ថែម (module) តាមតម្រូវការ។ ប្រសិនបើថ្ងៃណាមួយលោកអ្នកត្រូវការ Enterprise យើងអាចប្ដូរកំណែបាន។ | Certaines applications sont réservées à la version payante, Odoo Enterprise. Par exemple la comptabilité complète : Community a la facturation (factures et paiements), et des modules libres de la communauté OCA (Odoo Community Association) ajoutent des fonctions comptables, selon leur disponibilité pour la version 19. Odoo Studio, l'outil pour modifier Odoo sans programmer, est aussi réservé à Enterprise : avec Community, ces changements se font par des modules sur mesure. Si un jour vous avez besoin d'Enterprise, on peut changer de version. |
-| ⏳ à relire | `services.items.7.sections.3.title` | កែសម្រួលសម្រាប់ទីផ្សារកម្ពុជា | Adapté au marché cambodgien |
-| ⏳ à relire | `services.items.7.sections.3.text` | Odoo មានភាសាខ្មែរនៅក្នុងបញ្ជីភាសារបស់វា ប៉ុន្តែការបកប្រែរបស់ក្រុមហ៊ុនបង្កើតកម្មវិធី ស្ទើរតែទទេ៖ ក្នុង Odoo 19 មិនដល់ 1 អត្ថបទក្នុងចំណោម 10 អត្ថបទផង ដែលត្រូវបានបកប្រែជាភាសាខ្មែរ នៅក្នុងកម្មវិធីរង ការលក់ (Sales) គណនេយ្យ (Accounting) ស្តុក (Inventory) និងប្រព័ន្ធលក់ (Point of Sale)។ ខ្ញុំបំពេញការបកប្រែអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកប្រើ ហើយកែសម្រួលឯកសារ ប្រាក់ដុល្លារ និងប្រាក់រៀល និងច្បាប់ក្នុងស្រុក។ | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
-| ⏳ à relire | `services.items.7.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
-| ⏳ à relire | `services.items.7.sections.3.link.label` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.7.sections.4.title` | ការកែសម្រួល Odoo របស់យើង | Nos modifications d'Odoo |
-| ⏳ à relire | `services.items.7.sections.4.text` | សម្រាប់ Chantrea Systems យើងបានបង្កើត Odoo 19 Community ផ្ទាល់ខ្លួន ដែលសម្របទៅនឹងប្រទេសកម្ពុជា។ អ្វីៗទាំងអស់ធ្វើឡើងក្នុងម៉ូឌុល (module) ដាច់ដោយឡែក៖ កូដរបស់ Odoo និងម៉ូឌុល OCA មិនត្រូវបានកែប្រែឡើយ ហើយការសាកល្បងដោយស្វ័យប្រវត្តិ ពិនិត្យរាល់ការផ្លាស់ប្តូរ។ | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.title` | សម្រង់តម្លៃ និងវិក្កយបត្រតាមបែបកម្ពុជា | Devis et factures cambodgiens |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.0` | បោះពុម្ពជាភាសាខ្មែរ ហើយមានភាសាអង់គ្លេសនៅខាងក្រោម។ | Imprimés en khmer, avec l'anglais juste en dessous. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.1` | ចំនួនសរុបជាប្រាក់ដុល្លារ និងជាប្រាក់រៀល។ | Total en dollars et en riels. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.2` | អត្រាប្តូរប្រាក់ផ្លូវការ USD/KHR ទាញយករាល់ថ្ងៃពីអគ្គនាយកដ្ឋានពន្ធដារ ឬធនាគារជាតិនៃកម្ពុជា ហើយកំណត់ជាប់លើវិក្កយបត្រ នៅពេលវិក្កយបត្រត្រូវបានបញ្ជាក់។ | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.3` | វិក្កយបត្រអាករ ឬវិក្កយបត្រពាណិជ្ជកម្ម ដោយប្រើលេខរៀងតែមួយ។ | Facture de TVA ou facture commerciale, avec une seule numérotation. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.title` | ទំព័រអតិថិជនជាបីភាសា | Un espace client en trois langues |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.0` | ជាភាសាខ្មែរ អង់គ្លេស ឬបារាំង តាមភាសារបស់អតិថិជន។ | En khmer, en anglais ou en français, dans la langue du client. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.1` | សំណើជំនួយ សម្រង់តម្លៃ វិក្កយបត្រ កិច្ចសន្យា និងឧបករណ៍។ | Demandes d'assistance, devis, factures, contrats et matériel. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.2` | អតិថិជនម្នាក់ៗ ឃើញតែទិន្នន័យរបស់ក្រុមហ៊ុនខ្លួនប៉ុណ្ណោះ។ | Chaque client ne voit que les données de sa société. |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.title` | Odoo ជាភាសាខ្មែរសម្រាប់អតិថិជន | Odoo en khmer pour les clients |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.list.0` | ប្រហែល 700 អត្ថបទ៖ ឯកសារ ទំព័រអតិថិជន និងអ៊ីមែល។ | Environ 700 textes : documents, pages de l'espace client, courriels. |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.list.1` | អត្ថបទរបស់ Odoo និង OCA ដែលអតិថិជនឃើញ ដែលកំណែដើមបកប្រែតិចតួច ឬមិនបានបកប្រែសោះ។ | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.title` | ការងារនៅទីតាំង និងឧបករណ៍ | Interventions et parc matériel |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.0` | អតិថិជនចុះហត្ថលេខាលើការងារនៅនឹងកន្លែង តាមថេប្លេត ឬទូរស័ព្ទ។ | Le client signe l'intervention sur place, sur tablette ou téléphone. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.1` | របាយការណ៍ការងារជា PDF ជាភាសាខ្មែរ និងអង់គ្លេស។ | Rapport d'intervention en PDF, en khmer et en anglais. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.2` | កំណត់ត្រាសម្រាប់ឧបករណ៍នីមួយៗ ជាមួយការជូនដំណឹងមុនពេលការធានាផុតកំណត់។ | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
-| ⏳ à relire | `services.items.7.sections.5.title` | ឆ្ពោះទៅរកការបកប្រែភាសាខ្មែរដែលមានការទទួលស្គាល់ | Vers une traduction khmère certifiée |
-| ⏳ à relire | `services.items.7.sections.5.text` | អត្ថបទភាសាខ្មែររបស់យើង ត្រូវបានបកប្រែដោយមានជំនួយពី AI ហើយមិនទាន់ត្រូវបានពិនិត្យនៅឡើយទេ។ យើងកំពុងស្វែងរកការទទួលស្គាល់ (certification) ការបកប្រែទាំងអស់នេះ ពីអាជ្ញាធរកម្ពុជា។ បច្ចុប្បន្ន ការបកប្រែទាំងនេះមិនទាន់ទទួលបានការទទួលស្គាល់នៅឡើយទេ។ | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
-| ⏳ à relire | `services.items.7.sections.6.title` | កន្លែងដែលវាដំណើរការ | Où il tourne |
-| ⏳ à relire | `services.items.7.sections.6.list.0` | លើម៉ាស៊ីនមេ (server) នៅក្នុងទីតាំងរបស់លោកអ្នក៖ ក្រុមការងារដែលនៅនឹងកន្លែង នៅតែអាចធ្វើការបាន ពេលដាច់អ៊ីនធឺណិត។ | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.7.sections.6.list.1` | លើម៉ាស៊ីនមេដែល Chantrea Systems ជួល និងថែទាំ ឬនៅក្រុមហ៊ុនបង្ហោះ (hosting) ធំមួយ ក្នុងគណនីដែលជាឈ្មោះរបស់លោកអ្នក។ | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo Online ដែលជាសេវាបង្ហោះរបស់ក្រុមហ៊ុន Odoo ផ្ទាល់ មិនសមស្របនៅទីនេះទេ៖ វាដំណើរការជាមួយកំណែ Enterprise ហើយមិនទទួលយកមុខងារបន្ថែមតាមតម្រូវការទេ។ | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
-| ⏳ à relire | `services.items.7.sections.7.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.7.sections.7.list.0` | ជ្រើសរើសជាមួយលោកអ្នក នូវកម្មវិធីរងដែលមានប្រយោជន៍ និងកម្មវិធីរងដែលអាចរង់ចាំបាន។ | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
-| ⏳ à relire | `services.items.7.sections.7.list.1` | ដំឡើង Odoo 19 Community និងកំណត់រចនាសម្ព័ន្ធវា៖ ក្រុមហ៊ុន ផលិតផល ពន្ធ និងឯកសាររបស់លោកអ្នក។ | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
-| ⏳ à relire | `services.items.7.sections.7.list.2` | នាំចូលទិន្នន័យរបស់លោកអ្នក ពីឯកសារ Excel ឬពីកម្មវិធីចាស់របស់លោកអ្នក។ | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
-| ⏳ à relire | `services.items.7.sections.7.list.3` | បំពេញការបកប្រែជាភាសាខ្មែរ នៃអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកប្រើ។ | Compléter la traduction khmère des écrans que votre équipe utilise. |
-| ⏳ à relire | `services.items.7.sections.7.list.4` | អភិវឌ្ឍមុខងារបន្ថែម (module) នៅពេលខ្វះអ្វីមួយ។ | Développer des modules quand il manque quelque chose. |
-| ⏳ à relire | `services.items.7.sections.7.list.5` | បង្ហាញក្រុមការងាររបស់លោកអ្នកពីរបៀបប្រើវា បន្ទាប់មកជួយពួកគេជារៀងរាល់ថ្ងៃ។ | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
-| ⏳ à relire | `services.items.7.sections.7.list.6` | ថែទាំ៖ ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព និងការប្ដូរទៅកំណែថ្មី។ | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.7.sections.7.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.7.sections.7.link.label` | ការអភិវឌ្ឍមុខងារបន្ថែម Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.7.id` | odoo-cambodia | odoo-cambodia |
+| ⏳ à relire | `services.items.7.parent` | odoo-development | odoo-development |
+| ⏳ à relire | `services.items.7.title` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `services.items.7.summary` | ផ្នែកមួយដែលឧទ្ទិសសម្រាប់អាជីវកម្មនៅកម្ពុជា៖ Odoo ជាភាសាខ្មែរ ឯកសារជាភាសាខ្មែរ ឬពីរភាសា ប្រាក់ដុល្លារ និងប្រាក់រៀល និងច្បាប់ក្នុងស្រុក។ | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
+| ⏳ à relire | `services.items.7.lead` | ខ្ញុំចាប់ផ្ដើមពី Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo ហើយកែសម្រួលវាសម្រាប់កម្ពុជា៖ ភាសារបស់ក្រុមការងាររបស់លោកអ្នក រូបិយប័ណ្ណទាំងពីរ និងឯកសារដែលអតិថិជនរបស់លោកអ្នករំពឹងចង់បាន។ | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
+| ⏳ à relire | `services.items.7.badges.0` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.7.badges.1` | English | English |
+| ⏳ à relire | `services.items.7.badges.2` | USD $ | USD $ |
+| ⏳ à relire | `services.items.7.badges.3` | KHR ៛ | KHR ៛ |
+| ⏳ à relire | `services.items.7.metaTitle` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា ប្រាក់ដុល្លារ និងប្រាក់រៀល — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
+| ⏳ à relire | `services.items.7.metaDescription` | Odoo សម្រាប់អាជីវកម្មកម្ពុជា៖ អេក្រង់ជាភាសាខ្មែរ វិក្កយបត្រជាភាសាខ្មែរ ឬពីរភាសា ប្រាក់ដុល្លារ និងប្រាក់រៀល ច្បាប់ពន្ធដារដែលបានផ្ទៀងផ្ទាត់ជាមួយគណនេយ្យកររបស់លោកអ្នក។ | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
+| ⏳ à relire | `services.items.7.sections.0.title` | Odoo ជាភាសារបស់ក្រុមការងាររបស់លោកអ្នក | Odoo dans la langue de votre équipe |
+| ⏳ à relire | `services.items.7.sections.0.text` | Odoo មានភាសាខ្មែរនៅក្នុងបញ្ជីភាសារបស់វា ប៉ុន្តែការបកប្រែរបស់ក្រុមហ៊ុនបង្កើតកម្មវិធី ស្ទើរតែទទេ៖ ក្នុង Odoo 19 មិនដល់ 1 អត្ថបទក្នុងចំណោម 10 អត្ថបទផង ដែលត្រូវបានបកប្រែជាភាសាខ្មែរ នៅក្នុងកម្មវិធីរង ការលក់ (Sales) គណនេយ្យ (Accounting) ស្តុក (Inventory) និងប្រព័ន្ធលក់ (Point of Sale)។ ខ្ញុំបំពេញការបកប្រែអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកពិតជាប្រើ ហើយមុខងារបន្ថែមតាមតម្រូវការរបស់លោកអ្នកក៏ត្រូវបានបកប្រែដែរ។ អ្នកប្រើប្រាស់នីមួយៗជ្រើសរើសភាសារបស់ខ្លួន៖ ខ្មែរ អង់គ្លេស ឬភាសាផ្សេងទៀត។ | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre. |
+| ⏳ à relire | `services.items.7.sections.1.title` | ឯកសារជាភាសាខ្មែរ | Des documents en khmer |
+| ⏳ à relire | `services.items.7.sections.1.list.0` | សម្រង់តម្លៃ វិក្កយបត្រ បង្កាន់ដៃ និងប័ណ្ណដឹកជញ្ជូនទំនិញ ជាភាសាខ្មែរ ឬពីរភាសា ខ្មែរ-អង់គ្លេស។ | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
+| ⏳ à relire | `services.items.7.sections.1.list.1` | ពុម្ពអក្សរខ្មែរ ដែលបង្ហាញ និងបោះពុម្ពបានត្រឹមត្រូវ រួមទាំងក្នុងឯកសារ PDF។ | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
+| ⏳ à relire | `services.items.7.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.7.sections.3.title` | ប្រាក់ដុល្លារ និងប្រាក់រៀល | Dollar et riel |
+| ⏳ à relire | `services.items.7.sections.3.text` | នៅកម្ពុជា ជារឿយៗគេលក់ជាប្រាក់ដុល្លារ ហើយក៏ទទួលប្រាក់រៀលផងដែរ។ Odoo គ្រប់គ្រងរូបិយប័ណ្ណច្រើនបាន ខ្ញុំកែសម្រួលវាឱ្យត្រូវនឹងរបៀបធ្វើការរបស់លោកអ្នក៖ តម្លៃជាប្រាក់ដុល្លារ សរុបជាប្រាក់រៀលនៅលើវិក្កយបត្រ និងអត្រាប្ដូរប្រាក់ដែលលោកអ្នកជ្រើសរើស។ | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
+| ⏳ à relire | `services.items.7.sections.4.title` | ច្បាប់ក្នុងស្រុក | Les règles locales |
+| ⏳ à relire | `services.items.7.sections.4.text` | អាករលើតម្លៃបន្ថែម (VAT) លេខរៀងវិក្កយបត្រ ព័ត៌មានដែលត្រូវតែមាន និងរបាយការណ៍សម្រាប់គណនេយ្យកររបស់លោកអ្នក៖ ខ្ញុំដាក់ចូលក្នុង Odoo នូវច្បាប់ដែលគណនេយ្យកររបស់លោកអ្នកបានផ្ទៀងផ្ទាត់។ ខ្ញុំអភិវឌ្ឍកម្មវិធី ចំណែកគណនេយ្យកររបស់លោកអ្នក ជាអ្នកប្រាប់ថាច្បាប់តម្រូវឱ្យមានអ្វីខ្លះ។ | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
+| ⏳ à relire | `services.items.7.sections.5.title` | បានធ្វើរួចហើយ៖ Odoo ផ្ទាល់ខ្លួនរបស់យើង | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.7.sections.5.text` | សម្រាប់ Chantrea Systems យើងបានអភិវឌ្ឍម៉ូឌុល Odoo 19 Community ផ្ទាល់ខ្លួន៖ សម្រង់តម្លៃ និងវិក្កយបត្រជាភាសាខ្មែរ និងអង់គ្លេស ដែលមានចំនួនសរុបជាប្រាក់ដុល្លារ និងប្រាក់រៀល ទំព័រអតិថិជនជាបីភាសា អត្ថបទប្រហែល 700 ដែលបានបកប្រែជាភាសាខ្មែរ និងការងារនៅទីតាំង ដែលអតិថិជនចុះហត្ថលេខានៅនឹងកន្លែង។ | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.7.sections.5.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.7.sections.5.link.label` | មើលការកែសម្រួល Odoo របស់យើង | Voir nos modifications d'Odoo |
+| ⏳ à relire | `services.items.7.sections.6.title` | ឆ្ពោះទៅរកការបកប្រែភាសាខ្មែរដែលមានការទទួលស្គាល់ | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.7.sections.6.text` | អត្ថបទភាសាខ្មែររបស់យើង ត្រូវបានបកប្រែដោយមានជំនួយពី AI ហើយមិនទាន់ត្រូវបានពិនិត្យនៅឡើយទេ។ យើងកំពុងស្វែងរកការទទួលស្គាល់ (certification) ការបកប្រែទាំងអស់នេះ ពីអាជ្ញាធរកម្ពុជា។ បច្ចុប្បន្ន ការបកប្រែទាំងនេះមិនទាន់ទទួលបានការទទួលស្គាល់នៅឡើយទេ។ | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.7.sections.7.title` | កំពុងអភិវឌ្ឍ | En cours de développement |
+| ⏳ à relire | `services.items.7.sections.7.text` | មុខងារទាំងនេះកំពុងរៀបចំ ហើយមិនទាន់អាចប្រើបាននៅឡើយទេ៖ | Ces fonctions sont en préparation, et pas encore disponibles : |
+| ⏳ à relire | `services.items.7.sections.7.list.0` | កាលបរិច្ឆេទ និងលេខជាភាសាខ្មែរ នៅលើឯកសារ។ | Les dates et les chiffres en khmer sur les documents. |
+| ⏳ à relire | `services.items.7.sections.7.list.1` | បញ្ជរគិតលុយ (ប្រព័ន្ធលក់ Odoo) ដែលទទួលប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
+| ⏳ à relire | `services.items.7.sections.7.list.2` | ការទូទាត់ប្រាក់តាម KHQR។ | Le paiement par QR code KHQR. |
 | ⏳ à relire | `services.items.7.sections.8.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.7.sections.8.list.0` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ៖ ត្រូវគ្រោងធ្វើការដំឡើងកំណែ (upgrade) រៀងរាល់ពីរ ឬបីឆ្នាំម្ដង ហើយកែសម្រួលមុខងារបន្ថែមតាមតម្រូវការនៅពេលនោះ។ | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
-| ⏳ à relire | `services.items.7.sections.8.list.1` | ជាមួយកំណែ Community ជំនួយបច្ចេកទេសមកពីអ្នកផ្ដល់សេវារបស់លោកអ្នក៖ ជំនួយពីក្រុមហ៊ុនបង្កើតកម្មវិធី គឺជាផ្នែកមួយនៃការជាវ Enterprise។ | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
-| ⏳ à relire | `services.items.7.sections.8.list.2` | Odoo ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា គឺ Odoo SA។ ខ្ញុំមិនមែនជាដៃគូផ្លូវការរបស់ក្រុមហ៊ុននេះទេ។ | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.8.list.3` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.7.sections.8.list.4` | កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.7.sections.8.list.0` | ការបកប្រែជាភាសាខ្មែរ ត្រូវបានរៀបចំដោយ AI បន្ទាប់មកត្រូវបានពិនិត្យដោយបុគ្គលិកក្នុងក្រុមការងាររបស់លោកអ្នក ដែលចេះភាសាខ្មែរ មុនពេលដាក់ឱ្យប្រើប្រាស់។ | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
+| ⏳ à relire | `services.items.7.sections.8.list.1` | ការភ្ជាប់ជាមួយសេវាអនឡាញរបស់រដ្ឋបាល ឬរបស់ធនាគារ ត្រូវសិក្សាតាមករណីនីមួយៗ។ | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
+| ⏳ à relire | `services.items.7.sections.8.list.2` | ខ្ញុំមិនផ្ដល់វិញ្ញាបនបត្រ ឬការអនុញ្ញាតផ្នែកពន្ធដារណាមួយឡើយ។ | Je ne délivre aucune certification ni agrément fiscal. |
+| ⏳ à relire | `services.items.7.sections.8.list.3` | យើងសាកល្បងលើឯកសារពិតរបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | On teste sur vos vrais documents avant de décider. |
 | ⏳ à relire | `services.items.7.trademarks` | Odoo គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់របស់វា។ ការលើកឡើងឈ្មោះនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.8.id` | mattermost | mattermost |
+| ⏳ à relire | `services.items.8.id` | odoo | odoo |
 | ⏳ à relire | `services.items.8.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.8.title` | Mattermost៖ ការផ្ញើសាររបស់ក្រុមការងាររបស់លោកអ្នក | Mattermost : la messagerie de votre équipe |
-| ⏳ à relire | `services.items.8.summary` | កម្មវិធីផ្ញើសាររបស់ក្រុមការងារ ដែលដំឡើងលើម៉ាស៊ីនមេ (server) របស់លោកអ្នក៖ ឆានែល (channel) សារផ្ទាល់ខ្លួន ខ្សែសន្ទនា (thread) ឯកសារ និងការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក។ | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
-| ⏳ à relire | `services.items.8.lead` | Mattermost រៀបចំការសន្ទនារបស់ក្រុមការងារតាមឆានែល (channel) ដូចកម្មវិធីផ្ញើសារធំៗសម្រាប់ក្រុមហ៊ុនដែរ ប៉ុន្តែនៅលើម៉ាស៊ីនមេដែលលោកអ្នកជ្រើសរើស។ ការសន្ទនាការងារលែងឆ្លងកាត់កម្មវិធីផ្ញើសារសម្រាប់ប្រើផ្ទាល់ខ្លួនទៀតហើយ។ | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
-| ⏳ à relire | `services.items.8.badges.0` | Windows | Windows |
-| ⏳ à relire | `services.items.8.badges.1` | macOS | macOS |
-| ⏳ à relire | `services.items.8.badges.2` | Linux | Linux |
-| ⏳ à relire | `services.items.8.badges.3` | Android | Android |
-| ⏳ à relire | `services.items.8.badges.4` | iPhone | iPhone |
-| ⏳ à relire | `services.items.8.metaTitle` | Mattermost នៅកម្ពុជា៖ ការផ្ញើសាររបស់ក្រុមការងារ — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
-| ⏳ à relire | `services.items.8.metaDescription` | Mattermost កម្មវិធីផ្ញើសាររបស់ក្រុមការងារ ដែលដំឡើងលើម៉ាស៊ីនមេរបស់លោកអ្នក៖ ឆានែល (channel) សារផ្ទាល់ខ្លួន ឯកសារចែករំលែក កម្មវិធីសម្រាប់កុំព្យូទ័រ និងទូរស័ព្ទ ការជូនដំណឹងពី Zabbix។ | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
-| ⏳ à relire | `services.items.8.sections.0.title` | អ្វីដែល Mattermost ធ្វើ | Ce que fait Mattermost |
-| ⏳ à relire | `services.items.8.sections.0.list.0` | ឆានែល (channel) តាមក្រុម តាមគម្រោង ឬតាមអតិថិជន ជាសាធារណៈ ឬឯកជន។ | Des canaux par équipe, par projet ou par client, publics ou privés. |
-| ⏳ à relire | `services.items.8.sections.0.list.1` | សារផ្ទាល់ខ្លួន និងការសន្ទនាជាក្រុម។ | Des messages directs et des discussions de groupe. |
-| ⏳ à relire | `services.items.8.sections.0.list.2` | ខ្សែសន្ទនា (thread) សម្រាប់ឆ្លើយតបសារមួយ ដោយមិនធ្វើឱ្យឆានែលរញ៉េរញ៉ៃ។ | Des fils de discussion, pour répondre à un message sans encombrer le canal. |
-| ⏳ à relire | `services.items.8.sections.0.list.3` | ឯកសារ និងរូបភាពដែលចែករំលែក និងការស្វែងរកក្នុងសារ។ | Des fichiers et des images partagés, et une recherche dans les messages. |
-| ⏳ à relire | `services.items.8.sections.0.list.4` | កម្មវិធីសម្រាប់ Windows, macOS, Linux, Android និង iPhone និងកំណែមួយក្នុងកម្មវិធីរុករក (browser)។ | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
-| ⏳ à relire | `services.items.8.sections.1.title` | ការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក | Les alertes de vos outils |
-| ⏳ à relire | `services.items.8.sections.1.text` | Mattermost ទទួលសារពីកម្មវិធីផ្សេងទៀត តាមរយៈ webhook។ ការជូនដំណឹងពីការតាមដានប្រព័ន្ធ (monitoring) Zabbix ឬសារពីកម្មវិធីផ្ទាល់របស់លោកអ្នក មកដល់ក្នុងឆានែលមួយ៖ ក្រុមការងារឃើញវា ហើយពិភាក្សាអំពីវានៅកន្លែងតែមួយ។ | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
-| ⏳ à relire | `services.items.8.sections.1.flow.0` | Zabbix រកឃើញបញ្ហា | Zabbix détecte un problème |
-| ⏳ à relire | `services.items.8.sections.1.flow.1` | Webhook | Webhook |
-| ⏳ à relire | `services.items.8.sections.1.flow.2` | ឆានែល «ការជូនដំណឹង» | Canal « alertes » |
-| ⏳ à relire | `services.items.8.sections.1.flow.3` | ក្រុមការងារពិភាក្សាគ្នា | L'équipe en discute |
-| ⏳ à relire | `services.items.8.sections.2.title` | គួរជ្រើសរើសកំណែមួយណា | Quelle version choisir |
-| ⏳ à relire | `services.items.8.sections.2.text` | Mattermost មានច្រើនកំណែ ហើយភាពខុសគ្នារវាងកំណែទាំងនោះមានសារៈសំខាន់។ ខ្ញុំពន្យល់វាដល់លោកអ្នក មុនពេលជ្រើសរើស៖ | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
-| ⏳ à relire | `services.items.8.sections.2.defs.0.term` | Team Edition | Team Edition |
-| ⏳ à relire | `services.items.8.sections.2.defs.0.text` | ឥតគិតថ្លៃ (អាជ្ញាប័ណ្ណ MIT)។ មុខងារសំខាន់ៗនៃការផ្ញើសារ ជាមួយប្រវត្តិសារទាំងអស់ ប៉ុន្តែមានមុខងារតិចជាងកំណែផ្សេងទៀត។ រៀបចំឡើងសម្រាប់ក្រុមការងារតូចៗ ដែលមិនត្រូវការការចូលប្រើតែម្ដងសម្រាប់កម្មវិធីទាំងអស់ (single sign-on, SSO)។ | Gratuite (licence MIT). L'essentiel de la messagerie, avec tout l'historique des messages, mais moins de fonctions que les autres versions. Prévue pour les petites équipes qui n'ont pas besoin de connexion unique (SSO). |
-| ⏳ à relire | `services.items.8.sections.2.defs.1.term` | Entry | Entry |
-| ⏳ à relire | `services.items.8.sections.2.defs.1.text` | ឥតគិតថ្លៃ ក្រោមអាជ្ញាប័ណ្ណពាណិជ្ជកម្ម សម្រាប់ក្រុមការងារដែលមានមនុស្សតិចជាង 50 នាក់។ វាមានមុខងាររបស់កំណែបង់ប្រាក់ ប៉ុន្តែមានតែសារ 10 000 ចុងក្រោយប៉ុណ្ណោះ គិតរួមគ្រប់ឆានែល ដែលនៅតែអាចមើលឃើញ និងស្វែងរកបាន។ ក្រុមហ៊ុនបង្កើតកម្មវិធីប្រកាសពីដែនកំណត់ផ្សេងទៀត ដូចជាការហៅដែលមានរយៈពេល 40 នាទី។ | Gratuite, sous licence commerciale, pour les équipes de moins de 50 personnes. Elle a les fonctions des versions payantes, mais seuls les 10 000 derniers messages, tous canaux confondus, restent visibles et cherchables. L'éditeur annonce d'autres limites, comme des appels de 40 minutes. |
-| ⏳ à relire | `services.items.8.sections.2.defs.2.term` | Professional, Enterprise | Professional, Enterprise |
-| ⏳ à relire | `services.items.8.sections.2.defs.2.text` | បង់ប្រាក់ តាមការជាវ។ Professional បន្ថែមជាពិសេស ការភ្ជាប់ទៅបញ្ជីអ្នកប្រើប្រាស់របស់ក្រុមហ៊ុន (AD/LDAP) ការចូលប្រើតែម្ដងសម្រាប់កម្មវិធីទាំងអស់ (SSO) គណនីភ្ញៀវ ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណច្រើនជំហាន ការហៅជាក្រុម និងការចែករំលែកអេក្រង់។ Enterprise បន្ថែមការរក្សាទុកសារជាបណ្ណសារ សម្រាប់ការអនុលោមតាមបទប្បញ្ញត្តិ (compliance) និងភាពអាចប្រើបានខ្ពស់ (high availability)។ | Payantes, par abonnement. Professional ajoute notamment la connexion à l'annuaire de l'entreprise (AD/LDAP), la connexion unique (SSO), les comptes invités, l'authentification à plusieurs facteurs, les appels de groupe et le partage d'écran. Enterprise ajoute l'archivage pour la conformité et la haute disponibilité. |
-| ⏳ à relire | `services.items.8.sections.3.title` | Mattermost ឬ Nextcloud Talk? | Mattermost ou Nextcloud Talk ? |
-| ⏳ à relire | `services.items.8.sections.3.text` | Nextcloud ក៏មានកម្មវិធីផ្ញើសាររបស់វាដែរ គឺ Talk។ ប្រសិនបើលោកអ្នកដំឡើង Nextcloud សម្រាប់ឯកសាររបស់លោកអ្នក ជារឿយៗ Talk គឺគ្រប់គ្រាន់ហើយ។ Mattermost ត្រូវបានរចនាឡើងជាចម្បងសម្រាប់ការពិភាក្សាជាក្រុម៖ ឆានែលជាច្រើន ខ្សែសន្ទនា (thread) និងការភ្ជាប់ជាមួយឧបករណ៍ផ្សេងទៀតរបស់លោកអ្នក។ | Nextcloud a aussi sa messagerie, Talk. Si vous installez Nextcloud pour vos fichiers, Talk suffit souvent. Mattermost est pensé d'abord pour la discussion d'équipe : de nombreux canaux, des fils de discussion, des liens avec vos autres outils. |
-| ⏳ à relire | `services.items.8.sections.3.link.page` | services/nextcloud | services/nextcloud |
-| ⏳ à relire | `services.items.8.sections.3.link.label` | ស្វែងយល់ពី Nextcloud | Découvrir Nextcloud |
-| ⏳ à relire | `services.items.8.sections.4.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.8.sections.4.list.0` | ជ្រើសរើសជាមួយលោកអ្នក នូវកំណែដែលសមស្រប។ | Choisir avec vous la version qui convient. |
-| ⏳ à relire | `services.items.8.sections.4.list.1` | ដំឡើង Mattermost លើម៉ាស៊ីនមេដែលបានជ្រើសរើស។ | Installer Mattermost sur le serveur choisi. |
-| ⏳ à relire | `services.items.8.sections.4.list.2` | បង្កើតក្រុម និងឆានែល ហើយអញ្ជើញអ្នកប្រើប្រាស់របស់លោកអ្នក។ | Créer les équipes et les canaux, et inviter vos utilisateurs. |
-| ⏳ à relire | `services.items.8.sections.4.list.3` | ភ្ជាប់ឧបករណ៍របស់លោកអ្នក ឧទាហរណ៍ការជូនដំណឹងពី Zabbix។ | Relier vos outils, par exemple les alertes Zabbix. |
-| ⏳ à relire | `services.items.8.sections.4.list.4` | ដំឡើងកម្មវិធីលើកុំព្យូទ័រ និងទូរស័ព្ទ។ | Installer les applications sur les ordinateurs et les téléphones. |
-| ⏳ à relire | `services.items.8.sections.4.list.5` | ថែទាំ៖ ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព និងការប្ដូរទៅកំណែថ្មី។ | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.8.sections.5.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.8.sections.5.list.0` | Mattermost មិនមានជាភាសាខ្មែរទេ៖ អេក្រង់របស់វាមានជាភាសាអង់គ្លេស បារាំង ចិន រុស្ស៊ី និងប្រហែលម្ភៃភាសា។ | Mattermost n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une vingtaine de langues. |
-| ⏳ à relire | `services.items.8.sections.5.list.1` | Mattermost ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា គឺ Mattermost, Inc.។ ខ្ញុំដំឡើង កំណត់រចនាសម្ព័ន្ធ និងថែទាំវា។ | Mattermost est développé par son éditeur, Mattermost, Inc. Je l'installe, je le configure et je l'entretiens. |
-| ⏳ à relire | `services.items.8.sections.5.list.2` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.8.trademarks` | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android និង iPhone គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android et iPhone sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.9.id` | nextcloud | nextcloud |
+| ⏳ à relire | `services.items.8.title` | Odoo៖ ការគ្រប់គ្រងអាជីវកម្មរបស់លោកអ្នក | Odoo : la gestion de votre entreprise |
+| ⏳ à relire | `services.items.8.summary` | ការលក់ វិក្កយបត្រ ការទិញ ស្តុក បញ្ជរគិតលុយ គម្រោង៖ Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo ដំឡើង និងកែសម្រួលសម្រាប់ទីផ្សារកម្ពុជា។ | Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien. |
+| ⏳ à relire | `services.items.8.lead` | Odoo ប្រមូលកម្មវិធីគ្រប់គ្រងរបស់អាជីវកម្មមួយ មកដាក់ក្នុងកម្មវិធីតែមួយ។ ខ្ញុំចាប់ផ្ដើមពី Odoo 19 Community ដែលជាកំណែកូដបើកចំហ និងឥតគិតថ្លៃ ហើយកែសម្រួលវាឱ្យត្រូវនឹងអាជីវកម្មរបស់លោកអ្នក និងនឹងកម្ពុជា៖ ភាសាខ្មែរ ប្រាក់ដុល្លារ និងប្រាក់រៀល និងឯកសាររបស់លោកអ្នក។ | Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents. |
+| ⏳ à relire | `services.items.8.metaTitle` | Odoo 19 Community នៅកម្ពុជា ជាភាសាខ្មែរ — Chantrea Systems | Odoo 19 Community au Cambodge, en khmer — Chantrea Systems |
+| ⏳ à relire | `services.items.8.metaDescription` | Odoo 19 Community កម្មវិធីគ្រប់គ្រងកូដបើកចំហ និងឥតគិតថ្លៃ៖ ការលក់ វិក្កយបត្រ ការទិញ ស្តុក ប្រព័ន្ធលក់ (point of sale) CRM។ កែសម្រួលសម្រាប់កម្ពុជា៖ ភាសាខ្មែរ ប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
+| ⏳ à relire | `services.items.8.sections.0.title` | អ្វីដែល Odoo ធ្វើ | Ce que fait Odoo |
+| ⏳ à relire | `services.items.8.sections.0.text` | Odoo គឺជាកម្មវិធីគ្រប់គ្រងអាជីវកម្ម (ERP)។ តម្រូវការនីមួយៗមានកម្មវិធីរង (app) របស់វា ហើយកម្មវិធីរងទាំងអស់ប្រើទិន្នន័យដូចគ្នា៖ សម្រង់តម្លៃដែលអតិថិជនយល់ព្រម ក្លាយជាការបញ្ជាទិញ ការបញ្ជាទិញនោះដកទំនិញចេញពីស្តុក បន្ទាប់មកក្លាយជាវិក្កយបត្រ។ លោកអ្នកចាប់ផ្ដើមជាមួយកម្មវិធីរងមួយ ឬពីរ ហើយបន្ថែមកម្មវិធីរងផ្សេងទៀតនៅពេលក្រោយ។ | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
+| ⏳ à relire | `services.items.8.sections.0.flow.0` | សម្រង់តម្លៃ | Devis |
+| ⏳ à relire | `services.items.8.sections.0.flow.1` | ការបញ្ជាទិញ | Commande |
+| ⏳ à relire | `services.items.8.sections.0.flow.2` | ស្តុក | Stock |
+| ⏳ à relire | `services.items.8.sections.0.flow.3` | វិក្កយបត្រ | Facture |
+| ⏳ à relire | `services.items.8.sections.0.list.0` | អតិថិជន និងអតិថិជនសក្ដានុពល (CRM)៖ ទំនាក់ទំនង និងឱកាសលក់នីមួយៗ ត្រូវបានតាមដាន។ | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
+| ⏳ à relire | `services.items.8.sections.0.list.1` | ការលក់៖ សម្រង់តម្លៃ ការបញ្ជាទិញ វិក្កយបត្រ។ | Ventes : devis, commandes, factures. |
+| ⏳ à relire | `services.items.8.sections.0.list.2` | ការទិញ៖ សំណើសុំតម្លៃ និងការបញ្ជាទិញទៅអ្នកផ្គត់ផ្គង់។ | Achats : demandes de prix et commandes aux fournisseurs. |
+| ⏳ à relire | `services.items.8.sections.0.list.3` | ស្តុក៖ ទំនិញចូល ទំនិញចេញ ការរាប់ស្តុក ឃ្លាំងច្រើន។ | Stock : entrées, sorties, inventaires, plusieurs entrepôts. |
+| ⏳ à relire | `services.items.8.sections.0.list.4` | ប្រព័ន្ធលក់ (point of sale)៖ បញ្ជរគិតលុយសម្រាប់ហាង ឬភោជនីយដ្ឋាន។ | Point de vente : une caisse pour une boutique ou un restaurant. |
+| ⏳ à relire | `services.items.8.sections.0.list.5` | គម្រោង និងតារាងម៉ោងធ្វើការ (timesheet)។ | Projets et feuilles de temps. |
+| ⏳ à relire | `services.items.8.sections.0.list.6` | គេហទំព័រ និងហាងអនឡាញ។ | Site web et boutique en ligne. |
+| ⏳ à relire | `services.items.8.sections.0.list.7` | បុគ្គលិក ការឈប់សម្រាក និងរបាយការណ៍ចំណាយ។ | Employés, congés et notes de frais. |
+| ⏳ à relire | `services.items.8.sections.1.title` | ហេតុអ្វី Odoo 19 Community | Pourquoi Odoo 19 Community |
+| ⏳ à relire | `services.items.8.sections.1.list.0` | វាជាកំណែកូដបើកចំហ (open source) របស់ Odoo (អាជ្ញាប័ណ្ណ LGPL v3)៖ មិនមានការជាវប្រចាំតាមអ្នកប្រើប្រាស់ ដែលត្រូវបង់ឱ្យក្រុមហ៊ុនបង្កើតកម្មវិធីទេ។ | C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur. |
+| ⏳ à relire | `services.items.8.sections.1.list.1` | កូដរបស់វាបើកចំហ៖ យើងកែសម្រួលវាដោយមុខងារបន្ថែម (module) តាមតម្រូវការ ដែលដំឡើងលើម៉ាស៊ីនមេរបស់លោកអ្នក។ | Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur. |
+| ⏳ à relire | `services.items.8.sections.1.list.2` | ទិន្នន័យរបស់លោកអ្នកស្ថិតនៅក្នុងមូលដ្ឋានទិន្នន័យ ដែលលោកអ្នកគ្រប់គ្រង។ | Vos données sont dans une base que vous contrôlez. |
+| ⏳ à relire | `services.items.8.sections.1.list.3` | Odoo កំណែ 20 បានចេញហើយ ប៉ុន្តែមុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA ដែលបំពេញបន្ថែមលើកំណែឥតគិតថ្លៃ ភាគច្រើនមានសម្រាប់កំណែ 19៖ គិតត្រឹមខែវិច្ឆិកា ឆ្នាំ 2026 មានតិចតួចណាស់ដែលត្រូវបានកែសម្រួលសម្រាប់កំណែ 20។ នៅពេលវារួចរាល់ ខ្ញុំនឹងប្រាប់លោកអ្នកថា តើគួរប្ដូរកំណែឬអត់។ | La version 20 d'Odoo est déjà sortie, mais les modules libres de la communauté OCA, qui complètent la version gratuite, sont surtout disponibles pour la 19 : en novembre 2026, très peu ont été adaptés à la 20. Quand ils le seront, je vous dis s'il vaut la peine de changer. |
+| ⏳ à relire | `services.items.8.sections.2.title` | អ្វីដែលកំណែឥតគិតថ្លៃមិនមាន | Ce que la version gratuite n'a pas |
+| ⏳ à relire | `services.items.8.sections.2.text` | កម្មវិធីរងមួយចំនួនមានតែនៅក្នុងកំណែបង់ប្រាក់ គឺ Odoo Enterprise។ ឧទាហរណ៍ គណនេយ្យពេញលេញ៖ Community មានការចេញវិក្កយបត្រ (វិក្កយបត្រ និងការទូទាត់) ហើយមុខងារបន្ថែមកូដបើកចំហរបស់សហគមន៍ OCA (Odoo Community Association) បន្ថែមមុខងារគណនេយ្យ អាស្រ័យលើថាតើវាមានសម្រាប់កំណែ 19 ហើយឬនៅ។ Odoo Studio ដែលជាឧបករណ៍សម្រាប់កែប្រែ Odoo ដោយមិនចាំបាច់សរសេរកូដ ក៏មានតែនៅក្នុង Enterprise ដែរ៖ ជាមួយ Community ការកែប្រែទាំងនោះធ្វើឡើងដោយមុខងារបន្ថែម (module) តាមតម្រូវការ។ ប្រសិនបើថ្ងៃណាមួយលោកអ្នកត្រូវការ Enterprise យើងអាចប្ដូរកំណែបាន។ | Certaines applications sont réservées à la version payante, Odoo Enterprise. Par exemple la comptabilité complète : Community a la facturation (factures et paiements), et des modules libres de la communauté OCA (Odoo Community Association) ajoutent des fonctions comptables, selon leur disponibilité pour la version 19. Odoo Studio, l'outil pour modifier Odoo sans programmer, est aussi réservé à Enterprise : avec Community, ces changements se font par des modules sur mesure. Si un jour vous avez besoin d'Enterprise, on peut changer de version. |
+| ⏳ à relire | `services.items.8.sections.3.title` | កែសម្រួលសម្រាប់ទីផ្សារកម្ពុជា | Adapté au marché cambodgien |
+| ⏳ à relire | `services.items.8.sections.3.text` | Odoo មានភាសាខ្មែរនៅក្នុងបញ្ជីភាសារបស់វា ប៉ុន្តែការបកប្រែរបស់ក្រុមហ៊ុនបង្កើតកម្មវិធី ស្ទើរតែទទេ៖ ក្នុង Odoo 19 មិនដល់ 1 អត្ថបទក្នុងចំណោម 10 អត្ថបទផង ដែលត្រូវបានបកប្រែជាភាសាខ្មែរ នៅក្នុងកម្មវិធីរង ការលក់ (Sales) គណនេយ្យ (Accounting) ស្តុក (Inventory) និងប្រព័ន្ធលក់ (Point of Sale)។ ខ្ញុំបំពេញការបកប្រែអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកប្រើ ហើយកែសម្រួលឯកសារ ប្រាក់ដុល្លារ និងប្រាក់រៀល និងច្បាប់ក្នុងស្រុក។ | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
+| ⏳ à relire | `services.items.8.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
+| ⏳ à relire | `services.items.8.sections.3.link.label` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `services.items.8.sections.4.title` | ការកែសម្រួល Odoo របស់យើង | Nos modifications d'Odoo |
+| ⏳ à relire | `services.items.8.sections.4.text` | សម្រាប់ Chantrea Systems យើងបានបង្កើត Odoo 19 Community ផ្ទាល់ខ្លួន ដែលសម្របទៅនឹងប្រទេសកម្ពុជា។ អ្វីៗទាំងអស់ធ្វើឡើងក្នុងម៉ូឌុល (module) ដាច់ដោយឡែក៖ កូដរបស់ Odoo និងម៉ូឌុល OCA មិនត្រូវបានកែប្រែឡើយ ហើយការសាកល្បងដោយស្វ័យប្រវត្តិ ពិនិត្យរាល់ការផ្លាស់ប្តូរ។ | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.title` | សម្រង់តម្លៃ និងវិក្កយបត្រតាមបែបកម្ពុជា | Devis et factures cambodgiens |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.0` | បោះពុម្ពជាភាសាខ្មែរ ហើយមានភាសាអង់គ្លេសនៅខាងក្រោម។ | Imprimés en khmer, avec l'anglais juste en dessous. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.1` | ចំនួនសរុបជាប្រាក់ដុល្លារ និងជាប្រាក់រៀល។ | Total en dollars et en riels. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.2` | អត្រាប្តូរប្រាក់ផ្លូវការ USD/KHR ទាញយករាល់ថ្ងៃពីអគ្គនាយកដ្ឋានពន្ធដារ ឬធនាគារជាតិនៃកម្ពុជា ហើយកំណត់ជាប់លើវិក្កយបត្រ នៅពេលវិក្កយបត្រត្រូវបានបញ្ជាក់។ | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.3` | វិក្កយបត្រអាករ ឬវិក្កយបត្រពាណិជ្ជកម្ម ដោយប្រើលេខរៀងតែមួយ។ | Facture de TVA ou facture commerciale, avec une seule numérotation. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.title` | ទំព័រអតិថិជនជាបីភាសា | Un espace client en trois langues |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.0` | ជាភាសាខ្មែរ អង់គ្លេស ឬបារាំង តាមភាសារបស់អតិថិជន។ | En khmer, en anglais ou en français, dans la langue du client. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.1` | សំណើជំនួយ សម្រង់តម្លៃ វិក្កយបត្រ កិច្ចសន្យា និងឧបករណ៍។ | Demandes d'assistance, devis, factures, contrats et matériel. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.2` | អតិថិជនម្នាក់ៗ ឃើញតែទិន្នន័យរបស់ក្រុមហ៊ុនខ្លួនប៉ុណ្ណោះ។ | Chaque client ne voit que les données de sa société. |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.title` | Odoo ជាភាសាខ្មែរសម្រាប់អតិថិជន | Odoo en khmer pour les clients |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.list.0` | ប្រហែល 700 អត្ថបទ៖ ឯកសារ ទំព័រអតិថិជន និងអ៊ីមែល។ | Environ 700 textes : documents, pages de l'espace client, courriels. |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.list.1` | អត្ថបទរបស់ Odoo និង OCA ដែលអតិថិជនឃើញ ដែលកំណែដើមបកប្រែតិចតួច ឬមិនបានបកប្រែសោះ។ | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.title` | ការងារនៅទីតាំង និងឧបករណ៍ | Interventions et parc matériel |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.0` | អតិថិជនចុះហត្ថលេខាលើការងារនៅនឹងកន្លែង តាមថេប្លេត ឬទូរស័ព្ទ។ | Le client signe l'intervention sur place, sur tablette ou téléphone. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.1` | របាយការណ៍ការងារជា PDF ជាភាសាខ្មែរ និងអង់គ្លេស។ | Rapport d'intervention en PDF, en khmer et en anglais. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.2` | កំណត់ត្រាសម្រាប់ឧបករណ៍នីមួយៗ ជាមួយការជូនដំណឹងមុនពេលការធានាផុតកំណត់។ | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
+| ⏳ à relire | `services.items.8.sections.5.title` | ឆ្ពោះទៅរកការបកប្រែភាសាខ្មែរដែលមានការទទួលស្គាល់ | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.8.sections.5.text` | អត្ថបទភាសាខ្មែររបស់យើង ត្រូវបានបកប្រែដោយមានជំនួយពី AI ហើយមិនទាន់ត្រូវបានពិនិត្យនៅឡើយទេ។ យើងកំពុងស្វែងរកការទទួលស្គាល់ (certification) ការបកប្រែទាំងអស់នេះ ពីអាជ្ញាធរកម្ពុជា។ បច្ចុប្បន្ន ការបកប្រែទាំងនេះមិនទាន់ទទួលបានការទទួលស្គាល់នៅឡើយទេ។ | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.8.sections.6.title` | កន្លែងដែលវាដំណើរការ | Où il tourne |
+| ⏳ à relire | `services.items.8.sections.6.list.0` | លើម៉ាស៊ីនមេ (server) នៅក្នុងទីតាំងរបស់លោកអ្នក៖ ក្រុមការងារដែលនៅនឹងកន្លែង នៅតែអាចធ្វើការបាន ពេលដាច់អ៊ីនធឺណិត។ | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.8.sections.6.list.1` | លើម៉ាស៊ីនមេដែល Chantrea Systems ជួល និងថែទាំ ឬនៅក្រុមហ៊ុនបង្ហោះ (hosting) ធំមួយ ក្នុងគណនីដែលជាឈ្មោះរបស់លោកអ្នក។ | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.8.sections.6.list.2` | Odoo Online ដែលជាសេវាបង្ហោះរបស់ក្រុមហ៊ុន Odoo ផ្ទាល់ មិនសមស្របនៅទីនេះទេ៖ វាដំណើរការជាមួយកំណែ Enterprise ហើយមិនទទួលយកមុខងារបន្ថែមតាមតម្រូវការទេ។ | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
+| ⏳ à relire | `services.items.8.sections.7.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.8.sections.7.list.0` | ជ្រើសរើសជាមួយលោកអ្នក នូវកម្មវិធីរងដែលមានប្រយោជន៍ និងកម្មវិធីរងដែលអាចរង់ចាំបាន។ | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
+| ⏳ à relire | `services.items.8.sections.7.list.1` | ដំឡើង Odoo 19 Community និងកំណត់រចនាសម្ព័ន្ធវា៖ ក្រុមហ៊ុន ផលិតផល ពន្ធ និងឯកសាររបស់លោកអ្នក។ | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
+| ⏳ à relire | `services.items.8.sections.7.list.2` | នាំចូលទិន្នន័យរបស់លោកអ្នក ពីឯកសារ Excel ឬពីកម្មវិធីចាស់របស់លោកអ្នក។ | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
+| ⏳ à relire | `services.items.8.sections.7.list.3` | បំពេញការបកប្រែជាភាសាខ្មែរ នៃអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកប្រើ។ | Compléter la traduction khmère des écrans que votre équipe utilise. |
+| ⏳ à relire | `services.items.8.sections.7.list.4` | អភិវឌ្ឍមុខងារបន្ថែម (module) នៅពេលខ្វះអ្វីមួយ។ | Développer des modules quand il manque quelque chose. |
+| ⏳ à relire | `services.items.8.sections.7.list.5` | បង្ហាញក្រុមការងាររបស់លោកអ្នកពីរបៀបប្រើវា បន្ទាប់មកជួយពួកគេជារៀងរាល់ថ្ងៃ។ | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
+| ⏳ à relire | `services.items.8.sections.7.list.6` | ថែទាំ៖ ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព និងការប្ដូរទៅកំណែថ្មី។ | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.8.sections.7.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.8.sections.7.link.label` | ការអភិវឌ្ឍមុខងារបន្ថែម Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.8.sections.8.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.8.sections.8.list.0` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ៖ ត្រូវគ្រោងធ្វើការដំឡើងកំណែ (upgrade) រៀងរាល់ពីរ ឬបីឆ្នាំម្ដង ហើយកែសម្រួលមុខងារបន្ថែមតាមតម្រូវការនៅពេលនោះ។ | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
+| ⏳ à relire | `services.items.8.sections.8.list.1` | ជាមួយកំណែ Community ជំនួយបច្ចេកទេសមកពីអ្នកផ្ដល់សេវារបស់លោកអ្នក៖ ជំនួយពីក្រុមហ៊ុនបង្កើតកម្មវិធី គឺជាផ្នែកមួយនៃការជាវ Enterprise។ | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
+| ⏳ à relire | `services.items.8.sections.8.list.2` | Odoo ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា គឺ Odoo SA។ ខ្ញុំមិនមែនជាដៃគូផ្លូវការរបស់ក្រុមហ៊ុននេះទេ។ | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
+| ⏳ à relire | `services.items.8.sections.8.list.3` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.8.sections.8.list.4` | កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.8.trademarks` | Odoo គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់របស់វា។ ការលើកឡើងឈ្មោះនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
+| ⏳ à relire | `services.items.9.id` | mattermost | mattermost |
 | ⏳ à relire | `services.items.9.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.9.title` | Nextcloud៖ ឯកសាររបស់លោកអ្នក និងការងារជាក្រុម | Nextcloud : vos fichiers et le travail en équipe |
-| ⏳ à relire | `services.items.9.summary` | ឯកសារ ប្រតិទិន បញ្ជីទំនាក់ទំនង ការហៅ និងឯកសារចែករំលែករបស់លោកអ្នក នៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស។ កូដបើកចំហ (open source) និងឥតគិតថ្លៃ ជាមួយមុខងារទាំងអស់របស់វា។ | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
-| ⏳ à relire | `services.items.9.lead` | Nextcloud ធ្វើអ្វីដែលសេវាអនឡាញធំៗធ្វើ សម្រាប់ឯកសារ និងការងារជាក្រុម ប៉ុន្តែនៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស៖ នៅក្នុងទីតាំងរបស់លោកអ្នក នៅកន្លែងយើង ឬនៅក្រុមហ៊ុនបង្ហោះ (hosting) មួយ។ | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
-| ⏳ à relire | `services.items.9.badges.0` | Files | Files |
-| ⏳ à relire | `services.items.9.badges.1` | Talk | Talk |
-| ⏳ à relire | `services.items.9.badges.2` | Office | Office |
-| ⏳ à relire | `services.items.9.badges.3` | Deck | Deck |
-| ⏳ à relire | `services.items.9.metaTitle` | Nextcloud នៅកម្ពុជា៖ ក្លោដឯកជនរបស់លោកអ្នក — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
-| ⏳ à relire | `services.items.9.metaDescription` | Nextcloud ក្លោដឯកជនកូដបើកចំហ និងឥតគិតថ្លៃ៖ ឯកសារធ្វើសមកាលកម្ម (sync) ការចែករំលែកតាមតំណភ្ជាប់ ប្រតិទិន ការហៅជាវីដេអូ ការកែសម្រួលឯកសាររួមគ្នា។ នៅកន្លែងលោកអ្នក ឬនៅលើក្លោដ។ | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
-| ⏳ à relire | `services.items.9.sections.0.title` | ឯកសាររបស់លោកអ្នក នៅគ្រប់ទីកន្លែង | Vos fichiers, partout |
-| ⏳ à relire | `services.items.9.sections.0.list.0` | ធ្វើសមកាលកម្ម (sync) លើកុំព្យូទ័ររបស់លោកអ្នក (Windows, macOS, Linux) និងទូរស័ព្ទរបស់លោកអ្នក (Android, iPhone)។ | Synchronisés sur vos ordinateurs (Windows, macOS, Linux) et vos téléphones (Android, iPhone). |
-| ⏳ à relire | `services.items.9.sections.0.list.1` | ចែករំលែកជាមួយសហការីម្នាក់ ក្រុមការងារមួយ ឬតាមតំណភ្ជាប់ (link) ទៅអ្នកខាងក្រៅ ដែលការពារដោយពាក្យសម្ងាត់ និងកាលបរិច្ឆេទផុតកំណត់។ | Partagés avec un collègue, une équipe, ou par un lien vers l'extérieur, protégé par un mot de passe et une date d'expiration. |
-| ⏳ à relire | `services.items.9.sections.0.list.2` | កំណែចាស់ៗរបស់ឯកសារនៅតែអាចរកបាន ហើយអាចស្ដារឡើងវិញបាន។ | Les anciennes versions d'un fichier restent disponibles, et on peut les restaurer. |
-| ⏳ à relire | `services.items.9.sections.0.list.3` | ឯកសារដែលលុបចោលដោយច្រឡំ អាចយកមកវិញបានពីធុងសំរាម។ | Un fichier effacé par erreur se récupère dans la corbeille. |
-| ⏳ à relire | `services.items.9.sections.0.list.4` | ថតឯកសារចែករំលែក Windows ដែលមានស្រាប់ (SMB) អាចភ្ជាប់ទៅ Nextcloud បាន។ | Les partages Windows existants (SMB) peuvent être reliés à Nextcloud. |
-| ⏳ à relire | `services.items.9.sections.1.title` | Talk៖ សារ និងការហៅ | Talk : messages et appels |
-| ⏳ à relire | `services.items.9.sections.1.text` | សារ ការហៅជាសំឡេង និងជាវីដេអូ ការចែករំលែកអេក្រង់ ជាមួយកម្មវិធីសម្រាប់ Android និង iPhone។ សិក្ខាសាលាអនឡាញ (webinar) និងការហៅដែលមានអ្នកចូលរួមច្រើន ត្រូវការផ្នែកបន្ថែមមួយទៀត គឺ High Performance Backend។ | Messages, appels audio et vidéo, partage d'écran, avec des applications pour Android et iPhone. Les webinaires et les appels à nombreux participants demandent un composant supplémentaire, le High Performance Backend. |
-| ⏳ à relire | `services.items.9.sections.2.title` | ប្រតិទិន បញ្ជីទំនាក់ទំនង និងអ៊ីមែល | Agendas, contacts et e-mails |
-| ⏳ à relire | `services.items.9.sections.2.text` | ប្រតិទិន និងបញ្ជីទំនាក់ទំនងដែលចែករំលែកគ្នា ធ្វើសមកាលកម្មជាមួយទូរស័ព្ទ និងកម្មវិធីអ៊ីមែលក្នុងកម្មវិធីរុករក (browser) សម្រាប់ប្រអប់អ៊ីមែលដែលលោកអ្នកមានស្រាប់។ Deck រៀបចំកិច្ចការរបស់ក្រុមការងារជាផ្ទាំង (board)។ | Des agendas et des contacts partagés, synchronisés avec les téléphones, et une messagerie dans le navigateur pour vos boîtes e-mail existantes. Deck organise les tâches de l'équipe en tableaux. |
-| ⏳ à relire | `services.items.9.sections.3.title` | Office៖ កែសម្រួលរួមគ្នាច្រើននាក់ | Office : éditer à plusieurs |
-| ⏳ à relire | `services.items.9.sections.3.text` | កម្មវិធីការិយាល័យ (office suite) ក្នុងកម្មវិធីរុករក (browser)៖ អត្ថបទ តារាងគណនា (spreadsheet) និងបទបង្ហាញ (presentation) ដែលមនុស្សច្រើននាក់អាចកែសម្រួលក្នុងពេលតែមួយ។ វាបើក និងរក្សាទុកទម្រង់ Microsoft Office (DOCX, XLSX, PPTX) និង OpenDocument (ODT, ODS, ODP)។ | Une suite bureautique dans le navigateur : textes, tableurs et présentations, modifiés à plusieurs en même temps. Elle ouvre et enregistre les formats Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP). |
-| ⏳ à relire | `services.items.9.sections.4.title` | ជំនួយការ AI ដែលនៅតែនៅកន្លែងលោកអ្នក | Un assistant d'IA qui reste chez vous |
-| ⏳ à relire | `services.items.9.sections.4.text` | Nextcloud ផ្ដល់ជំនួយការបញ្ញាសិប្បនិម្មិត (AI) ដែលអាចដំណើរការជាមួយម៉ូដែល (model) ដែលដំឡើងនៅលើម៉ាស៊ីនមេផ្ទាល់របស់លោកអ្នក។ | Nextcloud propose un assistant d'IA qui peut fonctionner avec un modèle installé sur votre propre serveur. |
-| ⏳ à relire | `services.items.9.sections.4.link.page` | services/ai | services/ai |
-| ⏳ à relire | `services.items.9.sections.4.link.label` | បញ្ញាសិប្បនិម្មិត (AI) និងស្វ័យប្រវត្តិកម្ម | IA et automatisation |
-| ⏳ à relire | `services.items.9.sections.5.title` | សុវត្ថិភាព | La sécurité |
-| ⏳ à relire | `services.items.9.sections.5.list.0` | ការចូលប្រើពីរជំហាន។ | Double authentification. |
-| ⏳ à relire | `services.items.9.sections.5.list.1` | ការការពារប្រឆាំងនឹងការព្យាយាមចូលប្រើម្ដងហើយម្ដងទៀត។ | Protection contre les tentatives de connexion répétées. |
-| ⏳ à relire | `services.items.9.sections.5.list.2` | ការអ៊ិនគ្រីប (encryption) នៅលើម៉ាស៊ីនមេ និងការអ៊ិនគ្រីបពីចុងម្ខាងទៅចុងម្ខាង (end-to-end) សម្រាប់ថតឯកសារដែលមានព័ត៌មានរសើប។ | Chiffrement côté serveur, et chiffrement de bout en bout pour les dossiers sensibles. |
-| ⏳ à relire | `services.items.9.sections.5.list.3` | ការភ្ជាប់ទៅបញ្ជីអ្នកប្រើប្រាស់របស់ក្រុមហ៊ុន (LDAP ឬ Active Directory)។ | Connexion à l'annuaire de l'entreprise (LDAP ou Active Directory). |
-| ⏳ à relire | `services.items.9.sections.5.list.4` | សិទ្ធិតាមបុគ្គល និងតាមក្រុម៖ ម្នាក់ៗឃើញអ្វីដែលពាក់ព័ន្ធនឹងខ្លួន។ | Des droits par personne et par groupe : chacun voit ce qui le concerne. |
-| ⏳ à relire | `services.items.9.sections.6.title` | កូដបើកចំហ និងឥតគិតថ្លៃ | Libre et gratuit |
-| ⏳ à relire | `services.items.9.sections.6.text` | Nextcloud គឺជាកម្មវិធីកូដបើកចំហ (អាជ្ញាប័ណ្ណ AGPL v3) និងឥតគិតថ្លៃ ជាមួយមុខងារទាំងអស់របស់វា។ ក្រុមហ៊ុនបង្កើតកម្មវិធីលក់ការជាវមួយ គឺ Nextcloud Enterprise សម្រាប់ជំនួយផ្ទាល់ និងការគាំទ្ររយៈពេលវែងសម្រាប់កំណែនីមួយៗ។ ខ្ញុំប្រាប់លោកអ្នកថា តើលោកអ្នកត្រូវការវាឬទេ។ | Nextcloud est un logiciel libre (licence AGPL v3) et gratuit, avec toutes ses fonctions. L'éditeur vend un abonnement, Nextcloud Enterprise, pour une assistance directe et un support à long terme de chaque version. Je vous dis si vous en avez besoin. |
-| ⏳ à relire | `services.items.9.sections.7.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.9.sections.7.list.0` | ដំឡើង Nextcloud លើម៉ាស៊ីនមេដែលបានជ្រើសរើស ដែលអាចចូលប្រើពីអ៊ីនធឺណិតបានដោយសុវត្ថិភាព។ | Installer Nextcloud sur le serveur choisi, accessible de façon sécurisée depuis internet. |
-| ⏳ à relire | `services.items.9.sections.7.list.1` | បង្កើតគណនី ក្រុម និងថតឯកសារចែករំលែក សម្រាប់ក្រុមការងាររបស់លោកអ្នក។ | Créer les comptes, les groupes et les dossiers partagés de votre équipe. |
-| ⏳ à relire | `services.items.9.sections.7.list.2` | ដំឡើងកម្មវិធីលើកុំព្យូទ័រ និងទូរស័ព្ទ។ | Installer les applications sur les ordinateurs et les téléphones. |
-| ⏳ à relire | `services.items.9.sections.7.list.3` | បង្ហាញក្រុមការងាររបស់លោកអ្នកពីរបៀបប្រើវា។ | Montrer à votre équipe comment s'en servir. |
-| ⏳ à relire | `services.items.9.sections.7.list.4` | ថែទាំ៖ ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព និងការប្ដូរទៅកំណែថ្មី។ | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.9.sections.8.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.9.sections.8.list.0` | Nextcloud មិនមានជាភាសាខ្មែរទេ៖ អេក្រង់របស់វាមានជាភាសាអង់គ្លេស បារាំង ចិន រុស្ស៊ី និងប្រហែលហុកសិបភាសាផ្សេងទៀត។ | Nextcloud n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une soixantaine d'autres langues. |
-| ⏳ à relire | `services.items.9.sections.8.list.1` | ប្រសិនបើម៉ាស៊ីនមេនៅក្នុងទីតាំងរបស់លោកអ្នក ការចូលប្រើពីខាងក្រៅអាស្រ័យលើការតភ្ជាប់អ៊ីនធឺណិតរបស់លោកអ្នក។ | Si le serveur est dans vos locaux, l'accès depuis l'extérieur dépend de votre connexion internet. |
-| ⏳ à relire | `services.items.9.sections.8.list.2` | Nextcloud ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា គឺ Nextcloud GmbH។ ខ្ញុំដំឡើង កំណត់រចនាសម្ព័ន្ធ និងថែទាំវា។ | Nextcloud est développé par son éditeur, Nextcloud GmbH. Je l'installe, je le configure et je l'entretiens. |
-| ⏳ à relire | `services.items.9.sections.8.list.3` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.9.trademarks` | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office និង Active Directory គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office et Active Directory sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.9.title` | Mattermost៖ ការផ្ញើសាររបស់ក្រុមការងាររបស់លោកអ្នក | Mattermost : la messagerie de votre équipe |
+| ⏳ à relire | `services.items.9.summary` | កម្មវិធីផ្ញើសាររបស់ក្រុមការងារ ដែលដំឡើងលើម៉ាស៊ីនមេ (server) របស់លោកអ្នក៖ ឆានែល (channel) សារផ្ទាល់ខ្លួន ខ្សែសន្ទនា (thread) ឯកសារ និងការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក។ | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
+| ⏳ à relire | `services.items.9.lead` | Mattermost រៀបចំការសន្ទនារបស់ក្រុមការងារតាមឆានែល (channel) ដូចកម្មវិធីផ្ញើសារធំៗសម្រាប់ក្រុមហ៊ុនដែរ ប៉ុន្តែនៅលើម៉ាស៊ីនមេដែលលោកអ្នកជ្រើសរើស។ ការសន្ទនាការងារលែងឆ្លងកាត់កម្មវិធីផ្ញើសារសម្រាប់ប្រើផ្ទាល់ខ្លួនទៀតហើយ។ | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
+| ⏳ à relire | `services.items.9.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.9.badges.1` | macOS | macOS |
+| ⏳ à relire | `services.items.9.badges.2` | Linux | Linux |
+| ⏳ à relire | `services.items.9.badges.3` | Android | Android |
+| ⏳ à relire | `services.items.9.badges.4` | iPhone | iPhone |
+| ⏳ à relire | `services.items.9.metaTitle` | Mattermost នៅកម្ពុជា៖ ការផ្ញើសាររបស់ក្រុមការងារ — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
+| ⏳ à relire | `services.items.9.metaDescription` | Mattermost កម្មវិធីផ្ញើសាររបស់ក្រុមការងារ ដែលដំឡើងលើម៉ាស៊ីនមេរបស់លោកអ្នក៖ ឆានែល (channel) សារផ្ទាល់ខ្លួន ឯកសារចែករំលែក កម្មវិធីសម្រាប់កុំព្យូទ័រ និងទូរស័ព្ទ ការជូនដំណឹងពី Zabbix។ | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
+| ⏳ à relire | `services.items.9.sections.0.title` | អ្វីដែល Mattermost ធ្វើ | Ce que fait Mattermost |
+| ⏳ à relire | `services.items.9.sections.0.list.0` | ឆានែល (channel) តាមក្រុម តាមគម្រោង ឬតាមអតិថិជន ជាសាធារណៈ ឬឯកជន។ | Des canaux par équipe, par projet ou par client, publics ou privés. |
+| ⏳ à relire | `services.items.9.sections.0.list.1` | សារផ្ទាល់ខ្លួន និងការសន្ទនាជាក្រុម។ | Des messages directs et des discussions de groupe. |
+| ⏳ à relire | `services.items.9.sections.0.list.2` | ខ្សែសន្ទនា (thread) សម្រាប់ឆ្លើយតបសារមួយ ដោយមិនធ្វើឱ្យឆានែលរញ៉េរញ៉ៃ។ | Des fils de discussion, pour répondre à un message sans encombrer le canal. |
+| ⏳ à relire | `services.items.9.sections.0.list.3` | ឯកសារ និងរូបភាពដែលចែករំលែក និងការស្វែងរកក្នុងសារ។ | Des fichiers et des images partagés, et une recherche dans les messages. |
+| ⏳ à relire | `services.items.9.sections.0.list.4` | កម្មវិធីសម្រាប់ Windows, macOS, Linux, Android និង iPhone និងកំណែមួយក្នុងកម្មវិធីរុករក (browser)។ | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
+| ⏳ à relire | `services.items.9.sections.1.title` | ការជូនដំណឹងពីឧបករណ៍របស់លោកអ្នក | Les alertes de vos outils |
+| ⏳ à relire | `services.items.9.sections.1.text` | Mattermost ទទួលសារពីកម្មវិធីផ្សេងទៀត តាមរយៈ webhook។ ការជូនដំណឹងពីការតាមដានប្រព័ន្ធ (monitoring) Zabbix ឬសារពីកម្មវិធីផ្ទាល់របស់លោកអ្នក មកដល់ក្នុងឆានែលមួយ៖ ក្រុមការងារឃើញវា ហើយពិភាក្សាអំពីវានៅកន្លែងតែមួយ។ | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
+| ⏳ à relire | `services.items.9.sections.1.flow.0` | Zabbix រកឃើញបញ្ហា | Zabbix détecte un problème |
+| ⏳ à relire | `services.items.9.sections.1.flow.1` | Webhook | Webhook |
+| ⏳ à relire | `services.items.9.sections.1.flow.2` | ឆានែល «ការជូនដំណឹង» | Canal « alertes » |
+| ⏳ à relire | `services.items.9.sections.1.flow.3` | ក្រុមការងារពិភាក្សាគ្នា | L'équipe en discute |
+| ⏳ à relire | `services.items.9.sections.2.title` | គួរជ្រើសរើសកំណែមួយណា | Quelle version choisir |
+| ⏳ à relire | `services.items.9.sections.2.text` | Mattermost មានច្រើនកំណែ ហើយភាពខុសគ្នារវាងកំណែទាំងនោះមានសារៈសំខាន់។ ខ្ញុំពន្យល់វាដល់លោកអ្នក មុនពេលជ្រើសរើស៖ | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
+| ⏳ à relire | `services.items.9.sections.2.defs.0.term` | Team Edition | Team Edition |
+| ⏳ à relire | `services.items.9.sections.2.defs.0.text` | ឥតគិតថ្លៃ (អាជ្ញាប័ណ្ណ MIT)។ មុខងារសំខាន់ៗនៃការផ្ញើសារ ជាមួយប្រវត្តិសារទាំងអស់ ប៉ុន្តែមានមុខងារតិចជាងកំណែផ្សេងទៀត។ រៀបចំឡើងសម្រាប់ក្រុមការងារតូចៗ ដែលមិនត្រូវការការចូលប្រើតែម្ដងសម្រាប់កម្មវិធីទាំងអស់ (single sign-on, SSO)។ | Gratuite (licence MIT). L'essentiel de la messagerie, avec tout l'historique des messages, mais moins de fonctions que les autres versions. Prévue pour les petites équipes qui n'ont pas besoin de connexion unique (SSO). |
+| ⏳ à relire | `services.items.9.sections.2.defs.1.term` | Entry | Entry |
+| ⏳ à relire | `services.items.9.sections.2.defs.1.text` | ឥតគិតថ្លៃ ក្រោមអាជ្ញាប័ណ្ណពាណិជ្ជកម្ម សម្រាប់ក្រុមការងារដែលមានមនុស្សតិចជាង 50 នាក់។ វាមានមុខងាររបស់កំណែបង់ប្រាក់ ប៉ុន្តែមានតែសារ 10 000 ចុងក្រោយប៉ុណ្ណោះ គិតរួមគ្រប់ឆានែល ដែលនៅតែអាចមើលឃើញ និងស្វែងរកបាន។ ក្រុមហ៊ុនបង្កើតកម្មវិធីប្រកាសពីដែនកំណត់ផ្សេងទៀត ដូចជាការហៅដែលមានរយៈពេល 40 នាទី។ | Gratuite, sous licence commerciale, pour les équipes de moins de 50 personnes. Elle a les fonctions des versions payantes, mais seuls les 10 000 derniers messages, tous canaux confondus, restent visibles et cherchables. L'éditeur annonce d'autres limites, comme des appels de 40 minutes. |
+| ⏳ à relire | `services.items.9.sections.2.defs.2.term` | Professional, Enterprise | Professional, Enterprise |
+| ⏳ à relire | `services.items.9.sections.2.defs.2.text` | បង់ប្រាក់ តាមការជាវ។ Professional បន្ថែមជាពិសេស ការភ្ជាប់ទៅបញ្ជីអ្នកប្រើប្រាស់របស់ក្រុមហ៊ុន (AD/LDAP) ការចូលប្រើតែម្ដងសម្រាប់កម្មវិធីទាំងអស់ (SSO) គណនីភ្ញៀវ ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណច្រើនជំហាន ការហៅជាក្រុម និងការចែករំលែកអេក្រង់។ Enterprise បន្ថែមការរក្សាទុកសារជាបណ្ណសារ សម្រាប់ការអនុលោមតាមបទប្បញ្ញត្តិ (compliance) និងភាពអាចប្រើបានខ្ពស់ (high availability)។ | Payantes, par abonnement. Professional ajoute notamment la connexion à l'annuaire de l'entreprise (AD/LDAP), la connexion unique (SSO), les comptes invités, l'authentification à plusieurs facteurs, les appels de groupe et le partage d'écran. Enterprise ajoute l'archivage pour la conformité et la haute disponibilité. |
+| ⏳ à relire | `services.items.9.sections.3.title` | Mattermost ឬ Nextcloud Talk? | Mattermost ou Nextcloud Talk ? |
+| ⏳ à relire | `services.items.9.sections.3.text` | Nextcloud ក៏មានកម្មវិធីផ្ញើសាររបស់វាដែរ គឺ Talk។ ប្រសិនបើលោកអ្នកដំឡើង Nextcloud សម្រាប់ឯកសាររបស់លោកអ្នក ជារឿយៗ Talk គឺគ្រប់គ្រាន់ហើយ។ Mattermost ត្រូវបានរចនាឡើងជាចម្បងសម្រាប់ការពិភាក្សាជាក្រុម៖ ឆានែលជាច្រើន ខ្សែសន្ទនា (thread) និងការភ្ជាប់ជាមួយឧបករណ៍ផ្សេងទៀតរបស់លោកអ្នក។ | Nextcloud a aussi sa messagerie, Talk. Si vous installez Nextcloud pour vos fichiers, Talk suffit souvent. Mattermost est pensé d'abord pour la discussion d'équipe : de nombreux canaux, des fils de discussion, des liens avec vos autres outils. |
+| ⏳ à relire | `services.items.9.sections.3.link.page` | services/nextcloud | services/nextcloud |
+| ⏳ à relire | `services.items.9.sections.3.link.label` | ស្វែងយល់ពី Nextcloud | Découvrir Nextcloud |
+| ⏳ à relire | `services.items.9.sections.4.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.9.sections.4.list.0` | ជ្រើសរើសជាមួយលោកអ្នក នូវកំណែដែលសមស្រប។ | Choisir avec vous la version qui convient. |
+| ⏳ à relire | `services.items.9.sections.4.list.1` | ដំឡើង Mattermost លើម៉ាស៊ីនមេដែលបានជ្រើសរើស។ | Installer Mattermost sur le serveur choisi. |
+| ⏳ à relire | `services.items.9.sections.4.list.2` | បង្កើតក្រុម និងឆានែល ហើយអញ្ជើញអ្នកប្រើប្រាស់របស់លោកអ្នក។ | Créer les équipes et les canaux, et inviter vos utilisateurs. |
+| ⏳ à relire | `services.items.9.sections.4.list.3` | ភ្ជាប់ឧបករណ៍របស់លោកអ្នក ឧទាហរណ៍ការជូនដំណឹងពី Zabbix។ | Relier vos outils, par exemple les alertes Zabbix. |
+| ⏳ à relire | `services.items.9.sections.4.list.4` | ដំឡើងកម្មវិធីលើកុំព្យូទ័រ និងទូរស័ព្ទ។ | Installer les applications sur les ordinateurs et les téléphones. |
+| ⏳ à relire | `services.items.9.sections.4.list.5` | ថែទាំ៖ ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព និងការប្ដូរទៅកំណែថ្មី។ | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.9.sections.5.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.9.sections.5.list.0` | Mattermost មិនមានជាភាសាខ្មែរទេ៖ អេក្រង់របស់វាមានជាភាសាអង់គ្លេស បារាំង ចិន រុស្ស៊ី និងប្រហែលម្ភៃភាសា។ | Mattermost n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une vingtaine de langues. |
+| ⏳ à relire | `services.items.9.sections.5.list.1` | Mattermost ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា គឺ Mattermost, Inc.។ ខ្ញុំដំឡើង កំណត់រចនាសម្ព័ន្ធ និងថែទាំវា។ | Mattermost est développé par son éditeur, Mattermost, Inc. Je l'installe, je le configure et je l'entretiens. |
+| ⏳ à relire | `services.items.9.sections.5.list.2` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.9.trademarks` | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android និង iPhone គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android et iPhone sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.10.id` | nextcloud | nextcloud |
+| ⏳ à relire | `services.items.10.parent` | business-software | business-software |
+| ⏳ à relire | `services.items.10.title` | Nextcloud៖ ឯកសាររបស់លោកអ្នក និងការងារជាក្រុម | Nextcloud : vos fichiers et le travail en équipe |
+| ⏳ à relire | `services.items.10.summary` | ឯកសារ ប្រតិទិន បញ្ជីទំនាក់ទំនង ការហៅ និងឯកសារចែករំលែករបស់លោកអ្នក នៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស។ កូដបើកចំហ (open source) និងឥតគិតថ្លៃ ជាមួយមុខងារទាំងអស់របស់វា។ | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
+| ⏳ à relire | `services.items.10.lead` | Nextcloud ធ្វើអ្វីដែលសេវាអនឡាញធំៗធ្វើ សម្រាប់ឯកសារ និងការងារជាក្រុម ប៉ុន្តែនៅលើម៉ាស៊ីនមេ (server) ដែលលោកអ្នកជ្រើសរើស៖ នៅក្នុងទីតាំងរបស់លោកអ្នក នៅកន្លែងយើង ឬនៅក្រុមហ៊ុនបង្ហោះ (hosting) មួយ។ | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
+| ⏳ à relire | `services.items.10.badges.0` | Files | Files |
+| ⏳ à relire | `services.items.10.badges.1` | Talk | Talk |
+| ⏳ à relire | `services.items.10.badges.2` | Office | Office |
+| ⏳ à relire | `services.items.10.badges.3` | Deck | Deck |
+| ⏳ à relire | `services.items.10.metaTitle` | Nextcloud នៅកម្ពុជា៖ ក្លោដឯកជនរបស់លោកអ្នក — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
+| ⏳ à relire | `services.items.10.metaDescription` | Nextcloud ក្លោដឯកជនកូដបើកចំហ និងឥតគិតថ្លៃ៖ ឯកសារធ្វើសមកាលកម្ម (sync) ការចែករំលែកតាមតំណភ្ជាប់ ប្រតិទិន ការហៅជាវីដេអូ ការកែសម្រួលឯកសាររួមគ្នា។ នៅកន្លែងលោកអ្នក ឬនៅលើក្លោដ។ | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
+| ⏳ à relire | `services.items.10.sections.0.title` | ឯកសាររបស់លោកអ្នក នៅគ្រប់ទីកន្លែង | Vos fichiers, partout |
+| ⏳ à relire | `services.items.10.sections.0.list.0` | ធ្វើសមកាលកម្ម (sync) លើកុំព្យូទ័ររបស់លោកអ្នក (Windows, macOS, Linux) និងទូរស័ព្ទរបស់លោកអ្នក (Android, iPhone)។ | Synchronisés sur vos ordinateurs (Windows, macOS, Linux) et vos téléphones (Android, iPhone). |
+| ⏳ à relire | `services.items.10.sections.0.list.1` | ចែករំលែកជាមួយសហការីម្នាក់ ក្រុមការងារមួយ ឬតាមតំណភ្ជាប់ (link) ទៅអ្នកខាងក្រៅ ដែលការពារដោយពាក្យសម្ងាត់ និងកាលបរិច្ឆេទផុតកំណត់។ | Partagés avec un collègue, une équipe, ou par un lien vers l'extérieur, protégé par un mot de passe et une date d'expiration. |
+| ⏳ à relire | `services.items.10.sections.0.list.2` | កំណែចាស់ៗរបស់ឯកសារនៅតែអាចរកបាន ហើយអាចស្ដារឡើងវិញបាន។ | Les anciennes versions d'un fichier restent disponibles, et on peut les restaurer. |
+| ⏳ à relire | `services.items.10.sections.0.list.3` | ឯកសារដែលលុបចោលដោយច្រឡំ អាចយកមកវិញបានពីធុងសំរាម។ | Un fichier effacé par erreur se récupère dans la corbeille. |
+| ⏳ à relire | `services.items.10.sections.0.list.4` | ថតឯកសារចែករំលែក Windows ដែលមានស្រាប់ (SMB) អាចភ្ជាប់ទៅ Nextcloud បាន។ | Les partages Windows existants (SMB) peuvent être reliés à Nextcloud. |
+| ⏳ à relire | `services.items.10.sections.1.title` | Talk៖ សារ និងការហៅ | Talk : messages et appels |
+| ⏳ à relire | `services.items.10.sections.1.text` | សារ ការហៅជាសំឡេង និងជាវីដេអូ ការចែករំលែកអេក្រង់ ជាមួយកម្មវិធីសម្រាប់ Android និង iPhone។ សិក្ខាសាលាអនឡាញ (webinar) និងការហៅដែលមានអ្នកចូលរួមច្រើន ត្រូវការផ្នែកបន្ថែមមួយទៀត គឺ High Performance Backend។ | Messages, appels audio et vidéo, partage d'écran, avec des applications pour Android et iPhone. Les webinaires et les appels à nombreux participants demandent un composant supplémentaire, le High Performance Backend. |
+| ⏳ à relire | `services.items.10.sections.2.title` | ប្រតិទិន បញ្ជីទំនាក់ទំនង និងអ៊ីមែល | Agendas, contacts et e-mails |
+| ⏳ à relire | `services.items.10.sections.2.text` | ប្រតិទិន និងបញ្ជីទំនាក់ទំនងដែលចែករំលែកគ្នា ធ្វើសមកាលកម្មជាមួយទូរស័ព្ទ និងកម្មវិធីអ៊ីមែលក្នុងកម្មវិធីរុករក (browser) សម្រាប់ប្រអប់អ៊ីមែលដែលលោកអ្នកមានស្រាប់។ Deck រៀបចំកិច្ចការរបស់ក្រុមការងារជាផ្ទាំង (board)។ | Des agendas et des contacts partagés, synchronisés avec les téléphones, et une messagerie dans le navigateur pour vos boîtes e-mail existantes. Deck organise les tâches de l'équipe en tableaux. |
+| ⏳ à relire | `services.items.10.sections.3.title` | Office៖ កែសម្រួលរួមគ្នាច្រើននាក់ | Office : éditer à plusieurs |
+| ⏳ à relire | `services.items.10.sections.3.text` | កម្មវិធីការិយាល័យ (office suite) ក្នុងកម្មវិធីរុករក (browser)៖ អត្ថបទ តារាងគណនា (spreadsheet) និងបទបង្ហាញ (presentation) ដែលមនុស្សច្រើននាក់អាចកែសម្រួលក្នុងពេលតែមួយ។ វាបើក និងរក្សាទុកទម្រង់ Microsoft Office (DOCX, XLSX, PPTX) និង OpenDocument (ODT, ODS, ODP)។ | Une suite bureautique dans le navigateur : textes, tableurs et présentations, modifiés à plusieurs en même temps. Elle ouvre et enregistre les formats Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP). |
+| ⏳ à relire | `services.items.10.sections.4.title` | ជំនួយការ AI ដែលនៅតែនៅកន្លែងលោកអ្នក | Un assistant d'IA qui reste chez vous |
+| ⏳ à relire | `services.items.10.sections.4.text` | Nextcloud ផ្ដល់ជំនួយការបញ្ញាសិប្បនិម្មិត (AI) ដែលអាចដំណើរការជាមួយម៉ូដែល (model) ដែលដំឡើងនៅលើម៉ាស៊ីនមេផ្ទាល់របស់លោកអ្នក។ | Nextcloud propose un assistant d'IA qui peut fonctionner avec un modèle installé sur votre propre serveur. |
+| ⏳ à relire | `services.items.10.sections.4.link.page` | services/ai | services/ai |
+| ⏳ à relire | `services.items.10.sections.4.link.label` | បញ្ញាសិប្បនិម្មិត (AI) និងស្វ័យប្រវត្តិកម្ម | IA et automatisation |
+| ⏳ à relire | `services.items.10.sections.5.title` | សុវត្ថិភាព | La sécurité |
+| ⏳ à relire | `services.items.10.sections.5.list.0` | ការចូលប្រើពីរជំហាន។ | Double authentification. |
+| ⏳ à relire | `services.items.10.sections.5.list.1` | ការការពារប្រឆាំងនឹងការព្យាយាមចូលប្រើម្ដងហើយម្ដងទៀត។ | Protection contre les tentatives de connexion répétées. |
+| ⏳ à relire | `services.items.10.sections.5.list.2` | ការអ៊ិនគ្រីប (encryption) នៅលើម៉ាស៊ីនមេ និងការអ៊ិនគ្រីបពីចុងម្ខាងទៅចុងម្ខាង (end-to-end) សម្រាប់ថតឯកសារដែលមានព័ត៌មានរសើប។ | Chiffrement côté serveur, et chiffrement de bout en bout pour les dossiers sensibles. |
+| ⏳ à relire | `services.items.10.sections.5.list.3` | ការភ្ជាប់ទៅបញ្ជីអ្នកប្រើប្រាស់របស់ក្រុមហ៊ុន (LDAP ឬ Active Directory)។ | Connexion à l'annuaire de l'entreprise (LDAP ou Active Directory). |
+| ⏳ à relire | `services.items.10.sections.5.list.4` | សិទ្ធិតាមបុគ្គល និងតាមក្រុម៖ ម្នាក់ៗឃើញអ្វីដែលពាក់ព័ន្ធនឹងខ្លួន។ | Des droits par personne et par groupe : chacun voit ce qui le concerne. |
+| ⏳ à relire | `services.items.10.sections.6.title` | កូដបើកចំហ និងឥតគិតថ្លៃ | Libre et gratuit |
+| ⏳ à relire | `services.items.10.sections.6.text` | Nextcloud គឺជាកម្មវិធីកូដបើកចំហ (អាជ្ញាប័ណ្ណ AGPL v3) និងឥតគិតថ្លៃ ជាមួយមុខងារទាំងអស់របស់វា។ ក្រុមហ៊ុនបង្កើតកម្មវិធីលក់ការជាវមួយ គឺ Nextcloud Enterprise សម្រាប់ជំនួយផ្ទាល់ និងការគាំទ្ររយៈពេលវែងសម្រាប់កំណែនីមួយៗ។ ខ្ញុំប្រាប់លោកអ្នកថា តើលោកអ្នកត្រូវការវាឬទេ។ | Nextcloud est un logiciel libre (licence AGPL v3) et gratuit, avec toutes ses fonctions. L'éditeur vend un abonnement, Nextcloud Enterprise, pour une assistance directe et un support à long terme de chaque version. Je vous dis si vous en avez besoin. |
+| ⏳ à relire | `services.items.10.sections.7.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.10.sections.7.list.0` | ដំឡើង Nextcloud លើម៉ាស៊ីនមេដែលបានជ្រើសរើស ដែលអាចចូលប្រើពីអ៊ីនធឺណិតបានដោយសុវត្ថិភាព។ | Installer Nextcloud sur le serveur choisi, accessible de façon sécurisée depuis internet. |
+| ⏳ à relire | `services.items.10.sections.7.list.1` | បង្កើតគណនី ក្រុម និងថតឯកសារចែករំលែក សម្រាប់ក្រុមការងាររបស់លោកអ្នក។ | Créer les comptes, les groupes et les dossiers partagés de votre équipe. |
+| ⏳ à relire | `services.items.10.sections.7.list.2` | ដំឡើងកម្មវិធីលើកុំព្យូទ័រ និងទូរស័ព្ទ។ | Installer les applications sur les ordinateurs et les téléphones. |
+| ⏳ à relire | `services.items.10.sections.7.list.3` | បង្ហាញក្រុមការងាររបស់លោកអ្នកពីរបៀបប្រើវា។ | Montrer à votre équipe comment s'en servir. |
+| ⏳ à relire | `services.items.10.sections.7.list.4` | ថែទាំ៖ ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព និងការប្ដូរទៅកំណែថ្មី។ | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.10.sections.8.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.10.sections.8.list.0` | Nextcloud មិនមានជាភាសាខ្មែរទេ៖ អេក្រង់របស់វាមានជាភាសាអង់គ្លេស បារាំង ចិន រុស្ស៊ី និងប្រហែលហុកសិបភាសាផ្សេងទៀត។ | Nextcloud n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une soixantaine d'autres langues. |
+| ⏳ à relire | `services.items.10.sections.8.list.1` | ប្រសិនបើម៉ាស៊ីនមេនៅក្នុងទីតាំងរបស់លោកអ្នក ការចូលប្រើពីខាងក្រៅអាស្រ័យលើការតភ្ជាប់អ៊ីនធឺណិតរបស់លោកអ្នក។ | Si le serveur est dans vos locaux, l'accès depuis l'extérieur dépend de votre connexion internet. |
+| ⏳ à relire | `services.items.10.sections.8.list.2` | Nextcloud ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា គឺ Nextcloud GmbH។ ខ្ញុំដំឡើង កំណត់រចនាសម្ព័ន្ធ និងថែទាំវា។ | Nextcloud est développé par son éditeur, Nextcloud GmbH. Je l'installe, je le configure et je l'entretiens. |
+| ⏳ à relire | `services.items.10.sections.8.list.3` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.10.trademarks` | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office និង Active Directory គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office et Active Directory sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `tech.title` | បច្ចេកវិទ្យាដែលខ្ញុំប្រើ | Les technologies que j'utilise |
 | ⏳ à relire | `tech.intro` | ឧបករណ៍ដែលល្បីឈ្មោះ ភាគច្រើនជាកម្មវិធីសេរី ដែលជ្រើសរើសដោយសារភាពទុកចិត្តបាន។ សម្រាប់ឧបករណ៍នីមួយៗ៖ វាប្រើសម្រាប់អ្វី និងប្រើនៅផ្នែកណានៃសេវាកម្ម។ | Des outils reconnus, libres pour la plupart, choisis pour leur fiabilité. Pour chacun : à quoi il sert, et où il intervient dans l'offre. |
 | ⏳ à relire | `tech.note` | ឈ្មោះដែលបានលើកឡើង គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូ ឬវិញ្ញាបនបត្រណាមួយឡើយ។ | Les noms cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat ni aucune certification. |
@@ -707,6 +769,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.3.items.1.text` | ដំឡើងលើម៉ាស៊ីននីមួយៗ វាផ្ញើបញ្ជីសារពើភណ្ឌរបស់ម៉ាស៊ីនទៅ GLPI ដោយស្វ័យប្រវត្តិ។ វាធ្វើបញ្ជីសារពើភណ្ឌ មិនមែនស្វែងរកចំណុចខ្សោយទេ។ | Installé sur chaque machine, il envoie automatiquement son inventaire à GLPI. Il fait l'inventaire, pas la recherche de failles. |
 | ⏳ à relire | `tech.groups.3.items.2.name` | Grafana | Grafana |
 | ⏳ à relire | `tech.groups.3.items.2.text` | ផ្ទាំងព័ត៌មាន (dashboard) អំពីស្ថានភាពឧបករណ៍ និងការជូនដំណឹង ដោយប្រើទិន្នន័យពី Zabbix។ | Des tableaux de bord sur l'état du parc et les alertes, à partir des données de Zabbix. |
+| ⏳ à relire | `tech.groups.3.items.3.name` | Vigie | Vigie |
+| ⏳ à relire | `tech.groups.3.items.3.text` | វិបផតថលតាមដានសុវត្ថិភាពរបស់យើង៖ ចំណុចខ្សោយដែលប៉ះពាល់ដល់ឧបករណ៍ក្នុង GLPI របស់លោកអ្នក តាមអាទិភាព ព្រមទាំងការរំលឹក។ | Notre portail de veille : les failles qui touchent votre parc GLPI, par ordre de priorité, avec des rappels. |
 | ⏳ à relire | `diagram.title` | ហេដ្ឋារចនាសម្ព័ន្ធមួយ ពីក្រោមឡើងលើ | Une infrastructure, de bas en haut |
 | ⏳ à relire | `diagram.caption` | ឧទាហរណ៍នៃការរៀបចំ។ ការដំឡើងនីមួយៗ ត្រូវបានកំណត់ទំហំតាមតម្រូវការរបស់លោកអ្នក។ | Exemple d'organisation. Chaque installation est dimensionnée selon vos besoins. |
 | ⏳ à relire | `diagram.layers.0.label` | កម្មវិធី | Applications |
@@ -1264,7 +1328,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1249 textes relus.
+0 / 1313 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1613,6 +1677,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.2.list.3` | опубликованные уязвимости (идентификаторы CVE); | les vulnérabilités publiées (références CVE) ; |
 | ⏳ à relire | `services.items.3.sections.2.list.4` | доступные исправления; | les correctifs disponibles ; |
 | ⏳ à relire | `services.items.3.sections.2.list.5` | приоритеты: что обновлять в первую очередь. | les priorités : ce qu'il faut mettre à jour d'abord. |
+| ⏳ à relire | `services.items.3.sections.2.link.page` | services/vigie | services/vigie |
+| ⏳ à relire | `services.items.3.sections.2.link.label` | Подробнее о Vigie | Découvrir Vigie |
 | ⏳ à relire | `services.items.3.sections.3.figure` | inventory | inventory |
 | ⏳ à relire | `services.items.3.sections.4.title` | Мониторинг: Zabbix и Grafana | Surveiller : Zabbix et Grafana |
 | ⏳ à relire | `services.items.3.sections.4.text` | Безопасность — это ещё и умение вовремя заметить, что назревает проблема. Два свободных инструмента работают вместе: | La sécurité, c'est aussi voir à temps qu'un problème arrive. Deux outils libres travaillent ensemble : |
@@ -1639,288 +1705,348 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.8.title` | Давайте обсудим вашу ситуацию | Parlons de votre situation |
 | ⏳ à relire | `services.items.3.sections.8.text` | Все компании разные. Расскажите, что вас беспокоит, и мы вместе решим, что будет полезно именно вам. | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
 | ⏳ à relire | `services.items.3.trademarks` | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux и macOS — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.4.id` | business-software | business-software |
-| ⏳ à relire | `services.items.4.parent` | infrastructure | infrastructure |
-| ⏳ à relire | `services.items.4.title` | Odoo, Nextcloud и Mattermost | Odoo, Nextcloud et Mattermost |
-| ⏳ à relire | `services.items.4.summary` | Управление компанией, общие файлы и переписка команды — на свободном ПО. Установка у вас, у нас или в облаке. | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
-| ⏳ à relire | `services.items.4.lead` | Я устанавливаю, настраиваю под вас и обслуживаю Odoo, Nextcloud и Mattermost. Вы выбираете, где они работают, а ваши данные остаются вашими. | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
-| ⏳ à relire | `services.items.4.badges.0` | Odoo | Odoo |
-| ⏳ à relire | `services.items.4.badges.1` | Nextcloud | Nextcloud |
-| ⏳ à relire | `services.items.4.badges.2` | Mattermost | Mattermost |
-| ⏳ à relire | `services.items.4.metaTitle` | Odoo, Nextcloud и Mattermost в Камбодже — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
-| ⏳ à relire | `services.items.4.metaDescription` | Установка, модули на заказ и обслуживание Odoo (управление), Nextcloud (частное облако) и Mattermost (командный мессенджер). У вас или в облаке. | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
-| ⏳ à relire | `services.items.4.sections.0.title` | Odoo — для управления компанией | Odoo, pour gérer l'entreprise |
-| ⏳ à relire | `services.items.4.sections.0.text` | Клиенты, коммерческие предложения, продажи, счета, закупки, склад, проекты: одна программа, отдельное приложение под каждую задачу. Начинаем с того, что вам действительно нужно, остальное добавляем позже. | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
-| ⏳ à relire | `services.items.4.sections.1.title` | Nextcloud — для ваших файлов и вашей команды | Nextcloud, pour vos fichiers et votre équipe |
-| ⏳ à relire | `services.items.4.sections.1.text` | Общие документы, календари и контакты — на компьютере и на телефоне, с чатом и видеозвонками для команды. Как у крупных онлайн-сервисов, но на сервере, который выбираете вы. | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
-| ⏳ à relire | `services.items.4.sections.2.title` | Mattermost — для переписки команды | Mattermost, pour la messagerie de l'équipe |
-| ⏳ à relire | `services.items.4.sections.2.text` | Каналы по командам или по проектам, личные сообщения, обсуждения в ветках и общие файлы — на компьютере и на телефоне. Рабочая переписка остаётся на вашем сервере, а не в массовом мессенджере. Оповещения ваших систем, например Zabbix, могут приходить в отдельный канал. | Des canaux par équipe ou par projet, des messages directs, des fils de discussion et des fichiers partagés, sur ordinateur et sur téléphone. Les échanges de travail restent sur votre serveur, et non dans une messagerie grand public. Les alertes de vos outils, par exemple celles de Zabbix, peuvent arriver dans un canal. |
-| ⏳ à relire | `services.items.4.sections.3.title` | Где они работают | Où ils tournent |
-| ⏳ à relire | `services.items.4.sections.3.list.0` | У вас: на сервере, установленном в вашем помещении. Сотрудники на месте продолжают работать, когда интернет отключён. | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.4.sections.3.list.1` | У нас: на сервере, который арендует и обслуживает Chantrea Systems. Страна: [À COMPLÉTER PAR STEFAN : pays]. | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
-| ⏳ à relire | `services.items.4.sections.3.list.2` | В облаке: у крупного хостинг-провайдера, на аккаунте, оформленном на вас. | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.4.sections.3.list.3` | В любом случае вы знаете, в какой стране находятся ваши данные. | Dans tous les cas, vous savez dans quel pays sont vos données. |
-| ⏳ à relire | `services.items.4.sections.4.title` | Модули Odoo, сделанные для вас | Des modules Odoo faits pour vous |
-| ⏳ à relire | `services.items.4.sections.4.text` | Когда Odoo не делает того, что вам нужно, я разрабатываю модуль на заказ: отчёт, счёт в вашем формате, связь с другой программой. Сначала я проверяю, не подойдёт ли уже существующий модуль: так для вас дешевле. | Quand Odoo ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
-| ⏳ à relire | `services.items.4.sections.4.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.4.sections.4.link.label` | Разработка модулей Odoo | Le développement de modules Odoo |
-| ⏳ à relire | `services.items.4.sections.5.title` | Обслуживание | L'entretien |
-| ⏳ à relire | `services.items.4.sections.5.list.0` | Резервная копия каждую ночь, с копией во втором месте, и регулярные пробные восстановления. | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
-| ⏳ à relire | `services.items.4.sections.5.list.1` | Обновления безопасности. | Les mises à jour de sécurité. |
-| ⏳ à relire | `services.items.4.sections.5.list.2` | Переход на новые версии: с подготовкой и предварительным тестированием. | Le passage aux nouvelles versions, préparé et testé avant. |
-| ⏳ à relire | `services.items.4.sections.5.list.3` | Помощь вашим пользователям. | De l'aide pour vos utilisateurs. |
-| ⏳ à relire | `services.items.4.sections.5.list.4` | Варианты и цены: [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.4.id` | vigie | vigie |
+| ⏳ à relire | `services.items.4.parent` | security | security |
+| ⏳ à relire | `services.items.4.title` | Vigie: мониторинг уязвимостей вашего IT-парка | Vigie : la veille de sécurité de votre parc |
+| ⏳ à relire | `services.items.4.summary` | Наш портал мониторинга безопасности: уязвимости, которые действительно касаются программ на ваших компьютерах, по приоритету и с напоминаниями. Бесплатно для наших клиентов, чей парк учитывается в GLPI. | Notre portail de veille : les failles qui touchent réellement les logiciels de votre parc, classées par priorité, avec des rappels. Gratuit pour nos clients dont le parc est suivi dans GLPI. |
+| ⏳ à relire | `services.items.4.lead` | Каждый день публикуются новые уязвимости. Vigie сравнивает их с инвентаризацией вашего парка в GLPI и показывает, какие из них действительно вас касаются, в каком порядке их устранять, и напоминает, пока это не сделано. | Chaque jour, des failles de sécurité sont publiées. Vigie les compare à l'inventaire GLPI de votre parc et vous dit lesquelles vous concernent vraiment, dans quel ordre les corriger, et vous le rappelle tant que ce n'est pas fait. |
+| ⏳ à relire | `services.items.4.badges.0` | Бесплатно с GLPI | Gratuit avec GLPI |
+| ⏳ à relire | `services.items.4.badges.1` | GLPI | GLPI |
+| ⏳ à relire | `services.items.4.badges.2` | CISA KEV | CISA KEV |
+| ⏳ à relire | `services.items.4.badges.3` | NVD | NVD |
+| ⏳ à relire | `services.items.4.badges.4` | CERT-FR | CERT-FR |
+| ⏳ à relire | `services.items.4.metaTitle` | Vigie — мониторинг уязвимостей для парка в GLPI — Chantrea Systems | Vigie, veille de sécurité pour votre parc GLPI — Chantrea Systems |
+| ⏳ à relire | `services.items.4.metaDescription` | Vigie сравнивает инвентаризацию GLPI вашего парка с опубликованными уязвимостями: приоритеты, напоминания по e-mail, в Slack или заявкой GLPI. Бесплатно для наших клиентов GLPI. | Vigie compare l'inventaire GLPI de votre parc aux failles publiées : priorités, rappels par e-mail, Slack ou ticket GLPI. Gratuit pour nos clients GLPI. |
+| ⏳ à relire | `services.items.4.gallery.title` | Скриншоты | En images |
+| ⏳ à relire | `services.items.4.gallery.note` | Снимки от 25 ноября 2026 года на демонстрационной базе: клиенты и компьютеры вымышлены; уязвимости и новости — реальные публичные данные того дня. | Captures du 25 novembre 2026 sur une base de démonstration : clients et postes fictifs ; les failles et les actualités sont les données publiques réelles du jour. |
+| ⏳ à relire | `services.items.4.gallery.enlarge` | увеличить изображение | agrandir l'image |
+| ⏳ à relire | `services.items.4.gallery.captions.expositions` | Уязвимости, затрагивающие парк клиента, с приоритетами от P1 до P4, сгруппированные по программе и версии. | Les failles qui touchent le parc d'un client, classées de P1 à P4 et regroupées par logiciel et version. |
+| ⏳ à relire | `services.items.4.gallery.captions.alertes` | Общая лента: свежие уязвимости из всех источников; эксплуатируемые выделены. | La veille commune : les failles récentes de toutes les sources ; celles qui sont exploitées ressortent. |
+| ⏳ à relire | `services.items.4.gallery.captions.exposition` | Одна уязвимость — от публикации до компьютеров: здесь WinRAR, эксплуатируемая по данным CISA, на трёх компьютерах. | Une faille, de la publication aux postes : ici WinRAR, exploitée selon la CISA, sur trois postes. |
+| ⏳ à relire | `services.items.4.gallery.captions.synthese` | Сводка по клиенту: открытые уязвимости по приоритетам, машины, программы, последняя инвентаризация. | La synthèse d'un client : failles ouvertes par priorité, machines, logiciels, dernier inventaire. |
+| ⏳ à relire | `services.items.4.gallery.captions.logiciels` | Все установленные программы, включая устаревшие версии. | Tous les logiciels installés, obsolètes compris, avec leurs versions. |
+| ⏳ à relire | `services.items.4.gallery.captions.actualites` | Публикации CERT-FR, CISA и NCSC — в переводе и с кратким изложением. | Les publications du CERT-FR, de la CISA et du NCSC, traduites et résumées. |
+| ⏳ à relire | `services.items.4.gallery.captions.notifications` | Правила оповещений клиента: какие события, до какого приоритета, по e-mail или в Slack. | Les règles d'alerte d'un client : quels événements, jusqu'à quelle priorité, par e-mail ou Slack. |
+| ⏳ à relire | `services.items.4.gallery.captions.mobile` | Те же экраны на телефоне. | Les mêmes écrans sur téléphone. |
+| ⏳ à relire | `services.items.4.sections.0.title` | Бесплатно для наших клиентов GLPI | Gratuit pour nos clients GLPI |
+| ⏳ à relire | `services.items.4.sections.0.text` | Vigie предоставляется бесплатно всем клиентам Chantrea Systems, чей парк учитывается в GLPI. Он дополняет инвентаризацию: GLPI показывает, что у вас есть, а Vigie — что из этого представляет проблему. | Vigie est inclus sans frais pour tous les clients de Chantrea Systems dont le parc est suivi dans GLPI. Il prolonge l'inventaire : GLPI dit ce que vous avez, Vigie dit ce qui pose problème. |
+| ⏳ à relire | `services.items.4.sections.1.title` | От мониторинга до напоминания | De la veille au rappel |
+| ⏳ à relire | `services.items.4.sections.1.cards.0.title` | Следить | Veiller |
+| ⏳ à relire | `services.items.4.sections.1.cards.0.text` | Каждый день Vigie читает публичные источники: опубликованные и эксплуатируемые уязвимости, бюллетени разработчиков и дистрибутивов Linux. | Vigie lit chaque jour les sources publiques : failles publiées, failles exploitées, avis des éditeurs et des distributions Linux. |
+| ⏳ à relire | `services.items.4.sections.1.cards.1.title` | Инвентаризировать | Inventorier |
+| ⏳ à relire | `services.items.4.sections.1.cards.1.text` | Парк каждого клиента поступает из GLPI или напрямую от GLPI Agent: все программы с их версиями. | Le parc de chaque client arrive de GLPI, ou directement de GLPI Agent : tous les logiciels, avec leur version. |
+| ⏳ à relire | `services.items.4.sections.1.cards.2.title` | Сопоставлять | Rapprocher |
+| ⏳ à relire | `services.items.4.sections.1.cards.2.text` | Каждая установленная версия сравнивается с уязвимыми версиями: остаются только уязвимости, касающиеся вашего парка. | Chaque version installée est comparée aux versions touchées : seules les failles qui concernent votre parc sont retenues. |
+| ⏳ à relire | `services.items.4.sections.1.cards.3.title` | Напоминать | Rappeler |
+| ⏳ à relire | `services.items.4.sections.1.cards.3.text` | Оповещение по e-mail, в Slack или заявкой GLPI и напоминания, пока уязвимость остаётся открытой. | Une alerte par e-mail, Slack ou ticket GLPI, et des rappels tant que la faille reste ouverte. |
+| ⏳ à relire | `services.items.4.sections.2.title` | Понятные приоритеты | Des priorités claires |
+| ⏳ à relire | `services.items.4.sections.2.text` | Каждая уязвимость получает приоритет от P1 до P4 по трём критериям: эксплуатируется ли она уже (каталог KEV от CISA), насколько она серьёзна и сколько машин она затрагивает. Вы знаете, с чего начать. | Chaque faille est classée de P1 à P4 selon trois critères : est-elle déjà exploitée (catalogue KEV de la CISA), quelle est sa gravité, et combien de machines elle touche. Vous savez par quoi commencer. |
+| ⏳ à relire | `services.items.4.sections.3.title` | Источники | Les sources suivies |
+| ⏳ à relire | `services.items.4.sections.3.list.0` | Каталог эксплуатируемых уязвимостей CISA (KEV). | Le catalogue des failles exploitées de la CISA (KEV). |
+| ⏳ à relire | `services.items.4.sections.3.list.1` | Американская национальная база уязвимостей (NVD). | La base américaine des vulnérabilités publiées (NVD). |
+| ⏳ à relire | `services.items.4.sections.3.list.2` | Бюллетени безопасности Microsoft. | Les avis de sécurité de Microsoft. |
+| ⏳ à relire | `services.items.4.sections.3.list.3` | Бюллетени Red Hat, Ubuntu и Debian. | Les avis de Red Hat, Ubuntu et Debian. |
+| ⏳ à relire | `services.items.4.sections.3.list.4` | Публикации CERT-FR, CISA и NCSC в переводе и кратком изложении от модели ИИ, установленной на нашем сервере. | Les publications du CERT-FR, de la CISA et du NCSC, traduites et résumées par un modèle d'IA installé sur notre serveur. |
+| ⏳ à relire | `services.items.4.sections.4.title` | Оповещения и контроль | Alertes et suivi |
+| ⏳ à relire | `services.items.4.sections.4.list.0` | Оповещение, как только серьёзная уязвимость затрагивает ваш парк. | Une alerte dès qu'une faille grave touche votre parc. |
+| ⏳ à relire | `services.items.4.sections.4.list.1` | Регулярная сводка всего, что остаётся открытым. | Un récapitulatif régulier de tout ce qui reste ouvert. |
+| ⏳ à relire | `services.items.4.sections.4.list.2` | Повторное напоминание, если серьёзная уязвимость долго не устраняется. | Une relance quand une faille grave traîne. |
+| ⏳ à relire | `services.items.4.sections.4.list.3` | Заявка в GLPI по желанию — и Vigie следит за её статусом. | Un ticket GLPI si vous le souhaitez, et Vigie en suit l'état. |
+| ⏳ à relire | `services.items.4.sections.4.list.4` | Для каждой уязвимости: принять в работу, отметить как ложное срабатывание или принять риск — с записью в журнале. | Pour chaque faille : la prendre en compte, la déclarer faux positif ou accepter le risque, avec une trace. |
+| ⏳ à relire | `services.items.4.sections.5.title` | Ваши данные | Vos données |
+| ⏳ à relire | `services.items.4.sections.5.list.0` | Каждый клиент видит только свой парк. | Chaque client ne voit que son propre parc. |
+| ⏳ à relire | `services.items.4.sections.5.list.1` | Инвентаризация вашего парка не отправляется ни в какие внешние сервисы. | L'inventaire de votre parc n'est envoyé à aucun service extérieur. |
+| ⏳ à relire | `services.items.4.sections.5.list.2` | Двухфакторная аутентификация обязательна для наших специалистов. | Double authentification obligatoire pour nos techniciens. |
+| ⏳ à relire | `services.items.4.sections.5.list.3` | Каждое важное действие записывается в журнал. | Chaque action sensible est enregistrée dans un journal. |
+| ⏳ à relire | `services.items.4.sections.5.list.4` | Зашифрованная резервная копия каждую ночь и проверка восстановления каждую неделю. | Une sauvegarde chiffrée chaque nuit, et une restauration vérifiée chaque semaine. |
 | ⏳ à relire | `services.items.4.sections.6.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.4.sections.6.list.0` | Odoo, Nextcloud и Mattermost создаются их собственными разработчиками. Я их устанавливаю, настраиваю и адаптирую под вашу компанию. | Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs. Je les installe, je les configure et je les adapte à votre entreprise. |
-| ⏳ à relire | `services.items.4.sections.6.list.1` | Для Odoo я беру за основу Odoo 19 Community, свободную и бесплатную версию. У Mattermost есть бесплатные и платные версии: я честно скажу, хватит ли вам бесплатной. | Pour Odoo, je pars d'Odoo 19 Community, la version libre et gratuite. Mattermost existe en versions gratuites et payantes : je vous dis franchement si la version gratuite vous suffit. |
-| ⏳ à relire | `services.items.4.sections.6.list.2` | В Nextcloud уже есть свой чат. Mattermost полезен, когда команда много общается по нескольким проектам: выбираем в зависимости от того, как вы работаете. | Nextcloud a déjà sa propre messagerie. Mattermost est utile quand votre équipe échange beaucoup, sur plusieurs projets : on choisit selon votre façon de travailler. |
-| ⏳ à relire | `services.items.4.sections.6.list.3` | Новая версия Odoo выходит каждый год: переход на новую версию нужно планировать раз в два-три года. | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
-| ⏳ à relire | `services.items.4.sections.6.list.4` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.4.trademarks` | Odoo, Nextcloud и Mattermost — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Odoo, Nextcloud et Mattermost sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.5.id` | odoo-development | odoo-development |
-| ⏳ à relire | `services.items.5.parent` | development | development |
-| ⏳ à relire | `services.items.5.title` | Разработка модулей Odoo | Développement de modules Odoo |
-| ⏳ à relire | `services.items.5.summary` | Модули на заказ для Odoo: ваши экраны, документы, правила и связи с другими программами. С отдельным направлением для Камбоджи и кхмерского языка. | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
-| ⏳ à relire | `services.items.5.lead` | Odoo закрывает многие задачи, но у каждой компании свои привычки. Когда чего-то не хватает, я разрабатываю модуль, который дополняет Odoo, не меняя его исходный код. | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
-| ⏳ à relire | `services.items.5.badges.0` | Odoo 19 Community | Odoo 19 Community |
-| ⏳ à relire | `services.items.5.badges.1` | OCA | OCA |
-| ⏳ à relire | `services.items.5.badges.2` | ខ្មែរ | ខ្មែរ |
-| ⏳ à relire | `services.items.5.badges.3` | USD · KHR | USD · KHR |
-| ⏳ à relire | `services.items.5.metaTitle` | Модули Odoo на заказ в Камбодже — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
-| ⏳ à relire | `services.items.5.metaDescription` | Модули Odoo на заказ: экраны, счета и отчёты в вашем формате, автоматизация, импорт данных, связь с вашими программами. Кхмерский, доллар и риель. | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
-| ⏳ à relire | `services.items.5.sections.0.title` | Что может модуль | Ce qu'un module peut faire |
-| ⏳ à relire | `services.items.5.sections.0.list.0` | Поля, экраны и этапы, которые повторяют ваш порядок работы. | Des champs, des écrans et des étapes qui suivent votre façon de travailler. |
-| ⏳ à relire | `services.items.5.sections.0.list.1` | Коммерческие предложения, счета, квитанции и накладные в вашем формате, с вашим логотипом и реквизитами. | Des devis, factures, reçus et bons de livraison à votre format, avec votre logo et vos mentions. |
-| ⏳ à relire | `services.items.5.sections.0.list.2` | Отчёты и панели показателей по тому, что для вас важно. | Des rapports et des tableaux de bord sur ce qui compte pour vous. |
-| ⏳ à relire | `services.items.5.sections.0.list.3` | Автоматические задачи: напоминания, повторные уведомления, действия по расписанию, проверки перед подтверждением. | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
-| ⏳ à relire | `services.items.5.sections.0.list.4` | Импорт ваших данных из файлов Excel или из старой программы. | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
-| ⏳ à relire | `services.items.5.sections.0.list.5` | Связь с другими вашими программами через API: сайт, интернет-магазин, отраслевое ПО. | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
-| ⏳ à relire | `services.items.5.sections.1.title` | Уже сделано: наш собственный Odoo | Déjà réalisé : notre propre Odoo |
-| ⏳ à relire | `services.items.5.sections.1.text` | Для Chantrea Systems мы разработали собственные модули Odoo 19 Community: предложения и счета на кхмерском и английском с итогами в долларах и риелях, личный кабинет клиента на трёх языках, около 700 текстов, переведённых на кхмерский, и выезды, которые клиент подписывает на месте. | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
-| ⏳ à relire | `services.items.5.sections.1.link.page` | services/odoo | services/odoo |
-| ⏳ à relire | `services.items.5.sections.1.link.label` | Наши доработки Odoo | Voir nos modifications d'Odoo |
-| ⏳ à relire | `services.items.5.sections.2.figure` | invoice | invoice |
-| ⏳ à relire | `services.items.5.sections.3.title` | Как я работаю | Ma façon de faire |
-| ⏳ à relire | `services.items.5.sections.3.list.0` | Я разрабатываю для Odoo 19 Community — свободной и бесплатной версии Odoo. | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.3.list.1` | Сначала проверяю, не решает ли задачу сам Odoo или уже существующий модуль. Свободные модули сообщества OCA (Odoo Community Association) закрывают многие потребности. Так для вас дешевле. | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
-| ⏳ à relire | `services.items.5.sections.3.list.2` | Отдельный модуль, который не меняет код Odoo: обновления остаются возможными. | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
-| ⏳ à relire | `services.items.5.sections.3.list.3` | Проверка на копии вашей базы, с вашими реальными данными, до запуска. | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
-| ⏳ à relire | `services.items.5.sections.3.list.4` | Модуль с документацией: что он делает и как его настроить. | Un module documenté : ce qu'il fait, et comment le régler. |
-| ⏳ à relire | `services.items.5.sections.4.title` | Где работает ваш Odoo | Où tourne votre Odoo |
-| ⏳ à relire | `services.items.5.sections.4.text` | Модулям на заказ нужен Odoo, установленный на сервере: у вас, у нас или в облаке. Odoo Online — версия, которую размещает сам разработчик Odoo, — их не принимает. | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
-| ⏳ à relire | `services.items.5.sections.4.link.page` | services/business-software | services/business-software |
-| ⏳ à relire | `services.items.5.sections.4.link.label` | Установка и обслуживание Odoo | Installer et entretenir Odoo |
-| ⏳ à relire | `services.items.5.sections.5.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.5.sections.5.list.0` | Новая версия Odoo выходит каждый год. При каждом переходе на новую версию модули на заказ нужно адаптировать: это стоит учесть заранее. | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
-| ⏳ à relire | `services.items.5.sections.5.list.1` | Небольшой модуль с чёткой задачей лучше большого: с каждой новой версией меньше переделок. | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
-| ⏳ à relire | `services.items.5.sections.5.list.2` | Odoo создаётся своим разработчиком. Я не являюсь официальным партнёром разработчика Odoo. | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.5.list.3` | По вашему проекту я прямо скажу, что уже делал раньше, а что будет впервые. | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
-| ⏳ à relire | `services.items.5.trademarks` | Odoo — товарный знак своего владельца. Его упоминание не означает какого-либо партнёрства с его разработчиком. | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.6.id` | odoo-cambodia | odoo-cambodia |
-| ⏳ à relire | `services.items.6.parent` | odoo-development | odoo-development |
-| ⏳ à relire | `services.items.6.title` | Odoo на кхмерском, для Камбоджи | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.6.summary` | Отдельное направление для компаний в Камбодже: Odoo на кхмерском, документы на кхмерском или на двух языках, доллар и риель, местные правила. | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
-| ⏳ à relire | `services.items.6.lead` | Я беру за основу Odoo 19 Community, свободную и бесплатную версию Odoo, и адаптирую её к Камбодже: язык ваших сотрудников, две валюты, документы, которых ждут ваши клиенты. | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
-| ⏳ à relire | `services.items.6.badges.0` | ខ្មែរ | ខ្មែរ |
-| ⏳ à relire | `services.items.6.badges.1` | English | English |
-| ⏳ à relire | `services.items.6.badges.2` | USD $ | USD $ |
-| ⏳ à relire | `services.items.6.badges.3` | KHR ៛ | KHR ៛ |
-| ⏳ à relire | `services.items.6.metaTitle` | Odoo на кхмерском для Камбоджи: доллар и риель — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
-| ⏳ à relire | `services.items.6.metaDescription` | Odoo для камбоджийских компаний: интерфейс на кхмерском, счета на кхмерском или на двух языках, доллар и риель, налоги — по согласованию с вашим бухгалтером. | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
-| ⏳ à relire | `services.items.6.sections.0.title` | Odoo на языке ваших сотрудников | Odoo dans la langue de votre équipe |
-| ⏳ à relire | `services.items.6.sections.0.text` | Odoo предлагает кхмерский в списке языков, но перевод от разработчика почти пуст: в Odoo 19 на кхмерский переведено меньше одного текста из десяти в приложениях «Продажи», «Бухгалтерия», «Склад» и «Точка продаж». Я дополняю перевод тех экранов, которыми ваши сотрудники действительно пользуются, и ваши модули на заказ тоже переводятся. Каждый пользователь выбирает свой язык: кхмерский, английский или другой. | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre. |
-| ⏳ à relire | `services.items.6.sections.1.title` | Документы на кхмерском | Des documents en khmer |
-| ⏳ à relire | `services.items.6.sections.1.list.0` | Коммерческие предложения, счета, квитанции и накладные на кхмерском или на двух языках, кхмерском и английском. | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
-| ⏳ à relire | `services.items.6.sections.1.list.1` | Кхмерские шрифты, которые правильно отображаются и печатаются, в том числе в PDF. | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
+| ⏳ à relire | `services.items.4.sections.6.list.0` | Vigie — не сканер уязвимостей: он сравнивает установленные версии с опубликованными уязвимостями. Ещё не опубликованная уязвимость или неверно определённая программа могут остаться незамеченными. | Vigie n'est pas un scanner de vulnérabilités : il compare les versions installées aux failles publiées. Une faille pas encore publiée, ou un logiciel mal identifié, peut lui échapper. |
+| ⏳ à relire | `services.items.4.sections.6.list.1` | Приложения Windows и macOS сопоставляются с их продуктом: Vigie предлагает соответствие, мы его проверяем. | Les applications Windows et macOS sont reliées à leur produit : Vigie propose la correspondance, nous la vérifions. |
+| ⏳ à relire | `services.items.4.sections.6.list.2` | Vigie ничего не исправляет сам: он говорит, что обновить и в каком порядке. Обновления затем выполняются вместе с вами. | Vigie ne corrige rien tout seul : il dit quoi mettre à jour et dans quel ordre. Les mises à jour se font ensuite, avec vous. |
+| ⏳ à relire | `services.items.4.sections.6.list.3` | Vigie — программа Chantrea Systems. Она разработана и протестирована; ввод в эксплуатацию готовится. | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
+| ⏳ à relire | `services.items.4.trademarks` | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian и Slack — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian et Slack sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.5.id` | business-software | business-software |
+| ⏳ à relire | `services.items.5.parent` | infrastructure | infrastructure |
+| ⏳ à relire | `services.items.5.title` | Odoo, Nextcloud и Mattermost | Odoo, Nextcloud et Mattermost |
+| ⏳ à relire | `services.items.5.summary` | Управление компанией, общие файлы и переписка команды — на свободном ПО. Установка у вас, у нас или в облаке. | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
+| ⏳ à relire | `services.items.5.lead` | Я устанавливаю, настраиваю под вас и обслуживаю Odoo, Nextcloud и Mattermost. Вы выбираете, где они работают, а ваши данные остаются вашими. | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.5.badges.0` | Odoo | Odoo |
+| ⏳ à relire | `services.items.5.badges.1` | Nextcloud | Nextcloud |
+| ⏳ à relire | `services.items.5.badges.2` | Mattermost | Mattermost |
+| ⏳ à relire | `services.items.5.metaTitle` | Odoo, Nextcloud и Mattermost в Камбодже — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
+| ⏳ à relire | `services.items.5.metaDescription` | Установка, модули на заказ и обслуживание Odoo (управление), Nextcloud (частное облако) и Mattermost (командный мессенджер). У вас или в облаке. | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
+| ⏳ à relire | `services.items.5.sections.0.title` | Odoo — для управления компанией | Odoo, pour gérer l'entreprise |
+| ⏳ à relire | `services.items.5.sections.0.text` | Клиенты, коммерческие предложения, продажи, счета, закупки, склад, проекты: одна программа, отдельное приложение под каждую задачу. Начинаем с того, что вам действительно нужно, остальное добавляем позже. | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
+| ⏳ à relire | `services.items.5.sections.1.title` | Nextcloud — для ваших файлов и вашей команды | Nextcloud, pour vos fichiers et votre équipe |
+| ⏳ à relire | `services.items.5.sections.1.text` | Общие документы, календари и контакты — на компьютере и на телефоне, с чатом и видеозвонками для команды. Как у крупных онлайн-сервисов, но на сервере, который выбираете вы. | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
+| ⏳ à relire | `services.items.5.sections.2.title` | Mattermost — для переписки команды | Mattermost, pour la messagerie de l'équipe |
+| ⏳ à relire | `services.items.5.sections.2.text` | Каналы по командам или по проектам, личные сообщения, обсуждения в ветках и общие файлы — на компьютере и на телефоне. Рабочая переписка остаётся на вашем сервере, а не в массовом мессенджере. Оповещения ваших систем, например Zabbix, могут приходить в отдельный канал. | Des canaux par équipe ou par projet, des messages directs, des fils de discussion et des fichiers partagés, sur ordinateur et sur téléphone. Les échanges de travail restent sur votre serveur, et non dans une messagerie grand public. Les alertes de vos outils, par exemple celles de Zabbix, peuvent arriver dans un canal. |
+| ⏳ à relire | `services.items.5.sections.3.title` | Где они работают | Où ils tournent |
+| ⏳ à relire | `services.items.5.sections.3.list.0` | У вас: на сервере, установленном в вашем помещении. Сотрудники на месте продолжают работать, когда интернет отключён. | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.5.sections.3.list.1` | У нас: на сервере, который арендует и обслуживает Chantrea Systems. Страна: [À COMPLÉTER PAR STEFAN : pays]. | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
+| ⏳ à relire | `services.items.5.sections.3.list.2` | В облаке: у крупного хостинг-провайдера, на аккаунте, оформленном на вас. | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.5.sections.3.list.3` | В любом случае вы знаете, в какой стране находятся ваши данные. | Dans tous les cas, vous savez dans quel pays sont vos données. |
+| ⏳ à relire | `services.items.5.sections.4.title` | Модули Odoo, сделанные для вас | Des modules Odoo faits pour vous |
+| ⏳ à relire | `services.items.5.sections.4.text` | Когда Odoo не делает того, что вам нужно, я разрабатываю модуль на заказ: отчёт, счёт в вашем формате, связь с другой программой. Сначала я проверяю, не подойдёт ли уже существующий модуль: так для вас дешевле. | Quand Odoo ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
+| ⏳ à relire | `services.items.5.sections.4.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.5.sections.4.link.label` | Разработка модулей Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.5.sections.5.title` | Обслуживание | L'entretien |
+| ⏳ à relire | `services.items.5.sections.5.list.0` | Резервная копия каждую ночь, с копией во втором месте, и регулярные пробные восстановления. | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
+| ⏳ à relire | `services.items.5.sections.5.list.1` | Обновления безопасности. | Les mises à jour de sécurité. |
+| ⏳ à relire | `services.items.5.sections.5.list.2` | Переход на новые версии: с подготовкой и предварительным тестированием. | Le passage aux nouvelles versions, préparé et testé avant. |
+| ⏳ à relire | `services.items.5.sections.5.list.3` | Помощь вашим пользователям. | De l'aide pour vos utilisateurs. |
+| ⏳ à relire | `services.items.5.sections.5.list.4` | Варианты и цены: [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.5.sections.6.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.5.sections.6.list.0` | Odoo, Nextcloud и Mattermost создаются их собственными разработчиками. Я их устанавливаю, настраиваю и адаптирую под вашу компанию. | Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs. Je les installe, je les configure et je les adapte à votre entreprise. |
+| ⏳ à relire | `services.items.5.sections.6.list.1` | Для Odoo я беру за основу Odoo 19 Community, свободную и бесплатную версию. У Mattermost есть бесплатные и платные версии: я честно скажу, хватит ли вам бесплатной. | Pour Odoo, je pars d'Odoo 19 Community, la version libre et gratuite. Mattermost existe en versions gratuites et payantes : je vous dis franchement si la version gratuite vous suffit. |
+| ⏳ à relire | `services.items.5.sections.6.list.2` | В Nextcloud уже есть свой чат. Mattermost полезен, когда команда много общается по нескольким проектам: выбираем в зависимости от того, как вы работаете. | Nextcloud a déjà sa propre messagerie. Mattermost est utile quand votre équipe échange beaucoup, sur plusieurs projets : on choisit selon votre façon de travailler. |
+| ⏳ à relire | `services.items.5.sections.6.list.3` | Новая версия Odoo выходит каждый год: переход на новую версию нужно планировать раз в два-три года. | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
+| ⏳ à relire | `services.items.5.sections.6.list.4` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.5.trademarks` | Odoo, Nextcloud и Mattermost — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Odoo, Nextcloud et Mattermost sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.6.id` | odoo-development | odoo-development |
+| ⏳ à relire | `services.items.6.parent` | development | development |
+| ⏳ à relire | `services.items.6.title` | Разработка модулей Odoo | Développement de modules Odoo |
+| ⏳ à relire | `services.items.6.summary` | Модули на заказ для Odoo: ваши экраны, документы, правила и связи с другими программами. С отдельным направлением для Камбоджи и кхмерского языка. | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
+| ⏳ à relire | `services.items.6.lead` | Odoo закрывает многие задачи, но у каждой компании свои привычки. Когда чего-то не хватает, я разрабатываю модуль, который дополняет Odoo, не меняя его исходный код. | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
+| ⏳ à relire | `services.items.6.badges.0` | Odoo 19 Community | Odoo 19 Community |
+| ⏳ à relire | `services.items.6.badges.1` | OCA | OCA |
+| ⏳ à relire | `services.items.6.badges.2` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.6.badges.3` | USD · KHR | USD · KHR |
+| ⏳ à relire | `services.items.6.metaTitle` | Модули Odoo на заказ в Камбодже — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
+| ⏳ à relire | `services.items.6.metaDescription` | Модули Odoo на заказ: экраны, счета и отчёты в вашем формате, автоматизация, импорт данных, связь с вашими программами. Кхмерский, доллар и риель. | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
+| ⏳ à relire | `services.items.6.sections.0.title` | Что может модуль | Ce qu'un module peut faire |
+| ⏳ à relire | `services.items.6.sections.0.list.0` | Поля, экраны и этапы, которые повторяют ваш порядок работы. | Des champs, des écrans et des étapes qui suivent votre façon de travailler. |
+| ⏳ à relire | `services.items.6.sections.0.list.1` | Коммерческие предложения, счета, квитанции и накладные в вашем формате, с вашим логотипом и реквизитами. | Des devis, factures, reçus et bons de livraison à votre format, avec votre logo et vos mentions. |
+| ⏳ à relire | `services.items.6.sections.0.list.2` | Отчёты и панели показателей по тому, что для вас важно. | Des rapports et des tableaux de bord sur ce qui compte pour vous. |
+| ⏳ à relire | `services.items.6.sections.0.list.3` | Автоматические задачи: напоминания, повторные уведомления, действия по расписанию, проверки перед подтверждением. | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
+| ⏳ à relire | `services.items.6.sections.0.list.4` | Импорт ваших данных из файлов Excel или из старой программы. | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
+| ⏳ à relire | `services.items.6.sections.0.list.5` | Связь с другими вашими программами через API: сайт, интернет-магазин, отраслевое ПО. | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
+| ⏳ à relire | `services.items.6.sections.1.title` | Уже сделано: наш собственный Odoo | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.6.sections.1.text` | Для Chantrea Systems мы разработали собственные модули Odoo 19 Community: предложения и счета на кхмерском и английском с итогами в долларах и риелях, личный кабинет клиента на трёх языках, около 700 текстов, переведённых на кхмерский, и выезды, которые клиент подписывает на месте. | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.6.sections.1.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.6.sections.1.link.label` | Наши доработки Odoo | Voir nos modifications d'Odoo |
 | ⏳ à relire | `services.items.6.sections.2.figure` | invoice | invoice |
-| ⏳ à relire | `services.items.6.sections.3.title` | Доллар и риель | Dollar et riel |
-| ⏳ à relire | `services.items.6.sections.3.text` | В Камбодже цены часто указывают в долларах, а оплату принимают и в риелях. Odoo работает с несколькими валютами; я настраиваю его под ваш порядок работы: цены в долларах, итог в риелях в счёте и курс, который выбираете вы. | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
-| ⏳ à relire | `services.items.6.sections.4.title` | Местные правила | Les règles locales |
-| ⏳ à relire | `services.items.6.sections.4.text` | НДС, нумерация счетов, обязательные реквизиты, отчёты для вашего бухгалтера: я внедряю в Odoo правила, которые согласовал ваш бухгалтер. Я разрабатываю программу, а что требует закон, говорит ваш бухгалтер. | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
-| ⏳ à relire | `services.items.6.sections.5.title` | Уже сделано: наш собственный Odoo | Déjà réalisé : notre propre Odoo |
-| ⏳ à relire | `services.items.6.sections.5.text` | Для Chantrea Systems мы разработали собственные модули Odoo 19 Community: предложения и счета на кхмерском и английском с итогами в долларах и риелях, личный кабинет клиента на трёх языках, около 700 текстов, переведённых на кхмерский, и выезды, которые клиент подписывает на месте. | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
-| ⏳ à relire | `services.items.6.sections.5.link.page` | services/odoo | services/odoo |
-| ⏳ à relire | `services.items.6.sections.5.link.label` | Наши доработки Odoo | Voir nos modifications d'Odoo |
-| ⏳ à relire | `services.items.6.sections.6.title` | К сертифицированному кхмерскому переводу | Vers une traduction khmère certifiée |
-| ⏳ à relire | `services.items.6.sections.6.text` | Наши тексты на кхмерском переведены с помощью ИИ и ещё не проверены. Мы добиваемся сертификации всех этих переводов камбоджийскими властями. Сейчас они не сертифицированы. | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
-| ⏳ à relire | `services.items.6.sections.7.title` | В разработке | En cours de développement |
-| ⏳ à relire | `services.items.6.sections.7.text` | Эти функции готовятся и пока недоступны: | Ces fonctions sont en préparation, et pas encore disponibles : |
-| ⏳ à relire | `services.items.6.sections.7.list.0` | Даты и цифры на кхмерском в документах. | Les dates et les chiffres en khmer sur les documents. |
-| ⏳ à relire | `services.items.6.sections.7.list.1` | Касса (точка продаж Odoo), принимающая доллары и риели. | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
-| ⏳ à relire | `services.items.6.sections.7.list.2` | Оплата по QR-коду KHQR. | Le paiement par QR code KHQR. |
-| ⏳ à relire | `services.items.6.sections.8.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.6.sections.8.list.0` | Перевод на кхмерский готовится с помощью ИИ, затем до запуска его проверяет сотрудник вашей компании, владеющий кхмерским. | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
-| ⏳ à relire | `services.items.6.sections.8.list.1` | Связь с онлайн-сервисами госорганов или банков изучается в каждом случае отдельно. | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
-| ⏳ à relire | `services.items.6.sections.8.list.2` | Я не выдаю никаких сертификатов и налоговых разрешений. | Je ne délivre aucune certification ni agrément fiscal. |
-| ⏳ à relire | `services.items.6.sections.8.list.3` | Перед решением проверяем на ваших реальных документах. | On teste sur vos vrais documents avant de décider. |
+| ⏳ à relire | `services.items.6.sections.3.title` | Как я работаю | Ma façon de faire |
+| ⏳ à relire | `services.items.6.sections.3.list.0` | Я разрабатываю для Odoo 19 Community — свободной и бесплатной версии Odoo. | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
+| ⏳ à relire | `services.items.6.sections.3.list.1` | Сначала проверяю, не решает ли задачу сам Odoo или уже существующий модуль. Свободные модули сообщества OCA (Odoo Community Association) закрывают многие потребности. Так для вас дешевле. | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
+| ⏳ à relire | `services.items.6.sections.3.list.2` | Отдельный модуль, который не меняет код Odoo: обновления остаются возможными. | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
+| ⏳ à relire | `services.items.6.sections.3.list.3` | Проверка на копии вашей базы, с вашими реальными данными, до запуска. | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
+| ⏳ à relire | `services.items.6.sections.3.list.4` | Модуль с документацией: что он делает и как его настроить. | Un module documenté : ce qu'il fait, et comment le régler. |
+| ⏳ à relire | `services.items.6.sections.4.title` | Где работает ваш Odoo | Où tourne votre Odoo |
+| ⏳ à relire | `services.items.6.sections.4.text` | Модулям на заказ нужен Odoo, установленный на сервере: у вас, у нас или в облаке. Odoo Online — версия, которую размещает сам разработчик Odoo, — их не принимает. | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
+| ⏳ à relire | `services.items.6.sections.4.link.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.6.sections.4.link.label` | Установка и обслуживание Odoo | Installer et entretenir Odoo |
+| ⏳ à relire | `services.items.6.sections.5.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.6.sections.5.list.0` | Новая версия Odoo выходит каждый год. При каждом переходе на новую версию модули на заказ нужно адаптировать: это стоит учесть заранее. | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
+| ⏳ à relire | `services.items.6.sections.5.list.1` | Небольшой модуль с чёткой задачей лучше большого: с каждой новой версией меньше переделок. | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
+| ⏳ à relire | `services.items.6.sections.5.list.2` | Odoo создаётся своим разработчиком. Я не являюсь официальным партнёром разработчика Odoo. | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
+| ⏳ à relire | `services.items.6.sections.5.list.3` | По вашему проекту я прямо скажу, что уже делал раньше, а что будет впервые. | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
 | ⏳ à relire | `services.items.6.trademarks` | Odoo — товарный знак своего владельца. Его упоминание не означает какого-либо партнёрства с его разработчиком. | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.7.id` | odoo | odoo |
-| ⏳ à relire | `services.items.7.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.7.title` | Odoo: управление вашей компанией | Odoo : la gestion de votre entreprise |
-| ⏳ à relire | `services.items.7.summary` | Продажи, счета, закупки, склад, касса, проекты: Odoo 19 Community — свободная и бесплатная версия Odoo, установленная и адаптированная к камбоджийскому рынку. | Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien. |
-| ⏳ à relire | `services.items.7.lead` | Odoo объединяет в одной программе приложения для управления компанией. Я беру за основу Odoo 19 Community, свободную и бесплатную версию, и адаптирую её к вашей компании и к Камбодже: кхмерский язык, доллар и риель, ваши документы. | Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents. |
-| ⏳ à relire | `services.items.7.metaTitle` | Odoo 19 Community в Камбодже, на кхмерском — Chantrea Systems | Odoo 19 Community au Cambodge, en khmer — Chantrea Systems |
-| ⏳ à relire | `services.items.7.metaDescription` | Odoo 19 Community — свободная и бесплатная программа для управления: продажи, счета, закупки, склад, касса, CRM. Для Камбоджи: кхмерский, доллар и риель. | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
-| ⏳ à relire | `services.items.7.sections.0.title` | Что делает Odoo | Ce que fait Odoo |
-| ⏳ à relire | `services.items.7.sections.0.text` | Odoo — программа для управления компанией (ERP). Для каждой задачи есть своё приложение, и все они используют одни и те же данные: принятое коммерческое предложение становится заказом, по заказу товар списывается со склада, а затем заказ превращается в счёт. Вы начинаете с одного-двух приложений и добавляете остальные позже. | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
-| ⏳ à relire | `services.items.7.sections.0.flow.0` | Предложение | Devis |
-| ⏳ à relire | `services.items.7.sections.0.flow.1` | Заказ | Commande |
-| ⏳ à relire | `services.items.7.sections.0.flow.2` | Склад | Stock |
-| ⏳ à relire | `services.items.7.sections.0.flow.3` | Счёт | Facture |
-| ⏳ à relire | `services.items.7.sections.0.list.0` | Клиенты и потенциальные клиенты (CRM): учёт каждого контакта и каждой сделки. | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
-| ⏳ à relire | `services.items.7.sections.0.list.1` | Продажи: коммерческие предложения, заказы, счета. | Ventes : devis, commandes, factures. |
-| ⏳ à relire | `services.items.7.sections.0.list.2` | Закупки: запросы цен и заказы поставщикам. | Achats : demandes de prix et commandes aux fournisseurs. |
-| ⏳ à relire | `services.items.7.sections.0.list.3` | Склад: поступления, отгрузки, инвентаризации, несколько складов. | Stock : entrées, sorties, inventaires, plusieurs entrepôts. |
-| ⏳ à relire | `services.items.7.sections.0.list.4` | Точка продаж: касса для магазина или ресторана. | Point de vente : une caisse pour une boutique ou un restaurant. |
-| ⏳ à relire | `services.items.7.sections.0.list.5` | Проекты и табели учёта рабочего времени. | Projets et feuilles de temps. |
-| ⏳ à relire | `services.items.7.sections.0.list.6` | Сайт и интернет-магазин. | Site web et boutique en ligne. |
-| ⏳ à relire | `services.items.7.sections.0.list.7` | Сотрудники, отпуска и отчёты о расходах. | Employés, congés et notes de frais. |
-| ⏳ à relire | `services.items.7.sections.1.title` | Почему Odoo 19 Community | Pourquoi Odoo 19 Community |
-| ⏳ à relire | `services.items.7.sections.1.list.0` | Это свободная версия Odoo (лицензия LGPL v3): не нужно платить разработчику подписку за каждого пользователя. | C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.1.list.1` | Её код открыт: её можно адаптировать модулями на заказ, установленными на вашем сервере. | Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur. |
-| ⏳ à relire | `services.items.7.sections.1.list.2` | Ваши данные хранятся в базе, которую контролируете вы. | Vos données sont dans une base que vous contrôlez. |
-| ⏳ à relire | `services.items.7.sections.2.title` | Чего нет в бесплатной версии | Ce que la version gratuite n'a pas |
-| ⏳ à relire | `services.items.7.sections.2.text` | Некоторые приложения есть только в платной версии, Odoo Enterprise. Например, полноценная бухгалтерия: в Community есть выставление счетов (счета и платежи), а свободные модули сообщества OCA (Odoo Community Association) добавляют бухгалтерские функции — в зависимости от того, доступны ли они для версии 19. Odoo Studio, инструмент для изменения Odoo без программирования, тоже есть только в Enterprise: в Community такие изменения делаются модулями на заказ. Если однажды вам понадобится Enterprise, можно перейти на эту версию. | Certaines applications sont réservées à la version payante, Odoo Enterprise. Par exemple la comptabilité complète : Community a la facturation (factures et paiements), et des modules libres de la communauté OCA (Odoo Community Association) ajoutent des fonctions comptables, selon leur disponibilité pour la version 19. Odoo Studio, l'outil pour modifier Odoo sans programmer, est aussi réservé à Enterprise : avec Community, ces changements se font par des modules sur mesure. Si un jour vous avez besoin d'Enterprise, on peut changer de version. |
-| ⏳ à relire | `services.items.7.sections.3.title` | Адаптирован к камбоджийскому рынку | Adapté au marché cambodgien |
-| ⏳ à relire | `services.items.7.sections.3.text` | Odoo предлагает кхмерский в списке языков, но перевод от разработчика почти пуст: в Odoo 19 на кхмерский переведено меньше одного текста из десяти в приложениях «Продажи», «Бухгалтерия», «Склад» и «Точка продаж». Я дополняю перевод экранов, которыми пользуется ваша команда, и адаптирую документы, работу с долларом и риелем и местные правила. | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
-| ⏳ à relire | `services.items.7.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
-| ⏳ à relire | `services.items.7.sections.3.link.label` | Odoo на кхмерском, для Камбоджи | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.7.sections.4.title` | Наши доработки Odoo | Nos modifications d'Odoo |
-| ⏳ à relire | `services.items.7.sections.4.text` | Для Chantrea Systems мы создали собственный Odoo 19 Community, адаптированный к Камбодже. Всё сделано в отдельных модулях: код Odoo и модулей OCA никогда не изменяется, а автоматические тесты проверяют каждое изменение. | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.title` | Камбоджийские предложения и счета | Devis et factures cambodgiens |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.0` | Печатаются на кхмерском, английский — сразу под ним. | Imprimés en khmer, avec l'anglais juste en dessous. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.1` | Итоги в долларах США и в риелях. | Total en dollars et en riels. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.2` | Официальный курс USD/KHR каждый день загружается из Главного налогового управления (GDT) или Национального банка Камбоджи и фиксируется в счёте при его проведении. | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.3` | Счёт с НДС или коммерческий счёт, с единой нумерацией. | Facture de TVA ou facture commerciale, avec une seule numérotation. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.title` | Личный кабинет клиента на трёх языках | Un espace client en trois langues |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.0` | На кхмерском, английском или французском — на языке клиента. | En khmer, en anglais ou en français, dans la langue du client. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.1` | Заявки в поддержку, предложения, счета, договоры и оборудование. | Demandes d'assistance, devis, factures, contrats et matériel. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.2` | Каждый клиент видит только данные своей компании. | Chaque client ne voit que les données de sa société. |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.title` | Odoo на кхмерском для клиентов | Odoo en khmer pour les clients |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.list.0` | Около 700 текстов: документы, страницы кабинета, письма. | Environ 700 textes : documents, pages de l'espace client, courriels. |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.list.1` | Тексты Odoo и модулей OCA, которые видят клиенты, в оригинале почти или совсем не переведённые. | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.title` | Выезды и оборудование | Interventions et parc matériel |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.0` | Клиент подписывает работу на месте, на планшете или телефоне. | Le client signe l'intervention sur place, sur tablette ou téléphone. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.1` | Отчёт о работе в PDF, на кхмерском и английском. | Rapport d'intervention en PDF, en khmer et en anglais. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.2` | Карточка каждого устройства с напоминанием до окончания гарантии. | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
-| ⏳ à relire | `services.items.7.sections.5.title` | К сертифицированному кхмерскому переводу | Vers une traduction khmère certifiée |
-| ⏳ à relire | `services.items.7.sections.5.text` | Наши тексты на кхмерском переведены с помощью ИИ и ещё не проверены. Мы добиваемся сертификации всех этих переводов камбоджийскими властями. Сейчас они не сертифицированы. | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
-| ⏳ à relire | `services.items.7.sections.6.title` | Где он работает | Où il tourne |
-| ⏳ à relire | `services.items.7.sections.6.list.0` | На сервере в вашем помещении: ваши сотрудники на месте продолжают работать, когда интернет отключён. | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.7.sections.6.list.1` | На сервере, который арендует и обслуживает Chantrea Systems, или у крупного хостинг-провайдера, на аккаунте, оформленном на вас. | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo Online — хостинг от самого разработчика Odoo — здесь не подходит: он работает с версией Enterprise и не принимает модули на заказ. | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
-| ⏳ à relire | `services.items.7.sections.7.title` | Что я делаю для вас | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.7.sections.7.list.0` | Вместе с вами выбираю полезные приложения и те, что могут подождать. | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
-| ⏳ à relire | `services.items.7.sections.7.list.1` | Устанавливаю Odoo 19 Community и настраиваю его: ваша компания, ваши товары, ваши налоги, ваши документы. | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
-| ⏳ à relire | `services.items.7.sections.7.list.2` | Переношу ваши данные из файлов Excel или из старой программы. | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
-| ⏳ à relire | `services.items.7.sections.7.list.3` | Дополняю кхмерский перевод экранов, которыми пользуется ваша команда. | Compléter la traduction khmère des écrans que votre équipe utilise. |
-| ⏳ à relire | `services.items.7.sections.7.list.4` | Разрабатываю модули, когда чего-то не хватает. | Développer des modules quand il manque quelque chose. |
-| ⏳ à relire | `services.items.7.sections.7.list.5` | Показываю вашей команде, как с ним работать, а затем помогаю в повседневной работе. | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
-| ⏳ à relire | `services.items.7.sections.7.list.6` | Обслуживаю: резервная копия каждую ночь, обновления безопасности, переход на новые версии. | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.7.sections.7.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.7.sections.7.link.label` | Разработка модулей Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.7.id` | odoo-cambodia | odoo-cambodia |
+| ⏳ à relire | `services.items.7.parent` | odoo-development | odoo-development |
+| ⏳ à relire | `services.items.7.title` | Odoo на кхмерском, для Камбоджи | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `services.items.7.summary` | Отдельное направление для компаний в Камбодже: Odoo на кхмерском, документы на кхмерском или на двух языках, доллар и риель, местные правила. | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
+| ⏳ à relire | `services.items.7.lead` | Я беру за основу Odoo 19 Community, свободную и бесплатную версию Odoo, и адаптирую её к Камбодже: язык ваших сотрудников, две валюты, документы, которых ждут ваши клиенты. | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
+| ⏳ à relire | `services.items.7.badges.0` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.7.badges.1` | English | English |
+| ⏳ à relire | `services.items.7.badges.2` | USD $ | USD $ |
+| ⏳ à relire | `services.items.7.badges.3` | KHR ៛ | KHR ៛ |
+| ⏳ à relire | `services.items.7.metaTitle` | Odoo на кхмерском для Камбоджи: доллар и риель — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
+| ⏳ à relire | `services.items.7.metaDescription` | Odoo для камбоджийских компаний: интерфейс на кхмерском, счета на кхмерском или на двух языках, доллар и риель, налоги — по согласованию с вашим бухгалтером. | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
+| ⏳ à relire | `services.items.7.sections.0.title` | Odoo на языке ваших сотрудников | Odoo dans la langue de votre équipe |
+| ⏳ à relire | `services.items.7.sections.0.text` | Odoo предлагает кхмерский в списке языков, но перевод от разработчика почти пуст: в Odoo 19 на кхмерский переведено меньше одного текста из десяти в приложениях «Продажи», «Бухгалтерия», «Склад» и «Точка продаж». Я дополняю перевод тех экранов, которыми ваши сотрудники действительно пользуются, и ваши модули на заказ тоже переводятся. Каждый пользователь выбирает свой язык: кхмерский, английский или другой. | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre. |
+| ⏳ à relire | `services.items.7.sections.1.title` | Документы на кхмерском | Des documents en khmer |
+| ⏳ à relire | `services.items.7.sections.1.list.0` | Коммерческие предложения, счета, квитанции и накладные на кхмерском или на двух языках, кхмерском и английском. | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
+| ⏳ à relire | `services.items.7.sections.1.list.1` | Кхмерские шрифты, которые правильно отображаются и печатаются, в том числе в PDF. | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
+| ⏳ à relire | `services.items.7.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.7.sections.3.title` | Доллар и риель | Dollar et riel |
+| ⏳ à relire | `services.items.7.sections.3.text` | В Камбодже цены часто указывают в долларах, а оплату принимают и в риелях. Odoo работает с несколькими валютами; я настраиваю его под ваш порядок работы: цены в долларах, итог в риелях в счёте и курс, который выбираете вы. | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
+| ⏳ à relire | `services.items.7.sections.4.title` | Местные правила | Les règles locales |
+| ⏳ à relire | `services.items.7.sections.4.text` | НДС, нумерация счетов, обязательные реквизиты, отчёты для вашего бухгалтера: я внедряю в Odoo правила, которые согласовал ваш бухгалтер. Я разрабатываю программу, а что требует закон, говорит ваш бухгалтер. | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
+| ⏳ à relire | `services.items.7.sections.5.title` | Уже сделано: наш собственный Odoo | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.7.sections.5.text` | Для Chantrea Systems мы разработали собственные модули Odoo 19 Community: предложения и счета на кхмерском и английском с итогами в долларах и риелях, личный кабинет клиента на трёх языках, около 700 текстов, переведённых на кхмерский, и выезды, которые клиент подписывает на месте. | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.7.sections.5.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.7.sections.5.link.label` | Наши доработки Odoo | Voir nos modifications d'Odoo |
+| ⏳ à relire | `services.items.7.sections.6.title` | К сертифицированному кхмерскому переводу | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.7.sections.6.text` | Наши тексты на кхмерском переведены с помощью ИИ и ещё не проверены. Мы добиваемся сертификации всех этих переводов камбоджийскими властями. Сейчас они не сертифицированы. | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.7.sections.7.title` | В разработке | En cours de développement |
+| ⏳ à relire | `services.items.7.sections.7.text` | Эти функции готовятся и пока недоступны: | Ces fonctions sont en préparation, et pas encore disponibles : |
+| ⏳ à relire | `services.items.7.sections.7.list.0` | Даты и цифры на кхмерском в документах. | Les dates et les chiffres en khmer sur les documents. |
+| ⏳ à relire | `services.items.7.sections.7.list.1` | Касса (точка продаж Odoo), принимающая доллары и риели. | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
+| ⏳ à relire | `services.items.7.sections.7.list.2` | Оплата по QR-коду KHQR. | Le paiement par QR code KHQR. |
 | ⏳ à relire | `services.items.7.sections.8.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.7.sections.8.list.0` | Новая версия Odoo выходит каждый год: переход на новую версию нужно планировать раз в два-три года и в этот момент адаптировать модули на заказ. | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
-| ⏳ à relire | `services.items.7.sections.8.list.1` | С версией Community поддержку оказывает ваш подрядчик: поддержка от разработчика входит в подписку Enterprise. | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
-| ⏳ à relire | `services.items.7.sections.8.list.2` | Odoo создаётся своим разработчиком, компанией Odoo SA. Я не являюсь официальным партнёром разработчика. | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.8.list.3` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.7.sections.8.list.4` | Варианты и цены: [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.7.sections.8.list.0` | Перевод на кхмерский готовится с помощью ИИ, затем до запуска его проверяет сотрудник вашей компании, владеющий кхмерским. | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
+| ⏳ à relire | `services.items.7.sections.8.list.1` | Связь с онлайн-сервисами госорганов или банков изучается в каждом случае отдельно. | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
+| ⏳ à relire | `services.items.7.sections.8.list.2` | Я не выдаю никаких сертификатов и налоговых разрешений. | Je ne délivre aucune certification ni agrément fiscal. |
+| ⏳ à relire | `services.items.7.sections.8.list.3` | Перед решением проверяем на ваших реальных документах. | On teste sur vos vrais documents avant de décider. |
 | ⏳ à relire | `services.items.7.trademarks` | Odoo — товарный знак своего владельца. Его упоминание не означает какого-либо партнёрства с его разработчиком. | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.8.id` | mattermost | mattermost |
+| ⏳ à relire | `services.items.8.id` | odoo | odoo |
 | ⏳ à relire | `services.items.8.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.8.title` | Mattermost: переписка вашей команды | Mattermost : la messagerie de votre équipe |
-| ⏳ à relire | `services.items.8.summary` | Командный мессенджер, установленный на вашем сервере: каналы, личные сообщения, ветки обсуждений, файлы и оповещения ваших систем. | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
-| ⏳ à relire | `services.items.8.lead` | Mattermost организует общение команды по каналам, как крупные корпоративные мессенджеры, но на сервере, который выбираете вы. Рабочие разговоры больше не идут через личные мессенджеры. | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
-| ⏳ à relire | `services.items.8.badges.0` | Windows | Windows |
-| ⏳ à relire | `services.items.8.badges.1` | macOS | macOS |
-| ⏳ à relire | `services.items.8.badges.2` | Linux | Linux |
-| ⏳ à relire | `services.items.8.badges.3` | Android | Android |
-| ⏳ à relire | `services.items.8.badges.4` | iPhone | iPhone |
-| ⏳ à relire | `services.items.8.metaTitle` | Mattermost в Камбодже: мессенджер для команды — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
-| ⏳ à relire | `services.items.8.metaDescription` | Mattermost — командный мессенджер на вашем сервере: каналы, личные сообщения, ветки, общие файлы, приложения для компьютера и телефона, оповещения Zabbix. | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
-| ⏳ à relire | `services.items.8.sections.0.title` | Что делает Mattermost | Ce que fait Mattermost |
-| ⏳ à relire | `services.items.8.sections.0.list.0` | Каналы по командам, по проектам или по клиентам, открытые или закрытые. | Des canaux par équipe, par projet ou par client, publics ou privés. |
-| ⏳ à relire | `services.items.8.sections.0.list.1` | Личные сообщения и групповые обсуждения. | Des messages directs et des discussions de groupe. |
-| ⏳ à relire | `services.items.8.sections.0.list.2` | Ветки обсуждений, чтобы ответить на сообщение, не загромождая канал. | Des fils de discussion, pour répondre à un message sans encombrer le canal. |
-| ⏳ à relire | `services.items.8.sections.0.list.3` | Общие файлы и изображения, поиск по сообщениям. | Des fichiers et des images partagés, et une recherche dans les messages. |
-| ⏳ à relire | `services.items.8.sections.0.list.4` | Приложения для Windows, macOS, Linux, Android и iPhone, а также версия в браузере. | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
-| ⏳ à relire | `services.items.8.sections.1.title` | Оповещения ваших систем | Les alertes de vos outils |
-| ⏳ à relire | `services.items.8.sections.1.text` | Mattermost получает сообщения от других программ через вебхуки. Оповещение мониторинга Zabbix или сообщение от ваших собственных программ приходит в канал: команда видит его и обсуждает в одном месте. | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
-| ⏳ à relire | `services.items.8.sections.1.flow.0` | Zabbix обнаруживает проблему | Zabbix détecte un problème |
-| ⏳ à relire | `services.items.8.sections.1.flow.1` | Webhook | Webhook |
-| ⏳ à relire | `services.items.8.sections.1.flow.2` | Канал «Оповещения» | Canal « alertes » |
-| ⏳ à relire | `services.items.8.sections.1.flow.3` | Команда обсуждает | L'équipe en discute |
-| ⏳ à relire | `services.items.8.sections.2.title` | Какую версию выбрать | Quelle version choisir |
-| ⏳ à relire | `services.items.8.sections.2.text` | У Mattermost есть несколько версий, и различия между ними важны. Я объясню их вам до того, как вы выберете: | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
-| ⏳ à relire | `services.items.8.sections.2.defs.0.term` | Team Edition | Team Edition |
-| ⏳ à relire | `services.items.8.sections.2.defs.0.text` | Бесплатная (лицензия MIT). Основные функции переписки, со всей историей сообщений, но функций меньше, чем в других версиях. Рассчитана на небольшие команды, которым не нужен единый вход (SSO). | Gratuite (licence MIT). L'essentiel de la messagerie, avec tout l'historique des messages, mais moins de fonctions que les autres versions. Prévue pour les petites équipes qui n'ont pas besoin de connexion unique (SSO). |
-| ⏳ à relire | `services.items.8.sections.2.defs.1.term` | Entry | Entry |
-| ⏳ à relire | `services.items.8.sections.2.defs.1.text` | Бесплатная, под коммерческой лицензией, для команд менее 50 человек. В ней есть функции платных версий, но видны и доступны для поиска только последние 10 000 сообщений во всех каналах вместе. Разработчик указывает и другие ограничения, например звонки не дольше 40 минут. | Gratuite, sous licence commerciale, pour les équipes de moins de 50 personnes. Elle a les fonctions des versions payantes, mais seuls les 10 000 derniers messages, tous canaux confondus, restent visibles et cherchables. L'éditeur annonce d'autres limites, comme des appels de 40 minutes. |
-| ⏳ à relire | `services.items.8.sections.2.defs.2.term` | Professional, Enterprise | Professional, Enterprise |
-| ⏳ à relire | `services.items.8.sections.2.defs.2.text` | Платные, по подписке. Professional добавляет, в частности, подключение к каталогу пользователей компании (AD/LDAP), единый вход (SSO), гостевые учётные записи, многофакторную аутентификацию, групповые звонки и демонстрацию экрана. Enterprise добавляет архивирование для соответствия нормативным требованиям и высокую доступность. | Payantes, par abonnement. Professional ajoute notamment la connexion à l'annuaire de l'entreprise (AD/LDAP), la connexion unique (SSO), les comptes invités, l'authentification à plusieurs facteurs, les appels de groupe et le partage d'écran. Enterprise ajoute l'archivage pour la conformité et la haute disponibilité. |
-| ⏳ à relire | `services.items.8.sections.3.title` | Mattermost или Nextcloud Talk? | Mattermost ou Nextcloud Talk ? |
-| ⏳ à relire | `services.items.8.sections.3.text` | В Nextcloud тоже есть свой мессенджер — Talk. Если вы устанавливаете Nextcloud для файлов, Talk часто бывает достаточно. Mattermost создан прежде всего для командного общения: много каналов, ветки обсуждений, связь с другими вашими инструментами. | Nextcloud a aussi sa messagerie, Talk. Si vous installez Nextcloud pour vos fichiers, Talk suffit souvent. Mattermost est pensé d'abord pour la discussion d'équipe : de nombreux canaux, des fils de discussion, des liens avec vos autres outils. |
-| ⏳ à relire | `services.items.8.sections.3.link.page` | services/nextcloud | services/nextcloud |
-| ⏳ à relire | `services.items.8.sections.3.link.label` | Подробнее о Nextcloud | Découvrir Nextcloud |
-| ⏳ à relire | `services.items.8.sections.4.title` | Что я делаю для вас | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.8.sections.4.list.0` | Вместе с вами выбираю подходящую версию. | Choisir avec vous la version qui convient. |
-| ⏳ à relire | `services.items.8.sections.4.list.1` | Устанавливаю Mattermost на выбранный сервер. | Installer Mattermost sur le serveur choisi. |
-| ⏳ à relire | `services.items.8.sections.4.list.2` | Создаю команды и каналы и приглашаю ваших пользователей. | Créer les équipes et les canaux, et inviter vos utilisateurs. |
-| ⏳ à relire | `services.items.8.sections.4.list.3` | Подключаю ваши инструменты, например оповещения Zabbix. | Relier vos outils, par exemple les alertes Zabbix. |
-| ⏳ à relire | `services.items.8.sections.4.list.4` | Устанавливаю приложения на компьютеры и телефоны. | Installer les applications sur les ordinateurs et les téléphones. |
-| ⏳ à relire | `services.items.8.sections.4.list.5` | Обслуживаю: резервная копия каждую ночь, обновления безопасности, переход на новые версии. | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.8.sections.5.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.8.sections.5.list.0` | Mattermost нет на кхмерском: его экраны доступны на английском, французском, китайском, русском — всего примерно на двадцати языках. | Mattermost n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une vingtaine de langues. |
-| ⏳ à relire | `services.items.8.sections.5.list.1` | Mattermost создаётся своим разработчиком, компанией Mattermost, Inc. Я его устанавливаю, настраиваю и обслуживаю. | Mattermost est développé par son éditeur, Mattermost, Inc. Je l'installe, je le configure et je l'entretiens. |
-| ⏳ à relire | `services.items.8.sections.5.list.2` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.8.trademarks` | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android и iPhone — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android et iPhone sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.9.id` | nextcloud | nextcloud |
+| ⏳ à relire | `services.items.8.title` | Odoo: управление вашей компанией | Odoo : la gestion de votre entreprise |
+| ⏳ à relire | `services.items.8.summary` | Продажи, счета, закупки, склад, касса, проекты: Odoo 19 Community — свободная и бесплатная версия Odoo, установленная и адаптированная к камбоджийскому рынку. | Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien. |
+| ⏳ à relire | `services.items.8.lead` | Odoo объединяет в одной программе приложения для управления компанией. Я беру за основу Odoo 19 Community, свободную и бесплатную версию, и адаптирую её к вашей компании и к Камбодже: кхмерский язык, доллар и риель, ваши документы. | Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents. |
+| ⏳ à relire | `services.items.8.metaTitle` | Odoo 19 Community в Камбодже, на кхмерском — Chantrea Systems | Odoo 19 Community au Cambodge, en khmer — Chantrea Systems |
+| ⏳ à relire | `services.items.8.metaDescription` | Odoo 19 Community — свободная и бесплатная программа для управления: продажи, счета, закупки, склад, касса, CRM. Для Камбоджи: кхмерский, доллар и риель. | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
+| ⏳ à relire | `services.items.8.sections.0.title` | Что делает Odoo | Ce que fait Odoo |
+| ⏳ à relire | `services.items.8.sections.0.text` | Odoo — программа для управления компанией (ERP). Для каждой задачи есть своё приложение, и все они используют одни и те же данные: принятое коммерческое предложение становится заказом, по заказу товар списывается со склада, а затем заказ превращается в счёт. Вы начинаете с одного-двух приложений и добавляете остальные позже. | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
+| ⏳ à relire | `services.items.8.sections.0.flow.0` | Предложение | Devis |
+| ⏳ à relire | `services.items.8.sections.0.flow.1` | Заказ | Commande |
+| ⏳ à relire | `services.items.8.sections.0.flow.2` | Склад | Stock |
+| ⏳ à relire | `services.items.8.sections.0.flow.3` | Счёт | Facture |
+| ⏳ à relire | `services.items.8.sections.0.list.0` | Клиенты и потенциальные клиенты (CRM): учёт каждого контакта и каждой сделки. | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
+| ⏳ à relire | `services.items.8.sections.0.list.1` | Продажи: коммерческие предложения, заказы, счета. | Ventes : devis, commandes, factures. |
+| ⏳ à relire | `services.items.8.sections.0.list.2` | Закупки: запросы цен и заказы поставщикам. | Achats : demandes de prix et commandes aux fournisseurs. |
+| ⏳ à relire | `services.items.8.sections.0.list.3` | Склад: поступления, отгрузки, инвентаризации, несколько складов. | Stock : entrées, sorties, inventaires, plusieurs entrepôts. |
+| ⏳ à relire | `services.items.8.sections.0.list.4` | Точка продаж: касса для магазина или ресторана. | Point de vente : une caisse pour une boutique ou un restaurant. |
+| ⏳ à relire | `services.items.8.sections.0.list.5` | Проекты и табели учёта рабочего времени. | Projets et feuilles de temps. |
+| ⏳ à relire | `services.items.8.sections.0.list.6` | Сайт и интернет-магазин. | Site web et boutique en ligne. |
+| ⏳ à relire | `services.items.8.sections.0.list.7` | Сотрудники, отпуска и отчёты о расходах. | Employés, congés et notes de frais. |
+| ⏳ à relire | `services.items.8.sections.1.title` | Почему Odoo 19 Community | Pourquoi Odoo 19 Community |
+| ⏳ à relire | `services.items.8.sections.1.list.0` | Это свободная версия Odoo (лицензия LGPL v3): не нужно платить разработчику подписку за каждого пользователя. | C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur. |
+| ⏳ à relire | `services.items.8.sections.1.list.1` | Её код открыт: её можно адаптировать модулями на заказ, установленными на вашем сервере. | Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur. |
+| ⏳ à relire | `services.items.8.sections.1.list.2` | Ваши данные хранятся в базе, которую контролируете вы. | Vos données sont dans une base que vous contrôlez. |
+| ⏳ à relire | `services.items.8.sections.2.title` | Чего нет в бесплатной версии | Ce que la version gratuite n'a pas |
+| ⏳ à relire | `services.items.8.sections.2.text` | Некоторые приложения есть только в платной версии, Odoo Enterprise. Например, полноценная бухгалтерия: в Community есть выставление счетов (счета и платежи), а свободные модули сообщества OCA (Odoo Community Association) добавляют бухгалтерские функции — в зависимости от того, доступны ли они для версии 19. Odoo Studio, инструмент для изменения Odoo без программирования, тоже есть только в Enterprise: в Community такие изменения делаются модулями на заказ. Если однажды вам понадобится Enterprise, можно перейти на эту версию. | Certaines applications sont réservées à la version payante, Odoo Enterprise. Par exemple la comptabilité complète : Community a la facturation (factures et paiements), et des modules libres de la communauté OCA (Odoo Community Association) ajoutent des fonctions comptables, selon leur disponibilité pour la version 19. Odoo Studio, l'outil pour modifier Odoo sans programmer, est aussi réservé à Enterprise : avec Community, ces changements se font par des modules sur mesure. Si un jour vous avez besoin d'Enterprise, on peut changer de version. |
+| ⏳ à relire | `services.items.8.sections.3.title` | Адаптирован к камбоджийскому рынку | Adapté au marché cambodgien |
+| ⏳ à relire | `services.items.8.sections.3.text` | Odoo предлагает кхмерский в списке языков, но перевод от разработчика почти пуст: в Odoo 19 на кхмерский переведено меньше одного текста из десяти в приложениях «Продажи», «Бухгалтерия», «Склад» и «Точка продаж». Я дополняю перевод экранов, которыми пользуется ваша команда, и адаптирую документы, работу с долларом и риелем и местные правила. | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
+| ⏳ à relire | `services.items.8.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
+| ⏳ à relire | `services.items.8.sections.3.link.label` | Odoo на кхмерском, для Камбоджи | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `services.items.8.sections.4.title` | Наши доработки Odoo | Nos modifications d'Odoo |
+| ⏳ à relire | `services.items.8.sections.4.text` | Для Chantrea Systems мы создали собственный Odoo 19 Community, адаптированный к Камбодже. Всё сделано в отдельных модулях: код Odoo и модулей OCA никогда не изменяется, а автоматические тесты проверяют каждое изменение. | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.title` | Камбоджийские предложения и счета | Devis et factures cambodgiens |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.0` | Печатаются на кхмерском, английский — сразу под ним. | Imprimés en khmer, avec l'anglais juste en dessous. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.1` | Итоги в долларах США и в риелях. | Total en dollars et en riels. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.2` | Официальный курс USD/KHR каждый день загружается из Главного налогового управления (GDT) или Национального банка Камбоджи и фиксируется в счёте при его проведении. | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.3` | Счёт с НДС или коммерческий счёт, с единой нумерацией. | Facture de TVA ou facture commerciale, avec une seule numérotation. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.title` | Личный кабинет клиента на трёх языках | Un espace client en trois langues |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.0` | На кхмерском, английском или французском — на языке клиента. | En khmer, en anglais ou en français, dans la langue du client. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.1` | Заявки в поддержку, предложения, счета, договоры и оборудование. | Demandes d'assistance, devis, factures, contrats et matériel. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.2` | Каждый клиент видит только данные своей компании. | Chaque client ne voit que les données de sa société. |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.title` | Odoo на кхмерском для клиентов | Odoo en khmer pour les clients |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.list.0` | Около 700 текстов: документы, страницы кабинета, письма. | Environ 700 textes : documents, pages de l'espace client, courriels. |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.list.1` | Тексты Odoo и модулей OCA, которые видят клиенты, в оригинале почти или совсем не переведённые. | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.title` | Выезды и оборудование | Interventions et parc matériel |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.0` | Клиент подписывает работу на месте, на планшете или телефоне. | Le client signe l'intervention sur place, sur tablette ou téléphone. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.1` | Отчёт о работе в PDF, на кхмерском и английском. | Rapport d'intervention en PDF, en khmer et en anglais. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.2` | Карточка каждого устройства с напоминанием до окончания гарантии. | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
+| ⏳ à relire | `services.items.8.sections.5.title` | К сертифицированному кхмерскому переводу | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.8.sections.5.text` | Наши тексты на кхмерском переведены с помощью ИИ и ещё не проверены. Мы добиваемся сертификации всех этих переводов камбоджийскими властями. Сейчас они не сертифицированы. | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.8.sections.6.title` | Где он работает | Où il tourne |
+| ⏳ à relire | `services.items.8.sections.6.list.0` | На сервере в вашем помещении: ваши сотрудники на месте продолжают работать, когда интернет отключён. | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.8.sections.6.list.1` | На сервере, который арендует и обслуживает Chantrea Systems, или у крупного хостинг-провайдера, на аккаунте, оформленном на вас. | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.8.sections.6.list.2` | Odoo Online — хостинг от самого разработчика Odoo — здесь не подходит: он работает с версией Enterprise и не принимает модули на заказ. | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
+| ⏳ à relire | `services.items.8.sections.7.title` | Что я делаю для вас | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.8.sections.7.list.0` | Вместе с вами выбираю полезные приложения и те, что могут подождать. | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
+| ⏳ à relire | `services.items.8.sections.7.list.1` | Устанавливаю Odoo 19 Community и настраиваю его: ваша компания, ваши товары, ваши налоги, ваши документы. | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
+| ⏳ à relire | `services.items.8.sections.7.list.2` | Переношу ваши данные из файлов Excel или из старой программы. | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
+| ⏳ à relire | `services.items.8.sections.7.list.3` | Дополняю кхмерский перевод экранов, которыми пользуется ваша команда. | Compléter la traduction khmère des écrans que votre équipe utilise. |
+| ⏳ à relire | `services.items.8.sections.7.list.4` | Разрабатываю модули, когда чего-то не хватает. | Développer des modules quand il manque quelque chose. |
+| ⏳ à relire | `services.items.8.sections.7.list.5` | Показываю вашей команде, как с ним работать, а затем помогаю в повседневной работе. | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
+| ⏳ à relire | `services.items.8.sections.7.list.6` | Обслуживаю: резервная копия каждую ночь, обновления безопасности, переход на новые версии. | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.8.sections.7.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.8.sections.7.link.label` | Разработка модулей Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.8.sections.8.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.8.sections.8.list.0` | Новая версия Odoo выходит каждый год: переход на новую версию нужно планировать раз в два-три года и в этот момент адаптировать модули на заказ. | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
+| ⏳ à relire | `services.items.8.sections.8.list.1` | С версией Community поддержку оказывает ваш подрядчик: поддержка от разработчика входит в подписку Enterprise. | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
+| ⏳ à relire | `services.items.8.sections.8.list.2` | Odoo создаётся своим разработчиком, компанией Odoo SA. Я не являюсь официальным партнёром разработчика. | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
+| ⏳ à relire | `services.items.8.sections.8.list.3` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.8.sections.8.list.4` | Варианты и цены: [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.8.trademarks` | Odoo — товарный знак своего владельца. Его упоминание не означает какого-либо партнёрства с его разработчиком. | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
+| ⏳ à relire | `services.items.9.id` | mattermost | mattermost |
 | ⏳ à relire | `services.items.9.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.9.title` | Nextcloud: ваши файлы и командная работа | Nextcloud : vos fichiers et le travail en équipe |
-| ⏳ à relire | `services.items.9.summary` | Ваши файлы, календари, контакты, звонки и общие документы — на сервере, который выбираете вы. Свободное и бесплатное ПО, со всеми функциями. | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
-| ⏳ à relire | `services.items.9.lead` | Nextcloud делает для файлов и командной работы то же, что крупные онлайн-сервисы, но на сервере, который выбираете вы: в вашем помещении, у нас или у хостинг-провайдера. | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
-| ⏳ à relire | `services.items.9.badges.0` | Files | Files |
-| ⏳ à relire | `services.items.9.badges.1` | Talk | Talk |
-| ⏳ à relire | `services.items.9.badges.2` | Office | Office |
-| ⏳ à relire | `services.items.9.badges.3` | Deck | Deck |
-| ⏳ à relire | `services.items.9.metaTitle` | Nextcloud в Камбодже: ваше частное облако — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
-| ⏳ à relire | `services.items.9.metaDescription` | Nextcloud — свободное и бесплатное частное облако: синхронизация файлов, ссылки, календари, видеозвонки, совместная работа с документами. У вас или в облаке. | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
-| ⏳ à relire | `services.items.9.sections.0.title` | Ваши файлы — везде | Vos fichiers, partout |
-| ⏳ à relire | `services.items.9.sections.0.list.0` | Синхронизируются на ваших компьютерах (Windows, macOS, Linux) и телефонах (Android, iPhone). | Synchronisés sur vos ordinateurs (Windows, macOS, Linux) et vos téléphones (Android, iPhone). |
-| ⏳ à relire | `services.items.9.sections.0.list.1` | Общий доступ для коллеги, команды или внешних людей по ссылке, защищённой паролем и сроком действия. | Partagés avec un collègue, une équipe, ou par un lien vers l'extérieur, protégé par un mot de passe et une date d'expiration. |
-| ⏳ à relire | `services.items.9.sections.0.list.2` | Старые версии файла остаются доступны, и их можно восстановить. | Les anciennes versions d'un fichier restent disponibles, et on peut les restaurer. |
-| ⏳ à relire | `services.items.9.sections.0.list.3` | Файл, удалённый по ошибке, можно вернуть из корзины. | Un fichier effacé par erreur se récupère dans la corbeille. |
-| ⏳ à relire | `services.items.9.sections.0.list.4` | Существующие общие папки Windows (SMB) можно подключить к Nextcloud. | Les partages Windows existants (SMB) peuvent être reliés à Nextcloud. |
-| ⏳ à relire | `services.items.9.sections.1.title` | Talk: сообщения и звонки | Talk : messages et appels |
-| ⏳ à relire | `services.items.9.sections.1.text` | Сообщения, аудио- и видеозвонки, демонстрация экрана, с приложениями для Android и iPhone. Для вебинаров и звонков с большим числом участников нужен дополнительный компонент — High Performance Backend. | Messages, appels audio et vidéo, partage d'écran, avec des applications pour Android et iPhone. Les webinaires et les appels à nombreux participants demandent un composant supplémentaire, le High Performance Backend. |
-| ⏳ à relire | `services.items.9.sections.2.title` | Календари, контакты и электронная почта | Agendas, contacts et e-mails |
-| ⏳ à relire | `services.items.9.sections.2.text` | Общие календари и контакты, синхронизированные с телефонами, и почтовый клиент в браузере для ваших существующих почтовых ящиков. Deck организует задачи команды на досках. | Des agendas et des contacts partagés, synchronisés avec les téléphones, et une messagerie dans le navigateur pour vos boîtes e-mail existantes. Deck organise les tâches de l'équipe en tableaux. |
-| ⏳ à relire | `services.items.9.sections.3.title` | Office: совместное редактирование | Office : éditer à plusieurs |
-| ⏳ à relire | `services.items.9.sections.3.text` | Офисный пакет в браузере: тексты, таблицы и презентации, которые несколько человек редактируют одновременно. Он открывает и сохраняет форматы Microsoft Office (DOCX, XLSX, PPTX) и OpenDocument (ODT, ODS, ODP). | Une suite bureautique dans le navigateur : textes, tableurs et présentations, modifiés à plusieurs en même temps. Elle ouvre et enregistre les formats Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP). |
-| ⏳ à relire | `services.items.9.sections.4.title` | ИИ-ассистент, который остаётся у вас | Un assistant d'IA qui reste chez vous |
-| ⏳ à relire | `services.items.9.sections.4.text` | Nextcloud предлагает ИИ-ассистента, который может работать с моделью, установленной на вашем собственном сервере. | Nextcloud propose un assistant d'IA qui peut fonctionner avec un modèle installé sur votre propre serveur. |
-| ⏳ à relire | `services.items.9.sections.4.link.page` | services/ai | services/ai |
-| ⏳ à relire | `services.items.9.sections.4.link.label` | ИИ и автоматизация | IA et automatisation |
-| ⏳ à relire | `services.items.9.sections.5.title` | Безопасность | La sécurité |
-| ⏳ à relire | `services.items.9.sections.5.list.0` | Двухфакторная аутентификация. | Double authentification. |
-| ⏳ à relire | `services.items.9.sections.5.list.1` | Защита от повторяющихся попыток входа. | Protection contre les tentatives de connexion répétées. |
-| ⏳ à relire | `services.items.9.sections.5.list.2` | Шифрование на стороне сервера и сквозное шифрование для конфиденциальных папок. | Chiffrement côté serveur, et chiffrement de bout en bout pour les dossiers sensibles. |
-| ⏳ à relire | `services.items.9.sections.5.list.3` | Подключение к каталогу пользователей компании (LDAP или Active Directory). | Connexion à l'annuaire de l'entreprise (LDAP ou Active Directory). |
-| ⏳ à relire | `services.items.9.sections.5.list.4` | Права для каждого человека и каждой группы: каждый видит то, что его касается. | Des droits par personne et par groupe : chacun voit ce qui le concerne. |
-| ⏳ à relire | `services.items.9.sections.6.title` | Свободное и бесплатное ПО | Libre et gratuit |
-| ⏳ à relire | `services.items.9.sections.6.text` | Nextcloud — свободная (лицензия AGPL v3) и бесплатная программа, со всеми функциями. Разработчик продаёт подписку Nextcloud Enterprise — для прямой поддержки и долгосрочной поддержки каждой версии. Я скажу, нужна ли она вам. | Nextcloud est un logiciel libre (licence AGPL v3) et gratuit, avec toutes ses fonctions. L'éditeur vend un abonnement, Nextcloud Enterprise, pour une assistance directe et un support à long terme de chaque version. Je vous dis si vous en avez besoin. |
-| ⏳ à relire | `services.items.9.sections.7.title` | Что я делаю для вас | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.9.sections.7.list.0` | Устанавливаю Nextcloud на выбранный сервер, с безопасным доступом из интернета. | Installer Nextcloud sur le serveur choisi, accessible de façon sécurisée depuis internet. |
-| ⏳ à relire | `services.items.9.sections.7.list.1` | Создаю учётные записи, группы и общие папки для вашей команды. | Créer les comptes, les groupes et les dossiers partagés de votre équipe. |
-| ⏳ à relire | `services.items.9.sections.7.list.2` | Устанавливаю приложения на компьютеры и телефоны. | Installer les applications sur les ordinateurs et les téléphones. |
-| ⏳ à relire | `services.items.9.sections.7.list.3` | Показываю вашей команде, как с ним работать. | Montrer à votre équipe comment s'en servir. |
-| ⏳ à relire | `services.items.9.sections.7.list.4` | Обслуживаю: резервная копия каждую ночь, обновления безопасности, переход на новые версии. | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.9.sections.8.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.9.sections.8.list.0` | Nextcloud нет на кхмерском: его экраны доступны на английском, французском, китайском, русском и ещё примерно шестидесяти языках. | Nextcloud n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une soixantaine d'autres langues. |
-| ⏳ à relire | `services.items.9.sections.8.list.1` | Если сервер находится в вашем помещении, доступ извне зависит от вашего интернет-подключения. | Si le serveur est dans vos locaux, l'accès depuis l'extérieur dépend de votre connexion internet. |
-| ⏳ à relire | `services.items.9.sections.8.list.2` | Nextcloud создаётся своим разработчиком, компанией Nextcloud GmbH. Я его устанавливаю, настраиваю и обслуживаю. | Nextcloud est développé par son éditeur, Nextcloud GmbH. Je l'installe, je le configure et je l'entretiens. |
-| ⏳ à relire | `services.items.9.sections.8.list.3` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.9.trademarks` | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office и Active Directory — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office et Active Directory sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.9.title` | Mattermost: переписка вашей команды | Mattermost : la messagerie de votre équipe |
+| ⏳ à relire | `services.items.9.summary` | Командный мессенджер, установленный на вашем сервере: каналы, личные сообщения, ветки обсуждений, файлы и оповещения ваших систем. | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
+| ⏳ à relire | `services.items.9.lead` | Mattermost организует общение команды по каналам, как крупные корпоративные мессенджеры, но на сервере, который выбираете вы. Рабочие разговоры больше не идут через личные мессенджеры. | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
+| ⏳ à relire | `services.items.9.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.9.badges.1` | macOS | macOS |
+| ⏳ à relire | `services.items.9.badges.2` | Linux | Linux |
+| ⏳ à relire | `services.items.9.badges.3` | Android | Android |
+| ⏳ à relire | `services.items.9.badges.4` | iPhone | iPhone |
+| ⏳ à relire | `services.items.9.metaTitle` | Mattermost в Камбодже: мессенджер для команды — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
+| ⏳ à relire | `services.items.9.metaDescription` | Mattermost — командный мессенджер на вашем сервере: каналы, личные сообщения, ветки, общие файлы, приложения для компьютера и телефона, оповещения Zabbix. | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
+| ⏳ à relire | `services.items.9.sections.0.title` | Что делает Mattermost | Ce que fait Mattermost |
+| ⏳ à relire | `services.items.9.sections.0.list.0` | Каналы по командам, по проектам или по клиентам, открытые или закрытые. | Des canaux par équipe, par projet ou par client, publics ou privés. |
+| ⏳ à relire | `services.items.9.sections.0.list.1` | Личные сообщения и групповые обсуждения. | Des messages directs et des discussions de groupe. |
+| ⏳ à relire | `services.items.9.sections.0.list.2` | Ветки обсуждений, чтобы ответить на сообщение, не загромождая канал. | Des fils de discussion, pour répondre à un message sans encombrer le canal. |
+| ⏳ à relire | `services.items.9.sections.0.list.3` | Общие файлы и изображения, поиск по сообщениям. | Des fichiers et des images partagés, et une recherche dans les messages. |
+| ⏳ à relire | `services.items.9.sections.0.list.4` | Приложения для Windows, macOS, Linux, Android и iPhone, а также версия в браузере. | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
+| ⏳ à relire | `services.items.9.sections.1.title` | Оповещения ваших систем | Les alertes de vos outils |
+| ⏳ à relire | `services.items.9.sections.1.text` | Mattermost получает сообщения от других программ через вебхуки. Оповещение мониторинга Zabbix или сообщение от ваших собственных программ приходит в канал: команда видит его и обсуждает в одном месте. | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
+| ⏳ à relire | `services.items.9.sections.1.flow.0` | Zabbix обнаруживает проблему | Zabbix détecte un problème |
+| ⏳ à relire | `services.items.9.sections.1.flow.1` | Webhook | Webhook |
+| ⏳ à relire | `services.items.9.sections.1.flow.2` | Канал «Оповещения» | Canal « alertes » |
+| ⏳ à relire | `services.items.9.sections.1.flow.3` | Команда обсуждает | L'équipe en discute |
+| ⏳ à relire | `services.items.9.sections.2.title` | Какую версию выбрать | Quelle version choisir |
+| ⏳ à relire | `services.items.9.sections.2.text` | У Mattermost есть несколько версий, и различия между ними важны. Я объясню их вам до того, как вы выберете: | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
+| ⏳ à relire | `services.items.9.sections.2.defs.0.term` | Team Edition | Team Edition |
+| ⏳ à relire | `services.items.9.sections.2.defs.0.text` | Бесплатная (лицензия MIT). Основные функции переписки, со всей историей сообщений, но функций меньше, чем в других версиях. Рассчитана на небольшие команды, которым не нужен единый вход (SSO). | Gratuite (licence MIT). L'essentiel de la messagerie, avec tout l'historique des messages, mais moins de fonctions que les autres versions. Prévue pour les petites équipes qui n'ont pas besoin de connexion unique (SSO). |
+| ⏳ à relire | `services.items.9.sections.2.defs.1.term` | Entry | Entry |
+| ⏳ à relire | `services.items.9.sections.2.defs.1.text` | Бесплатная, под коммерческой лицензией, для команд менее 50 человек. В ней есть функции платных версий, но видны и доступны для поиска только последние 10 000 сообщений во всех каналах вместе. Разработчик указывает и другие ограничения, например звонки не дольше 40 минут. | Gratuite, sous licence commerciale, pour les équipes de moins de 50 personnes. Elle a les fonctions des versions payantes, mais seuls les 10 000 derniers messages, tous canaux confondus, restent visibles et cherchables. L'éditeur annonce d'autres limites, comme des appels de 40 minutes. |
+| ⏳ à relire | `services.items.9.sections.2.defs.2.term` | Professional, Enterprise | Professional, Enterprise |
+| ⏳ à relire | `services.items.9.sections.2.defs.2.text` | Платные, по подписке. Professional добавляет, в частности, подключение к каталогу пользователей компании (AD/LDAP), единый вход (SSO), гостевые учётные записи, многофакторную аутентификацию, групповые звонки и демонстрацию экрана. Enterprise добавляет архивирование для соответствия нормативным требованиям и высокую доступность. | Payantes, par abonnement. Professional ajoute notamment la connexion à l'annuaire de l'entreprise (AD/LDAP), la connexion unique (SSO), les comptes invités, l'authentification à plusieurs facteurs, les appels de groupe et le partage d'écran. Enterprise ajoute l'archivage pour la conformité et la haute disponibilité. |
+| ⏳ à relire | `services.items.9.sections.3.title` | Mattermost или Nextcloud Talk? | Mattermost ou Nextcloud Talk ? |
+| ⏳ à relire | `services.items.9.sections.3.text` | В Nextcloud тоже есть свой мессенджер — Talk. Если вы устанавливаете Nextcloud для файлов, Talk часто бывает достаточно. Mattermost создан прежде всего для командного общения: много каналов, ветки обсуждений, связь с другими вашими инструментами. | Nextcloud a aussi sa messagerie, Talk. Si vous installez Nextcloud pour vos fichiers, Talk suffit souvent. Mattermost est pensé d'abord pour la discussion d'équipe : de nombreux canaux, des fils de discussion, des liens avec vos autres outils. |
+| ⏳ à relire | `services.items.9.sections.3.link.page` | services/nextcloud | services/nextcloud |
+| ⏳ à relire | `services.items.9.sections.3.link.label` | Подробнее о Nextcloud | Découvrir Nextcloud |
+| ⏳ à relire | `services.items.9.sections.4.title` | Что я делаю для вас | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.9.sections.4.list.0` | Вместе с вами выбираю подходящую версию. | Choisir avec vous la version qui convient. |
+| ⏳ à relire | `services.items.9.sections.4.list.1` | Устанавливаю Mattermost на выбранный сервер. | Installer Mattermost sur le serveur choisi. |
+| ⏳ à relire | `services.items.9.sections.4.list.2` | Создаю команды и каналы и приглашаю ваших пользователей. | Créer les équipes et les canaux, et inviter vos utilisateurs. |
+| ⏳ à relire | `services.items.9.sections.4.list.3` | Подключаю ваши инструменты, например оповещения Zabbix. | Relier vos outils, par exemple les alertes Zabbix. |
+| ⏳ à relire | `services.items.9.sections.4.list.4` | Устанавливаю приложения на компьютеры и телефоны. | Installer les applications sur les ordinateurs et les téléphones. |
+| ⏳ à relire | `services.items.9.sections.4.list.5` | Обслуживаю: резервная копия каждую ночь, обновления безопасности, переход на новые версии. | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.9.sections.5.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.9.sections.5.list.0` | Mattermost нет на кхмерском: его экраны доступны на английском, французском, китайском, русском — всего примерно на двадцати языках. | Mattermost n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une vingtaine de langues. |
+| ⏳ à relire | `services.items.9.sections.5.list.1` | Mattermost создаётся своим разработчиком, компанией Mattermost, Inc. Я его устанавливаю, настраиваю и обслуживаю. | Mattermost est développé par son éditeur, Mattermost, Inc. Je l'installe, je le configure et je l'entretiens. |
+| ⏳ à relire | `services.items.9.sections.5.list.2` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.9.trademarks` | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android и iPhone — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android et iPhone sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.10.id` | nextcloud | nextcloud |
+| ⏳ à relire | `services.items.10.parent` | business-software | business-software |
+| ⏳ à relire | `services.items.10.title` | Nextcloud: ваши файлы и командная работа | Nextcloud : vos fichiers et le travail en équipe |
+| ⏳ à relire | `services.items.10.summary` | Ваши файлы, календари, контакты, звонки и общие документы — на сервере, который выбираете вы. Свободное и бесплатное ПО, со всеми функциями. | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
+| ⏳ à relire | `services.items.10.lead` | Nextcloud делает для файлов и командной работы то же, что крупные онлайн-сервисы, но на сервере, который выбираете вы: в вашем помещении, у нас или у хостинг-провайдера. | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
+| ⏳ à relire | `services.items.10.badges.0` | Files | Files |
+| ⏳ à relire | `services.items.10.badges.1` | Talk | Talk |
+| ⏳ à relire | `services.items.10.badges.2` | Office | Office |
+| ⏳ à relire | `services.items.10.badges.3` | Deck | Deck |
+| ⏳ à relire | `services.items.10.metaTitle` | Nextcloud в Камбодже: ваше частное облако — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
+| ⏳ à relire | `services.items.10.metaDescription` | Nextcloud — свободное и бесплатное частное облако: синхронизация файлов, ссылки, календари, видеозвонки, совместная работа с документами. У вас или в облаке. | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
+| ⏳ à relire | `services.items.10.sections.0.title` | Ваши файлы — везде | Vos fichiers, partout |
+| ⏳ à relire | `services.items.10.sections.0.list.0` | Синхронизируются на ваших компьютерах (Windows, macOS, Linux) и телефонах (Android, iPhone). | Synchronisés sur vos ordinateurs (Windows, macOS, Linux) et vos téléphones (Android, iPhone). |
+| ⏳ à relire | `services.items.10.sections.0.list.1` | Общий доступ для коллеги, команды или внешних людей по ссылке, защищённой паролем и сроком действия. | Partagés avec un collègue, une équipe, ou par un lien vers l'extérieur, protégé par un mot de passe et une date d'expiration. |
+| ⏳ à relire | `services.items.10.sections.0.list.2` | Старые версии файла остаются доступны, и их можно восстановить. | Les anciennes versions d'un fichier restent disponibles, et on peut les restaurer. |
+| ⏳ à relire | `services.items.10.sections.0.list.3` | Файл, удалённый по ошибке, можно вернуть из корзины. | Un fichier effacé par erreur se récupère dans la corbeille. |
+| ⏳ à relire | `services.items.10.sections.0.list.4` | Существующие общие папки Windows (SMB) можно подключить к Nextcloud. | Les partages Windows existants (SMB) peuvent être reliés à Nextcloud. |
+| ⏳ à relire | `services.items.10.sections.1.title` | Talk: сообщения и звонки | Talk : messages et appels |
+| ⏳ à relire | `services.items.10.sections.1.text` | Сообщения, аудио- и видеозвонки, демонстрация экрана, с приложениями для Android и iPhone. Для вебинаров и звонков с большим числом участников нужен дополнительный компонент — High Performance Backend. | Messages, appels audio et vidéo, partage d'écran, avec des applications pour Android et iPhone. Les webinaires et les appels à nombreux participants demandent un composant supplémentaire, le High Performance Backend. |
+| ⏳ à relire | `services.items.10.sections.2.title` | Календари, контакты и электронная почта | Agendas, contacts et e-mails |
+| ⏳ à relire | `services.items.10.sections.2.text` | Общие календари и контакты, синхронизированные с телефонами, и почтовый клиент в браузере для ваших существующих почтовых ящиков. Deck организует задачи команды на досках. | Des agendas et des contacts partagés, synchronisés avec les téléphones, et une messagerie dans le navigateur pour vos boîtes e-mail existantes. Deck organise les tâches de l'équipe en tableaux. |
+| ⏳ à relire | `services.items.10.sections.3.title` | Office: совместное редактирование | Office : éditer à plusieurs |
+| ⏳ à relire | `services.items.10.sections.3.text` | Офисный пакет в браузере: тексты, таблицы и презентации, которые несколько человек редактируют одновременно. Он открывает и сохраняет форматы Microsoft Office (DOCX, XLSX, PPTX) и OpenDocument (ODT, ODS, ODP). | Une suite bureautique dans le navigateur : textes, tableurs et présentations, modifiés à plusieurs en même temps. Elle ouvre et enregistre les formats Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP). |
+| ⏳ à relire | `services.items.10.sections.4.title` | ИИ-ассистент, который остаётся у вас | Un assistant d'IA qui reste chez vous |
+| ⏳ à relire | `services.items.10.sections.4.text` | Nextcloud предлагает ИИ-ассистента, который может работать с моделью, установленной на вашем собственном сервере. | Nextcloud propose un assistant d'IA qui peut fonctionner avec un modèle installé sur votre propre serveur. |
+| ⏳ à relire | `services.items.10.sections.4.link.page` | services/ai | services/ai |
+| ⏳ à relire | `services.items.10.sections.4.link.label` | ИИ и автоматизация | IA et automatisation |
+| ⏳ à relire | `services.items.10.sections.5.title` | Безопасность | La sécurité |
+| ⏳ à relire | `services.items.10.sections.5.list.0` | Двухфакторная аутентификация. | Double authentification. |
+| ⏳ à relire | `services.items.10.sections.5.list.1` | Защита от повторяющихся попыток входа. | Protection contre les tentatives de connexion répétées. |
+| ⏳ à relire | `services.items.10.sections.5.list.2` | Шифрование на стороне сервера и сквозное шифрование для конфиденциальных папок. | Chiffrement côté serveur, et chiffrement de bout en bout pour les dossiers sensibles. |
+| ⏳ à relire | `services.items.10.sections.5.list.3` | Подключение к каталогу пользователей компании (LDAP или Active Directory). | Connexion à l'annuaire de l'entreprise (LDAP ou Active Directory). |
+| ⏳ à relire | `services.items.10.sections.5.list.4` | Права для каждого человека и каждой группы: каждый видит то, что его касается. | Des droits par personne et par groupe : chacun voit ce qui le concerne. |
+| ⏳ à relire | `services.items.10.sections.6.title` | Свободное и бесплатное ПО | Libre et gratuit |
+| ⏳ à relire | `services.items.10.sections.6.text` | Nextcloud — свободная (лицензия AGPL v3) и бесплатная программа, со всеми функциями. Разработчик продаёт подписку Nextcloud Enterprise — для прямой поддержки и долгосрочной поддержки каждой версии. Я скажу, нужна ли она вам. | Nextcloud est un logiciel libre (licence AGPL v3) et gratuit, avec toutes ses fonctions. L'éditeur vend un abonnement, Nextcloud Enterprise, pour une assistance directe et un support à long terme de chaque version. Je vous dis si vous en avez besoin. |
+| ⏳ à relire | `services.items.10.sections.7.title` | Что я делаю для вас | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.10.sections.7.list.0` | Устанавливаю Nextcloud на выбранный сервер, с безопасным доступом из интернета. | Installer Nextcloud sur le serveur choisi, accessible de façon sécurisée depuis internet. |
+| ⏳ à relire | `services.items.10.sections.7.list.1` | Создаю учётные записи, группы и общие папки для вашей команды. | Créer les comptes, les groupes et les dossiers partagés de votre équipe. |
+| ⏳ à relire | `services.items.10.sections.7.list.2` | Устанавливаю приложения на компьютеры и телефоны. | Installer les applications sur les ordinateurs et les téléphones. |
+| ⏳ à relire | `services.items.10.sections.7.list.3` | Показываю вашей команде, как с ним работать. | Montrer à votre équipe comment s'en servir. |
+| ⏳ à relire | `services.items.10.sections.7.list.4` | Обслуживаю: резервная копия каждую ночь, обновления безопасности, переход на новые версии. | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.10.sections.8.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.10.sections.8.list.0` | Nextcloud нет на кхмерском: его экраны доступны на английском, французском, китайском, русском и ещё примерно шестидесяти языках. | Nextcloud n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une soixantaine d'autres langues. |
+| ⏳ à relire | `services.items.10.sections.8.list.1` | Если сервер находится в вашем помещении, доступ извне зависит от вашего интернет-подключения. | Si le serveur est dans vos locaux, l'accès depuis l'extérieur dépend de votre connexion internet. |
+| ⏳ à relire | `services.items.10.sections.8.list.2` | Nextcloud создаётся своим разработчиком, компанией Nextcloud GmbH. Я его устанавливаю, настраиваю и обслуживаю. | Nextcloud est développé par son éditeur, Nextcloud GmbH. Je l'installe, je le configure et je l'entretiens. |
+| ⏳ à relire | `services.items.10.sections.8.list.3` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.10.trademarks` | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office и Active Directory — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office et Active Directory sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `tech.title` | Технологии, которые я использую | Les technologies que j'utilise |
 | ⏳ à relire | `tech.intro` | Признанные инструменты, в большинстве своём свободные, выбранные за надёжность. Для каждого — для чего он нужен и где применяется в моих услугах. | Des outils reconnus, libres pour la plupart, choisis pour leur fiabilité. Pour chacun : à quoi il sert, et où il intervient dans l'offre. |
 | ⏳ à relire | `tech.note` | Упомянутые названия — товарные знаки их соответствующих владельцев. Их упоминание не означает ни партнёрства, ни сертификации. | Les noms cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat ni aucune certification. |
@@ -1962,6 +2088,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.3.items.1.text` | Устанавливается на каждую машину и автоматически отправляет её данные инвентаризации в GLPI. Он проводит инвентаризацию, а не поиск уязвимостей. | Installé sur chaque machine, il envoie automatiquement son inventaire à GLPI. Il fait l'inventaire, pas la recherche de failles. |
 | ⏳ à relire | `tech.groups.3.items.2.name` | Grafana | Grafana |
 | ⏳ à relire | `tech.groups.3.items.2.text` | Панели о состоянии IT-парка и об оповещениях на основе данных Zabbix. | Des tableaux de bord sur l'état du parc et les alertes, à partir des données de Zabbix. |
+| ⏳ à relire | `tech.groups.3.items.3.name` | Vigie | Vigie |
+| ⏳ à relire | `tech.groups.3.items.3.text` | Наш портал мониторинга: уязвимости, затрагивающие ваш парк в GLPI, по приоритету и с напоминаниями. | Notre portail de veille : les failles qui touchent votre parc GLPI, par ordre de priorité, avec des rappels. |
 | ⏳ à relire | `diagram.title` | Инфраструктура снизу вверх | Une infrastructure, de bas en haut |
 | ⏳ à relire | `diagram.caption` | Пример организации. Каждая установка рассчитывается под ваши потребности. | Exemple d'organisation. Chaque installation est dimensionnée selon vos besoins. |
 | ⏳ à relire | `diagram.layers.0.label` | Приложения | Applications |
@@ -2520,7 +2648,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1248 textes relus.
+0 / 1312 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2869,6 +2997,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.2.list.3` | 已公开的漏洞（CVE 编号）； | les vulnérabilités publiées (références CVE) ; |
 | ⏳ à relire | `services.items.3.sections.2.list.4` | 可用的补丁； | les correctifs disponibles ; |
 | ⏳ à relire | `services.items.3.sections.2.list.5` | 优先级：哪些要先更新。 | les priorités : ce qu'il faut mettre à jour d'abord. |
+| ⏳ à relire | `services.items.3.sections.2.link.page` | services/vigie | services/vigie |
+| ⏳ à relire | `services.items.3.sections.2.link.label` | 了解 Vigie | Découvrir Vigie |
 | ⏳ à relire | `services.items.3.sections.3.figure` | inventory | inventory |
 | ⏳ à relire | `services.items.3.sections.4.title` | 监控：Zabbix 和 Grafana | Surveiller : Zabbix et Grafana |
 | ⏳ à relire | `services.items.3.sections.4.text` | 安全也意味着及时发现即将出现的问题。两款免费工具协同工作： | La sécurité, c'est aussi voir à temps qu'un problème arrive. Deux outils libres travaillent ensemble : |
@@ -2895,288 +3025,348 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.8.title` | 说说您的情况 | Parlons de votre situation |
 | ⏳ à relire | `services.items.3.sections.8.text` | 每家企业都不一样。告诉我您担心什么，我们一起看看哪些措施对您有用。 | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
 | ⏳ à relire | `services.items.3.trademarks` | GLPI、GLPI Agent、Zabbix、Grafana、Windows、Linux 和 macOS 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.4.id` | business-software | business-software |
-| ⏳ à relire | `services.items.4.parent` | infrastructure | infrastructure |
-| ⏳ à relire | `services.items.4.title` | Odoo、Nextcloud 和 Mattermost | Odoo, Nextcloud et Mattermost |
-| ⏳ à relire | `services.items.4.summary` | 您的企业管理、共享文件和团队通讯，都用开源软件。可以装在您那里、我们这里，或云端。 | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
-| ⏳ à relire | `services.items.4.lead` | 我负责安装、调整和维护 Odoo、Nextcloud 和 Mattermost。在哪里运行由您来选，数据始终归您所有。 | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
-| ⏳ à relire | `services.items.4.badges.0` | Odoo | Odoo |
-| ⏳ à relire | `services.items.4.badges.1` | Nextcloud | Nextcloud |
-| ⏳ à relire | `services.items.4.badges.2` | Mattermost | Mattermost |
-| ⏳ à relire | `services.items.4.metaTitle` | 柬埔寨 Odoo、Nextcloud 和 Mattermost — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
-| ⏳ à relire | `services.items.4.metaDescription` | Odoo（企业管理）、Nextcloud（私有云）和 Mattermost（团队通讯）的安装、配置、定制模块和维护。可以装在您那里、我们这里，或云端。 | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
-| ⏳ à relire | `services.items.4.sections.0.title` | Odoo：管理企业 | Odoo, pour gérer l'entreprise |
-| ⏳ à relire | `services.items.4.sections.0.text` | 客户、报价、销售、发票、采购、库存、项目：一套软件，每项需求对应一个应用。先上您真正用得着的，其余以后再加。 | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
-| ⏳ à relire | `services.items.4.sections.1.title` | Nextcloud：您的文件和团队 | Nextcloud, pour vos fichiers et votre équipe |
-| ⏳ à relire | `services.items.4.sections.1.text` | 共享的文件、日历和通讯录，电脑和手机都能用，还有团队聊天和视频通话。和大型在线服务一样，只是放在您自己选的服务器上。 | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
-| ⏳ à relire | `services.items.4.sections.2.title` | Mattermost：团队通讯 | Mattermost, pour la messagerie de l'équipe |
-| ⏳ à relire | `services.items.4.sections.2.text` | 按团队或按项目建频道，私信、讨论串和共享文件，电脑和手机都能用。工作上的交流留在您自己的服务器上，而不是在大众聊天软件里。您的系统发出的警报，比如 Zabbix 的警报，可以直接发到某个频道。 | Des canaux par équipe ou par projet, des messages directs, des fils de discussion et des fichiers partagés, sur ordinateur et sur téléphone. Les échanges de travail restent sur votre serveur, et non dans une messagerie grand public. Les alertes de vos outils, par exemple celles de Zabbix, peuvent arriver dans un canal. |
-| ⏳ à relire | `services.items.4.sections.3.title` | 在哪里运行 | Où ils tournent |
-| ⏳ à relire | `services.items.4.sections.3.list.0` | 在您那里：装在您场所内的服务器上。断网时，现场的员工照常工作。 | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.4.sections.3.list.1` | 在我们这里：装在由 Chantrea Systems 租用并维护的服务器上，位于 [À COMPLÉTER PAR STEFAN : pays]。 | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
-| ⏳ à relire | `services.items.4.sections.3.list.2` | 在云端：放在大型托管服务商那里，用您自己名下的账户。 | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.4.sections.3.list.3` | 无论哪种方式，您都清楚自己的数据在哪个国家。 | Dans tous les cas, vous savez dans quel pays sont vos données. |
-| ⏳ à relire | `services.items.4.sections.4.title` | 为您定制的 Odoo 模块 | Des modules Odoo faits pour vous |
-| ⏳ à relire | `services.items.4.sections.4.text` | Odoo 满足不了您的需要时，我来开发定制模块：一份报表、一种符合您格式的发票、与另一套软件的对接。我会先查一查有没有现成的模块可用：这样您花的钱更少。 | Quand Odoo ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
-| ⏳ à relire | `services.items.4.sections.4.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.4.sections.4.link.label` | Odoo 模块开发 | Le développement de modules Odoo |
-| ⏳ à relire | `services.items.4.sections.5.title` | 维护 | L'entretien |
-| ⏳ à relire | `services.items.4.sections.5.list.0` | 每晚备份一次，并在另一个地点再存一份，定期做恢复测试。 | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
-| ⏳ à relire | `services.items.4.sections.5.list.1` | 安全更新。 | Les mises à jour de sécurité. |
-| ⏳ à relire | `services.items.4.sections.5.list.2` | 升级到新版本：事先准备，事先测试。 | Le passage aux nouvelles versions, préparé et testé avant. |
-| ⏳ à relire | `services.items.4.sections.5.list.3` | 为您的用户提供帮助。 | De l'aide pour vos utilisateurs. |
-| ⏳ à relire | `services.items.4.sections.5.list.4` | 方案和价格：[À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.4.id` | vigie | vigie |
+| ⏳ à relire | `services.items.4.parent` | security | security |
+| ⏳ à relire | `services.items.4.title` | Vigie：IT 资产的安全监测 | Vigie : la veille de sécurité de votre parc |
+| ⏳ à relire | `services.items.4.summary` | 我们的安全监测门户：真正影响您电脑上软件的漏洞，按优先级排列，并持续提醒。在 GLPI 中管理资产的客户可免费使用。 | Notre portail de veille : les failles qui touchent réellement les logiciels de votre parc, classées par priorité, avec des rappels. Gratuit pour nos clients dont le parc est suivi dans GLPI. |
+| ⏳ à relire | `services.items.4.lead` | 每天都有新的安全漏洞公布。Vigie 将它们与您在 GLPI 中的资产清单进行比对，告诉您哪些漏洞真正与您有关、应按什么顺序修复，并在修复完成前持续提醒您。 | Chaque jour, des failles de sécurité sont publiées. Vigie les compare à l'inventaire GLPI de votre parc et vous dit lesquelles vous concernent vraiment, dans quel ordre les corriger, et vous le rappelle tant que ce n'est pas fait. |
+| ⏳ à relire | `services.items.4.badges.0` | GLPI 客户免费 | Gratuit avec GLPI |
+| ⏳ à relire | `services.items.4.badges.1` | GLPI | GLPI |
+| ⏳ à relire | `services.items.4.badges.2` | CISA KEV | CISA KEV |
+| ⏳ à relire | `services.items.4.badges.3` | NVD | NVD |
+| ⏳ à relire | `services.items.4.badges.4` | CERT-FR | CERT-FR |
+| ⏳ à relire | `services.items.4.metaTitle` | Vigie，GLPI 资产的安全监测 — Chantrea Systems | Vigie, veille de sécurité pour votre parc GLPI — Chantrea Systems |
+| ⏳ à relire | `services.items.4.metaDescription` | Vigie 将您 GLPI 中的资产清单与已公布的漏洞比对：优先级排序，通过电子邮件、Slack 或 GLPI 工单提醒。我们的 GLPI 客户可免费使用。 | Vigie compare l'inventaire GLPI de votre parc aux failles publiées : priorités, rappels par e-mail, Slack ou ticket GLPI. Gratuit pour nos clients GLPI. |
+| ⏳ à relire | `services.items.4.gallery.title` | 界面截图 | En images |
+| ⏳ à relire | `services.items.4.gallery.note` | 截图摄于 2026 年 11 月 25 日，使用演示数据库：客户和电脑均为虚构；漏洞和新闻是当天真实的公开数据。 | Captures du 25 novembre 2026 sur une base de démonstration : clients et postes fictifs ; les failles et les actualités sont les données publiques réelles du jour. |
+| ⏳ à relire | `services.items.4.gallery.enlarge` | 放大图片 | agrandir l'image |
+| ⏳ à relire | `services.items.4.gallery.captions.expositions` | 影响某个客户资产的漏洞，按 P1 到 P4 排序，并按软件和版本分组。 | Les failles qui touchent le parc d'un client, classées de P1 à P4 et regroupées par logiciel et version. |
+| ⏳ à relire | `services.items.4.gallery.captions.alertes` | 公共监测：来自所有来源的最新漏洞；已被利用的漏洞会突出显示。 | La veille commune : les failles récentes de toutes les sources ; celles qui sont exploitées ressortent. |
+| ⏳ à relire | `services.items.4.gallery.captions.exposition` | 一个漏洞，从公布到受影响的电脑：这里是 WinRAR，据 CISA 称已被利用，影响三台电脑。 | Une faille, de la publication aux postes : ici WinRAR, exploitée selon la CISA, sur trois postes. |
+| ⏳ à relire | `services.items.4.gallery.captions.synthese` | 客户概览：按优先级统计的未处理漏洞、机器、软件和最近一次清点。 | La synthèse d'un client : failles ouvertes par priorité, machines, logiciels, dernier inventaire. |
+| ⏳ à relire | `services.items.4.gallery.captions.logiciels` | 所有已安装的软件，包括过时的版本。 | Tous les logiciels installés, obsolètes compris, avec leurs versions. |
+| ⏳ à relire | `services.items.4.gallery.captions.actualites` | CERT-FR、CISA 和 NCSC 的发布内容，已翻译并摘要。 | Les publications du CERT-FR, de la CISA et du NCSC, traduites et résumées. |
+| ⏳ à relire | `services.items.4.gallery.captions.notifications` | 某个客户的告警规则：哪些事件、到哪个优先级、通过电子邮件还是 Slack。 | Les règles d'alerte d'un client : quels événements, jusqu'à quelle priorité, par e-mail ou Slack. |
+| ⏳ à relire | `services.items.4.gallery.captions.mobile` | 手机上的同样界面。 | Les mêmes écrans sur téléphone. |
+| ⏳ à relire | `services.items.4.sections.0.title` | GLPI 客户免费使用 | Gratuit pour nos clients GLPI |
+| ⏳ à relire | `services.items.4.sections.0.text` | 凡是在 GLPI 中管理资产的 Chantrea Systems 客户，都可免费使用 Vigie。它是资产清点的延伸：GLPI 告诉您有哪些资产，Vigie 告诉您哪里有问题。 | Vigie est inclus sans frais pour tous les clients de Chantrea Systems dont le parc est suivi dans GLPI. Il prolonge l'inventaire : GLPI dit ce que vous avez, Vigie dit ce qui pose problème. |
+| ⏳ à relire | `services.items.4.sections.1.title` | 从监测到提醒 | De la veille au rappel |
+| ⏳ à relire | `services.items.4.sections.1.cards.0.title` | 监测 | Veiller |
+| ⏳ à relire | `services.items.4.sections.1.cards.0.text` | Vigie 每天读取公开来源：已公布的漏洞、已被利用的漏洞、软件厂商和 Linux 发行版的安全公告。 | Vigie lit chaque jour les sources publiques : failles publiées, failles exploitées, avis des éditeurs et des distributions Linux. |
+| ⏳ à relire | `services.items.4.sections.1.cards.1.title` | 清点 | Inventorier |
+| ⏳ à relire | `services.items.4.sections.1.cards.1.text` | 每个客户的资产来自 GLPI，或直接来自 GLPI Agent：所有软件及其版本。 | Le parc de chaque client arrive de GLPI, ou directement de GLPI Agent : tous les logiciels, avec leur version. |
+| ⏳ à relire | `services.items.4.sections.1.cards.2.title` | 比对 | Rapprocher |
+| ⏳ à relire | `services.items.4.sections.1.cards.2.text` | 每个已安装的版本都与受影响的版本进行比对：只保留与您的资产相关的漏洞。 | Chaque version installée est comparée aux versions touchées : seules les failles qui concernent votre parc sont retenues. |
+| ⏳ à relire | `services.items.4.sections.1.cards.3.title` | 提醒 | Rappeler |
+| ⏳ à relire | `services.items.4.sections.1.cards.3.text` | 通过电子邮件、Slack 或 GLPI 工单告警，并在漏洞未修复期间持续提醒。 | Une alerte par e-mail, Slack ou ticket GLPI, et des rappels tant que la faille reste ouverte. |
+| ⏳ à relire | `services.items.4.sections.2.title` | 清晰的优先级 | Des priorités claires |
+| ⏳ à relire | `services.items.4.sections.2.text` | 每个漏洞根据三个标准分为 P1 到 P4：是否已被利用（CISA 的 KEV 目录）、严重程度，以及影响多少台机器。您知道该从哪里开始。 | Chaque faille est classée de P1 à P4 selon trois critères : est-elle déjà exploitée (catalogue KEV de la CISA), quelle est sa gravité, et combien de machines elle touche. Vous savez par quoi commencer. |
+| ⏳ à relire | `services.items.4.sections.3.title` | 我们关注的来源 | Les sources suivies |
+| ⏳ à relire | `services.items.4.sections.3.list.0` | CISA 的已利用漏洞目录（KEV）。 | Le catalogue des failles exploitées de la CISA (KEV). |
+| ⏳ à relire | `services.items.4.sections.3.list.1` | 美国国家漏洞数据库（NVD）。 | La base américaine des vulnérabilités publiées (NVD). |
+| ⏳ à relire | `services.items.4.sections.3.list.2` | Microsoft 安全公告。 | Les avis de sécurité de Microsoft. |
+| ⏳ à relire | `services.items.4.sections.3.list.3` | Red Hat、Ubuntu 和 Debian 的安全公告。 | Les avis de Red Hat, Ubuntu et Debian. |
+| ⏳ à relire | `services.items.4.sections.3.list.4` | CERT-FR、CISA 和 NCSC 的发布内容，由安装在我们服务器上的 AI 模型翻译并摘要。 | Les publications du CERT-FR, de la CISA et du NCSC, traduites et résumées par un modèle d'IA installé sur notre serveur. |
+| ⏳ à relire | `services.items.4.sections.4.title` | 告警与跟进 | Alertes et suivi |
+| ⏳ à relire | `services.items.4.sections.4.list.0` | 一旦有严重漏洞影响您的资产，立即告警。 | Une alerte dès qu'une faille grave touche votre parc. |
+| ⏳ à relire | `services.items.4.sections.4.list.1` | 定期汇总所有尚未处理的问题。 | Un récapitulatif régulier de tout ce qui reste ouvert. |
+| ⏳ à relire | `services.items.4.sections.4.list.2` | 严重漏洞拖延未处理时再次提醒。 | Une relance quand une faille grave traîne. |
+| ⏳ à relire | `services.items.4.sections.4.list.3` | 如您需要，可创建 GLPI 工单，Vigie 会跟踪其状态。 | Un ticket GLPI si vous le souhaitez, et Vigie en suit l'état. |
+| ⏳ à relire | `services.items.4.sections.4.list.4` | 对每个漏洞：确认处理、标记为误报或接受风险，并留有记录。 | Pour chaque faille : la prendre en compte, la déclarer faux positif ou accepter le risque, avec une trace. |
+| ⏳ à relire | `services.items.4.sections.5.title` | 您的数据 | Vos données |
+| ⏳ à relire | `services.items.4.sections.5.list.0` | 每个客户只能看到自己的资产。 | Chaque client ne voit que son propre parc. |
+| ⏳ à relire | `services.items.4.sections.5.list.1` | 您的资产清单不会发送给任何外部服务。 | L'inventaire de votre parc n'est envoyé à aucun service extérieur. |
+| ⏳ à relire | `services.items.4.sections.5.list.2` | 我们的技术人员必须使用双重身份验证。 | Double authentification obligatoire pour nos techniciens. |
+| ⏳ à relire | `services.items.4.sections.5.list.3` | 每个敏感操作都记录在日志中。 | Chaque action sensible est enregistrée dans un journal. |
+| ⏳ à relire | `services.items.4.sections.5.list.4` | 每晚加密备份，每周检验恢复。 | Une sauvegarde chiffrée chaque nuit, et une restauration vérifiée chaque semaine. |
 | ⏳ à relire | `services.items.4.sections.6.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.4.sections.6.list.0` | Odoo、Nextcloud 和 Mattermost 由各自的开发商开发。我负责安装、配置，并根据您的企业进行调整。 | Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs. Je les installe, je les configure et je les adapte à votre entreprise. |
-| ⏳ à relire | `services.items.4.sections.6.list.1` | Odoo 方面，我以开源免费的 Odoo 19 Community 为基础。Mattermost 有免费版和付费版：免费版够不够用，我会坦白告诉您。 | Pour Odoo, je pars d'Odoo 19 Community, la version libre et gratuite. Mattermost existe en versions gratuites et payantes : je vous dis franchement si la version gratuite vous suffit. |
-| ⏳ à relire | `services.items.4.sections.6.list.2` | Nextcloud 本身已有聊天功能。如果您的团队沟通频繁、同时跟进多个项目，Mattermost 会更合适：根据您的工作方式来选。 | Nextcloud a déjà sa propre messagerie. Mattermost est utile quand votre équipe échange beaucoup, sur plusieurs projets : on choisit selon votre façon de travailler. |
-| ⏳ à relire | `services.items.4.sections.6.list.3` | Odoo 每年发布一个新版本：每两到三年要安排一次升级。 | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
-| ⏳ à relire | `services.items.4.sections.6.list.4` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.4.trademarks` | Odoo、Nextcloud 和 Mattermost 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Odoo, Nextcloud et Mattermost sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.5.id` | odoo-development | odoo-development |
-| ⏳ à relire | `services.items.5.parent` | development | development |
-| ⏳ à relire | `services.items.5.title` | Odoo 模块开发 | Développement de modules Odoo |
-| ⏳ à relire | `services.items.5.summary` | 为 Odoo 定制模块：您的界面、单据、业务规则，以及与其他软件的对接。另有专门面向柬埔寨和高棉语的方向。 | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
-| ⏳ à relire | `services.items.5.lead` | Odoo 能满足很多需求，但每家企业都有自己的做法。缺了什么，我就开发一个模块加到 Odoo 上，不改动它的原始代码。 | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
-| ⏳ à relire | `services.items.5.badges.0` | Odoo 19 Community | Odoo 19 Community |
-| ⏳ à relire | `services.items.5.badges.1` | OCA | OCA |
-| ⏳ à relire | `services.items.5.badges.2` | ខ្មែរ | ខ្មែរ |
-| ⏳ à relire | `services.items.5.badges.3` | USD · KHR | USD · KHR |
-| ⏳ à relire | `services.items.5.metaTitle` | 柬埔寨 Odoo 定制模块开发 — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
-| ⏳ à relire | `services.items.5.metaDescription` | Odoo 定制模块：界面、符合您格式的发票和报表、自动化、数据导入、与其他软件对接。支持高棉语、美元和瑞尔。 | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
-| ⏳ à relire | `services.items.5.sections.0.title` | 模块能做什么 | Ce qu'un module peut faire |
-| ⏳ à relire | `services.items.5.sections.0.list.0` | 按您的工作方式增加字段、界面和流程步骤。 | Des champs, des écrans et des étapes qui suivent votre façon de travailler. |
-| ⏳ à relire | `services.items.5.sections.0.list.1` | 报价单、发票、收据和送货单按您的格式出，带上您的标志和说明文字。 | Des devis, factures, reçus et bons de livraison à votre format, avec votre logo et vos mentions. |
-| ⏳ à relire | `services.items.5.sections.0.list.2` | 针对您关心的内容做报表和仪表板。 | Des rapports et des tableaux de bord sur ce qui compte pour vous. |
-| ⏳ à relire | `services.items.5.sections.0.list.3` | 自动任务：提醒、催款、定时操作、审核前的检查。 | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
-| ⏳ à relire | `services.items.5.sections.0.list.4` | 从 Excel 文件或旧软件导入您的数据。 | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
-| ⏳ à relire | `services.items.5.sections.0.list.5` | 通过 API 与您的其他软件对接：网站、网店、行业软件。 | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
-| ⏳ à relire | `services.items.5.sections.1.title` | 已经完成：我们自己的 Odoo | Déjà réalisé : notre propre Odoo |
-| ⏳ à relire | `services.items.5.sections.1.text` | 我们为 Chantrea Systems 开发了自己的 Odoo 19 Community 模块：高棉语和英语的报价单和发票，并以美元和瑞尔显示总额；三种语言的客户门户；约 700 条翻译成高棉语的文本；以及由客户现场签字确认的上门服务。 | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
-| ⏳ à relire | `services.items.5.sections.1.link.page` | services/odoo | services/odoo |
-| ⏳ à relire | `services.items.5.sections.1.link.label` | 查看我们对 Odoo 的改进 | Voir nos modifications d'Odoo |
-| ⏳ à relire | `services.items.5.sections.2.figure` | invoice | invoice |
-| ⏳ à relire | `services.items.5.sections.3.title` | 我的做法 | Ma façon de faire |
-| ⏳ à relire | `services.items.5.sections.3.list.0` | 我为 Odoo 的开源免费版 Odoo 19 Community 开发模块。 | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.3.list.1` | 先看 Odoo 本身或现成的模块能不能解决。OCA 社区（Odoo Community Association）的开源模块已覆盖很多需求。这样您花的钱更少。 | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
-| ⏳ à relire | `services.items.5.sections.3.list.2` | 独立的模块，不改动 Odoo 的代码：以后照样可以升级。 | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
-| ⏳ à relire | `services.items.5.sections.3.list.3` | 上线前，先在您数据库的副本上用真实数据测试。 | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
-| ⏳ à relire | `services.items.5.sections.3.list.4` | 模块附带说明：它做什么，怎么设置。 | Un module documenté : ce qu'il fait, et comment le régler. |
-| ⏳ à relire | `services.items.5.sections.4.title` | 您的 Odoo 在哪里运行 | Où tourne votre Odoo |
-| ⏳ à relire | `services.items.5.sections.4.text` | 定制模块需要把 Odoo 装在服务器上：您那里、我们这里或云端。Odoo Online（由 Odoo 开发商托管的版本）不支持定制模块。 | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
-| ⏳ à relire | `services.items.5.sections.4.link.page` | services/business-software | services/business-software |
-| ⏳ à relire | `services.items.5.sections.4.link.label` | Odoo 的安装与维护 | Installer et entretenir Odoo |
-| ⏳ à relire | `services.items.5.sections.5.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.5.sections.5.list.0` | Odoo 每年发布一个新版本。每次升级，定制模块都要相应调整：需要提前考虑。 | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
-| ⏳ à relire | `services.items.5.sections.5.list.1` | 小而专一的模块比大模块好：每次新版本需要调整的地方更少。 | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
-| ⏳ à relire | `services.items.5.sections.5.list.2` | Odoo 由其开发商开发。我不是 Odoo 开发商的官方合作伙伴。 | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
-| ⏳ à relire | `services.items.5.sections.5.list.3` | 关于您的项目，哪些我在别处做过，哪些是新的，我会说清楚。 | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
-| ⏳ à relire | `services.items.5.trademarks` | Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。 | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.6.id` | odoo-cambodia | odoo-cambodia |
-| ⏳ à relire | `services.items.6.parent` | odoo-development | odoo-development |
-| ⏳ à relire | `services.items.6.title` | 高棉语 Odoo，面向柬埔寨 | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.6.summary` | 专门面向柬埔寨企业的方向：高棉语 Odoo、高棉语或双语单据、美元和瑞尔、本地规则。 | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
-| ⏳ à relire | `services.items.6.lead` | 我以 Odoo 的开源免费版 Odoo 19 Community 为基础，针对柬埔寨进行调整：员工的语言、两种货币、客户期待的单据。 | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
-| ⏳ à relire | `services.items.6.badges.0` | ខ្មែរ | ខ្មែរ |
-| ⏳ à relire | `services.items.6.badges.1` | English | English |
-| ⏳ à relire | `services.items.6.badges.2` | USD $ | USD $ |
-| ⏳ à relire | `services.items.6.badges.3` | KHR ៛ | KHR ៛ |
-| ⏳ à relire | `services.items.6.metaTitle` | 柬埔寨高棉语 Odoo：美元和瑞尔 — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
-| ⏳ à relire | `services.items.6.metaDescription` | 为柬埔寨企业调整的 Odoo：高棉语界面，高棉语或高棉语-英语双语的发票和收据，美元和瑞尔，与您的会计确认过的税务规则。柬埔寨贡布。 | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
-| ⏳ à relire | `services.items.6.sections.0.title` | 用员工的语言使用 Odoo | Odoo dans la langue de votre équipe |
-| ⏳ à relire | `services.items.6.sections.0.text` | Odoo 的语言列表里有高棉语，但开发商提供的翻译几乎是空的：在 Odoo 19 的销售、会计、库存和销售点应用中，译成高棉语的文本不到十分之一。我会把您团队实际用到的界面补译完整，您的定制模块也一并翻译。每位用户自选语言：高棉语、英语或其他语言。 | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre. |
-| ⏳ à relire | `services.items.6.sections.1.title` | 高棉语单据 | Des documents en khmer |
-| ⏳ à relire | `services.items.6.sections.1.list.0` | 报价单、发票、收据和送货单，用高棉语，或高棉语-英语双语。 | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
-| ⏳ à relire | `services.items.6.sections.1.list.1` | 高棉文字体在屏幕上和打印时都显示正确，PDF 也一样。 | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
+| ⏳ à relire | `services.items.4.sections.6.list.0` | Vigie 不是漏洞扫描器：它把已安装的版本与已公布的漏洞进行比对。尚未公布的漏洞，或未被正确识别的软件，可能会被遗漏。 | Vigie n'est pas un scanner de vulnérabilités : il compare les versions installées aux failles publiées. Une faille pas encore publiée, ou un logiciel mal identifié, peut lui échapper. |
+| ⏳ à relire | `services.items.4.sections.6.list.1` | Windows 和 macOS 应用会关联到对应的产品：由 Vigie 提出匹配建议，我们来核实。 | Les applications Windows et macOS sont reliées à leur produit : Vigie propose la correspondance, nous la vérifions. |
+| ⏳ à relire | `services.items.4.sections.6.list.2` | Vigie 不会自行修复任何问题：它告诉您该更新什么、按什么顺序。随后由我们与您一起完成更新。 | Vigie ne corrige rien tout seul : il dit quoi mettre à jour et dans quel ordre. Les mises à jour se font ensuite, avec vous. |
+| ⏳ à relire | `services.items.4.sections.6.list.3` | Vigie 是 Chantrea Systems 的软件。它已完成开发和测试，正在准备上线。 | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
+| ⏳ à relire | `services.items.4.trademarks` | GLPI、Microsoft、Windows、macOS、Red Hat、Ubuntu、Debian 和 Slack 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian et Slack sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.5.id` | business-software | business-software |
+| ⏳ à relire | `services.items.5.parent` | infrastructure | infrastructure |
+| ⏳ à relire | `services.items.5.title` | Odoo、Nextcloud 和 Mattermost | Odoo, Nextcloud et Mattermost |
+| ⏳ à relire | `services.items.5.summary` | 您的企业管理、共享文件和团队通讯，都用开源软件。可以装在您那里、我们这里，或云端。 | Votre gestion, vos fichiers partagés et la messagerie de votre équipe, sur des logiciels libres. Installés chez vous, chez nous ou dans le cloud. |
+| ⏳ à relire | `services.items.5.lead` | 我负责安装、调整和维护 Odoo、Nextcloud 和 Mattermost。在哪里运行由您来选，数据始终归您所有。 | J'installe, j'adapte et j'entretiens Odoo, Nextcloud et Mattermost. Vous choisissez où ils tournent, et vos données restent à vous. |
+| ⏳ à relire | `services.items.5.badges.0` | Odoo | Odoo |
+| ⏳ à relire | `services.items.5.badges.1` | Nextcloud | Nextcloud |
+| ⏳ à relire | `services.items.5.badges.2` | Mattermost | Mattermost |
+| ⏳ à relire | `services.items.5.metaTitle` | 柬埔寨 Odoo、Nextcloud 和 Mattermost — Chantrea Systems | Odoo, Nextcloud et Mattermost au Cambodge — Chantrea Systems |
+| ⏳ à relire | `services.items.5.metaDescription` | Odoo（企业管理）、Nextcloud（私有云）和 Mattermost（团队通讯）的安装、配置、定制模块和维护。可以装在您那里、我们这里，或云端。 | Installation, modules sur mesure et entretien d'Odoo (gestion), de Nextcloud (cloud privé) et de Mattermost (messagerie d'équipe). Chez vous ou dans le cloud. |
+| ⏳ à relire | `services.items.5.sections.0.title` | Odoo：管理企业 | Odoo, pour gérer l'entreprise |
+| ⏳ à relire | `services.items.5.sections.0.text` | 客户、报价、销售、发票、采购、库存、项目：一套软件，每项需求对应一个应用。先上您真正用得着的，其余以后再加。 | Clients, devis, ventes, factures, achats, stocks, projets : un seul logiciel, avec une application par besoin. On commence par ce qui vous sert vraiment, on ajoute le reste plus tard. |
+| ⏳ à relire | `services.items.5.sections.1.title` | Nextcloud：您的文件和团队 | Nextcloud, pour vos fichiers et votre équipe |
+| ⏳ à relire | `services.items.5.sections.1.text` | 共享的文件、日历和通讯录，电脑和手机都能用，还有团队聊天和视频通话。和大型在线服务一样，只是放在您自己选的服务器上。 | Vos documents, agendas et contacts partagés, sur ordinateur et sur téléphone, avec messagerie et appels vidéo pour l'équipe. Comme les grands services en ligne, mais sur un serveur que vous choisissez. |
+| ⏳ à relire | `services.items.5.sections.2.title` | Mattermost：团队通讯 | Mattermost, pour la messagerie de l'équipe |
+| ⏳ à relire | `services.items.5.sections.2.text` | 按团队或按项目建频道，私信、讨论串和共享文件，电脑和手机都能用。工作上的交流留在您自己的服务器上，而不是在大众聊天软件里。您的系统发出的警报，比如 Zabbix 的警报，可以直接发到某个频道。 | Des canaux par équipe ou par projet, des messages directs, des fils de discussion et des fichiers partagés, sur ordinateur et sur téléphone. Les échanges de travail restent sur votre serveur, et non dans une messagerie grand public. Les alertes de vos outils, par exemple celles de Zabbix, peuvent arriver dans un canal. |
+| ⏳ à relire | `services.items.5.sections.3.title` | 在哪里运行 | Où ils tournent |
+| ⏳ à relire | `services.items.5.sections.3.list.0` | 在您那里：装在您场所内的服务器上。断网时，现场的员工照常工作。 | Chez vous : sur un serveur installé dans vos locaux. Votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.5.sections.3.list.1` | 在我们这里：装在由 Chantrea Systems 租用并维护的服务器上，位于 [À COMPLÉTER PAR STEFAN : pays]。 | Chez nous : sur un serveur loué et entretenu par Chantrea Systems, à [À COMPLÉTER PAR STEFAN : pays]. |
+| ⏳ à relire | `services.items.5.sections.3.list.2` | 在云端：放在大型托管服务商那里，用您自己名下的账户。 | Dans le cloud : chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.5.sections.3.list.3` | 无论哪种方式，您都清楚自己的数据在哪个国家。 | Dans tous les cas, vous savez dans quel pays sont vos données. |
+| ⏳ à relire | `services.items.5.sections.4.title` | 为您定制的 Odoo 模块 | Des modules Odoo faits pour vous |
+| ⏳ à relire | `services.items.5.sections.4.text` | Odoo 满足不了您的需要时，我来开发定制模块：一份报表、一种符合您格式的发票、与另一套软件的对接。我会先查一查有没有现成的模块可用：这样您花的钱更少。 | Quand Odoo ne fait pas ce dont vous avez besoin, je développe un module sur mesure : un rapport, une facture à votre format, un lien avec un autre logiciel. Je vérifie d'abord si un module existant fait déjà l'affaire : c'est moins cher pour vous. |
+| ⏳ à relire | `services.items.5.sections.4.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.5.sections.4.link.label` | Odoo 模块开发 | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.5.sections.5.title` | 维护 | L'entretien |
+| ⏳ à relire | `services.items.5.sections.5.list.0` | 每晚备份一次，并在另一个地点再存一份，定期做恢复测试。 | Une sauvegarde chaque nuit, copiée dans un second lieu, et des essais de restauration réguliers. |
+| ⏳ à relire | `services.items.5.sections.5.list.1` | 安全更新。 | Les mises à jour de sécurité. |
+| ⏳ à relire | `services.items.5.sections.5.list.2` | 升级到新版本：事先准备，事先测试。 | Le passage aux nouvelles versions, préparé et testé avant. |
+| ⏳ à relire | `services.items.5.sections.5.list.3` | 为您的用户提供帮助。 | De l'aide pour vos utilisateurs. |
+| ⏳ à relire | `services.items.5.sections.5.list.4` | 方案和价格：[À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.5.sections.6.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.5.sections.6.list.0` | Odoo、Nextcloud 和 Mattermost 由各自的开发商开发。我负责安装、配置，并根据您的企业进行调整。 | Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs. Je les installe, je les configure et je les adapte à votre entreprise. |
+| ⏳ à relire | `services.items.5.sections.6.list.1` | Odoo 方面，我以开源免费的 Odoo 19 Community 为基础。Mattermost 有免费版和付费版：免费版够不够用，我会坦白告诉您。 | Pour Odoo, je pars d'Odoo 19 Community, la version libre et gratuite. Mattermost existe en versions gratuites et payantes : je vous dis franchement si la version gratuite vous suffit. |
+| ⏳ à relire | `services.items.5.sections.6.list.2` | Nextcloud 本身已有聊天功能。如果您的团队沟通频繁、同时跟进多个项目，Mattermost 会更合适：根据您的工作方式来选。 | Nextcloud a déjà sa propre messagerie. Mattermost est utile quand votre équipe échange beaucoup, sur plusieurs projets : on choisit selon votre façon de travailler. |
+| ⏳ à relire | `services.items.5.sections.6.list.3` | Odoo 每年发布一个新版本：每两到三年要安排一次升级。 | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans. |
+| ⏳ à relire | `services.items.5.sections.6.list.4` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.5.trademarks` | Odoo、Nextcloud 和 Mattermost 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Odoo, Nextcloud et Mattermost sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.6.id` | odoo-development | odoo-development |
+| ⏳ à relire | `services.items.6.parent` | development | development |
+| ⏳ à relire | `services.items.6.title` | Odoo 模块开发 | Développement de modules Odoo |
+| ⏳ à relire | `services.items.6.summary` | 为 Odoo 定制模块：您的界面、单据、业务规则，以及与其他软件的对接。另有专门面向柬埔寨和高棉语的方向。 | Des modules sur mesure pour Odoo : vos écrans, vos documents, vos règles et vos liens avec d'autres logiciels. Avec une branche dédiée au Cambodge et au khmer. |
+| ⏳ à relire | `services.items.6.lead` | Odoo 能满足很多需求，但每家企业都有自己的做法。缺了什么，我就开发一个模块加到 Odoo 上，不改动它的原始代码。 | Odoo couvre beaucoup de besoins, mais chaque entreprise a ses habitudes. Quand il manque quelque chose, je développe un module qui s'ajoute à Odoo, sans modifier son code d'origine. |
+| ⏳ à relire | `services.items.6.badges.0` | Odoo 19 Community | Odoo 19 Community |
+| ⏳ à relire | `services.items.6.badges.1` | OCA | OCA |
+| ⏳ à relire | `services.items.6.badges.2` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.6.badges.3` | USD · KHR | USD · KHR |
+| ⏳ à relire | `services.items.6.metaTitle` | 柬埔寨 Odoo 定制模块开发 — Chantrea Systems | Modules Odoo sur mesure au Cambodge — Chantrea Systems |
+| ⏳ à relire | `services.items.6.metaDescription` | Odoo 定制模块：界面、符合您格式的发票和报表、自动化、数据导入、与其他软件对接。支持高棉语、美元和瑞尔。 | Modules Odoo sur mesure : écrans, factures et rapports à votre format, automatisations, imports, liens avec vos logiciels. Khmer, dollar et riel. |
+| ⏳ à relire | `services.items.6.sections.0.title` | 模块能做什么 | Ce qu'un module peut faire |
+| ⏳ à relire | `services.items.6.sections.0.list.0` | 按您的工作方式增加字段、界面和流程步骤。 | Des champs, des écrans et des étapes qui suivent votre façon de travailler. |
+| ⏳ à relire | `services.items.6.sections.0.list.1` | 报价单、发票、收据和送货单按您的格式出，带上您的标志和说明文字。 | Des devis, factures, reçus et bons de livraison à votre format, avec votre logo et vos mentions. |
+| ⏳ à relire | `services.items.6.sections.0.list.2` | 针对您关心的内容做报表和仪表板。 | Des rapports et des tableaux de bord sur ce qui compte pour vous. |
+| ⏳ à relire | `services.items.6.sections.0.list.3` | 自动任务：提醒、催款、定时操作、审核前的检查。 | Des tâches automatiques : rappels, relances, actions planifiées, contrôles avant validation. |
+| ⏳ à relire | `services.items.6.sections.0.list.4` | 从 Excel 文件或旧软件导入您的数据。 | L'import de vos données depuis des fichiers Excel ou depuis votre ancien logiciel. |
+| ⏳ à relire | `services.items.6.sections.0.list.5` | 通过 API 与您的其他软件对接：网站、网店、行业软件。 | Un lien avec vos autres logiciels par des API : site web, boutique en ligne, logiciel métier. |
+| ⏳ à relire | `services.items.6.sections.1.title` | 已经完成：我们自己的 Odoo | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.6.sections.1.text` | 我们为 Chantrea Systems 开发了自己的 Odoo 19 Community 模块：高棉语和英语的报价单和发票，并以美元和瑞尔显示总额；三种语言的客户门户；约 700 条翻译成高棉语的文本；以及由客户现场签字确认的上门服务。 | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.6.sections.1.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.6.sections.1.link.label` | 查看我们对 Odoo 的改进 | Voir nos modifications d'Odoo |
 | ⏳ à relire | `services.items.6.sections.2.figure` | invoice | invoice |
-| ⏳ à relire | `services.items.6.sections.3.title` | 美元和瑞尔 | Dollar et riel |
-| ⏳ à relire | `services.items.6.sections.3.text` | 在柬埔寨，商品常以美元标价，收款时也收瑞尔。Odoo 支持多种货币；我按您的做法来调整：美元标价、发票上显示瑞尔合计、由您决定汇率。 | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
-| ⏳ à relire | `services.items.6.sections.4.title` | 本地规则 | Les règles locales |
-| ⏳ à relire | `services.items.6.sections.4.text` | 增值税、发票编号、必备信息、给会计的报表：您的会计确认过的规则，由我在 Odoo 里实现。软件由我开发；法律要求什么，由您的会计来定。 | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
-| ⏳ à relire | `services.items.6.sections.5.title` | 已经完成：我们自己的 Odoo | Déjà réalisé : notre propre Odoo |
-| ⏳ à relire | `services.items.6.sections.5.text` | 我们为 Chantrea Systems 开发了自己的 Odoo 19 Community 模块：高棉语和英语的报价单和发票，并以美元和瑞尔显示总额；三种语言的客户门户；约 700 条翻译成高棉语的文本；以及由客户现场签字确认的上门服务。 | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
-| ⏳ à relire | `services.items.6.sections.5.link.page` | services/odoo | services/odoo |
-| ⏳ à relire | `services.items.6.sections.5.link.label` | 查看我们对 Odoo 的改进 | Voir nos modifications d'Odoo |
-| ⏳ à relire | `services.items.6.sections.6.title` | 迈向经认证的高棉语翻译 | Vers une traduction khmère certifiée |
-| ⏳ à relire | `services.items.6.sections.6.text` | 我们的高棉语文本借助 AI 翻译，尚未经过审校。我们正在寻求柬埔寨主管部门对全部这些翻译进行认证。目前它们尚未获得认证。 | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
-| ⏳ à relire | `services.items.6.sections.7.title` | 开发中 | En cours de développement |
-| ⏳ à relire | `services.items.6.sections.7.text` | 以下功能正在准备中，暂时还不能使用： | Ces fonctions sont en préparation, et pas encore disponibles : |
-| ⏳ à relire | `services.items.6.sections.7.list.0` | 单据上的日期和数字用高棉文显示。 | Les dates et les chiffres en khmer sur les documents. |
-| ⏳ à relire | `services.items.6.sections.7.list.1` | 同时收美元和瑞尔的收银台（Odoo 销售点）。 | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
-| ⏳ à relire | `services.items.6.sections.7.list.2` | KHQR 二维码付款。 | Le paiement par QR code KHQR. |
-| ⏳ à relire | `services.items.6.sections.8.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.6.sections.8.list.0` | 高棉语翻译先由 AI 准备，上线前再由您团队中懂高棉语的同事审核。 | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
-| ⏳ à relire | `services.items.6.sections.8.list.1` | 与政府部门或银行在线服务的对接，需逐案评估。 | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
-| ⏳ à relire | `services.items.6.sections.8.list.2` | 我不出具任何认证或税务批准。 | Je ne délivre aucune certification ni agrément fiscal. |
-| ⏳ à relire | `services.items.6.sections.8.list.3` | 先用您的真实单据测试，再做决定。 | On teste sur vos vrais documents avant de décider. |
+| ⏳ à relire | `services.items.6.sections.3.title` | 我的做法 | Ma façon de faire |
+| ⏳ à relire | `services.items.6.sections.3.list.0` | 我为 Odoo 的开源免费版 Odoo 19 Community 开发模块。 | Je développe pour Odoo 19 Community, la version libre et gratuite d'Odoo. |
+| ⏳ à relire | `services.items.6.sections.3.list.1` | 先看 Odoo 本身或现成的模块能不能解决。OCA 社区（Odoo Community Association）的开源模块已覆盖很多需求。这样您花的钱更少。 | D'abord, vérifier si Odoo, ou un module existant, fait déjà l'affaire. Les modules libres de la communauté OCA (Odoo Community Association) couvrent beaucoup de besoins. C'est moins cher pour vous. |
+| ⏳ à relire | `services.items.6.sections.3.list.2` | 独立的模块，不改动 Odoo 的代码：以后照样可以升级。 | Un module à part, qui ne modifie pas le code d'Odoo : les mises à jour restent possibles. |
+| ⏳ à relire | `services.items.6.sections.3.list.3` | 上线前，先在您数据库的副本上用真实数据测试。 | Un essai sur une copie de votre base, avec vos vraies données, avant la mise en service. |
+| ⏳ à relire | `services.items.6.sections.3.list.4` | 模块附带说明：它做什么，怎么设置。 | Un module documenté : ce qu'il fait, et comment le régler. |
+| ⏳ à relire | `services.items.6.sections.4.title` | 您的 Odoo 在哪里运行 | Où tourne votre Odoo |
+| ⏳ à relire | `services.items.6.sections.4.text` | 定制模块需要把 Odoo 装在服务器上：您那里、我们这里或云端。Odoo Online（由 Odoo 开发商托管的版本）不支持定制模块。 | Les modules sur mesure demandent un Odoo installé sur un serveur : chez vous, chez nous ou dans le cloud. Odoo Online, la version hébergée par l'éditeur, ne les accepte pas. |
+| ⏳ à relire | `services.items.6.sections.4.link.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.6.sections.4.link.label` | Odoo 的安装与维护 | Installer et entretenir Odoo |
+| ⏳ à relire | `services.items.6.sections.5.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.6.sections.5.list.0` | Odoo 每年发布一个新版本。每次升级，定制模块都要相应调整：需要提前考虑。 | Odoo sort une nouvelle version chaque année. À chaque mise à niveau, les modules sur mesure doivent être adaptés : il faut le prévoir. |
+| ⏳ à relire | `services.items.6.sections.5.list.1` | 小而专一的模块比大模块好：每次新版本需要调整的地方更少。 | Un petit module bien ciblé vaut mieux qu'un gros : il y a moins à adapter à chaque nouvelle version. |
+| ⏳ à relire | `services.items.6.sections.5.list.2` | Odoo 由其开发商开发。我不是 Odoo 开发商的官方合作伙伴。 | Odoo est développé par son éditeur. Je ne suis pas partenaire officiel de l'éditeur d'Odoo. |
+| ⏳ à relire | `services.items.6.sections.5.list.3` | 关于您的项目，哪些我在别处做过，哪些是新的，我会说清楚。 | Pour votre projet, je vous dis clairement ce que j'ai déjà fait ailleurs, et ce qui serait nouveau. |
 | ⏳ à relire | `services.items.6.trademarks` | Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。 | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.7.id` | odoo | odoo |
-| ⏳ à relire | `services.items.7.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.7.title` | Odoo：管理您的企业 | Odoo : la gestion de votre entreprise |
-| ⏳ à relire | `services.items.7.summary` | 销售、发票、采购、库存、收银、项目：Odoo 19 Community，即 Odoo 的开源免费版，为您安装好，并针对柬埔寨市场进行调整。 | Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien. |
-| ⏳ à relire | `services.items.7.lead` | Odoo 把企业管理所需的各个应用集中在一套软件里。我以开源免费的 Odoo 19 Community 为基础，按您的企业和柬埔寨的情况进行调整：高棉语、美元和瑞尔、您的单据。 | Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents. |
-| ⏳ à relire | `services.items.7.metaTitle` | 柬埔寨 Odoo 19 Community，支持高棉语 — Chantrea Systems | Odoo 19 Community au Cambodge, en khmer — Chantrea Systems |
-| ⏳ à relire | `services.items.7.metaDescription` | Odoo 19 Community，开源免费的企业管理软件：销售、开票、采购、库存、销售点、CRM。针对柬埔寨调整：高棉语、美元和瑞尔。 | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
-| ⏳ à relire | `services.items.7.sections.0.title` | Odoo 能做什么 | Ce que fait Odoo |
-| ⏳ à relire | `services.items.7.sections.0.text` | Odoo 是一套企业管理软件（ERP）。每项需求都有对应的应用，所有应用共用同一份数据：客户接受的报价变成订单，订单让库存出库，然后生成发票。您可以先用一两个应用，其余以后再加。 | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
-| ⏳ à relire | `services.items.7.sections.0.flow.0` | 报价单 | Devis |
-| ⏳ à relire | `services.items.7.sections.0.flow.1` | 订单 | Commande |
-| ⏳ à relire | `services.items.7.sections.0.flow.2` | 库存 | Stock |
-| ⏳ à relire | `services.items.7.sections.0.flow.3` | 发票 | Facture |
-| ⏳ à relire | `services.items.7.sections.0.list.0` | 客户和潜在客户（CRM）：跟进每位联系人、每笔商机。 | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
-| ⏳ à relire | `services.items.7.sections.0.list.1` | 销售：报价、订单、发票。 | Ventes : devis, commandes, factures. |
-| ⏳ à relire | `services.items.7.sections.0.list.2` | 采购：询价和向供应商下单。 | Achats : demandes de prix et commandes aux fournisseurs. |
-| ⏳ à relire | `services.items.7.sections.0.list.3` | 库存：入库、出库、盘点，支持多个仓库。 | Stock : entrées, sorties, inventaires, plusieurs entrepôts. |
-| ⏳ à relire | `services.items.7.sections.0.list.4` | 销售点：商店或餐厅的收银台。 | Point de vente : une caisse pour une boutique ou un restaurant. |
-| ⏳ à relire | `services.items.7.sections.0.list.5` | 项目和工时表。 | Projets et feuilles de temps. |
-| ⏳ à relire | `services.items.7.sections.0.list.6` | 网站和网店。 | Site web et boutique en ligne. |
-| ⏳ à relire | `services.items.7.sections.0.list.7` | 员工、休假和费用报销。 | Employés, congés et notes de frais. |
-| ⏳ à relire | `services.items.7.sections.1.title` | 为什么选 Odoo 19 Community | Pourquoi Odoo 19 Community |
-| ⏳ à relire | `services.items.7.sections.1.list.0` | 这是 Odoo 的开源版（LGPL v3 许可证）：不用按用户数向开发商支付订阅费。 | C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.1.list.1` | 源代码是开放的：可以用定制模块来调整，装在您的服务器上。 | Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur. |
-| ⏳ à relire | `services.items.7.sections.1.list.2` | 您的数据存放在由您掌控的数据库里。 | Vos données sont dans une base que vous contrôlez. |
-| ⏳ à relire | `services.items.7.sections.2.title` | 免费版没有的功能 | Ce que la version gratuite n'a pas |
-| ⏳ à relire | `services.items.7.sections.2.text` | 有些应用只在付费版 Odoo Enterprise 中提供。例如完整的会计功能：Community 有开票功能（发票和收款），OCA 社区（Odoo Community Association）的开源模块可以补充会计功能，具体取决于这些模块是否已支持 19 版。Odoo Studio，即无需编程就能修改 Odoo 的工具，也只在 Enterprise 中提供：使用 Community 时，这类修改通过定制模块来实现。如果有一天您需要 Enterprise，可以更换版本。 | Certaines applications sont réservées à la version payante, Odoo Enterprise. Par exemple la comptabilité complète : Community a la facturation (factures et paiements), et des modules libres de la communauté OCA (Odoo Community Association) ajoutent des fonctions comptables, selon leur disponibilité pour la version 19. Odoo Studio, l'outil pour modifier Odoo sans programmer, est aussi réservé à Enterprise : avec Community, ces changements se font par des modules sur mesure. Si un jour vous avez besoin d'Enterprise, on peut changer de version. |
-| ⏳ à relire | `services.items.7.sections.3.title` | 针对柬埔寨市场调整 | Adapté au marché cambodgien |
-| ⏳ à relire | `services.items.7.sections.3.text` | Odoo 的语言列表里有高棉语，但开发商提供的翻译几乎是空的：在 Odoo 19 的销售、会计、库存和销售点应用中，译成高棉语的文本不到十分之一。我会把您团队使用的界面补译完整，并调整单据、美元和瑞尔，以及本地规则。 | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
-| ⏳ à relire | `services.items.7.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
-| ⏳ à relire | `services.items.7.sections.3.link.label` | 高棉语 Odoo，面向柬埔寨 | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.7.sections.4.title` | 我们对 Odoo 的改进 | Nos modifications d'Odoo |
-| ⏳ à relire | `services.items.7.sections.4.text` | 我们为 Chantrea Systems 打造了自己的 Odoo 19 Community，并针对柬埔寨做了适配。所有改动都放在独立模块中：Odoo 和 OCA 模块的代码从不修改，每次改动都由自动测试检查。 | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.title` | 柬埔寨格式的报价单和发票 | Devis et factures cambodgiens |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.0` | 以高棉语打印，英语紧随其下。 | Imprimés en khmer, avec l'anglais juste en dessous. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.1` | 同时以美元和瑞尔显示总额。 | Total en dollars et en riels. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.2` | 每天从柬埔寨税务总局（GDT）或柬埔寨国家银行获取官方美元/瑞尔汇率，并在发票确认时锁定。 | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
-| ⏳ à relire | `services.items.7.sections.4.cards.0.list.3` | 增值税发票或商业发票，统一编号。 | Facture de TVA ou facture commerciale, avec une seule numérotation. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.title` | 三种语言的客户门户 | Un espace client en trois langues |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.0` | 按客户的语言显示高棉语、英语或法语。 | En khmer, en anglais ou en français, dans la langue du client. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.1` | 支持请求、报价单、发票、合同和设备。 | Demandes d'assistance, devis, factures, contrats et matériel. |
-| ⏳ à relire | `services.items.7.sections.4.cards.1.list.2` | 每位客户只能看到自己公司的数据。 | Chaque client ne voit que les données de sa société. |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.title` | 面向客户的高棉语 Odoo | Odoo en khmer pour les clients |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.list.0` | 约 700 条文本：单据、客户门户页面、邮件。 | Environ 700 textes : documents, pages de l'espace client, courriels. |
-| ⏳ à relire | `services.items.7.sections.4.cards.2.list.1` | 客户能看到的 Odoo 和 OCA 模块文本，原版很少或完全没有翻译。 | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.title` | 上门服务和设备 | Interventions et parc matériel |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.0` | 客户在现场用平板或手机签字确认。 | Le client signe l'intervention sur place, sur tablette ou téléphone. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.1` | 高棉语和英语的 PDF 服务报告。 | Rapport d'intervention en PDF, en khmer et en anglais. |
-| ⏳ à relire | `services.items.7.sections.4.cards.3.list.2` | 每台设备都有档案，保修到期前会提醒。 | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
-| ⏳ à relire | `services.items.7.sections.5.title` | 迈向经认证的高棉语翻译 | Vers une traduction khmère certifiée |
-| ⏳ à relire | `services.items.7.sections.5.text` | 我们的高棉语文本借助 AI 翻译，尚未经过审校。我们正在寻求柬埔寨主管部门对全部这些翻译进行认证。目前它们尚未获得认证。 | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
-| ⏳ à relire | `services.items.7.sections.6.title` | 在哪里运行 | Où il tourne |
-| ⏳ à relire | `services.items.7.sections.6.list.0` | 装在您场所内的服务器上：断网时，现场的员工照常工作。 | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.7.sections.6.list.1` | 装在由 Chantrea Systems 租用并维护的服务器上，或放在大型托管服务商那里，用您自己名下的账户。 | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo Online，即 Odoo 开发商提供的托管服务，不适合这种情况：它使用 Enterprise 版，而且不支持定制模块。 | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
-| ⏳ à relire | `services.items.7.sections.7.title` | 我为您做什么 | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.7.sections.7.list.0` | 和您一起选出有用的应用，以及可以以后再上的应用。 | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
-| ⏳ à relire | `services.items.7.sections.7.list.1` | 安装并配置 Odoo 19 Community：您的公司、产品、税项和单据。 | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
-| ⏳ à relire | `services.items.7.sections.7.list.2` | 从 Excel 文件或您的旧软件导入数据。 | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
-| ⏳ à relire | `services.items.7.sections.7.list.3` | 把您团队使用的界面的高棉语翻译补充完整。 | Compléter la traduction khmère des écrans que votre équipe utilise. |
-| ⏳ à relire | `services.items.7.sections.7.list.4` | 缺什么功能，就开发模块补上。 | Développer des modules quand il manque quelque chose. |
-| ⏳ à relire | `services.items.7.sections.7.list.5` | 教您的团队如何使用，之后在日常工作中提供帮助。 | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
-| ⏳ à relire | `services.items.7.sections.7.list.6` | 维护：每晚备份，安全更新，升级到新版本。 | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.7.sections.7.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.7.sections.7.link.label` | Odoo 模块开发 | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.7.id` | odoo-cambodia | odoo-cambodia |
+| ⏳ à relire | `services.items.7.parent` | odoo-development | odoo-development |
+| ⏳ à relire | `services.items.7.title` | 高棉语 Odoo，面向柬埔寨 | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `services.items.7.summary` | 专门面向柬埔寨企业的方向：高棉语 Odoo、高棉语或双语单据、美元和瑞尔、本地规则。 | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
+| ⏳ à relire | `services.items.7.lead` | 我以 Odoo 的开源免费版 Odoo 19 Community 为基础，针对柬埔寨进行调整：员工的语言、两种货币、客户期待的单据。 | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
+| ⏳ à relire | `services.items.7.badges.0` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.7.badges.1` | English | English |
+| ⏳ à relire | `services.items.7.badges.2` | USD $ | USD $ |
+| ⏳ à relire | `services.items.7.badges.3` | KHR ៛ | KHR ៛ |
+| ⏳ à relire | `services.items.7.metaTitle` | 柬埔寨高棉语 Odoo：美元和瑞尔 — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
+| ⏳ à relire | `services.items.7.metaDescription` | 为柬埔寨企业调整的 Odoo：高棉语界面，高棉语或高棉语-英语双语的发票和收据，美元和瑞尔，与您的会计确认过的税务规则。柬埔寨贡布。 | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
+| ⏳ à relire | `services.items.7.sections.0.title` | 用员工的语言使用 Odoo | Odoo dans la langue de votre équipe |
+| ⏳ à relire | `services.items.7.sections.0.text` | Odoo 的语言列表里有高棉语，但开发商提供的翻译几乎是空的：在 Odoo 19 的销售、会计、库存和销售点应用中，译成高棉语的文本不到十分之一。我会把您团队实际用到的界面补译完整，您的定制模块也一并翻译。每位用户自选语言：高棉语、英语或其他语言。 | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre. |
+| ⏳ à relire | `services.items.7.sections.1.title` | 高棉语单据 | Des documents en khmer |
+| ⏳ à relire | `services.items.7.sections.1.list.0` | 报价单、发票、收据和送货单，用高棉语，或高棉语-英语双语。 | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
+| ⏳ à relire | `services.items.7.sections.1.list.1` | 高棉文字体在屏幕上和打印时都显示正确，PDF 也一样。 | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
+| ⏳ à relire | `services.items.7.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.7.sections.3.title` | 美元和瑞尔 | Dollar et riel |
+| ⏳ à relire | `services.items.7.sections.3.text` | 在柬埔寨，商品常以美元标价，收款时也收瑞尔。Odoo 支持多种货币；我按您的做法来调整：美元标价、发票上显示瑞尔合计、由您决定汇率。 | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
+| ⏳ à relire | `services.items.7.sections.4.title` | 本地规则 | Les règles locales |
+| ⏳ à relire | `services.items.7.sections.4.text` | 增值税、发票编号、必备信息、给会计的报表：您的会计确认过的规则，由我在 Odoo 里实现。软件由我开发；法律要求什么，由您的会计来定。 | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
+| ⏳ à relire | `services.items.7.sections.5.title` | 已经完成：我们自己的 Odoo | Déjà réalisé : notre propre Odoo |
+| ⏳ à relire | `services.items.7.sections.5.text` | 我们为 Chantrea Systems 开发了自己的 Odoo 19 Community 模块：高棉语和英语的报价单和发票，并以美元和瑞尔显示总额；三种语言的客户门户；约 700 条翻译成高棉语的文本；以及由客户现场签字确认的上门服务。 | Pour Chantrea Systems, nous avons développé nos propres modules Odoo 19 Community : devis et factures en khmer et en anglais, avec les totaux en dollars et en riels, un espace client en trois langues, environ 700 textes traduits en khmer, et des interventions signées sur place. |
+| ⏳ à relire | `services.items.7.sections.5.link.page` | services/odoo | services/odoo |
+| ⏳ à relire | `services.items.7.sections.5.link.label` | 查看我们对 Odoo 的改进 | Voir nos modifications d'Odoo |
+| ⏳ à relire | `services.items.7.sections.6.title` | 迈向经认证的高棉语翻译 | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.7.sections.6.text` | 我们的高棉语文本借助 AI 翻译，尚未经过审校。我们正在寻求柬埔寨主管部门对全部这些翻译进行认证。目前它们尚未获得认证。 | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.7.sections.7.title` | 开发中 | En cours de développement |
+| ⏳ à relire | `services.items.7.sections.7.text` | 以下功能正在准备中，暂时还不能使用： | Ces fonctions sont en préparation, et pas encore disponibles : |
+| ⏳ à relire | `services.items.7.sections.7.list.0` | 单据上的日期和数字用高棉文显示。 | Les dates et les chiffres en khmer sur les documents. |
+| ⏳ à relire | `services.items.7.sections.7.list.1` | 同时收美元和瑞尔的收银台（Odoo 销售点）。 | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
+| ⏳ à relire | `services.items.7.sections.7.list.2` | KHQR 二维码付款。 | Le paiement par QR code KHQR. |
 | ⏳ à relire | `services.items.7.sections.8.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.7.sections.8.list.0` | Odoo 每年发布一个新版本：每两到三年要安排一次升级，届时定制模块也要相应调整。 | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
-| ⏳ à relire | `services.items.7.sections.8.list.1` | 使用 Community 版时，技术支持由您的服务商提供：开发商的技术支持包含在 Enterprise 订阅中。 | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
-| ⏳ à relire | `services.items.7.sections.8.list.2` | Odoo 由其开发商 Odoo SA 开发。我不是该开发商的官方合作伙伴。 | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.8.list.3` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.7.sections.8.list.4` | 方案和价格：[À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.7.sections.8.list.0` | 高棉语翻译先由 AI 准备，上线前再由您团队中懂高棉语的同事审核。 | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
+| ⏳ à relire | `services.items.7.sections.8.list.1` | 与政府部门或银行在线服务的对接，需逐案评估。 | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
+| ⏳ à relire | `services.items.7.sections.8.list.2` | 我不出具任何认证或税务批准。 | Je ne délivre aucune certification ni agrément fiscal. |
+| ⏳ à relire | `services.items.7.sections.8.list.3` | 先用您的真实单据测试，再做决定。 | On teste sur vos vrais documents avant de décider. |
 | ⏳ à relire | `services.items.7.trademarks` | Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。 | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
-| ⏳ à relire | `services.items.8.id` | mattermost | mattermost |
+| ⏳ à relire | `services.items.8.id` | odoo | odoo |
 | ⏳ à relire | `services.items.8.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.8.title` | Mattermost：您团队的通讯工具 | Mattermost : la messagerie de votre équipe |
-| ⏳ à relire | `services.items.8.summary` | 安装在您服务器上的团队通讯工具：频道、私信、讨论串、文件，以及来自您各种工具的警报。 | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
-| ⏳ à relire | `services.items.8.lead` | Mattermost 像大型企业通讯软件一样，按频道组织团队的交流，只是放在您选择的服务器上。工作上的对话不再经过个人聊天软件。 | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
-| ⏳ à relire | `services.items.8.badges.0` | Windows | Windows |
-| ⏳ à relire | `services.items.8.badges.1` | macOS | macOS |
-| ⏳ à relire | `services.items.8.badges.2` | Linux | Linux |
-| ⏳ à relire | `services.items.8.badges.3` | Android | Android |
-| ⏳ à relire | `services.items.8.badges.4` | iPhone | iPhone |
-| ⏳ à relire | `services.items.8.metaTitle` | 柬埔寨 Mattermost 私有团队通讯 — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
-| ⏳ à relire | `services.items.8.metaDescription` | Mattermost，安装在您服务器上的团队通讯工具：频道、私信、讨论串、共享文件，电脑和手机应用，Zabbix 警报。可以装在您那里、我们这里，或云端。 | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
-| ⏳ à relire | `services.items.8.sections.0.title` | Mattermost 能做什么 | Ce que fait Mattermost |
-| ⏳ à relire | `services.items.8.sections.0.list.0` | 按团队、按项目或按客户建频道，公开或私密。 | Des canaux par équipe, par projet ou par client, publics ou privés. |
-| ⏳ à relire | `services.items.8.sections.0.list.1` | 私信和群聊。 | Des messages directs et des discussions de groupe. |
-| ⏳ à relire | `services.items.8.sections.0.list.2` | 讨论串：回复某条消息，不会刷屏整个频道。 | Des fils de discussion, pour répondre à un message sans encombrer le canal. |
-| ⏳ à relire | `services.items.8.sections.0.list.3` | 共享文件和图片，并可搜索消息。 | Des fichiers et des images partagés, et une recherche dans les messages. |
-| ⏳ à relire | `services.items.8.sections.0.list.4` | Windows、macOS、Linux、Android 和 iPhone 应用，还有浏览器版本。 | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
-| ⏳ à relire | `services.items.8.sections.1.title` | 来自您各种工具的警报 | Les alertes de vos outils |
-| ⏳ à relire | `services.items.8.sections.1.text` | Mattermost 通过 webhook 接收其他软件发来的消息。一条 Zabbix 监控警报，或您自己软件发出的消息，会发到某个频道：团队在同一个地方看到它，并一起讨论。 | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
-| ⏳ à relire | `services.items.8.sections.1.flow.0` | Zabbix 发现问题 | Zabbix détecte un problème |
-| ⏳ à relire | `services.items.8.sections.1.flow.1` | Webhook | Webhook |
-| ⏳ à relire | `services.items.8.sections.1.flow.2` | “警报”频道 | Canal « alertes » |
-| ⏳ à relire | `services.items.8.sections.1.flow.3` | 团队讨论处理 | L'équipe en discute |
-| ⏳ à relire | `services.items.8.sections.2.title` | 选哪个版本 | Quelle version choisir |
-| ⏳ à relire | `services.items.8.sections.2.text` | Mattermost 有好几个版本，差别很重要。选择之前，我会给您解释清楚： | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
-| ⏳ à relire | `services.items.8.sections.2.defs.0.term` | Team Edition | Team Edition |
-| ⏳ à relire | `services.items.8.sections.2.defs.0.text` | 免费（MIT 许可证）。具备通讯的基本功能，保留全部消息记录，但功能比其他版本少。适合不需要单点登录（SSO）的小团队。 | Gratuite (licence MIT). L'essentiel de la messagerie, avec tout l'historique des messages, mais moins de fonctions que les autres versions. Prévue pour les petites équipes qui n'ont pas besoin de connexion unique (SSO). |
-| ⏳ à relire | `services.items.8.sections.2.defs.1.term` | Entry | Entry |
-| ⏳ à relire | `services.items.8.sections.2.defs.1.text` | 免费，采用商业许可证，适用于不到 50 人的团队。它有付费版的功能，但所有频道加起来，只有最近 10,000 条消息可以查看和搜索。开发商还公布了其他限制，例如通话时长 40 分钟。 | Gratuite, sous licence commerciale, pour les équipes de moins de 50 personnes. Elle a les fonctions des versions payantes, mais seuls les 10 000 derniers messages, tous canaux confondus, restent visibles et cherchables. L'éditeur annonce d'autres limites, comme des appels de 40 minutes. |
-| ⏳ à relire | `services.items.8.sections.2.defs.2.term` | Professional, Enterprise | Professional, Enterprise |
-| ⏳ à relire | `services.items.8.sections.2.defs.2.text` | 付费，按订阅收费。Professional 主要增加了：连接企业目录服务（AD/LDAP）、单点登录（SSO）、访客账户、多重身份验证、群组通话和屏幕共享。Enterprise 还增加了合规存档和高可用性。 | Payantes, par abonnement. Professional ajoute notamment la connexion à l'annuaire de l'entreprise (AD/LDAP), la connexion unique (SSO), les comptes invités, l'authentification à plusieurs facteurs, les appels de groupe et le partage d'écran. Enterprise ajoute l'archivage pour la conformité et la haute disponibilité. |
-| ⏳ à relire | `services.items.8.sections.3.title` | Mattermost 还是 Nextcloud Talk？ | Mattermost ou Nextcloud Talk ? |
-| ⏳ à relire | `services.items.8.sections.3.text` | Nextcloud 也有自己的聊天工具 Talk。如果您装 Nextcloud 是为了存放文件，Talk 往往就够用了。Mattermost 首先是为团队讨论设计的：大量频道、讨论串，以及与您其他工具的对接。 | Nextcloud a aussi sa messagerie, Talk. Si vous installez Nextcloud pour vos fichiers, Talk suffit souvent. Mattermost est pensé d'abord pour la discussion d'équipe : de nombreux canaux, des fils de discussion, des liens avec vos autres outils. |
-| ⏳ à relire | `services.items.8.sections.3.link.page` | services/nextcloud | services/nextcloud |
-| ⏳ à relire | `services.items.8.sections.3.link.label` | 了解 Nextcloud | Découvrir Nextcloud |
-| ⏳ à relire | `services.items.8.sections.4.title` | 我为您做什么 | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.8.sections.4.list.0` | 和您一起选出合适的版本。 | Choisir avec vous la version qui convient. |
-| ⏳ à relire | `services.items.8.sections.4.list.1` | 把 Mattermost 安装在选定的服务器上。 | Installer Mattermost sur le serveur choisi. |
-| ⏳ à relire | `services.items.8.sections.4.list.2` | 创建团队和频道，并邀请您的用户。 | Créer les équipes et les canaux, et inviter vos utilisateurs. |
-| ⏳ à relire | `services.items.8.sections.4.list.3` | 对接您的工具，例如 Zabbix 警报。 | Relier vos outils, par exemple les alertes Zabbix. |
-| ⏳ à relire | `services.items.8.sections.4.list.4` | 在电脑和手机上安装应用。 | Installer les applications sur les ordinateurs et les téléphones. |
-| ⏳ à relire | `services.items.8.sections.4.list.5` | 维护：每晚备份，安全更新，升级到新版本。 | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.8.sections.5.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.8.sections.5.list.0` | Mattermost 没有高棉语版本：界面有英语、法语、中文、俄语等约二十种语言。 | Mattermost n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une vingtaine de langues. |
-| ⏳ à relire | `services.items.8.sections.5.list.1` | Mattermost 由其开发商 Mattermost, Inc. 开发。我负责安装、配置和维护。 | Mattermost est développé par son éditeur, Mattermost, Inc. Je l'installe, je le configure et je l'entretiens. |
-| ⏳ à relire | `services.items.8.sections.5.list.2` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.8.trademarks` | Mattermost、Zabbix、Nextcloud、Windows、macOS、Linux、Android 和 iPhone 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android et iPhone sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
-| ⏳ à relire | `services.items.9.id` | nextcloud | nextcloud |
+| ⏳ à relire | `services.items.8.title` | Odoo：管理您的企业 | Odoo : la gestion de votre entreprise |
+| ⏳ à relire | `services.items.8.summary` | 销售、发票、采购、库存、收银、项目：Odoo 19 Community，即 Odoo 的开源免费版，为您安装好，并针对柬埔寨市场进行调整。 | Ventes, factures, achats, stocks, caisse, projets : Odoo 19 Community, la version libre et gratuite d'Odoo, installée et adaptée au marché cambodgien. |
+| ⏳ à relire | `services.items.8.lead` | Odoo 把企业管理所需的各个应用集中在一套软件里。我以开源免费的 Odoo 19 Community 为基础，按您的企业和柬埔寨的情况进行调整：高棉语、美元和瑞尔、您的单据。 | Odoo réunit dans un seul logiciel les applications de gestion d'une entreprise. Je pars d'Odoo 19 Community, la version libre et gratuite, et je l'adapte à votre entreprise et au Cambodge : la langue khmère, le dollar et le riel, vos documents. |
+| ⏳ à relire | `services.items.8.metaTitle` | 柬埔寨 Odoo 19 Community，支持高棉语 — Chantrea Systems | Odoo 19 Community au Cambodge, en khmer — Chantrea Systems |
+| ⏳ à relire | `services.items.8.metaDescription` | Odoo 19 Community，开源免费的企业管理软件：销售、开票、采购、库存、销售点、CRM。针对柬埔寨调整：高棉语、美元和瑞尔。 | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
+| ⏳ à relire | `services.items.8.sections.0.title` | Odoo 能做什么 | Ce que fait Odoo |
+| ⏳ à relire | `services.items.8.sections.0.text` | Odoo 是一套企业管理软件（ERP）。每项需求都有对应的应用，所有应用共用同一份数据：客户接受的报价变成订单，订单让库存出库，然后生成发票。您可以先用一两个应用，其余以后再加。 | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
+| ⏳ à relire | `services.items.8.sections.0.flow.0` | 报价单 | Devis |
+| ⏳ à relire | `services.items.8.sections.0.flow.1` | 订单 | Commande |
+| ⏳ à relire | `services.items.8.sections.0.flow.2` | 库存 | Stock |
+| ⏳ à relire | `services.items.8.sections.0.flow.3` | 发票 | Facture |
+| ⏳ à relire | `services.items.8.sections.0.list.0` | 客户和潜在客户（CRM）：跟进每位联系人、每笔商机。 | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
+| ⏳ à relire | `services.items.8.sections.0.list.1` | 销售：报价、订单、发票。 | Ventes : devis, commandes, factures. |
+| ⏳ à relire | `services.items.8.sections.0.list.2` | 采购：询价和向供应商下单。 | Achats : demandes de prix et commandes aux fournisseurs. |
+| ⏳ à relire | `services.items.8.sections.0.list.3` | 库存：入库、出库、盘点，支持多个仓库。 | Stock : entrées, sorties, inventaires, plusieurs entrepôts. |
+| ⏳ à relire | `services.items.8.sections.0.list.4` | 销售点：商店或餐厅的收银台。 | Point de vente : une caisse pour une boutique ou un restaurant. |
+| ⏳ à relire | `services.items.8.sections.0.list.5` | 项目和工时表。 | Projets et feuilles de temps. |
+| ⏳ à relire | `services.items.8.sections.0.list.6` | 网站和网店。 | Site web et boutique en ligne. |
+| ⏳ à relire | `services.items.8.sections.0.list.7` | 员工、休假和费用报销。 | Employés, congés et notes de frais. |
+| ⏳ à relire | `services.items.8.sections.1.title` | 为什么选 Odoo 19 Community | Pourquoi Odoo 19 Community |
+| ⏳ à relire | `services.items.8.sections.1.list.0` | 这是 Odoo 的开源版（LGPL v3 许可证）：不用按用户数向开发商支付订阅费。 | C'est la version libre d'Odoo (licence LGPL v3) : pas d'abonnement par utilisateur à payer à l'éditeur. |
+| ⏳ à relire | `services.items.8.sections.1.list.1` | 源代码是开放的：可以用定制模块来调整，装在您的服务器上。 | Son code est ouvert : on l'adapte avec des modules sur mesure, installés sur votre serveur. |
+| ⏳ à relire | `services.items.8.sections.1.list.2` | 您的数据存放在由您掌控的数据库里。 | Vos données sont dans une base que vous contrôlez. |
+| ⏳ à relire | `services.items.8.sections.2.title` | 免费版没有的功能 | Ce que la version gratuite n'a pas |
+| ⏳ à relire | `services.items.8.sections.2.text` | 有些应用只在付费版 Odoo Enterprise 中提供。例如完整的会计功能：Community 有开票功能（发票和收款），OCA 社区（Odoo Community Association）的开源模块可以补充会计功能，具体取决于这些模块是否已支持 19 版。Odoo Studio，即无需编程就能修改 Odoo 的工具，也只在 Enterprise 中提供：使用 Community 时，这类修改通过定制模块来实现。如果有一天您需要 Enterprise，可以更换版本。 | Certaines applications sont réservées à la version payante, Odoo Enterprise. Par exemple la comptabilité complète : Community a la facturation (factures et paiements), et des modules libres de la communauté OCA (Odoo Community Association) ajoutent des fonctions comptables, selon leur disponibilité pour la version 19. Odoo Studio, l'outil pour modifier Odoo sans programmer, est aussi réservé à Enterprise : avec Community, ces changements se font par des modules sur mesure. Si un jour vous avez besoin d'Enterprise, on peut changer de version. |
+| ⏳ à relire | `services.items.8.sections.3.title` | 针对柬埔寨市场调整 | Adapté au marché cambodgien |
+| ⏳ à relire | `services.items.8.sections.3.text` | Odoo 的语言列表里有高棉语，但开发商提供的翻译几乎是空的：在 Odoo 19 的销售、会计、库存和销售点应用中，译成高棉语的文本不到十分之一。我会把您团队使用的界面补译完整，并调整单据、美元和瑞尔，以及本地规则。 | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
+| ⏳ à relire | `services.items.8.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
+| ⏳ à relire | `services.items.8.sections.3.link.label` | 高棉语 Odoo，面向柬埔寨 | Odoo en khmer, pour le Cambodge |
+| ⏳ à relire | `services.items.8.sections.4.title` | 我们对 Odoo 的改进 | Nos modifications d'Odoo |
+| ⏳ à relire | `services.items.8.sections.4.text` | 我们为 Chantrea Systems 打造了自己的 Odoo 19 Community，并针对柬埔寨做了适配。所有改动都放在独立模块中：Odoo 和 OCA 模块的代码从不修改，每次改动都由自动测试检查。 | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.title` | 柬埔寨格式的报价单和发票 | Devis et factures cambodgiens |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.0` | 以高棉语打印，英语紧随其下。 | Imprimés en khmer, avec l'anglais juste en dessous. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.1` | 同时以美元和瑞尔显示总额。 | Total en dollars et en riels. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.2` | 每天从柬埔寨税务总局（GDT）或柬埔寨国家银行获取官方美元/瑞尔汇率，并在发票确认时锁定。 | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
+| ⏳ à relire | `services.items.8.sections.4.cards.0.list.3` | 增值税发票或商业发票，统一编号。 | Facture de TVA ou facture commerciale, avec une seule numérotation. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.title` | 三种语言的客户门户 | Un espace client en trois langues |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.0` | 按客户的语言显示高棉语、英语或法语。 | En khmer, en anglais ou en français, dans la langue du client. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.1` | 支持请求、报价单、发票、合同和设备。 | Demandes d'assistance, devis, factures, contrats et matériel. |
+| ⏳ à relire | `services.items.8.sections.4.cards.1.list.2` | 每位客户只能看到自己公司的数据。 | Chaque client ne voit que les données de sa société. |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.title` | 面向客户的高棉语 Odoo | Odoo en khmer pour les clients |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.list.0` | 约 700 条文本：单据、客户门户页面、邮件。 | Environ 700 textes : documents, pages de l'espace client, courriels. |
+| ⏳ à relire | `services.items.8.sections.4.cards.2.list.1` | 客户能看到的 Odoo 和 OCA 模块文本，原版很少或完全没有翻译。 | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.title` | 上门服务和设备 | Interventions et parc matériel |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.0` | 客户在现场用平板或手机签字确认。 | Le client signe l'intervention sur place, sur tablette ou téléphone. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.1` | 高棉语和英语的 PDF 服务报告。 | Rapport d'intervention en PDF, en khmer et en anglais. |
+| ⏳ à relire | `services.items.8.sections.4.cards.3.list.2` | 每台设备都有档案，保修到期前会提醒。 | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
+| ⏳ à relire | `services.items.8.sections.5.title` | 迈向经认证的高棉语翻译 | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.8.sections.5.text` | 我们的高棉语文本借助 AI 翻译，尚未经过审校。我们正在寻求柬埔寨主管部门对全部这些翻译进行认证。目前它们尚未获得认证。 | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.8.sections.6.title` | 在哪里运行 | Où il tourne |
+| ⏳ à relire | `services.items.8.sections.6.list.0` | 装在您场所内的服务器上：断网时，现场的员工照常工作。 | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.8.sections.6.list.1` | 装在由 Chantrea Systems 租用并维护的服务器上，或放在大型托管服务商那里，用您自己名下的账户。 | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.8.sections.6.list.2` | Odoo Online，即 Odoo 开发商提供的托管服务，不适合这种情况：它使用 Enterprise 版，而且不支持定制模块。 | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
+| ⏳ à relire | `services.items.8.sections.7.title` | 我为您做什么 | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.8.sections.7.list.0` | 和您一起选出有用的应用，以及可以以后再上的应用。 | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
+| ⏳ à relire | `services.items.8.sections.7.list.1` | 安装并配置 Odoo 19 Community：您的公司、产品、税项和单据。 | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
+| ⏳ à relire | `services.items.8.sections.7.list.2` | 从 Excel 文件或您的旧软件导入数据。 | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
+| ⏳ à relire | `services.items.8.sections.7.list.3` | 把您团队使用的界面的高棉语翻译补充完整。 | Compléter la traduction khmère des écrans que votre équipe utilise. |
+| ⏳ à relire | `services.items.8.sections.7.list.4` | 缺什么功能，就开发模块补上。 | Développer des modules quand il manque quelque chose. |
+| ⏳ à relire | `services.items.8.sections.7.list.5` | 教您的团队如何使用，之后在日常工作中提供帮助。 | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
+| ⏳ à relire | `services.items.8.sections.7.list.6` | 维护：每晚备份，安全更新，升级到新版本。 | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.8.sections.7.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.8.sections.7.link.label` | Odoo 模块开发 | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.8.sections.8.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.8.sections.8.list.0` | Odoo 每年发布一个新版本：每两到三年要安排一次升级，届时定制模块也要相应调整。 | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
+| ⏳ à relire | `services.items.8.sections.8.list.1` | 使用 Community 版时，技术支持由您的服务商提供：开发商的技术支持包含在 Enterprise 订阅中。 | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
+| ⏳ à relire | `services.items.8.sections.8.list.2` | Odoo 由其开发商 Odoo SA 开发。我不是该开发商的官方合作伙伴。 | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
+| ⏳ à relire | `services.items.8.sections.8.list.3` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.8.sections.8.list.4` | 方案和价格：[À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.8.trademarks` | Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。 | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
+| ⏳ à relire | `services.items.9.id` | mattermost | mattermost |
 | ⏳ à relire | `services.items.9.parent` | business-software | business-software |
-| ⏳ à relire | `services.items.9.title` | Nextcloud：您的文件和团队协作 | Nextcloud : vos fichiers et le travail en équipe |
-| ⏳ à relire | `services.items.9.summary` | 您的文件、日历、通讯录、通话和共享文档，放在您选择的服务器上。开源免费，全部功能都可用。 | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
-| ⏳ à relire | `services.items.9.lead` | 在文件和团队协作方面，Nextcloud 能做到大型在线服务能做的事，只是放在您选择的服务器上：您的场所内、我们这里，或托管服务商那里。 | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
-| ⏳ à relire | `services.items.9.badges.0` | Files | Files |
-| ⏳ à relire | `services.items.9.badges.1` | Talk | Talk |
-| ⏳ à relire | `services.items.9.badges.2` | Office | Office |
-| ⏳ à relire | `services.items.9.badges.3` | Deck | Deck |
-| ⏳ à relire | `services.items.9.metaTitle` | 柬埔寨 Nextcloud 私有云 — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
-| ⏳ à relire | `services.items.9.metaDescription` | Nextcloud，开源免费的私有云：文件在电脑和手机上同步，通过链接共享，日历和通讯录，视频通话，多人同时编辑文档。可以装在您那里、我们这里，或云端。 | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
-| ⏳ à relire | `services.items.9.sections.0.title` | 您的文件，随处可用 | Vos fichiers, partout |
-| ⏳ à relire | `services.items.9.sections.0.list.0` | 在您的电脑（Windows、macOS、Linux）和手机（Android、iPhone）上同步。 | Synchronisés sur vos ordinateurs (Windows, macOS, Linux) et vos téléphones (Android, iPhone). |
-| ⏳ à relire | `services.items.9.sections.0.list.1` | 可以共享给一位同事、一个团队，或通过链接共享给外部人员，链接可设密码和有效期。 | Partagés avec un collègue, une équipe, ou par un lien vers l'extérieur, protégé par un mot de passe et une date d'expiration. |
-| ⏳ à relire | `services.items.9.sections.0.list.2` | 文件的旧版本会保留下来，可以恢复。 | Les anciennes versions d'un fichier restent disponibles, et on peut les restaurer. |
-| ⏳ à relire | `services.items.9.sections.0.list.3` | 误删的文件可以从回收站找回。 | Un fichier effacé par erreur se récupère dans la corbeille. |
-| ⏳ à relire | `services.items.9.sections.0.list.4` | 现有的 Windows 共享文件夹（SMB）可以接入 Nextcloud。 | Les partages Windows existants (SMB) peuvent être reliés à Nextcloud. |
-| ⏳ à relire | `services.items.9.sections.1.title` | Talk：消息和通话 | Talk : messages et appels |
-| ⏳ à relire | `services.items.9.sections.1.text` | 消息、语音和视频通话、屏幕共享，有 Android 和 iPhone 应用。网络研讨会和多人通话需要一个额外组件：High Performance Backend。 | Messages, appels audio et vidéo, partage d'écran, avec des applications pour Android et iPhone. Les webinaires et les appels à nombreux participants demandent un composant supplémentaire, le High Performance Backend. |
-| ⏳ à relire | `services.items.9.sections.2.title` | 日历、通讯录和电子邮件 | Agendas, contacts et e-mails |
-| ⏳ à relire | `services.items.9.sections.2.text` | 共享的日历和通讯录，与手机同步；还有一个在浏览器里使用的邮件客户端，用来收发您现有邮箱的邮件。Deck 用看板来安排团队的任务。 | Des agendas et des contacts partagés, synchronisés avec les téléphones, et une messagerie dans le navigateur pour vos boîtes e-mail existantes. Deck organise les tâches de l'équipe en tableaux. |
-| ⏳ à relire | `services.items.9.sections.3.title` | Office：多人同时编辑 | Office : éditer à plusieurs |
-| ⏳ à relire | `services.items.9.sections.3.text` | 在浏览器里使用的办公套件：文档、电子表格和演示文稿，可以多人同时修改。它能打开和保存 Microsoft Office 格式（DOCX、XLSX、PPTX）和 OpenDocument 格式（ODT、ODS、ODP）。 | Une suite bureautique dans le navigateur : textes, tableurs et présentations, modifiés à plusieurs en même temps. Elle ouvre et enregistre les formats Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP). |
-| ⏳ à relire | `services.items.9.sections.4.title` | 留在您那里的 AI 助手 | Un assistant d'IA qui reste chez vous |
-| ⏳ à relire | `services.items.9.sections.4.text` | Nextcloud 提供一个 AI 助手，可以使用安装在您自己服务器上的模型。 | Nextcloud propose un assistant d'IA qui peut fonctionner avec un modèle installé sur votre propre serveur. |
-| ⏳ à relire | `services.items.9.sections.4.link.page` | services/ai | services/ai |
-| ⏳ à relire | `services.items.9.sections.4.link.label` | AI 与自动化 | IA et automatisation |
-| ⏳ à relire | `services.items.9.sections.5.title` | 安全 | La sécurité |
-| ⏳ à relire | `services.items.9.sections.5.list.0` | 两步验证。 | Double authentification. |
-| ⏳ à relire | `services.items.9.sections.5.list.1` | 防止反复尝试登录。 | Protection contre les tentatives de connexion répétées. |
-| ⏳ à relire | `services.items.9.sections.5.list.2` | 服务器端加密，敏感文件夹还可以端到端加密。 | Chiffrement côté serveur, et chiffrement de bout en bout pour les dossiers sensibles. |
-| ⏳ à relire | `services.items.9.sections.5.list.3` | 连接企业的目录服务（LDAP 或 Active Directory）。 | Connexion à l'annuaire de l'entreprise (LDAP ou Active Directory). |
-| ⏳ à relire | `services.items.9.sections.5.list.4` | 按人员和按组设置权限：每个人只看到与自己相关的内容。 | Des droits par personne et par groupe : chacun voit ce qui le concerne. |
-| ⏳ à relire | `services.items.9.sections.6.title` | 开源免费 | Libre et gratuit |
-| ⏳ à relire | `services.items.9.sections.6.text` | Nextcloud 是开源软件（AGPL v3 许可证），免费，全部功能都可用。开发商出售一项订阅服务 Nextcloud Enterprise，提供直接的技术支持，以及每个版本的长期支持。您是否需要，我会告诉您。 | Nextcloud est un logiciel libre (licence AGPL v3) et gratuit, avec toutes ses fonctions. L'éditeur vend un abonnement, Nextcloud Enterprise, pour une assistance directe et un support à long terme de chaque version. Je vous dis si vous en avez besoin. |
-| ⏳ à relire | `services.items.9.sections.7.title` | 我为您做什么 | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.9.sections.7.list.0` | 把 Nextcloud 安装在选定的服务器上，可以从互联网安全访问。 | Installer Nextcloud sur le serveur choisi, accessible de façon sécurisée depuis internet. |
-| ⏳ à relire | `services.items.9.sections.7.list.1` | 为您的团队创建账户、用户组和共享文件夹。 | Créer les comptes, les groupes et les dossiers partagés de votre équipe. |
-| ⏳ à relire | `services.items.9.sections.7.list.2` | 在电脑和手机上安装应用。 | Installer les applications sur les ordinateurs et les téléphones. |
-| ⏳ à relire | `services.items.9.sections.7.list.3` | 教您的团队如何使用。 | Montrer à votre équipe comment s'en servir. |
-| ⏳ à relire | `services.items.9.sections.7.list.4` | 维护：每晚备份，安全更新，升级到新版本。 | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.9.sections.8.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.9.sections.8.list.0` | Nextcloud 没有高棉语版本：界面有英语、法语、中文、俄语以及约六十种其他语言。 | Nextcloud n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une soixantaine d'autres langues. |
-| ⏳ à relire | `services.items.9.sections.8.list.1` | 如果服务器放在您的场所内，从外部访问要看您的互联网连接。 | Si le serveur est dans vos locaux, l'accès depuis l'extérieur dépend de votre connexion internet. |
-| ⏳ à relire | `services.items.9.sections.8.list.2` | Nextcloud 由其开发商 Nextcloud GmbH 开发。我负责安装、配置和维护。 | Nextcloud est développé par son éditeur, Nextcloud GmbH. Je l'installe, je le configure et je l'entretiens. |
-| ⏳ à relire | `services.items.9.sections.8.list.3` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.9.trademarks` | Nextcloud、Windows、macOS、Linux、Android、iPhone、Microsoft Office 和 Active Directory 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office et Active Directory sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.9.title` | Mattermost：您团队的通讯工具 | Mattermost : la messagerie de votre équipe |
+| ⏳ à relire | `services.items.9.summary` | 安装在您服务器上的团队通讯工具：频道、私信、讨论串、文件，以及来自您各种工具的警报。 | Une messagerie d'équipe installée sur votre serveur : canaux, messages directs, fils de discussion, fichiers, et les alertes de vos outils. |
+| ⏳ à relire | `services.items.9.lead` | Mattermost 像大型企业通讯软件一样，按频道组织团队的交流，只是放在您选择的服务器上。工作上的对话不再经过个人聊天软件。 | Mattermost organise les échanges de l'équipe par canaux, comme les grandes messageries d'entreprise, mais sur un serveur que vous choisissez. Les conversations de travail ne passent plus par des messageries personnelles. |
+| ⏳ à relire | `services.items.9.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.9.badges.1` | macOS | macOS |
+| ⏳ à relire | `services.items.9.badges.2` | Linux | Linux |
+| ⏳ à relire | `services.items.9.badges.3` | Android | Android |
+| ⏳ à relire | `services.items.9.badges.4` | iPhone | iPhone |
+| ⏳ à relire | `services.items.9.metaTitle` | 柬埔寨 Mattermost 私有团队通讯 — Chantrea Systems | Mattermost au Cambodge : messagerie d'équipe — Chantrea Systems |
+| ⏳ à relire | `services.items.9.metaDescription` | Mattermost，安装在您服务器上的团队通讯工具：频道、私信、讨论串、共享文件，电脑和手机应用，Zabbix 警报。可以装在您那里、我们这里，或云端。 | Mattermost, messagerie d'équipe installée sur votre serveur : canaux, messages directs, fichiers, applications ordinateur et téléphone, alertes Zabbix. |
+| ⏳ à relire | `services.items.9.sections.0.title` | Mattermost 能做什么 | Ce que fait Mattermost |
+| ⏳ à relire | `services.items.9.sections.0.list.0` | 按团队、按项目或按客户建频道，公开或私密。 | Des canaux par équipe, par projet ou par client, publics ou privés. |
+| ⏳ à relire | `services.items.9.sections.0.list.1` | 私信和群聊。 | Des messages directs et des discussions de groupe. |
+| ⏳ à relire | `services.items.9.sections.0.list.2` | 讨论串：回复某条消息，不会刷屏整个频道。 | Des fils de discussion, pour répondre à un message sans encombrer le canal. |
+| ⏳ à relire | `services.items.9.sections.0.list.3` | 共享文件和图片，并可搜索消息。 | Des fichiers et des images partagés, et une recherche dans les messages. |
+| ⏳ à relire | `services.items.9.sections.0.list.4` | Windows、macOS、Linux、Android 和 iPhone 应用，还有浏览器版本。 | Des applications pour Windows, macOS, Linux, Android et iPhone, et une version dans le navigateur. |
+| ⏳ à relire | `services.items.9.sections.1.title` | 来自您各种工具的警报 | Les alertes de vos outils |
+| ⏳ à relire | `services.items.9.sections.1.text` | Mattermost 通过 webhook 接收其他软件发来的消息。一条 Zabbix 监控警报，或您自己软件发出的消息，会发到某个频道：团队在同一个地方看到它，并一起讨论。 | Mattermost reçoit les messages d'autres logiciels par des webhooks. Une alerte de supervision Zabbix, ou un message de vos propres logiciels, arrive dans un canal : l'équipe la voit et en discute au même endroit. |
+| ⏳ à relire | `services.items.9.sections.1.flow.0` | Zabbix 发现问题 | Zabbix détecte un problème |
+| ⏳ à relire | `services.items.9.sections.1.flow.1` | Webhook | Webhook |
+| ⏳ à relire | `services.items.9.sections.1.flow.2` | “警报”频道 | Canal « alertes » |
+| ⏳ à relire | `services.items.9.sections.1.flow.3` | 团队讨论处理 | L'équipe en discute |
+| ⏳ à relire | `services.items.9.sections.2.title` | 选哪个版本 | Quelle version choisir |
+| ⏳ à relire | `services.items.9.sections.2.text` | Mattermost 有好几个版本，差别很重要。选择之前，我会给您解释清楚： | Mattermost existe en plusieurs versions, et les différences comptent. Je vous les explique avant de choisir : |
+| ⏳ à relire | `services.items.9.sections.2.defs.0.term` | Team Edition | Team Edition |
+| ⏳ à relire | `services.items.9.sections.2.defs.0.text` | 免费（MIT 许可证）。具备通讯的基本功能，保留全部消息记录，但功能比其他版本少。适合不需要单点登录（SSO）的小团队。 | Gratuite (licence MIT). L'essentiel de la messagerie, avec tout l'historique des messages, mais moins de fonctions que les autres versions. Prévue pour les petites équipes qui n'ont pas besoin de connexion unique (SSO). |
+| ⏳ à relire | `services.items.9.sections.2.defs.1.term` | Entry | Entry |
+| ⏳ à relire | `services.items.9.sections.2.defs.1.text` | 免费，采用商业许可证，适用于不到 50 人的团队。它有付费版的功能，但所有频道加起来，只有最近 10,000 条消息可以查看和搜索。开发商还公布了其他限制，例如通话时长 40 分钟。 | Gratuite, sous licence commerciale, pour les équipes de moins de 50 personnes. Elle a les fonctions des versions payantes, mais seuls les 10 000 derniers messages, tous canaux confondus, restent visibles et cherchables. L'éditeur annonce d'autres limites, comme des appels de 40 minutes. |
+| ⏳ à relire | `services.items.9.sections.2.defs.2.term` | Professional, Enterprise | Professional, Enterprise |
+| ⏳ à relire | `services.items.9.sections.2.defs.2.text` | 付费，按订阅收费。Professional 主要增加了：连接企业目录服务（AD/LDAP）、单点登录（SSO）、访客账户、多重身份验证、群组通话和屏幕共享。Enterprise 还增加了合规存档和高可用性。 | Payantes, par abonnement. Professional ajoute notamment la connexion à l'annuaire de l'entreprise (AD/LDAP), la connexion unique (SSO), les comptes invités, l'authentification à plusieurs facteurs, les appels de groupe et le partage d'écran. Enterprise ajoute l'archivage pour la conformité et la haute disponibilité. |
+| ⏳ à relire | `services.items.9.sections.3.title` | Mattermost 还是 Nextcloud Talk？ | Mattermost ou Nextcloud Talk ? |
+| ⏳ à relire | `services.items.9.sections.3.text` | Nextcloud 也有自己的聊天工具 Talk。如果您装 Nextcloud 是为了存放文件，Talk 往往就够用了。Mattermost 首先是为团队讨论设计的：大量频道、讨论串，以及与您其他工具的对接。 | Nextcloud a aussi sa messagerie, Talk. Si vous installez Nextcloud pour vos fichiers, Talk suffit souvent. Mattermost est pensé d'abord pour la discussion d'équipe : de nombreux canaux, des fils de discussion, des liens avec vos autres outils. |
+| ⏳ à relire | `services.items.9.sections.3.link.page` | services/nextcloud | services/nextcloud |
+| ⏳ à relire | `services.items.9.sections.3.link.label` | 了解 Nextcloud | Découvrir Nextcloud |
+| ⏳ à relire | `services.items.9.sections.4.title` | 我为您做什么 | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.9.sections.4.list.0` | 和您一起选出合适的版本。 | Choisir avec vous la version qui convient. |
+| ⏳ à relire | `services.items.9.sections.4.list.1` | 把 Mattermost 安装在选定的服务器上。 | Installer Mattermost sur le serveur choisi. |
+| ⏳ à relire | `services.items.9.sections.4.list.2` | 创建团队和频道，并邀请您的用户。 | Créer les équipes et les canaux, et inviter vos utilisateurs. |
+| ⏳ à relire | `services.items.9.sections.4.list.3` | 对接您的工具，例如 Zabbix 警报。 | Relier vos outils, par exemple les alertes Zabbix. |
+| ⏳ à relire | `services.items.9.sections.4.list.4` | 在电脑和手机上安装应用。 | Installer les applications sur les ordinateurs et les téléphones. |
+| ⏳ à relire | `services.items.9.sections.4.list.5` | 维护：每晚备份，安全更新，升级到新版本。 | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.9.sections.5.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.9.sections.5.list.0` | Mattermost 没有高棉语版本：界面有英语、法语、中文、俄语等约二十种语言。 | Mattermost n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une vingtaine de langues. |
+| ⏳ à relire | `services.items.9.sections.5.list.1` | Mattermost 由其开发商 Mattermost, Inc. 开发。我负责安装、配置和维护。 | Mattermost est développé par son éditeur, Mattermost, Inc. Je l'installe, je le configure et je l'entretiens. |
+| ⏳ à relire | `services.items.9.sections.5.list.2` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.9.trademarks` | Mattermost、Zabbix、Nextcloud、Windows、macOS、Linux、Android 和 iPhone 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Mattermost, Zabbix, Nextcloud, Windows, macOS, Linux, Android et iPhone sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.10.id` | nextcloud | nextcloud |
+| ⏳ à relire | `services.items.10.parent` | business-software | business-software |
+| ⏳ à relire | `services.items.10.title` | Nextcloud：您的文件和团队协作 | Nextcloud : vos fichiers et le travail en équipe |
+| ⏳ à relire | `services.items.10.summary` | 您的文件、日历、通讯录、通话和共享文档，放在您选择的服务器上。开源免费，全部功能都可用。 | Vos fichiers, agendas, contacts, appels et documents partagés, sur un serveur que vous choisissez. Libre et gratuit, avec toutes ses fonctions. |
+| ⏳ à relire | `services.items.10.lead` | 在文件和团队协作方面，Nextcloud 能做到大型在线服务能做的事，只是放在您选择的服务器上：您的场所内、我们这里，或托管服务商那里。 | Nextcloud fait ce que font les grands services en ligne pour les fichiers et le travail en équipe, mais sur un serveur que vous choisissez : dans vos locaux, chez nous ou chez un hébergeur. |
+| ⏳ à relire | `services.items.10.badges.0` | Files | Files |
+| ⏳ à relire | `services.items.10.badges.1` | Talk | Talk |
+| ⏳ à relire | `services.items.10.badges.2` | Office | Office |
+| ⏳ à relire | `services.items.10.badges.3` | Deck | Deck |
+| ⏳ à relire | `services.items.10.metaTitle` | 柬埔寨 Nextcloud 私有云 — Chantrea Systems | Nextcloud au Cambodge : votre cloud privé — Chantrea Systems |
+| ⏳ à relire | `services.items.10.metaDescription` | Nextcloud，开源免费的私有云：文件在电脑和手机上同步，通过链接共享，日历和通讯录，视频通话，多人同时编辑文档。可以装在您那里、我们这里，或云端。 | Nextcloud, cloud privé libre et gratuit : fichiers synchronisés, partage par lien, agendas, appels vidéo, documents à plusieurs. Chez vous ou dans le cloud. |
+| ⏳ à relire | `services.items.10.sections.0.title` | 您的文件，随处可用 | Vos fichiers, partout |
+| ⏳ à relire | `services.items.10.sections.0.list.0` | 在您的电脑（Windows、macOS、Linux）和手机（Android、iPhone）上同步。 | Synchronisés sur vos ordinateurs (Windows, macOS, Linux) et vos téléphones (Android, iPhone). |
+| ⏳ à relire | `services.items.10.sections.0.list.1` | 可以共享给一位同事、一个团队，或通过链接共享给外部人员，链接可设密码和有效期。 | Partagés avec un collègue, une équipe, ou par un lien vers l'extérieur, protégé par un mot de passe et une date d'expiration. |
+| ⏳ à relire | `services.items.10.sections.0.list.2` | 文件的旧版本会保留下来，可以恢复。 | Les anciennes versions d'un fichier restent disponibles, et on peut les restaurer. |
+| ⏳ à relire | `services.items.10.sections.0.list.3` | 误删的文件可以从回收站找回。 | Un fichier effacé par erreur se récupère dans la corbeille. |
+| ⏳ à relire | `services.items.10.sections.0.list.4` | 现有的 Windows 共享文件夹（SMB）可以接入 Nextcloud。 | Les partages Windows existants (SMB) peuvent être reliés à Nextcloud. |
+| ⏳ à relire | `services.items.10.sections.1.title` | Talk：消息和通话 | Talk : messages et appels |
+| ⏳ à relire | `services.items.10.sections.1.text` | 消息、语音和视频通话、屏幕共享，有 Android 和 iPhone 应用。网络研讨会和多人通话需要一个额外组件：High Performance Backend。 | Messages, appels audio et vidéo, partage d'écran, avec des applications pour Android et iPhone. Les webinaires et les appels à nombreux participants demandent un composant supplémentaire, le High Performance Backend. |
+| ⏳ à relire | `services.items.10.sections.2.title` | 日历、通讯录和电子邮件 | Agendas, contacts et e-mails |
+| ⏳ à relire | `services.items.10.sections.2.text` | 共享的日历和通讯录，与手机同步；还有一个在浏览器里使用的邮件客户端，用来收发您现有邮箱的邮件。Deck 用看板来安排团队的任务。 | Des agendas et des contacts partagés, synchronisés avec les téléphones, et une messagerie dans le navigateur pour vos boîtes e-mail existantes. Deck organise les tâches de l'équipe en tableaux. |
+| ⏳ à relire | `services.items.10.sections.3.title` | Office：多人同时编辑 | Office : éditer à plusieurs |
+| ⏳ à relire | `services.items.10.sections.3.text` | 在浏览器里使用的办公套件：文档、电子表格和演示文稿，可以多人同时修改。它能打开和保存 Microsoft Office 格式（DOCX、XLSX、PPTX）和 OpenDocument 格式（ODT、ODS、ODP）。 | Une suite bureautique dans le navigateur : textes, tableurs et présentations, modifiés à plusieurs en même temps. Elle ouvre et enregistre les formats Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP). |
+| ⏳ à relire | `services.items.10.sections.4.title` | 留在您那里的 AI 助手 | Un assistant d'IA qui reste chez vous |
+| ⏳ à relire | `services.items.10.sections.4.text` | Nextcloud 提供一个 AI 助手，可以使用安装在您自己服务器上的模型。 | Nextcloud propose un assistant d'IA qui peut fonctionner avec un modèle installé sur votre propre serveur. |
+| ⏳ à relire | `services.items.10.sections.4.link.page` | services/ai | services/ai |
+| ⏳ à relire | `services.items.10.sections.4.link.label` | AI 与自动化 | IA et automatisation |
+| ⏳ à relire | `services.items.10.sections.5.title` | 安全 | La sécurité |
+| ⏳ à relire | `services.items.10.sections.5.list.0` | 两步验证。 | Double authentification. |
+| ⏳ à relire | `services.items.10.sections.5.list.1` | 防止反复尝试登录。 | Protection contre les tentatives de connexion répétées. |
+| ⏳ à relire | `services.items.10.sections.5.list.2` | 服务器端加密，敏感文件夹还可以端到端加密。 | Chiffrement côté serveur, et chiffrement de bout en bout pour les dossiers sensibles. |
+| ⏳ à relire | `services.items.10.sections.5.list.3` | 连接企业的目录服务（LDAP 或 Active Directory）。 | Connexion à l'annuaire de l'entreprise (LDAP ou Active Directory). |
+| ⏳ à relire | `services.items.10.sections.5.list.4` | 按人员和按组设置权限：每个人只看到与自己相关的内容。 | Des droits par personne et par groupe : chacun voit ce qui le concerne. |
+| ⏳ à relire | `services.items.10.sections.6.title` | 开源免费 | Libre et gratuit |
+| ⏳ à relire | `services.items.10.sections.6.text` | Nextcloud 是开源软件（AGPL v3 许可证），免费，全部功能都可用。开发商出售一项订阅服务 Nextcloud Enterprise，提供直接的技术支持，以及每个版本的长期支持。您是否需要，我会告诉您。 | Nextcloud est un logiciel libre (licence AGPL v3) et gratuit, avec toutes ses fonctions. L'éditeur vend un abonnement, Nextcloud Enterprise, pour une assistance directe et un support à long terme de chaque version. Je vous dis si vous en avez besoin. |
+| ⏳ à relire | `services.items.10.sections.7.title` | 我为您做什么 | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.10.sections.7.list.0` | 把 Nextcloud 安装在选定的服务器上，可以从互联网安全访问。 | Installer Nextcloud sur le serveur choisi, accessible de façon sécurisée depuis internet. |
+| ⏳ à relire | `services.items.10.sections.7.list.1` | 为您的团队创建账户、用户组和共享文件夹。 | Créer les comptes, les groupes et les dossiers partagés de votre équipe. |
+| ⏳ à relire | `services.items.10.sections.7.list.2` | 在电脑和手机上安装应用。 | Installer les applications sur les ordinateurs et les téléphones. |
+| ⏳ à relire | `services.items.10.sections.7.list.3` | 教您的团队如何使用。 | Montrer à votre équipe comment s'en servir. |
+| ⏳ à relire | `services.items.10.sections.7.list.4` | 维护：每晚备份，安全更新，升级到新版本。 | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.10.sections.8.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.10.sections.8.list.0` | Nextcloud 没有高棉语版本：界面有英语、法语、中文、俄语以及约六十种其他语言。 | Nextcloud n'existe pas en khmer : ses écrans sont en anglais, en français, en chinois, en russe et dans une soixantaine d'autres langues. |
+| ⏳ à relire | `services.items.10.sections.8.list.1` | 如果服务器放在您的场所内，从外部访问要看您的互联网连接。 | Si le serveur est dans vos locaux, l'accès depuis l'extérieur dépend de votre connexion internet. |
+| ⏳ à relire | `services.items.10.sections.8.list.2` | Nextcloud 由其开发商 Nextcloud GmbH 开发。我负责安装、配置和维护。 | Nextcloud est développé par son éditeur, Nextcloud GmbH. Je l'installe, je le configure et je l'entretiens. |
+| ⏳ à relire | `services.items.10.sections.8.list.3` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.10.trademarks` | Nextcloud、Windows、macOS、Linux、Android、iPhone、Microsoft Office 和 Active Directory 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office et Active Directory sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `tech.title` | 我使用的技术 | Les technologies que j'utilise |
 | ⏳ à relire | `tech.intro` | 成熟的工具，大多是开源软件，因可靠而选用。每一项都说明：它做什么，在哪项服务中用到。 | Des outils reconnus, libres pour la plupart, choisis pour leur fiabilité. Pour chacun : à quoi il sert, et où il intervient dans l'offre. |
 | ⏳ à relire | `tech.note` | 文中提到的名称是其各自所有者的商标。提及它们并不表示存在任何合作关系或认证。 | Les noms cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat ni aucune certification. |
@@ -3218,6 +3408,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.3.items.1.text` | 安装在每台机器上，自动把清单发送给 GLPI。它负责资产清点，不负责查找漏洞。 | Installé sur chaque machine, il envoie automatiquement son inventaire à GLPI. Il fait l'inventaire, pas la recherche de failles. |
 | ⏳ à relire | `tech.groups.3.items.2.name` | Grafana | Grafana |
 | ⏳ à relire | `tech.groups.3.items.2.text` | 基于 Zabbix 数据的 IT 资产状态和告警仪表板。 | Des tableaux de bord sur l'état du parc et les alertes, à partir des données de Zabbix. |
+| ⏳ à relire | `tech.groups.3.items.3.name` | Vigie | Vigie |
+| ⏳ à relire | `tech.groups.3.items.3.text` | 我们的安全监测门户：影响您 GLPI 资产的漏洞，按优先级排列，并持续提醒。 | Notre portail de veille : les failles qui touchent votre parc GLPI, par ordre de priorité, avec des rappels. |
 | ⏳ à relire | `diagram.title` | 一套基础设施，从下到上 | Une infrastructure, de bas en haut |
 | ⏳ à relire | `diagram.caption` | 示例架构。每套系统都按您的需求来配置。 | Exemple d'organisation. Chaque installation est dimensionnée selon vos besoins. |
 | ⏳ à relire | `diagram.layers.0.label` | 应用 | Applications |
