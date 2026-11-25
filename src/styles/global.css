@@ -439,9 +439,10 @@ h2.group-title { margin-top: 0; }
 .offer-link .eyebrow { margin-bottom: .4rem; }
 
 /* ─── Technologies (page Services) ─────────────────────────── */
-/* ─── Page Services : une couleur par domaine ──────────────────
+/* ─── Une couleur par domaine (accueil et page Services) ───────
    --dom-* : couleur du domaine sur fond clair ; --dom-*-night : sur fond de nuit (et en thème sombre).
-   Portée limitée à la page Services (.domains--page, .domain-jump, .tech__group). */
+   Cartes colorées sur l'accueil et la page Services (.domains--color), mise en page propre à Services
+   (.domains--page, .domain-jump, .tech__group). */
 :root {
   --dom-development: #3e4f7c; --dom-ai: #6b4fa0; --dom-infrastructure: #1f6b3c; --dom-security: #a2541f;
   --dom-development-night: #a9b8e6; --dom-ai-night: #c9b3f0; --dom-infrastructure-night: #9fe0a8; --dom-security-night: #e8c27a;
@@ -475,26 +476,30 @@ h2.group-title { margin-top: 0; }
 .domain-jump .domain-icon { color: var(--d-night); }
 .domain-jump a:hover, .domain-jump a:focus-visible { border-color: var(--d-night); background: color-mix(in srgb, var(--d-night) 14%, var(--night-surface)); }
 
-/* Cartes des domaines */
-.domains--page { gap: 1.25rem; }
-.domains--page .domain {
+/* Cartes des domaines : couleurs communes (accueil et Services) */
+.domains--color .domain {
   --accent: var(--d); --accent-ink: var(--dom-ink);
-  position: relative; overflow: hidden; scroll-margin-top: 6rem;
-  border-top: 4px solid var(--d); padding: 1.6rem 1.6rem 1.5rem;
+  position: relative; overflow: hidden;
+  border-top: 4px solid var(--d);
   box-shadow: 0 1px 2px rgba(11, 18, 32, .04);
   transition: transform .2s ease, box-shadow .2s ease;
 }
-.domains--page .domain:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(11, 18, 32, .1); }
+.domains--color .domain:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(11, 18, 32, .1); }
+.domains--color .domain__head .domain-icon {
+  color: var(--d); border: 0; background: color-mix(in srgb, var(--d) 13%, var(--surface));
+}
+.domains--color .domain__num { color: var(--d); font-weight: 700; }
+
+/* Cartes des domaines : mise en page propre à la page Services */
+.domains--page { gap: 1.25rem; }
+.domains--page .domain { scroll-margin-top: 6rem; padding: 1.6rem 1.6rem 1.5rem; }
 .domains--page .domain__bignum {
   position: absolute; top: .4rem; right: 1.1rem; font-family: var(--font-mono); font-weight: 700;
   font-size: clamp(3.2rem, 7vw, 4.6rem); line-height: 1; letter-spacing: -.02em;
   color: color-mix(in srgb, var(--d) 16%, transparent); pointer-events: none;
 }
 .domains--page .domain__head { margin-bottom: 1rem; }
-.domains--page .domain__head .domain-icon {
-  color: var(--d); padding: .7rem; border-radius: 14px; border: 0;
-  background: color-mix(in srgb, var(--d) 13%, var(--surface));
-}
+.domains--page .domain__head .domain-icon { padding: .7rem; border-radius: 14px; }
 .domains--page .domain h2 { position: relative; }
 .domain__offers { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1.3rem; }
 .domain__offers a {
@@ -506,8 +511,8 @@ h2.group-title { margin-top: 0; }
 .domain__offers a:hover, .domain__offers a:focus-visible { background: color-mix(in srgb, var(--d) 18%, var(--surface)); border-color: var(--d); }
 .domains--page .domain__cta { margin-top: auto; align-self: flex-start; }
 @media (prefers-reduced-motion: reduce) {
-  .domains--page .domain, .domain-jump a { transition: none; }
-  .domains--page .domain:hover { transform: none; }
+  .domains--color .domain, .domain-jump a { transition: none; }
+  .domains--color .domain:hover { transform: none; }
 }
 
 /* Technologies, dans la couleur de leur domaine */

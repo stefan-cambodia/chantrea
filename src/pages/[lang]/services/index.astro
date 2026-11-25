@@ -30,7 +30,7 @@ const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
   </PageHero>
   <section class="section">
     <div class="container">
-      <ol class="cards cards--2 domains domains--page">
+      <ol class="cards cards--2 domains domains--color domains--page">
         {domains.map((item, i) => (
           <li class="card domain" id={item.id} data-domain={item.id}>
             <span class="domain__bignum" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>

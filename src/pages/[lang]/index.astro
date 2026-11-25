@@ -50,9 +50,9 @@ const rd = [
     <div class="container">
       <h2 id="services-title">{h.services.title}</h2>
       <p class="section__intro">{h.services.intro}</p>
-      <ol class="cards cards--4 domains">
+      <ol class="cards cards--4 domains domains--color">
         {domains.map((s, i) => (
-          <li class="card domain">
+          <li class="card domain" data-domain={s.id}>
             <div class="domain__head">
               <DomainIcon id={s.id} />
               <span class="domain__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
