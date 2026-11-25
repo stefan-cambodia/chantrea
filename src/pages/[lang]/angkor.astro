@@ -1,8 +1,12 @@
 ---
+// Angkor World Engine : bandeau sur une capture aérienne, chiffres de la région, galerie,
+// données réelles (schéma des couches), temples, autres points du projet avec pictogrammes, ce que le projet montre.
+// Textes : angkor.* de chaque fichier de langue ; captures : src/data/angkor-screens.js.
 import Page from '../../layouts/Page.astro';
-import PageHero from '../../components/PageHero.astro';
 import ScreenGallery from '../../components/ScreenGallery.astro';
-import screens from '../../data/angkor-screens.js';
+import HmsIcon from '../../components/HmsIcon.astro';
+import { Picture } from 'astro:assets';
+import screens, { homeScreen } from '../../data/angkor-screens.js';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -10,20 +14,116 @@ export const getStaticPaths = langPaths;
 const { lang } = Astro.params;
 const tr = t(lang);
 const a = tr.angkor;
+const shot = (c) => screens.find((s) => s.caption === c);
+
+// groups : 0 données réelles, 1 toute la région, 2 temples, 3 véhicules, 4 météo et nuit, 5 éditeur.
+const [data, region, temples, ...rest] = a.groups;
+const cards = [region, ...rest];
+const cardIcons = ['globe', 'car', 'cloud', 'wrench'];
+// « Angkor Wat et huit temples-montagnes : Bakong, … » → phrase d'en-tête + noms des temples.
+const first = temples.items[0];
+const at = first.search(/[:：៖]/);
+const templesHead = first.slice(0, at).trim();
+const templeNames = first.slice(at + 1).trim().split(lang === 'km' ? /\s+/ : /\s*[,、]\s*/).filter(Boolean);
+const preRup = shot('preRup');
+const causeway = shot('causeway');
 ---
 <Page lang={lang} page="angkor" title={tr.meta.angkor.title} description={tr.meta.angkor.description}>
-  <PageHero eyebrow={a.eyebrow} title={a.title} lead={a.lead}>
-    <p class="status"><span class="sr-only">{tr.work.status} : </span>{a.status}</p>
-  </PageHero>
+  <section class="page-hero night photo-hero">
+    <Picture class="photo-hero__bg" src={homeScreen.src} alt="" formats={['avif', 'webp']} widths={[640, 960, 1330]}
+             sizes="100vw" quality={72} loading="eager" aria-hidden="true" />
+    <div class="container">
+      <p class="eyebrow">{a.eyebrow}</p>
+      <h1>{a.title}</h1>
+      <p class="lead">{a.lead}</p>
+      <p class="status"><span class="sr-only">{tr.work.status} : </span>{a.status}</p>
+    </div>
+  </section>
+
+  <section class="angkor-stats" aria-label={region.title}>
+    <ul class="container angkor-stats__list">
+      {a.stats.map((s) => <li><b>{s.value}</b><span>{s.label}</span></li>)}
+    </ul>
+  </section>
 
   <ScreenGallery screens={screens} texts={a.gallery} />
+
+  <section class="section night angkor-data" aria-labelledby="data-title">
+    <div class="container split split--center">
+      <div>
+        <h2 id="data-title">{data.title}</h2>
+        <ul class="angkor-data__list">
+          {data.items.map((i, n) => <li class={`angkor-data__item angkor-data__item--${n + 1}`}>{i}</li>)}
+        </ul>
+      </div>
+      <svg class="angkor-layers" viewBox="0 0 300 330" aria-hidden="true" focusable="false">
+        <defs>
+          {[265, 200, 135, 70].map((y, i) => (
+            <clipPath id={`al-${i}`}><path d={`M150 ${y - 62} L276 ${y} L150 ${y + 62} L24 ${y} Z`} /></clipPath>
+          ))}
+        </defs>
+        <!-- 1. relief -->
+        <g class="angkor-layers__plate angkor-layers__plate--relief">
+          <path d="M150 203 L276 265 L150 327 L24 265 Z" />
+          <g clip-path="url(#al-0)" class="angkor-layers__lines">
+            <ellipse cx="120" cy="270" rx="70" ry="30" /><ellipse cx="120" cy="270" rx="44" ry="18" /><ellipse cx="120" cy="270" rx="18" ry="7" />
+            <ellipse cx="215" cy="258" rx="40" ry="16" />
+          </g>
+        </g>
+        <!-- 2. rizières -->
+        <g class="angkor-layers__plate angkor-layers__plate--rice">
+          <path d="M150 138 L276 200 L150 262 L24 200 Z" />
+          <g clip-path="url(#al-1)" class="angkor-layers__lines">
+            {[0.15, 0.3, 0.45, 0.6, 0.75, 0.9].map((t) => <path d={`M${24 + 126 * t} ${200 - 62 * t} l252 124`} />)}
+            {[0.15, 0.3, 0.45, 0.6, 0.75, 0.9].map((t) => <path d={`M${150 + 126 * t} ${138 + 62 * t} l-252 124`} />)}
+          </g>
+        </g>
+        <!-- 3. routes et bâtiments -->
+        <g class="angkor-layers__plate angkor-layers__plate--osm">
+          <path d="M150 73 L276 135 L150 197 L24 135 Z" />
+          <g clip-path="url(#al-2)">
+            <path class="angkor-layers__road" d="M40 135 L150 80 M70 150 L230 110 M150 190 L200 112" />
+            <path class="angkor-layers__water" d="M150 128 l40 20 l-40 20 l-40 -20 Z" />
+            {[[100, 120], [120, 160], [210, 140], [185, 165], [90, 145], [230, 125]].map(([x, y]) => <rect x={x} y={y} width="10" height="6" class="angkor-layers__bldg" />)}
+          </g>
+        </g>
+        <!-- 4. arbres -->
+        <g class="angkor-layers__plate angkor-layers__plate--trees">
+          <path d="M150 8 L276 70 L150 132 L24 70 Z" />
+          <g clip-path="url(#al-3)">
+            {[[90, 60], [110, 75], [130, 55], [150, 90], [170, 50], [190, 70], [210, 85], [120, 95], [230, 68], [75, 72], [160, 30], [140, 110]].map(([x, y], i) => (
+              <circle cx={x} cy={y} r={5 + (i % 3) * 2} />
+            ))}
+          </g>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="temples-title">
+    <div class="container split split--center angkor-temples">
+      <div class="angkor-temples__shots">
+        <Picture src={preRup.src} alt={a.gallery.captions.preRup} formats={['avif', 'webp']} widths={[480, 720, 960]}
+                 sizes="(min-width: 1120px) 536px, (min-width: 860px) 45vw, 100vw" quality={78} loading="lazy" class="angkor-temples__main" />
+        <Picture src={causeway.src} alt={a.gallery.captions.causeway} formats={['avif', 'webp']} widths={[320, 480]}
+                 sizes="(min-width: 860px) 240px, 45vw" quality={78} loading="lazy" class="angkor-temples__inset" />
+      </div>
+      <div>
+        <h2 id="temples-title">{temples.title}</h2>
+        <p class="lead-sm">{templesHead}</p>
+        <ul class="rally-circuit__places angkor-temples__names">{templeNames.map((n) => <li>{n}</li>)}</ul>
+        <ul class="checklist">{temples.items.slice(1).map((i) => <li>{i}</li>)}</ul>
+      </div>
+    </div>
+  </section>
 
   <section class="section section--alt" aria-labelledby="features-title">
     <div class="container">
       <h2 id="features-title">{a.featuresTitle}</h2>
-      <ul class="cards cards--3 features">
-        {a.groups.map((g) => (
+      <ul class="cards cards--4 rally-features">
+        {cards.map((g, i) => (
           <li class="card">
+            <span class="rally-features__icon"><HmsIcon name={cardIcons[i]} size={26} /></span>
             <h3>{g.title}</h3>
             <ul class="checklist checklist--sm">{g.items.map((i) => <li>{i}</li>)}</ul>
           </li>
@@ -33,13 +133,13 @@ const a = tr.angkor;
   </section>
 
   <section class="section" aria-labelledby="shows-title">
-    <div class="container split">
+    <div class="container split split--center">
       <div>
         <h2 id="shows-title">{a.shows.title}</h2>
-        <p>{a.shows.text}</p>
+        <p class="lead-sm">{a.shows.text}</p>
         <a class="btn btn--ghost" href={href(lang, 'work')}>{a.shows.cta}</a>
       </div>
-      <ul class="checklist">{a.shows.items.map((i) => <li>{i}</li>)}</ul>
+      <ul class="checklist single-panel">{a.shows.items.map((i) => <li>{i}</li>)}</ul>
     </div>
     <p class="container credits">{a.credits}</p>
   </section>

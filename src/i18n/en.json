@@ -1823,6 +1823,28 @@
     "title": "Angkor World Engine",
     "lead": "The Angkor and Siem Reap region rebuilt in 3D at real scale, from open geographic data. One metre on screen is a real metre: a journey takes as long as it really would. Fly over it or drive through it.",
     "status": "Prototype in development",
+    "stats": [
+      {
+        "value": "1:1",
+        "label": "real scale"
+      },
+      {
+        "value": "37 × 45 km",
+        "label": "from the West Baray to the Tonle Sap"
+      },
+      {
+        "value": "5,343 km",
+        "label": "of roads"
+      },
+      {
+        "value": "95,487",
+        "label": "buildings"
+      },
+      {
+        "value": "287",
+        "label": "archaeological sites"
+      }
+    ],
     "gallery": {
       "title": "Screenshots",
       "note": "Captures from the prototype. Trees, buildings, vehicles and temples are still placeholder models.",

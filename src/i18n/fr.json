@@ -1823,6 +1823,28 @@
     "title": "Angkor World Engine",
     "lead": "La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit.",
     "status": "Prototype en cours de développement",
+    "stats": [
+      {
+        "value": "1:1",
+        "label": "échelle réelle"
+      },
+      {
+        "value": "37 × 45 km",
+        "label": "du Baray occidental au Tonlé Sap"
+      },
+      {
+        "value": "5 343 km",
+        "label": "de routes"
+      },
+      {
+        "value": "95 487",
+        "label": "bâtiments"
+      },
+      {
+        "value": "287",
+        "label": "sites archéologiques"
+      }
+    ],
     "gallery": {
       "title": "En images",
       "note": "Captures du prototype. Les arbres, les bâtiments, les véhicules et les temples sont encore des modèles provisoires.",

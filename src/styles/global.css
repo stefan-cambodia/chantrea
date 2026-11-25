@@ -888,19 +888,19 @@ h2.group-title { margin-top: 0; }
   }
 }
 
-/* ─── Cambodia Rally ─────────────────────────────────────── */
-.rally-hero { padding: clamp(4rem, 12vw, 8rem) 0 clamp(3rem, 8vw, 5rem); }
-.rally-hero__bg, .rally-hero picture { position: absolute; inset: 0; }
-.rally-hero__bg { width: 100%; height: 100%; object-fit: cover; object-position: center 60%; }
-.rally-hero::after {
+/* ─── Cambodia Rally (et bandeau photo .photo-hero, aussi sur Angkor World Engine) ─── */
+.photo-hero { padding: clamp(4rem, 12vw, 8rem) 0 clamp(3rem, 8vw, 5rem); }
+.photo-hero__bg, .photo-hero picture { position: absolute; inset: 0; }
+.photo-hero__bg { width: 100%; height: 100%; object-fit: cover; object-position: center 60%; }
+.photo-hero::after {
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(90deg, rgba(11, 18, 32, .94) 0%, rgba(11, 18, 32, .8) 45%, rgba(11, 18, 32, .25) 100%),
               linear-gradient(0deg, rgba(11, 18, 32, .7), transparent 40%);
 }
-@media (max-width: 760px) { .rally-hero::after { background: linear-gradient(0deg, rgba(11, 18, 32, .95) 25%, rgba(11, 18, 32, .7)); } }
-.rally-hero .container { z-index: 2; }
-.rally-hero .lead { color: #e4e8f0; max-width: 36rem; }
-.rally-hero .status { margin-top: .4rem; border-color: var(--moon); color: var(--moon) !important; }
+@media (max-width: 760px) { .photo-hero::after { background: linear-gradient(0deg, rgba(11, 18, 32, .95) 25%, rgba(11, 18, 32, .7)); } }
+.photo-hero .container { z-index: 2; }
+.photo-hero .lead { color: #e4e8f0; max-width: 36rem; }
+.photo-hero .status { margin-top: .4rem; border-color: var(--moon); color: var(--moon) !important; }
 
 .rally-circuits { display: grid; gap: 1.2rem; }
 @media (min-width: 760px) { .rally-circuits { grid-template-columns: 1fr 1fr; } }
@@ -935,3 +935,35 @@ h2.group-title { margin-top: 0; }
   display: inline-grid; place-items: center; width: 2.9rem; height: 2.9rem; margin-bottom: .9rem; border-radius: 12px;
   color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface));
 }
+
+/* ─── Angkor World Engine ────────────────────────────────── */
+.angkor-stats { background: var(--surface); border-bottom: 1px solid var(--line); }
+.angkor-stats__list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem 1rem; padding-block: clamp(1.6rem, 4vw, 2.4rem); }
+@media (min-width: 760px) { .angkor-stats__list { grid-template-columns: repeat(5, 1fr); } }
+.angkor-stats__list li { display: grid; gap: .2rem; align-content: start; padding-left: .9rem; border-left: 3px solid var(--accent); }
+.angkor-stats__list b { font-size: clamp(1.25rem, 2.6vw, 1.7rem); line-height: 1.15; color: var(--accent); white-space: nowrap; }
+.angkor-stats__list span { color: var(--muted); font-size: .92rem; }
+@media (max-width: 759px) { .angkor-stats__list li:first-child { grid-column: 1 / -1; } }
+
+.angkor-data__list { display: grid; gap: .8rem; margin-top: 1.2rem; }
+.angkor-data__item { position: relative; padding-left: 1.9rem; }
+.angkor-data__item::before { content: ""; position: absolute; left: 0; top: .25em; width: 1.1rem; height: 1.1rem; border-radius: 4px; background: var(--c); }
+.angkor-data__item--1 { --c: #c9ced8; } .angkor-data__item--2 { --c: #a07a52; } .angkor-data__item--3 { --c: #2f8a4f; } .angkor-data__item--4 { --c: #a8c95e; }
+.angkor-layers { display: block; width: 100%; max-width: 24rem; margin-inline: auto; }
+.angkor-layers__plate > path { stroke: rgba(255, 255, 255, .55); stroke-width: 1.5; }
+.angkor-layers__plate--relief > path { fill: #a07a52; }
+.angkor-layers__plate--rice > path { fill: #a8c95e; fill-opacity: .92; }
+.angkor-layers__plate--osm > path { fill: #c9ced8; fill-opacity: .9; }
+.angkor-layers__plate--trees > path { fill: rgba(47, 138, 79, .18); stroke-dasharray: 4 4; }
+.angkor-layers__lines * { fill: none; stroke: rgba(255, 255, 255, .45); stroke-width: 1.2; }
+.angkor-layers__road { fill: none; stroke: #4b5568; stroke-width: 3; stroke-linecap: round; }
+.angkor-layers__water { fill: #4f8fc9; }
+.angkor-layers__bldg { fill: #7b8496; }
+.angkor-layers__plate--trees circle { fill: #2f8a4f; stroke: #1f6b3c; stroke-width: 1; }
+
+.angkor-temples__shots { position: relative; padding: 0 0 3rem 0; }
+.angkor-temples__main, .angkor-temples__shots picture:first-child img { display: block; width: 100%; height: auto; border-radius: var(--radius); box-shadow: 0 18px 44px rgba(11, 18, 32, .2); }
+.angkor-temples__shots picture:last-child { position: absolute; right: -.5rem; bottom: 0; width: 45%; }
+.angkor-temples__shots picture:last-child img { display: block; width: 100%; height: auto; border-radius: 10px; border: 4px solid var(--surface); box-shadow: 0 14px 36px rgba(11, 18, 32, .3); }
+@media (max-width: 559px) { .angkor-temples__shots picture:last-child { right: 0; } }
+.angkor-temples__names { margin: 1rem 0 1.4rem; }

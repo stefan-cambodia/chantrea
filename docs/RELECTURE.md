@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1319 textes relus.
+0 / 1329 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -959,6 +959,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `angkor.lead` | តំបន់អង្គរ និងសៀមរាប ដែលបានបង្កើតឡើងវិញជា 3D តាមទំហំពិត ពីទិន្នន័យភូមិសាស្ត្របើកចំហ។ មួយម៉ែត្រលើអេក្រង់ គឺមួយម៉ែត្រពិត៖ ការធ្វើដំណើរចំណាយពេលដូចពេលពិត។ អាចហោះពីលើ ឬបើកបរនៅក្នុងនោះ។ | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
 | ⏳ à relire | `angkor.status` | គំរូសាកល្បង (prototype) កំពុងអភិវឌ្ឍ | Prototype en cours de développement |
+| ⏳ à relire | `angkor.stats.0.value` | 1:1 | 1:1 |
+| ⏳ à relire | `angkor.stats.0.label` | ខ្នាតពិត | échelle réelle |
+| ⏳ à relire | `angkor.stats.1.value` | 37 × 45 គីឡូម៉ែត្រ | 37 × 45 km |
+| ⏳ à relire | `angkor.stats.1.label` | ពីបារាយណ៍ខាងលិច ដល់ទន្លេសាប | du Baray occidental au Tonlé Sap |
+| ⏳ à relire | `angkor.stats.2.value` | 5 343 គីឡូម៉ែត្រ | 5 343 km |
+| ⏳ à relire | `angkor.stats.2.label` | ផ្លូវ | de routes |
+| ⏳ à relire | `angkor.stats.3.value` | 95 487 | 95 487 |
+| ⏳ à relire | `angkor.stats.3.label` | អគារ | bâtiments |
+| ⏳ à relire | `angkor.stats.4.value` | 287 | 287 |
+| ⏳ à relire | `angkor.stats.4.label` | ទីតាំងបុរាណវិទ្យា | sites archéologiques |
 | ⏳ à relire | `angkor.gallery.title` | រូបភាពអេក្រង់ | En images |
 | ⏳ à relire | `angkor.gallery.note` | រូបភាពពីគំរូសាកល្បង។ ដើមឈើ អគារ យានយន្ត និងប្រាសាទ នៅជាម៉ូដែលបណ្ដោះអាសន្ននៅឡើយ។ | Captures du prototype. Les arbres, les bâtiments, les véhicules et les temples sont encore des modèles provisoires. |
 | ⏳ à relire | `angkor.gallery.enlarge` | ពង្រីករូបភាព | agrandir l'image |
@@ -1334,7 +1344,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1319 textes relus.
+0 / 1329 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2285,6 +2295,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `angkor.lead` | Район Ангкора и Сиемреапа, воссозданный в 3D в реальном масштабе по открытым географическим данным. Метр на экране — это настоящий метр: поездка длится столько же, сколько в жизни. Над ним можно летать или ездить по нему. | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
 | ⏳ à relire | `angkor.status` | Прототип в разработке | Prototype en cours de développement |
+| ⏳ à relire | `angkor.stats.0.value` | 1:1 | 1:1 |
+| ⏳ à relire | `angkor.stats.0.label` | реальный масштаб | échelle réelle |
+| ⏳ à relire | `angkor.stats.1.value` | 37 × 45 км | 37 × 45 km |
+| ⏳ à relire | `angkor.stats.1.label` | от Западного Барая до Тонлесапа | du Baray occidental au Tonlé Sap |
+| ⏳ à relire | `angkor.stats.2.value` | 5 343 км | 5 343 km |
+| ⏳ à relire | `angkor.stats.2.label` | дорог | de routes |
+| ⏳ à relire | `angkor.stats.3.value` | 95 487 | 95 487 |
+| ⏳ à relire | `angkor.stats.3.label` | зданий | bâtiments |
+| ⏳ à relire | `angkor.stats.4.value` | 287 | 287 |
+| ⏳ à relire | `angkor.stats.4.label` | археологических объектов | sites archéologiques |
 | ⏳ à relire | `angkor.gallery.title` | Скриншоты | En images |
 | ⏳ à relire | `angkor.gallery.note` | Кадры из прототипа. Деревья, здания, транспорт и храмы пока временные модели. | Captures du prototype. Les arbres, les bâtiments, les véhicules et les temples sont encore des modèles provisoires. |
 | ⏳ à relire | `angkor.gallery.enlarge` | увеличить изображение | agrandir l'image |
@@ -2660,7 +2680,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1318 textes relus.
+0 / 1328 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -3610,6 +3630,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `angkor.lead` | 基于开放地理数据，按真实比例用 3D 重建的吴哥和暹粒地区。屏幕上的一米就是真实的一米：路程花的时间和现实中一样。可以在上空飞行，也可以开车行驶。 | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
 | ⏳ à relire | `angkor.status` | 原型，开发中 | Prototype en cours de développement |
+| ⏳ à relire | `angkor.stats.0.value` | 1:1 | 1:1 |
+| ⏳ à relire | `angkor.stats.0.label` | 真实比例 | échelle réelle |
+| ⏳ à relire | `angkor.stats.1.value` | 37 × 45 公里 | 37 × 45 km |
+| ⏳ à relire | `angkor.stats.1.label` | 从西池到洞里萨湖 | du Baray occidental au Tonlé Sap |
+| ⏳ à relire | `angkor.stats.2.value` | 5,343 公里 | 5 343 km |
+| ⏳ à relire | `angkor.stats.2.label` | 道路 | de routes |
+| ⏳ à relire | `angkor.stats.3.value` | 95,487 | 95 487 |
+| ⏳ à relire | `angkor.stats.3.label` | 栋建筑 | bâtiments |
+| ⏳ à relire | `angkor.stats.4.value` | 287 | 287 |
+| ⏳ à relire | `angkor.stats.4.label` | 处考古遗址 | sites archéologiques |
 | ⏳ à relire | `angkor.gallery.title` | 界面截图 | En images |
 | ⏳ à relire | `angkor.gallery.note` | 原型的画面。树木、建筑、车辆和寺庙目前仍是临时模型。 | Captures du prototype. Les arbres, les bâtiments, les véhicules et les temples sont encore des modèles provisoires. |
 | ⏳ à relire | `angkor.gallery.enlarge` | 放大图片 | agrandir l'image |
