@@ -746,6 +746,12 @@
           {
             "title": "Ce que fait Odoo",
             "text": "Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard.",
+            "flow": [
+              "Devis",
+              "Commande",
+              "Stock",
+              "Facture"
+            ],
             "list": [
               "Clients et prospects (CRM) : chaque contact et chaque affaire suivis.",
               "Ventes : devis, commandes, factures.",
@@ -755,7 +761,8 @@
               "Projets et feuilles de temps.",
               "Site web et boutique en ligne.",
               "Employés, congés et notes de frais."
-            ]
+            ],
+            "tiles": true
           },
           {
             "title": "Pourquoi Odoo 19 Community",
@@ -777,6 +784,53 @@
               "page": "services/odoo-cambodia",
               "label": "Odoo en khmer, pour le Cambodge"
             }
+          },
+          {
+            "title": "Nos modifications d'Odoo",
+            "text": "Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement.",
+            "cards": [
+              {
+                "icon": "receipt",
+                "title": "Devis et factures cambodgiens",
+                "list": [
+                  "Imprimés en khmer, avec l'anglais juste en dessous.",
+                  "Total en dollars et en riels.",
+                  "Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation.",
+                  "Facture de TVA ou facture commerciale, avec une seule numérotation."
+                ]
+              },
+              {
+                "icon": "users",
+                "title": "Un espace client en trois langues",
+                "list": [
+                  "En khmer, en anglais ou en français, dans la langue du client.",
+                  "Demandes d'assistance, devis, factures, contrats et matériel.",
+                  "Chaque client ne voit que les données de sa société."
+                ]
+              },
+              {
+                "icon": "lang",
+                "title": "Odoo en khmer pour les clients",
+                "list": [
+                  "Environ 700 textes : documents, pages de l'espace client, courriels.",
+                  "Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine."
+                ]
+              },
+              {
+                "icon": "wrench",
+                "title": "Interventions et parc matériel",
+                "list": [
+                  "Le client signe l'intervention sur place, sur tablette ou téléphone.",
+                  "Rapport d'intervention en PDF, en khmer et en anglais.",
+                  "Une fiche par équipement, avec une alerte avant la fin de la garantie."
+                ]
+              }
+            ]
+          },
+          {
+            "callout": true,
+            "title": "Vers une traduction khmère certifiée",
+            "text": "Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui."
           },
           {
             "title": "Où il tourne",

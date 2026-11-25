@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1134 textes relus.
+0 / 1158 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -434,6 +434,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.7.metaDescription` | Odoo 19 Community កម្មវិធីគ្រប់គ្រងកូដបើកចំហ និងឥតគិតថ្លៃ៖ ការលក់ វិក្កយបត្រ ការទិញ ស្តុក ប្រព័ន្ធលក់ (point of sale) CRM។ កែសម្រួលសម្រាប់កម្ពុជា៖ ភាសាខ្មែរ ប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
 | ⏳ à relire | `services.items.7.sections.0.title` | អ្វីដែល Odoo ធ្វើ | Ce que fait Odoo |
 | ⏳ à relire | `services.items.7.sections.0.text` | Odoo គឺជាកម្មវិធីគ្រប់គ្រងអាជីវកម្ម (ERP)។ តម្រូវការនីមួយៗមានកម្មវិធីរង (app) របស់វា ហើយកម្មវិធីរងទាំងអស់ប្រើទិន្នន័យដូចគ្នា៖ សម្រង់តម្លៃដែលអតិថិជនយល់ព្រម ក្លាយជាការបញ្ជាទិញ ការបញ្ជាទិញនោះដកទំនិញចេញពីស្តុក បន្ទាប់មកក្លាយជាវិក្កយបត្រ។ លោកអ្នកចាប់ផ្ដើមជាមួយកម្មវិធីរងមួយ ឬពីរ ហើយបន្ថែមកម្មវិធីរងផ្សេងទៀតនៅពេលក្រោយ។ | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
+| ⏳ à relire | `services.items.7.sections.0.flow.0` | សម្រង់តម្លៃ | Devis |
+| ⏳ à relire | `services.items.7.sections.0.flow.1` | ការបញ្ជាទិញ | Commande |
+| ⏳ à relire | `services.items.7.sections.0.flow.2` | ស្តុក | Stock |
+| ⏳ à relire | `services.items.7.sections.0.flow.3` | វិក្កយបត្រ | Facture |
 | ⏳ à relire | `services.items.7.sections.0.list.0` | អតិថិជន និងអតិថិជនសក្ដានុពល (CRM)៖ ទំនាក់ទំនង និងឱកាសលក់នីមួយៗ ត្រូវបានតាមដាន។ | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
 | ⏳ à relire | `services.items.7.sections.0.list.1` | ការលក់៖ សម្រង់តម្លៃ ការបញ្ជាទិញ វិក្កយបត្រ។ | Ventes : devis, commandes, factures. |
 | ⏳ à relire | `services.items.7.sections.0.list.2` | ការទិញ៖ សំណើសុំតម្លៃ និងការបញ្ជាទិញទៅអ្នកផ្គត់ផ្គង់។ | Achats : demandes de prix et commandes aux fournisseurs. |
@@ -453,26 +457,46 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.7.sections.3.text` | Odoo មានភាសាខ្មែរនៅក្នុងបញ្ជីភាសារបស់វា ប៉ុន្តែការបកប្រែរបស់ក្រុមហ៊ុនបង្កើតកម្មវិធី ស្ទើរតែទទេ៖ ក្នុង Odoo 19 មិនដល់ 1 អត្ថបទក្នុងចំណោម 10 អត្ថបទផង ដែលត្រូវបានបកប្រែជាភាសាខ្មែរ នៅក្នុងកម្មវិធីរង ការលក់ (Sales) គណនេយ្យ (Accounting) ស្តុក (Inventory) និងប្រព័ន្ធលក់ (Point of Sale)។ ខ្ញុំបំពេញការបកប្រែអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកប្រើ ហើយកែសម្រួលឯកសារ ប្រាក់ដុល្លារ និងប្រាក់រៀល និងច្បាប់ក្នុងស្រុក។ | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
 | ⏳ à relire | `services.items.7.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
 | ⏳ à relire | `services.items.7.sections.3.link.label` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.7.sections.4.title` | កន្លែងដែលវាដំណើរការ | Où il tourne |
-| ⏳ à relire | `services.items.7.sections.4.list.0` | លើម៉ាស៊ីនមេ (server) នៅក្នុងទីតាំងរបស់លោកអ្នក៖ ក្រុមការងារដែលនៅនឹងកន្លែង នៅតែអាចធ្វើការបាន ពេលដាច់អ៊ីនធឺណិត។ | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.7.sections.4.list.1` | លើម៉ាស៊ីនមេដែល Chantrea Systems ជួល និងថែទាំ ឬនៅក្រុមហ៊ុនបង្ហោះ (hosting) ធំមួយ ក្នុងគណនីដែលជាឈ្មោះរបស់លោកអ្នក។ | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.7.sections.4.list.2` | Odoo Online ដែលជាសេវាបង្ហោះរបស់ក្រុមហ៊ុន Odoo ផ្ទាល់ មិនសមស្របនៅទីនេះទេ៖ វាដំណើរការជាមួយកំណែ Enterprise ហើយមិនទទួលយកមុខងារបន្ថែមតាមតម្រូវការទេ។ | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
-| ⏳ à relire | `services.items.7.sections.5.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.7.sections.5.list.0` | ជ្រើសរើសជាមួយលោកអ្នក នូវកម្មវិធីរងដែលមានប្រយោជន៍ និងកម្មវិធីរងដែលអាចរង់ចាំបាន។ | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
-| ⏳ à relire | `services.items.7.sections.5.list.1` | ដំឡើង Odoo 19 Community និងកំណត់រចនាសម្ព័ន្ធវា៖ ក្រុមហ៊ុន ផលិតផល ពន្ធ និងឯកសាររបស់លោកអ្នក។ | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
-| ⏳ à relire | `services.items.7.sections.5.list.2` | នាំចូលទិន្នន័យរបស់លោកអ្នក ពីឯកសារ Excel ឬពីកម្មវិធីចាស់របស់លោកអ្នក។ | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
-| ⏳ à relire | `services.items.7.sections.5.list.3` | បំពេញការបកប្រែជាភាសាខ្មែរ នៃអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកប្រើ។ | Compléter la traduction khmère des écrans que votre équipe utilise. |
-| ⏳ à relire | `services.items.7.sections.5.list.4` | អភិវឌ្ឍមុខងារបន្ថែម (module) នៅពេលខ្វះអ្វីមួយ។ | Développer des modules quand il manque quelque chose. |
-| ⏳ à relire | `services.items.7.sections.5.list.5` | បង្ហាញក្រុមការងាររបស់លោកអ្នកពីរបៀបប្រើវា បន្ទាប់មកជួយពួកគេជារៀងរាល់ថ្ងៃ។ | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
-| ⏳ à relire | `services.items.7.sections.5.list.6` | ថែទាំ៖ ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព និងការប្ដូរទៅកំណែថ្មី។ | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.7.sections.5.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.7.sections.5.link.label` | ការអភិវឌ្ឍមុខងារបន្ថែម Odoo | Le développement de modules Odoo |
-| ⏳ à relire | `services.items.7.sections.6.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.7.sections.6.list.0` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ៖ ត្រូវគ្រោងធ្វើការដំឡើងកំណែ (upgrade) រៀងរាល់ពីរ ឬបីឆ្នាំម្ដង ហើយកែសម្រួលមុខងារបន្ថែមតាមតម្រូវការនៅពេលនោះ។ | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
-| ⏳ à relire | `services.items.7.sections.6.list.1` | ជាមួយកំណែ Community ជំនួយបច្ចេកទេសមកពីអ្នកផ្ដល់សេវារបស់លោកអ្នក៖ ជំនួយពីក្រុមហ៊ុនបង្កើតកម្មវិធី គឺជាផ្នែកមួយនៃការជាវ Enterprise។ | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
-| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា គឺ Odoo SA។ ខ្ញុំមិនមែនជាដៃគូផ្លូវការរបស់ក្រុមហ៊ុននេះទេ។ | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.6.list.3` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.7.sections.6.list.4` | កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.7.sections.4.title` | ការកែសម្រួល Odoo របស់យើង | Nos modifications d'Odoo |
+| ⏳ à relire | `services.items.7.sections.4.text` | សម្រាប់ Chantrea Systems យើងបានបង្កើត Odoo 19 Community ផ្ទាល់ខ្លួន ដែលសម្របទៅនឹងប្រទេសកម្ពុជា។ អ្វីៗទាំងអស់ធ្វើឡើងក្នុងម៉ូឌុល (module) ដាច់ដោយឡែក៖ កូដរបស់ Odoo និងម៉ូឌុល OCA មិនត្រូវបានកែប្រែឡើយ ហើយការសាកល្បងដោយស្វ័យប្រវត្តិ ពិនិត្យរាល់ការផ្លាស់ប្តូរ។ | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.title` | សម្រង់តម្លៃ និងវិក្កយបត្រតាមបែបកម្ពុជា | Devis et factures cambodgiens |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.0` | បោះពុម្ពជាភាសាខ្មែរ ហើយមានភាសាអង់គ្លេសនៅខាងក្រោម។ | Imprimés en khmer, avec l'anglais juste en dessous. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.1` | ចំនួនសរុបជាប្រាក់ដុល្លារ និងជាប្រាក់រៀល។ | Total en dollars et en riels. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.2` | អត្រាប្តូរប្រាក់ផ្លូវការ USD/KHR ទាញយករាល់ថ្ងៃពីអគ្គនាយកដ្ឋានពន្ធដារ ឬធនាគារជាតិនៃកម្ពុជា ហើយកំណត់ជាប់លើវិក្កយបត្រ នៅពេលវិក្កយបត្រត្រូវបានបញ្ជាក់។ | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.3` | វិក្កយបត្រអាករ ឬវិក្កយបត្រពាណិជ្ជកម្ម ដោយប្រើលេខរៀងតែមួយ។ | Facture de TVA ou facture commerciale, avec une seule numérotation. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.title` | ទំព័រអតិថិជនជាបីភាសា | Un espace client en trois langues |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.0` | ជាភាសាខ្មែរ អង់គ្លេស ឬបារាំង តាមភាសារបស់អតិថិជន។ | En khmer, en anglais ou en français, dans la langue du client. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.1` | សំណើជំនួយ សម្រង់តម្លៃ វិក្កយបត្រ កិច្ចសន្យា និងឧបករណ៍។ | Demandes d'assistance, devis, factures, contrats et matériel. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.2` | អតិថិជនម្នាក់ៗ ឃើញតែទិន្នន័យរបស់ក្រុមហ៊ុនខ្លួនប៉ុណ្ណោះ។ | Chaque client ne voit que les données de sa société. |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.title` | Odoo ជាភាសាខ្មែរសម្រាប់អតិថិជន | Odoo en khmer pour les clients |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.list.0` | ប្រហែល 700 អត្ថបទ៖ ឯកសារ ទំព័រអតិថិជន និងអ៊ីមែល។ | Environ 700 textes : documents, pages de l'espace client, courriels. |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.list.1` | អត្ថបទរបស់ Odoo និង OCA ដែលអតិថិជនឃើញ ដែលកំណែដើមបកប្រែតិចតួច ឬមិនបានបកប្រែសោះ។ | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.title` | ការងារនៅទីតាំង និងឧបករណ៍ | Interventions et parc matériel |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.0` | អតិថិជនចុះហត្ថលេខាលើការងារនៅនឹងកន្លែង តាមថេប្លេត ឬទូរស័ព្ទ។ | Le client signe l'intervention sur place, sur tablette ou téléphone. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.1` | របាយការណ៍ការងារជា PDF ជាភាសាខ្មែរ និងអង់គ្លេស។ | Rapport d'intervention en PDF, en khmer et en anglais. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.2` | កំណត់ត្រាសម្រាប់ឧបករណ៍នីមួយៗ ជាមួយការជូនដំណឹងមុនពេលការធានាផុតកំណត់។ | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
+| ⏳ à relire | `services.items.7.sections.5.title` | ឆ្ពោះទៅរកការបកប្រែភាសាខ្មែរដែលមានការទទួលស្គាល់ | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.7.sections.5.text` | អត្ថបទភាសាខ្មែររបស់យើង ត្រូវបានបកប្រែដោយមានជំនួយពី AI ហើយមិនទាន់ត្រូវបានពិនិត្យនៅឡើយទេ។ យើងកំពុងស្វែងរកការទទួលស្គាល់ (certification) ការបកប្រែទាំងអស់នេះ ពីអាជ្ញាធរកម្ពុជា។ បច្ចុប្បន្ន ការបកប្រែទាំងនេះមិនទាន់ទទួលបានការទទួលស្គាល់នៅឡើយទេ។ | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.7.sections.6.title` | កន្លែងដែលវាដំណើរការ | Où il tourne |
+| ⏳ à relire | `services.items.7.sections.6.list.0` | លើម៉ាស៊ីនមេ (server) នៅក្នុងទីតាំងរបស់លោកអ្នក៖ ក្រុមការងារដែលនៅនឹងកន្លែង នៅតែអាចធ្វើការបាន ពេលដាច់អ៊ីនធឺណិត។ | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.7.sections.6.list.1` | លើម៉ាស៊ីនមេដែល Chantrea Systems ជួល និងថែទាំ ឬនៅក្រុមហ៊ុនបង្ហោះ (hosting) ធំមួយ ក្នុងគណនីដែលជាឈ្មោះរបស់លោកអ្នក។ | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo Online ដែលជាសេវាបង្ហោះរបស់ក្រុមហ៊ុន Odoo ផ្ទាល់ មិនសមស្របនៅទីនេះទេ៖ វាដំណើរការជាមួយកំណែ Enterprise ហើយមិនទទួលយកមុខងារបន្ថែមតាមតម្រូវការទេ។ | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
+| ⏳ à relire | `services.items.7.sections.7.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.7.sections.7.list.0` | ជ្រើសរើសជាមួយលោកអ្នក នូវកម្មវិធីរងដែលមានប្រយោជន៍ និងកម្មវិធីរងដែលអាចរង់ចាំបាន។ | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
+| ⏳ à relire | `services.items.7.sections.7.list.1` | ដំឡើង Odoo 19 Community និងកំណត់រចនាសម្ព័ន្ធវា៖ ក្រុមហ៊ុន ផលិតផល ពន្ធ និងឯកសាររបស់លោកអ្នក។ | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
+| ⏳ à relire | `services.items.7.sections.7.list.2` | នាំចូលទិន្នន័យរបស់លោកអ្នក ពីឯកសារ Excel ឬពីកម្មវិធីចាស់របស់លោកអ្នក។ | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
+| ⏳ à relire | `services.items.7.sections.7.list.3` | បំពេញការបកប្រែជាភាសាខ្មែរ នៃអេក្រង់ដែលក្រុមការងាររបស់លោកអ្នកប្រើ។ | Compléter la traduction khmère des écrans que votre équipe utilise. |
+| ⏳ à relire | `services.items.7.sections.7.list.4` | អភិវឌ្ឍមុខងារបន្ថែម (module) នៅពេលខ្វះអ្វីមួយ។ | Développer des modules quand il manque quelque chose. |
+| ⏳ à relire | `services.items.7.sections.7.list.5` | បង្ហាញក្រុមការងាររបស់លោកអ្នកពីរបៀបប្រើវា បន្ទាប់មកជួយពួកគេជារៀងរាល់ថ្ងៃ។ | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
+| ⏳ à relire | `services.items.7.sections.7.list.6` | ថែទាំ៖ ការបម្រុងទុកទិន្នន័យ (backup) រៀងរាល់យប់ ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព និងការប្ដូរទៅកំណែថ្មី។ | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.7.sections.7.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.7.sections.7.link.label` | ការអភិវឌ្ឍមុខងារបន្ថែម Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.7.sections.8.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.7.sections.8.list.0` | Odoo ចេញកំណែថ្មីរៀងរាល់ឆ្នាំ៖ ត្រូវគ្រោងធ្វើការដំឡើងកំណែ (upgrade) រៀងរាល់ពីរ ឬបីឆ្នាំម្ដង ហើយកែសម្រួលមុខងារបន្ថែមតាមតម្រូវការនៅពេលនោះ។ | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
+| ⏳ à relire | `services.items.7.sections.8.list.1` | ជាមួយកំណែ Community ជំនួយបច្ចេកទេសមកពីអ្នកផ្ដល់សេវារបស់លោកអ្នក៖ ជំនួយពីក្រុមហ៊ុនបង្កើតកម្មវិធី គឺជាផ្នែកមួយនៃការជាវ Enterprise។ | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
+| ⏳ à relire | `services.items.7.sections.8.list.2` | Odoo ត្រូវបានអភិវឌ្ឍដោយក្រុមហ៊ុនរបស់វា គឺ Odoo SA។ ខ្ញុំមិនមែនជាដៃគូផ្លូវការរបស់ក្រុមហ៊ុននេះទេ។ | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
+| ⏳ à relire | `services.items.7.sections.8.list.3` | ទិន្នន័យរបស់លោកអ្នកនៅតែជារបស់លោកអ្នក។ ប្រសិនបើលោកអ្នកប្ដូរអ្នកផ្ដល់សេវា លោកអ្នកទទួលបានច្បាប់ចម្លងពេញលេញ និងសិទ្ធិចូលប្រើ។ | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.7.sections.8.list.4` | កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `services.items.7.trademarks` | Odoo គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់របស់វា។ ការលើកឡើងឈ្មោះនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.8.id` | mattermost | mattermost |
 | ⏳ à relire | `services.items.8.parent` | business-software | business-software |
@@ -1149,7 +1173,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1133 textes relus.
+0 / 1157 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1575,6 +1599,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.7.metaDescription` | Odoo 19 Community — свободная и бесплатная программа для управления: продажи, счета, закупки, склад, касса, CRM. Для Камбоджи: кхмерский, доллар и риель. | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
 | ⏳ à relire | `services.items.7.sections.0.title` | Что делает Odoo | Ce que fait Odoo |
 | ⏳ à relire | `services.items.7.sections.0.text` | Odoo — программа для управления компанией (ERP). Для каждой задачи есть своё приложение, и все они используют одни и те же данные: принятое коммерческое предложение становится заказом, по заказу товар списывается со склада, а затем заказ превращается в счёт. Вы начинаете с одного-двух приложений и добавляете остальные позже. | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
+| ⏳ à relire | `services.items.7.sections.0.flow.0` | Предложение | Devis |
+| ⏳ à relire | `services.items.7.sections.0.flow.1` | Заказ | Commande |
+| ⏳ à relire | `services.items.7.sections.0.flow.2` | Склад | Stock |
+| ⏳ à relire | `services.items.7.sections.0.flow.3` | Счёт | Facture |
 | ⏳ à relire | `services.items.7.sections.0.list.0` | Клиенты и потенциальные клиенты (CRM): учёт каждого контакта и каждой сделки. | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
 | ⏳ à relire | `services.items.7.sections.0.list.1` | Продажи: коммерческие предложения, заказы, счета. | Ventes : devis, commandes, factures. |
 | ⏳ à relire | `services.items.7.sections.0.list.2` | Закупки: запросы цен и заказы поставщикам. | Achats : demandes de prix et commandes aux fournisseurs. |
@@ -1593,26 +1621,46 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.7.sections.3.text` | Odoo предлагает кхмерский в списке языков, но перевод от разработчика почти пуст: в Odoo 19 на кхмерский переведено меньше одного текста из десяти в приложениях «Продажи», «Бухгалтерия», «Склад» и «Точка продаж». Я дополняю перевод экранов, которыми пользуется ваша команда, и адаптирую документы, работу с долларом и риелем и местные правила. | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
 | ⏳ à relire | `services.items.7.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
 | ⏳ à relire | `services.items.7.sections.3.link.label` | Odoo на кхмерском, для Камбоджи | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.7.sections.4.title` | Где он работает | Où il tourne |
-| ⏳ à relire | `services.items.7.sections.4.list.0` | На сервере в вашем помещении: ваши сотрудники на месте продолжают работать, когда интернет отключён. | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.7.sections.4.list.1` | На сервере, который арендует и обслуживает Chantrea Systems, или у крупного хостинг-провайдера, на аккаунте, оформленном на вас. | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.7.sections.4.list.2` | Odoo Online — хостинг от самого разработчика Odoo — здесь не подходит: он работает с версией Enterprise и не принимает модули на заказ. | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
-| ⏳ à relire | `services.items.7.sections.5.title` | Что я делаю для вас | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.7.sections.5.list.0` | Вместе с вами выбираю полезные приложения и те, что могут подождать. | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
-| ⏳ à relire | `services.items.7.sections.5.list.1` | Устанавливаю Odoo 19 Community и настраиваю его: ваша компания, ваши товары, ваши налоги, ваши документы. | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
-| ⏳ à relire | `services.items.7.sections.5.list.2` | Переношу ваши данные из файлов Excel или из старой программы. | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
-| ⏳ à relire | `services.items.7.sections.5.list.3` | Дополняю кхмерский перевод экранов, которыми пользуется ваша команда. | Compléter la traduction khmère des écrans que votre équipe utilise. |
-| ⏳ à relire | `services.items.7.sections.5.list.4` | Разрабатываю модули, когда чего-то не хватает. | Développer des modules quand il manque quelque chose. |
-| ⏳ à relire | `services.items.7.sections.5.list.5` | Показываю вашей команде, как с ним работать, а затем помогаю в повседневной работе. | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
-| ⏳ à relire | `services.items.7.sections.5.list.6` | Обслуживаю: резервная копия каждую ночь, обновления безопасности, переход на новые версии. | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.7.sections.5.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.7.sections.5.link.label` | Разработка модулей Odoo | Le développement de modules Odoo |
-| ⏳ à relire | `services.items.7.sections.6.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.7.sections.6.list.0` | Новая версия Odoo выходит каждый год: переход на новую версию нужно планировать раз в два-три года и в этот момент адаптировать модули на заказ. | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
-| ⏳ à relire | `services.items.7.sections.6.list.1` | С версией Community поддержку оказывает ваш подрядчик: поддержка от разработчика входит в подписку Enterprise. | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
-| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo создаётся своим разработчиком, компанией Odoo SA. Я не являюсь официальным партнёром разработчика. | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.6.list.3` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.7.sections.6.list.4` | Варианты и цены: [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.7.sections.4.title` | Наши доработки Odoo | Nos modifications d'Odoo |
+| ⏳ à relire | `services.items.7.sections.4.text` | Для Chantrea Systems мы создали собственный Odoo 19 Community, адаптированный к Камбодже. Всё сделано в отдельных модулях: код Odoo и модулей OCA никогда не изменяется, а автоматические тесты проверяют каждое изменение. | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.title` | Камбоджийские предложения и счета | Devis et factures cambodgiens |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.0` | Печатаются на кхмерском, английский — сразу под ним. | Imprimés en khmer, avec l'anglais juste en dessous. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.1` | Итоги в долларах США и в риелях. | Total en dollars et en riels. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.2` | Официальный курс USD/KHR каждый день загружается из Главного налогового управления (GDT) или Национального банка Камбоджи и фиксируется в счёте при его проведении. | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.3` | Счёт с НДС или коммерческий счёт, с единой нумерацией. | Facture de TVA ou facture commerciale, avec une seule numérotation. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.title` | Личный кабинет клиента на трёх языках | Un espace client en trois langues |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.0` | На кхмерском, английском или французском — на языке клиента. | En khmer, en anglais ou en français, dans la langue du client. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.1` | Заявки в поддержку, предложения, счета, договоры и оборудование. | Demandes d'assistance, devis, factures, contrats et matériel. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.2` | Каждый клиент видит только данные своей компании. | Chaque client ne voit que les données de sa société. |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.title` | Odoo на кхмерском для клиентов | Odoo en khmer pour les clients |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.list.0` | Около 700 текстов: документы, страницы кабинета, письма. | Environ 700 textes : documents, pages de l'espace client, courriels. |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.list.1` | Тексты Odoo и модулей OCA, которые видят клиенты, в оригинале почти или совсем не переведённые. | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.title` | Выезды и оборудование | Interventions et parc matériel |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.0` | Клиент подписывает работу на месте, на планшете или телефоне. | Le client signe l'intervention sur place, sur tablette ou téléphone. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.1` | Отчёт о работе в PDF, на кхмерском и английском. | Rapport d'intervention en PDF, en khmer et en anglais. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.2` | Карточка каждого устройства с напоминанием до окончания гарантии. | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
+| ⏳ à relire | `services.items.7.sections.5.title` | К сертифицированному кхмерскому переводу | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.7.sections.5.text` | Наши тексты на кхмерском переведены с помощью ИИ и ещё не проверены. Мы добиваемся сертификации всех этих переводов камбоджийскими властями. Сейчас они не сертифицированы. | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.7.sections.6.title` | Где он работает | Où il tourne |
+| ⏳ à relire | `services.items.7.sections.6.list.0` | На сервере в вашем помещении: ваши сотрудники на месте продолжают работать, когда интернет отключён. | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.7.sections.6.list.1` | На сервере, который арендует и обслуживает Chantrea Systems, или у крупного хостинг-провайдера, на аккаунте, оформленном на вас. | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo Online — хостинг от самого разработчика Odoo — здесь не подходит: он работает с версией Enterprise и не принимает модули на заказ. | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
+| ⏳ à relire | `services.items.7.sections.7.title` | Что я делаю для вас | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.7.sections.7.list.0` | Вместе с вами выбираю полезные приложения и те, что могут подождать. | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
+| ⏳ à relire | `services.items.7.sections.7.list.1` | Устанавливаю Odoo 19 Community и настраиваю его: ваша компания, ваши товары, ваши налоги, ваши документы. | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
+| ⏳ à relire | `services.items.7.sections.7.list.2` | Переношу ваши данные из файлов Excel или из старой программы. | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
+| ⏳ à relire | `services.items.7.sections.7.list.3` | Дополняю кхмерский перевод экранов, которыми пользуется ваша команда. | Compléter la traduction khmère des écrans que votre équipe utilise. |
+| ⏳ à relire | `services.items.7.sections.7.list.4` | Разрабатываю модули, когда чего-то не хватает. | Développer des modules quand il manque quelque chose. |
+| ⏳ à relire | `services.items.7.sections.7.list.5` | Показываю вашей команде, как с ним работать, а затем помогаю в повседневной работе. | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
+| ⏳ à relire | `services.items.7.sections.7.list.6` | Обслуживаю: резервная копия каждую ночь, обновления безопасности, переход на новые версии. | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.7.sections.7.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.7.sections.7.link.label` | Разработка модулей Odoo | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.7.sections.8.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.7.sections.8.list.0` | Новая версия Odoo выходит каждый год: переход на новую версию нужно планировать раз в два-три года и в этот момент адаптировать модули на заказ. | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
+| ⏳ à relire | `services.items.7.sections.8.list.1` | С версией Community поддержку оказывает ваш подрядчик: поддержка от разработчика входит в подписку Enterprise. | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
+| ⏳ à relire | `services.items.7.sections.8.list.2` | Odoo создаётся своим разработчиком, компанией Odoo SA. Я не являюсь официальным партнёром разработчика. | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
+| ⏳ à relire | `services.items.7.sections.8.list.3` | Ваши данные остаются вашими. Если вы меняете подрядчика, вы получаете полную копию и доступы. | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.7.sections.8.list.4` | Варианты и цены: [À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `services.items.7.trademarks` | Odoo — товарный знак своего владельца. Его упоминание не означает какого-либо партнёрства с его разработчиком. | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.8.id` | mattermost | mattermost |
 | ⏳ à relire | `services.items.8.parent` | business-software | business-software |
@@ -2289,7 +2337,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1133 textes relus.
+0 / 1157 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2715,6 +2763,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.7.metaDescription` | Odoo 19 Community，开源免费的企业管理软件：销售、开票、采购、库存、销售点、CRM。针对柬埔寨调整：高棉语、美元和瑞尔。 | Odoo 19 Community, gestion d'entreprise libre et gratuite : ventes, factures, achats, stock, caisse, CRM. Adapté au Cambodge : khmer, dollar et riel. |
 | ⏳ à relire | `services.items.7.sections.0.title` | Odoo 能做什么 | Ce que fait Odoo |
 | ⏳ à relire | `services.items.7.sections.0.text` | Odoo 是一套企业管理软件（ERP）。每项需求都有对应的应用，所有应用共用同一份数据：客户接受的报价变成订单，订单让库存出库，然后生成发票。您可以先用一两个应用，其余以后再加。 | Odoo est un logiciel de gestion d'entreprise (ERP). Chaque besoin a son application, et toutes partagent les mêmes données : un devis accepté devient une commande, la commande fait sortir le stock, puis devient une facture. Vous commencez par une ou deux applications, et vous ajoutez les autres plus tard. |
+| ⏳ à relire | `services.items.7.sections.0.flow.0` | 报价单 | Devis |
+| ⏳ à relire | `services.items.7.sections.0.flow.1` | 订单 | Commande |
+| ⏳ à relire | `services.items.7.sections.0.flow.2` | 库存 | Stock |
+| ⏳ à relire | `services.items.7.sections.0.flow.3` | 发票 | Facture |
 | ⏳ à relire | `services.items.7.sections.0.list.0` | 客户和潜在客户（CRM）：跟进每位联系人、每笔商机。 | Clients et prospects (CRM) : chaque contact et chaque affaire suivis. |
 | ⏳ à relire | `services.items.7.sections.0.list.1` | 销售：报价、订单、发票。 | Ventes : devis, commandes, factures. |
 | ⏳ à relire | `services.items.7.sections.0.list.2` | 采购：询价和向供应商下单。 | Achats : demandes de prix et commandes aux fournisseurs. |
@@ -2733,26 +2785,46 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.7.sections.3.text` | Odoo 的语言列表里有高棉语，但开发商提供的翻译几乎是空的：在 Odoo 19 的销售、会计、库存和销售点应用中，译成高棉语的文本不到十分之一。我会把您团队使用的界面补译完整，并调整单据、美元和瑞尔，以及本地规则。 | Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise, et j'adapte les documents, le dollar et le riel, et les règles locales. |
 | ⏳ à relire | `services.items.7.sections.3.link.page` | services/odoo-cambodia | services/odoo-cambodia |
 | ⏳ à relire | `services.items.7.sections.3.link.label` | 高棉语 Odoo，面向柬埔寨 | Odoo en khmer, pour le Cambodge |
-| ⏳ à relire | `services.items.7.sections.4.title` | 在哪里运行 | Où il tourne |
-| ⏳ à relire | `services.items.7.sections.4.list.0` | 装在您场所内的服务器上：断网时，现场的员工照常工作。 | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
-| ⏳ à relire | `services.items.7.sections.4.list.1` | 装在由 Chantrea Systems 租用并维护的服务器上，或放在大型托管服务商那里，用您自己名下的账户。 | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
-| ⏳ à relire | `services.items.7.sections.4.list.2` | Odoo Online，即 Odoo 开发商提供的托管服务，不适合这种情况：它使用 Enterprise 版，而且不支持定制模块。 | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
-| ⏳ à relire | `services.items.7.sections.5.title` | 我为您做什么 | Ce que je fais pour vous |
-| ⏳ à relire | `services.items.7.sections.5.list.0` | 和您一起选出有用的应用，以及可以以后再上的应用。 | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
-| ⏳ à relire | `services.items.7.sections.5.list.1` | 安装并配置 Odoo 19 Community：您的公司、产品、税项和单据。 | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
-| ⏳ à relire | `services.items.7.sections.5.list.2` | 从 Excel 文件或您的旧软件导入数据。 | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
-| ⏳ à relire | `services.items.7.sections.5.list.3` | 把您团队使用的界面的高棉语翻译补充完整。 | Compléter la traduction khmère des écrans que votre équipe utilise. |
-| ⏳ à relire | `services.items.7.sections.5.list.4` | 缺什么功能，就开发模块补上。 | Développer des modules quand il manque quelque chose. |
-| ⏳ à relire | `services.items.7.sections.5.list.5` | 教您的团队如何使用，之后在日常工作中提供帮助。 | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
-| ⏳ à relire | `services.items.7.sections.5.list.6` | 维护：每晚备份，安全更新，升级到新版本。 | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
-| ⏳ à relire | `services.items.7.sections.5.link.page` | services/odoo-development | services/odoo-development |
-| ⏳ à relire | `services.items.7.sections.5.link.label` | Odoo 模块开发 | Le développement de modules Odoo |
-| ⏳ à relire | `services.items.7.sections.6.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.7.sections.6.list.0` | Odoo 每年发布一个新版本：每两到三年要安排一次升级，届时定制模块也要相应调整。 | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
-| ⏳ à relire | `services.items.7.sections.6.list.1` | 使用 Community 版时，技术支持由您的服务商提供：开发商的技术支持包含在 Enterprise 订阅中。 | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
-| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo 由其开发商 Odoo SA 开发。我不是该开发商的官方合作伙伴。 | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
-| ⏳ à relire | `services.items.7.sections.6.list.3` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
-| ⏳ à relire | `services.items.7.sections.6.list.4` | 方案和价格：[À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.7.sections.4.title` | 我们对 Odoo 的改进 | Nos modifications d'Odoo |
+| ⏳ à relire | `services.items.7.sections.4.text` | 我们为 Chantrea Systems 打造了自己的 Odoo 19 Community，并针对柬埔寨做了适配。所有改动都放在独立模块中：Odoo 和 OCA 模块的代码从不修改，每次改动都由自动测试检查。 | Pour Chantrea Systems, nous avons construit notre propre Odoo 19 Community, adapté au Cambodge. Tout est fait dans des modules à part : le code d'Odoo et celui des modules OCA ne sont jamais modifiés, et des tests automatiques vérifient chaque changement. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.title` | 柬埔寨格式的报价单和发票 | Devis et factures cambodgiens |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.0` | 以高棉语打印，英语紧随其下。 | Imprimés en khmer, avec l'anglais juste en dessous. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.1` | 同时以美元和瑞尔显示总额。 | Total en dollars et en riels. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.2` | 每天从柬埔寨税务总局（GDT）或柬埔寨国家银行获取官方美元/瑞尔汇率，并在发票确认时锁定。 | Taux officiel USD/KHR récupéré chaque jour auprès de la Direction générale des impôts (GDT) ou de la Banque nationale du Cambodge, puis figé sur la facture à sa validation. |
+| ⏳ à relire | `services.items.7.sections.4.cards.0.list.3` | 增值税发票或商业发票，统一编号。 | Facture de TVA ou facture commerciale, avec une seule numérotation. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.title` | 三种语言的客户门户 | Un espace client en trois langues |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.0` | 按客户的语言显示高棉语、英语或法语。 | En khmer, en anglais ou en français, dans la langue du client. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.1` | 支持请求、报价单、发票、合同和设备。 | Demandes d'assistance, devis, factures, contrats et matériel. |
+| ⏳ à relire | `services.items.7.sections.4.cards.1.list.2` | 每位客户只能看到自己公司的数据。 | Chaque client ne voit que les données de sa société. |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.title` | 面向客户的高棉语 Odoo | Odoo en khmer pour les clients |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.list.0` | 约 700 条文本：单据、客户门户页面、邮件。 | Environ 700 textes : documents, pages de l'espace client, courriels. |
+| ⏳ à relire | `services.items.7.sections.4.cards.2.list.1` | 客户能看到的 Odoo 和 OCA 模块文本，原版很少或完全没有翻译。 | Les textes d'Odoo et des modules OCA que voient les clients, peu ou pas traduits à l'origine. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.title` | 上门服务和设备 | Interventions et parc matériel |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.0` | 客户在现场用平板或手机签字确认。 | Le client signe l'intervention sur place, sur tablette ou téléphone. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.1` | 高棉语和英语的 PDF 服务报告。 | Rapport d'intervention en PDF, en khmer et en anglais. |
+| ⏳ à relire | `services.items.7.sections.4.cards.3.list.2` | 每台设备都有档案，保修到期前会提醒。 | Une fiche par équipement, avec une alerte avant la fin de la garantie. |
+| ⏳ à relire | `services.items.7.sections.5.title` | 迈向经认证的高棉语翻译 | Vers une traduction khmère certifiée |
+| ⏳ à relire | `services.items.7.sections.5.text` | 我们的高棉语文本借助 AI 翻译，尚未经过审校。我们正在寻求柬埔寨主管部门对全部这些翻译进行认证。目前它们尚未获得认证。 | Nos textes khmers ont été traduits avec l'aide de l'IA et ne sont pas encore relus. Nous cherchons à faire certifier l'ensemble de ces traductions par les autorités cambodgiennes. Elles ne sont pas certifiées aujourd'hui. |
+| ⏳ à relire | `services.items.7.sections.6.title` | 在哪里运行 | Où il tourne |
+| ⏳ à relire | `services.items.7.sections.6.list.0` | 装在您场所内的服务器上：断网时，现场的员工照常工作。 | Sur un serveur dans vos locaux : votre équipe sur place continue de travailler quand internet est coupé. |
+| ⏳ à relire | `services.items.7.sections.6.list.1` | 装在由 Chantrea Systems 租用并维护的服务器上，或放在大型托管服务商那里，用您自己名下的账户。 | Sur un serveur loué et entretenu par Chantrea Systems, ou chez un grand hébergeur, sur un compte à votre nom. |
+| ⏳ à relire | `services.items.7.sections.6.list.2` | Odoo Online，即 Odoo 开发商提供的托管服务，不适合这种情况：它使用 Enterprise 版，而且不支持定制模块。 | Odoo Online, l'hébergement de l'éditeur, ne convient pas ici : il fonctionne avec la version Enterprise et n'accepte pas les modules sur mesure. |
+| ⏳ à relire | `services.items.7.sections.7.title` | 我为您做什么 | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.7.sections.7.list.0` | 和您一起选出有用的应用，以及可以以后再上的应用。 | Choisir avec vous les applications utiles, et celles qui peuvent attendre. |
+| ⏳ à relire | `services.items.7.sections.7.list.1` | 安装并配置 Odoo 19 Community：您的公司、产品、税项和单据。 | Installer Odoo 19 Community et le configurer : votre société, vos produits, vos taxes, vos documents. |
+| ⏳ à relire | `services.items.7.sections.7.list.2` | 从 Excel 文件或您的旧软件导入数据。 | Reprendre vos données depuis des fichiers Excel ou votre ancien logiciel. |
+| ⏳ à relire | `services.items.7.sections.7.list.3` | 把您团队使用的界面的高棉语翻译补充完整。 | Compléter la traduction khmère des écrans que votre équipe utilise. |
+| ⏳ à relire | `services.items.7.sections.7.list.4` | 缺什么功能，就开发模块补上。 | Développer des modules quand il manque quelque chose. |
+| ⏳ à relire | `services.items.7.sections.7.list.5` | 教您的团队如何使用，之后在日常工作中提供帮助。 | Montrer à votre équipe comment s'en servir, puis l'aider au quotidien. |
+| ⏳ à relire | `services.items.7.sections.7.list.6` | 维护：每晚备份，安全更新，升级到新版本。 | Entretenir : sauvegarde chaque nuit, mises à jour de sécurité, passage aux nouvelles versions. |
+| ⏳ à relire | `services.items.7.sections.7.link.page` | services/odoo-development | services/odoo-development |
+| ⏳ à relire | `services.items.7.sections.7.link.label` | Odoo 模块开发 | Le développement de modules Odoo |
+| ⏳ à relire | `services.items.7.sections.8.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.7.sections.8.list.0` | Odoo 每年发布一个新版本：每两到三年要安排一次升级，届时定制模块也要相应调整。 | Odoo sort une nouvelle version chaque année : il faut prévoir une mise à niveau tous les deux ou trois ans, et adapter les modules sur mesure à ce moment-là. |
+| ⏳ à relire | `services.items.7.sections.8.list.1` | 使用 Community 版时，技术支持由您的服务商提供：开发商的技术支持包含在 Enterprise 订阅中。 | Avec la version Community, l'assistance vient de votre prestataire : l'assistance de l'éditeur fait partie de l'abonnement Enterprise. |
+| ⏳ à relire | `services.items.7.sections.8.list.2` | Odoo 由其开发商 Odoo SA 开发。我不是该开发商的官方合作伙伴。 | Odoo est développé par son éditeur, Odoo SA. Je ne suis pas partenaire officiel de l'éditeur. |
+| ⏳ à relire | `services.items.7.sections.8.list.3` | 数据始终归您所有。如果您更换服务商，可以拿到完整的数据副本和各项访问权限。 | Vos données restent à vous. Si vous changez de prestataire, vous récupérez une copie complète et les accès. |
+| ⏳ à relire | `services.items.7.sections.8.list.4` | 方案和价格：[À COMPLÉTER PAR STEFAN] | Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `services.items.7.trademarks` | Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。 | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.8.id` | mattermost | mattermost |
 | ⏳ à relire | `services.items.8.parent` | business-software | business-software |

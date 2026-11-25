@@ -746,6 +746,12 @@
           {
             "title": "What Odoo does",
             "text": "Odoo is business management software (ERP). Each need has its own app, and they all share the same data: an accepted quote becomes an order, the order takes items out of stock, then becomes an invoice. You start with one or two apps and add the others later.",
+            "flow": [
+              "Quotation",
+              "Order",
+              "Stock",
+              "Invoice"
+            ],
             "list": [
               "Customers and leads (CRM): every contact and every deal tracked.",
               "Sales: quotes, orders, invoices.",
@@ -755,7 +761,8 @@
               "Projects and timesheets.",
               "Website and online shop.",
               "Employees, time off and expenses."
-            ]
+            ],
+            "tiles": true
           },
           {
             "title": "Why Odoo 19 Community",
@@ -777,6 +784,53 @@
               "page": "services/odoo-cambodia",
               "label": "Odoo in Khmer, for Cambodia"
             }
+          },
+          {
+            "title": "Our changes to Odoo",
+            "text": "For Chantrea Systems, we have built our own Odoo 19 Community, adapted to Cambodia. Everything is done in separate modules: the code of Odoo and of the OCA modules is never modified, and automated tests check every change.",
+            "cards": [
+              {
+                "icon": "receipt",
+                "title": "Cambodian quotations and invoices",
+                "list": [
+                  "Printed in Khmer, with the English just below.",
+                  "Totals in US dollars and in riels.",
+                  "Official USD/KHR rate fetched every day from the General Department of Taxation (GDT) or the National Bank of Cambodia, then fixed on the invoice when it is validated.",
+                  "VAT invoice or commercial invoice, with a single numbering."
+                ]
+              },
+              {
+                "icon": "users",
+                "title": "A customer portal in three languages",
+                "list": [
+                  "In Khmer, English or French, in the customer's language.",
+                  "Support requests, quotations, invoices, contracts and equipment.",
+                  "Each customer only sees their own company's data."
+                ]
+              },
+              {
+                "icon": "lang",
+                "title": "Odoo in Khmer for customers",
+                "list": [
+                  "About 700 texts: documents, customer portal pages, emails.",
+                  "The Odoo and OCA texts that customers see, little or not translated in the original."
+                ]
+              },
+              {
+                "icon": "wrench",
+                "title": "On-site work and equipment",
+                "list": [
+                  "The customer signs the job on site, on a tablet or phone.",
+                  "Job report as a PDF, in Khmer and English.",
+                  "A record for each piece of equipment, with an alert before the warranty ends."
+                ]
+              }
+            ]
+          },
+          {
+            "callout": true,
+            "title": "Towards a certified Khmer translation",
+            "text": "Our Khmer texts were translated with the help of AI and have not been reviewed yet. We are seeking to have all of these translations certified by the Cambodian authorities. They are not certified today."
           },
           {
             "title": "Where it runs",

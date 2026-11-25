@@ -3,16 +3,23 @@
 //   { title, text?, list?, defs?, link? }
 //     defs : [{ term, text }]   → liste de définitions (ex. Xen, XCP-ng, Xen Orchestra)
 //     link : { page, label }    → lien vers une page du site (ex. { "page": "hms", … })
+//     flow : [étape, …]          → petit circuit en étapes fléchées (ex. Devis → Commande → Facture)
+//     tiles : true               → la liste s'affiche en tuiles sur deux colonnes
+//     cards : [{ icon, title, text?, list? }] → cartes avec pictogramme (noms de HmsIcon)
+//     callout : true             → bloc mis en avant (encadré de couleur)
 //   { figure: 'infra' | 'inventory' } → schéma d'infrastructure ou étapes inventaire et veille
 import Txt from './Txt.astro';
 import InfraDiagram from './InfraDiagram.astro';
 import InventoryFlow from './InventoryFlow.astro';
+import HmsIcon from './HmsIcon.astro';
 import { t, href } from '../i18n/index.js';
 interface Section {
   title?: string; text?: string; list?: string[];
   defs?: { term: string; text: string }[];
   link?: { page: string; label: string };
   figure?: 'infra' | 'inventory';
+  flow?: string[]; tiles?: boolean; callout?: boolean;
+  cards?: { icon?: string; title: string; text?: string; list?: string[] }[];
 }
 interface Props { sections: Section[]; lang: string }
 const { sections, lang } = Astro.props;
@@ -26,15 +33,32 @@ const tr = t(lang);
         {s.figure === 'inventory' && <InventoryFlow f={tr.inventoryFlow} heading="h2" />}
       </section>
     ) : (
-      <section class="prose-section">
+      <section class={s.callout ? 'prose-section prose-section--callout' : 'prose-section'}>
         <h2>{s.title}</h2>
         {s.text && <p><Txt text={s.text} /></p>}
+        {s.flow && (
+          <ol class="flow-chips">{s.flow.map((f) => <li>{f}</li>)}</ol>
+        )}
         {s.defs && (
           <dl class="defs">
             {s.defs.map((d) => <div><dt>{d.term}</dt><dd>{d.text}</dd></div>)}
           </dl>
         )}
-        {s.list && <ul class="checklist">{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
+        {s.list && <ul class={s.tiles ? 'checklist tiles' : 'checklist'}>{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
+        {s.cards && (
+          <ul class="section-cards">
+            {s.cards.map((c) => (
+              <li class="card section-card">
+                <div class="section-card__head">
+                  {c.icon && <span class="hms-icon-box"><HmsIcon name={c.icon} /></span>}
+                  <h3>{c.title}</h3>
+                </div>
+                {c.text && <p><Txt text={c.text} /></p>}
+                {c.list && <ul class="checklist checklist--sm">{c.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
+              </li>
+            ))}
+          </ul>
+        )}
         {s.link && <p><a class="card__link" href={href(lang, s.link.page)}>{s.link.label} →</a></p>}
       </section>
     )
