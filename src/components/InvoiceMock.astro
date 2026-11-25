@@ -1,0 +1,26 @@
+---
+// Illustration d'une facture bilingue khmer / anglais avec totaux en dollars et en riels.
+// Décorative (aria-hidden) : aucun chiffre, seulement des barres grises à la place des montants.
+// Titre khmer : « វិក្កយបត្រអាករ » (facture de TVA), repris des documents de l'Odoo de Chantrea Systems.
+---
+<figure class="invoice-mock" aria-hidden="true">
+  <div class="invoice-mock__paper">
+    <div class="invoice-mock__head">
+      <div>
+        <p class="invoice-mock__km" lang="km">វិក្កយបត្រអាករ</p>
+        <p class="invoice-mock__en">TAX INVOICE</p>
+      </div>
+      <span class="invoice-mock__logo"></span>
+    </div>
+    <div class="invoice-mock__meta"><i></i><i></i><i></i></div>
+    <div class="invoice-mock__rows">
+      {[0.8, 0.6, 0.7].map((w) => (
+        <div class="invoice-mock__row"><i style={`width:${w * 100}%`}></i><b></b></div>
+      ))}
+    </div>
+    <div class="invoice-mock__totals">
+      <div><span>USD $</span><b></b></div>
+      <div><span lang="km">KHR ៛</span><b></b></div>
+    </div>
+  </div>
+</figure>

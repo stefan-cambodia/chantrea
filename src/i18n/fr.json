@@ -691,14 +691,22 @@
         "title": "Odoo en khmer, pour le Cambodge",
         "summary": "Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales.",
         "lead": "Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent.",
+        "badges": [
+          "ខ្មែរ",
+          "English",
+          "USD $",
+          "KHR ៛"
+        ],
         "metaTitle": "Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems",
         "metaDescription": "Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable.",
         "sections": [
           {
+            "icon": "lang",
             "title": "Odoo dans la langue de votre équipe",
             "text": "Odoo propose le khmer dans sa liste de langues, mais la traduction de l'éditeur est presque vide : dans Odoo 19, moins d'un texte sur dix est traduit en khmer dans les applications Ventes, Comptabilité, Stock et Point de vente. Je complète la traduction des écrans que votre équipe utilise vraiment, et vos modules sur mesure sont traduits eux aussi. Chaque utilisateur choisit sa langue : khmer, anglais ou une autre."
           },
           {
+            "icon": "receipt",
             "title": "Des documents en khmer",
             "list": [
               "Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais.",
@@ -706,14 +714,20 @@
             ]
           },
           {
+            "figure": "invoice"
+          },
+          {
+            "icon": "coins",
             "title": "Dollar et riel",
             "text": "Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez."
           },
           {
+            "icon": "scale",
             "title": "Les règles locales",
             "text": "TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande."
           },
           {
+            "pending": true,
             "title": "En cours de développement",
             "text": "Ces fonctions sont en préparation, et pas encore disponibles :",
             "list": [
@@ -723,6 +737,7 @@
             ]
           },
           {
+            "icon": "info",
             "title": "Ce qu'il faut savoir",
             "list": [
               "La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service.",

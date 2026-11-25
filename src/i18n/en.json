@@ -691,14 +691,22 @@
         "title": "Odoo in Khmer, for Cambodia",
         "summary": "A branch dedicated to businesses in Cambodia: Odoo in Khmer, documents in Khmer or bilingual, dollar and riel, local rules.",
         "lead": "I start from Odoo 19 Community, the free and open-source edition of Odoo, and adapt it to Cambodia: your team's language, the two currencies, the documents your customers expect.",
+        "badges": [
+          "ខ្មែរ",
+          "English",
+          "USD $",
+          "KHR ៛"
+        ],
         "metaTitle": "Odoo in Khmer for Cambodia, dollar and riel — Chantrea Systems",
         "metaDescription": "Odoo for Cambodian businesses: screens in Khmer, invoices in Khmer or bilingual Khmer-English, dollar and riel, tax rules checked with your accountant.",
         "sections": [
           {
+            "icon": "lang",
             "title": "Odoo in your team's language",
             "text": "Odoo lists Khmer among its languages, but the publisher's translation is almost empty: in Odoo 19, fewer than one text in ten is translated into Khmer in the Sales, Accounting, Inventory and Point of Sale apps. I complete the translation of the screens your team actually uses, and your custom modules are translated too. Each user chooses their language: Khmer, English or another one."
           },
           {
+            "icon": "receipt",
             "title": "Documents in Khmer",
             "list": [
               "Quotes, invoices, receipts and delivery slips in Khmer, or bilingual Khmer-English.",
@@ -706,14 +714,20 @@
             ]
           },
           {
+            "figure": "invoice"
+          },
+          {
+            "icon": "coins",
             "title": "Dollar and riel",
             "text": "In Cambodia, prices are often in dollars and payments also come in riels. Odoo handles several currencies; I adapt it to the way you work: prices in dollars, total in riels on the invoice, the exchange rate you choose."
           },
           {
+            "icon": "scale",
             "title": "Local rules",
             "text": "VAT, invoice numbering, mandatory mentions, reports for your accountant: I set up in Odoo the rules your accountant has validated. I build the software; your accountant says what the law requires."
           },
           {
+            "pending": true,
             "title": "In development",
             "text": "These features are being prepared and are not available yet:",
             "list": [
@@ -723,6 +737,7 @@
             ]
           },
           {
+            "icon": "info",
             "title": "Good to know",
             "list": [
               "The Khmer translation is prepared with AI, then reviewed by someone on your team who speaks Khmer, before going live.",

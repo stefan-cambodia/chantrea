@@ -7,18 +7,22 @@
 //     tiles : true               → la liste s'affiche en tuiles sur deux colonnes
 //     cards : [{ icon, title, text?, list? }] → cartes avec pictogramme (noms de HmsIcon)
 //     callout : true             → bloc mis en avant (encadré de couleur)
-//   { figure: 'infra' | 'inventory' } → schéma d'infrastructure ou étapes inventaire et veille
+//     icon : nom de HmsIcon      → le bloc s'affiche en carte, avec ce pictogramme devant le titre
+//     pending : true             → bloc « en cours de développement » (bordure en tirets, sablier)
+//   { figure: 'infra' | 'inventory' | 'invoice' } → schéma d'infrastructure, étapes inventaire et veille,
+//                                    ou illustration d'une facture bilingue khmer / anglais
 import Txt from './Txt.astro';
 import InfraDiagram from './InfraDiagram.astro';
 import InventoryFlow from './InventoryFlow.astro';
 import HmsIcon from './HmsIcon.astro';
+import InvoiceMock from './InvoiceMock.astro';
 import { t, href } from '../i18n/index.js';
 interface Section {
   title?: string; text?: string; list?: string[];
   defs?: { term: string; text: string }[];
   link?: { page: string; label: string };
-  figure?: 'infra' | 'inventory';
-  flow?: string[]; tiles?: boolean; callout?: boolean;
+  figure?: 'infra' | 'inventory' | 'invoice';
+  flow?: string[]; tiles?: boolean; callout?: boolean; icon?: string; pending?: boolean;
   cards?: { icon?: string; title: string; text?: string; list?: string[] }[];
 }
 interface Props { sections: Section[]; lang: string }
@@ -28,13 +32,18 @@ const tr = t(lang);
 <div class="prose-sections">
   {sections.map((s) => (
     s.figure ? (
-      <section class="prose-section prose-section--figure">
-        {s.figure === 'infra' && <InfraDiagram d={tr.diagram} heading="h2" />}
-        {s.figure === 'inventory' && <InventoryFlow f={tr.inventoryFlow} heading="h2" />}
-      </section>
+      s.figure === 'invoice' ? <InvoiceMock /> : (
+        <section class="prose-section prose-section--figure">
+          {s.figure === 'infra' && <InfraDiagram d={tr.diagram} heading="h2" />}
+          {s.figure === 'inventory' && <InventoryFlow f={tr.inventoryFlow} heading="h2" />}
+        </section>
+      )
     ) : (
-      <section class={s.callout ? 'prose-section prose-section--callout' : 'prose-section'}>
-        <h2>{s.title}</h2>
+      <section class={['prose-section', s.callout && 'prose-section--callout', s.icon && 'prose-section--card',
+                       s.pending && 'prose-section--pending'].filter(Boolean).join(' ')}>
+        {s.icon || s.pending
+          ? <div class="prose-section__head"><span class="hms-icon-box"><HmsIcon name={s.icon ?? 'hourglass'} /></span><h2>{s.title}</h2></div>
+          : <h2>{s.title}</h2>}
         {s.text && <p><Txt text={s.text} /></p>}
         {s.flow && (
           <ol class="flow-chips">{s.flow.map((f) => <li>{f}</li>)}</ol>

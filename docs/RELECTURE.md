@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1158 textes relus.
+0 / 1163 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -403,6 +403,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.6.title` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា | Odoo en khmer, pour le Cambodge |
 | ⏳ à relire | `services.items.6.summary` | ផ្នែកមួយដែលឧទ្ទិសសម្រាប់អាជីវកម្មនៅកម្ពុជា៖ Odoo ជាភាសាខ្មែរ ឯកសារជាភាសាខ្មែរ ឬពីរភាសា ប្រាក់ដុល្លារ និងប្រាក់រៀល និងច្បាប់ក្នុងស្រុក។ | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
 | ⏳ à relire | `services.items.6.lead` | ខ្ញុំចាប់ផ្ដើមពី Odoo 19 Community ដែលជាកំណែកូដបើកចំហ (open source) និងឥតគិតថ្លៃរបស់ Odoo ហើយកែសម្រួលវាសម្រាប់កម្ពុជា៖ ភាសារបស់ក្រុមការងាររបស់លោកអ្នក រូបិយប័ណ្ណទាំងពីរ និងឯកសារដែលអតិថិជនរបស់លោកអ្នករំពឹងចង់បាន។ | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
+| ⏳ à relire | `services.items.6.badges.0` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.6.badges.1` | English | English |
+| ⏳ à relire | `services.items.6.badges.2` | USD $ | USD $ |
+| ⏳ à relire | `services.items.6.badges.3` | KHR ៛ | KHR ៛ |
 | ⏳ à relire | `services.items.6.metaTitle` | Odoo ជាភាសាខ្មែរ សម្រាប់កម្ពុជា ប្រាក់ដុល្លារ និងប្រាក់រៀល — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
 | ⏳ à relire | `services.items.6.metaDescription` | Odoo សម្រាប់អាជីវកម្មកម្ពុជា៖ អេក្រង់ជាភាសាខ្មែរ វិក្កយបត្រជាភាសាខ្មែរ ឬពីរភាសា ប្រាក់ដុល្លារ និងប្រាក់រៀល ច្បាប់ពន្ធដារដែលបានផ្ទៀងផ្ទាត់ជាមួយគណនេយ្យកររបស់លោកអ្នក។ | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
 | ⏳ à relire | `services.items.6.sections.0.title` | Odoo ជាភាសារបស់ក្រុមការងាររបស់លោកអ្នក | Odoo dans la langue de votre équipe |
@@ -410,20 +414,21 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.6.sections.1.title` | ឯកសារជាភាសាខ្មែរ | Des documents en khmer |
 | ⏳ à relire | `services.items.6.sections.1.list.0` | សម្រង់តម្លៃ វិក្កយបត្រ បង្កាន់ដៃ និងប័ណ្ណដឹកជញ្ជូនទំនិញ ជាភាសាខ្មែរ ឬពីរភាសា ខ្មែរ-អង់គ្លេស។ | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
 | ⏳ à relire | `services.items.6.sections.1.list.1` | ពុម្ពអក្សរខ្មែរ ដែលបង្ហាញ និងបោះពុម្ពបានត្រឹមត្រូវ រួមទាំងក្នុងឯកសារ PDF។ | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
-| ⏳ à relire | `services.items.6.sections.2.title` | ប្រាក់ដុល្លារ និងប្រាក់រៀល | Dollar et riel |
-| ⏳ à relire | `services.items.6.sections.2.text` | នៅកម្ពុជា ជារឿយៗគេលក់ជាប្រាក់ដុល្លារ ហើយក៏ទទួលប្រាក់រៀលផងដែរ។ Odoo គ្រប់គ្រងរូបិយប័ណ្ណច្រើនបាន ខ្ញុំកែសម្រួលវាឱ្យត្រូវនឹងរបៀបធ្វើការរបស់លោកអ្នក៖ តម្លៃជាប្រាក់ដុល្លារ សរុបជាប្រាក់រៀលនៅលើវិក្កយបត្រ និងអត្រាប្ដូរប្រាក់ដែលលោកអ្នកជ្រើសរើស។ | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
-| ⏳ à relire | `services.items.6.sections.3.title` | ច្បាប់ក្នុងស្រុក | Les règles locales |
-| ⏳ à relire | `services.items.6.sections.3.text` | អាករលើតម្លៃបន្ថែម (VAT) លេខរៀងវិក្កយបត្រ ព័ត៌មានដែលត្រូវតែមាន និងរបាយការណ៍សម្រាប់គណនេយ្យកររបស់លោកអ្នក៖ ខ្ញុំដាក់ចូលក្នុង Odoo នូវច្បាប់ដែលគណនេយ្យកររបស់លោកអ្នកបានផ្ទៀងផ្ទាត់។ ខ្ញុំអភិវឌ្ឍកម្មវិធី ចំណែកគណនេយ្យកររបស់លោកអ្នក ជាអ្នកប្រាប់ថាច្បាប់តម្រូវឱ្យមានអ្វីខ្លះ។ | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
-| ⏳ à relire | `services.items.6.sections.4.title` | កំពុងអភិវឌ្ឍ | En cours de développement |
-| ⏳ à relire | `services.items.6.sections.4.text` | មុខងារទាំងនេះកំពុងរៀបចំ ហើយមិនទាន់អាចប្រើបាននៅឡើយទេ៖ | Ces fonctions sont en préparation, et pas encore disponibles : |
-| ⏳ à relire | `services.items.6.sections.4.list.0` | កាលបរិច្ឆេទ និងលេខជាភាសាខ្មែរ នៅលើឯកសារ។ | Les dates et les chiffres en khmer sur les documents. |
-| ⏳ à relire | `services.items.6.sections.4.list.1` | បញ្ជរគិតលុយ (ប្រព័ន្ធលក់ Odoo) ដែលទទួលប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
-| ⏳ à relire | `services.items.6.sections.4.list.2` | ការទូទាត់ប្រាក់តាម KHQR។ | Le paiement par QR code KHQR. |
-| ⏳ à relire | `services.items.6.sections.5.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.6.sections.5.list.0` | ការបកប្រែជាភាសាខ្មែរ ត្រូវបានរៀបចំដោយ AI បន្ទាប់មកត្រូវបានពិនិត្យដោយបុគ្គលិកក្នុងក្រុមការងាររបស់លោកអ្នក ដែលចេះភាសាខ្មែរ មុនពេលដាក់ឱ្យប្រើប្រាស់។ | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
-| ⏳ à relire | `services.items.6.sections.5.list.1` | ការភ្ជាប់ជាមួយសេវាអនឡាញរបស់រដ្ឋបាល ឬរបស់ធនាគារ ត្រូវសិក្សាតាមករណីនីមួយៗ។ | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
-| ⏳ à relire | `services.items.6.sections.5.list.2` | ខ្ញុំមិនផ្ដល់វិញ្ញាបនបត្រ ឬការអនុញ្ញាតផ្នែកពន្ធដារណាមួយឡើយ។ | Je ne délivre aucune certification ni agrément fiscal. |
-| ⏳ à relire | `services.items.6.sections.5.list.3` | យើងសាកល្បងលើឯកសារពិតរបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | On teste sur vos vrais documents avant de décider. |
+| ⏳ à relire | `services.items.6.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.6.sections.3.title` | ប្រាក់ដុល្លារ និងប្រាក់រៀល | Dollar et riel |
+| ⏳ à relire | `services.items.6.sections.3.text` | នៅកម្ពុជា ជារឿយៗគេលក់ជាប្រាក់ដុល្លារ ហើយក៏ទទួលប្រាក់រៀលផងដែរ។ Odoo គ្រប់គ្រងរូបិយប័ណ្ណច្រើនបាន ខ្ញុំកែសម្រួលវាឱ្យត្រូវនឹងរបៀបធ្វើការរបស់លោកអ្នក៖ តម្លៃជាប្រាក់ដុល្លារ សរុបជាប្រាក់រៀលនៅលើវិក្កយបត្រ និងអត្រាប្ដូរប្រាក់ដែលលោកអ្នកជ្រើសរើស។ | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
+| ⏳ à relire | `services.items.6.sections.4.title` | ច្បាប់ក្នុងស្រុក | Les règles locales |
+| ⏳ à relire | `services.items.6.sections.4.text` | អាករលើតម្លៃបន្ថែម (VAT) លេខរៀងវិក្កយបត្រ ព័ត៌មានដែលត្រូវតែមាន និងរបាយការណ៍សម្រាប់គណនេយ្យកររបស់លោកអ្នក៖ ខ្ញុំដាក់ចូលក្នុង Odoo នូវច្បាប់ដែលគណនេយ្យកររបស់លោកអ្នកបានផ្ទៀងផ្ទាត់។ ខ្ញុំអភិវឌ្ឍកម្មវិធី ចំណែកគណនេយ្យកររបស់លោកអ្នក ជាអ្នកប្រាប់ថាច្បាប់តម្រូវឱ្យមានអ្វីខ្លះ។ | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
+| ⏳ à relire | `services.items.6.sections.5.title` | កំពុងអភិវឌ្ឍ | En cours de développement |
+| ⏳ à relire | `services.items.6.sections.5.text` | មុខងារទាំងនេះកំពុងរៀបចំ ហើយមិនទាន់អាចប្រើបាននៅឡើយទេ៖ | Ces fonctions sont en préparation, et pas encore disponibles : |
+| ⏳ à relire | `services.items.6.sections.5.list.0` | កាលបរិច្ឆេទ និងលេខជាភាសាខ្មែរ នៅលើឯកសារ។ | Les dates et les chiffres en khmer sur les documents. |
+| ⏳ à relire | `services.items.6.sections.5.list.1` | បញ្ជរគិតលុយ (ប្រព័ន្ធលក់ Odoo) ដែលទទួលប្រាក់ដុល្លារ និងប្រាក់រៀល។ | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
+| ⏳ à relire | `services.items.6.sections.5.list.2` | ការទូទាត់ប្រាក់តាម KHQR។ | Le paiement par QR code KHQR. |
+| ⏳ à relire | `services.items.6.sections.6.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.6.sections.6.list.0` | ការបកប្រែជាភាសាខ្មែរ ត្រូវបានរៀបចំដោយ AI បន្ទាប់មកត្រូវបានពិនិត្យដោយបុគ្គលិកក្នុងក្រុមការងាររបស់លោកអ្នក ដែលចេះភាសាខ្មែរ មុនពេលដាក់ឱ្យប្រើប្រាស់។ | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
+| ⏳ à relire | `services.items.6.sections.6.list.1` | ការភ្ជាប់ជាមួយសេវាអនឡាញរបស់រដ្ឋបាល ឬរបស់ធនាគារ ត្រូវសិក្សាតាមករណីនីមួយៗ។ | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
+| ⏳ à relire | `services.items.6.sections.6.list.2` | ខ្ញុំមិនផ្ដល់វិញ្ញាបនបត្រ ឬការអនុញ្ញាតផ្នែកពន្ធដារណាមួយឡើយ។ | Je ne délivre aucune certification ni agrément fiscal. |
+| ⏳ à relire | `services.items.6.sections.6.list.3` | យើងសាកល្បងលើឯកសារពិតរបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | On teste sur vos vrais documents avant de décider. |
 | ⏳ à relire | `services.items.6.trademarks` | Odoo គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់របស់វា។ ការលើកឡើងឈ្មោះនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.7.id` | odoo | odoo |
 | ⏳ à relire | `services.items.7.parent` | business-software | business-software |
@@ -1173,7 +1178,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1157 textes relus.
+0 / 1162 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1568,6 +1573,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.6.title` | Odoo на кхмерском, для Камбоджи | Odoo en khmer, pour le Cambodge |
 | ⏳ à relire | `services.items.6.summary` | Отдельное направление для компаний в Камбодже: Odoo на кхмерском, документы на кхмерском или на двух языках, доллар и риель, местные правила. | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
 | ⏳ à relire | `services.items.6.lead` | Я беру за основу Odoo 19 Community, свободную и бесплатную версию Odoo, и адаптирую её к Камбодже: язык ваших сотрудников, две валюты, документы, которых ждут ваши клиенты. | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
+| ⏳ à relire | `services.items.6.badges.0` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.6.badges.1` | English | English |
+| ⏳ à relire | `services.items.6.badges.2` | USD $ | USD $ |
+| ⏳ à relire | `services.items.6.badges.3` | KHR ៛ | KHR ៛ |
 | ⏳ à relire | `services.items.6.metaTitle` | Odoo на кхмерском для Камбоджи: доллар и риель — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
 | ⏳ à relire | `services.items.6.metaDescription` | Odoo для камбоджийских компаний: интерфейс на кхмерском, счета на кхмерском или на двух языках, доллар и риель, налоги — по согласованию с вашим бухгалтером. | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
 | ⏳ à relire | `services.items.6.sections.0.title` | Odoo на языке ваших сотрудников | Odoo dans la langue de votre équipe |
@@ -1575,20 +1584,21 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.6.sections.1.title` | Документы на кхмерском | Des documents en khmer |
 | ⏳ à relire | `services.items.6.sections.1.list.0` | Коммерческие предложения, счета, квитанции и накладные на кхмерском или на двух языках, кхмерском и английском. | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
 | ⏳ à relire | `services.items.6.sections.1.list.1` | Кхмерские шрифты, которые правильно отображаются и печатаются, в том числе в PDF. | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
-| ⏳ à relire | `services.items.6.sections.2.title` | Доллар и риель | Dollar et riel |
-| ⏳ à relire | `services.items.6.sections.2.text` | В Камбодже цены часто указывают в долларах, а оплату принимают и в риелях. Odoo работает с несколькими валютами; я настраиваю его под ваш порядок работы: цены в долларах, итог в риелях в счёте и курс, который выбираете вы. | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
-| ⏳ à relire | `services.items.6.sections.3.title` | Местные правила | Les règles locales |
-| ⏳ à relire | `services.items.6.sections.3.text` | НДС, нумерация счетов, обязательные реквизиты, отчёты для вашего бухгалтера: я внедряю в Odoo правила, которые согласовал ваш бухгалтер. Я разрабатываю программу, а что требует закон, говорит ваш бухгалтер. | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
-| ⏳ à relire | `services.items.6.sections.4.title` | В разработке | En cours de développement |
-| ⏳ à relire | `services.items.6.sections.4.text` | Эти функции готовятся и пока недоступны: | Ces fonctions sont en préparation, et pas encore disponibles : |
-| ⏳ à relire | `services.items.6.sections.4.list.0` | Даты и цифры на кхмерском в документах. | Les dates et les chiffres en khmer sur les documents. |
-| ⏳ à relire | `services.items.6.sections.4.list.1` | Касса (точка продаж Odoo), принимающая доллары и риели. | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
-| ⏳ à relire | `services.items.6.sections.4.list.2` | Оплата по QR-коду KHQR. | Le paiement par QR code KHQR. |
-| ⏳ à relire | `services.items.6.sections.5.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.6.sections.5.list.0` | Перевод на кхмерский готовится с помощью ИИ, затем до запуска его проверяет сотрудник вашей компании, владеющий кхмерским. | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
-| ⏳ à relire | `services.items.6.sections.5.list.1` | Связь с онлайн-сервисами госорганов или банков изучается в каждом случае отдельно. | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
-| ⏳ à relire | `services.items.6.sections.5.list.2` | Я не выдаю никаких сертификатов и налоговых разрешений. | Je ne délivre aucune certification ni agrément fiscal. |
-| ⏳ à relire | `services.items.6.sections.5.list.3` | Перед решением проверяем на ваших реальных документах. | On teste sur vos vrais documents avant de décider. |
+| ⏳ à relire | `services.items.6.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.6.sections.3.title` | Доллар и риель | Dollar et riel |
+| ⏳ à relire | `services.items.6.sections.3.text` | В Камбодже цены часто указывают в долларах, а оплату принимают и в риелях. Odoo работает с несколькими валютами; я настраиваю его под ваш порядок работы: цены в долларах, итог в риелях в счёте и курс, который выбираете вы. | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
+| ⏳ à relire | `services.items.6.sections.4.title` | Местные правила | Les règles locales |
+| ⏳ à relire | `services.items.6.sections.4.text` | НДС, нумерация счетов, обязательные реквизиты, отчёты для вашего бухгалтера: я внедряю в Odoo правила, которые согласовал ваш бухгалтер. Я разрабатываю программу, а что требует закон, говорит ваш бухгалтер. | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
+| ⏳ à relire | `services.items.6.sections.5.title` | В разработке | En cours de développement |
+| ⏳ à relire | `services.items.6.sections.5.text` | Эти функции готовятся и пока недоступны: | Ces fonctions sont en préparation, et pas encore disponibles : |
+| ⏳ à relire | `services.items.6.sections.5.list.0` | Даты и цифры на кхмерском в документах. | Les dates et les chiffres en khmer sur les documents. |
+| ⏳ à relire | `services.items.6.sections.5.list.1` | Касса (точка продаж Odoo), принимающая доллары и риели. | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
+| ⏳ à relire | `services.items.6.sections.5.list.2` | Оплата по QR-коду KHQR. | Le paiement par QR code KHQR. |
+| ⏳ à relire | `services.items.6.sections.6.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.6.sections.6.list.0` | Перевод на кхмерский готовится с помощью ИИ, затем до запуска его проверяет сотрудник вашей компании, владеющий кхмерским. | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
+| ⏳ à relire | `services.items.6.sections.6.list.1` | Связь с онлайн-сервисами госорганов или банков изучается в каждом случае отдельно. | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
+| ⏳ à relire | `services.items.6.sections.6.list.2` | Я не выдаю никаких сертификатов и налоговых разрешений. | Je ne délivre aucune certification ni agrément fiscal. |
+| ⏳ à relire | `services.items.6.sections.6.list.3` | Перед решением проверяем на ваших реальных документах. | On teste sur vos vrais documents avant de décider. |
 | ⏳ à relire | `services.items.6.trademarks` | Odoo — товарный знак своего владельца. Его упоминание не означает какого-либо партнёрства с его разработчиком. | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.7.id` | odoo | odoo |
 | ⏳ à relire | `services.items.7.parent` | business-software | business-software |
@@ -2337,7 +2347,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1157 textes relus.
+0 / 1162 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2732,6 +2742,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.6.title` | 高棉语 Odoo，面向柬埔寨 | Odoo en khmer, pour le Cambodge |
 | ⏳ à relire | `services.items.6.summary` | 专门面向柬埔寨企业的方向：高棉语 Odoo、高棉语或双语单据、美元和瑞尔、本地规则。 | Une branche dédiée aux entreprises du Cambodge : Odoo en khmer, documents en khmer ou bilingues, dollar et riel, règles locales. |
 | ⏳ à relire | `services.items.6.lead` | 我以 Odoo 的开源免费版 Odoo 19 Community 为基础，针对柬埔寨进行调整：员工的语言、两种货币、客户期待的单据。 | Je pars d'Odoo 19 Community, la version libre et gratuite d'Odoo, et je l'adapte au Cambodge : la langue de votre équipe, les deux monnaies, les documents que vos clients attendent. |
+| ⏳ à relire | `services.items.6.badges.0` | ខ្មែរ | ខ្មែរ |
+| ⏳ à relire | `services.items.6.badges.1` | English | English |
+| ⏳ à relire | `services.items.6.badges.2` | USD $ | USD $ |
+| ⏳ à relire | `services.items.6.badges.3` | KHR ៛ | KHR ៛ |
 | ⏳ à relire | `services.items.6.metaTitle` | 柬埔寨高棉语 Odoo：美元和瑞尔 — Chantrea Systems | Odoo en khmer pour le Cambodge, dollar et riel — Chantrea Systems |
 | ⏳ à relire | `services.items.6.metaDescription` | 为柬埔寨企业调整的 Odoo：高棉语界面，高棉语或高棉语-英语双语的发票和收据，美元和瑞尔，与您的会计确认过的税务规则。柬埔寨贡布。 | Odoo pour les entreprises cambodgiennes : écrans en khmer, factures en khmer ou bilingues, dollar et riel, règles fiscales validées avec votre comptable. |
 | ⏳ à relire | `services.items.6.sections.0.title` | 用员工的语言使用 Odoo | Odoo dans la langue de votre équipe |
@@ -2739,20 +2753,21 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.6.sections.1.title` | 高棉语单据 | Des documents en khmer |
 | ⏳ à relire | `services.items.6.sections.1.list.0` | 报价单、发票、收据和送货单，用高棉语，或高棉语-英语双语。 | Devis, factures, reçus et bons de livraison en khmer, ou bilingues khmer-anglais. |
 | ⏳ à relire | `services.items.6.sections.1.list.1` | 高棉文字体在屏幕上和打印时都显示正确，PDF 也一样。 | Des polices khmères qui s'affichent et s'impriment correctement, y compris dans les PDF. |
-| ⏳ à relire | `services.items.6.sections.2.title` | 美元和瑞尔 | Dollar et riel |
-| ⏳ à relire | `services.items.6.sections.2.text` | 在柬埔寨，商品常以美元标价，收款时也收瑞尔。Odoo 支持多种货币；我按您的做法来调整：美元标价、发票上显示瑞尔合计、由您决定汇率。 | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
-| ⏳ à relire | `services.items.6.sections.3.title` | 本地规则 | Les règles locales |
-| ⏳ à relire | `services.items.6.sections.3.text` | 增值税、发票编号、必备信息、给会计的报表：您的会计确认过的规则，由我在 Odoo 里实现。软件由我开发；法律要求什么，由您的会计来定。 | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
-| ⏳ à relire | `services.items.6.sections.4.title` | 开发中 | En cours de développement |
-| ⏳ à relire | `services.items.6.sections.4.text` | 以下功能正在准备中，暂时还不能使用： | Ces fonctions sont en préparation, et pas encore disponibles : |
-| ⏳ à relire | `services.items.6.sections.4.list.0` | 单据上的日期和数字用高棉文显示。 | Les dates et les chiffres en khmer sur les documents. |
-| ⏳ à relire | `services.items.6.sections.4.list.1` | 同时收美元和瑞尔的收银台（Odoo 销售点）。 | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
-| ⏳ à relire | `services.items.6.sections.4.list.2` | KHQR 二维码付款。 | Le paiement par QR code KHQR. |
-| ⏳ à relire | `services.items.6.sections.5.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.6.sections.5.list.0` | 高棉语翻译先由 AI 准备，上线前再由您团队中懂高棉语的同事审核。 | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
-| ⏳ à relire | `services.items.6.sections.5.list.1` | 与政府部门或银行在线服务的对接，需逐案评估。 | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
-| ⏳ à relire | `services.items.6.sections.5.list.2` | 我不出具任何认证或税务批准。 | Je ne délivre aucune certification ni agrément fiscal. |
-| ⏳ à relire | `services.items.6.sections.5.list.3` | 先用您的真实单据测试，再做决定。 | On teste sur vos vrais documents avant de décider. |
+| ⏳ à relire | `services.items.6.sections.2.figure` | invoice | invoice |
+| ⏳ à relire | `services.items.6.sections.3.title` | 美元和瑞尔 | Dollar et riel |
+| ⏳ à relire | `services.items.6.sections.3.text` | 在柬埔寨，商品常以美元标价，收款时也收瑞尔。Odoo 支持多种货币；我按您的做法来调整：美元标价、发票上显示瑞尔合计、由您决定汇率。 | Au Cambodge, on vend souvent en dollars et on encaisse aussi en riels. Odoo gère plusieurs monnaies ; je l'adapte à votre façon de faire : prix en dollars, total en riels sur la facture, taux de change que vous choisissez. |
+| ⏳ à relire | `services.items.6.sections.4.title` | 本地规则 | Les règles locales |
+| ⏳ à relire | `services.items.6.sections.4.text` | 增值税、发票编号、必备信息、给会计的报表：您的会计确认过的规则，由我在 Odoo 里实现。软件由我开发；法律要求什么，由您的会计来定。 | TVA, numérotation des factures, mentions obligatoires, rapports pour votre comptable : je mets en place dans Odoo les règles que votre comptable a validées. Je développe le logiciel ; c'est votre comptable qui dit ce que la loi demande. |
+| ⏳ à relire | `services.items.6.sections.5.title` | 开发中 | En cours de développement |
+| ⏳ à relire | `services.items.6.sections.5.text` | 以下功能正在准备中，暂时还不能使用： | Ces fonctions sont en préparation, et pas encore disponibles : |
+| ⏳ à relire | `services.items.6.sections.5.list.0` | 单据上的日期和数字用高棉文显示。 | Les dates et les chiffres en khmer sur les documents. |
+| ⏳ à relire | `services.items.6.sections.5.list.1` | 同时收美元和瑞尔的收银台（Odoo 销售点）。 | Une caisse (point de vente Odoo) qui accepte les dollars et les riels. |
+| ⏳ à relire | `services.items.6.sections.5.list.2` | KHQR 二维码付款。 | Le paiement par QR code KHQR. |
+| ⏳ à relire | `services.items.6.sections.6.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.6.sections.6.list.0` | 高棉语翻译先由 AI 准备，上线前再由您团队中懂高棉语的同事审核。 | La traduction khmère est préparée avec l'IA, puis relue par une personne de votre équipe qui parle khmer, avant la mise en service. |
+| ⏳ à relire | `services.items.6.sections.6.list.1` | 与政府部门或银行在线服务的对接，需逐案评估。 | Les liens avec les services en ligne de l'administration ou des banques s'étudient au cas par cas. |
+| ⏳ à relire | `services.items.6.sections.6.list.2` | 我不出具任何认证或税务批准。 | Je ne délivre aucune certification ni agrément fiscal. |
+| ⏳ à relire | `services.items.6.sections.6.list.3` | 先用您的真实单据测试，再做决定。 | On teste sur vos vrais documents avant de décider. |
 | ⏳ à relire | `services.items.6.trademarks` | Odoo 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。 | Odoo est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
 | ⏳ à relire | `services.items.7.id` | odoo | odoo |
 | ⏳ à relire | `services.items.7.parent` | business-software | business-software |

@@ -27,7 +27,10 @@ const page = `services/${service}`;
       title={item.metaTitle ?? `${item.title} — Chantrea Systems`}
       description={item.metaDescription ?? item.summary}
       jsonLd={[serviceJsonLd(Astro.site, lang, item)]}>
-  <PageHero eyebrow={parent ? parent.title : tr.nav.services} title={item.title} lead={item.lead} />
+  <PageHero eyebrow={parent ? parent.title : tr.nav.services} title={item.title} lead={item.lead}>
+    {/* Badges décoratifs facultatifs (ex. ខ្មែរ · English · USD · KHR), item.badges dans le fichier de langue. */}
+    {item.badges && <p class="hero-badges" aria-hidden="true">{item.badges.map((b) => <span>{b}</span>)}</p>}
+  </PageHero>
   <section class="section">
     <div class="container narrow">
       <Sections sections={item.sections} lang={lang} />
