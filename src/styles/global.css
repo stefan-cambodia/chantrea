@@ -425,6 +425,46 @@ h2.group-title { margin-top: 0; }
 .project__media img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
 .project h4 { margin-bottom: .5rem; }
 
+/* ─── Page À propos ──────────────────────────────────────────── */
+.about { display: grid; gap: 1.5rem; }
+.about h2 { margin-top: 0; }
+.about-intro {
+  display: grid; gap: 1.5rem; align-items: center; padding: clamp(1.5rem, 4vw, 2.5rem);
+  border-radius: var(--radius); border: 1px solid var(--night-line); color: var(--night-text);
+  background: radial-gradient(circle at 85% 40%, #1d2a45 0, var(--night-bg) 60%);
+  --accent: var(--moon); --surface: var(--night-bg);
+}
+.about-intro h2 { color: var(--night-text); }
+.about-intro p { color: var(--night-muted); margin-bottom: 0; }
+@media (min-width: 760px) { .about-intro { grid-template-columns: 1.4fr 1fr; } }
+.about-intro__moon { display: grid; justify-items: center; gap: .6rem; }
+.about-intro__phases { display: flex; gap: .7rem; }
+.about-intro__km {
+  margin: 0; font-family: "Kantumruy Pro", var(--font-km); font-weight: 300; line-height: 1.3;
+  font-size: clamp(2.6rem, 7vw, 3.8rem); color: var(--moon) !important;
+}
+.about-cards { gap: 1.25rem; }
+.about-card { gap: .2rem; }
+.about-card .h3 { margin-top: .9rem; }
+.about-card p { margin-bottom: 0; }
+.about-card__icon {
+  display: inline-grid; place-items: center; width: 2.9rem; height: 2.9rem; border-radius: 12px;
+  color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+}
+.about-domains { margin-top: .5rem; }
+.about-domains h2 { margin-bottom: 1rem; }
+.about-domains__list { gap: 1.25rem; }
+.about-domains__list .domain__head { margin-bottom: .6rem; }
+.about-domains__list .domain__head .domain-icon { box-sizing: content-box; padding: .55rem; border-radius: 10px; }
+.about-domains__list .domain p { color: var(--text); }
+.about-jobs {
+  display: grid; gap: 1rem; align-items: center; padding: 1.5rem; border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+}
+.about-jobs p { color: var(--muted); margin-bottom: 0; }
+.about-jobs .h3 { margin: 0 0 .3rem; }
+@media (min-width: 760px) { .about-jobs { grid-template-columns: auto 1fr auto; } }
+
 /* ─── Page Réalisations : vignettes, raccourcis, survol ─────── */
 .work-jump { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; }
 .work-jump a {

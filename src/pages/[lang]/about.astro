@@ -1,19 +1,106 @@
 ---
+// À propos : « Pourquoi Chantrea » mis en avant (phases de lune et nom khmer), blocs en cartes avec pictogramme,
+// les quatre domaines dans leur couleur (liens vers les services), puis l'annonce de recrutement.
+// Les textes restent ceux de about.sections ; la mise en page repose sur leur ordre :
+//   0 = Pourquoi « Chantrea », le bloc avec `list` = les domaines, le bloc avec `link` = recrutement.
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
-import Sections from '../../components/Sections.astro';
-import { langPaths, t } from '../../i18n/index.js';
+import Txt from '../../components/Txt.astro';
+import MoonPhase from '../../components/MoonPhase.astro';
+import DomainIcon from '../../components/DomainIcon.astro';
+import AboutIcon from '../../components/AboutIcon.astro';
+import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
 
 const { lang } = Astro.params;
 const tr = t(lang);
+const sections = tr.about.sections.map((s, i) => ({ ...s, index: i }));
+const [intro, ...others] = sections;
+const domainsBlock = others.find((s) => s.list);
+const jobs = others.find((s) => s.link);
+const cards = others.filter((s) => s !== domainsBlock && s !== jobs);
+const before = cards.filter((s) => !domainsBlock || s.index < domainsBlock.index);
+const after = cards.filter((s) => domainsBlock && s.index > domainsBlock.index);
+// Pictogramme de chaque bloc, selon sa place dans about.sections.
+const icons: Record<number, string> = { 1: 'chat', 2: 'role', 4: 'globe', 5: 'spark', 6: 'path', 7: 'lang' };
+// Les quatre lignes du bloc « Ce que fait Chantrea Systems » suivent l'ordre des domaines.
+const domains = tr.services.items.filter((i) => !i.parent);
+const phases = [0.25, 0.5, 0.75, 1];
 ---
 <Page lang={lang} page="about" title={tr.meta.about.title} description={tr.meta.about.description}>
   <PageHero title={tr.about.title} lead={tr.about.lead} />
+
   <section class="section">
-    <div class="container narrow">
-      <Sections sections={tr.about.sections} lang={lang} />
+    <div class="container about">
+      <section class="about-intro">
+        <div>
+          <h2>{intro.title}</h2>
+          <p class="lead-sm"><Txt text={intro.text} /></p>
+        </div>
+        <div class="about-intro__moon" aria-hidden="true">
+          <div class="about-intro__phases">{phases.map((p) => <MoonPhase lit={p} size={44} />)}</div>
+          <p class="about-intro__km" lang="km">ចន្ទ្រា</p>
+        </div>
+      </section>
+
+      {before.length > 0 && (
+        <div class="cards cards--2 about-cards">
+          {before.map((s) => (
+            <section class="card about-card">
+              <span class="about-card__icon"><AboutIcon name={icons[s.index] ?? 'dot'} /></span>
+              <h2 class="h3">{s.title}</h2>
+              {s.text && <p><Txt text={s.text} /></p>}
+            </section>
+          ))}
+        </div>
+      )}
+
+      {domainsBlock && (
+        <section class="about-domains">
+          <h2>{domainsBlock.title}</h2>
+          <ul class="cards cards--2 about-domains__list domains--color">
+            {domainsBlock.list.map((item, i) => {
+              const d = domains[i];
+              return (
+                <li class="card domain" data-domain={d?.id}>
+                  <div class="domain__head">{d && <DomainIcon id={d.id} />}</div>
+                  <p><Txt text={item} /></p>
+                  {d && (
+                    <a class="card__link" href={href(lang, `services/${d.id}`)}>
+                      {tr.services.more}<span class="sr-only"> : {d.title}</span> →
+                    </a>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      {after.length > 0 && (
+        <div class="cards cards--2 about-cards">
+          {after.map((s) => (
+            <section class="card about-card">
+              <span class="about-card__icon"><AboutIcon name={icons[s.index] ?? 'dot'} /></span>
+              <h2 class="h3">{s.title}</h2>
+              {s.text && <p><Txt text={s.text} /></p>}
+              {s.list && <ul class="checklist checklist--sm">{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
+            </section>
+          ))}
+        </div>
+      )}
+
+      {jobs && (
+        <section class="about-jobs">
+          <span class="about-card__icon"><AboutIcon name="jobs" /></span>
+          <div>
+            <h2 class="h3">{jobs.title}</h2>
+            {jobs.text && <p><Txt text={jobs.text} /></p>}
+          </div>
+          <a class="btn btn--primary" href={href(lang, jobs.link.page)}>{jobs.link.label} →</a>
+        </section>
+      )}
     </div>
   </section>
 </Page>
