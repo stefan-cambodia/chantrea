@@ -143,7 +143,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | កម្មវិធីដែលបានធ្វើរួចរាល់ និងគម្រោងដែលកំពុងអភិវឌ្ឍនៅឡើយ។ | Des logiciels et des applications menés à terme, et des projets encore en cours de développement. |
 | ⏳ à relire | `home.work.cta` | មើលស្នាដៃ | Voir les réalisations |
 | ⏳ à relire | `services.title` | សេវាកម្ម | Services |
-| ⏳ à relire | `services.lead` | ផ្នែកបួន ដែលបំពេញគ្នាទៅវិញទៅមក។ នៅកំពត និងតំបន់ជុំវិញ នៅកន្លែងផ្សេងទៀតក្នុងប្រទេសកម្ពុជា និងពីចម្ងាយសម្រាប់អតិថិជននៅបរទេស។ | Quatre domaines complémentaires. À Kampot et dans ses environs, ailleurs au Cambodge, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `services.lead` | ផ្នែកបួន ដែលបំពេញគ្នាទៅវិញទៅមក។ នៅនឹងកន្លែងនៅកំពត និងគ្រប់ទីកន្លែងក្នុងប្រទេសកម្ពុជា គ្រប់ទីកន្លែងក្នុងពិភពលោក អាស្រ័យលើគម្រោង និងពីចម្ងាយសម្រាប់អតិថិជននៅបរទេស។ | Quatre domaines complémentaires. Sur place à Kampot et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
 | ⏳ à relire | `services.more` | ស្វែងយល់បន្ថែម | En savoir plus |
 | ⏳ à relire | `services.back` | សេវាកម្មទាំងអស់ | Tous les services |
 | ⏳ à relire | `services.related` | ព័ត៌មានលម្អិតអំពីសេវាកម្ម | Offre détaillée |
@@ -276,7 +276,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.sections.12.title` | កិច្ចសន្យាថែទាំ | Contrat de maintenance |
 | ⏳ à relire | `services.items.2.sections.12.text` | ការតាមដានជាប្រចាំ ការធ្វើបច្ចុប្បន្នភាព និងការចុះជួសជុលពេលមានបញ្ហា។ កញ្ចប់សេវា និងតម្លៃ៖ [À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `services.items.2.sections.13.title` | នៅនឹងកន្លែង ឬពីចម្ងាយ | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.13.text` | នៅនឹងកន្លែងនៅកំពត និងតំបន់ជុំវិញ និងនៅកន្លែងផ្សេងទៀតក្នុងប្រទេសកម្ពុជា អាស្រ័យលើគម្រោង។ ពីចម្ងាយ នៅពេលដែលអាចធ្វើបាន។ | Sur place à Kampot et dans ses environs, ailleurs au Cambodge selon le projet. À distance quand c'est possible. |
+| ⏳ à relire | `services.items.2.sections.13.text` | នៅនឹងកន្លែងនៅកំពត និងគ្រប់ទីកន្លែងក្នុងប្រទេសកម្ពុជា។ អាស្រ័យលើគម្រោង ខ្ញុំក៏អាចធ្វើដំណើរទៅបរទេស គ្រប់ទីកន្លែងក្នុងពិភពលោកបានដែរ។ ពីចម្ងាយ នៅពេលដែលអាចធ្វើបាន។ | Sur place à Kampot et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. À distance quand c'est possible. |
 | ⏳ à relire | `services.items.2.sections.14.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
 | ⏳ à relire | `services.items.2.sections.14.list.0` | បច្ចេកវិទ្យាដែលបង្ហាញនៅទីនេះ គឺជាបច្ចេកវិទ្យាដែលខ្ញុំប្រើក្នុងការងារ។ វាមិនមែនសុទ្ធតែមានប្រយោជន៍សម្រាប់អតិថិជនគ្រប់រូបទេ៖ យើងជ្រើសរើសជាមួយគ្នា នូវអ្វីដែលមានប្រយោជន៍សម្រាប់លោកអ្នក។ | Les technologies présentées ici sont celles avec lesquelles je travaille. Elles ne sont pas toutes utiles à chaque client : on choisit ensemble ce qui vous sert. |
 | ⏳ à relire | `services.items.2.sections.14.list.1` | សម្រាប់គម្រោងរបស់លោកអ្នក ខ្ញុំប្រាប់លោកអ្នកយ៉ាងច្បាស់ ពីអ្វីដែលខ្ញុំធ្លាប់បានដំឡើងនៅកន្លែងផ្សេងរួចហើយ និងអ្វីដែលជារឿងថ្មី។ | Pour votre projet, je vous dis clairement ce que j'ai déjà mis en place ailleurs, et ce qui serait nouveau. |
@@ -1090,7 +1090,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.sections.3.list.2` | ហេដ្ឋារចនាសម្ព័ន្ធ និងប្រព័ន្ធ៖ ម៉ាស៊ីនមេ Windows និង Linux និម្មិតកម្ម ការតាមដានប្រព័ន្ធ ការបម្រុងទុកទិន្នន័យ។ | Infrastructure et systèmes : serveurs Windows et Linux, virtualisation, supervision, sauvegardes. |
 | ⏳ à relire | `about.sections.3.list.3` | សន្តិសុខសាយប័រ និងការគ្រប់គ្រងឧបករណ៍ព័ត៌មានវិទ្យា៖ បញ្ជីសារពើភណ្ឌ ការតាមដានចំណុចខ្សោយ ការធ្វើបច្ចុប្បន្នភាព សិទ្ធិចូលប្រើ។ | Cybersécurité et gestion du parc : inventaire, veille sur les failles, mises à jour, accès. |
 | ⏳ à relire | `about.sections.4.title` | តំបន់ដែលខ្ញុំផ្ដល់សេវា | Où j'interviens |
-| ⏳ à relire | `about.sections.4.text` | នៅកំពត និងតំបន់ជុំវិញ នៅកន្លែងផ្សេងទៀតក្នុងប្រទេសកម្ពុជា អាស្រ័យលើគម្រោង និងពីចម្ងាយសម្រាប់អតិថិជននៅបរទេស។ | À Kampot et dans ses environs, ailleurs au Cambodge selon le projet, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `about.sections.4.text` | ខ្ញុំមានមូលដ្ឋាននៅកំពត ហើយផ្ដល់សេវានៅនឹងកន្លែង ក្នុងតំបន់ និងនៅគ្រប់ទីកន្លែងក្នុងប្រទេសកម្ពុជា។ អាស្រ័យលើគម្រោង ខ្ញុំក៏អាចធ្វើដំណើរទៅបរទេស គ្រប់ទីកន្លែងក្នុងពិភពលោកបានដែរ។ សម្រាប់អតិថិជននៅបរទេស ការងារក៏អាចធ្វើពីចម្ងាយបានផងដែរ។ | Basé à Kampot, j'interviens sur place dans la région et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. Pour les clients à l'étranger, le travail peut également se faire à distance. |
 | ⏳ à relire | `about.sections.5.title` | អ្វីដែលខ្ញុំចាប់អារម្មណ៍ | Ce qui m'intéresse |
 | ⏳ à relire | `about.sections.5.text` | Linux និងកម្មវិធីសេរី (free software) និម្មិតកម្ម និងការគ្រប់គ្រងម៉ាស៊ីនមេ Android ឧបករណ៍បញ្ញាសិប្បនិម្មិត ហ្គេមវីដេអូ ការសរសេរកម្មវិធីបែបច្នៃប្រឌិត។ | Linux et le logiciel libre, la virtualisation et l'administration de serveurs, Android, les outils d'intelligence artificielle, le jeu vidéo, la programmation créative. |
 | ⏳ à relire | `about.sections.6.title` | ប្រវត្តិការងារ | Parcours |
@@ -1127,7 +1127,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `contactPage.tips.2` | ពេលវេលាកំណត់របស់លោកអ្នក ប្រសិនបើមាន។ | votre délai, si vous en avez un. |
 | ⏳ à relire | `contactPage.emailTitle` | អ៊ីមែល | E-mail |
 | ⏳ à relire | `contactPage.whereTitle` | ទីតាំង | Où |
-| ⏳ à relire | `contactPage.where` | កំពត កម្ពុជា។ នៅនឹងកន្លែងនៅកំពត និងតំបន់ជុំវិញ នៅកន្លែងផ្សេងទៀតក្នុងប្រទេសកម្ពុជា អាស្រ័យលើគម្រោង និងពីចម្ងាយសម្រាប់កន្លែងផ្សេងទៀត។ | Kampot, Cambodge. Sur place à Kampot et dans ses environs, ailleurs au Cambodge selon le projet, à distance partout ailleurs. |
+| ⏳ à relire | `contactPage.where` | កំពត កម្ពុជា។ នៅនឹងកន្លែងក្នុងតំបន់ និងគ្រប់ទីកន្លែងក្នុងប្រទេសកម្ពុជា គ្រប់ទីកន្លែងក្នុងពិភពលោក អាស្រ័យលើគម្រោង និងពីចម្ងាយសម្រាប់អតិថិជននៅបរទេស។ | Kampot, Cambodge. Sur place dans la région et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
 | ⏳ à relire | `notFound.title` | រកមិនឃើញទំព័រ | Page introuvable |
 | ⏳ à relire | `notFound.text` | ទំព័រនេះមិនមាន ឬលែងមានទៀតហើយ។ | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | ត្រឡប់ទៅទំព័រដើម | Retour à l'accueil |
@@ -1281,7 +1281,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | Программы и приложения, доведённые до конца, и проекты, которые ещё в разработке. | Des logiciels et des applications menés à terme, et des projets encore en cours de développement. |
 | ⏳ à relire | `home.work.cta` | Посмотреть проекты | Voir les réalisations |
 | ⏳ à relire | `services.title` | Услуги | Services |
-| ⏳ à relire | `services.lead` | Четыре взаимодополняющих направления. В Кампоте и окрестностях, в других районах Камбоджи, а для клиентов за рубежом — удалённо. | Quatre domaines complémentaires. À Kampot et dans ses environs, ailleurs au Cambodge, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `services.lead` | Четыре взаимодополняющих направления. На месте — в Кампоте и по всей Камбодже, в зависимости от проекта — в любой точке мира, а для клиентов за рубежом — удалённо. | Quatre domaines complémentaires. Sur place à Kampot et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
 | ⏳ à relire | `services.more` | Подробнее | En savoir plus |
 | ⏳ à relire | `services.back` | Все услуги | Tous les services |
 | ⏳ à relire | `services.related` | Подробное описание услуги | Offre détaillée |
@@ -1414,7 +1414,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.sections.12.title` | Договор на обслуживание | Contrat de maintenance |
 | ⏳ à relire | `services.items.2.sections.12.text` | Регулярное сопровождение, обновления и выезд при поломке. Варианты и цены: [À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `services.items.2.sections.13.title` | На месте или удалённо | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.13.text` | На месте в Кампоте и окрестностях, в других районах Камбоджи — в зависимости от проекта. Удалённо, когда это возможно. | Sur place à Kampot et dans ses environs, ailleurs au Cambodge selon le projet. À distance quand c'est possible. |
+| ⏳ à relire | `services.items.2.sections.13.text` | На месте — в Кампоте и по всей Камбодже. В зависимости от проекта могу выехать и за рубеж, в любую точку мира. Удалённо, когда это возможно. | Sur place à Kampot et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. À distance quand c'est possible. |
 | ⏳ à relire | `services.items.2.sections.14.title` | Что нужно знать | Ce qu'il faut savoir |
 | ⏳ à relire | `services.items.2.sections.14.list.0` | Технологии, представленные здесь, — это те, с которыми я работаю. Не все они нужны каждому клиенту: мы вместе выбираем то, что пригодится именно вам. | Les technologies présentées ici sont celles avec lesquelles je travaille. Elles ne sont pas toutes utiles à chaque client : on choisit ensemble ce qui vous sert. |
 | ⏳ à relire | `services.items.2.sections.14.list.1` | По вашему проекту я прямо скажу, что я уже внедрял в других местах, а что будет новым. | Pour votre projet, je vous dis clairement ce que j'ai déjà mis en place ailleurs, et ce qui serait nouveau. |
@@ -2227,7 +2227,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.sections.3.list.2` | Инфраструктура и системы: серверы Windows и Linux, виртуализация, мониторинг, резервное копирование. | Infrastructure et systèmes : serveurs Windows et Linux, virtualisation, supervision, sauvegardes. |
 | ⏳ à relire | `about.sections.3.list.3` | Кибербезопасность и управление IT-парком: инвентаризация, отслеживание уязвимостей, обновления, доступы. | Cybersécurité et gestion du parc : inventaire, veille sur les failles, mises à jour, accès. |
 | ⏳ à relire | `about.sections.4.title` | Где я работаю | Où j'interviens |
-| ⏳ à relire | `about.sections.4.text` | В Кампоте и окрестностях, в других районах Камбоджи — в зависимости от проекта, и удалённо — для клиентов за рубежом. | À Kampot et dans ses environs, ailleurs au Cambodge selon le projet, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `about.sections.4.text` | Я живу в Кампоте и работаю на месте — в регионе и по всей Камбодже. В зависимости от проекта могу выехать и за рубеж, в любую точку мира. Для клиентов за рубежом работа также может вестись удалённо. | Basé à Kampot, j'interviens sur place dans la région et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. Pour les clients à l'étranger, le travail peut également se faire à distance. |
 | ⏳ à relire | `about.sections.5.title` | Что мне интересно | Ce qui m'intéresse |
 | ⏳ à relire | `about.sections.5.text` | Linux и свободное ПО, виртуализация и администрирование серверов, Android, инструменты искусственного интеллекта, видеоигры, творческое программирование. | Linux et le logiciel libre, la virtualisation et l'administration de serveurs, Android, les outils d'intelligence artificielle, le jeu vidéo, la programmation créative. |
 | ⏳ à relire | `about.sections.6.title` | Опыт | Parcours |
@@ -2264,7 +2264,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `contactPage.tips.2` | ваши сроки, если они есть. | votre délai, si vous en avez un. |
 | ⏳ à relire | `contactPage.emailTitle` | Электронная почта | E-mail |
 | ⏳ à relire | `contactPage.whereTitle` | Где | Où |
-| ⏳ à relire | `contactPage.where` | Кампот, Камбоджа. На месте в Кампоте и окрестностях, в других районах Камбоджи — в зависимости от проекта, удалённо — везде. | Kampot, Cambodge. Sur place à Kampot et dans ses environs, ailleurs au Cambodge selon le projet, à distance partout ailleurs. |
+| ⏳ à relire | `contactPage.where` | Кампот, Камбоджа. На месте — в регионе и по всей Камбодже, в зависимости от проекта — в любой точке мира, а для клиентов за рубежом — удалённо. | Kampot, Cambodge. Sur place dans la région et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
 | ⏳ à relire | `notFound.title` | Страница не найдена | Page introuvable |
 | ⏳ à relire | `notFound.text` | Такой страницы нет или больше нет. | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | На главную | Retour à l'accueil |
@@ -2418,7 +2418,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `home.work.text` | 已经完成的软件和应用，以及仍在开发中的项目。 | Des logiciels et des applications menés à terme, et des projets encore en cours de développement. |
 | ⏳ à relire | `home.work.cta` | 查看项目案例 | Voir les réalisations |
 | ⏳ à relire | `services.title` | 服务 | Services |
-| ⏳ à relire | `services.lead` | 四个互补的领域。在贡布及周边、柬埔寨其他地区上门服务，海外客户可远程服务。 | Quatre domaines complémentaires. À Kampot et dans ses environs, ailleurs au Cambodge, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `services.lead` | 四个互补的领域。在贡布及柬埔寨各地上门服务，视项目需要也可前往世界各地，海外客户可远程服务。 | Quatre domaines complémentaires. Sur place à Kampot et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
 | ⏳ à relire | `services.more` | 了解更多 | En savoir plus |
 | ⏳ à relire | `services.back` | 全部服务 | Tous les services |
 | ⏳ à relire | `services.related` | 详细服务内容 | Offre détaillée |
@@ -2551,7 +2551,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.sections.12.title` | 维护合同 | Contrat de maintenance |
 | ⏳ à relire | `services.items.2.sections.12.text` | 定期跟进、系统更新，出现故障时上门处理。方案和价格：[À COMPLÉTER PAR STEFAN] | Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN] |
 | ⏳ à relire | `services.items.2.sections.13.title` | 上门或远程 | Sur place ou à distance |
-| ⏳ à relire | `services.items.2.sections.13.text` | 在贡布及周边上门服务，柬埔寨其他地区视项目而定。条件允许时远程处理。 | Sur place à Kampot et dans ses environs, ailleurs au Cambodge selon le projet. À distance quand c'est possible. |
+| ⏳ à relire | `services.items.2.sections.13.text` | 在贡布及柬埔寨各地上门服务。视项目需要，也可以前往海外，世界各地均可。条件允许时远程处理。 | Sur place à Kampot et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. À distance quand c'est possible. |
 | ⏳ à relire | `services.items.2.sections.14.title` | 需要了解的事 | Ce qu'il faut savoir |
 | ⏳ à relire | `services.items.2.sections.14.list.0` | 这里介绍的是我工作中使用的技术。并不是每位客户都需要全部：对您有用的，我们一起来选。 | Les technologies présentées ici sont celles avec lesquelles je travaille. Elles ne sont pas toutes utiles à chaque client : on choisit ensemble ce qui vous sert. |
 | ⏳ à relire | `services.items.2.sections.14.list.1` | 针对您的项目，我会清楚地告诉您哪些我已经在别处实施过，哪些是新的。 | Pour votre projet, je vous dis clairement ce que j'ai déjà mis en place ailleurs, et ce qui serait nouveau. |
@@ -3364,7 +3364,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `about.sections.3.list.2` | 基础设施与系统：Windows 和 Linux 服务器、虚拟化、监控、备份。 | Infrastructure et systèmes : serveurs Windows et Linux, virtualisation, supervision, sauvegardes. |
 | ⏳ à relire | `about.sections.3.list.3` | 网络安全与 IT 资产管理：资产清单、漏洞跟踪、更新、访问控制。 | Cybersécurité et gestion du parc : inventaire, veille sur les failles, mises à jour, accès. |
 | ⏳ à relire | `about.sections.4.title` | 服务地区 | Où j'interviens |
-| ⏳ à relire | `about.sections.4.text` | 在贡布及周边上门服务，柬埔寨其他地区视项目而定，海外客户可远程服务。 | À Kampot et dans ses environs, ailleurs au Cambodge selon le projet, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `about.sections.4.text` | 我常驻贡布，可在当地及柬埔寨各地上门服务。视项目需要，也可以前往海外，世界各地均可。对于海外客户，工作也可以远程完成。 | Basé à Kampot, j'interviens sur place dans la région et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. Pour les clients à l'étranger, le travail peut également se faire à distance. |
 | ⏳ à relire | `about.sections.5.title` | 我感兴趣的 | Ce qui m'intéresse |
 | ⏳ à relire | `about.sections.5.text` | Linux 和自由软件、虚拟化和服务器管理、Android、人工智能工具、电子游戏、创意编程。 | Linux et le logiciel libre, la virtualisation et l'administration de serveurs, Android, les outils d'intelligence artificielle, le jeu vidéo, la programmation créative. |
 | ⏳ à relire | `about.sections.6.title` | 经历 | Parcours |
@@ -3401,7 +3401,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `contactPage.tips.2` | 您的期限，如果有的话。 | votre délai, si vous en avez un. |
 | ⏳ à relire | `contactPage.emailTitle` | 电子邮件 | E-mail |
 | ⏳ à relire | `contactPage.whereTitle` | 地点 | Où |
-| ⏳ à relire | `contactPage.where` | 柬埔寨贡布。在贡布及周边上门服务，柬埔寨其他地区视项目而定，其他地方远程服务。 | Kampot, Cambodge. Sur place à Kampot et dans ses environs, ailleurs au Cambodge selon le projet, à distance partout ailleurs. |
+| ⏳ à relire | `contactPage.where` | 柬埔寨贡布。在当地及柬埔寨各地上门服务，视项目需要也可前往世界各地，海外客户可远程服务。 | Kampot, Cambodge. Sur place dans la région et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
 | ⏳ à relire | `notFound.title` | 页面不存在 | Page introuvable |
 | ⏳ à relire | `notFound.text` | 此页面不存在，或已不再提供。 | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | 返回首页 | Retour à l'accueil |

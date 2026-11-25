@@ -243,7 +243,7 @@
   },
   "services": {
     "title": "Services",
-    "lead": "Quatre domaines complémentaires. À Kampot et dans ses environs, ailleurs au Cambodge, et à distance pour les clients à l'étranger.",
+    "lead": "Quatre domaines complémentaires. Sur place à Kampot et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger.",
     "more": "En savoir plus",
     "back": "Tous les services",
     "related": "Offre détaillée",
@@ -478,7 +478,7 @@
           },
           {
             "title": "Sur place ou à distance",
-            "text": "Sur place à Kampot et dans ses environs, ailleurs au Cambodge selon le projet. À distance quand c'est possible."
+            "text": "Sur place à Kampot et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. À distance quand c'est possible."
           },
           {
             "title": "Ce qu'il faut savoir",
@@ -1922,7 +1922,7 @@
       },
       {
         "title": "Où j'interviens",
-        "text": "À Kampot et dans ses environs, ailleurs au Cambodge selon le projet, et à distance pour les clients à l'étranger."
+        "text": "Basé à Kampot, j'interviens sur place dans la région et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. Pour les clients à l'étranger, le travail peut également se faire à distance."
       },
       {
         "title": "Ce qui m'intéresse",
@@ -1993,7 +1993,7 @@
     ],
     "emailTitle": "E-mail",
     "whereTitle": "Où",
-    "where": "Kampot, Cambodge. Sur place à Kampot et dans ses environs, ailleurs au Cambodge selon le projet, à distance partout ailleurs."
+    "where": "Kampot, Cambodge. Sur place dans la région et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger."
   },
   "notFound": {
     "title": "Page introuvable",
