@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1163 textes relus.
+0 / 1167 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -225,6 +225,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.points.2` | ការតាមដានប្រព័ន្ធជាមួយ Zabbix | Supervision avec Zabbix |
 | ⏳ à relire | `services.items.2.points.3` | ការបម្រុងទុក និងការស្ដារទិន្នន័យឡើងវិញ | Sauvegardes et restauration |
 | ⏳ à relire | `services.items.2.lead` | ខ្ញុំរចនា ដំឡើង និងគ្រប់គ្រងបរិស្ថានដែលធ្វើឱ្យកម្មវិធីរបស់លោកអ្នកដំណើរការ៖ ចាប់ពីឧបករណ៍រឹង (hardware) រហូតដល់ការតាមដានប្រព័ន្ធ រួមទាំងនិម្មិតកម្ម និងការបម្រុងទុកទិន្នន័យ។ | Je conçois, j'installe et j'administre l'environnement qui fait tourner vos applications : du matériel à la supervision, en passant par la virtualisation et les sauvegardes. |
+| ⏳ à relire | `services.items.2.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.2.badges.1` | Linux | Linux |
+| ⏳ à relire | `services.items.2.badges.2` | XCP-ng | XCP-ng |
+| ⏳ à relire | `services.items.2.badges.3` | Zabbix | Zabbix |
 | ⏳ à relire | `services.items.2.metaTitle` | ម៉ាស៊ីនមេ និងនិម្មិតកម្ម XCP-ng នៅកម្ពុជា — Chantrea Systems | Serveurs et virtualisation XCP-ng au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.2.metaDescription` | ការគ្រប់គ្រងម៉ាស៊ីនមេ Windows និង Linux និម្មិតកម្មជាមួយ Xen, XCP-ng និង Xen Orchestra ការតាមដានប្រព័ន្ធជាមួយ Zabbix ការបម្រុងទុកទិន្នន័យ បណ្ដាញ។ នៅកំពត កម្ពុជា និងពីចម្ងាយ។ | Serveurs Windows et Linux, virtualisation avec Xen, XCP-ng et Xen Orchestra, supervision Zabbix, sauvegardes, réseau. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `services.items.2.sections.0.figure` | infra | infra |
@@ -1178,7 +1182,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1162 textes relus.
+0 / 1166 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1395,6 +1399,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.points.2` | Мониторинг с Zabbix | Supervision avec Zabbix |
 | ⏳ à relire | `services.items.2.points.3` | Резервное копирование и восстановление | Sauvegardes et restauration |
 | ⏳ à relire | `services.items.2.lead` | Я проектирую, устанавливаю и администрирую среду, в которой работают ваши приложения: от оборудования до мониторинга, включая виртуализацию и резервное копирование. | Je conçois, j'installe et j'administre l'environnement qui fait tourner vos applications : du matériel à la supervision, en passant par la virtualisation et les sauvegardes. |
+| ⏳ à relire | `services.items.2.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.2.badges.1` | Linux | Linux |
+| ⏳ à relire | `services.items.2.badges.2` | XCP-ng | XCP-ng |
+| ⏳ à relire | `services.items.2.badges.3` | Zabbix | Zabbix |
 | ⏳ à relire | `services.items.2.metaTitle` | Серверы и виртуализация XCP-ng в Камбодже — Chantrea Systems | Serveurs et virtualisation XCP-ng au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.2.metaDescription` | Серверы Windows и Linux, виртуализация на Xen, XCP-ng и Xen Orchestra, мониторинг Zabbix, резервные копии, сеть. Кампот, Камбоджа, и удалённо. | Serveurs Windows et Linux, virtualisation avec Xen, XCP-ng et Xen Orchestra, supervision Zabbix, sauvegardes, réseau. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `services.items.2.sections.0.figure` | infra | infra |
@@ -2347,7 +2355,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1162 textes relus.
+0 / 1166 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2564,6 +2572,10 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.points.2` | 用 Zabbix 监控 | Supervision avec Zabbix |
 | ⏳ à relire | `services.items.2.points.3` | 备份与恢复 | Sauvegardes et restauration |
 | ⏳ à relire | `services.items.2.lead` | 我负责设计、安装和管理运行您应用的环境：从硬件到监控，包括虚拟化和备份。 | Je conçois, j'installe et j'administre l'environnement qui fait tourner vos applications : du matériel à la supervision, en passant par la virtualisation et les sauvegardes. |
+| ⏳ à relire | `services.items.2.badges.0` | Windows | Windows |
+| ⏳ à relire | `services.items.2.badges.1` | Linux | Linux |
+| ⏳ à relire | `services.items.2.badges.2` | XCP-ng | XCP-ng |
+| ⏳ à relire | `services.items.2.badges.3` | Zabbix | Zabbix |
 | ⏳ à relire | `services.items.2.metaTitle` | 柬埔寨服务器与 XCP-ng 虚拟化 — Chantrea Systems | Serveurs et virtualisation XCP-ng au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.2.metaDescription` | Windows 和 Linux 服务器管理，用 Xen、XCP-ng 和 Xen Orchestra 做虚拟化，Zabbix 监控，备份，网络。柬埔寨贡布，也可远程服务。 | Serveurs Windows et Linux, virtualisation avec Xen, XCP-ng et Xen Orchestra, supervision Zabbix, sauvegardes, réseau. Kampot, Cambodge, et à distance. |
 | ⏳ à relire | `services.items.2.sections.0.figure` | infra | infra |

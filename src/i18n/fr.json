@@ -383,6 +383,12 @@
           "Sauvegardes et restauration"
         ],
         "lead": "Je conçois, j'installe et j'administre l'environnement qui fait tourner vos applications : du matériel à la supervision, en passant par la virtualisation et les sauvegardes.",
+        "badges": [
+          "Windows",
+          "Linux",
+          "XCP-ng",
+          "Zabbix"
+        ],
         "metaTitle": "Serveurs et virtualisation XCP-ng au Cambodge — Chantrea Systems",
         "metaDescription": "Serveurs Windows et Linux, virtualisation avec Xen, XCP-ng et Xen Orchestra, supervision Zabbix, sauvegardes, réseau. Kampot, Cambodge, et à distance.",
         "sections": [
@@ -390,6 +396,7 @@
             "figure": "infra"
           },
           {
+            "icon": "server",
             "title": "Serveurs et systèmes",
             "list": [
               "Serveurs Windows et Linux : installation, configuration et administration.",
@@ -400,14 +407,17 @@
             ]
           },
           {
+            "icon": "cpu",
             "title": "Le matériel",
             "text": "Serveurs, switchs, pare-feu, Wi-Fi, onduleurs et stockage pour les sauvegardes. Du matériel neuf, acheté auprès des distributeurs officiels au Cambodge, avec la garantie du fabricant. Je choisis ce qui correspond à votre taille, pas le plus cher."
           },
           {
+            "icon": "cable",
             "title": "Le câblage",
             "text": "Le câblage est réalisé par des installateurs que je choisis et que je supervise. Chaque prise est testée et étiquetée. Vous recevez le plan de votre réseau."
           },
           {
+            "icon": "layers",
             "title": "La virtualisation : Xen, XCP-ng et Xen Orchestra",
             "text": "Plusieurs serveurs virtuels sur une seule machine physique. Trois outils travaillent ensemble, chacun avec son rôle :",
             "defs": [
@@ -434,13 +444,16 @@
               "Des sauvegardes de machines virtuelles entières, et une remise en route plus rapide après une panne.",
               "Une administration centralisée, depuis un navigateur.",
               "Une installation qui grandit avec vous : on ajoute une machine virtuelle, ou un second serveur."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "swap",
             "title": "XenServer et VMware",
             "text": "J'entretiens aussi les serveurs XenServer existants, et je migre vos machines depuis VMware."
           },
           {
+            "icon": "pulse",
             "title": "La supervision avec Zabbix",
             "text": "Zabbix surveille en continu vos serveurs, vos machines virtuelles et votre réseau, et prévient quand quelque chose ne va pas.",
             "list": [
@@ -452,35 +465,43 @@
             ]
           },
           {
+            "icon": "cloud",
             "title": "Applications d'entreprise et cloud privé",
             "text": "Sur cette infrastructure, j'installe les applications de l'entreprise : Nextcloud pour vos fichiers et le travail en équipe, Mattermost pour la messagerie de l'équipe, Odoo pour la gestion (clients, ventes, facturation, selon les modules choisis). Odoo, Nextcloud et Mattermost sont développés par leurs éditeurs : je les installe, je les configure et je les adapte à votre entreprise."
           },
           {
+            "callout": true,
             "title": "Une infrastructure cohérente",
             "text": "Ces outils se complètent. Par exemple : un serveur XCP-ng administré avec Xen Orchestra, des machines virtuelles Linux et Windows, Zabbix pour la supervision, GLPI pour l'inventaire, Nextcloud et Odoo pour le travail de tous les jours. On choisit ensemble ce qui vous est utile : une petite entreprise n'a pas besoin de tout."
           },
           {
+            "icon": "home",
             "title": "Chez vous, chez nous ou dans le cloud",
             "text": "Vos serveurs virtuels peuvent tourner dans vos locaux, sur des serveurs loués par Chantrea Systems, ou chez un grand hébergeur."
           },
           {
+            "icon": "calendar",
             "title": "Comment ça se passe",
             "list": [
               "Visite des lieux.",
               "Devis détaillé : matériel, câblage et main-d'œuvre séparés.",
               "Commande du matériel, puis installation.",
               "Remise des documents : plan du réseau, liste du matériel, garanties."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "shield",
             "title": "Contrat de maintenance",
             "text": "Un suivi régulier, les mises à jour, et une intervention en cas de panne. Formules et tarifs : [À COMPLÉTER PAR STEFAN]"
           },
           {
+            "icon": "globe",
             "title": "Sur place ou à distance",
             "text": "Sur place à Kampot et partout au Cambodge. Selon le projet, je peux aussi me déplacer à l'étranger, dans le monde entier. À distance quand c'est possible."
           },
           {
+            "icon": "info",
             "title": "Ce qu'il faut savoir",
             "list": [
               "Les technologies présentées ici sont celles avec lesquelles je travaille. Elles ne sont pas toutes utiles à chaque client : on choisit ensemble ce qui vous sert.",

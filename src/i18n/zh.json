@@ -383,6 +383,12 @@
           "备份与恢复"
         ],
         "lead": "我负责设计、安装和管理运行您应用的环境：从硬件到监控，包括虚拟化和备份。",
+        "badges": [
+          "Windows",
+          "Linux",
+          "XCP-ng",
+          "Zabbix"
+        ],
         "metaTitle": "柬埔寨服务器与 XCP-ng 虚拟化 — Chantrea Systems",
         "metaDescription": "Windows 和 Linux 服务器管理，用 Xen、XCP-ng 和 Xen Orchestra 做虚拟化，Zabbix 监控，备份，网络。柬埔寨贡布，也可远程服务。",
         "sections": [
@@ -390,6 +396,7 @@
             "figure": "infra"
           },
           {
+            "icon": "server",
             "title": "服务器与系统",
             "list": [
               "Windows 和 Linux 服务器：安装、配置和管理。",
@@ -400,14 +407,17 @@
             ]
           },
           {
+            "icon": "cpu",
             "title": "设备",
             "text": "服务器、交换机、防火墙、Wi-Fi、UPS 不间断电源和备份存储。全新设备，从柬埔寨的官方经销商处购买，享受厂家保修。我按您的规模来选，不选最贵的。"
           },
           {
+            "icon": "cable",
             "title": "布线",
             "text": "布线由我挑选并监督的安装人员完成。每个网口都经过测试并贴上标签。您会拿到自己网络的布线图。"
           },
           {
+            "icon": "layers",
             "title": "虚拟化：Xen、XCP-ng 和 Xen Orchestra",
             "text": "在一台物理机上运行多台虚拟服务器。三个工具协同工作，各司其职：",
             "defs": [
@@ -434,13 +444,16 @@
               "备份整台虚拟机，出故障后恢复运行更快。",
               "在浏览器里集中管理。",
               "系统随您一起扩展：增加一台虚拟机，或第二台服务器。"
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "swap",
             "title": "XenServer 和 VMware",
             "text": "我也维护现有的 XenServer 服务器，并把您的虚拟机从 VMware 迁移过来。"
           },
           {
+            "icon": "pulse",
             "title": "用 Zabbix 做监控",
             "text": "Zabbix 持续监控您的服务器、虚拟机和网络，出现问题时及时告警。",
             "list": [
@@ -452,35 +465,43 @@
             ]
           },
           {
+            "icon": "cloud",
             "title": "企业应用和私有云",
             "text": "在这套基础设施上，我安装企业应用：Nextcloud 用于文件和团队协作，Mattermost 用于团队即时通讯，Odoo 用于企业管理（客户、销售、开票，取决于所选模块）。Odoo、Nextcloud 和 Mattermost 由各自的开发商开发：我负责安装、配置，并根据您的企业进行调整。"
           },
           {
+            "callout": true,
             "title": "协调一致的基础设施",
             "text": "这些工具相辅相成。例如：一台用 Xen Orchestra 管理的 XCP-ng 服务器，若干 Linux 和 Windows 虚拟机，用 Zabbix 做监控，用 GLPI 做资产清单，日常工作用 Nextcloud 和 Odoo。对您有用的，我们一起来选：小企业不需要全部都上。"
           },
           {
+            "icon": "home",
             "title": "在您那里、我们这里，或云端",
             "text": "您的虚拟服务器可以运行在您的场所内、Chantrea Systems 租用的服务器上，或大型托管服务商那里。"
           },
           {
+            "icon": "calendar",
             "title": "合作流程",
             "list": [
               "实地查看。",
               "详细报价：设备、布线和人工分开列出。",
               "订购设备，然后安装。",
               "交付文件：网络图、设备清单、保修凭证。"
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "shield",
             "title": "维护合同",
             "text": "定期跟进、系统更新，出现故障时上门处理。方案和价格：[À COMPLÉTER PAR STEFAN]"
           },
           {
+            "icon": "globe",
             "title": "上门或远程",
             "text": "在贡布及柬埔寨各地上门服务。视项目需要，也可以前往海外，世界各地均可。条件允许时远程处理。"
           },
           {
+            "icon": "info",
             "title": "需要了解的事",
             "list": [
               "这里介绍的是我工作中使用的技术。并不是每位客户都需要全部：对您有用的，我们一起来选。",

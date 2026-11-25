@@ -9,6 +9,7 @@
 //     callout : true             → bloc mis en avant (encadré de couleur)
 //     icon : nom de HmsIcon      → le bloc s'affiche en carte, avec ce pictogramme devant le titre
 //     pending : true             → bloc « en cours de développement » (bordure en tirets, sablier)
+//     steps : true               → la liste s'affiche en étapes numérotées
 //   { figure: 'infra' | 'inventory' | 'invoice' } → schéma d'infrastructure, étapes inventaire et veille,
 //                                    ou illustration d'une facture bilingue khmer / anglais
 import Txt from './Txt.astro';
@@ -22,7 +23,7 @@ interface Section {
   defs?: { term: string; text: string }[];
   link?: { page: string; label: string };
   figure?: 'infra' | 'inventory' | 'invoice';
-  flow?: string[]; tiles?: boolean; callout?: boolean; icon?: string; pending?: boolean;
+  flow?: string[]; tiles?: boolean; callout?: boolean; icon?: string; pending?: boolean; steps?: boolean;
   cards?: { icon?: string; title: string; text?: string; list?: string[] }[];
 }
 interface Props { sections: Section[]; lang: string }
@@ -53,7 +54,8 @@ const tr = t(lang);
             {s.defs.map((d) => <div><dt>{d.term}</dt><dd>{d.text}</dd></div>)}
           </dl>
         )}
-        {s.list && <ul class={s.tiles ? 'checklist tiles' : 'checklist'}>{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
+        {s.list && s.steps && <ol class="hms-steps">{s.list.map((li) => <li><Txt text={li} /></li>)}</ol>}
+        {s.list && !s.steps && <ul class={s.tiles ? 'checklist tiles' : 'checklist'}>{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
         {s.cards && (
           <ul class="section-cards">
             {s.cards.map((c) => (

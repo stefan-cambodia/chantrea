@@ -608,7 +608,8 @@ h2.group-title { margin-top: 0; }
   border: 1px solid var(--night-line); background: var(--night-surface); color: var(--night-text);
   font-weight: 700; font-size: .95rem;
 }
-.hero-badges span:first-child { background: var(--moon); color: var(--moon-ink); border-color: var(--moon); font-family: "Kantumruy Pro", var(--font-km); font-weight: 500; }
+.hero-badges span:first-child { background: var(--moon); color: var(--moon-ink); border-color: var(--moon); }
+.hero-badges span[lang="km"] { font-family: "Kantumruy Pro", var(--font-km); font-weight: 500; }
 
 /* Bloc en carte (icon), bloc « en cours » (pending) */
 .prose-section--card, .prose-section--pending { padding: 1.4rem 1.5rem; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
@@ -616,6 +617,7 @@ h2.group-title { margin-top: 0; }
 .prose-section__head { display: flex; align-items: center; gap: .8rem; margin-bottom: .7rem; }
 .prose-section__head h2 { margin: 0; }
 .prose-section--card + .prose-section--card, .prose-section--card + .invoice-mock, .invoice-mock + .prose-section--card { margin-top: 1rem; }
+.prose-section .hms-steps { margin-top: .4rem; }
 .prose-section--card p:last-child, .prose-section--pending p:last-child { margin-bottom: 0; }
 
 /* Illustration : facture bilingue */

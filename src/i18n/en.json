@@ -383,6 +383,12 @@
           "Backup and restore"
         ],
         "lead": "I design, install and manage the environment that runs your applications: from the hardware to monitoring, including virtualization and backups.",
+        "badges": [
+          "Windows",
+          "Linux",
+          "XCP-ng",
+          "Zabbix"
+        ],
         "metaTitle": "Servers and XCP-ng virtualization in Cambodia — Chantrea Systems",
         "metaDescription": "Windows and Linux servers, virtualization with Xen, XCP-ng and Xen Orchestra, Zabbix monitoring, backups, networking. Kampot, Cambodia, and remote.",
         "sections": [
@@ -390,6 +396,7 @@
             "figure": "infra"
           },
           {
+            "icon": "server",
             "title": "Servers and systems",
             "list": [
               "Windows and Linux servers: installation, configuration and administration.",
@@ -400,14 +407,17 @@
             ]
           },
           {
+            "icon": "cpu",
             "title": "The hardware",
             "text": "Servers, switches, firewalls, Wi-Fi, UPS units and backup storage. New hardware, bought from the official distributors in Cambodia, with the manufacturer's warranty. I choose what fits your size, not the most expensive."
           },
           {
+            "icon": "cable",
             "title": "The cabling",
             "text": "The cabling is done by installers I choose and supervise. Every socket is tested and labelled. You receive the plan of your network."
           },
           {
+            "icon": "layers",
             "title": "Virtualization: Xen, XCP-ng and Xen Orchestra",
             "text": "Several virtual servers on a single physical machine. Three tools work together, each with its own role:",
             "defs": [
@@ -434,13 +444,16 @@
               "Backups of entire virtual machines, and faster recovery after a failure.",
               "Centralized administration, from a web browser.",
               "A setup that grows with you: add a virtual machine, or a second server."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "swap",
             "title": "XenServer and VMware",
             "text": "I also maintain existing XenServer servers, and I migrate your machines from VMware."
           },
           {
+            "icon": "pulse",
             "title": "Monitoring with Zabbix",
             "text": "Zabbix continuously monitors your servers, your virtual machines and your network, and warns you when something goes wrong.",
             "list": [
@@ -452,35 +465,43 @@
             ]
           },
           {
+            "icon": "cloud",
             "title": "Business applications and private cloud",
             "text": "On this infrastructure, I install your business applications: Nextcloud for your files and teamwork, Mattermost for team messaging, Odoo for management (customers, sales, invoicing, depending on the modules chosen). Odoo, Nextcloud and Mattermost are developed by their publishers: I install them, configure them and adapt them to your business."
           },
           {
+            "callout": true,
             "title": "A consistent infrastructure",
             "text": "These tools complement each other. For example: an XCP-ng server managed with Xen Orchestra, Linux and Windows virtual machines, Zabbix for monitoring, GLPI for the inventory, Nextcloud and Odoo for everyday work. We choose together what is useful to you: a small business does not need everything."
           },
           {
+            "icon": "home",
             "title": "On your premises, with us or in the cloud",
             "text": "Your virtual servers can run on your premises, on servers rented by Chantrea Systems, or with a large hosting provider."
           },
           {
+            "icon": "calendar",
             "title": "How it works",
             "list": [
               "A visit of your premises.",
               "A detailed quote: hardware, cabling and labour listed separately.",
               "Ordering the hardware, then installation.",
               "Handover of the documents: network plan, list of hardware, warranties."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "shield",
             "title": "Maintenance contract",
             "text": "Regular follow-up, updates, and a call-out when something breaks down. Plans and prices: [À COMPLÉTER PAR STEFAN]"
           },
           {
+            "icon": "globe",
             "title": "On site or remote",
             "text": "On site in Kampot and anywhere in Cambodia. Depending on the project, I can also travel abroad, anywhere in the world. Remotely when possible."
           },
           {
+            "icon": "info",
             "title": "Good to know",
             "list": [
               "The technologies shown here are the ones I work with. Not all of them are useful to every client: we choose together what serves you.",
