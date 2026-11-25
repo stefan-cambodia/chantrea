@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1179 textes relus.
+0 / 1212 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -187,6 +187,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.points.2` | ការបកប្រែច្រើនភាសា | Traduction multilingue |
 | ⏳ à relire | `services.items.1.points.3` | ជំនួយការ AI ឯកទេស | Assistants spécialisés |
 | ⏳ à relire | `services.items.1.lead` | AI អាចជួយសន្សំពេលវេលាលើការងារដែលធ្វើដដែលៗ។ ខ្ញុំបន្ថែមវាទៅក្នុងឧបករណ៍ដែលលោកអ្នកមានស្រាប់ ដោយមិនចាំបាច់ផ្លាស់ប្ដូរអ្វីៗទាំងអស់។ | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
+| ⏳ à relire | `services.items.1.badges.0` | Ollama | Ollama |
+| ⏳ à relire | `services.items.1.badges.1` | Qwen | Qwen |
+| ⏳ à relire | `services.items.1.badges.2` | Gemma | Gemma |
+| ⏳ à relire | `services.items.1.badges.3` | Llama | Llama |
+| ⏳ à relire | `services.items.1.badges.4` | Mistral | Mistral |
 | ⏳ à relire | `services.items.1.metaTitle` | AI ឯកជន និងស្វ័យប្រវត្តិកម្មនៅកម្ពុជា — Chantrea Systems | IA privée et automatisation au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.1.metaDescription` | ការបញ្ចូលម៉ូដែល AI ទៅក្នុងកម្មវិធី AI ដែលដំឡើងលើម៉ាស៊ីនមេរបស់លោកអ្នកជាមួយ Ollama ការដំណើរការឯកសារ ការបកប្រែ និងស្វ័យប្រវត្តិកម្មការងារដែលធ្វើដដែលៗ។ AI ផ្ដល់យោបល់ មនុស្សជាអ្នកសម្រេចចិត្ត។ | Intégration de modèles d'IA, IA installée sur votre serveur avec Ollama, traitement de documents, traduction, automatisation. L'IA propose, une personne décide. |
 | ⏳ à relire | `services.items.1.sections.0.title` | ឧទាហរណ៍មួយចំនួនដែលអាចធ្វើបាន | Quelques exemples possibles |
@@ -196,27 +201,53 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.0.list.3` | ទាញយកព័ត៌មានពីវិក្កយបត្រ ឬទម្រង់បែបបទ។ | Relever des informations dans des factures ou des formulaires. |
 | ⏳ à relire | `services.items.1.sections.0.list.4` | តម្រៀបឯកសារ និងសំណើ ហើយបញ្ជូនវាទៅមនុស្សដែលត្រូវទទួលខុសត្រូវ។ | Classer des documents et des demandes, et les transmettre à la bonne personne. |
 | ⏳ à relire | `services.items.1.sections.0.list.5` | ជំនួយការឯកទេស ដែលឆ្លើយតបដោយផ្អែកលើឯកសាររបស់លោកអ្នកផ្ទាល់៖ នីតិវិធី កាតាឡុក បទបញ្ជាផ្ទៃក្នុង។ | Un assistant spécialisé, qui répond à partir de vos propres documents : procédures, catalogue, règlement intérieur. |
-| ⏳ à relire | `services.items.1.sections.1.title` | AI នៅក្នុងកម្មវិធីរបស់លោកអ្នក | L'IA dans vos logiciels |
-| ⏳ à relire | `services.items.1.sections.1.text` | AI អាចបន្ថែមទៅក្នុងកម្មវិធីដែលលោកអ្នកកំពុងប្រើស្រាប់ ឬទៅក្នុងកម្មវិធីដែលខ្ញុំអភិវឌ្ឍសម្រាប់លោកអ្នក៖ សេចក្ដីសង្ខេបព័ត៌មានអតិថិជន សំណើដែលតម្រៀបដោយស្វ័យប្រវត្តិ អត្ថបទដែលបកប្រែដោយចុចតែម្ដង។ វាដំណើរការតាមរយៈ API ទៅកាន់ម៉ូដែលដែលដំឡើងនៅកន្លែងលោកអ្នក ឬទៅកាន់សេវាអនឡាញ តាមអ្វីដែលសមស្របបំផុត។ | L'IA peut s'ajouter à un logiciel que vous utilisez déjà, ou à une application que je développe pour vous : une fiche client résumée, une demande classée automatiquement, un texte traduit d'un clic. Elle passe par une API, vers un modèle installé chez vous ou vers un service en ligne, selon ce qui convient le mieux. |
-| ⏳ à relire | `services.items.1.sections.2.title` | AI ដែលនៅក្នុងទីតាំងរបស់លោកអ្នក | Une IA qui reste chez vous |
-| ⏳ à relire | `services.items.1.sections.2.text` | ជាមួយ Ollama ម៉ូដែល AI បើកចំហ ដំណើរការលើម៉ាស៊ីនមេ (server) ដែលដំឡើងនៅក្នុងទីតាំងរបស់លោកអ្នក ឬលើហេដ្ឋារចនាសម្ព័ន្ធផ្ទាល់ខ្លួនរបស់លោកអ្នក។ ឯកសាររបស់លោកអ្នកមិនត្រូវបានបញ្ជូនទៅសេវា AI អនឡាញទេ។ | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux, ou sur votre propre infrastructure. Vos documents ne sont pas envoyés à un service d'IA en ligne. |
-| ⏳ à relire | `services.items.1.sections.3.title` | ហេតុអ្វីជ្រើសរើស AI ដែលដំឡើងនៅកន្លែងលោកអ្នក | Pourquoi une IA locale |
-| ⏳ à relire | `services.items.1.sections.3.list.0` | លោកអ្នកគ្រប់គ្រងទិន្នន័យរបស់លោកអ្នក៖ វានៅតែលើម៉ាស៊ីនមេរបស់លោកអ្នក។ | Vous gardez le contrôle de vos données : elles restent sur votre serveur. |
-| ⏳ à relire | `services.items.1.sections.3.list.1` | ពឹងផ្អែកតិចជាងមុនលើសេវាខាងក្រៅ លើតម្លៃ និងលក្ខខណ្ឌរបស់វា។ | Moins de dépendance à un service extérieur, à ses prix et à ses conditions. |
-| ⏳ à relire | `services.items.1.sections.3.list.2` | វាអាចដំណើរការក្នុងបណ្ដាញឯកជន ដោយមិនភ្ជាប់អ៊ីនធឺណិត។ | Elle peut fonctionner dans un réseau privé, sans accès à internet. |
-| ⏳ à relire | `services.items.1.sections.3.list.3` | ម៉ូដែល និងការកំណត់របស់វា ត្រូវបានជ្រើសរើសសម្រាប់ការងាររបស់លោកអ្នក។ | Le modèle et ses réglages sont choisis pour votre tâche. |
-| ⏳ à relire | `services.items.1.sections.4.title` | ឧបករណ៍ | Le matériel |
-| ⏳ à relire | `services.items.1.sections.4.text` | ម៉ាស៊ីនមេ (server) ឬកុំព្យូទ័រដែលមានកាតក្រាហ្វិក ជ្រើសរើសតាមការងារ និងចំនួនអ្នកប្រើប្រាស់។ ខ្ញុំប្រាប់លោកអ្នកពីអ្វីដែលលោកអ្នកពិតជាត្រូវការ។ | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
-| ⏳ à relire | `services.items.1.sections.5.title` | វិធីធ្វើការរបស់ខ្ញុំ | Ma façon de faire |
-| ⏳ à relire | `services.items.1.sections.5.list.0` | យើងចាប់ផ្ដើមពីតូច លើការងារតែមួយ។ | On commence petit, sur une seule tâche. |
-| ⏳ à relire | `services.items.1.sections.5.list.1` | លោកអ្នកនៅតែជាអ្នកគ្រប់គ្រង៖ AI ផ្ដល់យោបល់ មនុស្សជាអ្នកសម្រេចចិត្ត។ | Vous gardez la main : l'IA propose, une personne décide. |
-| ⏳ à relire | `services.items.1.sections.5.list.2` | ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ពីអ្វីដែល AI ធ្វើមិនបានល្អ និងតម្លៃរបស់វា។ | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
-| ⏳ à relire | `services.items.1.sections.6.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.1.sections.6.list.0` | គុណភាពខុសគ្នាតាមភាសា ជាពិសេសភាសាខ្មែរ៖ យើងសាកល្បងលើឯកសាររបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
-| ⏳ à relire | `services.items.1.sections.6.list.1` | AI ដែលដំឡើងនៅទីតាំងរបស់លោកអ្នក មានសមត្ថភាពតិចជាងសេវាអនឡាញធំៗបំផុត។ | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
-| ⏳ à relire | `services.items.1.sections.6.list.2` | ម៉ាស៊ីនមេត្រូវការបន្ទប់ដែលមានម៉ាស៊ីនត្រជាក់ និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS)។ | Le serveur demande une pièce climatisée et un onduleur. |
-| ⏳ à relire | `services.items.1.sections.6.list.3` | ការរក្សា AI នៅកន្លែងលោកអ្នក កាត់បន្ថយការបញ្ជូនទិន្នន័យរបស់លោកអ្នកទៅកន្លែងផ្សេង ប៉ុន្តែសុវត្ថិភាពក៏អាស្រ័យលើម៉ាស៊ីនមេផងដែរ៖ ការធ្វើបច្ចុប្បន្នភាព សិទ្ធិចូលប្រើ និងការបម្រុងទុកទិន្នន័យ។ | Garder l'IA chez vous limite la circulation de vos données, mais la sécurité dépend aussi du serveur : mises à jour, accès, sauvegardes. |
-| ⏳ à relire | `services.items.1.trademarks` | Ollama គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់របស់វា។ ការលើកឡើងឈ្មោះនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Ollama est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
+| ⏳ à relire | `services.items.1.sections.1.title` | ឧទាហរណ៍មួយនៃស្វ័យប្រវត្តិកម្ម | Un exemple d'automatisation |
+| ⏳ à relire | `services.items.1.sections.1.text` | សំណើមួយមកដល់តាមអ៊ីមែល។ AI អានវា ចាត់ថ្នាក់វា និងរៀបចំចម្លើយ។ មនុស្សម្នាក់ពិនិត្យមុនពេលផ្ញើ។ | Une demande arrive par e-mail. L'IA la lit, la classe et prépare une réponse ; une personne vérifie avant l'envoi. |
+| ⏳ à relire | `services.items.1.sections.1.flow.0` | ទទួលបានអ៊ីមែល | E-mail reçu |
+| ⏳ à relire | `services.items.1.sections.1.flow.1` | AI អាន និងចាត់ថ្នាក់ | Lu et classé par l'IA |
+| ⏳ à relire | `services.items.1.sections.1.flow.2` | បង្កើតសំណើជំនួយ (ticket) | Ticket créé |
+| ⏳ à relire | `services.items.1.sections.1.flow.3` | រៀបចំចម្លើយ | Réponse préparée |
+| ⏳ à relire | `services.items.1.sections.1.flow.4` | មនុស្សម្នាក់អនុម័ត | Validée par une personne |
+| ⏳ à relire | `services.items.1.sections.2.title` | AI នៅក្នុងកម្មវិធីរបស់លោកអ្នក | L'IA dans vos logiciels |
+| ⏳ à relire | `services.items.1.sections.2.text` | AI អាចបន្ថែមទៅក្នុងកម្មវិធីដែលលោកអ្នកកំពុងប្រើស្រាប់ ឬទៅក្នុងកម្មវិធីដែលខ្ញុំអភិវឌ្ឍសម្រាប់លោកអ្នក៖ សេចក្ដីសង្ខេបព័ត៌មានអតិថិជន សំណើដែលតម្រៀបដោយស្វ័យប្រវត្តិ អត្ថបទដែលបកប្រែដោយចុចតែម្ដង។ វាដំណើរការតាមរយៈ API ទៅកាន់ម៉ូដែលដែលដំឡើងនៅកន្លែងលោកអ្នក ឬទៅកាន់សេវាអនឡាញ តាមអ្វីដែលសមស្របបំផុត។ | L'IA peut s'ajouter à un logiciel que vous utilisez déjà, ou à une application que je développe pour vous : une fiche client résumée, une demande classée automatiquement, un texte traduit d'un clic. Elle passe par une API, vers un modèle installé chez vous ou vers un service en ligne, selon ce qui convient le mieux. |
+| ⏳ à relire | `services.items.1.sections.3.title` | AI ដែលនៅក្នុងទីតាំងរបស់លោកអ្នក | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.1.sections.3.text` | ជាមួយ Ollama ម៉ូដែល AI បើកចំហ ដំណើរការលើម៉ាស៊ីនមេ (server) ដែលដំឡើងនៅក្នុងទីតាំងរបស់លោកអ្នក ឬលើហេដ្ឋារចនាសម្ព័ន្ធផ្ទាល់ខ្លួនរបស់លោកអ្នក។ ឯកសាររបស់លោកអ្នកមិនត្រូវបានបញ្ជូនទៅសេវា AI អនឡាញទេ។ | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux, ou sur votre propre infrastructure. Vos documents ne sont pas envoyés à un service d'IA en ligne. |
+| ⏳ à relire | `services.items.1.sections.4.title` | ម៉ូដែល AI បើកចំហ | Les modèles d'IA ouverts |
+| ⏳ à relire | `services.items.1.sections.4.text` | Ollama ដំណើរការម៉ូដែលដែលហៅថា «បើកចំហ»៖ ទម្ងន់ (weights) របស់វាត្រូវបានផ្សព្វផ្សាយ ហើយអាចដំឡើងលើម៉ាស៊ីនមេផ្ទាល់ខ្លួនបាន។ ខ្ញុំជ្រើសរើសម៉ូដែលតាមការងារ ភាសា និងឧបករណ៍ បន្ទាប់ពីសាកល្បងជាមួយឯកសាររបស់លោកអ្នក។ ក្រុមម៉ូដែលមួយចំនួន៖ | Ollama fait tourner des modèles dits « ouverts » : leurs poids sont publiés, et on peut les installer sur son propre serveur. Je choisis le modèle selon la tâche, la langue et le matériel, après des essais sur vos documents. Quelques familles de modèles : |
+| ⏳ à relire | `services.items.1.sections.4.defs.0.term` | Qwen (Alibaba) | Qwen (Alibaba) |
+| ⏳ à relire | `services.items.1.sections.4.defs.0.text` | មានទំហំច្រើនប្រភេទ ពូកែក្នុងភាសាជាច្រើន រួមទាំងភាសានៅអាស៊ី។ កំណែខ្លះអាចអានរូបភាពបានផងដែរ។ | Plusieurs tailles, d'un bon niveau dans de nombreuses langues, dont des langues d'Asie. Certaines versions lisent aussi les images. |
+| ⏳ à relire | `services.items.1.sections.4.defs.1.term` | Gemma (Google) | Gemma (Google) |
+| ⏳ à relire | `services.items.1.sections.4.defs.1.text` | ម៉ូដែលតូចៗ និងច្រើនភាសា ដែលដំណើរការលើឧបករណ៍មធ្យម។ កំណែខ្លះអាចអានរូបភាពបានផងដែរ។ | Des modèles compacts et multilingues, qui tournent sur du matériel modeste. Certaines versions lisent aussi les images. |
+| ⏳ à relire | `services.items.1.sections.4.defs.2.term` | Llama (Meta) | Llama (Meta) |
+| ⏳ à relire | `services.items.1.sections.4.defs.2.text` | ប្រើប្រាស់យ៉ាងទូលំទូលាយ ហើយមានសហគមន៍ធំ។ អាជ្ញាប័ណ្ណរបស់វាកំណត់លក្ខខណ្ឌនៃការប្រើប្រាស់។ | Très répandu, avec une large communauté. Sa licence fixe des conditions d'utilisation. |
+| ⏳ à relire | `services.items.1.sections.4.defs.3.term` | Mistral (Mistral AI) | Mistral (Mistral AI) |
+| ⏳ à relire | `services.items.1.sections.4.defs.3.text` | ក្រុមហ៊ុនបារាំង៖ ម៉ូដែលមានប្រសិទ្ធភាព ពូកែភាសាបារាំង និងអង់គ្លេស។ | Une société française ; des modèles efficaces, à l'aise en français et en anglais. |
+| ⏳ à relire | `services.items.1.sections.4.defs.4.term` | DeepSeek | DeepSeek |
+| ⏳ à relire | `services.items.1.sections.4.defs.4.text` | រួមមានម៉ូដែលដែល «គិត» មួយជំហានម្ដងៗ មុនពេលឆ្លើយ៖ មានប្រយោជន៍សម្រាប់ការវិភាគ ប៉ុន្តែយឺតជាង។ | Dont des modèles qui « raisonnent » étape par étape avant de répondre : utiles pour l'analyse, mais plus lents. |
+| ⏳ à relire | `services.items.1.sections.4.defs.5.term` | gpt-oss (OpenAI) | gpt-oss (OpenAI) |
+| ⏳ à relire | `services.items.1.sections.4.defs.5.text` | ម៉ូដែលបើកចំហរបស់ OpenAI ដែលចេញផ្សាយក្រោមអាជ្ញាប័ណ្ណ Apache 2.0។ | Les modèles ouverts d'OpenAI, publiés sous licence Apache 2.0. |
+| ⏳ à relire | `services.items.1.sections.4.defs.6.term` | ម៉ូដែលស្វែងរក (embeddings) | Modèles de recherche (embeddings) |
+| ⏳ à relire | `services.items.1.sections.4.defs.6.text` | វារកឃើញផ្នែកត្រឹមត្រូវនៅក្នុងឯកសាររបស់លោកអ្នក៖ នេះជាមូលដ្ឋាននៃជំនួយការដែលឆ្លើយដោយផ្អែកលើអត្ថបទរបស់លោកអ្នកផ្ទាល់។ | Ils retrouvent le bon passage dans vos documents : c'est la base d'un assistant qui répond à partir de vos propres textes. |
+| ⏳ à relire | `services.items.1.sections.4.defs.7.term` | សេវាអនឡាញ៖ Claude, ChatGPT, Gemini | Services en ligne : Claude, ChatGPT, Gemini |
+| ⏳ à relire | `services.items.1.sections.4.defs.7.text` | មានសមត្ថភាពខ្លាំងជាង ប៉ុន្តែទិន្នន័យរបស់លោកអ្នកឆ្លងកាត់ម៉ាស៊ីនមេរបស់ក្រុមហ៊ុនទាំងនោះ។ មានប្រយោជន៍ នៅពេលដែលភាពសម្ងាត់អនុញ្ញាត។ | Plus puissants, mais vos données passent par les serveurs de leur éditeur. Utiles quand la confidentialité le permet. |
+| ⏳ à relire | `services.items.1.sections.5.title` | ហេតុអ្វីជ្រើសរើស AI ដែលដំឡើងនៅកន្លែងលោកអ្នក | Pourquoi une IA locale |
+| ⏳ à relire | `services.items.1.sections.5.list.0` | លោកអ្នកគ្រប់គ្រងទិន្នន័យរបស់លោកអ្នក៖ វានៅតែលើម៉ាស៊ីនមេរបស់លោកអ្នក។ | Vous gardez le contrôle de vos données : elles restent sur votre serveur. |
+| ⏳ à relire | `services.items.1.sections.5.list.1` | ពឹងផ្អែកតិចជាងមុនលើសេវាខាងក្រៅ លើតម្លៃ និងលក្ខខណ្ឌរបស់វា។ | Moins de dépendance à un service extérieur, à ses prix et à ses conditions. |
+| ⏳ à relire | `services.items.1.sections.5.list.2` | វាអាចដំណើរការក្នុងបណ្ដាញឯកជន ដោយមិនភ្ជាប់អ៊ីនធឺណិត។ | Elle peut fonctionner dans un réseau privé, sans accès à internet. |
+| ⏳ à relire | `services.items.1.sections.5.list.3` | ម៉ូដែល និងការកំណត់របស់វា ត្រូវបានជ្រើសរើសសម្រាប់ការងាររបស់លោកអ្នក។ | Le modèle et ses réglages sont choisis pour votre tâche. |
+| ⏳ à relire | `services.items.1.sections.6.title` | ឧបករណ៍ | Le matériel |
+| ⏳ à relire | `services.items.1.sections.6.text` | ម៉ាស៊ីនមេ (server) ឬកុំព្យូទ័រដែលមានកាតក្រាហ្វិក ជ្រើសរើសតាមការងារ និងចំនួនអ្នកប្រើប្រាស់។ ខ្ញុំប្រាប់លោកអ្នកពីអ្វីដែលលោកអ្នកពិតជាត្រូវការ។ | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.1.sections.7.title` | វិធីធ្វើការរបស់ខ្ញុំ | Ma façon de faire |
+| ⏳ à relire | `services.items.1.sections.7.list.0` | យើងចាប់ផ្ដើមពីតូច លើការងារតែមួយ។ | On commence petit, sur une seule tâche. |
+| ⏳ à relire | `services.items.1.sections.7.list.1` | លោកអ្នកនៅតែជាអ្នកគ្រប់គ្រង៖ AI ផ្ដល់យោបល់ មនុស្សជាអ្នកសម្រេចចិត្ត។ | Vous gardez la main : l'IA propose, une personne décide. |
+| ⏳ à relire | `services.items.1.sections.7.list.2` | ខ្ញុំប្រាប់លោកអ្នកដោយត្រង់ៗ ពីអ្វីដែល AI ធ្វើមិនបានល្អ និងតម្លៃរបស់វា។ | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.1.sections.8.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.8.list.0` | គុណភាពខុសគ្នាតាមភាសា ជាពិសេសភាសាខ្មែរ៖ យើងសាកល្បងលើឯកសាររបស់លោកអ្នក មុននឹងសម្រេចចិត្ត។ | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.1.sections.8.list.1` | AI ដែលដំឡើងនៅទីតាំងរបស់លោកអ្នក មានសមត្ថភាពតិចជាងសេវាអនឡាញធំៗបំផុត។ | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.1.sections.8.list.2` | ម៉ាស៊ីនមេត្រូវការបន្ទប់ដែលមានម៉ាស៊ីនត្រជាក់ និងឧបករណ៍ផ្គត់ផ្គង់ថាមពលបម្រុង (UPS)។ | Le serveur demande une pièce climatisée et un onduleur. |
+| ⏳ à relire | `services.items.1.sections.8.list.3` | ការរក្សា AI នៅកន្លែងលោកអ្នក កាត់បន្ថយការបញ្ជូនទិន្នន័យរបស់លោកអ្នកទៅកន្លែងផ្សេង ប៉ុន្តែសុវត្ថិភាពក៏អាស្រ័យលើម៉ាស៊ីនមេផងដែរ៖ ការធ្វើបច្ចុប្បន្នភាព សិទ្ធិចូលប្រើ និងការបម្រុងទុកទិន្នន័យ។ | Garder l'IA chez vous limite la circulation de vos données, mais la sécurité dépend aussi du serveur : mises à jour, accès, sauvegardes. |
+| ⏳ à relire | `services.items.1.sections.8.list.4` | ម៉ូដែលវិវត្តលឿនណាស់៖ កំណែថ្មីៗចេញរៀងរាល់ពីរបីខែម្ដង។ ម៉ូដែលនីមួយៗមានអាជ្ញាប័ណ្ណរបស់ខ្លួន ដែលត្រូវពិនិត្យតាមការប្រើប្រាស់របស់លោកអ្នក។ | Les modèles évoluent vite : de nouvelles versions sortent tous les quelques mois. Chaque modèle a sa licence, à vérifier selon votre usage. |
+| ⏳ à relire | `services.items.1.trademarks` | Ollama, Qwen, Gemma, Llama, Mistral, DeepSeek, gpt-oss, Claude, ChatGPT និង Gemini គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Ollama, Qwen, Gemma, Llama, Mistral, DeepSeek, gpt-oss, Claude, ChatGPT et Gemini sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | ហេដ្ឋារចនាសម្ព័ន្ធ និងប្រព័ន្ធ | Infrastructure et systèmes |
 | ⏳ à relire | `services.items.2.summary` | ម៉ាស៊ីនមេ (server) Windows និង Linux និម្មិតកម្ម (virtualization) ជាមួយ XCP-ng និង Xen Orchestra ការតាមដានប្រព័ន្ធជាមួយ Zabbix ការបម្រុងទុកទិន្នន័យ និងបណ្ដាញ។ ព្រមទាំងកម្មវិធីដែលដំណើរការនៅលើវា។ | Serveurs Windows et Linux, virtualisation avec XCP-ng et Xen Orchestra, supervision avec Zabbix, sauvegardes et réseau. Et les applications qui tournent dessus. |
@@ -612,6 +643,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.1.domain` | ai | ai |
 | ⏳ à relire | `tech.groups.1.items.0.name` | Ollama | Ollama |
 | ⏳ à relire | `tech.groups.1.items.0.text` | ដំណើរការម៉ូដែល AI បើកចំហ លើម៉ាស៊ីនមេផ្ទាល់ខ្លួនរបស់លោកអ្នក។ ជាមូលដ្ឋាននៃ AI ឯកជន ដែលនៅតែនៅកន្លែងលោកអ្នក។ | Fait tourner des modèles d'IA ouverts sur votre propre serveur. La base d'une IA privée, qui reste chez vous. |
+| ⏳ à relire | `tech.groups.1.items.1.name` | Qwen, Gemma, Llama, Mistral | Qwen, Gemma, Llama, Mistral |
+| ⏳ à relire | `tech.groups.1.items.1.text` | ម៉ូដែល AI បើកចំហ ដែលជ្រើសរើសតាមការងារ និងភាសា បន្ទាប់ពីសាកល្បងជាមួយឯកសាររបស់លោកអ្នក។ | Des modèles d'IA ouverts, choisis selon la tâche et la langue, après des essais sur vos documents. |
 | ⏳ à relire | `tech.groups.2.domain` | infrastructure | infrastructure |
 | ⏳ à relire | `tech.groups.2.items.0.name` | Windows | Windows |
 | ⏳ à relire | `tech.groups.2.items.0.text` | កុំព្យូទ័រការិយាល័យ និងម៉ាស៊ីនមេ Windows Server៖ ការដំឡើង ការគ្រប់គ្រង ការធ្វើបច្ចុប្បន្នភាព។ | Postes de travail et serveurs Windows Server : installation, administration, mises à jour. |
@@ -1194,7 +1227,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1178 textes relus.
+0 / 1211 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1373,6 +1406,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.points.2` | Многоязычный перевод | Traduction multilingue |
 | ⏳ à relire | `services.items.1.points.3` | Специализированные ассистенты | Assistants spécialisés |
 | ⏳ à relire | `services.items.1.lead` | ИИ может сэкономить время на повторяющихся задачах. Я встраиваю его в ваши текущие инструменты, не меняя всё целиком. | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
+| ⏳ à relire | `services.items.1.badges.0` | Ollama | Ollama |
+| ⏳ à relire | `services.items.1.badges.1` | Qwen | Qwen |
+| ⏳ à relire | `services.items.1.badges.2` | Gemma | Gemma |
+| ⏳ à relire | `services.items.1.badges.3` | Llama | Llama |
+| ⏳ à relire | `services.items.1.badges.4` | Mistral | Mistral |
 | ⏳ à relire | `services.items.1.metaTitle` | Частный ИИ и автоматизация в Камбодже — Chantrea Systems | IA privée et automatisation au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.1.metaDescription` | Интеграция моделей ИИ, ИИ на вашем сервере с Ollama, обработка документов, перевод, автоматизация повторяющихся задач. ИИ предлагает, решает человек. | Intégration de modèles d'IA, IA installée sur votre serveur avec Ollama, traitement de documents, traduction, automatisation. L'IA propose, une personne décide. |
 | ⏳ à relire | `services.items.1.sections.0.title` | Несколько возможных примеров | Quelques exemples possibles |
@@ -1382,27 +1420,53 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.0.list.3` | Извлекать данные из счетов или анкет. | Relever des informations dans des factures ou des formulaires. |
 | ⏳ à relire | `services.items.1.sections.0.list.4` | Сортировать документы и запросы и передавать их нужному человеку. | Classer des documents et des demandes, et les transmettre à la bonne personne. |
 | ⏳ à relire | `services.items.1.sections.0.list.5` | Специализированный ассистент, который отвечает на основе ваших собственных документов: регламентов, каталога, правил внутреннего распорядка. | Un assistant spécialisé, qui répond à partir de vos propres documents : procédures, catalogue, règlement intérieur. |
-| ⏳ à relire | `services.items.1.sections.1.title` | ИИ в ваших программах | L'IA dans vos logiciels |
-| ⏳ à relire | `services.items.1.sections.1.text` | ИИ можно добавить в программу, которой вы уже пользуетесь, или в приложение, которое я разрабатываю для вас: краткая сводка по карточке клиента, автоматически распределённый запрос, перевод текста одним щелчком. Он работает через API — с моделью, установленной у вас, или с онлайн-сервисом, в зависимости от того, что подходит лучше. | L'IA peut s'ajouter à un logiciel que vous utilisez déjà, ou à une application que je développe pour vous : une fiche client résumée, une demande classée automatiquement, un texte traduit d'un clic. Elle passe par une API, vers un modèle installé chez vous ou vers un service en ligne, selon ce qui convient le mieux. |
-| ⏳ à relire | `services.items.1.sections.2.title` | ИИ, который остаётся у вас | Une IA qui reste chez vous |
-| ⏳ à relire | `services.items.1.sections.2.text` | С Ollama открытые модели ИИ работают на сервере, установленном в вашем помещении, или в вашей собственной инфраструктуре. Ваши документы не отправляются в онлайн-сервис ИИ. | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux, ou sur votre propre infrastructure. Vos documents ne sont pas envoyés à un service d'IA en ligne. |
-| ⏳ à relire | `services.items.1.sections.3.title` | Зачем нужен локальный ИИ | Pourquoi une IA locale |
-| ⏳ à relire | `services.items.1.sections.3.list.0` | Вы сохраняете контроль над своими данными: они остаются на вашем сервере. | Vous gardez le contrôle de vos données : elles restent sur votre serveur. |
-| ⏳ à relire | `services.items.1.sections.3.list.1` | Меньше зависимости от внешнего сервиса, его цен и условий. | Moins de dépendance à un service extérieur, à ses prix et à ses conditions. |
-| ⏳ à relire | `services.items.1.sections.3.list.2` | Он может работать в закрытой сети, без доступа к интернету. | Elle peut fonctionner dans un réseau privé, sans accès à internet. |
-| ⏳ à relire | `services.items.1.sections.3.list.3` | Модель и её настройки подбираются под вашу задачу. | Le modèle et ses réglages sont choisis pour votre tâche. |
-| ⏳ à relire | `services.items.1.sections.4.title` | Оборудование | Le matériel |
-| ⏳ à relire | `services.items.1.sections.4.text` | Сервер или компьютер с видеокартой, подобранный под задачу и число пользователей. Я скажу, что вам действительно нужно. | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
-| ⏳ à relire | `services.items.1.sections.5.title` | Мой подход | Ma façon de faire |
-| ⏳ à relire | `services.items.1.sections.5.list.0` | Начинаем с малого, с одной задачи. | On commence petit, sur une seule tâche. |
-| ⏳ à relire | `services.items.1.sections.5.list.1` | Контроль остаётся за вами: ИИ предлагает, решает человек. | Vous gardez la main : l'IA propose, une personne décide. |
-| ⏳ à relire | `services.items.1.sections.5.list.2` | Я честно говорю, что ИИ делает плохо и сколько он стоит. | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
-| ⏳ à relire | `services.items.1.sections.6.title` | Что нужно знать | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.1.sections.6.list.0` | Качество зависит от языка, особенно для кхмерского: мы проверяем на ваших документах, прежде чем решать. | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
-| ⏳ à relire | `services.items.1.sections.6.list.1` | ИИ, установленный у вас, слабее крупнейших онлайн-сервисов. | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
-| ⏳ à relire | `services.items.1.sections.6.list.2` | Серверу нужны помещение с кондиционером и ИБП. | Le serveur demande une pièce climatisée et un onduleur. |
-| ⏳ à relire | `services.items.1.sections.6.list.3` | Когда ИИ работает у вас, ваши данные реже передаются вовне, но безопасность зависит и от самого сервера: обновлений, доступов, резервных копий. | Garder l'IA chez vous limite la circulation de vos données, mais la sécurité dépend aussi du serveur : mises à jour, accès, sauvegardes. |
-| ⏳ à relire | `services.items.1.trademarks` | Ollama — товарный знак своего владельца. Его упоминание не означает какого-либо партнёрства с его разработчиком. | Ollama est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
+| ⏳ à relire | `services.items.1.sections.1.title` | Пример автоматизации | Un exemple d'automatisation |
+| ⏳ à relire | `services.items.1.sections.1.text` | Запрос приходит по электронной почте. ИИ читает его, классифицирует и готовит ответ; человек проверяет его перед отправкой. | Une demande arrive par e-mail. L'IA la lit, la classe et prépare une réponse ; une personne vérifie avant l'envoi. |
+| ⏳ à relire | `services.items.1.sections.1.flow.0` | Письмо получено | E-mail reçu |
+| ⏳ à relire | `services.items.1.sections.1.flow.1` | ИИ прочитал и классифицировал | Lu et classé par l'IA |
+| ⏳ à relire | `services.items.1.sections.1.flow.2` | Заявка создана | Ticket créé |
+| ⏳ à relire | `services.items.1.sections.1.flow.3` | Ответ подготовлен | Réponse préparée |
+| ⏳ à relire | `services.items.1.sections.1.flow.4` | Одобрен человеком | Validée par une personne |
+| ⏳ à relire | `services.items.1.sections.2.title` | ИИ в ваших программах | L'IA dans vos logiciels |
+| ⏳ à relire | `services.items.1.sections.2.text` | ИИ можно добавить в программу, которой вы уже пользуетесь, или в приложение, которое я разрабатываю для вас: краткая сводка по карточке клиента, автоматически распределённый запрос, перевод текста одним щелчком. Он работает через API — с моделью, установленной у вас, или с онлайн-сервисом, в зависимости от того, что подходит лучше. | L'IA peut s'ajouter à un logiciel que vous utilisez déjà, ou à une application que je développe pour vous : une fiche client résumée, une demande classée automatiquement, un texte traduit d'un clic. Elle passe par une API, vers un modèle installé chez vous ou vers un service en ligne, selon ce qui convient le mieux. |
+| ⏳ à relire | `services.items.1.sections.3.title` | ИИ, который остаётся у вас | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.1.sections.3.text` | С Ollama открытые модели ИИ работают на сервере, установленном в вашем помещении, или в вашей собственной инфраструктуре. Ваши документы не отправляются в онлайн-сервис ИИ. | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux, ou sur votre propre infrastructure. Vos documents ne sont pas envoyés à un service d'IA en ligne. |
+| ⏳ à relire | `services.items.1.sections.4.title` | Открытые модели ИИ | Les modèles d'IA ouverts |
+| ⏳ à relire | `services.items.1.sections.4.text` | Ollama запускает так называемые «открытые» модели: их веса опубликованы, и их можно установить на собственный сервер. Я выбираю модель под задачу, язык и оборудование после проверки на ваших документах. Несколько семейств моделей: | Ollama fait tourner des modèles dits « ouverts » : leurs poids sont publiés, et on peut les installer sur son propre serveur. Je choisis le modèle selon la tâche, la langue et le matériel, après des essais sur vos documents. Quelques familles de modèles : |
+| ⏳ à relire | `services.items.1.sections.4.defs.0.term` | Qwen (Alibaba) | Qwen (Alibaba) |
+| ⏳ à relire | `services.items.1.sections.4.defs.0.text` | Несколько размеров, хороший уровень во многих языках, в том числе азиатских. Некоторые версии умеют читать и изображения. | Plusieurs tailles, d'un bon niveau dans de nombreuses langues, dont des langues d'Asie. Certaines versions lisent aussi les images. |
+| ⏳ à relire | `services.items.1.sections.4.defs.1.term` | Gemma (Google) | Gemma (Google) |
+| ⏳ à relire | `services.items.1.sections.4.defs.1.text` | Компактные многоязычные модели, работающие на скромном оборудовании. Некоторые версии умеют читать и изображения. | Des modèles compacts et multilingues, qui tournent sur du matériel modeste. Certaines versions lisent aussi les images. |
+| ⏳ à relire | `services.items.1.sections.4.defs.2.term` | Llama (Meta) | Llama (Meta) |
+| ⏳ à relire | `services.items.1.sections.4.defs.2.text` | Очень распространена, с большим сообществом. Её лицензия устанавливает условия использования. | Très répandu, avec une large communauté. Sa licence fixe des conditions d'utilisation. |
+| ⏳ à relire | `services.items.1.sections.4.defs.3.term` | Mistral (Mistral AI) | Mistral (Mistral AI) |
+| ⏳ à relire | `services.items.1.sections.4.defs.3.text` | Французская компания; эффективные модели, хорошо работающие с французским и английским. | Une société française ; des modèles efficaces, à l'aise en français et en anglais. |
+| ⏳ à relire | `services.items.1.sections.4.defs.4.term` | DeepSeek | DeepSeek |
+| ⏳ à relire | `services.items.1.sections.4.defs.4.text` | В том числе модели, которые «рассуждают» шаг за шагом перед ответом: полезны для анализа, но работают медленнее. | Dont des modèles qui « raisonnent » étape par étape avant de répondre : utiles pour l'analyse, mais plus lents. |
+| ⏳ à relire | `services.items.1.sections.4.defs.5.term` | gpt-oss (OpenAI) | gpt-oss (OpenAI) |
+| ⏳ à relire | `services.items.1.sections.4.defs.5.text` | Открытые модели OpenAI, выпущенные под лицензией Apache 2.0. | Les modèles ouverts d'OpenAI, publiés sous licence Apache 2.0. |
+| ⏳ à relire | `services.items.1.sections.4.defs.6.term` | Поисковые модели (эмбеддинги) | Modèles de recherche (embeddings) |
+| ⏳ à relire | `services.items.1.sections.4.defs.6.text` | Находят нужный фрагмент в ваших документах: основа помощника, который отвечает по вашим собственным текстам. | Ils retrouvent le bon passage dans vos documents : c'est la base d'un assistant qui répond à partir de vos propres textes. |
+| ⏳ à relire | `services.items.1.sections.4.defs.7.term` | Онлайн-сервисы: Claude, ChatGPT, Gemini | Services en ligne : Claude, ChatGPT, Gemini |
+| ⏳ à relire | `services.items.1.sections.4.defs.7.text` | Мощнее, но ваши данные проходят через серверы их разработчика. Полезны, когда это допускают требования конфиденциальности. | Plus puissants, mais vos données passent par les serveurs de leur éditeur. Utiles quand la confidentialité le permet. |
+| ⏳ à relire | `services.items.1.sections.5.title` | Зачем нужен локальный ИИ | Pourquoi une IA locale |
+| ⏳ à relire | `services.items.1.sections.5.list.0` | Вы сохраняете контроль над своими данными: они остаются на вашем сервере. | Vous gardez le contrôle de vos données : elles restent sur votre serveur. |
+| ⏳ à relire | `services.items.1.sections.5.list.1` | Меньше зависимости от внешнего сервиса, его цен и условий. | Moins de dépendance à un service extérieur, à ses prix et à ses conditions. |
+| ⏳ à relire | `services.items.1.sections.5.list.2` | Он может работать в закрытой сети, без доступа к интернету. | Elle peut fonctionner dans un réseau privé, sans accès à internet. |
+| ⏳ à relire | `services.items.1.sections.5.list.3` | Модель и её настройки подбираются под вашу задачу. | Le modèle et ses réglages sont choisis pour votre tâche. |
+| ⏳ à relire | `services.items.1.sections.6.title` | Оборудование | Le matériel |
+| ⏳ à relire | `services.items.1.sections.6.text` | Сервер или компьютер с видеокартой, подобранный под задачу и число пользователей. Я скажу, что вам действительно нужно. | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.1.sections.7.title` | Мой подход | Ma façon de faire |
+| ⏳ à relire | `services.items.1.sections.7.list.0` | Начинаем с малого, с одной задачи. | On commence petit, sur une seule tâche. |
+| ⏳ à relire | `services.items.1.sections.7.list.1` | Контроль остаётся за вами: ИИ предлагает, решает человек. | Vous gardez la main : l'IA propose, une personne décide. |
+| ⏳ à relire | `services.items.1.sections.7.list.2` | Я честно говорю, что ИИ делает плохо и сколько он стоит. | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.1.sections.8.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.8.list.0` | Качество зависит от языка, особенно для кхмерского: мы проверяем на ваших документах, прежде чем решать. | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.1.sections.8.list.1` | ИИ, установленный у вас, слабее крупнейших онлайн-сервисов. | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.1.sections.8.list.2` | Серверу нужны помещение с кондиционером и ИБП. | Le serveur demande une pièce climatisée et un onduleur. |
+| ⏳ à relire | `services.items.1.sections.8.list.3` | Когда ИИ работает у вас, ваши данные реже передаются вовне, но безопасность зависит и от самого сервера: обновлений, доступов, резервных копий. | Garder l'IA chez vous limite la circulation de vos données, mais la sécurité dépend aussi du serveur : mises à jour, accès, sauvegardes. |
+| ⏳ à relire | `services.items.1.sections.8.list.4` | Модели быстро меняются: новые версии выходят раз в несколько месяцев. У каждой модели своя лицензия, которую нужно проверить для вашего случая. | Les modèles évoluent vite : de nouvelles versions sortent tous les quelques mois. Chaque modèle a sa licence, à vérifier selon votre usage. |
+| ⏳ à relire | `services.items.1.trademarks` | Ollama, Qwen, Gemma, Llama, Mistral, DeepSeek, gpt-oss, Claude, ChatGPT и Gemini — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Ollama, Qwen, Gemma, Llama, Mistral, DeepSeek, gpt-oss, Claude, ChatGPT et Gemini sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | Инфраструктура и системы | Infrastructure et systèmes |
 | ⏳ à relire | `services.items.2.summary` | Серверы Windows и Linux, виртуализация на XCP-ng и Xen Orchestra, мониторинг с Zabbix, резервное копирование и сеть. И приложения, которые на них работают. | Serveurs Windows et Linux, virtualisation avec XCP-ng et Xen Orchestra, supervision avec Zabbix, sauvegardes et réseau. Et les applications qui tournent dessus. |
@@ -1797,6 +1861,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.1.domain` | ai | ai |
 | ⏳ à relire | `tech.groups.1.items.0.name` | Ollama | Ollama |
 | ⏳ à relire | `tech.groups.1.items.0.text` | Запускает открытые модели ИИ на вашем собственном сервере. Основа частного ИИ, который остаётся у вас. | Fait tourner des modèles d'IA ouverts sur votre propre serveur. La base d'une IA privée, qui reste chez vous. |
+| ⏳ à relire | `tech.groups.1.items.1.name` | Qwen, Gemma, Llama, Mistral | Qwen, Gemma, Llama, Mistral |
+| ⏳ à relire | `tech.groups.1.items.1.text` | Открытые модели ИИ, выбранные под задачу и язык после проверки на ваших документах. | Des modèles d'IA ouverts, choisis selon la tâche et la langue, après des essais sur vos documents. |
 | ⏳ à relire | `tech.groups.2.domain` | infrastructure | infrastructure |
 | ⏳ à relire | `tech.groups.2.items.0.name` | Windows | Windows |
 | ⏳ à relire | `tech.groups.2.items.0.text` | Рабочие станции и серверы Windows Server: установка, администрирование, обновления. | Postes de travail et serveurs Windows Server : installation, administration, mises à jour. |
@@ -2379,7 +2445,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1178 textes relus.
+0 / 1211 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2558,6 +2624,11 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.points.2` | 多语言翻译 | Traduction multilingue |
 | ⏳ à relire | `services.items.1.points.3` | 专用助手 | Assistants spécialisés |
 | ⏳ à relire | `services.items.1.lead` | AI 能在重复性工作上节省时间。我把它加进您现有的工具里，不必全部推倒重来。 | L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer. |
+| ⏳ à relire | `services.items.1.badges.0` | Ollama | Ollama |
+| ⏳ à relire | `services.items.1.badges.1` | Qwen | Qwen |
+| ⏳ à relire | `services.items.1.badges.2` | Gemma | Gemma |
+| ⏳ à relire | `services.items.1.badges.3` | Llama | Llama |
+| ⏳ à relire | `services.items.1.badges.4` | Mistral | Mistral |
 | ⏳ à relire | `services.items.1.metaTitle` | 柬埔寨企业私有 AI 与自动化 — Chantrea Systems | IA privée et automatisation au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.1.metaDescription` | AI 模型集成，用 Ollama 把 AI 装在您的服务器上，文件处理，翻译，重复性任务自动化。AI 提建议，由人做决定。 | Intégration de modèles d'IA, IA installée sur votre serveur avec Ollama, traitement de documents, traduction, automatisation. L'IA propose, une personne décide. |
 | ⏳ à relire | `services.items.1.sections.0.title` | 一些可能的用途 | Quelques exemples possibles |
@@ -2567,27 +2638,53 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.1.sections.0.list.3` | 从发票或表格中提取信息。 | Relever des informations dans des factures ou des formulaires. |
 | ⏳ à relire | `services.items.1.sections.0.list.4` | 对文件和请求进行分类，并转给合适的人。 | Classer des documents et des demandes, et les transmettre à la bonne personne. |
 | ⏳ à relire | `services.items.1.sections.0.list.5` | 一个专用助手，根据您自己的文件来回答：操作流程、产品目录、内部规章。 | Un assistant spécialisé, qui répond à partir de vos propres documents : procédures, catalogue, règlement intérieur. |
-| ⏳ à relire | `services.items.1.sections.1.title` | 软件里的 AI | L'IA dans vos logiciels |
-| ⏳ à relire | `services.items.1.sections.1.text` | AI 可以加进您已经在用的软件，或我为您开发的应用：生成客户资料摘要，自动分类请求，一键翻译文本。它通过 API 调用模型，模型可以装在您那里，也可以是在线服务，看哪种更合适。 | L'IA peut s'ajouter à un logiciel que vous utilisez déjà, ou à une application que je développe pour vous : une fiche client résumée, une demande classée automatiquement, un texte traduit d'un clic. Elle passe par une API, vers un modèle installé chez vous ou vers un service en ligne, selon ce qui convient le mieux. |
-| ⏳ à relire | `services.items.1.sections.2.title` | 留在您那里的 AI | Une IA qui reste chez vous |
-| ⏳ à relire | `services.items.1.sections.2.text` | 借助 Ollama，开放的 AI 模型运行在安装于您场所内的服务器上，或运行在您自己的基础设施上。您的文件不会发送给在线 AI 服务。 | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux, ou sur votre propre infrastructure. Vos documents ne sont pas envoyés à un service d'IA en ligne. |
-| ⏳ à relire | `services.items.1.sections.3.title` | 为什么选择本地 AI | Pourquoi une IA locale |
-| ⏳ à relire | `services.items.1.sections.3.list.0` | 数据由您掌控：数据留在您的服务器上。 | Vous gardez le contrôle de vos données : elles restent sur votre serveur. |
-| ⏳ à relire | `services.items.1.sections.3.list.1` | 减少对外部服务及其价格和条款的依赖。 | Moins de dépendance à un service extérieur, à ses prix et à ses conditions. |
-| ⏳ à relire | `services.items.1.sections.3.list.2` | 可以在私有网络中运行，无需连接互联网。 | Elle peut fonctionner dans un réseau privé, sans accès à internet. |
-| ⏳ à relire | `services.items.1.sections.3.list.3` | 模型及其设置根据您的任务来选。 | Le modèle et ses réglages sont choisis pour votre tâche. |
-| ⏳ à relire | `services.items.1.sections.4.title` | 设备 | Le matériel |
-| ⏳ à relire | `services.items.1.sections.4.text` | 一台服务器或一台配有显卡的电脑，根据任务和用户人数来选。我会告诉您真正需要什么。 | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
-| ⏳ à relire | `services.items.1.sections.5.title` | 我的做法 | Ma façon de faire |
-| ⏳ à relire | `services.items.1.sections.5.list.0` | 从小处开始，先做一项任务。 | On commence petit, sur une seule tâche. |
-| ⏳ à relire | `services.items.1.sections.5.list.1` | 主导权在您：AI 提建议，由人做决定。 | Vous gardez la main : l'IA propose, une personne décide. |
-| ⏳ à relire | `services.items.1.sections.5.list.2` | 我会坦白告诉您 AI 哪些地方做不好，以及它的成本。 | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
-| ⏳ à relire | `services.items.1.sections.6.title` | 需要了解的事 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.1.sections.6.list.0` | 不同语言的效果不一样，高棉语尤其如此：我们先用您的文件测试，再做决定。 | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
-| ⏳ à relire | `services.items.1.sections.6.list.1` | 装在您那里的 AI 不如最大的在线服务强大。 | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
-| ⏳ à relire | `services.items.1.sections.6.list.2` | 服务器需要一间有空调的房间和一台 UPS 不间断电源。 | Le serveur demande une pièce climatisée et un onduleur. |
-| ⏳ à relire | `services.items.1.sections.6.list.3` | 把 AI 留在您那里，可以减少数据的流转，但安全也取决于服务器本身：更新、访问权限、备份。 | Garder l'IA chez vous limite la circulation de vos données, mais la sécurité dépend aussi du serveur : mises à jour, accès, sauvegardes. |
-| ⏳ à relire | `services.items.1.trademarks` | Ollama 是其所有者的商标。提及它并不表示与其开发商存在任何合作关系。 | Ollama est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur. |
+| ⏳ à relire | `services.items.1.sections.1.title` | 一个自动化示例 | Un exemple d'automatisation |
+| ⏳ à relire | `services.items.1.sections.1.text` | 一封邮件发来一个请求。AI 阅读、分类并起草回复；发送前由人工审核。 | Une demande arrive par e-mail. L'IA la lit, la classe et prépare une réponse ; une personne vérifie avant l'envoi. |
+| ⏳ à relire | `services.items.1.sections.1.flow.0` | 收到邮件 | E-mail reçu |
+| ⏳ à relire | `services.items.1.sections.1.flow.1` | AI 阅读并分类 | Lu et classé par l'IA |
+| ⏳ à relire | `services.items.1.sections.1.flow.2` | 创建工单 | Ticket créé |
+| ⏳ à relire | `services.items.1.sections.1.flow.3` | 起草回复 | Réponse préparée |
+| ⏳ à relire | `services.items.1.sections.1.flow.4` | 人工审核通过 | Validée par une personne |
+| ⏳ à relire | `services.items.1.sections.2.title` | 软件里的 AI | L'IA dans vos logiciels |
+| ⏳ à relire | `services.items.1.sections.2.text` | AI 可以加进您已经在用的软件，或我为您开发的应用：生成客户资料摘要，自动分类请求，一键翻译文本。它通过 API 调用模型，模型可以装在您那里，也可以是在线服务，看哪种更合适。 | L'IA peut s'ajouter à un logiciel que vous utilisez déjà, ou à une application que je développe pour vous : une fiche client résumée, une demande classée automatiquement, un texte traduit d'un clic. Elle passe par une API, vers un modèle installé chez vous ou vers un service en ligne, selon ce qui convient le mieux. |
+| ⏳ à relire | `services.items.1.sections.3.title` | 留在您那里的 AI | Une IA qui reste chez vous |
+| ⏳ à relire | `services.items.1.sections.3.text` | 借助 Ollama，开放的 AI 模型运行在安装于您场所内的服务器上，或运行在您自己的基础设施上。您的文件不会发送给在线 AI 服务。 | Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux, ou sur votre propre infrastructure. Vos documents ne sont pas envoyés à un service d'IA en ligne. |
+| ⏳ à relire | `services.items.1.sections.4.title` | 开放的 AI 模型 | Les modèles d'IA ouverts |
+| ⏳ à relire | `services.items.1.sections.4.text` | Ollama 运行所谓的“开放”模型：模型权重公开发布，可以安装在自己的服务器上。我会根据任务、语言和硬件选择模型，并先用您的文档测试。几个模型系列： | Ollama fait tourner des modèles dits « ouverts » : leurs poids sont publiés, et on peut les installer sur son propre serveur. Je choisis le modèle selon la tâche, la langue et le matériel, après des essais sur vos documents. Quelques familles de modèles : |
+| ⏳ à relire | `services.items.1.sections.4.defs.0.term` | Qwen（阿里巴巴） | Qwen (Alibaba) |
+| ⏳ à relire | `services.items.1.sections.4.defs.0.text` | 多种规模，在许多语言上表现良好，包括亚洲语言。部分版本还能读取图片。 | Plusieurs tailles, d'un bon niveau dans de nombreuses langues, dont des langues d'Asie. Certaines versions lisent aussi les images. |
+| ⏳ à relire | `services.items.1.sections.4.defs.1.term` | Gemma（Google） | Gemma (Google) |
+| ⏳ à relire | `services.items.1.sections.4.defs.1.text` | 小巧的多语言模型，普通硬件即可运行。部分版本还能读取图片。 | Des modèles compacts et multilingues, qui tournent sur du matériel modeste. Certaines versions lisent aussi les images. |
+| ⏳ à relire | `services.items.1.sections.4.defs.2.term` | Llama（Meta） | Llama (Meta) |
+| ⏳ à relire | `services.items.1.sections.4.defs.2.text` | 使用非常广泛，社区庞大。其许可证规定了使用条件。 | Très répandu, avec une large communauté. Sa licence fixe des conditions d'utilisation. |
+| ⏳ à relire | `services.items.1.sections.4.defs.3.term` | Mistral（Mistral AI） | Mistral (Mistral AI) |
+| ⏳ à relire | `services.items.1.sections.4.defs.3.text` | 一家法国公司；模型高效，擅长法语和英语。 | Une société française ; des modèles efficaces, à l'aise en français et en anglais. |
+| ⏳ à relire | `services.items.1.sections.4.defs.4.term` | DeepSeek | DeepSeek |
+| ⏳ à relire | `services.items.1.sections.4.defs.4.text` | 包括先逐步“推理”再回答的模型：适合分析，但速度较慢。 | Dont des modèles qui « raisonnent » étape par étape avant de répondre : utiles pour l'analyse, mais plus lents. |
+| ⏳ à relire | `services.items.1.sections.4.defs.5.term` | gpt-oss（OpenAI） | gpt-oss (OpenAI) |
+| ⏳ à relire | `services.items.1.sections.4.defs.5.text` | OpenAI 的开放模型，以 Apache 2.0 许可证发布。 | Les modèles ouverts d'OpenAI, publiés sous licence Apache 2.0. |
+| ⏳ à relire | `services.items.1.sections.4.defs.6.term` | 检索模型（embeddings） | Modèles de recherche (embeddings) |
+| ⏳ à relire | `services.items.1.sections.4.defs.6.text` | 在您的文档中找到相关段落：这是根据您自己的资料作答的助手的基础。 | Ils retrouvent le bon passage dans vos documents : c'est la base d'un assistant qui répond à partir de vos propres textes. |
+| ⏳ à relire | `services.items.1.sections.4.defs.7.term` | 在线服务：Claude、ChatGPT、Gemini | Services en ligne : Claude, ChatGPT, Gemini |
+| ⏳ à relire | `services.items.1.sections.4.defs.7.text` | 能力更强，但您的数据会经过其提供商的服务器。在保密要求允许时适用。 | Plus puissants, mais vos données passent par les serveurs de leur éditeur. Utiles quand la confidentialité le permet. |
+| ⏳ à relire | `services.items.1.sections.5.title` | 为什么选择本地 AI | Pourquoi une IA locale |
+| ⏳ à relire | `services.items.1.sections.5.list.0` | 数据由您掌控：数据留在您的服务器上。 | Vous gardez le contrôle de vos données : elles restent sur votre serveur. |
+| ⏳ à relire | `services.items.1.sections.5.list.1` | 减少对外部服务及其价格和条款的依赖。 | Moins de dépendance à un service extérieur, à ses prix et à ses conditions. |
+| ⏳ à relire | `services.items.1.sections.5.list.2` | 可以在私有网络中运行，无需连接互联网。 | Elle peut fonctionner dans un réseau privé, sans accès à internet. |
+| ⏳ à relire | `services.items.1.sections.5.list.3` | 模型及其设置根据您的任务来选。 | Le modèle et ses réglages sont choisis pour votre tâche. |
+| ⏳ à relire | `services.items.1.sections.6.title` | 设备 | Le matériel |
+| ⏳ à relire | `services.items.1.sections.6.text` | 一台服务器或一台配有显卡的电脑，根据任务和用户人数来选。我会告诉您真正需要什么。 | Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin. |
+| ⏳ à relire | `services.items.1.sections.7.title` | 我的做法 | Ma façon de faire |
+| ⏳ à relire | `services.items.1.sections.7.list.0` | 从小处开始，先做一项任务。 | On commence petit, sur une seule tâche. |
+| ⏳ à relire | `services.items.1.sections.7.list.1` | 主导权在您：AI 提建议，由人做决定。 | Vous gardez la main : l'IA propose, une personne décide. |
+| ⏳ à relire | `services.items.1.sections.7.list.2` | 我会坦白告诉您 AI 哪些地方做不好，以及它的成本。 | Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte. |
+| ⏳ à relire | `services.items.1.sections.8.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.1.sections.8.list.0` | 不同语言的效果不一样，高棉语尤其如此：我们先用您的文件测试，再做决定。 | La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider. |
+| ⏳ à relire | `services.items.1.sections.8.list.1` | 装在您那里的 AI 不如最大的在线服务强大。 | Une IA installée chez vous est moins puissante que les plus grands services en ligne. |
+| ⏳ à relire | `services.items.1.sections.8.list.2` | 服务器需要一间有空调的房间和一台 UPS 不间断电源。 | Le serveur demande une pièce climatisée et un onduleur. |
+| ⏳ à relire | `services.items.1.sections.8.list.3` | 把 AI 留在您那里，可以减少数据的流转，但安全也取决于服务器本身：更新、访问权限、备份。 | Garder l'IA chez vous limite la circulation de vos données, mais la sécurité dépend aussi du serveur : mises à jour, accès, sauvegardes. |
+| ⏳ à relire | `services.items.1.sections.8.list.4` | 模型更新很快：每隔几个月就有新版本。每个模型都有自己的许可证，需要根据您的用途核实。 | Les modèles évoluent vite : de nouvelles versions sortent tous les quelques mois. Chaque modèle a sa licence, à vérifier selon votre usage. |
+| ⏳ à relire | `services.items.1.trademarks` | Ollama、Qwen、Gemma、Llama、Mistral、DeepSeek、gpt-oss、Claude、ChatGPT 和 Gemini 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Ollama, Qwen, Gemma, Llama, Mistral, DeepSeek, gpt-oss, Claude, ChatGPT et Gemini sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.2.id` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.2.title` | 基础设施与系统 | Infrastructure et systèmes |
 | ⏳ à relire | `services.items.2.summary` | Windows 和 Linux 服务器，用 XCP-ng 和 Xen Orchestra 做虚拟化，用 Zabbix 做监控，备份和网络。还有运行在上面的应用。 | Serveurs Windows et Linux, virtualisation avec XCP-ng et Xen Orchestra, supervision avec Zabbix, sauvegardes et réseau. Et les applications qui tournent dessus. |
@@ -2982,6 +3079,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.1.domain` | ai | ai |
 | ⏳ à relire | `tech.groups.1.items.0.name` | Ollama | Ollama |
 | ⏳ à relire | `tech.groups.1.items.0.text` | 在您自己的服务器上运行开放的 AI 模型。私有 AI 的基础，留在您那里。 | Fait tourner des modèles d'IA ouverts sur votre propre serveur. La base d'une IA privée, qui reste chez vous. |
+| ⏳ à relire | `tech.groups.1.items.1.name` | Qwen、Gemma、Llama、Mistral | Qwen, Gemma, Llama, Mistral |
+| ⏳ à relire | `tech.groups.1.items.1.text` | 开放的 AI 模型，根据任务和语言选择，并先用您的文档测试。 | Des modèles d'IA ouverts, choisis selon la tâche et la langue, après des essais sur vos documents. |
 | ⏳ à relire | `tech.groups.2.domain` | infrastructure | infrastructure |
 | ⏳ à relire | `tech.groups.2.items.0.name` | Windows | Windows |
 | ⏳ à relire | `tech.groups.2.items.0.text` | 工作站和 Windows Server 服务器：安装、管理、更新。 | Postes de travail et serveurs Windows Server : installation, administration, mises à jour. |

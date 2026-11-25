@@ -317,10 +317,18 @@
           "Assistants spécialisés"
         ],
         "lead": "L'IA peut faire gagner du temps sur des tâches qui se répètent. Je l'ajoute à vos outils actuels, sans tout changer.",
+        "badges": [
+          "Ollama",
+          "Qwen",
+          "Gemma",
+          "Llama",
+          "Mistral"
+        ],
         "metaTitle": "IA privée et automatisation au Cambodge — Chantrea Systems",
         "metaDescription": "Intégration de modèles d'IA, IA installée sur votre serveur avec Ollama, traitement de documents, traduction, automatisation. L'IA propose, une personne décide.",
         "sections": [
           {
+            "icon": "sparkles",
             "title": "Quelques exemples possibles",
             "list": [
               "Préparer des réponses aux questions fréquentes de vos clients.",
@@ -329,48 +337,109 @@
               "Relever des informations dans des factures ou des formulaires.",
               "Classer des documents et des demandes, et les transmettre à la bonne personne.",
               "Un assistant spécialisé, qui répond à partir de vos propres documents : procédures, catalogue, règlement intérieur."
+            ],
+            "tiles": true
+          },
+          {
+            "icon": "swap",
+            "title": "Un exemple d'automatisation",
+            "text": "Une demande arrive par e-mail. L'IA la lit, la classe et prépare une réponse ; une personne vérifie avant l'envoi.",
+            "flow": [
+              "E-mail reçu",
+              "Lu et classé par l'IA",
+              "Ticket créé",
+              "Réponse préparée",
+              "Validée par une personne"
             ]
           },
           {
+            "icon": "layers",
             "title": "L'IA dans vos logiciels",
             "text": "L'IA peut s'ajouter à un logiciel que vous utilisez déjà, ou à une application que je développe pour vous : une fiche client résumée, une demande classée automatiquement, un texte traduit d'un clic. Elle passe par une API, vers un modèle installé chez vous ou vers un service en ligne, selon ce qui convient le mieux."
           },
           {
+            "callout": true,
             "title": "Une IA qui reste chez vous",
             "text": "Avec Ollama, des modèles d'IA ouverts tournent sur un serveur installé dans vos locaux, ou sur votre propre infrastructure. Vos documents ne sont pas envoyés à un service d'IA en ligne."
           },
           {
+            "icon": "brain",
+            "title": "Les modèles d'IA ouverts",
+            "text": "Ollama fait tourner des modèles dits « ouverts » : leurs poids sont publiés, et on peut les installer sur son propre serveur. Je choisis le modèle selon la tâche, la langue et le matériel, après des essais sur vos documents. Quelques familles de modèles :",
+            "defs": [
+              {
+                "term": "Qwen (Alibaba)",
+                "text": "Plusieurs tailles, d'un bon niveau dans de nombreuses langues, dont des langues d'Asie. Certaines versions lisent aussi les images."
+              },
+              {
+                "term": "Gemma (Google)",
+                "text": "Des modèles compacts et multilingues, qui tournent sur du matériel modeste. Certaines versions lisent aussi les images."
+              },
+              {
+                "term": "Llama (Meta)",
+                "text": "Très répandu, avec une large communauté. Sa licence fixe des conditions d'utilisation."
+              },
+              {
+                "term": "Mistral (Mistral AI)",
+                "text": "Une société française ; des modèles efficaces, à l'aise en français et en anglais."
+              },
+              {
+                "term": "DeepSeek",
+                "text": "Dont des modèles qui « raisonnent » étape par étape avant de répondre : utiles pour l'analyse, mais plus lents."
+              },
+              {
+                "term": "gpt-oss (OpenAI)",
+                "text": "Les modèles ouverts d'OpenAI, publiés sous licence Apache 2.0."
+              },
+              {
+                "term": "Modèles de recherche (embeddings)",
+                "text": "Ils retrouvent le bon passage dans vos documents : c'est la base d'un assistant qui répond à partir de vos propres textes."
+              },
+              {
+                "term": "Services en ligne : Claude, ChatGPT, Gemini",
+                "text": "Plus puissants, mais vos données passent par les serveurs de leur éditeur. Utiles quand la confidentialité le permet."
+              }
+            ]
+          },
+          {
+            "icon": "shield",
             "title": "Pourquoi une IA locale",
             "list": [
               "Vous gardez le contrôle de vos données : elles restent sur votre serveur.",
               "Moins de dépendance à un service extérieur, à ses prix et à ses conditions.",
               "Elle peut fonctionner dans un réseau privé, sans accès à internet.",
               "Le modèle et ses réglages sont choisis pour votre tâche."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "server",
             "title": "Le matériel",
             "text": "Un serveur ou un poste équipé d'une carte graphique, choisi selon la tâche et le nombre d'utilisateurs. Je vous dis ce dont vous avez vraiment besoin."
           },
           {
+            "icon": "calendar",
             "title": "Ma façon de faire",
             "list": [
               "On commence petit, sur une seule tâche.",
               "Vous gardez la main : l'IA propose, une personne décide.",
               "Je vous dis franchement ce que l'IA fait mal, et ce qu'elle coûte."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "info",
             "title": "Ce qu'il faut savoir",
             "list": [
               "La qualité varie selon les langues, en particulier en khmer : on teste sur vos documents avant de décider.",
               "Une IA installée chez vous est moins puissante que les plus grands services en ligne.",
               "Le serveur demande une pièce climatisée et un onduleur.",
-              "Garder l'IA chez vous limite la circulation de vos données, mais la sécurité dépend aussi du serveur : mises à jour, accès, sauvegardes."
+              "Garder l'IA chez vous limite la circulation de vos données, mais la sécurité dépend aussi du serveur : mises à jour, accès, sauvegardes.",
+              "Les modèles évoluent vite : de nouvelles versions sortent tous les quelques mois. Chaque modèle a sa licence, à vérifier selon votre usage."
             ]
           }
         ],
-        "trademarks": "Ollama est une marque de son propriétaire. Sa mention n'implique aucun partenariat avec son éditeur."
+        "trademarks": "Ollama, Qwen, Gemma, Llama, Mistral, DeepSeek, gpt-oss, Claude, ChatGPT et Gemini sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
       },
       {
         "id": "infrastructure",
@@ -1110,6 +1179,10 @@
           {
             "name": "Ollama",
             "text": "Fait tourner des modèles d'IA ouverts sur votre propre serveur. La base d'une IA privée, qui reste chez vous."
+          },
+          {
+            "name": "Qwen, Gemma, Llama, Mistral",
+            "text": "Des modèles d'IA ouverts, choisis selon la tâche et la langue, après des essais sur vos documents."
           }
         ]
       },

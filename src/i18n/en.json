@@ -317,10 +317,18 @@
           "Specialized assistants"
         ],
         "lead": "AI can save time on repetitive tasks. I add it to your current tools, without changing everything.",
+        "badges": [
+          "Ollama",
+          "Qwen",
+          "Gemma",
+          "Llama",
+          "Mistral"
+        ],
         "metaTitle": "Private AI and automation in Cambodia — Chantrea Systems",
         "metaDescription": "AI model integration, AI on your server with Ollama, document processing, translation, automation of repetitive tasks. The AI suggests, a person decides.",
         "sections": [
           {
+            "icon": "sparkles",
             "title": "A few possible examples",
             "list": [
               "Drafting answers to your customers' frequent questions.",
@@ -329,48 +337,109 @@
               "Pulling information out of invoices or forms.",
               "Sorting documents and requests, and passing them on to the right person.",
               "A specialized assistant that answers from your own documents: procedures, catalog, staff rules."
+            ],
+            "tiles": true
+          },
+          {
+            "icon": "swap",
+            "title": "An automation example",
+            "text": "A request arrives by email. The AI reads it, sorts it and drafts a reply; a person checks it before it is sent.",
+            "flow": [
+              "Email received",
+              "Read and sorted by the AI",
+              "Ticket created",
+              "Reply drafted",
+              "Approved by a person"
             ]
           },
           {
+            "icon": "layers",
             "title": "AI in your software",
             "text": "AI can be added to software you already use, or to an app I build for you: a summarized customer record, a request sorted automatically, a text translated in one click. It works through an API, with a model installed on your premises or an online service, whichever suits best."
           },
           {
+            "callout": true,
             "title": "AI that stays on your premises",
             "text": "With Ollama, open AI models run on a server installed in your offices, or on your own infrastructure. Your documents are not sent to an online AI service."
           },
           {
+            "icon": "brain",
+            "title": "Open-weight AI models",
+            "text": "Ollama runs so-called “open” models: their weights are published, and they can be installed on your own server. I choose the model for the task, the language and the hardware, after tests on your documents. A few model families:",
+            "defs": [
+              {
+                "term": "Qwen (Alibaba)",
+                "text": "Several sizes, good in many languages, including Asian languages. Some versions can also read images."
+              },
+              {
+                "term": "Gemma (Google)",
+                "text": "Compact, multilingual models that run on modest hardware. Some versions can also read images."
+              },
+              {
+                "term": "Llama (Meta)",
+                "text": "Very widely used, with a large community. Its licence sets conditions of use."
+              },
+              {
+                "term": "Mistral (Mistral AI)",
+                "text": "A French company; efficient models, comfortable in French and English."
+              },
+              {
+                "term": "DeepSeek",
+                "text": "Including models that “reason” step by step before answering: useful for analysis, but slower."
+              },
+              {
+                "term": "gpt-oss (OpenAI)",
+                "text": "OpenAI's open models, released under the Apache 2.0 licence."
+              },
+              {
+                "term": "Search models (embeddings)",
+                "text": "They find the right passage in your documents: the basis of an assistant that answers from your own texts."
+              },
+              {
+                "term": "Online services: Claude, ChatGPT, Gemini",
+                "text": "More powerful, but your data goes through their provider's servers. Useful when confidentiality allows it."
+              }
+            ]
+          },
+          {
+            "icon": "shield",
             "title": "Why local AI",
             "list": [
               "You stay in control of your data: it stays on your server.",
               "Less dependence on an outside service, its prices and its terms.",
               "It can work on a private network, with no internet access.",
               "The model and its settings are chosen for your task."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "server",
             "title": "The hardware",
             "text": "A server or a computer with a graphics card, chosen for the task and the number of users. I tell you what you really need."
           },
           {
+            "icon": "calendar",
             "title": "How I do it",
             "list": [
               "We start small, with a single task.",
               "You stay in control: the AI suggests, a person decides.",
               "I tell you honestly what AI does badly, and what it costs."
-            ]
+            ],
+            "steps": true
           },
           {
+            "icon": "info",
             "title": "Good to know",
             "list": [
               "Quality varies between languages, Khmer in particular: we test on your documents before deciding.",
               "An AI installed on your premises is less powerful than the biggest online services.",
               "The server needs an air-conditioned room and a UPS.",
-              "Keeping AI on your premises limits how far your data travels, but security also depends on the server: updates, access, backups."
+              "Keeping AI on your premises limits how far your data travels, but security also depends on the server: updates, access, backups.",
+              "Models change quickly: new versions come out every few months. Each model has its own licence, to be checked for your use."
             ]
           }
         ],
-        "trademarks": "Ollama is a trademark of its owner. Mentioning it does not imply any partnership with its publisher."
+        "trademarks": "Ollama, Qwen, Gemma, Llama, Mistral, DeepSeek, gpt-oss, Claude, ChatGPT and Gemini are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
       },
       {
         "id": "infrastructure",
@@ -1110,6 +1179,10 @@
           {
             "name": "Ollama",
             "text": "Runs open AI models on your own server. The basis of a private AI that stays on your premises."
+          },
+          {
+            "name": "Qwen, Gemma, Llama, Mistral",
+            "text": "Open AI models, chosen for the task and the language, after tests on your documents."
           }
         ]
       },
