@@ -514,7 +514,7 @@
       {
         "id": "security",
         "title": "Cybersecurity and IT asset management",
-        "summary": "Automatic inventory of your IT assets with GLPI and GLPI Agent, tracking of security flaws, updates, backups and access control.",
+        "summary": "Automatic inventory of your IT assets with GLPI and GLPI Agent, tracking of security flaws, monitoring with Zabbix and Grafana, updates, backups and access control.",
         "points": [
           "Inventory with GLPI and GLPI Agent",
           "Tracking of published vulnerabilities",
@@ -522,10 +522,17 @@
           "Accounts, access and backups"
         ],
         "lead": "Security starts with knowing what you have. I keep the inventory of your IT assets up to date, I follow the flaws that affect it, and I help you fix them in the right order.",
+        "badges": [
+          "GLPI",
+          "GLPI Agent",
+          "Zabbix",
+          "Grafana"
+        ],
         "metaTitle": "IT security and GLPI inventory in Cambodia — Chantrea Systems",
         "metaDescription": "IT asset management with GLPI, automatic hardware and software inventory with GLPI Agent, vulnerability tracking, updates, backups and access. Kampot, Cambodia.",
         "sections": [
           {
+            "icon": "layers",
             "title": "GLPI, IT asset management",
             "text": "GLPI is open-source IT asset management software. It brings together in one place everything the business owns:",
             "list": [
@@ -537,6 +544,7 @@
             ]
           },
           {
+            "icon": "cpu",
             "title": "GLPI Agent, automatic inventory",
             "text": "GLPI Agent is a small program installed on each computer and each server, running Windows, Linux or macOS. It regularly sends the machine's inventory to GLPI, with no manual entry. So you know:",
             "list": [
@@ -548,6 +556,7 @@
             ]
           },
           {
+            "icon": "shield",
             "title": "Security watch",
             "text": "The inventory tells you what is installed. The security watch tells you what is a problem. I follow the security information published for the software in your inventory:",
             "list": [
@@ -557,12 +566,29 @@
               "published vulnerabilities (CVE references);",
               "available patches;",
               "priorities: what to update first."
-            ]
+            ],
+            "tiles": true
           },
           {
             "figure": "inventory"
           },
           {
+            "icon": "pulse",
+            "title": "Monitoring: Zabbix and Grafana",
+            "text": "Security also means seeing a problem coming in time. Two free tools work together:",
+            "defs": [
+              {
+                "term": "Zabbix",
+                "text": "Continuously monitors servers, virtual machines, the network and services, and sends an alert when something is wrong: a service stopped, a disk nearly full, an unusual load."
+              },
+              {
+                "term": "Grafana",
+                "text": "Reads the data from Zabbix and shows it in clear dashboards: the state of your IT assets, the current alerts and their history, on a single screen."
+              }
+            ]
+          },
+          {
+            "callout": true,
             "title": "What GLPI Agent does not do",
             "text": "GLPI Agent is not a vulnerability scanner: it lists what is installed, nothing more. Matching that list against published flaws is separate work, a security watch, based on the inventory. It is the combination of the two that makes it possible to act."
           },
@@ -574,13 +600,15 @@
               "Accounts and permissions: everyone has access only to what they need.",
               "Access control, including remote access.",
               "Backups, with a copy in a second location and restore tests.",
-              "Service monitoring with Zabbix.",
+              "Service monitoring with Zabbix, dashboards with Grafana.",
               "Logs: keeping track of what happens on the servers.",
               "Incident tracking in GLPI.",
               "Documentation of your IT estate: what exists, where, and how it is set up."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "info",
             "title": "What I don't do",
             "list": [
               "I do not carry out certified audits or penetration tests.",
@@ -589,11 +617,12 @@
             ]
           },
           {
+            "icon": "users",
             "title": "Let's talk about your situation",
             "text": "Every business is different. Tell me what worries you, and we'll work out together what is useful for you."
           }
         ],
-        "trademarks": "GLPI, GLPI Agent, Zabbix, Windows, Linux and macOS are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+        "trademarks": "GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux and macOS are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
       },
       {
         "id": "business-software",
@@ -1135,6 +1164,10 @@
           {
             "name": "GLPI Agent",
             "text": "Installed on each machine, it automatically sends its inventory to GLPI. It takes inventory; it does not search for vulnerabilities."
+          },
+          {
+            "name": "Grafana",
+            "text": "Dashboards on the state of your IT assets and on alerts, built from Zabbix data."
           }
         ]
       }

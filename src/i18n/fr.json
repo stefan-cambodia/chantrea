@@ -514,7 +514,7 @@
       {
         "id": "security",
         "title": "Cybersécurité et gestion du parc",
-        "summary": "Inventaire automatique du parc avec GLPI et GLPI Agent, veille sur les failles de sécurité, mises à jour, sauvegardes et contrôle des accès.",
+        "summary": "Inventaire automatique du parc avec GLPI et GLPI Agent, veille sur les failles de sécurité, surveillance avec Zabbix et Grafana, mises à jour, sauvegardes et contrôle des accès.",
         "points": [
           "Inventaire avec GLPI et GLPI Agent",
           "Veille sur les vulnérabilités publiées",
@@ -522,10 +522,17 @@
           "Comptes, accès et sauvegardes"
         ],
         "lead": "La sécurité commence par savoir ce que vous avez. Je tiens l'inventaire de votre parc à jour, je suis les failles qui le concernent et je vous aide à corriger dans le bon ordre.",
+        "badges": [
+          "GLPI",
+          "GLPI Agent",
+          "Zabbix",
+          "Grafana"
+        ],
         "metaTitle": "Sécurité informatique et parc GLPI au Cambodge — Chantrea Systems",
         "metaDescription": "Parc informatique géré avec GLPI, inventaire automatique avec GLPI Agent, veille sur les vulnérabilités, mises à jour, sauvegardes et accès. Kampot, Cambodge.",
         "sections": [
           {
+            "icon": "layers",
             "title": "GLPI, la gestion du parc informatique",
             "text": "GLPI est un logiciel libre de gestion des actifs informatiques. Il rassemble au même endroit tout ce que possède l'entreprise :",
             "list": [
@@ -537,6 +544,7 @@
             ]
           },
           {
+            "icon": "cpu",
             "title": "GLPI Agent, l'inventaire automatique",
             "text": "GLPI Agent est un petit programme installé sur chaque ordinateur et chaque serveur, sous Windows, Linux ou macOS. Il envoie régulièrement à GLPI l'inventaire de la machine, sans saisie à la main. Vous savez ainsi :",
             "list": [
@@ -548,6 +556,7 @@
             ]
           },
           {
+            "icon": "shield",
             "title": "La veille de sécurité",
             "text": "L'inventaire dit ce qui est installé. La veille dit ce qui pose problème. Je suis les informations de sécurité publiées pour les logiciels présents dans votre inventaire :",
             "list": [
@@ -557,12 +566,29 @@
               "les vulnérabilités publiées (références CVE) ;",
               "les correctifs disponibles ;",
               "les priorités : ce qu'il faut mettre à jour d'abord."
-            ]
+            ],
+            "tiles": true
           },
           {
             "figure": "inventory"
           },
           {
+            "icon": "pulse",
+            "title": "Surveiller : Zabbix et Grafana",
+            "text": "La sécurité, c'est aussi voir à temps qu'un problème arrive. Deux outils libres travaillent ensemble :",
+            "defs": [
+              {
+                "term": "Zabbix",
+                "text": "Surveille en continu les serveurs, les machines virtuelles, le réseau et les services, et envoie une alerte quand quelque chose ne va pas : service arrêté, disque presque plein, charge anormale."
+              },
+              {
+                "term": "Grafana",
+                "text": "Lit les données de Zabbix et les affiche dans des tableaux de bord clairs : l'état du parc, les alertes en cours et leur historique, sur un seul écran."
+              }
+            ]
+          },
+          {
+            "callout": true,
             "title": "Ce que GLPI Agent ne fait pas",
             "text": "GLPI Agent n'est pas un scanner de vulnérabilités : il recense ce qui est installé, rien de plus. Le rapprochement avec les failles publiées est un travail distinct, de veille et de comparaison, fait à partir de cet inventaire. C'est l'association des deux qui permet d'agir."
           },
@@ -574,13 +600,15 @@
               "Comptes et permissions : chacun n'a accès qu'à ce dont il a besoin.",
               "Contrôle des accès, y compris les accès à distance.",
               "Sauvegardes, avec une copie dans un second lieu et des essais de restauration.",
-              "Surveillance des services avec Zabbix.",
+              "Surveillance des services avec Zabbix, tableaux de bord avec Grafana.",
               "Journaux : garder la trace de ce qui se passe sur les serveurs.",
               "Suivi des incidents dans GLPI.",
               "Documentation du parc : ce qui existe, où, et comment c'est réglé."
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "info",
             "title": "Ce que je ne fais pas",
             "list": [
               "Je ne réalise pas d'audit certifié ni de test d'intrusion.",
@@ -589,11 +617,12 @@
             ]
           },
           {
+            "icon": "users",
             "title": "Parlons de votre situation",
             "text": "Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous."
           }
         ],
-        "trademarks": "GLPI, GLPI Agent, Zabbix, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
+        "trademarks": "GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
       },
       {
         "id": "business-software",
@@ -1135,6 +1164,10 @@
           {
             "name": "GLPI Agent",
             "text": "Installé sur chaque machine, il envoie automatiquement son inventaire à GLPI. Il fait l'inventaire, pas la recherche de failles."
+          },
+          {
+            "name": "Grafana",
+            "text": "Des tableaux de bord sur l'état du parc et les alertes, à partir des données de Zabbix."
           }
         ]
       }

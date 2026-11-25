@@ -514,7 +514,7 @@
       {
         "id": "security",
         "title": "网络安全与 IT 资产管理",
-        "summary": "用 GLPI 和 GLPI Agent 自动清点 IT 资产，跟踪安全漏洞，更新，备份和访问控制。",
+        "summary": "用 GLPI 和 GLPI Agent 自动清点 IT 资产，跟踪安全漏洞，用 Zabbix 和 Grafana 监控，更新，备份和访问控制。",
         "points": [
           "用 GLPI 和 GLPI Agent 建立资产清单",
           "跟踪已公开的漏洞",
@@ -522,10 +522,17 @@
           "账户、访问权限和备份"
         ],
         "lead": "安全从清楚自己有什么开始。我让您的 IT 资产清单保持最新，跟踪与之相关的漏洞，并帮助您按正确顺序修复。",
+        "badges": [
+          "GLPI",
+          "GLPI Agent",
+          "Zabbix",
+          "Grafana"
+        ],
         "metaTitle": "柬埔寨 IT 安全与 GLPI 资产管理 — Chantrea Systems",
         "metaDescription": "用 GLPI 做 IT 资产管理，用 GLPI Agent 自动清点硬件和软件，跟踪漏洞，更新，备份和访问控制。柬埔寨贡布。",
         "sections": [
           {
+            "icon": "layers",
             "title": "GLPI：IT 资产管理",
             "text": "GLPI 是一款开源的 IT 资产管理软件。它把企业拥有的一切集中在一处：",
             "list": [
@@ -537,6 +544,7 @@
             ]
           },
           {
+            "icon": "cpu",
             "title": "GLPI Agent：自动清点",
             "text": "GLPI Agent 是一个小程序，安装在每台电脑和每台服务器上，支持 Windows、Linux 或 macOS。它定期把这台机器的清单发送给 GLPI，无需手工录入。这样您就知道：",
             "list": [
@@ -548,6 +556,7 @@
             ]
           },
           {
+            "icon": "shield",
             "title": "安全漏洞跟踪",
             "text": "资产清单告诉您装了什么。漏洞跟踪告诉您哪里有问题。我跟踪您清单中的软件已公开的安全信息：",
             "list": [
@@ -557,12 +566,29 @@
               "已公开的漏洞（CVE 编号）；",
               "可用的补丁；",
               "优先级：哪些要先更新。"
-            ]
+            ],
+            "tiles": true
           },
           {
             "figure": "inventory"
           },
           {
+            "icon": "pulse",
+            "title": "监控：Zabbix 和 Grafana",
+            "text": "安全也意味着及时发现即将出现的问题。两款免费工具协同工作：",
+            "defs": [
+              {
+                "term": "Zabbix",
+                "text": "持续监控服务器、虚拟机、网络和各项服务，出现异常时发送告警：服务停止、磁盘快满、负载异常。"
+              },
+              {
+                "term": "Grafana",
+                "text": "读取 Zabbix 的数据，并以清晰的仪表板展示：IT 资产状态、当前告警及其历史，全部在一个屏幕上。"
+              }
+            ]
+          },
+          {
+            "callout": true,
             "title": "GLPI Agent 不做什么",
             "text": "GLPI Agent 不是漏洞扫描器：它只清点已安装的东西，仅此而已。把清单与已公开的漏洞进行比对，是另一项独立的工作，即根据这份清单进行跟踪和比对。两者结合，才能采取行动。"
           },
@@ -574,13 +600,15 @@
               "账户和权限：每个人只能访问自己需要的内容。",
               "访问控制，包括远程访问。",
               "备份，在另一个地点保存一份副本，并做恢复测试。",
-              "用 Zabbix 监控服务。",
+              "用 Zabbix 监控服务，用 Grafana 制作仪表板。",
               "日志：记录服务器上发生的事情。",
               "在 GLPI 中跟踪事件。",
               "IT 资产文档：有什么、在哪里、如何设置。"
-            ]
+            ],
+            "tiles": true
           },
           {
+            "icon": "info",
             "title": "我不做什么",
             "list": [
               "我不做认证审计，也不做渗透测试。",
@@ -589,11 +617,12 @@
             ]
           },
           {
+            "icon": "users",
             "title": "说说您的情况",
             "text": "每家企业都不一样。告诉我您担心什么，我们一起看看哪些措施对您有用。"
           }
         ],
-        "trademarks": "GLPI、GLPI Agent、Zabbix、Windows、Linux 和 macOS 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
+        "trademarks": "GLPI、GLPI Agent、Zabbix、Grafana、Windows、Linux 和 macOS 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
       },
       {
         "id": "business-software",
@@ -1134,6 +1163,10 @@
           {
             "name": "GLPI Agent",
             "text": "安装在每台机器上，自动把清单发送给 GLPI。它负责资产清点，不负责查找漏洞。"
+          },
+          {
+            "name": "Grafana",
+            "text": "基于 Zabbix 数据的 IT 资产状态和告警仪表板。"
           }
         ]
       }

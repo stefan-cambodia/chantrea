@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1167 textes relus.
+0 / 1179 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -287,12 +287,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.trademarks` | Xen, XCP-ng, Xen Orchestra, XenServer, VMware, Zabbix, Windows, Linux, Odoo, Nextcloud, Mattermost និង GLPI គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Xen, XCP-ng, Xen Orchestra, XenServer, VMware, Zabbix, Windows, Linux, Odoo, Nextcloud, Mattermost et GLPI sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.3.id` | security | security |
 | ⏳ à relire | `services.items.3.title` | សន្តិសុខសាយប័រ និងការគ្រប់គ្រងឧបករណ៍ព័ត៌មានវិទ្យា | Cybersécurité et gestion du parc |
-| ⏳ à relire | `services.items.3.summary` | បញ្ជីសារពើភណ្ឌឧបករណ៍ព័ត៌មានវិទ្យាដោយស្វ័យប្រវត្តិ ជាមួយ GLPI និង GLPI Agent ការតាមដានចំណុចខ្សោយសុវត្ថិភាព ការធ្វើបច្ចុប្បន្នភាព ការបម្រុងទុកទិន្នន័យ និងការគ្រប់គ្រងសិទ្ធិចូលប្រើ។ | Inventaire automatique du parc avec GLPI et GLPI Agent, veille sur les failles de sécurité, mises à jour, sauvegardes et contrôle des accès. |
+| ⏳ à relire | `services.items.3.summary` | បញ្ជីសារពើភណ្ឌឧបករណ៍ព័ត៌មានវិទ្យាដោយស្វ័យប្រវត្តិ ជាមួយ GLPI និង GLPI Agent ការតាមដានចំណុចខ្សោយសុវត្ថិភាព ការត្រួតពិនិត្យជាមួយ Zabbix និង Grafana ការធ្វើបច្ចុប្បន្នភាព ការបម្រុងទុកទិន្នន័យ និងការគ្រប់គ្រងសិទ្ធិចូលប្រើ។ | Inventaire automatique du parc avec GLPI et GLPI Agent, veille sur les failles de sécurité, surveillance avec Zabbix et Grafana, mises à jour, sauvegardes et contrôle des accès. |
 | ⏳ à relire | `services.items.3.points.0` | បញ្ជីសារពើភណ្ឌជាមួយ GLPI និង GLPI Agent | Inventaire avec GLPI et GLPI Agent |
 | ⏳ à relire | `services.items.3.points.1` | ការតាមដានចំណុចខ្សោយដែលបានប្រកាសជាសាធារណៈ | Veille sur les vulnérabilités publiées |
 | ⏳ à relire | `services.items.3.points.2` | ការធ្វើបច្ចុប្បន្នភាពតាមលំដាប់អាទិភាព | Mises à jour par ordre de priorité |
 | ⏳ à relire | `services.items.3.points.3` | គណនី សិទ្ធិចូលប្រើ និងការបម្រុងទុកទិន្នន័យ | Comptes, accès et sauvegardes |
 | ⏳ à relire | `services.items.3.lead` | សុវត្ថិភាពចាប់ផ្ដើមពីការដឹងថាលោកអ្នកមានអ្វីខ្លះ។ ខ្ញុំរក្សាបញ្ជីសារពើភណ្ឌឧបករណ៍ព័ត៌មានវិទ្យារបស់លោកអ្នកឱ្យទាន់សម័យ តាមដានចំណុចខ្សោយដែលពាក់ព័ន្ធនឹងវា ហើយជួយលោកអ្នកកែតម្រូវតាមលំដាប់ត្រឹមត្រូវ។ | La sécurité commence par savoir ce que vous avez. Je tiens l'inventaire de votre parc à jour, je suis les failles qui le concernent et je vous aide à corriger dans le bon ordre. |
+| ⏳ à relire | `services.items.3.badges.0` | GLPI | GLPI |
+| ⏳ à relire | `services.items.3.badges.1` | GLPI Agent | GLPI Agent |
+| ⏳ à relire | `services.items.3.badges.2` | Zabbix | Zabbix |
+| ⏳ à relire | `services.items.3.badges.3` | Grafana | Grafana |
 | ⏳ à relire | `services.items.3.metaTitle` | សុវត្ថិភាពព័ត៌មានវិទ្យា និងការគ្រប់គ្រងឧបករណ៍ជាមួយ GLPI — Chantrea Systems | Sécurité informatique et parc GLPI au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.3.metaDescription` | ការគ្រប់គ្រងឧបករណ៍ព័ត៌មានវិទ្យាជាមួយ GLPI បញ្ជីសារពើភណ្ឌស្វ័យប្រវត្តិជាមួយ GLPI Agent ការតាមដានចំណុចខ្សោយ ការធ្វើបច្ចុប្បន្នភាព ការបម្រុងទុកទិន្នន័យ និងសិទ្ធិចូលប្រើ។ នៅកំពត កម្ពុជា។ | Parc informatique géré avec GLPI, inventaire automatique avec GLPI Agent, veille sur les vulnérabilités, mises à jour, sauvegardes et accès. Kampot, Cambodge. |
 | ⏳ à relire | `services.items.3.sections.0.title` | GLPI សម្រាប់គ្រប់គ្រងឧបករណ៍ព័ត៌មានវិទ្យា | GLPI, la gestion du parc informatique |
@@ -318,25 +322,31 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.2.list.4` | ការកែតម្រូវ (patch) ដែលមានស្រាប់។ | les correctifs disponibles ; |
 | ⏳ à relire | `services.items.3.sections.2.list.5` | អាទិភាព៖ អ្វីដែលត្រូវធ្វើបច្ចុប្បន្នភាពមុនគេ។ | les priorités : ce qu'il faut mettre à jour d'abord. |
 | ⏳ à relire | `services.items.3.sections.3.figure` | inventory | inventory |
-| ⏳ à relire | `services.items.3.sections.4.title` | អ្វីដែល GLPI Agent មិនធ្វើ | Ce que GLPI Agent ne fait pas |
-| ⏳ à relire | `services.items.3.sections.4.text` | GLPI Agent មិនមែនជាកម្មវិធីស្កេនរកចំណុចខ្សោយ (vulnerability scanner) ទេ៖ វាគ្រាន់តែកត់ត្រាអ្វីដែលបានដំឡើង មិនលើសពីនេះទេ។ ការផ្ទៀងផ្ទាត់ជាមួយចំណុចខ្សោយដែលបានប្រកាស គឺជាការងារដាច់ដោយឡែក នៃការតាមដាន និងការប្រៀបធៀប ដែលធ្វើឡើងដោយផ្អែកលើបញ្ជីសារពើភណ្ឌនេះ។ មានតែការរួមបញ្ចូលការងារទាំងពីរនេះទេ ទើបអាចឱ្យយើងចាត់វិធានការបាន។ | GLPI Agent n'est pas un scanner de vulnérabilités : il recense ce qui est installé, rien de plus. Le rapprochement avec les failles publiées est un travail distinct, de veille et de comparaison, fait à partir de cet inventaire. C'est l'association des deux qui permet d'agir. |
-| ⏳ à relire | `services.items.3.sections.5.title` | សុវត្ថិភាពប្រចាំថ្ងៃ | La sécurité au quotidien |
-| ⏳ à relire | `services.items.3.sections.5.list.0` | ការពង្រឹងប្រព័ន្ធ៖ បិទសេវាដែលមិនចាំបាច់ និងអនុវត្តការកំណត់សុវត្ថិភាព។ | Durcissement des systèmes : services inutiles désactivés, réglages de sécurité appliqués. |
-| ⏳ à relire | `services.items.3.sections.5.list.1` | ការគ្រប់គ្រងការធ្វើបច្ចុប្បន្នភាព៖ សាកល្បងជាមុន បន្ទាប់មកដាក់ឱ្យប្រើ។ | Gestion des mises à jour : testées, puis déployées. |
-| ⏳ à relire | `services.items.3.sections.5.list.2` | គណនី និងសិទ្ធិ៖ ម្នាក់ៗចូលប្រើបានតែអ្វីដែលខ្លួនត្រូវការប៉ុណ្ណោះ។ | Comptes et permissions : chacun n'a accès qu'à ce dont il a besoin. |
-| ⏳ à relire | `services.items.3.sections.5.list.3` | ការត្រួតពិនិត្យសិទ្ធិចូលប្រើ រួមទាំងការចូលប្រើពីចម្ងាយ។ | Contrôle des accès, y compris les accès à distance. |
-| ⏳ à relire | `services.items.3.sections.5.list.4` | ការបម្រុងទុកទិន្នន័យ ដោយមានច្បាប់ចម្លងមួយនៅកន្លែងទីពីរ និងការសាកល្បងស្ដារឡើងវិញ។ | Sauvegardes, avec une copie dans un second lieu et des essais de restauration. |
-| ⏳ à relire | `services.items.3.sections.5.list.5` | ការតាមដានសេវានានាជាមួយ Zabbix។ | Surveillance des services avec Zabbix. |
-| ⏳ à relire | `services.items.3.sections.5.list.6` | កំណត់ហេតុ (log)៖ រក្សាដានអ្វីដែលកើតឡើងនៅលើម៉ាស៊ីនមេ។ | Journaux : garder la trace de ce qui se passe sur les serveurs. |
-| ⏳ à relire | `services.items.3.sections.5.list.7` | ការតាមដានឧប្បត្តិហេតុនៅក្នុង GLPI។ | Suivi des incidents dans GLPI. |
-| ⏳ à relire | `services.items.3.sections.5.list.8` | ឯកសារពិពណ៌នាឧបករណ៍ព័ត៌មានវិទ្យា៖ មានអ្វីខ្លះ នៅទីណា និងកំណត់យ៉ាងដូចម្ដេច។ | Documentation du parc : ce qui existe, où, et comment c'est réglé. |
-| ⏳ à relire | `services.items.3.sections.6.title` | អ្វីដែលខ្ញុំមិនធ្វើ | Ce que je ne fais pas |
-| ⏳ à relire | `services.items.3.sections.6.list.0` | ខ្ញុំមិនធ្វើសវនកម្មដែលមានវិញ្ញាបនបត្របញ្ជាក់ (certified audit) ឬការធ្វើតេស្តជ្រៀតចូល (penetration test) ទេ។ | Je ne réalise pas d'audit certifié ni de test d'intrusion. |
-| ⏳ à relire | `services.items.3.sections.6.list.1` | ខ្ញុំមិនចេញវិញ្ញាបនបត្របញ្ជាក់ការអនុលោមភាព (compliance) ទេ។ | Je ne délivre pas de certification de conformité. |
-| ⏳ à relire | `services.items.3.sections.6.list.2` | ការងាររបស់ខ្ញុំ គឺសុវត្ថិភាពប្រចាំថ្ងៃ៖ ឧបករណ៍ព័ត៌មានវិទ្យាដែលដឹងច្បាស់ ទាន់សម័យ មានការបម្រុងទុក និងត្រូវបានតាមដាន។ | Mon travail, c'est la sécurité au quotidien : un parc connu, à jour, sauvegardé et surveillé. |
-| ⏳ à relire | `services.items.3.sections.7.title` | ពិភាក្សាអំពីស្ថានភាពរបស់លោកអ្នក | Parlons de votre situation |
-| ⏳ à relire | `services.items.3.sections.7.text` | អាជីវកម្មនីមួយៗខុសៗគ្នា។ សូមប្រាប់ខ្ញុំពីអ្វីដែលលោកអ្នកព្រួយបារម្ភ ហើយយើងនឹងរកមើលជាមួយគ្នាថា អ្វីខ្លះមានប្រយោជន៍សម្រាប់លោកអ្នក។ | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
-| ⏳ à relire | `services.items.3.trademarks` | GLPI, GLPI Agent, Zabbix, Windows, Linux និង macOS គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | GLPI, GLPI Agent, Zabbix, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.3.sections.4.title` | ការត្រួតពិនិត្យ៖ Zabbix និង Grafana | Surveiller : Zabbix et Grafana |
+| ⏳ à relire | `services.items.3.sections.4.text` | សុវត្ថិភាព ក៏មានន័យថាការមើលឃើញបញ្ហាទាន់ពេល មុនពេលវាកើតឡើងដែរ។ ឧបករណ៍ឥតគិតថ្លៃពីរ ធ្វើការជាមួយគ្នា៖ | La sécurité, c'est aussi voir à temps qu'un problème arrive. Deux outils libres travaillent ensemble : |
+| ⏳ à relire | `services.items.3.sections.4.defs.0.term` | Zabbix | Zabbix |
+| ⏳ à relire | `services.items.3.sections.4.defs.0.text` | ត្រួតពិនិត្យម៉ាស៊ីនមេ ម៉ាស៊ីននិម្មិត បណ្ដាញ និងសេវានានាជាប់ជានិច្ច ហើយផ្ញើការជូនដំណឹង នៅពេលមានបញ្ហា៖ សេវាឈប់ដំណើរការ ថាសជិតពេញ ឬការប្រើប្រាស់មិនប្រក្រតី។ | Surveille en continu les serveurs, les machines virtuelles, le réseau et les services, et envoie une alerte quand quelque chose ne va pas : service arrêté, disque presque plein, charge anormale. |
+| ⏳ à relire | `services.items.3.sections.4.defs.1.term` | Grafana | Grafana |
+| ⏳ à relire | `services.items.3.sections.4.defs.1.text` | អានទិន្នន័យពី Zabbix ហើយបង្ហាញវាជាផ្ទាំងព័ត៌មាន (dashboard) ច្បាស់លាស់៖ ស្ថានភាពឧបករណ៍ ការជូនដំណឹងបច្ចុប្បន្ន និងប្រវត្តិរបស់វា នៅលើអេក្រង់តែមួយ។ | Lit les données de Zabbix et les affiche dans des tableaux de bord clairs : l'état du parc, les alertes en cours et leur historique, sur un seul écran. |
+| ⏳ à relire | `services.items.3.sections.5.title` | អ្វីដែល GLPI Agent មិនធ្វើ | Ce que GLPI Agent ne fait pas |
+| ⏳ à relire | `services.items.3.sections.5.text` | GLPI Agent មិនមែនជាកម្មវិធីស្កេនរកចំណុចខ្សោយ (vulnerability scanner) ទេ៖ វាគ្រាន់តែកត់ត្រាអ្វីដែលបានដំឡើង មិនលើសពីនេះទេ។ ការផ្ទៀងផ្ទាត់ជាមួយចំណុចខ្សោយដែលបានប្រកាស គឺជាការងារដាច់ដោយឡែក នៃការតាមដាន និងការប្រៀបធៀប ដែលធ្វើឡើងដោយផ្អែកលើបញ្ជីសារពើភណ្ឌនេះ។ មានតែការរួមបញ្ចូលការងារទាំងពីរនេះទេ ទើបអាចឱ្យយើងចាត់វិធានការបាន។ | GLPI Agent n'est pas un scanner de vulnérabilités : il recense ce qui est installé, rien de plus. Le rapprochement avec les failles publiées est un travail distinct, de veille et de comparaison, fait à partir de cet inventaire. C'est l'association des deux qui permet d'agir. |
+| ⏳ à relire | `services.items.3.sections.6.title` | សុវត្ថិភាពប្រចាំថ្ងៃ | La sécurité au quotidien |
+| ⏳ à relire | `services.items.3.sections.6.list.0` | ការពង្រឹងប្រព័ន្ធ៖ បិទសេវាដែលមិនចាំបាច់ និងអនុវត្តការកំណត់សុវត្ថិភាព។ | Durcissement des systèmes : services inutiles désactivés, réglages de sécurité appliqués. |
+| ⏳ à relire | `services.items.3.sections.6.list.1` | ការគ្រប់គ្រងការធ្វើបច្ចុប្បន្នភាព៖ សាកល្បងជាមុន បន្ទាប់មកដាក់ឱ្យប្រើ។ | Gestion des mises à jour : testées, puis déployées. |
+| ⏳ à relire | `services.items.3.sections.6.list.2` | គណនី និងសិទ្ធិ៖ ម្នាក់ៗចូលប្រើបានតែអ្វីដែលខ្លួនត្រូវការប៉ុណ្ណោះ។ | Comptes et permissions : chacun n'a accès qu'à ce dont il a besoin. |
+| ⏳ à relire | `services.items.3.sections.6.list.3` | ការត្រួតពិនិត្យសិទ្ធិចូលប្រើ រួមទាំងការចូលប្រើពីចម្ងាយ។ | Contrôle des accès, y compris les accès à distance. |
+| ⏳ à relire | `services.items.3.sections.6.list.4` | ការបម្រុងទុកទិន្នន័យ ដោយមានច្បាប់ចម្លងមួយនៅកន្លែងទីពីរ និងការសាកល្បងស្ដារឡើងវិញ។ | Sauvegardes, avec une copie dans un second lieu et des essais de restauration. |
+| ⏳ à relire | `services.items.3.sections.6.list.5` | ការតាមដានសេវានានាជាមួយ Zabbix និងផ្ទាំងព័ត៌មាន (dashboard) ជាមួយ Grafana។ | Surveillance des services avec Zabbix, tableaux de bord avec Grafana. |
+| ⏳ à relire | `services.items.3.sections.6.list.6` | កំណត់ហេតុ (log)៖ រក្សាដានអ្វីដែលកើតឡើងនៅលើម៉ាស៊ីនមេ។ | Journaux : garder la trace de ce qui se passe sur les serveurs. |
+| ⏳ à relire | `services.items.3.sections.6.list.7` | ការតាមដានឧប្បត្តិហេតុនៅក្នុង GLPI។ | Suivi des incidents dans GLPI. |
+| ⏳ à relire | `services.items.3.sections.6.list.8` | ឯកសារពិពណ៌នាឧបករណ៍ព័ត៌មានវិទ្យា៖ មានអ្វីខ្លះ នៅទីណា និងកំណត់យ៉ាងដូចម្ដេច។ | Documentation du parc : ce qui existe, où, et comment c'est réglé. |
+| ⏳ à relire | `services.items.3.sections.7.title` | អ្វីដែលខ្ញុំមិនធ្វើ | Ce que je ne fais pas |
+| ⏳ à relire | `services.items.3.sections.7.list.0` | ខ្ញុំមិនធ្វើសវនកម្មដែលមានវិញ្ញាបនបត្របញ្ជាក់ (certified audit) ឬការធ្វើតេស្តជ្រៀតចូល (penetration test) ទេ។ | Je ne réalise pas d'audit certifié ni de test d'intrusion. |
+| ⏳ à relire | `services.items.3.sections.7.list.1` | ខ្ញុំមិនចេញវិញ្ញាបនបត្របញ្ជាក់ការអនុលោមភាព (compliance) ទេ។ | Je ne délivre pas de certification de conformité. |
+| ⏳ à relire | `services.items.3.sections.7.list.2` | ការងាររបស់ខ្ញុំ គឺសុវត្ថិភាពប្រចាំថ្ងៃ៖ ឧបករណ៍ព័ត៌មានវិទ្យាដែលដឹងច្បាស់ ទាន់សម័យ មានការបម្រុងទុក និងត្រូវបានតាមដាន។ | Mon travail, c'est la sécurité au quotidien : un parc connu, à jour, sauvegardé et surveillé. |
+| ⏳ à relire | `services.items.3.sections.8.title` | ពិភាក្សាអំពីស្ថានភាពរបស់លោកអ្នក | Parlons de votre situation |
+| ⏳ à relire | `services.items.3.sections.8.text` | អាជីវកម្មនីមួយៗខុសៗគ្នា។ សូមប្រាប់ខ្ញុំពីអ្វីដែលលោកអ្នកព្រួយបារម្ភ ហើយយើងនឹងរកមើលជាមួយគ្នាថា អ្វីខ្លះមានប្រយោជន៍សម្រាប់លោកអ្នក។ | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
+| ⏳ à relire | `services.items.3.trademarks` | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux និង macOS គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.4.id` | business-software | business-software |
 | ⏳ à relire | `services.items.4.parent` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.4.title` | Odoo, Nextcloud និង Mattermost | Odoo, Nextcloud et Mattermost |
@@ -626,6 +636,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.3.items.0.text` | ការគ្រប់គ្រងឧបករណ៍ព័ត៌មានវិទ្យា៖ ឧបករណ៍រឹង កម្មវិធី អាជ្ញាប័ណ្ណ ប្រវត្តិ និងសំណើសុំជំនួយ។ | La gestion du parc informatique : matériel, logiciels, licences, historique et demandes de support. |
 | ⏳ à relire | `tech.groups.3.items.1.name` | GLPI Agent | GLPI Agent |
 | ⏳ à relire | `tech.groups.3.items.1.text` | ដំឡើងលើម៉ាស៊ីននីមួយៗ វាផ្ញើបញ្ជីសារពើភណ្ឌរបស់ម៉ាស៊ីនទៅ GLPI ដោយស្វ័យប្រវត្តិ។ វាធ្វើបញ្ជីសារពើភណ្ឌ មិនមែនស្វែងរកចំណុចខ្សោយទេ។ | Installé sur chaque machine, il envoie automatiquement son inventaire à GLPI. Il fait l'inventaire, pas la recherche de failles. |
+| ⏳ à relire | `tech.groups.3.items.2.name` | Grafana | Grafana |
+| ⏳ à relire | `tech.groups.3.items.2.text` | ផ្ទាំងព័ត៌មាន (dashboard) អំពីស្ថានភាពឧបករណ៍ និងការជូនដំណឹង ដោយប្រើទិន្នន័យពី Zabbix។ | Des tableaux de bord sur l'état du parc et les alertes, à partir des données de Zabbix. |
 | ⏳ à relire | `diagram.title` | ហេដ្ឋារចនាសម្ព័ន្ធមួយ ពីក្រោមឡើងលើ | Une infrastructure, de bas en haut |
 | ⏳ à relire | `diagram.caption` | ឧទាហរណ៍នៃការរៀបចំ។ ការដំឡើងនីមួយៗ ត្រូវបានកំណត់ទំហំតាមតម្រូវការរបស់លោកអ្នក។ | Exemple d'organisation. Chaque installation est dimensionnée selon vos besoins. |
 | ⏳ à relire | `diagram.layers.0.label` | កម្មវិធី | Applications |
@@ -1182,7 +1194,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1166 textes relus.
+0 / 1178 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1461,12 +1473,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.trademarks` | Xen, XCP-ng, Xen Orchestra, XenServer, VMware, Zabbix, Windows, Linux, Odoo, Nextcloud, Mattermost и GLPI — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Xen, XCP-ng, Xen Orchestra, XenServer, VMware, Zabbix, Windows, Linux, Odoo, Nextcloud, Mattermost et GLPI sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.3.id` | security | security |
 | ⏳ à relire | `services.items.3.title` | Кибербезопасность и управление IT-парком | Cybersécurité et gestion du parc |
-| ⏳ à relire | `services.items.3.summary` | Автоматическая инвентаризация IT-парка с GLPI и GLPI Agent, отслеживание уязвимостей, обновления, резервное копирование и контроль доступа. | Inventaire automatique du parc avec GLPI et GLPI Agent, veille sur les failles de sécurité, mises à jour, sauvegardes et contrôle des accès. |
+| ⏳ à relire | `services.items.3.summary` | Автоматическая инвентаризация IT-парка с GLPI и GLPI Agent, отслеживание уязвимостей, мониторинг с Zabbix и Grafana, обновления, резервное копирование и контроль доступа. | Inventaire automatique du parc avec GLPI et GLPI Agent, veille sur les failles de sécurité, surveillance avec Zabbix et Grafana, mises à jour, sauvegardes et contrôle des accès. |
 | ⏳ à relire | `services.items.3.points.0` | Инвентаризация с GLPI и GLPI Agent | Inventaire avec GLPI et GLPI Agent |
 | ⏳ à relire | `services.items.3.points.1` | Отслеживание опубликованных уязвимостей | Veille sur les vulnérabilités publiées |
 | ⏳ à relire | `services.items.3.points.2` | Обновления в порядке приоритета | Mises à jour par ordre de priorité |
 | ⏳ à relire | `services.items.3.points.3` | Учётные записи, доступы и резервные копии | Comptes, accès et sauvegardes |
 | ⏳ à relire | `services.items.3.lead` | Безопасность начинается с того, чтобы знать, что у вас есть. Я поддерживаю инвентаризацию вашего IT-парка в актуальном состоянии, отслеживаю уязвимости, которые его касаются, и помогаю устранять их в правильном порядке. | La sécurité commence par savoir ce que vous avez. Je tiens l'inventaire de votre parc à jour, je suis les failles qui le concernent et je vous aide à corriger dans le bon ordre. |
+| ⏳ à relire | `services.items.3.badges.0` | GLPI | GLPI |
+| ⏳ à relire | `services.items.3.badges.1` | GLPI Agent | GLPI Agent |
+| ⏳ à relire | `services.items.3.badges.2` | Zabbix | Zabbix |
+| ⏳ à relire | `services.items.3.badges.3` | Grafana | Grafana |
 | ⏳ à relire | `services.items.3.metaTitle` | IT-безопасность и учёт парка в GLPI, Камбоджа — Chantrea Systems | Sécurité informatique et parc GLPI au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.3.metaDescription` | Учёт IT-парка в GLPI, автоматическая инвентаризация с GLPI Agent, отслеживание уязвимостей, обновления, резервные копии и доступы. Кампот, Камбоджа. | Parc informatique géré avec GLPI, inventaire automatique avec GLPI Agent, veille sur les vulnérabilités, mises à jour, sauvegardes et accès. Kampot, Cambodge. |
 | ⏳ à relire | `services.items.3.sections.0.title` | GLPI — управление IT-парком | GLPI, la gestion du parc informatique |
@@ -1492,25 +1508,31 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.2.list.4` | доступные исправления; | les correctifs disponibles ; |
 | ⏳ à relire | `services.items.3.sections.2.list.5` | приоритеты: что обновлять в первую очередь. | les priorités : ce qu'il faut mettre à jour d'abord. |
 | ⏳ à relire | `services.items.3.sections.3.figure` | inventory | inventory |
-| ⏳ à relire | `services.items.3.sections.4.title` | Чего GLPI Agent не делает | Ce que GLPI Agent ne fait pas |
-| ⏳ à relire | `services.items.3.sections.4.text` | GLPI Agent — не сканер уязвимостей: он учитывает то, что установлено, и ничего больше. Сопоставление с опубликованными уязвимостями — отдельная работа по отслеживанию и сравнению, которая выполняется на основе этой инвентаризации. Действовать позволяет именно сочетание того и другого. | GLPI Agent n'est pas un scanner de vulnérabilités : il recense ce qui est installé, rien de plus. Le rapprochement avec les failles publiées est un travail distinct, de veille et de comparaison, fait à partir de cet inventaire. C'est l'association des deux qui permet d'agir. |
-| ⏳ à relire | `services.items.3.sections.5.title` | Повседневная безопасность | La sécurité au quotidien |
-| ⏳ à relire | `services.items.3.sections.5.list.0` | Усиление защиты систем: ненужные службы отключены, настройки безопасности применены. | Durcissement des systèmes : services inutiles désactivés, réglages de sécurité appliqués. |
-| ⏳ à relire | `services.items.3.sections.5.list.1` | Управление обновлениями: сначала тестирование, затем развёртывание. | Gestion des mises à jour : testées, puis déployées. |
-| ⏳ à relire | `services.items.3.sections.5.list.2` | Учётные записи и права: каждый имеет доступ только к тому, что ему нужно. | Comptes et permissions : chacun n'a accès qu'à ce dont il a besoin. |
-| ⏳ à relire | `services.items.3.sections.5.list.3` | Контроль доступа, в том числе удалённого. | Contrôle des accès, y compris les accès à distance. |
-| ⏳ à relire | `services.items.3.sections.5.list.4` | Резервное копирование, с копией во втором месте и пробными восстановлениями. | Sauvegardes, avec une copie dans un second lieu et des essais de restauration. |
-| ⏳ à relire | `services.items.3.sections.5.list.5` | Мониторинг сервисов с Zabbix. | Surveillance des services avec Zabbix. |
-| ⏳ à relire | `services.items.3.sections.5.list.6` | Журналы: фиксировать то, что происходит на серверах. | Journaux : garder la trace de ce qui se passe sur les serveurs. |
-| ⏳ à relire | `services.items.3.sections.5.list.7` | Учёт инцидентов в GLPI. | Suivi des incidents dans GLPI. |
-| ⏳ à relire | `services.items.3.sections.5.list.8` | Документация IT-парка: что есть, где и как настроено. | Documentation du parc : ce qui existe, où, et comment c'est réglé. |
-| ⏳ à relire | `services.items.3.sections.6.title` | Чего я не делаю | Ce que je ne fais pas |
-| ⏳ à relire | `services.items.3.sections.6.list.0` | Я не провожу ни сертифицированный аудит, ни тестирование на проникновение. | Je ne réalise pas d'audit certifié ni de test d'intrusion. |
-| ⏳ à relire | `services.items.3.sections.6.list.1` | Я не выдаю сертификаты соответствия. | Je ne délivre pas de certification de conformité. |
-| ⏳ à relire | `services.items.3.sections.6.list.2` | Моя работа — повседневная безопасность: IT-парк, о котором всё известно, который обновлён, защищён резервными копиями и находится под мониторингом. | Mon travail, c'est la sécurité au quotidien : un parc connu, à jour, sauvegardé et surveillé. |
-| ⏳ à relire | `services.items.3.sections.7.title` | Давайте обсудим вашу ситуацию | Parlons de votre situation |
-| ⏳ à relire | `services.items.3.sections.7.text` | Все компании разные. Расскажите, что вас беспокоит, и мы вместе решим, что будет полезно именно вам. | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
-| ⏳ à relire | `services.items.3.trademarks` | GLPI, GLPI Agent, Zabbix, Windows, Linux и macOS — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | GLPI, GLPI Agent, Zabbix, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.3.sections.4.title` | Мониторинг: Zabbix и Grafana | Surveiller : Zabbix et Grafana |
+| ⏳ à relire | `services.items.3.sections.4.text` | Безопасность — это ещё и умение вовремя заметить, что назревает проблема. Два свободных инструмента работают вместе: | La sécurité, c'est aussi voir à temps qu'un problème arrive. Deux outils libres travaillent ensemble : |
+| ⏳ à relire | `services.items.3.sections.4.defs.0.term` | Zabbix | Zabbix |
+| ⏳ à relire | `services.items.3.sections.4.defs.0.text` | Непрерывно следит за серверами, виртуальными машинами, сетью и сервисами и присылает оповещение, когда что-то не так: сервис остановился, диск почти заполнен, необычная нагрузка. | Surveille en continu les serveurs, les machines virtuelles, le réseau et les services, et envoie une alerte quand quelque chose ne va pas : service arrêté, disque presque plein, charge anormale. |
+| ⏳ à relire | `services.items.3.sections.4.defs.1.term` | Grafana | Grafana |
+| ⏳ à relire | `services.items.3.sections.4.defs.1.text` | Берёт данные из Zabbix и показывает их на наглядных панелях: состояние IT-парка, текущие оповещения и их история — на одном экране. | Lit les données de Zabbix et les affiche dans des tableaux de bord clairs : l'état du parc, les alertes en cours et leur historique, sur un seul écran. |
+| ⏳ à relire | `services.items.3.sections.5.title` | Чего GLPI Agent не делает | Ce que GLPI Agent ne fait pas |
+| ⏳ à relire | `services.items.3.sections.5.text` | GLPI Agent — не сканер уязвимостей: он учитывает то, что установлено, и ничего больше. Сопоставление с опубликованными уязвимостями — отдельная работа по отслеживанию и сравнению, которая выполняется на основе этой инвентаризации. Действовать позволяет именно сочетание того и другого. | GLPI Agent n'est pas un scanner de vulnérabilités : il recense ce qui est installé, rien de plus. Le rapprochement avec les failles publiées est un travail distinct, de veille et de comparaison, fait à partir de cet inventaire. C'est l'association des deux qui permet d'agir. |
+| ⏳ à relire | `services.items.3.sections.6.title` | Повседневная безопасность | La sécurité au quotidien |
+| ⏳ à relire | `services.items.3.sections.6.list.0` | Усиление защиты систем: ненужные службы отключены, настройки безопасности применены. | Durcissement des systèmes : services inutiles désactivés, réglages de sécurité appliqués. |
+| ⏳ à relire | `services.items.3.sections.6.list.1` | Управление обновлениями: сначала тестирование, затем развёртывание. | Gestion des mises à jour : testées, puis déployées. |
+| ⏳ à relire | `services.items.3.sections.6.list.2` | Учётные записи и права: каждый имеет доступ только к тому, что ему нужно. | Comptes et permissions : chacun n'a accès qu'à ce dont il a besoin. |
+| ⏳ à relire | `services.items.3.sections.6.list.3` | Контроль доступа, в том числе удалённого. | Contrôle des accès, y compris les accès à distance. |
+| ⏳ à relire | `services.items.3.sections.6.list.4` | Резервное копирование, с копией во втором месте и пробными восстановлениями. | Sauvegardes, avec une copie dans un second lieu et des essais de restauration. |
+| ⏳ à relire | `services.items.3.sections.6.list.5` | Мониторинг сервисов с Zabbix, панели мониторинга в Grafana. | Surveillance des services avec Zabbix, tableaux de bord avec Grafana. |
+| ⏳ à relire | `services.items.3.sections.6.list.6` | Журналы: фиксировать то, что происходит на серверах. | Journaux : garder la trace de ce qui se passe sur les serveurs. |
+| ⏳ à relire | `services.items.3.sections.6.list.7` | Учёт инцидентов в GLPI. | Suivi des incidents dans GLPI. |
+| ⏳ à relire | `services.items.3.sections.6.list.8` | Документация IT-парка: что есть, где и как настроено. | Documentation du parc : ce qui existe, où, et comment c'est réglé. |
+| ⏳ à relire | `services.items.3.sections.7.title` | Чего я не делаю | Ce que je ne fais pas |
+| ⏳ à relire | `services.items.3.sections.7.list.0` | Я не провожу ни сертифицированный аудит, ни тестирование на проникновение. | Je ne réalise pas d'audit certifié ni de test d'intrusion. |
+| ⏳ à relire | `services.items.3.sections.7.list.1` | Я не выдаю сертификаты соответствия. | Je ne délivre pas de certification de conformité. |
+| ⏳ à relire | `services.items.3.sections.7.list.2` | Моя работа — повседневная безопасность: IT-парк, о котором всё известно, который обновлён, защищён резервными копиями и находится под мониторингом. | Mon travail, c'est la sécurité au quotidien : un parc connu, à jour, sauvegardé et surveillé. |
+| ⏳ à relire | `services.items.3.sections.8.title` | Давайте обсудим вашу ситуацию | Parlons de votre situation |
+| ⏳ à relire | `services.items.3.sections.8.text` | Все компании разные. Расскажите, что вас беспокоит, и мы вместе решим, что будет полезно именно вам. | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
+| ⏳ à relire | `services.items.3.trademarks` | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux и macOS — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.4.id` | business-software | business-software |
 | ⏳ à relire | `services.items.4.parent` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.4.title` | Odoo, Nextcloud и Mattermost | Odoo, Nextcloud et Mattermost |
@@ -1799,6 +1821,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.3.items.0.text` | Управление IT-парком: оборудование, программы, лицензии, история и заявки в поддержку. | La gestion du parc informatique : matériel, logiciels, licences, historique et demandes de support. |
 | ⏳ à relire | `tech.groups.3.items.1.name` | GLPI Agent | GLPI Agent |
 | ⏳ à relire | `tech.groups.3.items.1.text` | Устанавливается на каждую машину и автоматически отправляет её данные инвентаризации в GLPI. Он проводит инвентаризацию, а не поиск уязвимостей. | Installé sur chaque machine, il envoie automatiquement son inventaire à GLPI. Il fait l'inventaire, pas la recherche de failles. |
+| ⏳ à relire | `tech.groups.3.items.2.name` | Grafana | Grafana |
+| ⏳ à relire | `tech.groups.3.items.2.text` | Панели о состоянии IT-парка и об оповещениях на основе данных Zabbix. | Des tableaux de bord sur l'état du parc et les alertes, à partir des données de Zabbix. |
 | ⏳ à relire | `diagram.title` | Инфраструктура снизу вверх | Une infrastructure, de bas en haut |
 | ⏳ à relire | `diagram.caption` | Пример организации. Каждая установка рассчитывается под ваши потребности. | Exemple d'organisation. Chaque installation est dimensionnée selon vos besoins. |
 | ⏳ à relire | `diagram.layers.0.label` | Приложения | Applications |
@@ -2355,7 +2379,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1166 textes relus.
+0 / 1178 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2634,12 +2658,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.2.trademarks` | Xen、XCP-ng、Xen Orchestra、XenServer、VMware、Zabbix、Windows、Linux、Odoo、Nextcloud、Mattermost 和 GLPI 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Xen, XCP-ng, Xen Orchestra, XenServer, VMware, Zabbix, Windows, Linux, Odoo, Nextcloud, Mattermost et GLPI sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.3.id` | security | security |
 | ⏳ à relire | `services.items.3.title` | 网络安全与 IT 资产管理 | Cybersécurité et gestion du parc |
-| ⏳ à relire | `services.items.3.summary` | 用 GLPI 和 GLPI Agent 自动清点 IT 资产，跟踪安全漏洞，更新，备份和访问控制。 | Inventaire automatique du parc avec GLPI et GLPI Agent, veille sur les failles de sécurité, mises à jour, sauvegardes et contrôle des accès. |
+| ⏳ à relire | `services.items.3.summary` | 用 GLPI 和 GLPI Agent 自动清点 IT 资产，跟踪安全漏洞，用 Zabbix 和 Grafana 监控，更新，备份和访问控制。 | Inventaire automatique du parc avec GLPI et GLPI Agent, veille sur les failles de sécurité, surveillance avec Zabbix et Grafana, mises à jour, sauvegardes et contrôle des accès. |
 | ⏳ à relire | `services.items.3.points.0` | 用 GLPI 和 GLPI Agent 建立资产清单 | Inventaire avec GLPI et GLPI Agent |
 | ⏳ à relire | `services.items.3.points.1` | 跟踪已公开的漏洞 | Veille sur les vulnérabilités publiées |
 | ⏳ à relire | `services.items.3.points.2` | 按优先级进行更新 | Mises à jour par ordre de priorité |
 | ⏳ à relire | `services.items.3.points.3` | 账户、访问权限和备份 | Comptes, accès et sauvegardes |
 | ⏳ à relire | `services.items.3.lead` | 安全从清楚自己有什么开始。我让您的 IT 资产清单保持最新，跟踪与之相关的漏洞，并帮助您按正确顺序修复。 | La sécurité commence par savoir ce que vous avez. Je tiens l'inventaire de votre parc à jour, je suis les failles qui le concernent et je vous aide à corriger dans le bon ordre. |
+| ⏳ à relire | `services.items.3.badges.0` | GLPI | GLPI |
+| ⏳ à relire | `services.items.3.badges.1` | GLPI Agent | GLPI Agent |
+| ⏳ à relire | `services.items.3.badges.2` | Zabbix | Zabbix |
+| ⏳ à relire | `services.items.3.badges.3` | Grafana | Grafana |
 | ⏳ à relire | `services.items.3.metaTitle` | 柬埔寨 IT 安全与 GLPI 资产管理 — Chantrea Systems | Sécurité informatique et parc GLPI au Cambodge — Chantrea Systems |
 | ⏳ à relire | `services.items.3.metaDescription` | 用 GLPI 做 IT 资产管理，用 GLPI Agent 自动清点硬件和软件，跟踪漏洞，更新，备份和访问控制。柬埔寨贡布。 | Parc informatique géré avec GLPI, inventaire automatique avec GLPI Agent, veille sur les vulnérabilités, mises à jour, sauvegardes et accès. Kampot, Cambodge. |
 | ⏳ à relire | `services.items.3.sections.0.title` | GLPI：IT 资产管理 | GLPI, la gestion du parc informatique |
@@ -2665,25 +2693,31 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.3.sections.2.list.4` | 可用的补丁； | les correctifs disponibles ; |
 | ⏳ à relire | `services.items.3.sections.2.list.5` | 优先级：哪些要先更新。 | les priorités : ce qu'il faut mettre à jour d'abord. |
 | ⏳ à relire | `services.items.3.sections.3.figure` | inventory | inventory |
-| ⏳ à relire | `services.items.3.sections.4.title` | GLPI Agent 不做什么 | Ce que GLPI Agent ne fait pas |
-| ⏳ à relire | `services.items.3.sections.4.text` | GLPI Agent 不是漏洞扫描器：它只清点已安装的东西，仅此而已。把清单与已公开的漏洞进行比对，是另一项独立的工作，即根据这份清单进行跟踪和比对。两者结合，才能采取行动。 | GLPI Agent n'est pas un scanner de vulnérabilités : il recense ce qui est installé, rien de plus. Le rapprochement avec les failles publiées est un travail distinct, de veille et de comparaison, fait à partir de cet inventaire. C'est l'association des deux qui permet d'agir. |
-| ⏳ à relire | `services.items.3.sections.5.title` | 日常安全 | La sécurité au quotidien |
-| ⏳ à relire | `services.items.3.sections.5.list.0` | 系统加固：关闭不需要的服务，应用安全设置。 | Durcissement des systèmes : services inutiles désactivés, réglages de sécurité appliqués. |
-| ⏳ à relire | `services.items.3.sections.5.list.1` | 更新管理：先测试，再部署。 | Gestion des mises à jour : testées, puis déployées. |
-| ⏳ à relire | `services.items.3.sections.5.list.2` | 账户和权限：每个人只能访问自己需要的内容。 | Comptes et permissions : chacun n'a accès qu'à ce dont il a besoin. |
-| ⏳ à relire | `services.items.3.sections.5.list.3` | 访问控制，包括远程访问。 | Contrôle des accès, y compris les accès à distance. |
-| ⏳ à relire | `services.items.3.sections.5.list.4` | 备份，在另一个地点保存一份副本，并做恢复测试。 | Sauvegardes, avec une copie dans un second lieu et des essais de restauration. |
-| ⏳ à relire | `services.items.3.sections.5.list.5` | 用 Zabbix 监控服务。 | Surveillance des services avec Zabbix. |
-| ⏳ à relire | `services.items.3.sections.5.list.6` | 日志：记录服务器上发生的事情。 | Journaux : garder la trace de ce qui se passe sur les serveurs. |
-| ⏳ à relire | `services.items.3.sections.5.list.7` | 在 GLPI 中跟踪事件。 | Suivi des incidents dans GLPI. |
-| ⏳ à relire | `services.items.3.sections.5.list.8` | IT 资产文档：有什么、在哪里、如何设置。 | Documentation du parc : ce qui existe, où, et comment c'est réglé. |
-| ⏳ à relire | `services.items.3.sections.6.title` | 我不做什么 | Ce que je ne fais pas |
-| ⏳ à relire | `services.items.3.sections.6.list.0` | 我不做认证审计，也不做渗透测试。 | Je ne réalise pas d'audit certifié ni de test d'intrusion. |
-| ⏳ à relire | `services.items.3.sections.6.list.1` | 我不颁发合规认证。 | Je ne délivre pas de certification de conformité. |
-| ⏳ à relire | `services.items.3.sections.6.list.2` | 我的工作是日常安全：IT 资产清楚、及时更新、有备份、有监控。 | Mon travail, c'est la sécurité au quotidien : un parc connu, à jour, sauvegardé et surveillé. |
-| ⏳ à relire | `services.items.3.sections.7.title` | 说说您的情况 | Parlons de votre situation |
-| ⏳ à relire | `services.items.3.sections.7.text` | 每家企业都不一样。告诉我您担心什么，我们一起看看哪些措施对您有用。 | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
-| ⏳ à relire | `services.items.3.trademarks` | GLPI、GLPI Agent、Zabbix、Windows、Linux 和 macOS 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | GLPI, GLPI Agent, Zabbix, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
+| ⏳ à relire | `services.items.3.sections.4.title` | 监控：Zabbix 和 Grafana | Surveiller : Zabbix et Grafana |
+| ⏳ à relire | `services.items.3.sections.4.text` | 安全也意味着及时发现即将出现的问题。两款免费工具协同工作： | La sécurité, c'est aussi voir à temps qu'un problème arrive. Deux outils libres travaillent ensemble : |
+| ⏳ à relire | `services.items.3.sections.4.defs.0.term` | Zabbix | Zabbix |
+| ⏳ à relire | `services.items.3.sections.4.defs.0.text` | 持续监控服务器、虚拟机、网络和各项服务，出现异常时发送告警：服务停止、磁盘快满、负载异常。 | Surveille en continu les serveurs, les machines virtuelles, le réseau et les services, et envoie une alerte quand quelque chose ne va pas : service arrêté, disque presque plein, charge anormale. |
+| ⏳ à relire | `services.items.3.sections.4.defs.1.term` | Grafana | Grafana |
+| ⏳ à relire | `services.items.3.sections.4.defs.1.text` | 读取 Zabbix 的数据，并以清晰的仪表板展示：IT 资产状态、当前告警及其历史，全部在一个屏幕上。 | Lit les données de Zabbix et les affiche dans des tableaux de bord clairs : l'état du parc, les alertes en cours et leur historique, sur un seul écran. |
+| ⏳ à relire | `services.items.3.sections.5.title` | GLPI Agent 不做什么 | Ce que GLPI Agent ne fait pas |
+| ⏳ à relire | `services.items.3.sections.5.text` | GLPI Agent 不是漏洞扫描器：它只清点已安装的东西，仅此而已。把清单与已公开的漏洞进行比对，是另一项独立的工作，即根据这份清单进行跟踪和比对。两者结合，才能采取行动。 | GLPI Agent n'est pas un scanner de vulnérabilités : il recense ce qui est installé, rien de plus. Le rapprochement avec les failles publiées est un travail distinct, de veille et de comparaison, fait à partir de cet inventaire. C'est l'association des deux qui permet d'agir. |
+| ⏳ à relire | `services.items.3.sections.6.title` | 日常安全 | La sécurité au quotidien |
+| ⏳ à relire | `services.items.3.sections.6.list.0` | 系统加固：关闭不需要的服务，应用安全设置。 | Durcissement des systèmes : services inutiles désactivés, réglages de sécurité appliqués. |
+| ⏳ à relire | `services.items.3.sections.6.list.1` | 更新管理：先测试，再部署。 | Gestion des mises à jour : testées, puis déployées. |
+| ⏳ à relire | `services.items.3.sections.6.list.2` | 账户和权限：每个人只能访问自己需要的内容。 | Comptes et permissions : chacun n'a accès qu'à ce dont il a besoin. |
+| ⏳ à relire | `services.items.3.sections.6.list.3` | 访问控制，包括远程访问。 | Contrôle des accès, y compris les accès à distance. |
+| ⏳ à relire | `services.items.3.sections.6.list.4` | 备份，在另一个地点保存一份副本，并做恢复测试。 | Sauvegardes, avec une copie dans un second lieu et des essais de restauration. |
+| ⏳ à relire | `services.items.3.sections.6.list.5` | 用 Zabbix 监控服务，用 Grafana 制作仪表板。 | Surveillance des services avec Zabbix, tableaux de bord avec Grafana. |
+| ⏳ à relire | `services.items.3.sections.6.list.6` | 日志：记录服务器上发生的事情。 | Journaux : garder la trace de ce qui se passe sur les serveurs. |
+| ⏳ à relire | `services.items.3.sections.6.list.7` | 在 GLPI 中跟踪事件。 | Suivi des incidents dans GLPI. |
+| ⏳ à relire | `services.items.3.sections.6.list.8` | IT 资产文档：有什么、在哪里、如何设置。 | Documentation du parc : ce qui existe, où, et comment c'est réglé. |
+| ⏳ à relire | `services.items.3.sections.7.title` | 我不做什么 | Ce que je ne fais pas |
+| ⏳ à relire | `services.items.3.sections.7.list.0` | 我不做认证审计，也不做渗透测试。 | Je ne réalise pas d'audit certifié ni de test d'intrusion. |
+| ⏳ à relire | `services.items.3.sections.7.list.1` | 我不颁发合规认证。 | Je ne délivre pas de certification de conformité. |
+| ⏳ à relire | `services.items.3.sections.7.list.2` | 我的工作是日常安全：IT 资产清楚、及时更新、有备份、有监控。 | Mon travail, c'est la sécurité au quotidien : un parc connu, à jour, sauvegardé et surveillé. |
+| ⏳ à relire | `services.items.3.sections.8.title` | 说说您的情况 | Parlons de votre situation |
+| ⏳ à relire | `services.items.3.sections.8.text` | 每家企业都不一样。告诉我您担心什么，我们一起看看哪些措施对您有用。 | Chaque entreprise est différente. Expliquez-moi ce qui vous inquiète, et nous verrons ensemble ce qui est utile pour vous. |
+| ⏳ à relire | `services.items.3.trademarks` | GLPI、GLPI Agent、Zabbix、Grafana、Windows、Linux 和 macOS 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | GLPI, GLPI Agent, Zabbix, Grafana, Windows, Linux et macOS sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.4.id` | business-software | business-software |
 | ⏳ à relire | `services.items.4.parent` | infrastructure | infrastructure |
 | ⏳ à relire | `services.items.4.title` | Odoo、Nextcloud 和 Mattermost | Odoo, Nextcloud et Mattermost |
@@ -2972,6 +3006,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.3.items.0.text` | IT 资产管理：硬件、软件、许可证、历史记录和支持请求。 | La gestion du parc informatique : matériel, logiciels, licences, historique et demandes de support. |
 | ⏳ à relire | `tech.groups.3.items.1.name` | GLPI Agent | GLPI Agent |
 | ⏳ à relire | `tech.groups.3.items.1.text` | 安装在每台机器上，自动把清单发送给 GLPI。它负责资产清点，不负责查找漏洞。 | Installé sur chaque machine, il envoie automatiquement son inventaire à GLPI. Il fait l'inventaire, pas la recherche de failles. |
+| ⏳ à relire | `tech.groups.3.items.2.name` | Grafana | Grafana |
+| ⏳ à relire | `tech.groups.3.items.2.text` | 基于 Zabbix 数据的 IT 资产状态和告警仪表板。 | Des tableaux de bord sur l'état du parc et les alertes, à partir des données de Zabbix. |
 | ⏳ à relire | `diagram.title` | 一套基础设施，从下到上 | Une infrastructure, de bas en haut |
 | ⏳ à relire | `diagram.caption` | 示例架构。每套系统都按您的需求来配置。 | Exemple d'organisation. Chaque installation est dimensionnée selon vos besoins. |
 | ⏳ à relire | `diagram.layers.0.label` | 应用 | Applications |
