@@ -10,6 +10,8 @@
 //     icon : nom de HmsIcon      → le bloc s'affiche en carte, avec ce pictogramme devant le titre
 //     pending : true             → bloc « en cours de développement » (bordure en tirets, sablier)
 //     steps : true               → la liste s'affiche en étapes numérotées
+//     numbered : true            → les cartes (cards) sont numérotées 1, 2, 3…
+//     scale : true               → échelle de priorité P1 → P4 (décorative) sous le texte
 //   { figure: 'infra' | 'inventory' | 'invoice' } → schéma d'infrastructure, étapes inventaire et veille,
 //                                    ou illustration d'une facture bilingue khmer / anglais
 import Txt from './Txt.astro';
@@ -23,7 +25,7 @@ interface Section {
   defs?: { term: string; text: string }[];
   link?: { page: string; label: string };
   figure?: 'infra' | 'inventory' | 'invoice';
-  flow?: string[]; tiles?: boolean; callout?: boolean; icon?: string; pending?: boolean; steps?: boolean;
+  flow?: string[]; tiles?: boolean; callout?: boolean; icon?: string; pending?: boolean; steps?: boolean; numbered?: boolean; scale?: boolean;
   cards?: { icon?: string; title: string; text?: string; list?: string[] }[];
 }
 interface Props { sections: Section[]; lang: string }
@@ -46,6 +48,13 @@ const tr = t(lang);
           ? <div class="prose-section__head"><span class="hms-icon-box"><HmsIcon name={s.icon ?? 'hourglass'} /></span><h2>{s.title}</h2></div>
           : <h2>{s.title}</h2>}
         {s.text && <p><Txt text={s.text} /></p>}
+        {s.scale && (
+          <div class="priority-scale" aria-hidden="true">
+            {['P1', 'P2', 'P3', 'P4'].map((p, i) => (
+              <span class={`priority-scale__step priority-scale__step--${i + 1}`}><b>{p}</b><i></i></span>
+            ))}
+          </div>
+        )}
         {s.flow && (
           <ol class="flow-chips">{s.flow.map((f) => <li>{f}</li>)}</ol>
         )}
@@ -57,10 +66,11 @@ const tr = t(lang);
         {s.list && s.steps && <ol class="hms-steps">{s.list.map((li) => <li><Txt text={li} /></li>)}</ol>}
         {s.list && !s.steps && <ul class={s.tiles ? 'checklist tiles' : 'checklist'}>{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
         {s.cards && (
-          <ul class="section-cards">
-            {s.cards.map((c) => (
+          <ul class={s.numbered ? 'section-cards section-cards--numbered' : 'section-cards'}>
+            {s.cards.map((c, i) => (
               <li class="card section-card">
                 <div class="section-card__head">
+                  {s.numbered && <span class="section-card__num" aria-hidden="true">{i + 1}</span>}
                   {c.icon && <span class="hms-icon-box"><HmsIcon name={c.icon} /></span>}
                   <h3>{c.title}</h3>
                 </div>

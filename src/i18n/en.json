@@ -744,6 +744,7 @@
             "mobile": "The same screens on a phone."
           }
         },
+        "galleryAfter": 2,
         "sections": [
           {
             "callout": true,
@@ -773,12 +774,14 @@
                 "title": "Remind",
                 "text": "An alert by email, Slack or GLPI ticket, and reminders for as long as the flaw stays open."
               }
-            ]
+            ],
+            "numbered": true
           },
           {
             "icon": "chart",
             "title": "Clear priorities",
-            "text": "Each flaw is ranked P1 to P4 on three criteria: is it already exploited (CISA KEV catalogue), how severe is it, and how many machines does it affect. You know where to start."
+            "text": "Each flaw is ranked P1 to P4 on three criteria: is it already exploited (CISA KEV catalogue), how severe is it, and how many machines does it affect. You know where to start.",
+            "scale": true
           },
           {
             "icon": "globe",

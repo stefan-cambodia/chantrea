@@ -744,6 +744,7 @@
             "mobile": "手机上的同样界面。"
           }
         },
+        "galleryAfter": 2,
         "sections": [
           {
             "callout": true,
@@ -773,12 +774,14 @@
                 "title": "提醒",
                 "text": "通过电子邮件、Slack 或 GLPI 工单告警，并在漏洞未修复期间持续提醒。"
               }
-            ]
+            ],
+            "numbered": true
           },
           {
             "icon": "chart",
             "title": "清晰的优先级",
-            "text": "每个漏洞根据三个标准分为 P1 到 P4：是否已被利用（CISA 的 KEV 目录）、严重程度，以及影响多少台机器。您知道该从哪里开始。"
+            "text": "每个漏洞根据三个标准分为 P1 到 P4：是否已被利用（CISA 的 KEV 目录）、严重程度，以及影响多少台机器。您知道该从哪里开始。",
+            "scale": true
           },
           {
             "icon": "globe",

@@ -644,6 +644,24 @@ h2.group-title { margin-top: 0; }
 .odoo-band .checklist { margin: 1.2rem 0 1.6rem; color: var(--night-text); --accent: var(--moon); --surface: var(--night-bg); }
 .odoo-band .invoice-mock { background: transparent; border: 0; padding: 0; }
 
+/* Cartes numérotées (numbered) et échelle de priorité P1 → P4 (scale) */
+.section-cards--numbered .section-card { position: relative; }
+.section-card__num {
+  display: grid; place-items: center; flex: none; width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  background: var(--accent); color: var(--accent-ink); font-family: var(--font-mono); font-size: .8rem; font-weight: 700;
+}
+.priority-scale { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; margin: 1.1rem 0 .2rem; }
+.priority-scale__step { display: grid; gap: .35rem; padding: .6rem .7rem; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); }
+.priority-scale__step b { font-family: var(--font-mono); font-size: .95rem; }
+.priority-scale__step i { display: block; height: .45rem; border-radius: 99px; background: var(--c); }
+.priority-scale__step--1 { --c: #e0473a; width: 100%; } .priority-scale__step--1 b { color: #c7382c; }
+.priority-scale__step--2 { --c: #e8893a; } .priority-scale__step--2 b { color: #b8641f; }
+.priority-scale__step--3 { --c: #d9b33f; } .priority-scale__step--3 b { color: #8f741b; }
+.priority-scale__step--4 { --c: #3faa7a; } .priority-scale__step--4 b { color: #24764f; }
+.priority-scale__step--1 i { width: 100%; } .priority-scale__step--2 i { width: 75%; } .priority-scale__step--3 i { width: 50%; } .priority-scale__step--4 i { width: 25%; }
+:root[data-theme="dark"] .priority-scale__step b { color: var(--c); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .priority-scale__step b { color: var(--c); } }
+
 /* Bloc en carte (icon), bloc « en cours » (pending) */
 .prose-section--card, .prose-section--pending { padding: 1.4rem 1.5rem; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
 .prose-section--pending { background: transparent; border: 2px dashed color-mix(in srgb, var(--accent) 45%, var(--line)); }

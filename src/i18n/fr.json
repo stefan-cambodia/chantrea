@@ -744,6 +744,7 @@
             "mobile": "Les mêmes écrans sur téléphone."
           }
         },
+        "galleryAfter": 2,
         "sections": [
           {
             "callout": true,
@@ -773,12 +774,14 @@
                 "title": "Rappeler",
                 "text": "Une alerte par e-mail, Slack ou ticket GLPI, et des rappels tant que la faille reste ouverte."
               }
-            ]
+            ],
+            "numbered": true
           },
           {
             "icon": "chart",
             "title": "Des priorités claires",
-            "text": "Chaque faille est classée de P1 à P4 selon trois critères : est-elle déjà exploitée (catalogue KEV de la CISA), quelle est sa gravité, et combien de machines elle touche. Vous savez par quoi commencer."
+            "text": "Chaque faille est classée de P1 à P4 selon trois critères : est-elle déjà exploitée (catalogue KEV de la CISA), quelle est sa gravité, et combien de machines elle touche. Vous savez par quoi commencer.",
+            "scale": true
           },
           {
             "icon": "globe",
