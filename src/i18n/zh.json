@@ -1290,7 +1290,7 @@
     }
   },
   "rally": {
-    "eyebrow": "研发 · Android 游戏",
+    "eyebrow": "进行中 · Android 游戏",
     "title": "Cambodia Rally",
     "lead": "在吴哥寺庙周边的真实道路上进行 3D 赛车。和朋友一起，每人一部手机，连接同一个 Wi-Fi 或手机热点即可：无需互联网。",
     "status": "可以玩，尚未发布",
@@ -1375,7 +1375,7 @@
     }
   },
   "angkor": {
-    "eyebrow": "研发 · 3D 世界",
+    "eyebrow": "进行中 · 3D 世界",
     "title": "Angkor World Engine",
     "lead": "基于开放地理数据，按真实比例用 3D 重建的吴哥和暹粒地区。屏幕上的一米就是真实的一米：路程花的时间和现实中一样。可以在上空飞行，也可以开车行驶。",
     "status": "原型，开发中",

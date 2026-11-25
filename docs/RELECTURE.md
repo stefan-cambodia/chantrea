@@ -721,7 +721,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.tablet` | ប្រតិទិននៅលើថេប្លេត។ | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | ផ្ទាំងគ្រប់គ្រង៖ អត្រាបន្ទប់មានភ្ញៀវ ការមកដល់ និងការចាកចេញថ្ងៃនេះ។ | Le tableau de bord : occupation, arrivées et départs du jour. |
 | ⏳ à relire | `hms.gallery.captions.reports` | របាយការណ៍៖ អត្រាបន្ទប់មានភ្ញៀវ តម្លៃមធ្យម និងចំណូលក្នុងមួយបន្ទប់ ក្នុងរយៈពេល 30 ថ្ងៃចុងក្រោយ ធៀបនឹង 30 ថ្ងៃមុននោះ។ | Les rapports : occupation, prix moyen, revenu par chambre, sur les 30 derniers jours comparés aux 30 précédents. |
-| ⏳ à relire | `rally.eyebrow` | R&D · ហ្គេម Android | R&D · Jeu Android |
+| ⏳ à relire | `rally.eyebrow` | កំពុងធ្វើ · ហ្គេម Android | En cours · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | ការប្រណាំង 3D លើផ្លូវពិតៗជុំវិញប្រាសាទអង្គរ។ លេងជាមួយមិត្តភក្តិ ម្នាក់ទូរស័ព្ទមួយ នៅលើ Wi-Fi តែមួយ ឬការចែករំលែកអ៊ីនធឺណិតពីទូរស័ព្ទ (hotspot)៖ មិនត្រូវការអ៊ីនធឺណិតទេ។ | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
 | ⏳ à relire | `rally.status` | អាចលេងបាន ប៉ុន្តែមិនទាន់ចេញផ្សាយ | Jouable, pas encore publié |
@@ -770,7 +770,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.shows.items.2` | ផែនទីបើកចំហ ប្រែក្លាយជាពិភព 3D | Des cartes ouvertes transformées en monde en 3D |
 | ⏳ à relire | `rally.shows.items.3` | កម្មវិធីបកប្រែជា 7 ភាសា | Une application traduite en 7 langues |
 | ⏳ à relire | `rally.shows.cta` | មើលស្នាដៃទាំងអស់ | Voir toutes les réalisations |
-| ⏳ à relire | `angkor.eyebrow` | R&D · ពិភព 3D | R&D · Monde en 3D |
+| ⏳ à relire | `angkor.eyebrow` | កំពុងធ្វើ · ពិភព 3D | En cours · Monde en 3D |
 | ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `angkor.lead` | តំបន់អង្គរ និងសៀមរាប ដែលបានបង្កើតឡើងវិញជា 3D តាមទំហំពិត ពីទិន្នន័យភូមិសាស្ត្របើកចំហ។ មួយម៉ែត្រលើអេក្រង់ គឺមួយម៉ែត្រពិត៖ ការធ្វើដំណើរចំណាយពេលដូចពេលពិត។ អាចហោះពីលើ ឬបើកបរនៅក្នុងនោះ។ | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
 | ⏳ à relire | `angkor.status` | គំរូសាកល្បង (prototype) កំពុងអភិវឌ្ឍ | Prototype en cours de développement |
@@ -1858,7 +1858,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.tablet` | Календарь на планшете. | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | Панель управления: загрузка, заезды и выезды за день. | Le tableau de bord : occupation, arrivées et départs du jour. |
 | ⏳ à relire | `hms.gallery.captions.reports` | Отчёты: загрузка, средняя цена, доход на номер за последние 30 дней в сравнении с 30 днями до них. | Les rapports : occupation, prix moyen, revenu par chambre, sur les 30 derniers jours comparés aux 30 précédents. |
-| ⏳ à relire | `rally.eyebrow` | R&D · Игра для Android | R&D · Jeu Android |
+| ⏳ à relire | `rally.eyebrow` | В работе · Игра для Android | En cours · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | 3D-гонка по настоящим дорогам вокруг храмов Ангкора. С друзьями, у каждого свой телефон, в одной сети Wi-Fi или через точку доступа телефона: интернет не нужен. | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
 | ⏳ à relire | `rally.status` | Играбельная версия, ещё не опубликована | Jouable, pas encore publié |
@@ -1907,7 +1907,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.shows.items.2` | Открытые карты, превращённые в 3D-мир | Des cartes ouvertes transformées en monde en 3D |
 | ⏳ à relire | `rally.shows.items.3` | Приложение, переведённое на 7 языков | Une application traduite en 7 langues |
 | ⏳ à relire | `rally.shows.cta` | Все проекты | Voir toutes les réalisations |
-| ⏳ à relire | `angkor.eyebrow` | R&D · 3D-мир | R&D · Monde en 3D |
+| ⏳ à relire | `angkor.eyebrow` | В работе · 3D-мир | En cours · Monde en 3D |
 | ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `angkor.lead` | Район Ангкора и Сиемреапа, воссозданный в 3D в реальном масштабе по открытым географическим данным. Метр на экране — это настоящий метр: поездка длится столько же, сколько в жизни. Над ним можно летать или ездить по нему. | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
 | ⏳ à relire | `angkor.status` | Прототип в разработке | Prototype en cours de développement |
@@ -2995,7 +2995,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.gallery.captions.tablet` | 平板电脑上的房态日历。 | Le calendrier sur tablette. |
 | ⏳ à relire | `hms.gallery.captions.dashboard` | 仪表盘：入住率、今日抵店和离店。 | Le tableau de bord : occupation, arrivées et départs du jour. |
 | ⏳ à relire | `hms.gallery.captions.reports` | 报表：最近 30 天的入住率、平均房价和每间可售房收入，与之前 30 天对比。 | Les rapports : occupation, prix moyen, revenu par chambre, sur les 30 derniers jours comparés aux 30 précédents. |
-| ⏳ à relire | `rally.eyebrow` | 研发 · Android 游戏 | R&D · Jeu Android |
+| ⏳ à relire | `rally.eyebrow` | 进行中 · Android 游戏 | En cours · Jeu Android |
 | ⏳ à relire | `rally.title` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `rally.lead` | 在吴哥寺庙周边的真实道路上进行 3D 赛车。和朋友一起，每人一部手机，连接同一个 Wi-Fi 或手机热点即可：无需互联网。 | Une course en 3D sur les vraies routes autour des temples d'Angkor. Entre amis, un téléphone chacun, sur le même Wi-Fi ou le partage de connexion d'un téléphone : pas besoin d'internet. |
 | ⏳ à relire | `rally.status` | 可以玩，尚未发布 | Jouable, pas encore publié |
@@ -3044,7 +3044,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `rally.shows.items.2` | 把开放地图数据变成 3D 世界 | Des cartes ouvertes transformées en monde en 3D |
 | ⏳ à relire | `rally.shows.items.3` | 翻译成 7 种语言的应用 | Une application traduite en 7 langues |
 | ⏳ à relire | `rally.shows.cta` | 查看全部项目 | Voir toutes les réalisations |
-| ⏳ à relire | `angkor.eyebrow` | 研发 · 3D 世界 | R&D · Monde en 3D |
+| ⏳ à relire | `angkor.eyebrow` | 进行中 · 3D 世界 | En cours · Monde en 3D |
 | ⏳ à relire | `angkor.title` | Angkor World Engine | Angkor World Engine |
 | ⏳ à relire | `angkor.lead` | 基于开放地理数据，按真实比例用 3D 重建的吴哥和暹粒地区。屏幕上的一米就是真实的一米：路程花的时间和现实中一样。可以在上空飞行，也可以开车行驶。 | La région d'Angkor et de Siem Reap reconstruite en 3D à l'échelle réelle, à partir de données géographiques ouvertes. Un mètre à l'écran est un vrai mètre : un trajet dure autant qu'en vrai. On la survole ou on y conduit. |
 | ⏳ à relire | `angkor.status` | 原型，开发中 | Prototype en cours de développement |

@@ -1291,7 +1291,7 @@
     }
   },
   "rally": {
-    "eyebrow": "R&D · Android game",
+    "eyebrow": "In progress · Android game",
     "title": "Cambodia Rally",
     "lead": "A 3D race on the real roads around the temples of Angkor. With friends, one phone each, on the same Wi-Fi or one phone's hotspot: no internet needed.",
     "status": "Playable, not published yet",
@@ -1376,7 +1376,7 @@
     }
   },
   "angkor": {
-    "eyebrow": "R&D · 3D world",
+    "eyebrow": "In progress · 3D world",
     "title": "Angkor World Engine",
     "lead": "The Angkor and Siem Reap region rebuilt in 3D at real scale, from open geographic data. One metre on screen is a real metre: a journey takes as long as it really would. Fly over it or drive through it.",
     "status": "Prototype in development",
