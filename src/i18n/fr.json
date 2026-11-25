@@ -821,6 +821,7 @@
               "Vigie n'est pas un scanner de vulnérabilités : il compare les versions installées aux failles publiées. Une faille pas encore publiée, ou un logiciel mal identifié, peut lui échapper.",
               "Les applications Windows et macOS sont reliées à leur produit : Vigie propose la correspondance, nous la vérifions.",
               "Vigie ne corrige rien tout seul : il dit quoi mettre à jour et dans quel ordre. Les mises à jour se font ensuite, avec vous.",
+              "Pour l'instant, Vigie n'existe qu'en français ; les autres langues, dont le khmer, sont en préparation.",
               "Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation."
             ]
           }

@@ -821,6 +821,7 @@
               "Vigie is not a vulnerability scanner: it compares installed versions with published flaws. A flaw not yet published, or badly identified software, can slip through.",
               "Windows and macOS applications are linked to their product: Vigie suggests the match, we check it.",
               "Vigie doesn't fix anything by itself: it tells you what to update and in which order. The updates are then done with you.",
+              "For now, Vigie is only available in French; the other languages, including Khmer, are being prepared.",
               "Vigie is software made by Chantrea Systems. It is built and tested; it is being prepared for production."
             ]
           }

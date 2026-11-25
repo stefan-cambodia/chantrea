@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1313 textes relus.
+0 / 1314 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -443,7 +443,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.4.sections.6.list.0` | Vigie មិនមែនជាកម្មវិធីស្កេនរកចំណុចខ្សោយទេ៖ វាប្រៀបធៀបកំណែដែលបានដំឡើង ជាមួយចំណុចខ្សោយដែលបានផ្សព្វផ្សាយ។ ចំណុចខ្សោយដែលមិនទាន់ផ្សព្វផ្សាយ ឬកម្មវិធីដែលមិនត្រូវបានស្គាល់ត្រឹមត្រូវ អាចរួចផុតពីវា។ | Vigie n'est pas un scanner de vulnérabilités : il compare les versions installées aux failles publiées. Une faille pas encore publiée, ou un logiciel mal identifié, peut lui échapper. |
 | ⏳ à relire | `services.items.4.sections.6.list.1` | កម្មវិធី Windows និង macOS ត្រូវបានភ្ជាប់ទៅផលិតផលរបស់វា៖ Vigie ស្នើការផ្គូផ្គង ហើយយើងពិនិត្យវា។ | Les applications Windows et macOS sont reliées à leur produit : Vigie propose la correspondance, nous la vérifions. |
 | ⏳ à relire | `services.items.4.sections.6.list.2` | Vigie មិនកែអ្វីដោយខ្លួនឯងទេ៖ វាប្រាប់ថាត្រូវធ្វើបច្ចុប្បន្នភាពអ្វី និងតាមលំដាប់ណា។ បន្ទាប់មក ការធ្វើបច្ចុប្បន្នភាពត្រូវបានធ្វើជាមួយលោកអ្នក។ | Vigie ne corrige rien tout seul : il dit quoi mettre à jour et dans quel ordre. Les mises à jour se font ensuite, avec vous. |
-| ⏳ à relire | `services.items.4.sections.6.list.3` | Vigie គឺជាកម្មវិធីរបស់ Chantrea Systems។ វាត្រូវបានអភិវឌ្ឍ និងសាកល្បងរួចហើយ ហើយការដាក់ឱ្យដំណើរការកំពុងត្រូវបានរៀបចំ។ | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
+| ⏳ à relire | `services.items.4.sections.6.list.3` | បច្ចុប្បន្ននេះ Vigie មានតែជាភាសាបារាំងប៉ុណ្ណោះ។ ភាសាផ្សេងទៀត រួមទាំងភាសាខ្មែរ កំពុងត្រូវបានរៀបចំ។ | Pour l'instant, Vigie n'existe qu'en français ; les autres langues, dont le khmer, sont en préparation. |
+| ⏳ à relire | `services.items.4.sections.6.list.4` | Vigie គឺជាកម្មវិធីរបស់ Chantrea Systems។ វាត្រូវបានអភិវឌ្ឍ និងសាកល្បងរួចហើយ ហើយការដាក់ឱ្យដំណើរការកំពុងត្រូវបានរៀបចំ។ | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
 | ⏳ à relire | `services.items.4.trademarks` | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian និង Slack គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian et Slack sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.5.id` | business-software | business-software |
 | ⏳ à relire | `services.items.5.parent` | infrastructure | infrastructure |
@@ -1328,7 +1329,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1313 textes relus.
+0 / 1314 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1763,7 +1764,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.4.sections.6.list.0` | Vigie — не сканер уязвимостей: он сравнивает установленные версии с опубликованными уязвимостями. Ещё не опубликованная уязвимость или неверно определённая программа могут остаться незамеченными. | Vigie n'est pas un scanner de vulnérabilités : il compare les versions installées aux failles publiées. Une faille pas encore publiée, ou un logiciel mal identifié, peut lui échapper. |
 | ⏳ à relire | `services.items.4.sections.6.list.1` | Приложения Windows и macOS сопоставляются с их продуктом: Vigie предлагает соответствие, мы его проверяем. | Les applications Windows et macOS sont reliées à leur produit : Vigie propose la correspondance, nous la vérifions. |
 | ⏳ à relire | `services.items.4.sections.6.list.2` | Vigie ничего не исправляет сам: он говорит, что обновить и в каком порядке. Обновления затем выполняются вместе с вами. | Vigie ne corrige rien tout seul : il dit quoi mettre à jour et dans quel ordre. Les mises à jour se font ensuite, avec vous. |
-| ⏳ à relire | `services.items.4.sections.6.list.3` | Vigie — программа Chantrea Systems. Она разработана и протестирована; ввод в эксплуатацию готовится. | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
+| ⏳ à relire | `services.items.4.sections.6.list.3` | Пока Vigie существует только на французском; другие языки, включая кхмерский, готовятся. | Pour l'instant, Vigie n'existe qu'en français ; les autres langues, dont le khmer, sont en préparation. |
+| ⏳ à relire | `services.items.4.sections.6.list.4` | Vigie — программа Chantrea Systems. Она разработана и протестирована; ввод в эксплуатацию готовится. | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
 | ⏳ à relire | `services.items.4.trademarks` | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian и Slack — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian et Slack sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.5.id` | business-software | business-software |
 | ⏳ à relire | `services.items.5.parent` | infrastructure | infrastructure |
@@ -2648,7 +2650,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1312 textes relus.
+0 / 1313 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -3083,7 +3085,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.4.sections.6.list.0` | Vigie 不是漏洞扫描器：它把已安装的版本与已公布的漏洞进行比对。尚未公布的漏洞，或未被正确识别的软件，可能会被遗漏。 | Vigie n'est pas un scanner de vulnérabilités : il compare les versions installées aux failles publiées. Une faille pas encore publiée, ou un logiciel mal identifié, peut lui échapper. |
 | ⏳ à relire | `services.items.4.sections.6.list.1` | Windows 和 macOS 应用会关联到对应的产品：由 Vigie 提出匹配建议，我们来核实。 | Les applications Windows et macOS sont reliées à leur produit : Vigie propose la correspondance, nous la vérifions. |
 | ⏳ à relire | `services.items.4.sections.6.list.2` | Vigie 不会自行修复任何问题：它告诉您该更新什么、按什么顺序。随后由我们与您一起完成更新。 | Vigie ne corrige rien tout seul : il dit quoi mettre à jour et dans quel ordre. Les mises à jour se font ensuite, avec vous. |
-| ⏳ à relire | `services.items.4.sections.6.list.3` | Vigie 是 Chantrea Systems 的软件。它已完成开发和测试，正在准备上线。 | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
+| ⏳ à relire | `services.items.4.sections.6.list.3` | Vigie 目前只有法语版；包括高棉语在内的其他语言正在准备中。 | Pour l'instant, Vigie n'existe qu'en français ; les autres langues, dont le khmer, sont en préparation. |
+| ⏳ à relire | `services.items.4.sections.6.list.4` | Vigie 是 Chantrea Systems 的软件。它已完成开发和测试，正在准备上线。 | Vigie est un logiciel de Chantrea Systems. Il est développé et testé ; sa mise en service est en préparation. |
 | ⏳ à relire | `services.items.4.trademarks` | GLPI、Microsoft、Windows、macOS、Red Hat、Ubuntu、Debian 和 Slack 是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | GLPI, Microsoft, Windows, macOS, Red Hat, Ubuntu, Debian et Slack sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. |
 | ⏳ à relire | `services.items.5.id` | business-software | business-software |
 | ⏳ à relire | `services.items.5.parent` | infrastructure | infrastructure |
