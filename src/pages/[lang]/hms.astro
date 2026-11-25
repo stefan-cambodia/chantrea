@@ -14,6 +14,14 @@ const tr = t(lang);
 const h = tr.hms;
 const screens = screensFor(lang);
 const heroScreen = screens.find((s) => s.caption === 'dashboard');
+const tabletScreen = screens.find((s) => s.caption === 'tablet');
+// Fonctions « en cours de validation » : repérées par la fin de leur texte (hms.validating, une ou
+// plusieurs formes par langue). Le texte est affiché sans cette fin, suivi d'une pastille.
+const validating: string[] = h.validating ?? [];
+const splitItem = (item: string) => {
+  const tag = validating.find((v) => item.endsWith(v));
+  return tag ? { text: item.slice(0, -tag.length).replace(/\s*[:：៖]\s*$/u, ''), tag } : { text: item };
+};
 // Pictogramme de chaque groupe de fonctions, dans l'ordre de hms.groups (identique dans toutes les langues).
 const groupIcons = ['calendar', 'bell', 'users', 'tag', 'receipt', 'moon', 'wrench', 'utensils', 'car', 'chart', 'badge', 'sun'];
 
@@ -37,23 +45,36 @@ const softwareJsonLd = {
         <p class="eyebrow">{h.eyebrow}</p>
         <h1>{h.title}</h1>
         <p class="lead">{h.lead}</p>
+        {/* Les cinq langues des écrans de HMS (décoratif : le texte le dit déjà). */}
+        <p class="hero-badges" aria-hidden="true">
+          <span lang="km">ខ្មែរ</span><span>English</span><span>Français</span><span lang="zh-Hans">中文</span><span>Русский</span>
+        </p>
         <div class="actions">
           <a class="btn btn--primary" href={href(lang, 'contact')}>{h.cta}</a>
           <a class="btn btn--ghost" href="#gallery-title">{h.gallery.title} ↓</a>
         </div>
       </div>
       {/* Capture du tableau de bord dans un cadre de navigateur (décoratif : la même capture est dans la galerie). */}
-      <div class="browser-frame" aria-hidden="true">
-        <div class="browser-frame__bar"><span></span><span></span><span></span></div>
-        <Picture
-          src={heroScreen.src}
-          alt=""
-          formats={['avif', 'webp']}
-          widths={[480, 720, 960]}
-          sizes="(min-width: 1120px) 560px, (min-width: 900px) 50vw, 100vw"
-          quality={80}
-          loading="eager"
-        />
+      <div class="hms-devices" aria-hidden="true">
+        <div class="browser-frame">
+          <div class="browser-frame__bar"><span></span><span></span><span></span></div>
+          <Picture
+            src={heroScreen.src}
+            alt=""
+            formats={['avif', 'webp']}
+            widths={[480, 720, 960]}
+            sizes="(min-width: 1120px) 560px, (min-width: 900px) 50vw, 100vw"
+            quality={80}
+            loading="eager"
+          />
+        </div>
+        {/* La même application sur tablette, posée devant l'ordinateur. */}
+        {tabletScreen && (
+          <div class="tablet-frame">
+            <Picture src={tabletScreen.src} alt="" formats={['avif', 'webp']} widths={[280, 420]}
+              sizes="(min-width: 900px) 220px, 40vw" quality={80} loading="eager" />
+          </div>
+        )}
       </div>
     </div>
     <div class="hero__moon hero__moon--small" aria-hidden="true"></div>
@@ -87,7 +108,13 @@ const softwareJsonLd = {
               <span class="hms-icon-box"><HmsIcon name={groupIcons[i] ?? 'dot'} /></span>
               <h3>{g.title}</h3>
             </div>
-            <ul class="checklist checklist--sm">{g.items.map((i) => <li>{i}</li>)}</ul>
+            <ul class="checklist checklist--sm">
+              {g.items.map(splitItem).map((it) => (
+                <li class={it.tag ? 'is-validating' : undefined}>
+                  {it.text}{it.tag && <><span class="sr-only"> : </span><span class="validating-pill">{it.tag}</span></>}
+                </li>
+              ))}
+            </ul>
           </li>
         ))}
       </ul>

@@ -1460,6 +1460,9 @@
       ]
     },
     "featuresTitle": "Ce que fait HMS",
+    "validating": [
+      "en cours de validation"
+    ],
     "groups": [
       {
         "title": "Réservations",

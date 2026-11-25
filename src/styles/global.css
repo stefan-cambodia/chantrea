@@ -385,6 +385,21 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .browser-frame__bar span { width: .6rem; height: .6rem; border-radius: 50%; background: var(--night-line); }
 .browser-frame img { display: block; width: 100%; height: auto; }
 @media (max-width: 899px) { .browser-frame { transform: none; } }
+/* Ordinateur + tablette dans le haut de la page HMS */
+.hms-devices { position: relative; padding-bottom: 2.5rem; }
+.tablet-frame {
+  position: absolute; left: -1.5rem; bottom: 0; z-index: 2; width: 42%; padding: .45rem; border-radius: 16px;
+  background: #11161f; border: 1px solid var(--night-line); box-shadow: 0 20px 50px rgba(0, 0, 0, .55);
+}
+.tablet-frame img { display: block; width: 100%; height: auto; border-radius: 9px; }
+@media (max-width: 899px) { .tablet-frame { left: .5rem; width: 38%; } }
+/* Fonctions « en cours de validation » de la page HMS */
+.hms-features .is-validating { padding: .35rem .5rem .35rem 1.9rem; margin-left: -.5rem; border: 1px dashed color-mix(in srgb, var(--accent) 45%, var(--line)); border-radius: 8px; }
+.hms-features .is-validating::before { left: .45rem; top: .55rem; opacity: .55; }
+.validating-pill {
+  display: inline-block; margin-left: .4rem; padding: .05rem .5rem; border-radius: 999px; font-size: .78rem; font-weight: 700;
+  color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface)); white-space: nowrap;
+}
 @media (prefers-reduced-motion: reduce) { .browser-frame { transform: none; } }
 .hms-icon-box {
   display: inline-grid; place-items: center; flex: none; width: 2.6rem; height: 2.6rem; border-radius: 11px;

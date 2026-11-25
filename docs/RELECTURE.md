@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1248 textes relus.
+0 / 1249 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -761,6 +761,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.demo.points.1` | លើកុំព្យូទ័រ ថេប្លេត និងទូរស័ព្ទ | Sur ordinateur, tablette et téléphone |
 | ⏳ à relire | `hms.demo.points.2` | នៅនឹងកន្លែងនៅកំពត ឬពីចម្ងាយ | Sur place à Kampot, ou à distance |
 | ⏳ à relire | `hms.featuresTitle` | អ្វីដែល HMS ធ្វើបាន | Ce que fait HMS |
+| ⏳ à relire | `hms.validating.0` | កំពុងត្រួតពិនិត្យ | en cours de validation |
 | ⏳ à relire | `hms.groups.0.title` | ការកក់បន្ទប់ | Réservations |
 | ⏳ à relire | `hms.groups.0.items.0` | ប្រតិទិនបន្ទប់ អាចអូស និងទម្លាក់បាន | Calendrier des chambres, avec glisser-déposer |
 | ⏳ à relire | `hms.groups.0.items.1` | ការកក់ច្រើនបន្ទប់ សម្រង់តម្លៃ ការកែប្រែ និងការលុបចោល | Réservations de plusieurs chambres, devis, modifications et annulations |
@@ -1263,7 +1264,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1247 textes relus.
+0 / 1249 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2015,6 +2016,8 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.demo.points.1` | На компьютере, планшете и телефоне | Sur ordinateur, tablette et téléphone |
 | ⏳ à relire | `hms.demo.points.2` | На месте в Кампоте или удалённо | Sur place à Kampot, ou à distance |
 | ⏳ à relire | `hms.featuresTitle` | Что умеет HMS | Ce que fait HMS |
+| ⏳ à relire | `hms.validating.0` | проходит проверку | en cours de validation |
+| ⏳ à relire | `hms.validating.1` | проходят проверку |  |
 | ⏳ à relire | `hms.groups.0.title` | Бронирования | Réservations |
 | ⏳ à relire | `hms.groups.0.items.0` | Календарь номеров с перетаскиванием | Calendrier des chambres, avec glisser-déposer |
 | ⏳ à relire | `hms.groups.0.items.1` | Бронирование нескольких номеров, сметы, изменения и отмены | Réservations de plusieurs chambres, devis, modifications et annulations |
@@ -2517,7 +2520,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1247 textes relus.
+0 / 1248 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -3269,6 +3272,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `hms.demo.points.1` | 电脑、平板和手机都能用 | Sur ordinateur, tablette et téléphone |
 | ⏳ à relire | `hms.demo.points.2` | 在贡布现场演示，或远程演示 | Sur place à Kampot, ou à distance |
 | ⏳ à relire | `hms.featuresTitle` | HMS 能做什么 | Ce que fait HMS |
+| ⏳ à relire | `hms.validating.0` | 验证中 | en cours de validation |
 | ⏳ à relire | `hms.groups.0.title` | 预订 | Réservations |
 | ⏳ à relire | `hms.groups.0.items.0` | 房间日历，支持拖放 | Calendrier des chambres, avec glisser-déposer |
 | ⏳ à relire | `hms.groups.0.items.1` | 多房间预订、报价、修改和取消 | Réservations de plusieurs chambres, devis, modifications et annulations |

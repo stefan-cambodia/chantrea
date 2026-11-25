@@ -1459,6 +1459,9 @@
       ]
     },
     "featuresTitle": "HMS 能做什么",
+    "validating": [
+      "验证中"
+    ],
     "groups": [
       {
         "title": "预订",
