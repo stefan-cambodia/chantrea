@@ -27,7 +27,8 @@ const domains = tr.services.items.filter((i) => !i.parent);
 const hmsScreen = screensFor(lang).find((s) => s.caption === 'dashboard');
 
 // Sélection de réalisations, dans l'ordre de la page Réalisations :
-// deux projets en cours avec image, tous les projets de « Nos réalisations », puis « Son et musique » avec image.
+// deux projets en cours, tous les projets de « Nos réalisations », puis « Son et musique », chacun avec son image
+// (HMS : tableau de bord dans la langue de la page ; les autres : src/data/work-images.js).
 const project = (id) => ({ ...projects.find((p) => p.id === id), ...w.items[id] });
 const byGroup = (g) => projects.filter((p) => p.group === g).map((p) => project(p.id));
 const workGroups = [
@@ -38,7 +39,10 @@ const workGroups = [
       { ...project('angkor'), image: angkorScreen.src },
     ],
   },
-  { id: 'products', tag: 'tag--product', card: 'project--product', items: byGroup('products') },
+  {
+    id: 'products', tag: 'tag--product', card: 'project--product',
+    items: byGroup('products').map((p) => ({ ...p, image: p.id === 'hms' ? hmsScreen.src : workImages[p.id]?.[0] })),
+  },
   { id: 'sound', tag: 'tag--sound', card: 'project--sound', items: byGroup('sound').map((p) => ({ ...p, image: workImages[p.id]?.[0] })) },
 ];
 ---
