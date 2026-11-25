@@ -1,7 +1,12 @@
 ---
+// Réalisations : « Nos réalisations » puis « En cours de développement », une vignette par carte.
+// Projets : src/data/projects.js ; vignettes : src/data/work-images.js.
 import Page from '../../layouts/Page.astro';
 import PageHero from '../../components/PageHero.astro';
+import { Picture } from 'astro:assets';
 import projects from '../../data/projects.js';
+import workImages from '../../data/work-images.js';
+import { screensFor } from '../../data/hms-screens.js';
 import { langPaths, t, href } from '../../i18n/index.js';
 
 export const getStaticPaths = langPaths;
@@ -9,32 +14,73 @@ export const getStaticPaths = langPaths;
 const { lang } = Astro.params;
 const tr = t(lang);
 const w = tr.work;
+const images = { ...workImages, hms: [screensFor(lang).find((s) => s.caption === 'dashboard').src] };
 const groups = ['products', 'skills'].map((g) => ({
   id: g,
   ...w[g],
-  items: projects.filter((p) => p.group === g).map((p) => ({ ...p, ...w.items[p.id] })),
+  items: projects
+    .filter((p) => p.group === g)
+    .map((p) => ({
+      ...p,
+      ...w.items[p.id],
+      images: images[p.id] ?? [],
+      target: p.page ? href(lang, p.page) : p.url,
+    })),
 }));
 ---
 <Page lang={lang} page="work" title={tr.meta.work.title} description={tr.meta.work.description}>
-  <PageHero title={w.title} lead={w.lead} />
+  <PageHero title={w.title} lead={w.lead}>
+    {/* Raccourcis vers les deux sections, avec le nombre de projets. */}
+    <ul class="work-jump">
+      {groups.map((g) => (
+        <li>
+          <a href={`#${g.id}`}>{g.title}<span class="work-jump__count">{g.items.length}</span></a>
+        </li>
+      ))}
+    </ul>
+  </PageHero>
 
   {groups.map((g, gi) => (
-    <section class={`section ${gi % 2 ? 'section--alt' : ''}`} aria-labelledby={`${g.id}-title`}>
+    <section id={g.id} class={`section work-group ${gi % 2 ? 'section--alt' : ''}`} aria-labelledby={`${g.id}-title`}>
       <div class="container">
         <h2 id={`${g.id}-title`} class="group-title"><span class={`tag ${g.id === 'products' ? 'tag--product' : 'tag--rd'}`}>{g.tag}</span> {g.title}</h2>
         <p class="section__intro">{g.intro}</p>
-        <ul class="cards cards--2">
+        <ul class="cards cards--2 work-cards">
           {g.items.map((p) => (
             <li class={`card project ${g.id === 'products' ? 'project--product' : 'project--rd'}`}>
+              {p.images.length > 0 && (
+                <a
+                  class={p.images.length > 1 ? 'project__media project__media--mosaic' : 'project__media'}
+                  href={p.target ?? undefined}
+                  target={p.url && !p.page ? '_blank' : undefined}
+                  rel={p.url && !p.page ? 'noopener' : undefined}
+                  tabindex="-1"
+                  aria-hidden="true"
+                >
+                  {p.images.map((img) => (
+                    <Picture
+                      src={img}
+                      alt=""
+                      formats={['avif', 'webp']}
+                      widths={p.images.length > 1 ? [280, 400] : [480, 720, 960]}
+                      sizes={p.images.length > 1
+                        ? '(min-width: 1120px) 268px, (min-width: 640px) 25vw, 50vw'
+                        : '(min-width: 1120px) 536px, (min-width: 640px) 50vw, 100vw'}
+                      quality={75}
+                      loading="lazy"
+                    />
+                  ))}
+                </a>
+              )}
               {p.kind && <p class="eyebrow">{p.kind}</p>}
               <h3>{p.title}</h3>
               {p.status && <p class="status"><span class="sr-only">{w.status} : </span>{p.status}</p>}
               {p.text && <p>{p.text}</p>}
               {p.list && <ul class="checklist checklist--sm">{p.list.map((i) => <li>{i}</li>)}</ul>}
               {p.shows && <p class="shows">{p.shows}</p>}
-              {p.link && p.page && <a class="card__link" href={href(lang, p.page)}>{p.link}</a>}
+              {p.link && p.page && <a class="btn btn--ghost project__cta" href={href(lang, p.page)}>{p.link} →</a>}
               {p.link && p.url && (
-                <a class="card__link" href={p.url} target="_blank" rel="noopener">
+                <a class="btn btn--ghost project__cta" href={p.url} target="_blank" rel="noopener">
                   {p.link} ↗<span class="sr-only"> {tr.a11y.newWindow}</span>
                 </a>
               )}

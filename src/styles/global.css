@@ -422,6 +422,36 @@ h2.group-title { margin-top: 0; }
 .project__media { display: block; margin: -1.4rem -1.4rem 1.1rem; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; }
 .project__media img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
 .project h4 { margin-bottom: .5rem; }
+
+/* ─── Page Réalisations : vignettes, raccourcis, survol ─────── */
+.work-jump { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; }
+.work-jump a {
+  display: inline-flex; align-items: center; gap: .6rem; min-height: 44px; padding: .45rem .55rem .45rem 1rem;
+  border-radius: 999px; border: 1px solid var(--night-line); background: var(--night-surface);
+  color: var(--night-text) !important; text-decoration: none; font-weight: 600; font-size: .95rem;
+  transition: border-color .15s;
+}
+.work-jump a:hover, .work-jump a:focus-visible { border-color: var(--moon); }
+.work-jump__count {
+  display: inline-grid; place-items: center; min-width: 1.8rem; height: 1.8rem; padding: 0 .45rem; border-radius: 999px;
+  background: var(--moon); color: var(--moon-ink); font-family: var(--font-mono); font-size: .85rem; font-weight: 700;
+}
+.work-group { scroll-margin-top: 1rem; }
+.work-cards { gap: 1.25rem; }
+.work-cards .project { overflow: hidden; transition: transform .2s ease, box-shadow .2s ease; }
+.work-cards .project:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(11, 18, 32, .1); }
+.work-cards .project__media { border-bottom: 1px solid var(--line); background: var(--bg-alt); }
+.work-cards .project__media img { transition: transform .35s ease; }
+.work-cards .project:hover .project__media img { transform: scale(1.03); }
+.project__media--mosaic { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; aspect-ratio: 16 / 9; }
+.project__media--mosaic picture, .project__media--mosaic img { display: block; width: 100%; height: 100%; min-height: 0; }
+.project__media--mosaic img { aspect-ratio: auto; object-fit: cover; }
+.work-cards .project__cta { margin-top: auto; align-self: flex-start; }
+.work-cards .project__cta { position: relative; top: .4rem; }
+@media (prefers-reduced-motion: reduce) {
+  .work-cards .project, .work-cards .project__media img, .work-jump a { transition: none; }
+  .work-cards .project:hover, .work-cards .project:hover .project__media img { transform: none; }
+}
 .project .status + p { margin-top: .8rem; }
 .more-link { margin: 2rem 0 0; }
 
