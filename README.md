@@ -24,6 +24,7 @@ npm run preview    # affiche le site final
 | le lien « Espace client » (application Odoo)        | `site.config.mjs` → `portalUrl` (`null` = lien masqué) |
 | l'adresse du site (domaine)                         | `site.config.mjs` → `site` et `base`, voir `docs/DOMAINE.md` |
 | la liste des réalisations                           | `src/data/projects.js` + `work.items` dans chaque langue |
+| le compte GitHub de la page « Quoi de neuf ? »      | `site.config.mjs` → `github`               |
 | les couleurs                                        | `src/styles/global.css`, en haut du fichier |
 
 ## Modifier un texte
@@ -89,6 +90,26 @@ elles sont identiques dans les cinq fichiers.
 
 Règle : décrire ce que le projet fait pour l'utilisateur, jamais comment il est construit (pas de code, d'adresse de serveur, de nom de client).
 
+## Page « Quoi de neuf ? »
+
+La page `/fr/whats-new/` (lien « Quoi de neuf ? » du menu) affiche les 20 derniers changements des
+dépôts **publics** du compte GitHub noté dans `site.config.mjs` → `github`, regroupés par jour, à
+l'heure du Cambodge. Les dépôts privés et les copies (forks) n'y apparaissent jamais.
+
+- La liste est lue sur GitHub **pendant la construction du site** (`src/lib/changes.js`), puis écrite
+  dans la page : le navigateur du visiteur ne contacte pas GitHub, et la page n'a pas de JavaScript.
+- Elle se rafraîchit donc à chaque publication : à chaque envoi sur `main`, et quatre fois par jour
+  (`schedule` dans `.github/workflows/deploy.yml`).
+- Chaque ligne reprend le titre du commit tel qu'il a été écrit : il est visible par les clients.
+- Si GitHub ne répond pas pendant une publication, la page affiche un message à la place de la
+  liste et le reste du site est publié normalement. Pendant une mise à jour programmée, la
+  construction échoue à la place, et le site en ligne garde sa liste précédente.
+- Les textes de la page sont sous `whatsNew` dans chaque fichier de langue ; `{date}`, `{changes}`
+  et `{projects}` sont remplacés à la construction et ne se traduisent pas.
+
+En local, GitHub accepte 60 lectures par heure sans identification ; une construction en utilise
+moins de dix. Au-delà, lancer `GITHUB_TOKEN=$(gh auth token) npm run build`.
+
 ## Relecture des traductions
 
 Les textes khmers, russes et chinois ont été traduits par Claude depuis le français. Le khmer **doit** être relu par un locuteur natif.
@@ -101,7 +122,8 @@ node scripts/relecture.mjs   # met à jour docs/RELECTURE.md
 
 ## Publier
 
-Le site se publie **automatiquement** à chaque envoi sur la branche `main` (`.github/workflows/deploy.yml`).
+Le site se publie **automatiquement** à chaque envoi sur la branche `main` (`.github/workflows/deploy.yml`),
+et se reconstruit tout seul quatre fois par jour pour rafraîchir la page « Quoi de neuf ? ».
 
 Une seule fois au départ : sur GitHub, **Settings → Pages → Build and deployment → Source : GitHub Actions**.
 

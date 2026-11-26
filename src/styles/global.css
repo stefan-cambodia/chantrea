@@ -189,17 +189,20 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
 }
 .mobile-nav nav { position: absolute; left: 0; right: 0; top: 100%; background: var(--night-bg); border-bottom: 1px solid var(--night-line); padding: .5rem 1rem 1rem; }
-@media (min-width: 1000px) {
+/* Huit liens (avec « Quoi de neuf ? ») : le menu complet s'affiche à partir de 1100 px ;
+   en dessous, c'est le menu du téléphone. Le français, le plus long, sert de mesure. */
+@media (min-width: 1100px) {
   .main-nav { display: block; }
   .site-header__tools { margin-left: .5rem; }
   .mobile-nav { display: none; }
+  .main-nav a { padding-inline: .5rem; }
 }
 /* Avec le lien « Espace client », le menu complet demande plus de place. */
-@media (min-width: 1000px) and (max-width: 1199.98px) {
+@media (min-width: 1100px) and (max-width: 1199.98px) {
   .has-portal .main-nav { display: none; }
   .has-portal .site-header__tools { margin-left: auto; }
   .has-portal .mobile-nav { display: block; }
-  /* Sept liens (avec « Odoo ») : liens un peu plus serrés pour tenir à 1000 px. */
+  /* Liens un peu plus serrés pour tenir à 1100 px. */
   .main-nav a { padding-inline: .4rem; font-size: .95rem; }
 }
 
@@ -1115,4 +1118,38 @@ h2.group-title { margin-top: 0; }
 @media (prefers-reduced-motion: no-preference) {
   .lost__moon { animation: lost-glow 5s ease-in-out infinite; }
   @keyframes lost-glow { 50% { box-shadow: inset .2em -.06em 0 0 var(--moon), 0 0 90px -6px rgba(233, 223, 199, .6); } }
+}
+
+/* ─── Quoi de neuf ? ───────────────────────────────────────── */
+/* Une carte par jour ; une ligne par changement : heure, projet, message, identifiant. */
+.changes .section__intro { max-width: 46rem; }
+.changes-day + .changes-day { margin-top: 2rem; }
+.changes-day__title { margin: 0 0 .6rem; font-size: .85rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+:lang(km) .changes-day__title, :lang(zh) .changes-day__title { text-transform: none; letter-spacing: 0; font-size: .95rem; }
+.changes-list { padding: .3rem 1.2rem; }
+.change {
+  display: grid; grid-template-columns: 3.2rem minmax(0, 11rem) minmax(0, 1fr) auto; grid-template-areas: "time repo message sha";
+  align-items: baseline; gap: .35rem 1rem; padding: .7rem 0;
+}
+.change + .change { border-top: 1px solid var(--line); }
+.change__time { grid-area: time; font-family: var(--font-mono); font-size: .85rem; color: var(--muted); }
+.change__repo {
+  grid-area: repo; justify-self: start; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  padding: .15rem .5rem; border-radius: 6px; border: 1px solid var(--line); background: var(--bg-alt);
+  font-family: var(--font-mono); font-size: .78rem; font-weight: 700; line-height: 1.5; color: var(--text); text-decoration: none;
+}
+.change__repo:hover { border-color: var(--accent); }
+/* Message coupé après deux lignes : certains sont très longs ; le lien mène au texte complet. */
+.change__message {
+  grid-area: message; color: var(--text); text-decoration: none; overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden;
+}
+.change__message:hover { color: var(--accent); text-decoration: underline; }
+.change__sha { grid-area: sha; font-family: var(--font-mono); font-size: .8rem; color: var(--muted); }
+.changes__foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1.5rem; margin: 1.5rem 0 0; color: var(--muted); font-size: .95rem; }
+.changes__foot a { font-weight: 600; }
+.changes__error { margin-top: 0; }
+@media (max-width: 700px) {
+  .changes-list { padding-inline: 1rem; }
+  .change { grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "time repo sha" "message message message"; }
 }

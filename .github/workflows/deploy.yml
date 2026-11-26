@@ -1,10 +1,13 @@
-# Publie le site sur GitHub Pages à chaque envoi sur la branche main.
+# Publie le site sur GitHub Pages à chaque envoi sur la branche main, et le reconstruit quatre fois
+# par jour : la page « Quoi de neuf ? » lit les derniers changements sur GitHub pendant la construction.
 # Prérequis (une seule fois) : Settings → Pages → Source : « GitHub Actions ».
 name: Publication du site
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '23 */6 * * *' # 00:23, 06:23, 12:23 et 18:23 UTC (07:23, 13:23, 19:23 et 01:23 au Cambodge)
   workflow_dispatch:
 
 permissions:
@@ -19,6 +22,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-26.04
+    env:
+      # Jeton du workflow : lit les dépôts publics sans la limite de 60 lectures par heure.
+      GITHUB_TOKEN: ${{ github.token }}
+      # Mise à jour programmée : si GitHub ne donne pas la liste, la construction échoue
+      # et le site en ligne reste tel quel, avec sa liste précédente.
+      CHANGES_REQUIRED: ${{ github.event_name == 'schedule' && '1' || '' }}
     steps:
       - uses: actions/checkout@v7
       - uses: withastro/action@v6

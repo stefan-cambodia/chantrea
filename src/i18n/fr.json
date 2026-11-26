@@ -44,6 +44,10 @@
       "title": "Réalisations — Chantrea Systems",
       "description": "Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, des projets en cours comme Angkor en 3D, et de la musique dans le navigateur."
     },
+    "whatsNew": {
+      "title": "Quoi de neuf ? Les derniers changements — Chantrea Systems",
+      "description": "Les derniers changements enregistrés dans les projets publics de Chantrea Systems, du plus récent au plus ancien, lus sur GitHub."
+    },
     "about": {
       "title": "À propos — Chantrea Systems",
       "description": "Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance."
@@ -78,6 +82,7 @@
     "rally": "Cambodia Rally",
     "angkor": "Angkor 3D",
     "work": "Réalisations",
+    "whatsNew": "Quoi de neuf ?",
     "about": "À propos",
     "jobs": "Recrutement",
     "contact": "Contact",
@@ -2378,6 +2383,16 @@
         "link": "Voir le portfolio"
       }
     }
+  },
+  "whatsNew": {
+    "eyebrow": "Quoi de neuf ?",
+    "title": "Tout juste sorti de l'atelier.",
+    "lead": "Les derniers changements enregistrés dans nos projets publics, du plus récent au plus ancien : un aperçu de ce qui avance en ce moment.",
+    "source": "Liste lue sur GitHub, mise à jour plusieurs fois par jour. Dernière mise à jour : {date}. Les heures sont celles du Cambodge.",
+    "asWritten": "Chaque ligne est affichée telle qu'elle a été écrite, en français ou en anglais.",
+    "count": "Changements : {changes} · Projets : {projects}",
+    "all": "Toute l'activité sur GitHub",
+    "error": "La liste n'a pas pu être lue sur GitHub lors de la dernière mise à jour du site."
   },
   "about": {
     "title": "À propos",

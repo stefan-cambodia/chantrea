@@ -1,0 +1,80 @@
+---
+// Quoi de neuf ? : les derniers changements des projets publics, regroupés par jour.
+// La liste est lue sur GitHub pendant la construction du site (src/lib/changes.js) :
+// la page publiée est du HTML simple, sans JavaScript ni requête vers GitHub.
+import config from '../../../site.config.mjs';
+import Page from '../../layouts/Page.astro';
+import PageHero from '../../components/PageHero.astro';
+import { latestChanges } from '../../lib/changes.js';
+import { langPaths, language, t } from '../../i18n/index.js';
+
+export const getStaticPaths = langPaths;
+
+const { lang } = Astro.params;
+const tr = t(lang);
+const n = tr.whatsNew;
+const { items, failed, at } = await latestChanges();
+
+// Dates et heures écrites dans la langue de la page, à l'heure du Cambodge.
+const timeZone = 'Asia/Phnom_Penh';
+const locale = { fr: 'fr-FR', en: 'en-GB', km: 'km-KH', ru: 'ru-RU', zh: 'zh-CN' }[lang] ?? language(lang).hreflang;
+const dayKey = new Intl.DateTimeFormat('en-CA', { timeZone, year: 'numeric', month: '2-digit', day: '2-digit' });
+const dayLabel = new Intl.DateTimeFormat(locale, { timeZone, weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+const clock = new Intl.DateTimeFormat(locale, { timeZone, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
+const stamp = new Intl.DateTimeFormat(locale, { timeZone, day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
+
+// Un groupe par jour, du plus récent au plus ancien (la liste arrive déjà triée).
+const days = [];
+for (const c of items) {
+  const when = new Date(c.date);
+  const key = dayKey.format(when);
+  if (days.at(-1)?.key !== key) days.push({ key, label: dayLabel.format(when), items: [] });
+  days.at(-1).items.push({ ...c, time: clock.format(when), short: c.sha.slice(0, 7) });
+}
+
+const profile = `https://github.com/${config.github}`;
+const count = n.count
+  .replace('{changes}', String(items.length))
+  .replace('{projects}', String(new Set(items.map((c) => c.repo)).size));
+---
+<Page lang={lang} page="whats-new" title={tr.meta.whatsNew.title} description={tr.meta.whatsNew.description}>
+  <PageHero eyebrow={n.eyebrow} title={n.title} lead={n.lead} />
+
+  <section class="section">
+    <div class="container changes">
+      {failed ? (
+        <p class="note changes__error">{n.error}</p>
+      ) : (
+        <>
+          <p class="section__intro">{n.source.replace('{date}', stamp.format(at))} {n.asWritten}</p>
+          {days.map((day) => (
+            <section class="changes-day" aria-labelledby={`day-${day.key}`}>
+              <h2 id={`day-${day.key}`} class="changes-day__title">{day.label}</h2>
+              <ul class="card changes-list">
+                {day.items.map((c) => (
+                  <li class="change">
+                    <time class="change__time" datetime={c.date}>{c.time}</time>
+                    <a class="change__repo" href={c.repoUrl} target="_blank" rel="noopener">
+                      {c.repo}<span class="sr-only"> {tr.a11y.newWindow}</span>
+                    </a>
+                    {/* Les messages sont en français ou en anglais selon le projet : pas d'attribut lang fiable. */}
+                    <a class="change__message" href={c.url} title={c.message} target="_blank" rel="noopener">
+                      {c.message || c.short}<span class="sr-only"> {tr.a11y.newWindow}</span>
+                    </a>
+                    <span class="change__sha" aria-hidden="true">{c.short}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </>
+      )}
+      <p class="changes__foot">
+        {!failed && <span>{count}</span>}
+        <a href={profile} target="_blank" rel="noopener">
+          {n.all} ↗<span class="sr-only"> {tr.a11y.newWindow}</span>
+        </a>
+      </p>
+    </div>
+  </section>
+</Page>

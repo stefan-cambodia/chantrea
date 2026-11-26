@@ -26,7 +26,13 @@ export default {
 
   // Adresse de l'espace client Odoo, par exemple 'https://espace.chantreasystems.com/my'.
   // null = lien masqué.
+  // À régler avant de l'activer : avec ce neuvième lien, le menu complet est trop large en
+  // français (environ 110 px) et en russe (environ 75 px) sur un écran de 1200 px ou plus.
   portalUrl: null,
+
+  // Compte GitHub dont les dépôts PUBLICS alimentent la page « Quoi de neuf ? »
+  // (liste lue à chaque construction du site, voir src/lib/changes.js).
+  github: 'stefan-cambodia',
 
   location: {
     city: 'Kampot',
