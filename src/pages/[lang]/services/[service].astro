@@ -12,12 +12,15 @@
 //   entries : { icon, title, cards } → entrées par service : premier bloc de la page, reprises sur la
 //             page Services et sur l'accueil (OfferEntries.astro) ;
 //   terminal : 'usages' → fenêtre de terminal décorative dans le haut de page, une ligne par carte du
-//             bloc portant cet id (titre de la carte + son champ stack).
+//             bloc portant cet id (titre de la carte + son champ stack) ;
+//   mascot : 'tux' → Tux, la mascotte de Linux, posé au coin du terminal (src/assets/linux/, avec
+//             ses conditions d'utilisation ; le crédit est dans la note sur les marques de l'offre).
 import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
 import Sections from '../../../components/Sections.astro';
 import HmsIcon from '../../../components/HmsIcon.astro';
 import Terminal from '../../../components/Terminal.astro';
+import tuxUrl from '../../../assets/linux/tux.svg?url';
 import { languages, t, href } from '../../../i18n/index.js';
 import config from '../../../../site.config.mjs';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
@@ -51,6 +54,8 @@ const heroShot = gallery?.find((s) => s.src.width > s.src.height);
 // Fenêtre de terminal du haut de page : une ligne par carte du bloc désigné par item.terminal.
 const terminal = (item.sections.find((s) => item.terminal && s.id === item.terminal)?.cards ?? [])
   .filter((c) => c.stack).map((c) => ({ label: c.title, items: c.stack }));
+const mascots = { tux: { src: tuxUrl, width: 216, height: 256 } };
+const mascot = mascots[item.mascot];
 // Les entrées par service forment le premier bloc de la page.
 const sections = item.entries
   ? [{ id: 'services', title: item.entries.title, cards: item.entries.cards }, ...item.sections]
@@ -85,7 +90,12 @@ const shown = (showcase[service] ?? []).map((id) => {
             <Picture src={heroShot.src} alt="" formats={['avif', 'webp']} widths={[480, 720, 960]}
               sizes="(min-width: 1120px) 560px, (min-width: 900px) 50vw, 100vw" quality={80} loading="eager" />
           </div>
-        ) : <Terminal lines={terminal} />}
+        ) : (
+          <div class="hero-visual" aria-hidden="true">
+            <Terminal lines={terminal} />
+            {mascot && <img class="hero-visual__mascot" src={mascot.src} width={mascot.width} height={mascot.height} alt="" decoding="async" />}
+          </div>
+        )}
       </div>
       <div class="hero__moon hero__moon--small" aria-hidden="true"></div>
     </section>

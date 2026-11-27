@@ -14,6 +14,9 @@
 //     cols : 3                   → les cartes se rangent sur trois colonnes (écran large)
 //     fill : true                → la dernière carte d'un nombre impair prend toute la largeur
 //     chips : [{ ok, label, items }] → groupes de pastilles sous le texte (ex. jeux bloqués / qui fonctionnent)
+//     tone : 'ai' | 'development' | 'infrastructure' | 'security' → couleur d'un domaine pour le bloc
+//                                  ou pour une carte (pictogramme, bord) ; ne se traduit pas
+//     plain : true               → avec icon : le pictogramme devant le titre, mais sans le cadre de carte
 //     callout : true             → bloc mis en avant (encadré de couleur)
 //     icon : nom de HmsIcon      → le bloc s'affiche en carte, avec ce pictogramme devant le titre
 //     pending : true             → bloc « en cours de développement » (bordure en tirets, sablier)
@@ -30,13 +33,13 @@ import InvoiceMock from './InvoiceMock.astro';
 import { t, href } from '../i18n/index.js';
 interface Section {
   id?: string; title?: string; text?: string; list?: string[];
-  subtitle?: string; after?: string; note?: string; cols?: number; fill?: boolean;
+  subtitle?: string; after?: string; note?: string; cols?: number; fill?: boolean; tone?: string; plain?: boolean;
   chips?: { ok: boolean; label: string; items: string[] }[];
   defs?: { term: string; text: string }[];
   link?: { page: string; label: string };
   figure?: 'infra' | 'inventory' | 'invoice';
   flow?: string[]; tiles?: boolean; callout?: boolean; icon?: string; pending?: boolean; steps?: boolean; numbered?: boolean; scale?: boolean;
-  cards?: { icon?: string; title: string; text?: string; list?: string[]; anchor?: string; page?: string }[];
+  cards?: { icon?: string; title: string; text?: string; list?: string[]; anchor?: string; page?: string; tone?: string }[];
 }
 interface Props { sections: Section[]; lang: string }
 const { sections, lang } = Astro.props;
@@ -52,7 +55,8 @@ const tr = t(lang);
         </section>
       )
     ) : (
-      <section id={s.id} class={['prose-section', s.callout && 'prose-section--callout', s.icon && 'prose-section--card',
+      <section id={s.id} data-domain={s.tone}
+               class={['prose-section', s.callout && 'prose-section--callout', s.icon && !s.plain && 'prose-section--card',
                        s.pending && 'prose-section--pending'].filter(Boolean).join(' ')}>
         {s.title && (s.icon || s.pending
           ? <div class="prose-section__head"><span class="hms-icon-box"><HmsIcon name={s.icon ?? 'hourglass'} /></span><h2>{s.title}</h2></div>
@@ -90,7 +94,7 @@ const tr = t(lang);
           <ul class={['section-cards', s.numbered && 'section-cards--numbered', s.cols === 3 && 'section-cards--3',
                       s.fill && 'section-cards--fill'].filter(Boolean).join(' ')}>
             {s.cards.map((c, i) => (
-              <li class={c.anchor || c.page ? 'card section-card section-card--link' : 'card section-card'}>
+              <li class={c.anchor || c.page ? 'card section-card section-card--link' : 'card section-card'} data-domain={c.tone}>
                 <div class="section-card__head">
                   {s.numbered && <span class="section-card__num" aria-hidden="true">{i + 1}</span>}
                   {c.icon && <span class="hms-icon-box"><HmsIcon name={c.icon} /></span>}

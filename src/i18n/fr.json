@@ -1406,6 +1406,7 @@
           "Debian"
         ],
         "terminal": "usages",
+        "mascot": "tux",
         "actions": [
           {
             "label": "Faire le bilan de mon PC",
@@ -1463,6 +1464,7 @@
                 "title": "Jouer",
                 "text": "CachyOS et Steam. Le plus rapide pour les jeux.",
                 "anchor": "gaming",
+                "tone": "ai",
                 "stack": [
                   "CachyOS",
                   "Steam",
@@ -1474,6 +1476,7 @@
                 "title": "Travailler",
                 "text": "Ubuntu LTS. Stable, simple, suivi pendant cinq ans.",
                 "anchor": "desktop",
+                "tone": "development",
                 "stack": [
                   "Ubuntu LTS",
                   "LibreOffice",
@@ -1485,6 +1488,7 @@
                 "title": "Héberger",
                 "text": "Debian. La référence pour les serveurs.",
                 "anchor": "servers",
+                "tone": "infrastructure",
                 "stack": [
                   "Debian",
                   "Zabbix",
@@ -1534,6 +1538,7 @@
           {
             "id": "gaming",
             "icon": "cpu",
+            "tone": "ai",
             "title": "Jouer sous Linux : CachyOS et Steam",
             "text": "CachyOS est un Linux réglé pour la performance : noyau optimisé, pilotes graphiques récents, outils de jeu prêts à l'emploi. Steam s'installe en un clic. Grâce à Proton, la couche de compatibilité de Valve, la grande majorité des jeux Windows de votre bibliothèque se lancent comme avant.",
             "subtitle": "Ce que je fais",
@@ -1581,6 +1586,7 @@
           {
             "id": "desktop",
             "icon": "users",
+            "tone": "development",
             "title": "Poste de travail : Ubuntu",
             "text": "Au bureau, on cherche la stabilité. Une nouvelle version LTS d'Ubuntu sort tous les deux ans et reçoit cinq ans de correctifs de sécurité. L'interface est claire et vos employés s'y retrouvent vite.",
             "subtitle": "Ce que je fais",
@@ -1597,6 +1603,9 @@
           },
           {
             "id": "servers",
+            "icon": "server",
+            "plain": true,
+            "tone": "infrastructure",
             "title": "Serveurs : Debian, chez vous ou en centre de données",
             "text": "Debian est réputé depuis plus de trente ans pour sa stabilité. C'est un très bon socle pour vos services : Odoo, Nextcloud, Mattermost, GLPI, Zabbix, partage de fichiers, VPN.",
             "subtitle": "Où installer votre serveur ? Tout dépend de votre connexion Internet.",
@@ -1628,6 +1637,7 @@
           {
             "id": "maintenance",
             "icon": "wrench",
+            "tone": "infrastructure",
             "title": "Maintenance des serveurs",
             "text": "Un suivi régulier, les mises à jour, et une intervention en cas de panne.",
             "list": [
@@ -1638,15 +1648,26 @@
           },
           {
             "id": "how",
-            "icon": "calendar",
             "title": "Comment ça se passe",
-            "list": [
-              "Le bilan : vos usages, vos jeux ou logiciels, votre matériel, votre connexion.",
-              "La proposition écrite : ce qui fonctionne, ce qui change, le délai, le prix.",
-              "La migration : tout est sauvegardé avant, en commençant par un poste pilote.",
-              "La prise en main et le suivi : explications, documentation, maintenance si vous le souhaitez."
-            ],
-            "steps": true
+            "numbered": true,
+            "cards": [
+              {
+                "title": "Le bilan",
+                "text": "Vos usages, vos jeux ou logiciels, votre matériel, votre connexion."
+              },
+              {
+                "title": "La proposition écrite",
+                "text": "Ce qui fonctionne, ce qui change, le délai, le prix."
+              },
+              {
+                "title": "La migration",
+                "text": "Tout est sauvegardé avant, en commençant par un poste pilote."
+              },
+              {
+                "title": "La prise en main et le suivi",
+                "text": "Explications, documentation, maintenance si vous le souhaitez."
+              }
+            ]
           },
           {
             "icon": "tag",
@@ -1696,7 +1717,7 @@
             ]
           }
         ],
-        "trademarks": "Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
+        "trademarks": "Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. Tux, la mascotte de Linux : Larry Ewing (lewing@isc.tamu.edu) et The GIMP ; version vectorielle de Simon Budig et Garrett LeSage."
       }
     ]
   },

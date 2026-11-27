@@ -76,12 +76,16 @@ Une offre peut porter des champs facultatifs, tous utilisés par la page Linux (
   ancre de la page. Elles forment le premier bloc de la page de l'offre, et sont reprises en tuiles
   sur la page Services et sur l'accueil (`OfferEntries.astro`) ;
 - `terminal` : l'`id` du bloc dont les cartes alimentent la fenêtre de terminal du haut de page
-  (titre de la carte et son champ `stack`, une liste de noms qui ne se traduisent pas).
+  (titre de la carte et son champ `stack`, une liste de noms qui ne se traduisent pas) ;
+- `mascot` : `"tux"` pose Tux, la mascotte de Linux, au coin du terminal. L'image et ses conditions
+  d'utilisation sont dans `src/assets/linux/` ; le crédit est écrit dans `trademarks`.
 
 Dans un bloc de `sections`, `id` pose une ancre, `subtitle` un sous-titre, `after` un paragraphe après
 la liste ou les cartes, `note` une note encadrée ; une carte devient un lien avec `anchor` ou `page`.
 `cols: 3` range les cartes sur trois colonnes, `fill: true` donne toute la largeur à la dernière carte
 d'un nombre impair, et `chips` ajoute des groupes de pastilles sous le texte (`ok`, `label`, `items`).
+`tone` donne à un bloc ou à une carte la couleur d'un domaine (`ai`, `development`, `infrastructure`,
+`security`) ; `plain: true` garde le pictogramme d'un bloc devant son titre, sans le cadre de carte.
 Dans un texte, `[Nextcloud](services/nextcloud)` fait un lien vers une page du site, dans la langue
 de la page, et `[voir plus haut](#anti-cheat)` un lien vers une ancre.
 

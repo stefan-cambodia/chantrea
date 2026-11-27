@@ -1176,6 +1176,28 @@ h2.group-title { margin-top: 0; }
 .terminal__cursor { animation: terminal-blink 1.1s steps(1) infinite; }
 @keyframes terminal-blink { 50% { opacity: 0; } }
 :lang(km) .terminal__comment { font-family: "Kantumruy Pro", var(--font-km); }
+/* Les lignes du terminal apparaissent l'une après l'autre (sans animation si l'utilisateur le demande). */
+.terminal__body > p { animation: terminal-in .45s ease both; }
+.terminal__body > p:nth-child(1) { animation-delay: .15s; } .terminal__body > p:nth-child(2) { animation-delay: .4s; }
+.terminal__body > p:nth-child(3) { animation-delay: .8s; } .terminal__body > p:nth-child(4) { animation-delay: 1.05s; }
+.terminal__body > p:nth-child(5) { animation-delay: 1.45s; } .terminal__body > p:nth-child(6) { animation-delay: 1.7s; }
+.terminal__body > p:nth-child(7) { animation-delay: 2.1s; }
+@keyframes terminal-in { from { opacity: 0; transform: translateY(.3rem); } }
+
+/* Haut de page d'une offre : le terminal, et la mascotte posée sur son coin (Tux sur la page Linux). */
+.hero-visual { position: relative; padding-bottom: 2.2rem; }
+.hero-visual__mascot {
+  position: absolute; right: -.6rem; bottom: -.4rem; z-index: 2; width: clamp(5.5rem, 13vw, 9.5rem); height: auto;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, .45));
+}
+@media (max-width: 899px) { .hero-visual__mascot { right: .4rem; } }
+
+/* Couleur d'un domaine sur un bloc ou une carte (tone) : pictogramme et bord. */
+.prose-section[data-domain] > .prose-section__head .hms-icon-box, .section-card[data-domain] .hms-icon-box {
+  color: var(--d); background: color-mix(in srgb, var(--d) 14%, var(--surface));
+}
+.prose-section--card[data-domain] { border-top: 3px solid var(--d); }
+.prose-section[data-domain] > .prose-section__head { margin-bottom: .9rem; }
 
 /* Cartes d'un bloc : trois colonnes (cols: 3), dernière carte pleine largeur (fill: true). */
 @media (min-width: 760px) { .section-cards--3 { grid-template-columns: repeat(3, 1fr); } }
