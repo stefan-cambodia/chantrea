@@ -1404,6 +1404,8 @@
           "Ubuntu",
           "Debian"
         ],
+        "terminal": "usages",
+        "mascot": "tux",
         "actions": [
           {
             "label": "评估我的电脑",
@@ -1420,52 +1422,107 @@
           "title": "聊聊您的迁移",
           "emailSubject": "与 Chantrea Systems 的 Linux 项目"
         },
+        "entries": {
+          "icon": "cpu",
+          "title": "我为您做什么",
+          "cards": [
+            {
+              "icon": "check",
+              "title": "兼容性评估",
+              "text": "我会查看您的游戏、软件、硬件和网络。开始之前，您就知道哪些能用。",
+              "anchor": "how"
+            },
+            {
+              "icon": "swap",
+              "title": "迁移协助",
+              "text": "适用于游戏电脑或工作站。先全部备份，再迁移您的数据。",
+              "anchor": "usages"
+            },
+            {
+              "icon": "server",
+              "title": "服务器安装",
+              "text": "Debian，放在您那里或数据中心，取决于您的网络连接。",
+              "anchor": "servers"
+            },
+            {
+              "icon": "wrench",
+              "title": "服务器维护",
+              "text": "定期跟进、系统更新，出现故障时上门处理。",
+              "anchor": "maintenance"
+            }
+          ]
+        },
         "sections": [
           {
+            "id": "usages",
             "title": "三种用途，三套系统",
+            "cols": 3,
             "cards": [
               {
                 "icon": "cpu",
                 "title": "游戏",
                 "text": "CachyOS 和 Steam。玩游戏最快。",
-                "anchor": "gaming"
+                "anchor": "gaming",
+                "tone": "ai",
+                "stack": [
+                  "CachyOS",
+                  "Steam",
+                  "Proton"
+                ]
               },
               {
                 "icon": "users",
                 "title": "办公",
                 "text": "Ubuntu LTS。稳定、简单，提供五年支持。",
-                "anchor": "desktop"
+                "anchor": "desktop",
+                "tone": "development",
+                "stack": [
+                  "Ubuntu LTS",
+                  "LibreOffice",
+                  "Nextcloud"
+                ]
               },
               {
                 "icon": "server",
                 "title": "托管",
                 "text": "Debian。服务器的标杆。",
-                "anchor": "servers"
+                "anchor": "servers",
+                "tone": "infrastructure",
+                "stack": [
+                  "Debian",
+                  "Zabbix",
+                  "VPN"
+                ]
               }
             ]
           },
           {
-            "icon": "check",
             "title": "为什么改用 Linux",
-            "defs": [
+            "fill": true,
+            "cards": [
               {
-                "term": "无需购买许可证。",
+                "icon": "coins",
+                "title": "无需购买许可证。",
                 "text": "系统和办公软件都是免费且合法的。"
               },
               {
-                "term": "您的电脑重新派上用场。",
+                "icon": "cpu",
+                "title": "您的电脑重新派上用场。",
                 "text": "Linux 在 Windows 11 拒绝支持的电脑上运行得很好。不必再买新电脑。"
               },
               {
-                "term": "更安全，更少广告。",
+                "icon": "shield",
+                "title": "更安全，更少广告。",
                 "text": "病毒很少，系统里没有广告，也不会强制收集数据。"
               },
               {
-                "term": "何时更新由您决定。",
+                "icon": "bell",
+                "title": "何时更新由您决定。",
                 "text": "不会在开会或游戏中途被强制重启。"
               },
               {
-                "term": "长期支持。",
+                "icon": "calendar",
+                "title": "长期支持。",
                 "text": "Ubuntu 26.04 LTS 的安全补丁提供到 2031 年 4 月，Debian 13 提供到 2030 年 6 月。"
               }
             ],
@@ -1480,6 +1537,7 @@
           {
             "id": "gaming",
             "icon": "cpu",
+            "tone": "ai",
             "title": "在 Linux 上玩游戏：CachyOS 和 Steam",
             "text": "CachyOS 是一款为性能调校的 Linux：优化过的内核、最新的显卡驱动、开箱即用的游戏工具。Steam 一键安装。借助 Valve 的兼容层 Proton，您游戏库中绝大多数 Windows 游戏都能像以前一样启动。",
             "subtitle": "我做什么",
@@ -1497,6 +1555,28 @@
             "callout": true,
             "title": "无法运行的游戏",
             "text": "有些网络游戏使用的反作弊系统会屏蔽 Linux。截至 2026 年 11 月，Valorant、League of Legends、Call of Duty、Battlefield 6 和 Fortnite（已宣布支持 Linux，但还不能玩）都属于这种情况。其他竞技游戏运行得很好，例如 Counter-Strike 2、Marvel Rivals 或 ARC Raiders。如果您的某款游戏被屏蔽，我会在动手之前告诉您。",
+            "chips": [
+              {
+                "ok": false,
+                "label": "无法运行",
+                "items": [
+                  "Valorant",
+                  "League of Legends",
+                  "Call of Duty",
+                  "Battlefield 6",
+                  "Fortnite"
+                ]
+              },
+              {
+                "ok": true,
+                "label": "可以运行",
+                "items": [
+                  "Counter-Strike 2",
+                  "Marvel Rivals",
+                  "ARC Raiders"
+                ]
+              }
+            ],
             "_verifie": "vérifié le 27/11/2026"
           },
           {
@@ -1505,6 +1585,7 @@
           {
             "id": "desktop",
             "icon": "users",
+            "tone": "development",
             "title": "工作站：Ubuntu",
             "text": "办公讲究稳定。Ubuntu 每两年发布一个新的 LTS 版本，并提供五年的安全补丁。界面清晰，您的员工很快就能上手。",
             "subtitle": "我做什么",
@@ -1521,9 +1602,13 @@
           },
           {
             "id": "servers",
+            "icon": "server",
+            "plain": true,
+            "tone": "infrastructure",
             "title": "服务器：Debian，放在您那里或数据中心",
             "text": "三十多年来，Debian 一直以稳定著称。它是承载您各项服务的可靠基础：Odoo、Nextcloud、Mattermost、GLPI、Zabbix、文件共享、VPN。",
             "subtitle": "服务器装在哪里？这取决于您的网络连接。",
+            "fill": true,
             "cards": [
               {
                 "icon": "home",
@@ -1549,15 +1634,39 @@
             }
           },
           {
-            "icon": "calendar",
-            "title": "合作流程",
+            "id": "maintenance",
+            "icon": "wrench",
+            "tone": "infrastructure",
+            "title": "服务器维护",
+            "text": "定期跟进、系统更新，出现故障时上门处理。",
             "list": [
-              "评估：您的用途、您的游戏或软件、您的硬件、您的网络。",
-              "书面方案：哪些能用、哪些会改变、工期、价格。",
-              "迁移：先全部备份，从一台试点电脑开始。",
-              "上手与后续支持：讲解、文档，以及您需要时的维护。"
-            ],
-            "steps": true
+              "安全更新",
+              "经过测试的备份",
+              "用 Zabbix 监控"
+            ]
+          },
+          {
+            "id": "how",
+            "title": "合作流程",
+            "numbered": true,
+            "cards": [
+              {
+                "title": "评估",
+                "text": "您的用途、您的游戏或软件、您的硬件、您的网络。"
+              },
+              {
+                "title": "书面方案",
+                "text": "哪些能用、哪些会改变、工期、价格。"
+              },
+              {
+                "title": "迁移",
+                "text": "先全部备份，从一台试点电脑开始。"
+              },
+              {
+                "title": "上手与后续支持",
+                "text": "讲解、文档，以及您需要时的维护。"
+              }
+            ]
           },
           {
             "icon": "tag",
@@ -1587,6 +1696,7 @@
           },
           {
             "title": "相关服务",
+            "cols": 3,
             "cards": [
               {
                 "icon": "server",
@@ -1606,7 +1716,7 @@
             ]
           }
         ],
-        "trademarks": "Linux、CachyOS、Steam、Proton、Valve、Ubuntu、Debian、Windows、Microsoft 365、Word、Excel、PowerPoint、Google Workspace、Chrome、Firefox、Thunderbird、LibreOffice、NVIDIA、AMD、Epic Games、GOG、Heroic、Lutris、Discord、OBS、Adobe、Autodesk、Mac、Nextcloud、GLPI、Odoo、Mattermost、Zabbix 以及文中提到的游戏名称是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。"
+        "trademarks": "Linux、CachyOS、Steam、Proton、Valve、Ubuntu、Debian、Windows、Microsoft 365、Word、Excel、PowerPoint、Google Workspace、Chrome、Firefox、Thunderbird、LibreOffice、NVIDIA、AMD、Epic Games、GOG、Heroic、Lutris、Discord、OBS、Adobe、Autodesk、Mac、Nextcloud、GLPI、Odoo、Mattermost、Zabbix 以及文中提到的游戏名称是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。Tux 是 Linux 的吉祥物：Larry Ewing (lewing@isc.tamu.edu) 与 The GIMP；矢量版本由 Simon Budig 和 Garrett LeSage 制作。"
       }
     ]
   },

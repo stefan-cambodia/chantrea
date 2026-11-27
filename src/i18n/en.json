@@ -1405,6 +1405,8 @@
           "Ubuntu",
           "Debian"
         ],
+        "terminal": "usages",
+        "mascot": "tux",
         "actions": [
           {
             "label": "Get my PC checked",
@@ -1421,52 +1423,107 @@
           "title": "Let's talk about your migration",
           "emailSubject": "Linux project with Chantrea Systems"
         },
+        "entries": {
+          "icon": "cpu",
+          "title": "What I do for you",
+          "cards": [
+            {
+              "icon": "check",
+              "title": "Compatibility check",
+              "text": "I look at your games, your software, your hardware and your connection. You know what works before we start.",
+              "anchor": "how"
+            },
+            {
+              "icon": "swap",
+              "title": "Migration help",
+              "text": "For a gaming PC or workstations. Everything is backed up first, then I transfer your data.",
+              "anchor": "usages"
+            },
+            {
+              "icon": "server",
+              "title": "Server installation",
+              "text": "Debian, on your premises or in a data centre, depending on your Internet connection.",
+              "anchor": "servers"
+            },
+            {
+              "icon": "wrench",
+              "title": "Server maintenance",
+              "text": "Regular follow-up, updates, and a call-out when something breaks down.",
+              "anchor": "maintenance"
+            }
+          ]
+        },
         "sections": [
           {
+            "id": "usages",
             "title": "Three uses, three systems",
+            "cols": 3,
             "cards": [
               {
                 "icon": "cpu",
                 "title": "Play",
                 "text": "CachyOS and Steam. The fastest for games.",
-                "anchor": "gaming"
+                "anchor": "gaming",
+                "tone": "ai",
+                "stack": [
+                  "CachyOS",
+                  "Steam",
+                  "Proton"
+                ]
               },
               {
                 "icon": "users",
                 "title": "Work",
                 "text": "Ubuntu LTS. Stable, simple, supported for five years.",
-                "anchor": "desktop"
+                "anchor": "desktop",
+                "tone": "development",
+                "stack": [
+                  "Ubuntu LTS",
+                  "LibreOffice",
+                  "Nextcloud"
+                ]
               },
               {
                 "icon": "server",
                 "title": "Host",
                 "text": "Debian. The reference for servers.",
-                "anchor": "servers"
+                "anchor": "servers",
+                "tone": "infrastructure",
+                "stack": [
+                  "Debian",
+                  "Zabbix",
+                  "VPN"
+                ]
               }
             ]
           },
           {
-            "icon": "check",
             "title": "Why switch to Linux",
-            "defs": [
+            "fill": true,
+            "cards": [
               {
-                "term": "No licence to buy.",
+                "icon": "coins",
+                "title": "No licence to buy.",
                 "text": "The system and the office software are free and legal."
               },
               {
-                "term": "Your PC goes back to work.",
+                "icon": "cpu",
+                "title": "Your PC goes back to work.",
                 "text": "Linux runs very well on computers that Windows 11 refuses. No need to buy a new one."
               },
               {
-                "term": "More security, less advertising.",
+                "icon": "shield",
+                "title": "More security, less advertising.",
                 "text": "Few viruses, no advertising in the system, no forced data collection."
               },
               {
-                "term": "Updates when you decide.",
+                "icon": "bell",
+                "title": "Updates when you decide.",
                 "text": "No forced restart in the middle of a meeting or a game."
               },
               {
-                "term": "Support that lasts.",
+                "icon": "calendar",
+                "title": "Support that lasts.",
                 "text": "Ubuntu 26.04 LTS receives security patches until April 2031, Debian 13 until June 2030."
               }
             ],
@@ -1481,6 +1538,7 @@
           {
             "id": "gaming",
             "icon": "cpu",
+            "tone": "ai",
             "title": "Gaming on Linux: CachyOS and Steam",
             "text": "CachyOS is a Linux tuned for performance: an optimized kernel, recent graphics drivers, gaming tools ready to use. Steam installs in one click. Thanks to Proton, Valve's compatibility layer, the vast majority of the Windows games in your library launch just as before.",
             "subtitle": "What I do",
@@ -1498,6 +1556,28 @@
             "callout": true,
             "title": "The games that don't work",
             "text": "Some online games use an anti-cheat system that blocks Linux. As of November 2026, this is the case for Valorant, League of Legends, Call of Duty, Battlefield 6 and Fortnite (announced for Linux, but not yet playable). Other competitive games work very well, such as Counter-Strike 2, Marvel Rivals or ARC Raiders. If one of your games is blocked, I tell you before touching anything.",
+            "chips": [
+              {
+                "ok": false,
+                "label": "Blocked",
+                "items": [
+                  "Valorant",
+                  "League of Legends",
+                  "Call of Duty",
+                  "Battlefield 6",
+                  "Fortnite"
+                ]
+              },
+              {
+                "ok": true,
+                "label": "Working",
+                "items": [
+                  "Counter-Strike 2",
+                  "Marvel Rivals",
+                  "ARC Raiders"
+                ]
+              }
+            ],
             "_verifie": "vérifié le 27/11/2026"
           },
           {
@@ -1506,6 +1586,7 @@
           {
             "id": "desktop",
             "icon": "users",
+            "tone": "development",
             "title": "Workstations: Ubuntu",
             "text": "At the office, stability comes first. A new LTS version of Ubuntu comes out every two years and receives five years of security patches. The interface is clear and your employees quickly find their way around.",
             "subtitle": "What I do",
@@ -1522,9 +1603,13 @@
           },
           {
             "id": "servers",
+            "icon": "server",
+            "plain": true,
+            "tone": "infrastructure",
             "title": "Servers: Debian, on your premises or in a data centre",
             "text": "Debian has been known for its stability for more than thirty years. It is a very good foundation for your services: Odoo, Nextcloud, Mattermost, GLPI, Zabbix, file sharing, VPN.",
             "subtitle": "Where should your server go? It all depends on your Internet connection.",
+            "fill": true,
             "cards": [
               {
                 "icon": "home",
@@ -1550,15 +1635,39 @@
             }
           },
           {
-            "icon": "calendar",
-            "title": "How it works",
+            "id": "maintenance",
+            "icon": "wrench",
+            "tone": "infrastructure",
+            "title": "Server maintenance",
+            "text": "Regular follow-up, updates, and a call-out when something breaks down.",
             "list": [
-              "The check: your uses, your games or software, your hardware, your connection.",
-              "The written proposal: what works, what changes, the timeline, the price.",
-              "The migration: everything is backed up first, starting with a pilot workstation.",
-              "Getting started and follow-up: explanations, documentation, maintenance if you wish."
-            ],
-            "steps": true
+              "Security updates",
+              "Tested backups",
+              "Monitoring with Zabbix"
+            ]
+          },
+          {
+            "id": "how",
+            "title": "How it works",
+            "numbered": true,
+            "cards": [
+              {
+                "title": "The check",
+                "text": "Your uses, your games or software, your hardware, your connection."
+              },
+              {
+                "title": "The written proposal",
+                "text": "What works, what changes, the timeline, the price."
+              },
+              {
+                "title": "The migration",
+                "text": "Everything is backed up first, starting with a pilot workstation."
+              },
+              {
+                "title": "Getting started and follow-up",
+                "text": "Explanations, documentation, maintenance if you wish."
+              }
+            ]
           },
           {
             "icon": "tag",
@@ -1588,6 +1697,7 @@
           },
           {
             "title": "Related offers",
+            "cols": 3,
             "cards": [
               {
                 "icon": "server",
@@ -1607,7 +1717,7 @@
             ]
           }
         ],
-        "trademarks": "Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix and the names of the games mentioned are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+        "trademarks": "Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix and the names of the games mentioned are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers. Tux, the Linux mascot: Larry Ewing (lewing@isc.tamu.edu) and The GIMP; vector version by Simon Budig and Garrett LeSage."
       }
     ]
   },

@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1459 textes relus.
+0 / 1494 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -753,6 +753,20 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.metaDescription` | ការប្ដូរទៅ Linux នៅកំពត និងកម្ពុជា៖ CachyOS និង Steam សម្រាប់លេងហ្គេម Ubuntu សម្រាប់ការិយាល័យ Debian សម្រាប់ម៉ាស៊ីនមេ នៅកន្លែងលោកអ្នក ឬនៅមជ្ឈមណ្ឌលទិន្នន័យ (data center)។ | Migration vers Linux à Kampot et au Cambodge : CachyOS et Steam pour jouer, Ubuntu pour le bureau, Debian pour les serveurs, chez vous ou en centre de données. |
 | ⏳ à relire | `services.items.11.contact.title` | ពិភាក្សាអំពីការប្ដូរប្រព័ន្ធរបស់លោកអ្នក | Parlons de votre migration |
 | ⏳ à relire | `services.items.11.contact.emailSubject` | គម្រោង Linux ជាមួយ Chantrea Systems | Projet Linux avec Chantrea Systems |
+| ⏳ à relire | `services.items.11.entries.title` | អ្វីដែលខ្ញុំធ្វើសម្រាប់លោកអ្នក | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.11.entries.cards.0.title` | ការពិនិត្យភាពឆបគ្នា | Bilan de compatibilité |
+| ⏳ à relire | `services.items.11.entries.cards.0.text` | ខ្ញុំពិនិត្យហ្គេម កម្មវិធី ឧបករណ៍ និងការតភ្ជាប់របស់លោកអ្នក។ លោកអ្នកដឹងថាអ្វីដែលដំណើរការ មុនពេលចាប់ផ្ដើម។ | Je regarde vos jeux, vos logiciels, votre matériel et votre connexion. Vous savez ce qui fonctionne avant de commencer. |
+| ⏳ à relire | `services.items.11.entries.cards.0.anchor` | how | how |
+| ⏳ à relire | `services.items.11.entries.cards.1.title` | ជំនួយក្នុងការប្ដូរប្រព័ន្ធ | Aide à la migration |
+| ⏳ à relire | `services.items.11.entries.cards.1.text` | សម្រាប់កុំព្យូទ័រលេងហ្គេម ឬកុំព្យូទ័រការិយាល័យ។ អ្វីៗទាំងអស់ត្រូវបានបម្រុងទុកជាមុន បន្ទាប់មកខ្ញុំផ្ទេរទិន្នន័យរបស់លោកអ្នក។ | Pour un PC de jeu ou des postes de travail. Tout est sauvegardé avant, puis je transfère vos données. |
+| ⏳ à relire | `services.items.11.entries.cards.1.anchor` | usages | usages |
+| ⏳ à relire | `services.items.11.entries.cards.2.title` | ការដំឡើងម៉ាស៊ីនមេ | Installation de serveurs |
+| ⏳ à relire | `services.items.11.entries.cards.2.text` | Debian នៅកន្លែងលោកអ្នក ឬនៅមជ្ឈមណ្ឌលទិន្នន័យ (data center) អាស្រ័យលើការតភ្ជាប់អ៊ីនធឺណិតរបស់លោកអ្នក។ | Debian, chez vous ou en centre de données, selon votre connexion Internet. |
+| ⏳ à relire | `services.items.11.entries.cards.2.anchor` | servers | servers |
+| ⏳ à relire | `services.items.11.entries.cards.3.title` | ការថែទាំម៉ាស៊ីនមេ | Maintenance des serveurs |
+| ⏳ à relire | `services.items.11.entries.cards.3.text` | ការតាមដានជាប្រចាំ ការធ្វើបច្ចុប្បន្នភាព និងការចុះជួសជុលពេលមានបញ្ហា។ | Un suivi régulier, les mises à jour, et une intervention en cas de panne. |
+| ⏳ à relire | `services.items.11.entries.cards.3.anchor` | maintenance | maintenance |
+| ⏳ à relire | `services.items.11.sections.0.id` | usages | usages |
 | ⏳ à relire | `services.items.11.sections.0.title` | ការប្រើប្រាស់បី ប្រព័ន្ធបី | Trois usages, trois systèmes |
 | ⏳ à relire | `services.items.11.sections.0.cards.0.title` | លេងហ្គេម | Jouer |
 | ⏳ à relire | `services.items.11.sections.0.cards.0.text` | CachyOS និង Steam។ លឿនបំផុតសម្រាប់ហ្គេម។ | CachyOS et Steam. Le plus rapide pour les jeux. |
@@ -764,16 +778,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.0.cards.2.text` | Debian។ ជាស្តង់ដារសម្រាប់ម៉ាស៊ីនមេ។ | Debian. La référence pour les serveurs. |
 | ⏳ à relire | `services.items.11.sections.0.cards.2.anchor` | servers | servers |
 | ⏳ à relire | `services.items.11.sections.1.title` | ហេតុអ្វីគួរប្ដូរទៅ Linux | Pourquoi passer à Linux |
-| ⏳ à relire | `services.items.11.sections.1.defs.0.term` | មិនចាំបាច់ទិញអាជ្ញាប័ណ្ណ (license)។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.0.text` | ប្រព័ន្ធ និងកម្មវិធីការិយាល័យ គឺឥតគិតថ្លៃ និងស្របច្បាប់។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.1.term` | កុំព្យូទ័ររបស់លោកអ្នកអាចប្រើបានជាថ្មី។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.1.text` | Linux ដំណើរការបានល្អលើកុំព្យូទ័រដែល Windows 11 មិនទទួល។ មិនចាំបាច់ទិញកុំព្យូទ័រថ្មីទេ។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.2.term` | សុវត្ថិភាពជាងមុន ការផ្សាយពាណិជ្ជកម្មតិចជាងមុន។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.2.text` | មេរោគតិចតួច គ្មានការផ្សាយពាណិជ្ជកម្មក្នុងប្រព័ន្ធ គ្មានការប្រមូលទិន្នន័យដោយបង្ខំ។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.3.term` | ធ្វើបច្ចុប្បន្នភាពនៅពេលលោកអ្នកសម្រេច។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.3.text` | គ្មានការបិទបើកឡើងវិញដោយបង្ខំ នៅកណ្ដាលកិច្ចប្រជុំ ឬកណ្ដាលការលេងហ្គេមឡើយ។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.4.term` | ការគាំទ្ររយៈពេលវែង។ |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.4.text` | Ubuntu 26.04 LTS ទទួលបានការកែតម្រូវសុវត្ថិភាព (patch) រហូតដល់ខែមេសា ឆ្នាំ 2031 ហើយ Debian 13 រហូតដល់ខែមិថុនា ឆ្នាំ 2030។ |  |
+| ⏳ à relire | `services.items.11.sections.1.cards.0.title` | មិនចាំបាច់ទិញអាជ្ញាប័ណ្ណ (license)។ | Aucune licence à acheter. |
+| ⏳ à relire | `services.items.11.sections.1.cards.0.text` | ប្រព័ន្ធ និងកម្មវិធីការិយាល័យ គឺឥតគិតថ្លៃ និងស្របច្បាប់។ | Le système et les logiciels de bureau sont gratuits et légaux. |
+| ⏳ à relire | `services.items.11.sections.1.cards.1.title` | កុំព្យូទ័ររបស់លោកអ្នកអាចប្រើបានជាថ្មី។ | Votre PC reprend du service. |
+| ⏳ à relire | `services.items.11.sections.1.cards.1.text` | Linux ដំណើរការបានល្អលើកុំព្យូទ័រដែល Windows 11 មិនទទួល។ មិនចាំបាច់ទិញកុំព្យូទ័រថ្មីទេ។ | Linux tourne très bien sur des ordinateurs que Windows 11 refuse. Inutile d'en racheter un. |
+| ⏳ à relire | `services.items.11.sections.1.cards.2.title` | សុវត្ថិភាពជាងមុន ការផ្សាយពាណិជ្ជកម្មតិចជាងមុន។ | Plus de sécurité, moins de publicité. |
+| ⏳ à relire | `services.items.11.sections.1.cards.2.text` | មេរោគតិចតួច គ្មានការផ្សាយពាណិជ្ជកម្មក្នុងប្រព័ន្ធ គ្មានការប្រមូលទិន្នន័យដោយបង្ខំ។ | Peu de virus, pas de publicité dans le système, pas de collecte de données imposée. |
+| ⏳ à relire | `services.items.11.sections.1.cards.3.title` | ធ្វើបច្ចុប្បន្នភាពនៅពេលលោកអ្នកសម្រេច។ | Les mises à jour quand vous le décidez. |
+| ⏳ à relire | `services.items.11.sections.1.cards.3.text` | គ្មានការបិទបើកឡើងវិញដោយបង្ខំ នៅកណ្ដាលកិច្ចប្រជុំ ឬកណ្ដាលការលេងហ្គេមឡើយ។ | Pas de redémarrage forcé au milieu d'une réunion ou d'une partie. |
+| ⏳ à relire | `services.items.11.sections.1.cards.4.title` | ការគាំទ្ររយៈពេលវែង។ | Un suivi dans la durée. |
+| ⏳ à relire | `services.items.11.sections.1.cards.4.text` | Ubuntu 26.04 LTS ទទួលបានការកែតម្រូវសុវត្ថិភាព (patch) រហូតដល់ខែមេសា ឆ្នាំ 2031 ហើយ Debian 13 រហូតដល់ខែមិថុនា ឆ្នាំ 2030។ | Ubuntu 26.04 LTS reçoit des correctifs de sécurité jusqu'en avril 2031, Debian 13 jusqu'en juin 2030. |
 | ⏳ à relire | `services.items.11.sections.2.title` | នៅប្រើ Windows 10 ទៀតឬ? | Encore sous Windows 10 ? |
 | ⏳ à relire | `services.items.11.sections.2.text` | Microsoft បានបញ្ឈប់ការគាំទ្រធម្មតានៅខែតុលា ឆ្នាំ 2025។ កុំព្យូទ័រដែលបានចុះឈ្មោះក្នុងកម្មវិធីបច្ចុប្បន្នភាពបន្ថែម នៅតែទទួលបានបច្ចុប្បន្នភាពរហូតដល់ខែតុលា ឆ្នាំ 2027 បន្ទាប់មកលែងមានទៀតហើយ។ ឥឡូវនេះជាពេលដ៏ល្អដើម្បីរៀបចំជំហានបន្ទាប់ ដោយមិនចាំបាច់ទិញឧបករណ៍ថ្មី។ | Microsoft a arrêté le support normal en octobre 2025. Les PC inscrits au programme de mises à jour prolongées les reçoivent jusqu'en octobre 2027, puis plus rien. C'est le bon moment pour préparer la suite, sans racheter de matériel. |
 | ⏳ à relire | `services.items.11.sections.3.id` | gaming | gaming |
@@ -789,6 +803,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.4.id` | anti-cheat | anti-cheat |
 | ⏳ à relire | `services.items.11.sections.4.title` | ហ្គេមដែលមិនដំណើរការ | Les jeux qui ne passent pas |
 | ⏳ à relire | `services.items.11.sections.4.text` | ហ្គេមអនឡាញមួយចំនួនប្រើប្រព័ន្ធប្រឆាំងការបន្លំ (anti-cheat) ដែលរារាំង Linux។ គិតត្រឹមខែវិច្ឆិកា ឆ្នាំ 2026 ហ្គេមទាំងនោះរួមមាន Valorant, League of Legends, Call of Duty, Battlefield 6 និង Fortnite (បានប្រកាសថានឹងមានលើ Linux ប៉ុន្តែមិនទាន់អាចលេងបាននៅឡើយ)។ ហ្គេមប្រកួតប្រជែងផ្សេងទៀតដំណើរការបានល្អ ដូចជា Counter-Strike 2, Marvel Rivals ឬ ARC Raiders។ បើហ្គេមណាមួយរបស់លោកអ្នកត្រូវបានរារាំង ខ្ញុំប្រាប់លោកអ្នកមុនពេលប៉ះពាល់អ្វីទាំងអស់។ | Certains jeux en ligne utilisent un anti-triche qui bloque Linux. En novembre 2026, c'est le cas de Valorant, League of Legends, Call of Duty, Battlefield 6 et Fortnite (annoncé sous Linux, mais pas encore jouable). D'autres jeux compétitifs fonctionnent très bien, comme Counter-Strike 2, Marvel Rivals ou ARC Raiders. Si l'un de vos jeux est bloqué, je vous le dis avant de toucher à quoi que ce soit. |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.label` | ត្រូវបានរារាំង | Bloqués |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.0` | Valorant | Valorant |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.1` | League of Legends | League of Legends |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.2` | Call of Duty | Call of Duty |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.3` | Battlefield 6 | Battlefield 6 |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.4` | Fortnite | Fortnite |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.label` | ដំណើរការ | Fonctionnent |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.0` | Counter-Strike 2 | Counter-Strike 2 |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.1` | Marvel Rivals | Marvel Rivals |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.2` | ARC Raiders | ARC Raiders |
 | ⏳ à relire | `services.items.11.sections.5.note` | CachyOS ធ្វើបច្ចុប្បន្នភាពជាបន្តបន្ទាប់។ នេះហើយជាអ្វីដែលធ្វើឱ្យវាលឿនសម្រាប់ហ្គេម ប៉ុន្តែវាត្រូវការការយកចិត្តទុកដាក់ច្រើនជាងបន្តិច។ សម្រាប់កុំព្យូទ័រធ្វើការ ខ្ញុំសូមណែនាំ Ubuntu។ | CachyOS se met à jour en continu. C'est ce qui le rend si rapide pour les jeux, mais il demande un peu plus d'attention. Pour un ordinateur de travail, je conseille Ubuntu. |
 | ⏳ à relire | `services.items.11.sections.6.id` | desktop | desktop |
 | ⏳ à relire | `services.items.11.sections.6.title` | កុំព្យូទ័រការិយាល័យ៖ Ubuntu | Poste de travail : Ubuntu |
@@ -816,32 +840,43 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.7.note` | រួមបញ្ចូល៖ ការដំឡើង Debian ជញ្ជាំងភ្លើង (firewall) និងការចូលប្រើដោយសុវត្ថិភាព ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព ការបម្រុងទុកដែលបានសាកល្បង ការតាមដានប្រព័ន្ធជាមួយ Zabbix ការចូលប្រើពីចម្ងាយតាម VPN និងការប្រគល់ឯកសារពិពណ៌នា។ | Inclus : installation de Debian, pare-feu et accès sécurisés, mises à jour de sécurité, sauvegardes testées, supervision avec Zabbix, accès à distance par VPN, documentation remise. |
 | ⏳ à relire | `services.items.11.sections.7.link.page` | services/infrastructure | services/infrastructure |
 | ⏳ à relire | `services.items.11.sections.7.link.label` | ទីតាំងបង្ហោះ (hosting) លម្អិត | Les lieux d'hébergement en détail |
-| ⏳ à relire | `services.items.11.sections.8.title` | ដំណើរការការងារ | Maintenance des serveurs |
-| ⏳ à relire | `services.items.11.sections.8.list.0` | ការពិនិត្យ៖ ការប្រើប្រាស់របស់លោកអ្នក ហ្គេម ឬកម្មវិធី ឧបករណ៍ និងការតភ្ជាប់របស់លោកអ្នក។ | Mises à jour de sécurité |
-| ⏳ à relire | `services.items.11.sections.8.list.1` | សំណើជាលាយលក្ខណ៍អក្សរ៖ អ្វីដែលដំណើរការ អ្វីដែលផ្លាស់ប្ដូរ រយៈពេល និងតម្លៃ។ | Sauvegardes testées |
-| ⏳ à relire | `services.items.11.sections.8.list.2` | ការប្ដូរប្រព័ន្ធ៖ អ្វីៗទាំងអស់ត្រូវបានបម្រុងទុកជាមុន ដោយចាប់ផ្ដើមពីកុំព្យូទ័រសាកល្បងមួយ។ | Supervision avec Zabbix |
-| ⏳ à relire | `services.items.11.sections.8.list.3` | ការចាប់ផ្ដើមប្រើ និងការតាមដានបន្ត៖ ការពន្យល់ ឯកសារ និងការថែទាំ ប្រសិនបើលោកអ្នកចង់បាន។ |  |
-| ⏳ à relire | `services.items.11.sections.9.title` | កញ្ចប់សេវា | Comment ça se passe |
-| ⏳ à relire | `services.items.11.sections.9.list.0` | ការពិនិត្យភាពឆបគ្នា៖ [À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.1` | ការប្ដូរប្រព័ន្ធកុំព្យូទ័រលេងហ្គេម៖ [À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.2` | ការប្ដូរប្រព័ន្ធកុំព្យូទ័រការិយាល័យ (តម្លៃក្នុងមួយគ្រឿង)៖ [À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.3` | ម៉ាស៊ីនមេ Debian៖ តម្លៃតាមសម្រង់តម្លៃ |  |
-| ⏳ à relire | `services.items.11.sections.9.list.4` | កិច្ចសន្យាថែទាំ៖ [À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.10.title` | នៅនឹងកន្លែង ឬពីចម្ងាយ | Formules |
-| ⏳ à relire | `services.items.11.sections.10.text` | ការដំឡើងនៅនឹងកន្លែង នៅកំពត និងគ្រប់ទីកន្លែងក្នុងប្រទេសកម្ពុជា។ នៅកន្លែងផ្សេងទៀត ការកំណត់ ការតាមដានបន្ត និងការជួសជុលធ្វើពីចម្ងាយ ក្រោយពេលប្រព័ន្ធត្រូវបានដំឡើងរួច។ |  |
-| ⏳ à relire | `services.items.11.sections.11.title` | អ្វីដែលគួរដឹង | Sur place ou à distance |
-| ⏳ à relire | `services.items.11.sections.11.list.0` | Linux មិនសមនឹងគ្រប់ការប្រើប្រាស់ទេ។ កម្មវិធីមួយចំនួន (Adobe, Autodesk និងកម្មវិធីគណនេយ្យខ្លះ) មានតែសម្រាប់ Windows ឬ Mac ប៉ុណ្ណោះ ហើយខ្ញុំប្រាប់លោកអ្នកជាមុន។ |  |
-| ⏳ à relire | `services.items.11.sections.11.list.1` | ហ្គេមមួយចំនួនដែលមានប្រព័ន្ធប្រឆាំងការបន្លំ នៅតែត្រូវបានរារាំង ([សូមមើលខាងលើ](#anti-cheat))។ |  |
-| ⏳ à relire | `services.items.11.sections.11.list.2` | គ្មានអ្វីត្រូវបានលុបដោយគ្មានការបម្រុងទុកឡើយ ហើយការត្រឡប់ទៅប្រព័ន្ធចាស់វិញនៅតែអាចធ្វើបាន។ |  |
-| ⏳ à relire | `services.items.11.sections.11.list.3` | ឧបករណ៍ដែលថ្មីខ្លាំង ឬពិសេសខ្លាំង ត្រូវបានពិនិត្យមុនពេលទិញ ឬមុនពេលប្ដូរប្រព័ន្ធ។ |  |
-| ⏳ à relire | `services.items.11.sections.12.title` | សេវាដែលពាក់ព័ន្ធ | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.11.sections.12.cards.0.title` | ហេដ្ឋារចនាសម្ព័ន្ធ និងប្រព័ន្ធ |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.0.page` | services/infrastructure |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.1.title` | Odoo, Nextcloud និង Mattermost |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.1.page` | services/business-software |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.2.title` | Vigie |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.2.page` | services/vigie |  |
-| ⏳ à relire | `services.items.11.trademarks` | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix និងឈ្មោះហ្គេមដែលបានលើកឡើង គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. Tux, la mascotte de Linux : Larry Ewing (lewing@isc.tamu.edu) et The GIMP ; version vectorielle de Simon Budig et Garrett LeSage. |
+| ⏳ à relire | `services.items.11.sections.8.id` | maintenance | maintenance |
+| ⏳ à relire | `services.items.11.sections.8.title` | ការថែទាំម៉ាស៊ីនមេ | Maintenance des serveurs |
+| ⏳ à relire | `services.items.11.sections.8.text` | ការតាមដានជាប្រចាំ ការធ្វើបច្ចុប្បន្នភាព និងការចុះជួសជុលពេលមានបញ្ហា។ | Un suivi régulier, les mises à jour, et une intervention en cas de panne. |
+| ⏳ à relire | `services.items.11.sections.8.list.0` | ការធ្វើបច្ចុប្បន្នភាពសុវត្ថិភាព | Mises à jour de sécurité |
+| ⏳ à relire | `services.items.11.sections.8.list.1` | ការបម្រុងទុកដែលបានសាកល្បង | Sauvegardes testées |
+| ⏳ à relire | `services.items.11.sections.8.list.2` | ការតាមដានប្រព័ន្ធជាមួយ Zabbix | Supervision avec Zabbix |
+| ⏳ à relire | `services.items.11.sections.9.id` | how | how |
+| ⏳ à relire | `services.items.11.sections.9.title` | ដំណើរការការងារ | Comment ça se passe |
+| ⏳ à relire | `services.items.11.sections.9.cards.0.title` | ការពិនិត្យ | Le bilan |
+| ⏳ à relire | `services.items.11.sections.9.cards.0.text` | ការប្រើប្រាស់របស់លោកអ្នក ហ្គេម ឬកម្មវិធី ឧបករណ៍ និងការតភ្ជាប់របស់លោកអ្នក។ | Vos usages, vos jeux ou logiciels, votre matériel, votre connexion. |
+| ⏳ à relire | `services.items.11.sections.9.cards.1.title` | សំណើជាលាយលក្ខណ៍អក្សរ | La proposition écrite |
+| ⏳ à relire | `services.items.11.sections.9.cards.1.text` | អ្វីដែលដំណើរការ អ្វីដែលផ្លាស់ប្ដូរ រយៈពេល និងតម្លៃ។ | Ce qui fonctionne, ce qui change, le délai, le prix. |
+| ⏳ à relire | `services.items.11.sections.9.cards.2.title` | ការប្ដូរប្រព័ន្ធ | La migration |
+| ⏳ à relire | `services.items.11.sections.9.cards.2.text` | អ្វីៗទាំងអស់ត្រូវបានបម្រុងទុកជាមុន ដោយចាប់ផ្ដើមពីកុំព្យូទ័រសាកល្បងមួយ។ | Tout est sauvegardé avant, en commençant par un poste pilote. |
+| ⏳ à relire | `services.items.11.sections.9.cards.3.title` | ការចាប់ផ្ដើមប្រើ និងការតាមដានបន្ត | La prise en main et le suivi |
+| ⏳ à relire | `services.items.11.sections.9.cards.3.text` | ការពន្យល់ ឯកសារ និងការថែទាំ ប្រសិនបើលោកអ្នកចង់បាន។ | Explications, documentation, maintenance si vous le souhaitez. |
+| ⏳ à relire | `services.items.11.sections.10.title` | កញ្ចប់សេវា | Formules |
+| ⏳ à relire | `services.items.11.sections.10.list.0` | ការពិនិត្យភាពឆបគ្នា៖ [À COMPLÉTER PAR STEFAN] | Bilan de compatibilité : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.1` | ការប្ដូរប្រព័ន្ធកុំព្យូទ័រលេងហ្គេម៖ [À COMPLÉTER PAR STEFAN] | Migration d'un PC de jeu : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.2` | ការប្ដូរប្រព័ន្ធកុំព្យូទ័រការិយាល័យ (តម្លៃក្នុងមួយគ្រឿង)៖ [À COMPLÉTER PAR STEFAN] | Migration d'un poste de travail (prix par poste) : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.3` | ម៉ាស៊ីនមេ Debian៖ តម្លៃតាមសម្រង់តម្លៃ | Serveur Debian : sur devis |
+| ⏳ à relire | `services.items.11.sections.10.list.4` | កិច្ចសន្យាថែទាំ៖ [À COMPLÉTER PAR STEFAN] | Contrat de maintenance : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.11.title` | នៅនឹងកន្លែង ឬពីចម្ងាយ | Sur place ou à distance |
+| ⏳ à relire | `services.items.11.sections.11.text` | ការដំឡើងនៅនឹងកន្លែង នៅកំពត និងគ្រប់ទីកន្លែងក្នុងប្រទេសកម្ពុជា។ នៅកន្លែងផ្សេងទៀត ការកំណត់ ការតាមដានបន្ត និងការជួសជុលធ្វើពីចម្ងាយ ក្រោយពេលប្រព័ន្ធត្រូវបានដំឡើងរួច។ | Installation sur place à Kampot et dans tout le Cambodge. Partout ailleurs, réglages, suivi et dépannage à distance une fois le système installé. |
+| ⏳ à relire | `services.items.11.sections.12.title` | អ្វីដែលគួរដឹង | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.11.sections.12.list.0` | Linux មិនសមនឹងគ្រប់ការប្រើប្រាស់ទេ។ កម្មវិធីមួយចំនួន (Adobe, Autodesk និងកម្មវិធីគណនេយ្យខ្លះ) មានតែសម្រាប់ Windows ឬ Mac ប៉ុណ្ណោះ ហើយខ្ញុំប្រាប់លោកអ្នកជាមុន។ | Linux ne convient pas à tous les usages. Certains logiciels (Adobe, Autodesk, des logiciels de comptabilité) n'existent que pour Windows ou Mac, et je vous le dis avant. |
+| ⏳ à relire | `services.items.11.sections.12.list.1` | ហ្គេមមួយចំនួនដែលមានប្រព័ន្ធប្រឆាំងការបន្លំ នៅតែត្រូវបានរារាំង ([សូមមើលខាងលើ](#anti-cheat))។ | Certains jeux avec anti-triche restent bloqués ([voir plus haut](#anti-cheat)). |
+| ⏳ à relire | `services.items.11.sections.12.list.2` | គ្មានអ្វីត្រូវបានលុបដោយគ្មានការបម្រុងទុកឡើយ ហើយការត្រឡប់ទៅប្រព័ន្ធចាស់វិញនៅតែអាចធ្វើបាន។ | Rien n'est effacé sans sauvegarde, et un retour en arrière reste possible. |
+| ⏳ à relire | `services.items.11.sections.12.list.3` | ឧបករណ៍ដែលថ្មីខ្លាំង ឬពិសេសខ្លាំង ត្រូវបានពិនិត្យមុនពេលទិញ ឬមុនពេលប្ដូរប្រព័ន្ធ។ | Le matériel très récent ou très particulier est vérifié avant l'achat ou la migration. |
+| ⏳ à relire | `services.items.11.sections.13.title` | សេវាដែលពាក់ព័ន្ធ | Offres liées |
+| ⏳ à relire | `services.items.11.sections.13.cards.0.title` | ហេដ្ឋារចនាសម្ព័ន្ធ និងប្រព័ន្ធ | Infrastructure et systèmes |
+| ⏳ à relire | `services.items.11.sections.13.cards.0.page` | services/infrastructure | services/infrastructure |
+| ⏳ à relire | `services.items.11.sections.13.cards.1.title` | Odoo, Nextcloud និង Mattermost | Odoo, Nextcloud et Mattermost |
+| ⏳ à relire | `services.items.11.sections.13.cards.1.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.11.sections.13.cards.2.title` | Vigie | Vigie |
+| ⏳ à relire | `services.items.11.sections.13.cards.2.page` | services/vigie | services/vigie |
+| ⏳ à relire | `services.items.11.trademarks` | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix និងឈ្មោះហ្គេមដែលបានលើកឡើង គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូជាមួយក្រុមហ៊ុនដែលបង្កើតវាឡើយ។ Tux ដែលជានិមិត្តរូបរបស់ Linux៖ Larry Ewing (lewing@isc.tamu.edu) និង The GIMP។ កំណែវ៉ិចទ័រដោយ Simon Budig និង Garrett LeSage។ | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. Tux, la mascotte de Linux : Larry Ewing (lewing@isc.tamu.edu) et The GIMP ; version vectorielle de Simon Budig et Garrett LeSage. |
 | ⏳ à relire | `tech.title` | បច្ចេកវិទ្យាដែលខ្ញុំប្រើ | Les technologies que j'utilise |
 | ⏳ à relire | `tech.intro` | ឧបករណ៍ដែលល្បីឈ្មោះ ភាគច្រើនជាកម្មវិធីសេរី ដែលជ្រើសរើសដោយសារភាពទុកចិត្តបាន។ សម្រាប់ឧបករណ៍នីមួយៗ៖ វាប្រើសម្រាប់អ្វី និងប្រើនៅផ្នែកណានៃសេវាកម្ម។ | Des outils reconnus, libres pour la plupart, choisis pour leur fiabilité. Pour chacun : à quoi il sert, et où il intervient dans l'offre. |
 | ⏳ à relire | `tech.note` | ឈ្មោះដែលបានលើកឡើង គឺជាពាណិជ្ជសញ្ញារបស់ម្ចាស់រៀងៗខ្លួន។ ការលើកឡើងឈ្មោះទាំងនេះ មិនមានន័យថាមានភាពជាដៃគូ ឬវិញ្ញាបនបត្រណាមួយឡើយ។ | Les noms cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat ni aucune certification. |
@@ -1474,7 +1509,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1459 textes relus.
+0 / 1494 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2218,6 +2253,20 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.metaDescription` | Переход на Linux в Кампоте и Камбодже: CachyOS и Steam для игр, Ubuntu для офиса, Debian для серверов — у вас или в дата-центре. | Migration vers Linux à Kampot et au Cambodge : CachyOS et Steam pour jouer, Ubuntu pour le bureau, Debian pour les serveurs, chez vous ou en centre de données. |
 | ⏳ à relire | `services.items.11.contact.title` | Давайте обсудим вашу миграцию | Parlons de votre migration |
 | ⏳ à relire | `services.items.11.contact.emailSubject` | Проект Linux с Chantrea Systems | Projet Linux avec Chantrea Systems |
+| ⏳ à relire | `services.items.11.entries.title` | Что я делаю для вас | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.11.entries.cards.0.title` | Проверка совместимости | Bilan de compatibilité |
+| ⏳ à relire | `services.items.11.entries.cards.0.text` | Смотрю ваши игры, программы, оборудование и соединение. Вы знаете, что работает, ещё до начала. | Je regarde vos jeux, vos logiciels, votre matériel et votre connexion. Vous savez ce qui fonctionne avant de commencer. |
+| ⏳ à relire | `services.items.11.entries.cards.0.anchor` | how | how |
+| ⏳ à relire | `services.items.11.entries.cards.1.title` | Помощь с миграцией | Aide à la migration |
+| ⏳ à relire | `services.items.11.entries.cards.1.text` | Для игрового ПК или рабочих станций. Сначала всё сохраняется в резервную копию, затем я переношу ваши данные. | Pour un PC de jeu ou des postes de travail. Tout est sauvegardé avant, puis je transfère vos données. |
+| ⏳ à relire | `services.items.11.entries.cards.1.anchor` | usages | usages |
+| ⏳ à relire | `services.items.11.entries.cards.2.title` | Установка серверов | Installation de serveurs |
+| ⏳ à relire | `services.items.11.entries.cards.2.text` | Debian, у вас или в дата-центре — в зависимости от вашего интернет-соединения. | Debian, chez vous ou en centre de données, selon votre connexion Internet. |
+| ⏳ à relire | `services.items.11.entries.cards.2.anchor` | servers | servers |
+| ⏳ à relire | `services.items.11.entries.cards.3.title` | Обслуживание серверов | Maintenance des serveurs |
+| ⏳ à relire | `services.items.11.entries.cards.3.text` | Регулярное сопровождение, обновления и выезд при поломке. | Un suivi régulier, les mises à jour, et une intervention en cas de panne. |
+| ⏳ à relire | `services.items.11.entries.cards.3.anchor` | maintenance | maintenance |
+| ⏳ à relire | `services.items.11.sections.0.id` | usages | usages |
 | ⏳ à relire | `services.items.11.sections.0.title` | Три задачи, три системы | Trois usages, trois systèmes |
 | ⏳ à relire | `services.items.11.sections.0.cards.0.title` | Игры | Jouer |
 | ⏳ à relire | `services.items.11.sections.0.cards.0.text` | CachyOS и Steam. Самый быстрый вариант для игр. | CachyOS et Steam. Le plus rapide pour les jeux. |
@@ -2229,16 +2278,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.0.cards.2.text` | Debian. Эталон для серверов. | Debian. La référence pour les serveurs. |
 | ⏳ à relire | `services.items.11.sections.0.cards.2.anchor` | servers | servers |
 | ⏳ à relire | `services.items.11.sections.1.title` | Зачем переходить на Linux | Pourquoi passer à Linux |
-| ⏳ à relire | `services.items.11.sections.1.defs.0.term` | Не нужно покупать лицензии. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.0.text` | Система и офисные программы бесплатны и легальны. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.1.term` | Ваш ПК снова в строю. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.1.text` | Linux отлично работает на компьютерах, которые Windows 11 не принимает. Покупать новый не нужно. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.2.term` | Больше безопасности, меньше рекламы. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.2.text` | Мало вирусов, никакой рекламы в системе, никакого навязанного сбора данных. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.3.term` | Обновления — когда вы решите. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.3.text` | Никаких принудительных перезагрузок посреди совещания или игры. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.4.term` | Поддержка на годы вперёд. |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.4.text` | Ubuntu 26.04 LTS получает исправления безопасности до апреля 2031 года, Debian 13 — до июня 2030 года. |  |
+| ⏳ à relire | `services.items.11.sections.1.cards.0.title` | Не нужно покупать лицензии. | Aucune licence à acheter. |
+| ⏳ à relire | `services.items.11.sections.1.cards.0.text` | Система и офисные программы бесплатны и легальны. | Le système et les logiciels de bureau sont gratuits et légaux. |
+| ⏳ à relire | `services.items.11.sections.1.cards.1.title` | Ваш ПК снова в строю. | Votre PC reprend du service. |
+| ⏳ à relire | `services.items.11.sections.1.cards.1.text` | Linux отлично работает на компьютерах, которые Windows 11 не принимает. Покупать новый не нужно. | Linux tourne très bien sur des ordinateurs que Windows 11 refuse. Inutile d'en racheter un. |
+| ⏳ à relire | `services.items.11.sections.1.cards.2.title` | Больше безопасности, меньше рекламы. | Plus de sécurité, moins de publicité. |
+| ⏳ à relire | `services.items.11.sections.1.cards.2.text` | Мало вирусов, никакой рекламы в системе, никакого навязанного сбора данных. | Peu de virus, pas de publicité dans le système, pas de collecte de données imposée. |
+| ⏳ à relire | `services.items.11.sections.1.cards.3.title` | Обновления — когда вы решите. | Les mises à jour quand vous le décidez. |
+| ⏳ à relire | `services.items.11.sections.1.cards.3.text` | Никаких принудительных перезагрузок посреди совещания или игры. | Pas de redémarrage forcé au milieu d'une réunion ou d'une partie. |
+| ⏳ à relire | `services.items.11.sections.1.cards.4.title` | Поддержка на годы вперёд. | Un suivi dans la durée. |
+| ⏳ à relire | `services.items.11.sections.1.cards.4.text` | Ubuntu 26.04 LTS получает исправления безопасности до апреля 2031 года, Debian 13 — до июня 2030 года. | Ubuntu 26.04 LTS reçoit des correctifs de sécurité jusqu'en avril 2031, Debian 13 jusqu'en juin 2030. |
 | ⏳ à relire | `services.items.11.sections.2.title` | Всё ещё на Windows 10? | Encore sous Windows 10 ? |
 | ⏳ à relire | `services.items.11.sections.2.text` | Microsoft прекратила обычную поддержку в октябре 2025 года. Компьютеры, зарегистрированные в программе расширенных обновлений, получают их до октября 2027 года, а потом — ничего. Сейчас самое время подготовить следующий шаг, не покупая новое оборудование. | Microsoft a arrêté le support normal en octobre 2025. Les PC inscrits au programme de mises à jour prolongées les reçoivent jusqu'en octobre 2027, puis plus rien. C'est le bon moment pour préparer la suite, sans racheter de matériel. |
 | ⏳ à relire | `services.items.11.sections.3.id` | gaming | gaming |
@@ -2254,6 +2303,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.4.id` | anti-cheat | anti-cheat |
 | ⏳ à relire | `services.items.11.sections.4.title` | Игры, которые не запускаются | Les jeux qui ne passent pas |
 | ⏳ à relire | `services.items.11.sections.4.text` | Некоторые онлайн-игры используют античит, который блокирует Linux. По состоянию на ноябрь 2026 года это Valorant, League of Legends, Call of Duty, Battlefield 6 и Fortnite (поддержка Linux объявлена, но играть пока нельзя). Другие соревновательные игры работают отлично, например Counter-Strike 2, Marvel Rivals или ARC Raiders. Если одна из ваших игр заблокирована, я скажу вам об этом до того, как что-либо трогать. | Certains jeux en ligne utilisent un anti-triche qui bloque Linux. En novembre 2026, c'est le cas de Valorant, League of Legends, Call of Duty, Battlefield 6 et Fortnite (annoncé sous Linux, mais pas encore jouable). D'autres jeux compétitifs fonctionnent très bien, comme Counter-Strike 2, Marvel Rivals ou ARC Raiders. Si l'un de vos jeux est bloqué, je vous le dis avant de toucher à quoi que ce soit. |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.label` | Заблокированы | Bloqués |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.0` | Valorant | Valorant |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.1` | League of Legends | League of Legends |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.2` | Call of Duty | Call of Duty |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.3` | Battlefield 6 | Battlefield 6 |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.4` | Fortnite | Fortnite |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.label` | Работают | Fonctionnent |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.0` | Counter-Strike 2 | Counter-Strike 2 |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.1` | Marvel Rivals | Marvel Rivals |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.2` | ARC Raiders | ARC Raiders |
 | ⏳ à relire | `services.items.11.sections.5.note` | CachyOS обновляется непрерывно. Именно поэтому он так быстр в играх, но ему нужно немного больше внимания. Для рабочего компьютера я советую Ubuntu. | CachyOS se met à jour en continu. C'est ce qui le rend si rapide pour les jeux, mais il demande un peu plus d'attention. Pour un ordinateur de travail, je conseille Ubuntu. |
 | ⏳ à relire | `services.items.11.sections.6.id` | desktop | desktop |
 | ⏳ à relire | `services.items.11.sections.6.title` | Рабочие станции: Ubuntu | Poste de travail : Ubuntu |
@@ -2281,32 +2340,43 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.7.note` | Включено: установка Debian, межсетевой экран и защищённый доступ, обновления безопасности, проверенные резервные копии, мониторинг с Zabbix, удалённый доступ через VPN, передача документации. | Inclus : installation de Debian, pare-feu et accès sécurisés, mises à jour de sécurité, sauvegardes testées, supervision avec Zabbix, accès à distance par VPN, documentation remise. |
 | ⏳ à relire | `services.items.11.sections.7.link.page` | services/infrastructure | services/infrastructure |
 | ⏳ à relire | `services.items.11.sections.7.link.label` | Подробнее о вариантах размещения | Les lieux d'hébergement en détail |
-| ⏳ à relire | `services.items.11.sections.8.title` | Как всё проходит | Maintenance des serveurs |
-| ⏳ à relire | `services.items.11.sections.8.list.0` | Проверка: ваши задачи, ваши игры или программы, ваше оборудование, ваше соединение. | Mises à jour de sécurité |
-| ⏳ à relire | `services.items.11.sections.8.list.1` | Письменное предложение: что работает, что меняется, сроки, цена. | Sauvegardes testées |
-| ⏳ à relire | `services.items.11.sections.8.list.2` | Миграция: сначала всё сохраняется в резервную копию, начинаем с пилотного компьютера. | Supervision avec Zabbix |
-| ⏳ à relire | `services.items.11.sections.8.list.3` | Освоение и сопровождение: объяснения, документация, обслуживание — если вы этого хотите. |  |
-| ⏳ à relire | `services.items.11.sections.9.title` | Варианты | Comment ça se passe |
-| ⏳ à relire | `services.items.11.sections.9.list.0` | Проверка совместимости: [À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.1` | Миграция игрового ПК: [À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.2` | Миграция рабочей станции (цена за одно рабочее место): [À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.3` | Сервер Debian: цена по запросу |  |
-| ⏳ à relire | `services.items.11.sections.9.list.4` | Договор на обслуживание: [À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.10.title` | На месте или удалённо | Formules |
-| ⏳ à relire | `services.items.11.sections.10.text` | Установка на месте — в Кампоте и по всей Камбодже. В любом другом месте — настройка, сопровождение и устранение неполадок удалённо, после установки системы. |  |
-| ⏳ à relire | `services.items.11.sections.11.title` | Что нужно знать | Sur place ou à distance |
-| ⏳ à relire | `services.items.11.sections.11.list.0` | Linux подходит не для всех задач. Некоторые программы (Adobe, Autodesk, некоторые бухгалтерские программы) существуют только для Windows или Mac, и я говорю вам об этом заранее. |  |
-| ⏳ à relire | `services.items.11.sections.11.list.1` | Некоторые игры с античитом остаются заблокированными ([см. выше](#anti-cheat)). |  |
-| ⏳ à relire | `services.items.11.sections.11.list.2` | Ничего не стирается без резервной копии, и вернуться назад всегда можно. |  |
-| ⏳ à relire | `services.items.11.sections.11.list.3` | Очень новое или очень необычное оборудование проверяется до покупки или миграции. |  |
-| ⏳ à relire | `services.items.11.sections.12.title` | Связанные услуги | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.11.sections.12.cards.0.title` | Инфраструктура и системы |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.0.page` | services/infrastructure |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.1.title` | Odoo, Nextcloud и Mattermost |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.1.page` | services/business-software |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.2.title` | Vigie |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.2.page` | services/vigie |  |
-| ⏳ à relire | `services.items.11.trademarks` | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix и названия упомянутых игр — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. Tux, la mascotte de Linux : Larry Ewing (lewing@isc.tamu.edu) et The GIMP ; version vectorielle de Simon Budig et Garrett LeSage. |
+| ⏳ à relire | `services.items.11.sections.8.id` | maintenance | maintenance |
+| ⏳ à relire | `services.items.11.sections.8.title` | Обслуживание серверов | Maintenance des serveurs |
+| ⏳ à relire | `services.items.11.sections.8.text` | Регулярное сопровождение, обновления и выезд при поломке. | Un suivi régulier, les mises à jour, et une intervention en cas de panne. |
+| ⏳ à relire | `services.items.11.sections.8.list.0` | Обновления безопасности | Mises à jour de sécurité |
+| ⏳ à relire | `services.items.11.sections.8.list.1` | Проверенные резервные копии | Sauvegardes testées |
+| ⏳ à relire | `services.items.11.sections.8.list.2` | Мониторинг с Zabbix | Supervision avec Zabbix |
+| ⏳ à relire | `services.items.11.sections.9.id` | how | how |
+| ⏳ à relire | `services.items.11.sections.9.title` | Как всё проходит | Comment ça se passe |
+| ⏳ à relire | `services.items.11.sections.9.cards.0.title` | Проверка | Le bilan |
+| ⏳ à relire | `services.items.11.sections.9.cards.0.text` | Ваши задачи, ваши игры или программы, ваше оборудование, ваше соединение. | Vos usages, vos jeux ou logiciels, votre matériel, votre connexion. |
+| ⏳ à relire | `services.items.11.sections.9.cards.1.title` | Письменное предложение | La proposition écrite |
+| ⏳ à relire | `services.items.11.sections.9.cards.1.text` | Что работает, что меняется, сроки, цена. | Ce qui fonctionne, ce qui change, le délai, le prix. |
+| ⏳ à relire | `services.items.11.sections.9.cards.2.title` | Миграция | La migration |
+| ⏳ à relire | `services.items.11.sections.9.cards.2.text` | Сначала всё сохраняется в резервную копию, начинаем с пилотного компьютера. | Tout est sauvegardé avant, en commençant par un poste pilote. |
+| ⏳ à relire | `services.items.11.sections.9.cards.3.title` | Освоение и сопровождение | La prise en main et le suivi |
+| ⏳ à relire | `services.items.11.sections.9.cards.3.text` | Объяснения, документация, обслуживание — если вы этого хотите. | Explications, documentation, maintenance si vous le souhaitez. |
+| ⏳ à relire | `services.items.11.sections.10.title` | Варианты | Formules |
+| ⏳ à relire | `services.items.11.sections.10.list.0` | Проверка совместимости: [À COMPLÉTER PAR STEFAN] | Bilan de compatibilité : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.1` | Миграция игрового ПК: [À COMPLÉTER PAR STEFAN] | Migration d'un PC de jeu : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.2` | Миграция рабочей станции (цена за одно рабочее место): [À COMPLÉTER PAR STEFAN] | Migration d'un poste de travail (prix par poste) : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.3` | Сервер Debian: цена по запросу | Serveur Debian : sur devis |
+| ⏳ à relire | `services.items.11.sections.10.list.4` | Договор на обслуживание: [À COMPLÉTER PAR STEFAN] | Contrat de maintenance : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.11.title` | На месте или удалённо | Sur place ou à distance |
+| ⏳ à relire | `services.items.11.sections.11.text` | Установка на месте — в Кампоте и по всей Камбодже. В любом другом месте — настройка, сопровождение и устранение неполадок удалённо, после установки системы. | Installation sur place à Kampot et dans tout le Cambodge. Partout ailleurs, réglages, suivi et dépannage à distance une fois le système installé. |
+| ⏳ à relire | `services.items.11.sections.12.title` | Что нужно знать | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.11.sections.12.list.0` | Linux подходит не для всех задач. Некоторые программы (Adobe, Autodesk, некоторые бухгалтерские программы) существуют только для Windows или Mac, и я говорю вам об этом заранее. | Linux ne convient pas à tous les usages. Certains logiciels (Adobe, Autodesk, des logiciels de comptabilité) n'existent que pour Windows ou Mac, et je vous le dis avant. |
+| ⏳ à relire | `services.items.11.sections.12.list.1` | Некоторые игры с античитом остаются заблокированными ([см. выше](#anti-cheat)). | Certains jeux avec anti-triche restent bloqués ([voir plus haut](#anti-cheat)). |
+| ⏳ à relire | `services.items.11.sections.12.list.2` | Ничего не стирается без резервной копии, и вернуться назад всегда можно. | Rien n'est effacé sans sauvegarde, et un retour en arrière reste possible. |
+| ⏳ à relire | `services.items.11.sections.12.list.3` | Очень новое или очень необычное оборудование проверяется до покупки или миграции. | Le matériel très récent ou très particulier est vérifié avant l'achat ou la migration. |
+| ⏳ à relire | `services.items.11.sections.13.title` | Связанные услуги | Offres liées |
+| ⏳ à relire | `services.items.11.sections.13.cards.0.title` | Инфраструктура и системы | Infrastructure et systèmes |
+| ⏳ à relire | `services.items.11.sections.13.cards.0.page` | services/infrastructure | services/infrastructure |
+| ⏳ à relire | `services.items.11.sections.13.cards.1.title` | Odoo, Nextcloud и Mattermost | Odoo, Nextcloud et Mattermost |
+| ⏳ à relire | `services.items.11.sections.13.cards.1.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.11.sections.13.cards.2.title` | Vigie | Vigie |
+| ⏳ à relire | `services.items.11.sections.13.cards.2.page` | services/vigie | services/vigie |
+| ⏳ à relire | `services.items.11.trademarks` | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix и названия упомянутых игр — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. Tux, талисман Linux: Larry Ewing (lewing@isc.tamu.edu) и The GIMP; векторная версия — Simon Budig и Garrett LeSage. | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. Tux, la mascotte de Linux : Larry Ewing (lewing@isc.tamu.edu) et The GIMP ; version vectorielle de Simon Budig et Garrett LeSage. |
 | ⏳ à relire | `tech.title` | Технологии, которые я использую | Les technologies que j'utilise |
 | ⏳ à relire | `tech.intro` | Признанные инструменты, в большинстве своём свободные, выбранные за надёжность. Для каждого — для чего он нужен и где применяется в моих услугах. | Des outils reconnus, libres pour la plupart, choisis pour leur fiabilité. Pour chacun : à quoi il sert, et où il intervient dans l'offre. |
 | ⏳ à relire | `tech.note` | Упомянутые названия — товарные знаки их соответствующих владельцев. Их упоминание не означает ни партнёрства, ни сертификации. | Les noms cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat ni aucune certification. |
@@ -2940,7 +3010,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1458 textes relus.
+0 / 1493 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -3684,6 +3754,20 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.metaDescription` | 在贡布及柬埔寨迁移到 Linux：玩游戏用 CachyOS 和 Steam，办公用 Ubuntu，服务器用 Debian，放在您那里或数据中心。 | Migration vers Linux à Kampot et au Cambodge : CachyOS et Steam pour jouer, Ubuntu pour le bureau, Debian pour les serveurs, chez vous ou en centre de données. |
 | ⏳ à relire | `services.items.11.contact.title` | 聊聊您的迁移 | Parlons de votre migration |
 | ⏳ à relire | `services.items.11.contact.emailSubject` | 与 Chantrea Systems 的 Linux 项目 | Projet Linux avec Chantrea Systems |
+| ⏳ à relire | `services.items.11.entries.title` | 我为您做什么 | Ce que je fais pour vous |
+| ⏳ à relire | `services.items.11.entries.cards.0.title` | 兼容性评估 | Bilan de compatibilité |
+| ⏳ à relire | `services.items.11.entries.cards.0.text` | 我会查看您的游戏、软件、硬件和网络。开始之前，您就知道哪些能用。 | Je regarde vos jeux, vos logiciels, votre matériel et votre connexion. Vous savez ce qui fonctionne avant de commencer. |
+| ⏳ à relire | `services.items.11.entries.cards.0.anchor` | how | how |
+| ⏳ à relire | `services.items.11.entries.cards.1.title` | 迁移协助 | Aide à la migration |
+| ⏳ à relire | `services.items.11.entries.cards.1.text` | 适用于游戏电脑或工作站。先全部备份，再迁移您的数据。 | Pour un PC de jeu ou des postes de travail. Tout est sauvegardé avant, puis je transfère vos données. |
+| ⏳ à relire | `services.items.11.entries.cards.1.anchor` | usages | usages |
+| ⏳ à relire | `services.items.11.entries.cards.2.title` | 服务器安装 | Installation de serveurs |
+| ⏳ à relire | `services.items.11.entries.cards.2.text` | Debian，放在您那里或数据中心，取决于您的网络连接。 | Debian, chez vous ou en centre de données, selon votre connexion Internet. |
+| ⏳ à relire | `services.items.11.entries.cards.2.anchor` | servers | servers |
+| ⏳ à relire | `services.items.11.entries.cards.3.title` | 服务器维护 | Maintenance des serveurs |
+| ⏳ à relire | `services.items.11.entries.cards.3.text` | 定期跟进、系统更新，出现故障时上门处理。 | Un suivi régulier, les mises à jour, et une intervention en cas de panne. |
+| ⏳ à relire | `services.items.11.entries.cards.3.anchor` | maintenance | maintenance |
+| ⏳ à relire | `services.items.11.sections.0.id` | usages | usages |
 | ⏳ à relire | `services.items.11.sections.0.title` | 三种用途，三套系统 | Trois usages, trois systèmes |
 | ⏳ à relire | `services.items.11.sections.0.cards.0.title` | 游戏 | Jouer |
 | ⏳ à relire | `services.items.11.sections.0.cards.0.text` | CachyOS 和 Steam。玩游戏最快。 | CachyOS et Steam. Le plus rapide pour les jeux. |
@@ -3695,16 +3779,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.0.cards.2.text` | Debian。服务器的标杆。 | Debian. La référence pour les serveurs. |
 | ⏳ à relire | `services.items.11.sections.0.cards.2.anchor` | servers | servers |
 | ⏳ à relire | `services.items.11.sections.1.title` | 为什么改用 Linux | Pourquoi passer à Linux |
-| ⏳ à relire | `services.items.11.sections.1.defs.0.term` | 无需购买许可证。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.0.text` | 系统和办公软件都是免费且合法的。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.1.term` | 您的电脑重新派上用场。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.1.text` | Linux 在 Windows 11 拒绝支持的电脑上运行得很好。不必再买新电脑。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.2.term` | 更安全，更少广告。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.2.text` | 病毒很少，系统里没有广告，也不会强制收集数据。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.3.term` | 何时更新由您决定。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.3.text` | 不会在开会或游戏中途被强制重启。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.4.term` | 长期支持。 |  |
-| ⏳ à relire | `services.items.11.sections.1.defs.4.text` | Ubuntu 26.04 LTS 的安全补丁提供到 2031 年 4 月，Debian 13 提供到 2030 年 6 月。 |  |
+| ⏳ à relire | `services.items.11.sections.1.cards.0.title` | 无需购买许可证。 | Aucune licence à acheter. |
+| ⏳ à relire | `services.items.11.sections.1.cards.0.text` | 系统和办公软件都是免费且合法的。 | Le système et les logiciels de bureau sont gratuits et légaux. |
+| ⏳ à relire | `services.items.11.sections.1.cards.1.title` | 您的电脑重新派上用场。 | Votre PC reprend du service. |
+| ⏳ à relire | `services.items.11.sections.1.cards.1.text` | Linux 在 Windows 11 拒绝支持的电脑上运行得很好。不必再买新电脑。 | Linux tourne très bien sur des ordinateurs que Windows 11 refuse. Inutile d'en racheter un. |
+| ⏳ à relire | `services.items.11.sections.1.cards.2.title` | 更安全，更少广告。 | Plus de sécurité, moins de publicité. |
+| ⏳ à relire | `services.items.11.sections.1.cards.2.text` | 病毒很少，系统里没有广告，也不会强制收集数据。 | Peu de virus, pas de publicité dans le système, pas de collecte de données imposée. |
+| ⏳ à relire | `services.items.11.sections.1.cards.3.title` | 何时更新由您决定。 | Les mises à jour quand vous le décidez. |
+| ⏳ à relire | `services.items.11.sections.1.cards.3.text` | 不会在开会或游戏中途被强制重启。 | Pas de redémarrage forcé au milieu d'une réunion ou d'une partie. |
+| ⏳ à relire | `services.items.11.sections.1.cards.4.title` | 长期支持。 | Un suivi dans la durée. |
+| ⏳ à relire | `services.items.11.sections.1.cards.4.text` | Ubuntu 26.04 LTS 的安全补丁提供到 2031 年 4 月，Debian 13 提供到 2030 年 6 月。 | Ubuntu 26.04 LTS reçoit des correctifs de sécurité jusqu'en avril 2031, Debian 13 jusqu'en juin 2030. |
 | ⏳ à relire | `services.items.11.sections.2.title` | 还在用 Windows 10？ | Encore sous Windows 10 ? |
 | ⏳ à relire | `services.items.11.sections.2.text` | Microsoft 已于 2025 年 10 月停止常规支持。加入延长更新计划的电脑可继续获得更新到 2027 年 10 月，之后就没有了。现在正是为下一步做准备的好时机，而且不必购买新硬件。 | Microsoft a arrêté le support normal en octobre 2025. Les PC inscrits au programme de mises à jour prolongées les reçoivent jusqu'en octobre 2027, puis plus rien. C'est le bon moment pour préparer la suite, sans racheter de matériel. |
 | ⏳ à relire | `services.items.11.sections.3.id` | gaming | gaming |
@@ -3720,6 +3804,16 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.4.id` | anti-cheat | anti-cheat |
 | ⏳ à relire | `services.items.11.sections.4.title` | 无法运行的游戏 | Les jeux qui ne passent pas |
 | ⏳ à relire | `services.items.11.sections.4.text` | 有些网络游戏使用的反作弊系统会屏蔽 Linux。截至 2026 年 11 月，Valorant、League of Legends、Call of Duty、Battlefield 6 和 Fortnite（已宣布支持 Linux，但还不能玩）都属于这种情况。其他竞技游戏运行得很好，例如 Counter-Strike 2、Marvel Rivals 或 ARC Raiders。如果您的某款游戏被屏蔽，我会在动手之前告诉您。 | Certains jeux en ligne utilisent un anti-triche qui bloque Linux. En novembre 2026, c'est le cas de Valorant, League of Legends, Call of Duty, Battlefield 6 et Fortnite (annoncé sous Linux, mais pas encore jouable). D'autres jeux compétitifs fonctionnent très bien, comme Counter-Strike 2, Marvel Rivals ou ARC Raiders. Si l'un de vos jeux est bloqué, je vous le dis avant de toucher à quoi que ce soit. |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.label` | 无法运行 | Bloqués |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.0` | Valorant | Valorant |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.1` | League of Legends | League of Legends |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.2` | Call of Duty | Call of Duty |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.3` | Battlefield 6 | Battlefield 6 |
+| ⏳ à relire | `services.items.11.sections.4.chips.0.items.4` | Fortnite | Fortnite |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.label` | 可以运行 | Fonctionnent |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.0` | Counter-Strike 2 | Counter-Strike 2 |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.1` | Marvel Rivals | Marvel Rivals |
+| ⏳ à relire | `services.items.11.sections.4.chips.1.items.2` | ARC Raiders | ARC Raiders |
 | ⏳ à relire | `services.items.11.sections.5.note` | CachyOS 持续滚动更新。这正是它玩游戏这么快的原因，但也需要多花一点心思。办公电脑我建议用 Ubuntu。 | CachyOS se met à jour en continu. C'est ce qui le rend si rapide pour les jeux, mais il demande un peu plus d'attention. Pour un ordinateur de travail, je conseille Ubuntu. |
 | ⏳ à relire | `services.items.11.sections.6.id` | desktop | desktop |
 | ⏳ à relire | `services.items.11.sections.6.title` | 工作站：Ubuntu | Poste de travail : Ubuntu |
@@ -3747,32 +3841,43 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `services.items.11.sections.7.note` | 包含：安装 Debian、防火墙和安全访问、安全更新、经过测试的备份、用 Zabbix 监控、通过 VPN 远程访问、交付文档。 | Inclus : installation de Debian, pare-feu et accès sécurisés, mises à jour de sécurité, sauvegardes testées, supervision avec Zabbix, accès à distance par VPN, documentation remise. |
 | ⏳ à relire | `services.items.11.sections.7.link.page` | services/infrastructure | services/infrastructure |
 | ⏳ à relire | `services.items.11.sections.7.link.label` | 详细了解托管位置 | Les lieux d'hébergement en détail |
-| ⏳ à relire | `services.items.11.sections.8.title` | 合作流程 | Maintenance des serveurs |
-| ⏳ à relire | `services.items.11.sections.8.list.0` | 评估：您的用途、您的游戏或软件、您的硬件、您的网络。 | Mises à jour de sécurité |
-| ⏳ à relire | `services.items.11.sections.8.list.1` | 书面方案：哪些能用、哪些会改变、工期、价格。 | Sauvegardes testées |
-| ⏳ à relire | `services.items.11.sections.8.list.2` | 迁移：先全部备份，从一台试点电脑开始。 | Supervision avec Zabbix |
-| ⏳ à relire | `services.items.11.sections.8.list.3` | 上手与后续支持：讲解、文档，以及您需要时的维护。 |  |
-| ⏳ à relire | `services.items.11.sections.9.title` | 方案 | Comment ça se passe |
-| ⏳ à relire | `services.items.11.sections.9.list.0` | 兼容性评估：[À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.1` | 游戏电脑迁移：[À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.2` | 工作站迁移（按台计价）：[À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.9.list.3` | Debian 服务器：按需报价 |  |
-| ⏳ à relire | `services.items.11.sections.9.list.4` | 维护合同：[À COMPLÉTER PAR STEFAN] |  |
-| ⏳ à relire | `services.items.11.sections.10.title` | 上门或远程 | Formules |
-| ⏳ à relire | `services.items.11.sections.10.text` | 在贡布及柬埔寨各地上门安装。其他地区，在系统安装完成后，远程进行设置、后续支持和故障排除。 |  |
-| ⏳ à relire | `services.items.11.sections.11.title` | 需要了解的事 | Sur place ou à distance |
-| ⏳ à relire | `services.items.11.sections.11.list.0` | Linux 并不适合所有用途。有些软件（Adobe、Autodesk、某些会计软件）只有 Windows 或 Mac 版本，我会事先告诉您。 |  |
-| ⏳ à relire | `services.items.11.sections.11.list.1` | 部分带反作弊的游戏仍然无法运行（[见上文](#anti-cheat)）。 |  |
-| ⏳ à relire | `services.items.11.sections.11.list.2` | 没有备份就不会删除任何东西，而且随时可以恢复原样。 |  |
-| ⏳ à relire | `services.items.11.sections.11.list.3` | 非常新或非常特殊的硬件，会在购买或迁移之前先行检查。 |  |
-| ⏳ à relire | `services.items.11.sections.12.title` | 相关服务 | Ce qu'il faut savoir |
-| ⏳ à relire | `services.items.11.sections.12.cards.0.title` | 基础设施与系统 |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.0.page` | services/infrastructure |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.1.title` | Odoo、Nextcloud 和 Mattermost |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.1.page` | services/business-software |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.2.title` | Vigie |  |
-| ⏳ à relire | `services.items.11.sections.12.cards.2.page` | services/vigie |  |
-| ⏳ à relire | `services.items.11.trademarks` | Linux、CachyOS、Steam、Proton、Valve、Ubuntu、Debian、Windows、Microsoft 365、Word、Excel、PowerPoint、Google Workspace、Chrome、Firefox、Thunderbird、LibreOffice、NVIDIA、AMD、Epic Games、GOG、Heroic、Lutris、Discord、OBS、Adobe、Autodesk、Mac、Nextcloud、GLPI、Odoo、Mattermost、Zabbix 以及文中提到的游戏名称是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。 | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. Tux, la mascotte de Linux : Larry Ewing (lewing@isc.tamu.edu) et The GIMP ; version vectorielle de Simon Budig et Garrett LeSage. |
+| ⏳ à relire | `services.items.11.sections.8.id` | maintenance | maintenance |
+| ⏳ à relire | `services.items.11.sections.8.title` | 服务器维护 | Maintenance des serveurs |
+| ⏳ à relire | `services.items.11.sections.8.text` | 定期跟进、系统更新，出现故障时上门处理。 | Un suivi régulier, les mises à jour, et une intervention en cas de panne. |
+| ⏳ à relire | `services.items.11.sections.8.list.0` | 安全更新 | Mises à jour de sécurité |
+| ⏳ à relire | `services.items.11.sections.8.list.1` | 经过测试的备份 | Sauvegardes testées |
+| ⏳ à relire | `services.items.11.sections.8.list.2` | 用 Zabbix 监控 | Supervision avec Zabbix |
+| ⏳ à relire | `services.items.11.sections.9.id` | how | how |
+| ⏳ à relire | `services.items.11.sections.9.title` | 合作流程 | Comment ça se passe |
+| ⏳ à relire | `services.items.11.sections.9.cards.0.title` | 评估 | Le bilan |
+| ⏳ à relire | `services.items.11.sections.9.cards.0.text` | 您的用途、您的游戏或软件、您的硬件、您的网络。 | Vos usages, vos jeux ou logiciels, votre matériel, votre connexion. |
+| ⏳ à relire | `services.items.11.sections.9.cards.1.title` | 书面方案 | La proposition écrite |
+| ⏳ à relire | `services.items.11.sections.9.cards.1.text` | 哪些能用、哪些会改变、工期、价格。 | Ce qui fonctionne, ce qui change, le délai, le prix. |
+| ⏳ à relire | `services.items.11.sections.9.cards.2.title` | 迁移 | La migration |
+| ⏳ à relire | `services.items.11.sections.9.cards.2.text` | 先全部备份，从一台试点电脑开始。 | Tout est sauvegardé avant, en commençant par un poste pilote. |
+| ⏳ à relire | `services.items.11.sections.9.cards.3.title` | 上手与后续支持 | La prise en main et le suivi |
+| ⏳ à relire | `services.items.11.sections.9.cards.3.text` | 讲解、文档，以及您需要时的维护。 | Explications, documentation, maintenance si vous le souhaitez. |
+| ⏳ à relire | `services.items.11.sections.10.title` | 方案 | Formules |
+| ⏳ à relire | `services.items.11.sections.10.list.0` | 兼容性评估：[À COMPLÉTER PAR STEFAN] | Bilan de compatibilité : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.1` | 游戏电脑迁移：[À COMPLÉTER PAR STEFAN] | Migration d'un PC de jeu : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.2` | 工作站迁移（按台计价）：[À COMPLÉTER PAR STEFAN] | Migration d'un poste de travail (prix par poste) : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.10.list.3` | Debian 服务器：按需报价 | Serveur Debian : sur devis |
+| ⏳ à relire | `services.items.11.sections.10.list.4` | 维护合同：[À COMPLÉTER PAR STEFAN] | Contrat de maintenance : [À COMPLÉTER PAR STEFAN] |
+| ⏳ à relire | `services.items.11.sections.11.title` | 上门或远程 | Sur place ou à distance |
+| ⏳ à relire | `services.items.11.sections.11.text` | 在贡布及柬埔寨各地上门安装。其他地区，在系统安装完成后，远程进行设置、后续支持和故障排除。 | Installation sur place à Kampot et dans tout le Cambodge. Partout ailleurs, réglages, suivi et dépannage à distance une fois le système installé. |
+| ⏳ à relire | `services.items.11.sections.12.title` | 需要了解的事 | Ce qu'il faut savoir |
+| ⏳ à relire | `services.items.11.sections.12.list.0` | Linux 并不适合所有用途。有些软件（Adobe、Autodesk、某些会计软件）只有 Windows 或 Mac 版本，我会事先告诉您。 | Linux ne convient pas à tous les usages. Certains logiciels (Adobe, Autodesk, des logiciels de comptabilité) n'existent que pour Windows ou Mac, et je vous le dis avant. |
+| ⏳ à relire | `services.items.11.sections.12.list.1` | 部分带反作弊的游戏仍然无法运行（[见上文](#anti-cheat)）。 | Certains jeux avec anti-triche restent bloqués ([voir plus haut](#anti-cheat)). |
+| ⏳ à relire | `services.items.11.sections.12.list.2` | 没有备份就不会删除任何东西，而且随时可以恢复原样。 | Rien n'est effacé sans sauvegarde, et un retour en arrière reste possible. |
+| ⏳ à relire | `services.items.11.sections.12.list.3` | 非常新或非常特殊的硬件，会在购买或迁移之前先行检查。 | Le matériel très récent ou très particulier est vérifié avant l'achat ou la migration. |
+| ⏳ à relire | `services.items.11.sections.13.title` | 相关服务 | Offres liées |
+| ⏳ à relire | `services.items.11.sections.13.cards.0.title` | 基础设施与系统 | Infrastructure et systèmes |
+| ⏳ à relire | `services.items.11.sections.13.cards.0.page` | services/infrastructure | services/infrastructure |
+| ⏳ à relire | `services.items.11.sections.13.cards.1.title` | Odoo、Nextcloud 和 Mattermost | Odoo, Nextcloud et Mattermost |
+| ⏳ à relire | `services.items.11.sections.13.cards.1.page` | services/business-software | services/business-software |
+| ⏳ à relire | `services.items.11.sections.13.cards.2.title` | Vigie | Vigie |
+| ⏳ à relire | `services.items.11.sections.13.cards.2.page` | services/vigie | services/vigie |
+| ⏳ à relire | `services.items.11.trademarks` | Linux、CachyOS、Steam、Proton、Valve、Ubuntu、Debian、Windows、Microsoft 365、Word、Excel、PowerPoint、Google Workspace、Chrome、Firefox、Thunderbird、LibreOffice、NVIDIA、AMD、Epic Games、GOG、Heroic、Lutris、Discord、OBS、Adobe、Autodesk、Mac、Nextcloud、GLPI、Odoo、Mattermost、Zabbix 以及文中提到的游戏名称是其各自所有者的商标。提及它们并不表示与其开发商存在任何合作关系。Tux 是 Linux 的吉祥物：Larry Ewing (lewing@isc.tamu.edu) 与 The GIMP；矢量版本由 Simon Budig 和 Garrett LeSage 制作。 | Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs. Tux, la mascotte de Linux : Larry Ewing (lewing@isc.tamu.edu) et The GIMP ; version vectorielle de Simon Budig et Garrett LeSage. |
 | ⏳ à relire | `tech.title` | 我使用的技术 | Les technologies que j'utilise |
 | ⏳ à relire | `tech.intro` | 成熟的工具，大多是开源软件，因可靠而选用。每一项都说明：它做什么，在哪项服务中用到。 | Des outils reconnus, libres pour la plupart, choisis pour leur fiabilité. Pour chacun : à quoi il sert, et où il intervient dans l'offre. |
 | ⏳ à relire | `tech.note` | 文中提到的名称是其各自所有者的商标。提及它们并不表示存在任何合作关系或认证。 | Les noms cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat ni aucune certification. |

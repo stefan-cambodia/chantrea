@@ -19,11 +19,14 @@ const status = existsSync(statusFile) ? JSON.parse(readFileSync(statusFile, 'utf
 
 // Seuls les textes sont listés : pas les réglages de mise en page (pictogrammes, booléens),
 // ni les notes internes, dont la clé commence par « _ » (ex. _verifie).
+// Réglages qui ne sont pas des textes : pictogramme, couleur, terminal, mascotte, noms du terminal.
+const SETTINGS = ['icon', 'tone', 'terminal', 'mascot', 'stack'];
 const flatten = (obj, prefix = '') =>
   Object.entries(obj).flatMap(([k, v]) =>
-    typeof v === 'object' && v !== null
-      ? flatten(v, `${prefix}${k}.`)
-      : typeof v !== 'string' || k === 'icon' || k.startsWith('_') ? [] : [[`${prefix}${k}`, v]],
+    SETTINGS.includes(k) ? []
+      : typeof v === 'object' && v !== null
+        ? flatten(v, `${prefix}${k}.`)
+        : typeof v !== 'string' || k.startsWith('_') ? [] : [[`${prefix}${k}`, v]],
   );
 
 const fr = Object.fromEntries(flatten(JSON.parse(readFileSync('src/i18n/fr.json', 'utf8'))));

@@ -1404,6 +1404,8 @@
           "Ubuntu",
           "Debian"
         ],
+        "terminal": "usages",
+        "mascot": "tux",
         "actions": [
           {
             "label": "Проверить мой ПК",
@@ -1420,52 +1422,107 @@
           "title": "Давайте обсудим вашу миграцию",
           "emailSubject": "Проект Linux с Chantrea Systems"
         },
+        "entries": {
+          "icon": "cpu",
+          "title": "Что я делаю для вас",
+          "cards": [
+            {
+              "icon": "check",
+              "title": "Проверка совместимости",
+              "text": "Смотрю ваши игры, программы, оборудование и соединение. Вы знаете, что работает, ещё до начала.",
+              "anchor": "how"
+            },
+            {
+              "icon": "swap",
+              "title": "Помощь с миграцией",
+              "text": "Для игрового ПК или рабочих станций. Сначала всё сохраняется в резервную копию, затем я переношу ваши данные.",
+              "anchor": "usages"
+            },
+            {
+              "icon": "server",
+              "title": "Установка серверов",
+              "text": "Debian, у вас или в дата-центре — в зависимости от вашего интернет-соединения.",
+              "anchor": "servers"
+            },
+            {
+              "icon": "wrench",
+              "title": "Обслуживание серверов",
+              "text": "Регулярное сопровождение, обновления и выезд при поломке.",
+              "anchor": "maintenance"
+            }
+          ]
+        },
         "sections": [
           {
+            "id": "usages",
             "title": "Три задачи, три системы",
+            "cols": 3,
             "cards": [
               {
                 "icon": "cpu",
                 "title": "Игры",
                 "text": "CachyOS и Steam. Самый быстрый вариант для игр.",
-                "anchor": "gaming"
+                "anchor": "gaming",
+                "tone": "ai",
+                "stack": [
+                  "CachyOS",
+                  "Steam",
+                  "Proton"
+                ]
               },
               {
                 "icon": "users",
                 "title": "Работа",
                 "text": "Ubuntu LTS. Стабильно, просто, пять лет поддержки.",
-                "anchor": "desktop"
+                "anchor": "desktop",
+                "tone": "development",
+                "stack": [
+                  "Ubuntu LTS",
+                  "LibreOffice",
+                  "Nextcloud"
+                ]
               },
               {
                 "icon": "server",
                 "title": "Серверы",
                 "text": "Debian. Эталон для серверов.",
-                "anchor": "servers"
+                "anchor": "servers",
+                "tone": "infrastructure",
+                "stack": [
+                  "Debian",
+                  "Zabbix",
+                  "VPN"
+                ]
               }
             ]
           },
           {
-            "icon": "check",
             "title": "Зачем переходить на Linux",
-            "defs": [
+            "fill": true,
+            "cards": [
               {
-                "term": "Не нужно покупать лицензии.",
+                "icon": "coins",
+                "title": "Не нужно покупать лицензии.",
                 "text": "Система и офисные программы бесплатны и легальны."
               },
               {
-                "term": "Ваш ПК снова в строю.",
+                "icon": "cpu",
+                "title": "Ваш ПК снова в строю.",
                 "text": "Linux отлично работает на компьютерах, которые Windows 11 не принимает. Покупать новый не нужно."
               },
               {
-                "term": "Больше безопасности, меньше рекламы.",
+                "icon": "shield",
+                "title": "Больше безопасности, меньше рекламы.",
                 "text": "Мало вирусов, никакой рекламы в системе, никакого навязанного сбора данных."
               },
               {
-                "term": "Обновления — когда вы решите.",
+                "icon": "bell",
+                "title": "Обновления — когда вы решите.",
                 "text": "Никаких принудительных перезагрузок посреди совещания или игры."
               },
               {
-                "term": "Поддержка на годы вперёд.",
+                "icon": "calendar",
+                "title": "Поддержка на годы вперёд.",
                 "text": "Ubuntu 26.04 LTS получает исправления безопасности до апреля 2031 года, Debian 13 — до июня 2030 года."
               }
             ],
@@ -1480,6 +1537,7 @@
           {
             "id": "gaming",
             "icon": "cpu",
+            "tone": "ai",
             "title": "Игры на Linux: CachyOS и Steam",
             "text": "CachyOS — это Linux, настроенный на производительность: оптимизированное ядро, свежие графические драйверы, готовые к работе игровые инструменты. Steam устанавливается в один клик. Благодаря Proton, слою совместимости от Valve, подавляющее большинство игр для Windows из вашей библиотеки запускаются как раньше.",
             "subtitle": "Что я делаю",
@@ -1497,6 +1555,28 @@
             "callout": true,
             "title": "Игры, которые не запускаются",
             "text": "Некоторые онлайн-игры используют античит, который блокирует Linux. По состоянию на ноябрь 2026 года это Valorant, League of Legends, Call of Duty, Battlefield 6 и Fortnite (поддержка Linux объявлена, но играть пока нельзя). Другие соревновательные игры работают отлично, например Counter-Strike 2, Marvel Rivals или ARC Raiders. Если одна из ваших игр заблокирована, я скажу вам об этом до того, как что-либо трогать.",
+            "chips": [
+              {
+                "ok": false,
+                "label": "Заблокированы",
+                "items": [
+                  "Valorant",
+                  "League of Legends",
+                  "Call of Duty",
+                  "Battlefield 6",
+                  "Fortnite"
+                ]
+              },
+              {
+                "ok": true,
+                "label": "Работают",
+                "items": [
+                  "Counter-Strike 2",
+                  "Marvel Rivals",
+                  "ARC Raiders"
+                ]
+              }
+            ],
             "_verifie": "vérifié le 27/11/2026"
           },
           {
@@ -1505,6 +1585,7 @@
           {
             "id": "desktop",
             "icon": "users",
+            "tone": "development",
             "title": "Рабочие станции: Ubuntu",
             "text": "В офисе важна стабильность. Новая LTS-версия Ubuntu выходит каждые два года и получает исправления безопасности в течение пяти лет. Интерфейс понятный, и ваши сотрудники быстро в нём осваиваются.",
             "subtitle": "Что я делаю",
@@ -1521,9 +1602,13 @@
           },
           {
             "id": "servers",
+            "icon": "server",
+            "plain": true,
+            "tone": "infrastructure",
             "title": "Серверы: Debian, у вас или в дата-центре",
             "text": "Debian уже более тридцати лет известен своей стабильностью. Это очень хорошая основа для ваших сервисов: Odoo, Nextcloud, Mattermost, GLPI, Zabbix, общий доступ к файлам, VPN.",
             "subtitle": "Где разместить ваш сервер? Всё зависит от вашего интернет-соединения.",
+            "fill": true,
             "cards": [
               {
                 "icon": "home",
@@ -1549,15 +1634,39 @@
             }
           },
           {
-            "icon": "calendar",
-            "title": "Как всё проходит",
+            "id": "maintenance",
+            "icon": "wrench",
+            "tone": "infrastructure",
+            "title": "Обслуживание серверов",
+            "text": "Регулярное сопровождение, обновления и выезд при поломке.",
             "list": [
-              "Проверка: ваши задачи, ваши игры или программы, ваше оборудование, ваше соединение.",
-              "Письменное предложение: что работает, что меняется, сроки, цена.",
-              "Миграция: сначала всё сохраняется в резервную копию, начинаем с пилотного компьютера.",
-              "Освоение и сопровождение: объяснения, документация, обслуживание — если вы этого хотите."
-            ],
-            "steps": true
+              "Обновления безопасности",
+              "Проверенные резервные копии",
+              "Мониторинг с Zabbix"
+            ]
+          },
+          {
+            "id": "how",
+            "title": "Как всё проходит",
+            "numbered": true,
+            "cards": [
+              {
+                "title": "Проверка",
+                "text": "Ваши задачи, ваши игры или программы, ваше оборудование, ваше соединение."
+              },
+              {
+                "title": "Письменное предложение",
+                "text": "Что работает, что меняется, сроки, цена."
+              },
+              {
+                "title": "Миграция",
+                "text": "Сначала всё сохраняется в резервную копию, начинаем с пилотного компьютера."
+              },
+              {
+                "title": "Освоение и сопровождение",
+                "text": "Объяснения, документация, обслуживание — если вы этого хотите."
+              }
+            ]
           },
           {
             "icon": "tag",
@@ -1587,6 +1696,7 @@
           },
           {
             "title": "Связанные услуги",
+            "cols": 3,
             "cards": [
               {
                 "icon": "server",
@@ -1606,7 +1716,7 @@
             ]
           }
         ],
-        "trademarks": "Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix и названия упомянутых игр — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками."
+        "trademarks": "Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix и названия упомянутых игр — товарные знаки их соответствующих владельцев. Их упоминание не означает какого-либо партнёрства с их разработчиками. Tux, талисман Linux: Larry Ewing (lewing@isc.tamu.edu) и The GIMP; векторная версия — Simon Budig и Garrett LeSage."
       }
     ]
   },
