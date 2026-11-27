@@ -1386,6 +1386,227 @@
           }
         ],
         "trademarks": "Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office and Active Directory are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
+      },
+      {
+        "id": "linux",
+        "parent": "infrastructure",
+        "title": "Linux: gaming, workstations, servers",
+        "heading": "Linux, from the gaming PC to the business server",
+        "summary": "CachyOS and Steam for gaming, Ubuntu at the office, Debian for your servers, on your premises or in a data centre.",
+        "card": {
+          "title": "Linux",
+          "text": "Gaming, workstations and servers: the right Linux for each use."
+        },
+        "lead": "Linux is free, fast and secure. It runs most Steam games, entire offices and a large share of the world's servers. I choose the right Linux for each use, I move your data across and I stay available afterwards.",
+        "badges": [
+          "CachyOS",
+          "Steam",
+          "Ubuntu",
+          "Debian"
+        ],
+        "actions": [
+          {
+            "label": "Get my PC checked",
+            "emailSubject": "Linux compatibility check"
+          },
+          {
+            "label": "Let's talk about your project",
+            "anchor": "contact"
+          }
+        ],
+        "metaTitle": "Linux in Kampot and Cambodia: gaming, workstations, servers — Chantrea Systems",
+        "metaDescription": "Moving to Linux in Kampot and Cambodia: CachyOS and Steam for gaming, Ubuntu for the office, Debian for servers, on your premises or in a data centre.",
+        "contact": {
+          "title": "Let's talk about your migration",
+          "emailSubject": "Linux project with Chantrea Systems"
+        },
+        "sections": [
+          {
+            "title": "Three uses, three systems",
+            "cards": [
+              {
+                "icon": "cpu",
+                "title": "Play",
+                "text": "CachyOS and Steam. The fastest for games.",
+                "anchor": "gaming"
+              },
+              {
+                "icon": "users",
+                "title": "Work",
+                "text": "Ubuntu LTS. Stable, simple, supported for five years.",
+                "anchor": "desktop"
+              },
+              {
+                "icon": "server",
+                "title": "Host",
+                "text": "Debian. The reference for servers.",
+                "anchor": "servers"
+              }
+            ]
+          },
+          {
+            "icon": "check",
+            "title": "Why switch to Linux",
+            "defs": [
+              {
+                "term": "No licence to buy.",
+                "text": "The system and the office software are free and legal."
+              },
+              {
+                "term": "Your PC goes back to work.",
+                "text": "Linux runs very well on computers that Windows 11 refuses. No need to buy a new one."
+              },
+              {
+                "term": "More security, less advertising.",
+                "text": "Few viruses, no advertising in the system, no forced data collection."
+              },
+              {
+                "term": "Updates when you decide.",
+                "text": "No forced restart in the middle of a meeting or a game."
+              },
+              {
+                "term": "Support that lasts.",
+                "text": "Ubuntu 26.04 LTS receives security patches until April 2031, Debian 13 until June 2030."
+              }
+            ],
+            "_verifie": "vérifié le 27/11/2026"
+          },
+          {
+            "callout": true,
+            "title": "Still on Windows 10?",
+            "text": "Microsoft ended standard support in October 2025. PCs enrolled in the extended updates programme keep receiving them until October 2027, then nothing. This is the right time to prepare what comes next, without buying new hardware.",
+            "_verifie": "vérifié le 27/11/2026"
+          },
+          {
+            "id": "gaming",
+            "icon": "cpu",
+            "title": "Gaming on Linux: CachyOS and Steam",
+            "text": "CachyOS is a Linux tuned for performance: an optimized kernel, recent graphics drivers, gaming tools ready to use. Steam installs in one click. Thanks to Proton, Valve's compatibility layer, the vast majority of the Windows games in your library launch just as before.",
+            "subtitle": "What I do",
+            "list": [
+              "I check your library game by game, before starting.",
+              "I back up everything: files, screenshots, game saves.",
+              "I install CachyOS, the NVIDIA or AMD drivers, Steam and Proton.",
+              "I add your other stores: Epic Games and GOG with Heroic, the other launchers with Lutris.",
+              "I set up the rest: gamepads, Discord, OBS for recording or streaming, high refresh rate screens.",
+              "If you wish, Windows stays on a second drive for the rare games that require it. You choose at startup."
+            ]
+          },
+          {
+            "id": "anti-cheat",
+            "callout": true,
+            "title": "The games that don't work",
+            "text": "Some online games use an anti-cheat system that blocks Linux. As of November 2026, this is the case for Valorant, League of Legends, Call of Duty, Battlefield 6 and Fortnite (announced for Linux, but not yet playable). Other competitive games work very well, such as Counter-Strike 2, Marvel Rivals or ARC Raiders. If one of your games is blocked, I tell you before touching anything.",
+            "_verifie": "vérifié le 27/11/2026"
+          },
+          {
+            "note": "CachyOS updates continuously. That is what makes it so fast for games, but it needs a little more attention. For a work computer, I recommend Ubuntu."
+          },
+          {
+            "id": "desktop",
+            "icon": "users",
+            "title": "Workstations: Ubuntu",
+            "text": "At the office, stability comes first. A new LTS version of Ubuntu comes out every two years and receives five years of security patches. The interface is clear and your employees quickly find their way around.",
+            "subtitle": "What I do",
+            "list": [
+              "I first study your software, printers, scanners and special hardware. I tell you what works and what needs replacing.",
+              "I set up the equivalents: LibreOffice for your Word, Excel and PowerPoint files, Firefox or Chrome, Thunderbird for email. Microsoft 365 and Google Workspace remain usable in the browser.",
+              "I transfer your documents, emails, bookmarks and passwords.",
+              "For an essential Windows program, I find a solution case by case: a web version, equivalent software, or Windows in a virtual machine.",
+              "I install the Khmer keyboard and fonts, and the interface in each person's language.",
+              "I connect the workstations to your tools: shared files with [Nextcloud](services/nextcloud), inventory in [GLPI](services/security), security watch with [Vigie](services/vigie) (in development).",
+              "I train your teams in one short session."
+            ],
+            "after": "We migrate gradually: one pilot workstation first, the others once everyone is comfortable."
+          },
+          {
+            "id": "servers",
+            "title": "Servers: Debian, on your premises or in a data centre",
+            "text": "Debian has been known for its stability for more than thirty years. It is a very good foundation for your services: Odoo, Nextcloud, Mattermost, GLPI, Zabbix, file sharing, VPN.",
+            "subtitle": "Where should your server go? It all depends on your Internet connection.",
+            "cards": [
+              {
+                "icon": "home",
+                "title": "On your premises",
+                "text": "If your services are mostly used at the office, or if your connection is too slow or too unstable to rely on. Everything keeps working when the Internet is down. I plan a UPS and a copy of the backups outside your premises."
+              },
+              {
+                "icon": "server",
+                "title": "In a data centre",
+                "text": "If your teams, your clients or several sites access it from outside. The server benefits from a fast connection and a more reliable power supply than in an office."
+              },
+              {
+                "icon": "layers",
+                "title": "Both",
+                "text": "A server on your premises for everyday speed, a copy in a data centre for safety."
+              }
+            ],
+            "after": "Before choosing, I test your connection: speed in both directions, stability over several days, outages, fixed IP address, quality of the power supply. You decide on measurements, not on impressions.",
+            "note": "Included: Debian installation, firewall and secure access, security updates, tested backups, monitoring with Zabbix, remote access by VPN, documentation handed over.",
+            "link": {
+              "page": "services/infrastructure",
+              "label": "Hosting locations in detail"
+            }
+          },
+          {
+            "icon": "calendar",
+            "title": "How it works",
+            "list": [
+              "The check: your uses, your games or software, your hardware, your connection.",
+              "The written proposal: what works, what changes, the timeline, the price.",
+              "The migration: everything is backed up first, starting with a pilot workstation.",
+              "Getting started and follow-up: explanations, documentation, maintenance if you wish."
+            ],
+            "steps": true
+          },
+          {
+            "icon": "tag",
+            "title": "Plans",
+            "list": [
+              "Compatibility check: [À COMPLÉTER PAR STEFAN]",
+              "Migration of a gaming PC: [À COMPLÉTER PAR STEFAN]",
+              "Migration of a workstation (price per workstation): [À COMPLÉTER PAR STEFAN]",
+              "Debian server: quote on request",
+              "Maintenance contract: [À COMPLÉTER PAR STEFAN]"
+            ]
+          },
+          {
+            "icon": "globe",
+            "title": "On site or remote",
+            "text": "Installation on site in Kampot and anywhere in Cambodia. Everywhere else, settings, follow-up and troubleshooting are done remotely once the system is installed."
+          },
+          {
+            "icon": "info",
+            "title": "Good to know",
+            "list": [
+              "Linux does not suit every use. Some software (Adobe, Autodesk, some accounting software) exists only for Windows or Mac, and I tell you beforehand.",
+              "Some games with anti-cheat remain blocked ([see above](#anti-cheat)).",
+              "Nothing is erased without a backup, and going back remains possible.",
+              "Very recent or very unusual hardware is checked before purchase or migration."
+            ]
+          },
+          {
+            "title": "Related offers",
+            "cards": [
+              {
+                "icon": "server",
+                "title": "Infrastructure and systems",
+                "page": "services/infrastructure"
+              },
+              {
+                "icon": "cloud",
+                "title": "Odoo, Nextcloud and Mattermost",
+                "page": "services/business-software"
+              },
+              {
+                "icon": "shield",
+                "title": "Vigie",
+                "page": "services/vigie"
+              }
+            ]
+          }
+        ],
+        "trademarks": "Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix and the names of the games mentioned are trademarks of their respective owners. Mentioning them does not imply any partnership with their publishers."
       }
     ]
   },
