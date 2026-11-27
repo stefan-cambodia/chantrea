@@ -1515,7 +1515,7 @@
               "I transfer your documents, emails, bookmarks and passwords.",
               "For an essential Windows program, I find a solution case by case: a web version, equivalent software, or Windows in a virtual machine.",
               "I install the Khmer keyboard and fonts, and the interface in each person's language.",
-              "I connect the workstations to your tools: shared files with [Nextcloud](services/nextcloud), inventory in [GLPI](services/security), security watch with [Vigie](services/vigie) (in development).",
+              "I connect the workstations to your tools: shared files with [Nextcloud](services/nextcloud), inventory in [GLPI](services/security), security watch with [Vigie](services/vigie).",
               "I train your teams in one short session."
             ],
             "after": "We migrate gradually: one pilot workstation first, the others once everyone is comfortable."

@@ -1514,7 +1514,7 @@
               "迁移您的文档、电子邮件、书签和密码。",
               "对于必不可少的 Windows 软件，逐一寻找解决办法：网页版、同类软件，或在虚拟机中运行 Windows。",
               "安装高棉语键盘和字体，并把界面设为每位使用者的语言。",
-              "把工作站接入您的工具：用 [Nextcloud](services/nextcloud) 共享文件，在 [GLPI](services/security) 中建立资产清单，用 [Vigie](services/vigie)（开发中）跟踪安全漏洞。",
+              "把工作站接入您的工具：用 [Nextcloud](services/nextcloud) 共享文件，在 [GLPI](services/security) 中建立资产清单，用 [Vigie](services/vigie) 跟踪安全漏洞。",
               "用一次简短的培训教会您的团队。"
             ],
             "after": "迁移分步进行：先做一台试点电脑，等大家都用顺手了，再迁移其余的。"

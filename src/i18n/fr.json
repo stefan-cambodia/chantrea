@@ -1515,7 +1515,7 @@
               "Je transfère vos documents, e-mails, favoris et mots de passe.",
               "Pour un logiciel Windows indispensable, je trouve une solution au cas par cas : version web, logiciel équivalent, ou Windows dans une machine virtuelle.",
               "J'installe le clavier et les polices khmers, et l'interface dans la langue de chacun.",
-              "Je relie les postes à vos outils : fichiers partagés avec [Nextcloud](services/nextcloud), inventaire dans [GLPI](services/security), veille de sécurité avec [Vigie](services/vigie) (en cours de développement).",
+              "Je relie les postes à vos outils : fichiers partagés avec [Nextcloud](services/nextcloud), inventaire dans [GLPI](services/security), veille de sécurité avec [Vigie](services/vigie).",
               "Je forme vos équipes en une courte séance."
             ],
             "after": "On migre progressivement : un poste pilote d'abord, les autres une fois que tout le monde est à l'aise."
