@@ -34,7 +34,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.velocity.description` | ហ្គេមប្រណាំងប្រឆាំងទំនាញសម្រាប់ Android៖ ផ្លូវប្រណាំង 12 ក្រុម 8 របៀបលេង 6 អាជីពអ្នកប្រណាំង ការប្រកួតជើងឯក អាវុធ និងជំនួយ។ | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | ស្នាដៃ — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | កម្មវិធីគ្រប់គ្រងសណ្ឋាគារ HMS គេហទំព័ររៀនភាសាខ្មែរ ហ្គេម និងកម្មវិធីត្រាប់តាម (emulator) សម្រាប់ Android គម្រោងកំពុងអភិវឌ្ឍ ដូចជាតំបន់អង្គរជា 3D និងតន្ត្រីក្នុងកម្មវិធីរុករក (browser)។ | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, des projets en cours comme Angkor en 3D, et de la musique dans le navigateur. |
-| ⏳ à relire | `meta.whatsNew.title` | មានអ្វីថ្មី? ការផ្លាស់ប្តូរចុងក្រោយ — Chantrea Systems | Quoi de neuf ? Les derniers changements — Chantrea Systems |
+| ⏳ à relire | `meta.whatsNew.title` | Commit ចុងក្រោយក្នុងគម្រោងសាធារណៈ — Chantrea Systems | Derniers commits des projets publics — Chantrea Systems |
 | ⏳ à relire | `meta.whatsNew.description` | ការផ្លាស់ប្តូរចុងក្រោយដែលបានកត់ត្រាក្នុងគម្រោងសាធារណៈរបស់ Chantrea Systems ពីថ្មីបំផុតទៅចាស់បំផុត អានពី GitHub។ | Les derniers changements enregistrés dans les projets publics de Chantrea Systems, du plus récent au plus ancien, lus sur GitHub. |
 | ⏳ à relire | `meta.about.title` | អំពីខ្ញុំ — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems បង្កើតឡើងដោយ Stefan នៅកំពត។ កម្មវិធី បញ្ញាសិប្បនិម្មិត ហេដ្ឋារចនាសម្ព័ន្ធ និងសុវត្ថិភាព នៅកម្ពុជា និងពីចម្ងាយ។ | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
@@ -58,7 +58,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | អង្គរ 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | ស្នាដៃ | Réalisations |
-| ⏳ à relire | `nav.whatsNew` | មានអ្វីថ្មី? | Quoi de neuf ? |
+| ⏳ à relire | `nav.whatsNew` | Commit ចុងក្រោយ | Derniers commits |
 | ⏳ à relire | `nav.about` | អំពីខ្ញុំ | À propos |
 | ⏳ à relire | `nav.jobs` | ឱកាសការងារ | Recrutement |
 | ⏳ à relire | `nav.contact` | ទំនាក់ទំនង | Contact |
@@ -1287,7 +1287,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.games.list.2` | 3D Frog៖ ហ្គេមអាខេតដែលត្រូវឆ្លងកាត់ផ្លូវ | 3D Frog : jeu d'arcade où il faut traverser |
 | ⏳ à relire | `work.items.games.list.3` | Gemstone Caverns៖ ជីក និងប្រមូលត្បូងនៅក្នុងរូងភ្នំ | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
 | ⏳ à relire | `work.items.games.link` | មើលបញ្ជីស្នាដៃ (portfolio) | Voir le portfolio |
-| ⏳ à relire | `whatsNew.eyebrow` | មានអ្វីថ្មី? | Quoi de neuf ? |
+| ⏳ à relire | `whatsNew.eyebrow` | Commit ចុងក្រោយ | Derniers commits |
 | ⏳ à relire | `whatsNew.title` | ទើបតែកែប្រែថ្មីៗ។ | Tout juste sorti de l'atelier. |
 | ⏳ à relire | `whatsNew.lead` | ការផ្លាស់ប្តូរចុងក្រោយដែលបានកត់ត្រាក្នុងគម្រោងសាធារណៈរបស់យើង ពីថ្មីបំផុតទៅចាស់បំផុត៖ ទិដ្ឋភាពនៃអ្វីដែលកំពុងដំណើរការនៅពេលនេះ។ | Les derniers changements enregistrés dans nos projets publics, du plus récent au plus ancien : un aperçu de ce qui avance en ce moment. |
 | ⏳ à relire | `whatsNew.source` | បញ្ជីនេះអានពី GitHub ហើយធ្វើបច្ចុប្បន្នភាពច្រើនដងក្នុងមួយថ្ងៃ។ បច្ចុប្បន្នភាពចុងក្រោយ៖ {date}។ ម៉ោងទាំងអស់ជាម៉ោងនៅកម្ពុជា។ | Liste lue sur GitHub, mise à jour plusieurs fois par jour. Dernière mise à jour : {date}. Les heures sont celles du Cambodge. |
@@ -1391,7 +1391,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.velocity.description` | Антигравитационная гонка для Android: 12 трасс, 8 команд, 6 режимов, карьера и чемпионаты, оружие и бонусы. | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | Проекты — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | Программа для отелей HMS, сайт для изучения кхмерского, игры и эмулятор для Android, проекты в разработке, например Ангкор в 3D, и музыка в браузере. | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, des projets en cours comme Angkor en 3D, et de la musique dans le navigateur. |
-| ⏳ à relire | `meta.whatsNew.title` | Что нового: последние изменения — Chantrea Systems | Quoi de neuf ? Les derniers changements — Chantrea Systems |
+| ⏳ à relire | `meta.whatsNew.title` | Последние коммиты в открытых проектах — Chantrea Systems | Derniers commits des projets publics — Chantrea Systems |
 | ⏳ à relire | `meta.whatsNew.description` | Последние изменения в открытых проектах Chantrea Systems, от новых к старым, по данным GitHub. | Les derniers changements enregistrés dans les projets publics de Chantrea Systems, du plus récent au plus ancien, lus sur GitHub. |
 | ⏳ à relire | `meta.about.title` | Обо мне — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems, основана Стефаном в Кампоте. ПО, ИИ, инфраструктура и безопасность — в Камбодже и удалённо. | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
@@ -1415,7 +1415,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | Ангкор 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | Проекты | Réalisations |
-| ⏳ à relire | `nav.whatsNew` | Что нового | Quoi de neuf ? |
+| ⏳ à relire | `nav.whatsNew` | Последние коммиты | Derniers commits |
 | ⏳ à relire | `nav.about` | Обо мне | À propos |
 | ⏳ à relire | `nav.jobs` | Вакансии | Recrutement |
 | ⏳ à relire | `nav.contact` | Контакты | Contact |
@@ -2644,7 +2644,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.games.list.2` | 3D Frog: аркада, где нужно перебраться на другую сторону | 3D Frog : jeu d'arcade où il faut traverser |
 | ⏳ à relire | `work.items.games.list.3` | Gemstone Caverns: копать и собирать камни в пещерах | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
 | ⏳ à relire | `work.items.games.link` | Посмотреть портфолио | Voir le portfolio |
-| ⏳ à relire | `whatsNew.eyebrow` | Что нового | Quoi de neuf ? |
+| ⏳ à relire | `whatsNew.eyebrow` | Последние коммиты | Derniers commits |
 | ⏳ à relire | `whatsNew.title` | Только что из мастерской. | Tout juste sorti de l'atelier. |
 | ⏳ à relire | `whatsNew.lead` | Последние изменения в наших открытых проектах, от новых к старым: над чем идёт работа прямо сейчас. | Les derniers changements enregistrés dans nos projets publics, du plus récent au plus ancien : un aperçu de ce qui avance en ce moment. |
 | ⏳ à relire | `whatsNew.source` | Список загружается с GitHub и обновляется несколько раз в день. Последнее обновление: {date}. Время указано по Камбодже. | Liste lue sur GitHub, mise à jour plusieurs fois par jour. Dernière mise à jour : {date}. Les heures sont celles du Cambodge. |
@@ -2748,7 +2748,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `meta.velocity.description` | Android 反重力赛车游戏：12 条赛道，8 支车队，6 种模式，生涯和锦标赛，武器和道具。 | Un jeu de course anti-gravité pour Android : 12 circuits, 8 écuries, 6 modes de jeu, une carrière et des championnats, des armes et des bonus. |
 | ⏳ à relire | `meta.work.title` | 项目案例 — Chantrea Systems | Réalisations — Chantrea Systems |
 | ⏳ à relire | `meta.work.description` | HMS 酒店管理软件、一个高棉语学习网站、Android 游戏和模拟器、开发中的项目（如 3D 吴哥），以及在浏览器里运行的音乐。 | Le logiciel hôtelier HMS, un site pour apprendre le khmer, des jeux et un émulateur pour Android, des projets en cours comme Angkor en 3D, et de la musique dans le navigateur. |
-| ⏳ à relire | `meta.whatsNew.title` | 最新动态：最近的更改 — Chantrea Systems | Quoi de neuf ? Les derniers changements — Chantrea Systems |
+| ⏳ à relire | `meta.whatsNew.title` | 公开项目的最新提交 — Chantrea Systems | Derniers commits des projets publics — Chantrea Systems |
 | ⏳ à relire | `meta.whatsNew.description` | Chantrea Systems 公开项目中记录的最新更改，从新到旧，读取自 GitHub。 | Les derniers changements enregistrés dans les projets publics de Chantrea Systems, du plus récent au plus ancien, lus sur GitHub. |
 | ⏳ à relire | `meta.about.title` | 关于 — Chantrea Systems | À propos — Chantrea Systems |
 | ⏳ à relire | `meta.about.description` | Chantrea Systems 由 Stefan 在柬埔寨贡布创办。软件、AI、基础设施和安全，在柬埔寨现场或远程服务。 | Chantrea Systems, fondée par Stefan à Kampot. Logiciels, IA, infrastructure et sécurité, au Cambodge et à distance. |
@@ -2772,7 +2772,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | 吴哥 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | 项目案例 | Réalisations |
-| ⏳ à relire | `nav.whatsNew` | 最新动态 | Quoi de neuf ? |
+| ⏳ à relire | `nav.whatsNew` | 最新提交 | Derniers commits |
 | ⏳ à relire | `nav.about` | 关于 | À propos |
 | ⏳ à relire | `nav.jobs` | 招聘 | Recrutement |
 | ⏳ à relire | `nav.contact` | 联系 | Contact |
@@ -4000,7 +4000,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `work.items.games.list.2` | 3D Frog：穿越类街机游戏 | 3D Frog : jeu d'arcade où il faut traverser |
 | ⏳ à relire | `work.items.games.list.3` | Gemstone Caverns：在洞穴里挖掘、收集宝石 | Gemstone Caverns : creuser et ramasser des pierres dans des grottes |
 | ⏳ à relire | `work.items.games.link` | 查看作品集 | Voir le portfolio |
-| ⏳ à relire | `whatsNew.eyebrow` | 最新动态 | Quoi de neuf ? |
+| ⏳ à relire | `whatsNew.eyebrow` | 最新提交 | Derniers commits |
 | ⏳ à relire | `whatsNew.title` | 刚从工坊出炉。 | Tout juste sorti de l'atelier. |
 | ⏳ à relire | `whatsNew.lead` | 我们公开项目中记录的最新更改，从新到旧：一览目前正在推进的工作。 | Les derniers changements enregistrés dans nos projets publics, du plus récent au plus ancien : un aperçu de ce qui avance en ce moment. |
 | ⏳ à relire | `whatsNew.source` | 列表读取自 GitHub，每天更新数次。最近更新：{date}。时间均为柬埔寨时间。 | Liste lue sur GitHub, mise à jour plusieurs fois par jour. Dernière mise à jour : {date}. Les heures sont celles du Cambodge. |

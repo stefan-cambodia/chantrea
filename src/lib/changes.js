@@ -1,4 +1,4 @@
-// Derniers changements des dépôts publics, pour la page « Quoi de neuf ? ».
+// Derniers changements des dépôts publics, pour la page « Derniers commits ».
 //
 // La liste est lue sur GitHub AU MOMENT OÙ LE SITE EST CONSTRUIT, puis écrite dans la page :
 // elle s'affiche donc sans JavaScript, et les moteurs de recherche la lisent.
@@ -81,7 +81,7 @@ async function read() {
     return { items: await load(), failed: false, at };
   } catch (error) {
     if (process.env.CHANGES_REQUIRED) throw error;
-    console.warn(`[Quoi de neuf ?] Liste non lue sur GitHub : ${error.message}`);
+    console.warn(`[Derniers commits] Liste non lue sur GitHub : ${error.message}`);
     return { items: [], failed: true, at };
   }
 }

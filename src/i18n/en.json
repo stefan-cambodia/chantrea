@@ -45,7 +45,7 @@
       "description": "The HMS hotel software, a site for learning Khmer, Android games and an emulator, projects in development such as Angkor in 3D, and music in the browser."
     },
     "whatsNew": {
-      "title": "What's new: the latest changes — Chantrea Systems",
+      "title": "Last commits in our public projects — Chantrea Systems",
       "description": "The latest changes recorded in Chantrea Systems' public projects, newest first, read from GitHub."
     },
     "about": {
@@ -82,7 +82,7 @@
     "rally": "Cambodia Rally",
     "angkor": "Angkor 3D",
     "work": "Work",
-    "whatsNew": "What's new",
+    "whatsNew": "Last commits",
     "about": "About",
     "jobs": "Jobs",
     "contact": "Contact",
@@ -2385,7 +2385,7 @@
     }
   },
   "whatsNew": {
-    "eyebrow": "What's new",
+    "eyebrow": "Last commits",
     "title": "Fresh off the workbench.",
     "lead": "The latest changes recorded in our public projects, newest first: a view of what is moving forward right now.",
     "source": "List read from GitHub and refreshed several times a day. Last refreshed: {date}. Times are Cambodia time.",

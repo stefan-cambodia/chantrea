@@ -45,7 +45,7 @@
       "description": "HMS 酒店管理软件、一个高棉语学习网站、Android 游戏和模拟器、开发中的项目（如 3D 吴哥），以及在浏览器里运行的音乐。"
     },
     "whatsNew": {
-      "title": "最新动态：最近的更改 — Chantrea Systems",
+      "title": "公开项目的最新提交 — Chantrea Systems",
       "description": "Chantrea Systems 公开项目中记录的最新更改，从新到旧，读取自 GitHub。"
     },
     "about": {
@@ -82,7 +82,7 @@
     "rally": "Cambodia Rally",
     "angkor": "吴哥 3D",
     "work": "项目案例",
-    "whatsNew": "最新动态",
+    "whatsNew": "最新提交",
     "about": "关于",
     "jobs": "招聘",
     "contact": "联系",
@@ -2384,7 +2384,7 @@
     }
   },
   "whatsNew": {
-    "eyebrow": "最新动态",
+    "eyebrow": "最新提交",
     "title": "刚从工坊出炉。",
     "lead": "我们公开项目中记录的最新更改，从新到旧：一览目前正在推进的工作。",
     "source": "列表读取自 GitHub，每天更新数次。最近更新：{date}。时间均为柬埔寨时间。",

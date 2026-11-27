@@ -189,21 +189,22 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
   :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
 }
 .mobile-nav nav { position: absolute; left: 0; right: 0; top: 100%; background: var(--night-bg); border-bottom: 1px solid var(--night-line); padding: .5rem 1rem 1rem; }
-/* Huit liens (avec « Quoi de neuf ? ») : le menu complet s'affiche à partir de 1100 px ;
-   en dessous, c'est le menu du téléphone. Le français, le plus long, sert de mesure. */
+/* Huit liens (avec « Derniers commits ») : le menu complet s'affiche à partir de 1100 px ;
+   en dessous, c'est le menu du téléphone. Le français, le plus long, sert de mesure : il lui
+   reste environ 20 px (30 px en russe). */
 @media (min-width: 1100px) {
   .main-nav { display: block; }
   .site-header__tools { margin-left: .5rem; }
   .mobile-nav { display: none; }
-  .main-nav a { padding-inline: .5rem; }
+  .main-nav a { padding-inline: .4rem; }
 }
 /* Avec le lien « Espace client », le menu complet demande plus de place. */
 @media (min-width: 1100px) and (max-width: 1199.98px) {
   .has-portal .main-nav { display: none; }
   .has-portal .site-header__tools { margin-left: auto; }
   .has-portal .mobile-nav { display: block; }
-  /* Liens un peu plus serrés pour tenir à 1100 px. */
-  .main-nav a { padding-inline: .4rem; font-size: .95rem; }
+  /* Texte un peu plus petit pour tenir à 1100 px. */
+  .main-nav a { font-size: .95rem; }
 }
 
 /* ─── Accueil ──────────────────────────────────────────────── */
@@ -1120,7 +1121,7 @@ h2.group-title { margin-top: 0; }
   @keyframes lost-glow { 50% { box-shadow: inset .2em -.06em 0 0 var(--moon), 0 0 90px -6px rgba(233, 223, 199, .6); } }
 }
 
-/* ─── Quoi de neuf ? ───────────────────────────────────────── */
+/* ─── Derniers commits ─────────────────────────────────────── */
 /* Une carte par jour ; une ligne par changement : heure, projet, message, identifiant. */
 .changes .section__intro { max-width: 46rem; }
 .changes-day + .changes-day { margin-top: 2rem; }
