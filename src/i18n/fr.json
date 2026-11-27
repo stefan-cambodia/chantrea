@@ -2717,8 +2717,7 @@
     }
   },
   "whatsNew": {
-    "eyebrow": "Derniers commits",
-    "title": "Tout juste sorti de l'atelier.",
+    "title": "Derniers commits",
     "lead": "Les derniers changements enregistrés dans nos projets publics, du plus récent au plus ancien : un aperçu de ce qui avance en ce moment.",
     "source": "Liste lue sur GitHub, mise à jour plusieurs fois par jour. Dernière mise à jour : {date}. Les heures sont celles du Cambodge.",
     "asWritten": "Chaque ligne est affichée telle qu'elle a été écrite, en français ou en anglais.",

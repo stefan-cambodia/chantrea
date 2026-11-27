@@ -63,7 +63,7 @@ function model(format) {
 const formats = JSON.stringify({ offset, day: model(dayLabel), time: model(clock), stamp: model(stamp) });
 ---
 <Page lang={lang} page="whats-new" title={tr.meta.whatsNew.title} description={tr.meta.whatsNew.description}>
-  <PageHero eyebrow={n.eyebrow} title={n.title} lead={n.lead} />
+  <PageHero title={n.title} lead={n.lead} />
 
   <section class="section">
     {/* Les attributs data-* donnent au script ce qu'il lui faut pour refaire la liste. */}

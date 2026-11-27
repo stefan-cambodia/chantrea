@@ -2607,8 +2607,7 @@
     }
   },
   "whatsNew": {
-    "eyebrow": "Last commits",
-    "title": "Fresh off the workbench.",
+    "title": "Last commits",
     "lead": "The latest changes recorded in our public projects, newest first: a view of what is moving forward right now.",
     "source": "List read from GitHub and refreshed several times a day. Last refreshed: {date}. Times are Cambodia time.",
     "asWritten": "Each line is shown as it was written, in French or in English.",
