@@ -1,9 +1,13 @@
 // Derniers changements des dépôts publics, pour la page « Quoi de neuf ? ».
 //
 // La liste est lue sur GitHub AU MOMENT OÙ LE SITE EST CONSTRUIT, puis écrite dans la page :
-// le navigateur du visiteur ne contacte jamais GitHub, et la page reste sans JavaScript.
-// Elle se rafraîchit donc à chaque publication (.github/workflows/deploy.yml : à chaque envoi
-// sur main, et plusieurs fois par jour).
+// elle s'affiche donc sans JavaScript, et les moteurs de recherche la lisent.
+// Elle se rafraîchit à chaque publication (.github/workflows/deploy.yml : à chaque envoi
+// sur main, et plusieurs fois par jour si GitHub lance bien la reconstruction programmée).
+//
+// Entre deux publications, le script de la page (src/pages/[lang]/whats-new.astro) relit GitHub
+// dans le navigateur du visiteur et remplace la liste si un dépôt a reçu un envoi depuis.
+// Les deux lectures suivent la même règle : garder les deux fichiers d'accord.
 //
 // Seuls les dépôts PUBLICS du compte (site.config.mjs → github) sont lus : jamais un dépôt privé,
 // jamais une copie (fork) du projet de quelqu'un d'autre.
@@ -69,6 +73,19 @@ async function load() {
 
 let reading;
 
+async function read() {
+  // Heure notée AVANT la lecture : le script de la page la compare au dernier envoi de chaque
+  // dépôt pour savoir si la liste écrite ici est encore la bonne.
+  const at = new Date();
+  try {
+    return { items: await load(), failed: false, at };
+  } catch (error) {
+    if (process.env.CHANGES_REQUIRED) throw error;
+    console.warn(`[Quoi de neuf ?] Liste non lue sur GitHub : ${error.message}`);
+    return { items: [], failed: true, at };
+  }
+}
+
 /**
  * Les derniers changements : { items, failed, at }.
  * Une seule lecture par construction du site, partagée par les pages de toutes les langues.
@@ -77,13 +94,6 @@ let reading;
  * en ligne reste tel quel, avec sa liste précédente.
  */
 export function latestChanges() {
-  reading ??= load().then(
-    (items) => ({ items, failed: false, at: new Date() }),
-    (error) => {
-      if (process.env.CHANGES_REQUIRED) throw error;
-      console.warn(`[Quoi de neuf ?] Liste non lue sur GitHub : ${error.message}`);
-      return { items: [], failed: true, at: new Date() };
-    },
-  );
+  reading ??= read();
   return reading;
 }

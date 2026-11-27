@@ -1,7 +1,7 @@
 # Chantrea Systems : site web
 
 Site statique fait avec [Astro](https://astro.build), en cinq langues (français, anglais, khmer, russe, chinois), publié sur GitHub Pages.
-Pas de cookies, pas de traceur, presque pas de JavaScript (seulement le bouton clair/sombre).
+Pas de cookies, pas de traceur, presque pas de JavaScript (le bouton clair/sombre, et le rafraîchissement de la page « Quoi de neuf ? »).
 
 ## Travailler en local
 
@@ -97,15 +97,24 @@ dépôts **publics** du compte GitHub noté dans `site.config.mjs` → `github`,
 l'heure du Cambodge. Les dépôts privés et les copies (forks) n'y apparaissent jamais.
 
 - La liste est lue sur GitHub **pendant la construction du site** (`src/lib/changes.js`), puis écrite
-  dans la page : le navigateur du visiteur ne contacte pas GitHub, et la page n'a pas de JavaScript.
-- Elle se rafraîchit donc à chaque publication : à chaque envoi sur `main`, et quatre fois par jour
-  (`schedule` dans `.github/workflows/deploy.yml`).
+  dans la page : elle s'affiche sans JavaScript, et les moteurs de recherche la lisent.
+- Elle est refaite à chaque publication : à chaque envoi sur `main`, et quatre fois par jour
+  (`schedule` dans `.github/workflows/deploy.yml`). GitHub ne garantit pas ces reconstructions
+  programmées : le 26 et le 27 novembre 2026, les deux premières n'ont pas été lancées.
+- Entre deux publications, un script dans la page (`src/pages/[lang]/whats-new.astro`) relit GitHub
+  **dans le navigateur du visiteur** et remplace la liste si un dépôt a reçu un envoi depuis la
+  construction. Le navigateur contacte alors `api.github.com`, sans identification : GitHub accepte
+  60 lectures par heure et par adresse ; une visite en utilise 1 s'il n'y a rien de nouveau, sinon
+  de 4 à 13, et le résultat est gardé dix minutes dans l'onglet (`sessionStorage`, pas de cookie).
+  Si GitHub ne répond pas, la liste écrite à la construction reste affichée.
+- Le script écrit les dates avec des modèles préparés à la construction (noms des jours et des mois
+  compris) : Chrome ne connaît pas le khmer et écrirait les jours dans une autre langue.
 - Chaque ligne reprend le titre du commit tel qu'il a été écrit : il est visible par les clients.
 - Si GitHub ne répond pas pendant une publication, la page affiche un message à la place de la
   liste et le reste du site est publié normalement. Pendant une mise à jour programmée, la
   construction échoue à la place, et le site en ligne garde sa liste précédente.
 - Les textes de la page sont sous `whatsNew` dans chaque fichier de langue ; `{date}`, `{changes}`
-  et `{projects}` sont remplacés à la construction et ne se traduisent pas.
+  et `{projects}` sont remplacés à la construction, puis par le script, et ne se traduisent pas.
 
 En local, GitHub accepte 60 lectures par heure sans identification ; une construction en utilise
 moins de dix. Au-delà, lancer `GITHUB_TOKEN=$(gh auth token) npm run build`.
