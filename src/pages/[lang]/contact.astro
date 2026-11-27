@@ -1,5 +1,5 @@
 ---
-// Contact : trois cartes (e-mail, Telegram, WhatsApp), les conseils en trois étapes numérotées, et la zone d'intervention.
+// Contact : trois cartes (e-mail, Telegram, WhatsApp), les conseils en trois étapes numérotées, et l'adresse du bureau avec la zone d'intervention.
 // Coordonnées : site.config.mjs (contact) ; un identifiant « [À COMPLÉTER] » s'affiche surligné, sans lien.
 import config from '../../../site.config.mjs';
 import Page from '../../layouts/Page.astro';
@@ -59,6 +59,8 @@ const phases = [0.25, 0.5, 0.75];
         <span class="contact-channel__icon"><AboutIcon name="globe" size={26} /></span>
         <div>
           <h2 id="where-title" class="h3">{c.whereTitle}</h2>
+          <p class="contact-where__address">{c.address}</p>
+          <p>{c.office}</p>
           <p>{c.where}</p>
         </div>
       </section>
