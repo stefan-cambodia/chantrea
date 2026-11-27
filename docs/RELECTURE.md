@@ -1492,7 +1492,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `contactPage.whereTitle` | ទីតាំង | Où |
 | ⏳ à relire | `contactPage.address` | The Moon – Riverside – Kampot | The Moon – Riverside – Kampot |
 | ⏳ à relire | `contactPage.office` | ការិយាល័យរបស់យើងស្ថិតនៅ The Moon Kampot Boutique។ | Notre bureau se trouve à The Moon Kampot Boutique. |
-| ⏳ à relire | `contactPage.where` | កំពត កម្ពុជា។ នៅនឹងកន្លែងក្នុងតំបន់ និងគ្រប់ទីកន្លែងក្នុងប្រទេសកម្ពុជា គ្រប់ទីកន្លែងក្នុងពិភពលោក អាស្រ័យលើគម្រោង និងពីចម្ងាយសម្រាប់អតិថិជននៅបរទេស។ | Kampot, Cambodge. Sur place dans la région et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `contactPage.where` | យើងធ្វើការនៅនឹងកន្លែង ក្នុងតំបន់ និងគ្រប់ទីកន្លែងក្នុងប្រទេសកម្ពុជា ហើយក៏នៅគ្រប់ទីកន្លែងក្នុងពិភពលោក អាស្រ័យលើគម្រោង ព្រមទាំងពីចម្ងាយផងដែរ។ | Nous travaillons sur place, dans la région et partout au Cambodge, mais également dans le monde entier selon les projets, ainsi qu'à distance. |
 | ⏳ à relire | `notFound.title` | រកមិនឃើញទំព័រ | Page introuvable |
 | ⏳ à relire | `notFound.text` | ទំព័រនេះមិនមាន ឬលែងមានទៀតហើយ។ | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | ត្រឡប់ទៅទំព័រដើម | Retour à l'accueil |
@@ -2995,7 +2995,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `contactPage.whereTitle` | Где | Où |
 | ⏳ à relire | `contactPage.address` | The Moon – Riverside – Kampot | The Moon – Riverside – Kampot |
 | ⏳ à relire | `contactPage.office` | Наш офис находится в отеле The Moon Kampot Boutique. | Notre bureau se trouve à The Moon Kampot Boutique. |
-| ⏳ à relire | `contactPage.where` | Кампот, Камбоджа. На месте — в регионе и по всей Камбодже, в зависимости от проекта — в любой точке мира, а для клиентов за рубежом — удалённо. | Kampot, Cambodge. Sur place dans la région et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `contactPage.where` | Мы работаем на месте — в регионе и по всей Камбодже, а также в любой точке мира в зависимости от проекта и удалённо. | Nous travaillons sur place, dans la région et partout au Cambodge, mais également dans le monde entier selon les projets, ainsi qu'à distance. |
 | ⏳ à relire | `notFound.title` | Страница не найдена | Page introuvable |
 | ⏳ à relire | `notFound.text` | Такой страницы нет или больше нет. | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | На главную | Retour à l'accueil |
@@ -4497,7 +4497,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `contactPage.whereTitle` | 地点 | Où |
 | ⏳ à relire | `contactPage.address` | The Moon – Riverside – Kampot | The Moon – Riverside – Kampot |
 | ⏳ à relire | `contactPage.office` | 我们的办公室位于 The Moon Kampot Boutique。 | Notre bureau se trouve à The Moon Kampot Boutique. |
-| ⏳ à relire | `contactPage.where` | 柬埔寨贡布。在当地及柬埔寨各地上门服务，视项目需要也可前往世界各地，海外客户可远程服务。 | Kampot, Cambodge. Sur place dans la région et partout au Cambodge, dans le monde entier selon le projet, et à distance pour les clients à l'étranger. |
+| ⏳ à relire | `contactPage.where` | 我们提供上门服务，覆盖当地及柬埔寨各地，视项目需要也可前往世界各地，还可远程服务。 | Nous travaillons sur place, dans la région et partout au Cambodge, mais également dans le monde entier selon les projets, ainsi qu'à distance. |
 | ⏳ à relire | `notFound.title` | 页面不存在 | Page introuvable |
 | ⏳ à relire | `notFound.text` | 此页面不存在，或已不再提供。 | Cette page n'existe pas, ou plus. |
 | ⏳ à relire | `notFound.back` | 返回首页 | Retour à l'accueil |
