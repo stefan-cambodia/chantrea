@@ -64,8 +64,26 @@ modules Odoo), qui dépend du domaine `development`. La page Services liste les 
 
 Les technologies présentées sur la page Services sont dans `tech.groups` (une liste par domaine).
 
-Les valeurs `id`, `parent`, `figure`, `domain`, `page`, `name` et `term` ne se traduisent pas :
-elles sont identiques dans les cinq fichiers.
+Une offre peut porter des champs facultatifs, tous utilisés par la page Linux (`"id": "linux"`) :
+
+- `heading` : le titre affiché en haut de la page, s'il diffère de `title` (qui reste le titre des
+  listes) ;
+- `card` : le titre et le texte de sa carte sur la page de son domaine ;
+- `actions` : les boutons du haut de page (`emailSubject` ouvre un e-mail avec cet objet, `anchor`
+  mène à une ancre de la page) ;
+- `contact` : le titre et l'objet d'e-mail du bloc de contact, qui reçoit alors l'ancre `#contact`.
+
+Dans un bloc de `sections`, `id` pose une ancre, `subtitle` un sous-titre, `after` un paragraphe après
+la liste ou les cartes, `note` une note encadrée ; une carte devient un lien avec `anchor` ou `page`.
+Dans un texte, `[Nextcloud](services/nextcloud)` fait un lien vers une page du site, dans la langue
+de la page, et `[voir plus haut](#anti-cheat)` un lien vers une ancre.
+
+`"_verifie": "vérifié le 27/11/2026"` note quand les dates et les listes (de jeux, par exemple) d'un
+bloc ont été vérifiées. La clé n'est pas affichée ; elle sert à retrouver ce qu'il faut revoir.
+
+Les valeurs `id`, `parent`, `figure`, `domain`, `page`, `anchor`, `name`, `term` et `_verifie` ne se
+traduisent pas : elles sont identiques dans les cinq fichiers. Exception : sur la page Linux, les
+`term` de « Pourquoi passer à Linux » sont des phrases, et se traduisent.
 
 ## Ajouter une réalisation
 

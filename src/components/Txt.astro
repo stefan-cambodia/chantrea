@@ -1,6 +1,16 @@
 ---
 // Affiche un texte et met en évidence les « [À COMPLÉTER …] » restants.
+// Un lien interne s'écrit [texte](page) ou [texte](#ancre) dans le fichier de langue :
+// [Nextcloud](services/nextcloud) mène à la page Nextcloud, dans la langue de la page en cours.
+import { href } from '../i18n/index.js';
 interface Props { text: string }
-const parts = Astro.props.text.split(/(\[À COMPLÉTER[^\]]*\])/);
+const { lang } = Astro.params;
+const parts = Astro.props.text.split(/(\[À COMPLÉTER[^\]]*\]|\[[^\]]+\]\([^)\s]+\))/);
+const link = (p: string) => p.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/);
+const target = (to: string) => (to.startsWith('#') ? to : href(lang, to));
 ---
-{parts.map((p) => (p.startsWith('[À COMPLÉTER') ? <mark class="todo">{p}</mark> : p))}
+{parts.map((p) => (
+  p.startsWith('[À COMPLÉTER') ? <mark class="todo">{p}</mark>
+    : link(p) ? <a href={target(link(p)[2])}>{link(p)[1]}</a>
+    : p
+))}

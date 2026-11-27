@@ -298,6 +298,8 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .3em
 .narrow { max-width: 46rem; }
 .prose-section + .prose-section { margin-top: 2.25rem; }
 .prose-section h2 { font-size: 1.35rem; }
+/* Paragraphe placé après la liste ou les cartes d'un bloc (champ « after »). */
+.prose-section__after { margin-top: 1rem; }
 .note { margin-top: 2rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 8px 8px 0; color: var(--muted); }
 .trademarks { margin-top: 2.5rem; font-size: .8rem; color: var(--muted); }
 .back { margin-top: 2.5rem; }

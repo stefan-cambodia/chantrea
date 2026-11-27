@@ -1386,6 +1386,227 @@
           }
         ],
         "trademarks": "Nextcloud, Windows, macOS, Linux, Android, iPhone, Microsoft Office et Active Directory sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
+      },
+      {
+        "id": "linux",
+        "parent": "infrastructure",
+        "title": "Linux : jeux, postes de travail, serveurs",
+        "heading": "Linux, du PC de jeu au serveur d'entreprise",
+        "summary": "CachyOS et Steam pour jouer, Ubuntu au bureau, Debian pour vos serveurs, chez vous ou en centre de données.",
+        "card": {
+          "title": "Linux",
+          "text": "Jeux, postes de travail et serveurs : le bon Linux pour chaque usage."
+        },
+        "lead": "Linux est gratuit, rapide et sûr. Il fait tourner la plupart des jeux Steam, des bureaux entiers et une grande partie des serveurs du monde. Je choisis le bon Linux pour chaque usage, je transfère vos données et je reste disponible après.",
+        "badges": [
+          "CachyOS",
+          "Steam",
+          "Ubuntu",
+          "Debian"
+        ],
+        "actions": [
+          {
+            "label": "Faire le bilan de mon PC",
+            "emailSubject": "Bilan de compatibilité Linux"
+          },
+          {
+            "label": "Parlons de votre projet",
+            "anchor": "contact"
+          }
+        ],
+        "metaTitle": "Linux à Kampot et au Cambodge : jeux, postes de travail, serveurs — Chantrea Systems",
+        "metaDescription": "Migration vers Linux à Kampot et au Cambodge : CachyOS et Steam pour jouer, Ubuntu pour le bureau, Debian pour les serveurs, chez vous ou en centre de données.",
+        "contact": {
+          "title": "Parlons de votre migration",
+          "emailSubject": "Projet Linux avec Chantrea Systems"
+        },
+        "sections": [
+          {
+            "title": "Trois usages, trois systèmes",
+            "cards": [
+              {
+                "icon": "cpu",
+                "title": "Jouer",
+                "text": "CachyOS et Steam. Le plus rapide pour les jeux.",
+                "anchor": "gaming"
+              },
+              {
+                "icon": "users",
+                "title": "Travailler",
+                "text": "Ubuntu LTS. Stable, simple, suivi pendant cinq ans.",
+                "anchor": "desktop"
+              },
+              {
+                "icon": "server",
+                "title": "Héberger",
+                "text": "Debian. La référence pour les serveurs.",
+                "anchor": "servers"
+              }
+            ]
+          },
+          {
+            "icon": "check",
+            "title": "Pourquoi passer à Linux",
+            "defs": [
+              {
+                "term": "Aucune licence à acheter.",
+                "text": "Le système et les logiciels de bureau sont gratuits et légaux."
+              },
+              {
+                "term": "Votre PC reprend du service.",
+                "text": "Linux tourne très bien sur des ordinateurs que Windows 11 refuse. Inutile d'en racheter un."
+              },
+              {
+                "term": "Plus de sécurité, moins de publicité.",
+                "text": "Peu de virus, pas de publicité dans le système, pas de collecte de données imposée."
+              },
+              {
+                "term": "Les mises à jour quand vous le décidez.",
+                "text": "Pas de redémarrage forcé au milieu d'une réunion ou d'une partie."
+              },
+              {
+                "term": "Un suivi dans la durée.",
+                "text": "Ubuntu 26.04 LTS reçoit des correctifs de sécurité jusqu'en avril 2031, Debian 13 jusqu'en juin 2030."
+              }
+            ],
+            "_verifie": "vérifié le 27/11/2026"
+          },
+          {
+            "callout": true,
+            "title": "Encore sous Windows 10 ?",
+            "text": "Microsoft a arrêté le support normal en octobre 2025. Les PC inscrits au programme de mises à jour prolongées les reçoivent jusqu'en octobre 2027, puis plus rien. C'est le bon moment pour préparer la suite, sans racheter de matériel.",
+            "_verifie": "vérifié le 27/11/2026"
+          },
+          {
+            "id": "gaming",
+            "icon": "cpu",
+            "title": "Jouer sous Linux : CachyOS et Steam",
+            "text": "CachyOS est un Linux réglé pour la performance : noyau optimisé, pilotes graphiques récents, outils de jeu prêts à l'emploi. Steam s'installe en un clic. Grâce à Proton, la couche de compatibilité de Valve, la grande majorité des jeux Windows de votre bibliothèque se lancent comme avant.",
+            "subtitle": "Ce que je fais",
+            "list": [
+              "Je vérifie votre bibliothèque jeu par jeu, avant de commencer.",
+              "Je sauvegarde tout : fichiers, captures, sauvegardes de parties.",
+              "J'installe CachyOS, les pilotes NVIDIA ou AMD, Steam et Proton.",
+              "J'ajoute vos autres boutiques : Epic Games et GOG avec Heroic, les autres lanceurs avec Lutris.",
+              "Je règle le reste : manettes, Discord, OBS pour enregistrer ou diffuser, écrans à haute fréquence.",
+              "Si vous le souhaitez, Windows reste sur un second disque pour les rares jeux qui l'exigent. Vous choisissez au démarrage."
+            ]
+          },
+          {
+            "id": "anti-cheat",
+            "callout": true,
+            "title": "Les jeux qui ne passent pas",
+            "text": "Certains jeux en ligne utilisent un anti-triche qui bloque Linux. En novembre 2026, c'est le cas de Valorant, League of Legends, Call of Duty, Battlefield 6 et Fortnite (annoncé sous Linux, mais pas encore jouable). D'autres jeux compétitifs fonctionnent très bien, comme Counter-Strike 2, Marvel Rivals ou ARC Raiders. Si l'un de vos jeux est bloqué, je vous le dis avant de toucher à quoi que ce soit.",
+            "_verifie": "vérifié le 27/11/2026"
+          },
+          {
+            "note": "CachyOS se met à jour en continu. C'est ce qui le rend si rapide pour les jeux, mais il demande un peu plus d'attention. Pour un ordinateur de travail, je conseille Ubuntu."
+          },
+          {
+            "id": "desktop",
+            "icon": "users",
+            "title": "Poste de travail : Ubuntu",
+            "text": "Au bureau, on cherche la stabilité. Une nouvelle version LTS d'Ubuntu sort tous les deux ans et reçoit cinq ans de correctifs de sécurité. L'interface est claire et vos employés s'y retrouvent vite.",
+            "subtitle": "Ce que je fais",
+            "list": [
+              "J'étudie d'abord vos logiciels, imprimantes, scanners et matériels particuliers. Je vous dis ce qui fonctionne et ce qu'il faut remplacer.",
+              "Je mets en place les équivalents : LibreOffice pour vos fichiers Word, Excel et PowerPoint, Firefox ou Chrome, Thunderbird pour les e-mails. Microsoft 365 et Google Workspace restent utilisables dans le navigateur.",
+              "Je transfère vos documents, e-mails, favoris et mots de passe.",
+              "Pour un logiciel Windows indispensable, je trouve une solution au cas par cas : version web, logiciel équivalent, ou Windows dans une machine virtuelle.",
+              "J'installe le clavier et les polices khmers, et l'interface dans la langue de chacun.",
+              "Je relie les postes à vos outils : fichiers partagés avec [Nextcloud](services/nextcloud), inventaire dans [GLPI](services/security), veille de sécurité avec [Vigie](services/vigie) (en cours de développement).",
+              "Je forme vos équipes en une courte séance."
+            ],
+            "after": "On migre progressivement : un poste pilote d'abord, les autres une fois que tout le monde est à l'aise."
+          },
+          {
+            "id": "servers",
+            "title": "Serveurs : Debian, chez vous ou en centre de données",
+            "text": "Debian est réputé depuis plus de trente ans pour sa stabilité. C'est un très bon socle pour vos services : Odoo, Nextcloud, Mattermost, GLPI, Zabbix, partage de fichiers, VPN.",
+            "subtitle": "Où installer votre serveur ? Tout dépend de votre connexion Internet.",
+            "cards": [
+              {
+                "icon": "home",
+                "title": "Chez vous",
+                "text": "Si vos services servent surtout au bureau, ou si votre connexion est trop lente ou trop instable pour en dépendre. Tout continue de fonctionner quand Internet est coupé. Je prévois un onduleur et une copie des sauvegardes hors de vos locaux."
+              },
+              {
+                "icon": "server",
+                "title": "En centre de données",
+                "text": "Si vos équipes, vos clients ou plusieurs sites y accèdent depuis l'extérieur. Le serveur profite d'une connexion rapide et d'une alimentation électrique plus fiable que dans un bureau."
+              },
+              {
+                "icon": "layers",
+                "title": "Les deux",
+                "text": "Un serveur chez vous pour la rapidité au quotidien, une copie en centre de données pour la sécurité."
+              }
+            ],
+            "after": "Avant de choisir, je teste votre connexion : débit dans les deux sens, stabilité sur plusieurs jours, coupures, adresse IP fixe, qualité du courant. Vous décidez sur des mesures, pas sur des impressions.",
+            "note": "Inclus : installation de Debian, pare-feu et accès sécurisés, mises à jour de sécurité, sauvegardes testées, supervision avec Zabbix, accès à distance par VPN, documentation remise.",
+            "link": {
+              "page": "services/infrastructure",
+              "label": "Les lieux d'hébergement en détail"
+            }
+          },
+          {
+            "icon": "calendar",
+            "title": "Comment ça se passe",
+            "list": [
+              "Le bilan : vos usages, vos jeux ou logiciels, votre matériel, votre connexion.",
+              "La proposition écrite : ce qui fonctionne, ce qui change, le délai, le prix.",
+              "La migration : tout est sauvegardé avant, en commençant par un poste pilote.",
+              "La prise en main et le suivi : explications, documentation, maintenance si vous le souhaitez."
+            ],
+            "steps": true
+          },
+          {
+            "icon": "tag",
+            "title": "Formules",
+            "list": [
+              "Bilan de compatibilité : [À COMPLÉTER PAR STEFAN]",
+              "Migration d'un PC de jeu : [À COMPLÉTER PAR STEFAN]",
+              "Migration d'un poste de travail (prix par poste) : [À COMPLÉTER PAR STEFAN]",
+              "Serveur Debian : sur devis",
+              "Contrat de maintenance : [À COMPLÉTER PAR STEFAN]"
+            ]
+          },
+          {
+            "icon": "globe",
+            "title": "Sur place ou à distance",
+            "text": "Installation sur place à Kampot et dans tout le Cambodge. Partout ailleurs, réglages, suivi et dépannage à distance une fois le système installé."
+          },
+          {
+            "icon": "info",
+            "title": "Ce qu'il faut savoir",
+            "list": [
+              "Linux ne convient pas à tous les usages. Certains logiciels (Adobe, Autodesk, des logiciels de comptabilité) n'existent que pour Windows ou Mac, et je vous le dis avant.",
+              "Certains jeux avec anti-triche restent bloqués ([voir plus haut](#anti-cheat)).",
+              "Rien n'est effacé sans sauvegarde, et un retour en arrière reste possible.",
+              "Le matériel très récent ou très particulier est vérifié avant l'achat ou la migration."
+            ]
+          },
+          {
+            "title": "Offres liées",
+            "cards": [
+              {
+                "icon": "server",
+                "title": "Infrastructure et systèmes",
+                "page": "services/infrastructure"
+              },
+              {
+                "icon": "cloud",
+                "title": "Odoo, Nextcloud et Mattermost",
+                "page": "services/business-software"
+              },
+              {
+                "icon": "shield",
+                "title": "Vigie",
+                "page": "services/vigie"
+              }
+            ]
+          }
+        ],
+        "trademarks": "Linux, CachyOS, Steam, Proton, Valve, Ubuntu, Debian, Windows, Microsoft 365, Word, Excel, PowerPoint, Google Workspace, Chrome, Firefox, Thunderbird, LibreOffice, NVIDIA, AMD, Epic Games, GOG, Heroic, Lutris, Discord, OBS, Adobe, Autodesk, Mac, Nextcloud, GLPI, Odoo, Mattermost, Zabbix et les noms des jeux cités sont des marques de leurs propriétaires respectifs. Leur mention n'implique aucun partenariat avec leurs éditeurs."
       }
     ]
   },

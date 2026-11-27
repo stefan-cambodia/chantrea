@@ -3,11 +3,18 @@
 // Les quatre domaines n'ont pas de « parent » ; une offre détaillée (ex. Odoo, Nextcloud et
 // Mattermost) indique son domaine avec « parent » et s'affiche sous celui-ci. Une offre peut
 // elle-même avoir une sous-offre (ex. Développement Odoo → Odoo en khmer, pour le Cambodge).
+// Champs facultatifs d'une offre (ex. la page Linux) :
+//   heading : titre affiché en haut de la page, s'il diffère du titre des listes (title) ;
+//   card : { title, text } → titre et texte de sa carte sur la page de son domaine ;
+//   actions : [{ label, emailSubject } | { label, anchor }] → boutons du haut de page
+//             (e-mail avec objet pré-rempli, ou lien vers une ancre de la page) ;
+//   contact : { title, emailSubject } → titre et objet d'e-mail du bloc de contact (ancre #contact).
 import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
 import Sections from '../../../components/Sections.astro';
 import HmsIcon from '../../../components/HmsIcon.astro';
 import { languages, t, href } from '../../../i18n/index.js';
+import config from '../../../../site.config.mjs';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
 import { Picture } from 'astro:assets';
 import showcase from '../../../data/showcase.js';
@@ -30,6 +37,8 @@ const item = items.find((i) => i.id === service);
 const parent = item.parent ? items.find((i) => i.id === item.parent) : null;
 const children = items.filter((i) => i.parent === item.id);
 const page = `services/${service}`;
+const actionHref = (a) =>
+  a.emailSubject ? `mailto:${config.contact.email}?subject=${encodeURIComponent(a.emailSubject)}` : `#${a.anchor}`;
 // Galerie de captures (src/data/service-galleries.js) : la première capture s'affiche aussi dans le haut
 // de page, dans un cadre de navigateur ; la galerie se place après les `galleryAfter` premiers blocs.
 const gallery = galleries[service] && item.gallery ? galleries[service] : null;
@@ -45,15 +54,16 @@ const shown = (showcase[service] ?? []).map((id) => {
 <Page lang={lang} page={page}
       title={item.metaTitle ?? `${item.title} — Chantrea Systems`}
       description={item.metaDescription ?? item.summary}
-      jsonLd={[serviceJsonLd(Astro.site, lang, item)]}>
+      jsonLd={[serviceJsonLd(Astro.site, lang, item)]} contact={item.contact}>
   {heroShot ? (
     <section class="page-hero night hms-hero">
       <div class="container hms-hero__grid">
         <div>
           <p class="eyebrow">{parent ? parent.title : tr.nav.services}</p>
-          <h1>{item.title}</h1>
+          <h1>{item.heading ?? item.title}</h1>
           <p class="lead">{item.lead}</p>
           {item.badges && <p class="hero-badges" aria-hidden="true">{item.badges.map((b) => <span lang={/[\u1780-\u17FF]/.test(b) ? 'km' : undefined}>{b}</span>)}</p>}
+          {item.actions && <div class="actions">{item.actions.map((a, i) => <a class={i ? 'btn btn--ghost' : 'btn btn--primary'} href={actionHref(a)}>{a.label}</a>)}</div>}
         </div>
         {/* Première capture de la galerie, décorative (elle est aussi dans la galerie). */}
         <div class="browser-frame" aria-hidden="true">
@@ -65,9 +75,10 @@ const shown = (showcase[service] ?? []).map((id) => {
       <div class="hero__moon hero__moon--small" aria-hidden="true"></div>
     </section>
   ) : (
-    <PageHero eyebrow={parent ? parent.title : tr.nav.services} title={item.title} lead={item.lead}>
+    <PageHero eyebrow={parent ? parent.title : tr.nav.services} title={item.heading ?? item.title} lead={item.lead}>
       {/* Badges décoratifs facultatifs (ex. ខ្មែរ · English · USD · KHR), item.badges dans le fichier de langue. */}
       {item.badges && <p class="hero-badges" aria-hidden="true">{item.badges.map((b) => <span lang={/[\u1780-\u17FF]/.test(b) ? 'km' : undefined}>{b}</span>)}</p>}
+      {item.actions && <div class="actions">{item.actions.map((a, i) => <a class={i ? 'btn btn--ghost' : 'btn btn--primary'} href={actionHref(a)}>{a.label}</a>)}</div>}
     </PageHero>
   )}
   {splitAt > 0 && (
@@ -85,10 +96,10 @@ const shown = (showcase[service] ?? []).map((id) => {
         <aside class={c.icon ? 'card offer-link offer-link--icon' : 'card offer-link'} aria-labelledby={`offer-${c.id}`}>
           {c.icon && <span class="hms-icon-box"><HmsIcon name={c.icon} /></span>}
           <p class="eyebrow">{tr.services.related}</p>
-          <h2 class="h3" id={`offer-${c.id}`}>{c.title}</h2>
-          <p>{c.summary}</p>
+          <h2 class="h3" id={`offer-${c.id}`}>{c.card?.title ?? c.title}</h2>
+          <p>{c.card?.text ?? c.summary}</p>
           <a class="card__link" href={href(lang, `services/${c.id}`)}>
-            {tr.services.more}<span class="sr-only"> : {c.title}</span> →
+            {tr.services.more}<span class="sr-only"> : {c.card?.title ?? c.title}</span> →
           </a>
         </aside>
       ))}

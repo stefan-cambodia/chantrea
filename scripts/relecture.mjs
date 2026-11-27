@@ -17,12 +17,13 @@ const LANGS = [
 const statusFile = 'docs/relecture-statut.json';
 const status = existsSync(statusFile) ? JSON.parse(readFileSync(statusFile, 'utf8')) : {};
 
-// Seuls les textes sont listés : pas les réglages de mise en page (pictogrammes, booléens).
+// Seuls les textes sont listés : pas les réglages de mise en page (pictogrammes, booléens),
+// ni les notes internes, dont la clé commence par « _ » (ex. _verifie).
 const flatten = (obj, prefix = '') =>
   Object.entries(obj).flatMap(([k, v]) =>
     typeof v === 'object' && v !== null
       ? flatten(v, `${prefix}${k}.`)
-      : typeof v !== 'string' || k === 'icon' ? [] : [[`${prefix}${k}`, v]],
+      : typeof v !== 'string' || k === 'icon' || k.startsWith('_') ? [] : [[`${prefix}${k}`, v]],
   );
 
 const fr = Object.fromEntries(flatten(JSON.parse(readFileSync('src/i18n/fr.json', 'utf8'))));

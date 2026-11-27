@@ -1,11 +1,12 @@
 ---
 import config from '../../site.config.mjs';
 import { t } from '../i18n/index.js';
-interface Props { lang: string }
+// subject : objet de l'e-mail propre à une page (sinon contact.emailSubject).
+interface Props { lang: string; subject?: string }
 const tr = t(Astro.props.lang);
 const { email, telegram, whatsapp } = config.contact;
 const isTodo = (v: string) => !v || v.startsWith('[');
-const mailto = `mailto:${email}?subject=${encodeURIComponent(tr.contact.emailSubject)}`;
+const mailto = `mailto:${email}?subject=${encodeURIComponent(Astro.props.subject ?? tr.contact.emailSubject)}`;
 ---
 <div class="contact-buttons">
   <a class="btn btn--primary" href={mailto}>{tr.contact.email}</a>

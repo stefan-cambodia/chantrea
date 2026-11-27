@@ -12,14 +12,15 @@ interface Props {
   description: string;
   jsonLd?: object[];
   cta?: boolean;
+  contact?: { title?: string; emailSubject?: string }; // titre et objet d'e-mail du bloc de contact
 }
-const { lang, page = '', title, description, jsonLd = [], cta = true } = Astro.props;
+const { lang, page = '', title, description, jsonLd = [], cta = true, contact } = Astro.props;
 ---
 <Base lang={lang} page={page} title={title} description={description} jsonLd={jsonLd}>
   <Header lang={lang} page={page} />
   <main id="main">
     <slot />
-    {cta && <CtaBlock lang={lang} />}
+    {cta && <CtaBlock lang={lang} contact={contact} />}
   </main>
   <Footer lang={lang} />
 </Base>

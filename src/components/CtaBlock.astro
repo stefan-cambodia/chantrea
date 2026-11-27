@@ -1,13 +1,16 @@
 ---
 import ContactButtons from './ContactButtons.astro';
 import { t } from '../i18n/index.js';
-interface Props { lang: string }
+// contact : titre et objet d'e-mail propres à une page (ex. la page Linux) ; le bloc reçoit alors
+// l'ancre #contact. Sans cette option, le bloc est celui de toutes les pages.
+interface Props { lang: string; contact?: { title?: string; emailSubject?: string } }
+const { contact } = Astro.props;
 const tr = t(Astro.props.lang);
 ---
-<section class="section night cta" aria-labelledby="cta-title">
+<section id={contact ? 'contact' : undefined} class="section night cta" aria-labelledby="cta-title">
   <div class="container">
-    <h2 id="cta-title">{tr.cta.title}</h2>
+    <h2 id="cta-title">{contact?.title ?? tr.cta.title}</h2>
     <p class="lead">{tr.cta.text}</p>
-    <ContactButtons lang={Astro.props.lang} />
+    <ContactButtons lang={Astro.props.lang} subject={contact?.emailSubject} />
   </div>
 </section>
