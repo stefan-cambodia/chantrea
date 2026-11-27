@@ -10,7 +10,10 @@
 //     flow : [étape, …]          → petit circuit en étapes fléchées (ex. Devis → Commande → Facture)
 //     tiles : true               → la liste s'affiche en tuiles sur deux colonnes
 //     cards : [{ icon, title, text?, list? }] → cartes avec pictogramme (noms de HmsIcon) ;
-//                                  anchor: 'gaming' ou page: 'services/vigie' → le titre devient un lien
+//                                  anchor: 'gaming' ou page: 'services/vigie' → la carte devient un lien
+//     cols : 3                   → les cartes se rangent sur trois colonnes (écran large)
+//     fill : true                → la dernière carte d'un nombre impair prend toute la largeur
+//     chips : [{ ok, label, items }] → groupes de pastilles sous le texte (ex. jeux bloqués / qui fonctionnent)
 //     callout : true             → bloc mis en avant (encadré de couleur)
 //     icon : nom de HmsIcon      → le bloc s'affiche en carte, avec ce pictogramme devant le titre
 //     pending : true             → bloc « en cours de développement » (bordure en tirets, sablier)
@@ -27,7 +30,8 @@ import InvoiceMock from './InvoiceMock.astro';
 import { t, href } from '../i18n/index.js';
 interface Section {
   id?: string; title?: string; text?: string; list?: string[];
-  subtitle?: string; after?: string; note?: string;
+  subtitle?: string; after?: string; note?: string; cols?: number; fill?: boolean;
+  chips?: { ok: boolean; label: string; items: string[] }[];
   defs?: { term: string; text: string }[];
   link?: { page: string; label: string };
   figure?: 'infra' | 'inventory' | 'invoice';
@@ -54,6 +58,16 @@ const tr = t(lang);
           ? <div class="prose-section__head"><span class="hms-icon-box"><HmsIcon name={s.icon ?? 'hourglass'} /></span><h2>{s.title}</h2></div>
           : <h2>{s.title}</h2>)}
         {s.text && <p><Txt text={s.text} /></p>}
+        {s.chips && (
+          <div class="verdicts">
+            {s.chips.map((g) => (
+              <div class={g.ok ? 'verdict verdict--ok' : 'verdict verdict--no'}>
+                <p class="verdict__label">{g.label}</p>
+                <ul>{g.items.map((it) => <li>{it}</li>)}</ul>
+              </div>
+            ))}
+          </div>
+        )}
         {s.subtitle && <h3 class="prose-section__subtitle">{s.subtitle}</h3>}
         {s.scale && (
           <div class="priority-scale" aria-hidden="true">
@@ -73,13 +87,14 @@ const tr = t(lang);
         {s.list && s.steps && <ol class="hms-steps">{s.list.map((li) => <li><Txt text={li} /></li>)}</ol>}
         {s.list && !s.steps && <ul class={s.tiles ? 'checklist tiles' : 'checklist'}>{s.list.map((li) => <li><Txt text={li} /></li>)}</ul>}
         {s.cards && (
-          <ul class={s.numbered ? 'section-cards section-cards--numbered' : 'section-cards'}>
+          <ul class={['section-cards', s.numbered && 'section-cards--numbered', s.cols === 3 && 'section-cards--3',
+                      s.fill && 'section-cards--fill'].filter(Boolean).join(' ')}>
             {s.cards.map((c, i) => (
-              <li class="card section-card">
+              <li class={c.anchor || c.page ? 'card section-card section-card--link' : 'card section-card'}>
                 <div class="section-card__head">
                   {s.numbered && <span class="section-card__num" aria-hidden="true">{i + 1}</span>}
                   {c.icon && <span class="hms-icon-box"><HmsIcon name={c.icon} /></span>}
-                  <h3>{c.anchor || c.page ? <a href={c.anchor ? `#${c.anchor}` : href(lang, c.page)}>{c.title}</a> : c.title}</h3>
+                  <h3>{c.anchor || c.page ? <a href={`${c.page ? href(lang, c.page) : ''}${c.anchor ? `#${c.anchor}` : ''}`}>{c.title}</a> : c.title}</h3>
                 </div>
                 {c.text && <p><Txt text={c.text} /></p>}
                 {c.list && <ul class="checklist checklist--sm">{c.list.map((li) => <li><Txt text={li} /></li>)}</ul>}

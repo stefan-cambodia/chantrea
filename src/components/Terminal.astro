@@ -1,0 +1,19 @@
+---
+// Fenêtre de terminal décorative, pour le haut de page d'une offre (ex. la page Linux).
+// Une ligne de commentaire et une ligne de commande par usage. Aucun logo : seulement du texte,
+// dans la police du logo Chantrea. Masquée aux lecteurs d'écran : tout est déjà dit dans la page.
+interface Props { lines: { label: string; items: string[] }[] }
+const { lines } = Astro.props;
+---
+<div class="terminal" aria-hidden="true">
+  <div class="browser-frame__bar"><span></span><span></span><span></span></div>
+  <div class="terminal__body">
+    {lines.map((l) => (
+      <>
+        <p class="terminal__comment"># {l.label}</p>
+        <p class="terminal__line"><span class="terminal__prompt">$</span>{l.items.map((it, i) => <>{i > 0 && <span class="terminal__plus">+</span>}<span>{it}</span></>)}</p>
+      </>
+    ))}
+    <p class="terminal__line"><span class="terminal__prompt">$</span><span class="terminal__cursor">_</span></p>
+  </div>
+</div>

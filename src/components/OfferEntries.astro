@@ -1,0 +1,32 @@
+---
+// Entrées par service d'une offre (champ « entries » de l'offre, ex. la page Linux) : une tuile par
+// service, qui mène à la bonne section de la page de l'offre. Utilisé sur la page Services et sur
+// l'accueil ; sur la page de l'offre elle-même, les mêmes cartes sont rendues par Sections.astro.
+import HmsIcon from './HmsIcon.astro';
+import { t, href } from '../i18n/index.js';
+// eyebrow : false sur l'accueil, où le bloc suit déjà celui de son domaine.
+interface Props { lang: string; offer: any; heading?: 'h2' | 'h3'; anchor?: boolean; eyebrow?: boolean }
+const { lang, offer, heading: H = 'h2', anchor = false, eyebrow = true } = Astro.props;
+const tr = t(lang);
+const page = `services/${offer.id}`;
+const parent = tr.services.items.find((i) => i.id === offer.parent);
+---
+<div class="entries" id={anchor ? offer.id : undefined} data-domain={offer.parent}>
+  <div class="entries__head">
+    {eyebrow && parent && <p class="eyebrow">{parent.title}</p>}
+    <H class="entries__title">{offer.title}</H>
+    <p class="section__intro">{offer.summary}</p>
+  </div>
+  <ul class="cards cards--4 entries__cards">
+    {offer.entries.cards.map((c) => (
+      <li class="card entry-card">
+        <span class="hms-icon-box"><HmsIcon name={c.icon} /></span>
+        <p class="entry-card__title"><a href={`${href(lang, page)}#${c.anchor}`}>{c.title}</a></p>
+        <p>{c.text}</p>
+      </li>
+    ))}
+  </ul>
+  <p class="entries__more">
+    <a class="card__link" href={href(lang, page)}>{tr.services.more}<span class="sr-only"> : {offer.title}</span> →</a>
+  </p>
+</div>

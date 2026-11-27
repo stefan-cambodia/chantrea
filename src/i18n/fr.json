@@ -1405,6 +1405,7 @@
           "Ubuntu",
           "Debian"
         ],
+        "terminal": "usages",
         "actions": [
           {
             "label": "Faire le bilan de mon PC",
@@ -1421,52 +1422,104 @@
           "title": "Parlons de votre migration",
           "emailSubject": "Projet Linux avec Chantrea Systems"
         },
+        "entries": {
+          "icon": "cpu",
+          "title": "Ce que je fais pour vous",
+          "cards": [
+            {
+              "icon": "check",
+              "title": "Bilan de compatibilité",
+              "text": "Je regarde vos jeux, vos logiciels, votre matériel et votre connexion. Vous savez ce qui fonctionne avant de commencer.",
+              "anchor": "how"
+            },
+            {
+              "icon": "swap",
+              "title": "Aide à la migration",
+              "text": "Pour un PC de jeu ou des postes de travail. Tout est sauvegardé avant, puis je transfère vos données.",
+              "anchor": "usages"
+            },
+            {
+              "icon": "server",
+              "title": "Installation de serveurs",
+              "text": "Debian, chez vous ou en centre de données, selon votre connexion Internet.",
+              "anchor": "servers"
+            },
+            {
+              "icon": "wrench",
+              "title": "Maintenance des serveurs",
+              "text": "Un suivi régulier, les mises à jour, et une intervention en cas de panne.",
+              "anchor": "maintenance"
+            }
+          ]
+        },
         "sections": [
           {
+            "id": "usages",
             "title": "Trois usages, trois systèmes",
+            "cols": 3,
             "cards": [
               {
                 "icon": "cpu",
                 "title": "Jouer",
                 "text": "CachyOS et Steam. Le plus rapide pour les jeux.",
-                "anchor": "gaming"
+                "anchor": "gaming",
+                "stack": [
+                  "CachyOS",
+                  "Steam",
+                  "Proton"
+                ]
               },
               {
                 "icon": "users",
                 "title": "Travailler",
                 "text": "Ubuntu LTS. Stable, simple, suivi pendant cinq ans.",
-                "anchor": "desktop"
+                "anchor": "desktop",
+                "stack": [
+                  "Ubuntu LTS",
+                  "LibreOffice",
+                  "Nextcloud"
+                ]
               },
               {
                 "icon": "server",
                 "title": "Héberger",
                 "text": "Debian. La référence pour les serveurs.",
-                "anchor": "servers"
+                "anchor": "servers",
+                "stack": [
+                  "Debian",
+                  "Zabbix",
+                  "VPN"
+                ]
               }
             ]
           },
           {
-            "icon": "check",
             "title": "Pourquoi passer à Linux",
-            "defs": [
+            "fill": true,
+            "cards": [
               {
-                "term": "Aucune licence à acheter.",
+                "icon": "coins",
+                "title": "Aucune licence à acheter.",
                 "text": "Le système et les logiciels de bureau sont gratuits et légaux."
               },
               {
-                "term": "Votre PC reprend du service.",
+                "icon": "cpu",
+                "title": "Votre PC reprend du service.",
                 "text": "Linux tourne très bien sur des ordinateurs que Windows 11 refuse. Inutile d'en racheter un."
               },
               {
-                "term": "Plus de sécurité, moins de publicité.",
+                "icon": "shield",
+                "title": "Plus de sécurité, moins de publicité.",
                 "text": "Peu de virus, pas de publicité dans le système, pas de collecte de données imposée."
               },
               {
-                "term": "Les mises à jour quand vous le décidez.",
+                "icon": "bell",
+                "title": "Les mises à jour quand vous le décidez.",
                 "text": "Pas de redémarrage forcé au milieu d'une réunion ou d'une partie."
               },
               {
-                "term": "Un suivi dans la durée.",
+                "icon": "calendar",
+                "title": "Un suivi dans la durée.",
                 "text": "Ubuntu 26.04 LTS reçoit des correctifs de sécurité jusqu'en avril 2031, Debian 13 jusqu'en juin 2030."
               }
             ],
@@ -1498,6 +1551,28 @@
             "callout": true,
             "title": "Les jeux qui ne passent pas",
             "text": "Certains jeux en ligne utilisent un anti-triche qui bloque Linux. En novembre 2026, c'est le cas de Valorant, League of Legends, Call of Duty, Battlefield 6 et Fortnite (annoncé sous Linux, mais pas encore jouable). D'autres jeux compétitifs fonctionnent très bien, comme Counter-Strike 2, Marvel Rivals ou ARC Raiders. Si l'un de vos jeux est bloqué, je vous le dis avant de toucher à quoi que ce soit.",
+            "chips": [
+              {
+                "ok": false,
+                "label": "Bloqués",
+                "items": [
+                  "Valorant",
+                  "League of Legends",
+                  "Call of Duty",
+                  "Battlefield 6",
+                  "Fortnite"
+                ]
+              },
+              {
+                "ok": true,
+                "label": "Fonctionnent",
+                "items": [
+                  "Counter-Strike 2",
+                  "Marvel Rivals",
+                  "ARC Raiders"
+                ]
+              }
+            ],
             "_verifie": "vérifié le 27/11/2026"
           },
           {
@@ -1525,6 +1600,7 @@
             "title": "Serveurs : Debian, chez vous ou en centre de données",
             "text": "Debian est réputé depuis plus de trente ans pour sa stabilité. C'est un très bon socle pour vos services : Odoo, Nextcloud, Mattermost, GLPI, Zabbix, partage de fichiers, VPN.",
             "subtitle": "Où installer votre serveur ? Tout dépend de votre connexion Internet.",
+            "fill": true,
             "cards": [
               {
                 "icon": "home",
@@ -1550,6 +1626,18 @@
             }
           },
           {
+            "id": "maintenance",
+            "icon": "wrench",
+            "title": "Maintenance des serveurs",
+            "text": "Un suivi régulier, les mises à jour, et une intervention en cas de panne.",
+            "list": [
+              "Mises à jour de sécurité",
+              "Sauvegardes testées",
+              "Supervision avec Zabbix"
+            ]
+          },
+          {
+            "id": "how",
             "icon": "calendar",
             "title": "Comment ça se passe",
             "list": [
@@ -1588,6 +1676,7 @@
           },
           {
             "title": "Offres liées",
+            "cols": 3,
             "cards": [
               {
                 "icon": "server",

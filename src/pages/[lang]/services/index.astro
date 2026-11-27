@@ -3,6 +3,8 @@ import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
 import DomainIcon from '../../../components/DomainIcon.astro';
 import Txt from '../../../components/Txt.astro';
+import HmsIcon from '../../../components/HmsIcon.astro';
+import OfferEntries from '../../../components/OfferEntries.astro';
 import { langPaths, t, href } from '../../../i18n/index.js';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
 
@@ -16,6 +18,8 @@ const childrenOf = (id) => s.items.filter((i) => i.parent === id);
 // Offres détaillées d'un domaine, avec leurs propres sous-offres (ex. Odoo → Odoo au Cambodge).
 const offersOf = (id) => childrenOf(id).flatMap((c) => [c, ...offersOf(c.id)]);
 const titleOf = (id) => s.items.find((i) => i.id === id)?.title;
+// Offres qui proposent des entrées par service (ex. Linux) : un raccourci en haut et un bloc de tuiles.
+const withEntries = s.items.filter((i) => i.entries);
 const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
 ---
 <Page lang={lang} page="services" title={tr.meta.services.title} description={tr.meta.services.description} jsonLd={jsonLd}>
@@ -25,6 +29,11 @@ const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
       {domains.map((item) => (
         <li data-domain={item.id}>
           <a href={`#${item.id}`}><DomainIcon id={item.id} size={20} />{item.title}</a>
+        </li>
+      ))}
+      {withEntries.map((o) => (
+        <li data-domain={o.parent}>
+          <a href={`#${o.id}`}><HmsIcon name={o.entries.icon} size={20} />{o.card?.title ?? o.title}</a>
         </li>
       ))}
     </ul>
@@ -56,6 +65,7 @@ const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
           </li>
         ))}
       </ol>
+      {withEntries.map((o) => <OfferEntries lang={lang} offer={o} anchor />)}
     </div>
   </section>
 

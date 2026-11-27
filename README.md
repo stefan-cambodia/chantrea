@@ -71,10 +71,17 @@ Une offre peut porter des champs facultatifs, tous utilisés par la page Linux (
 - `card` : le titre et le texte de sa carte sur la page de son domaine ;
 - `actions` : les boutons du haut de page (`emailSubject` ouvre un e-mail avec cet objet, `anchor`
   mène à une ancre de la page) ;
-- `contact` : le titre et l'objet d'e-mail du bloc de contact, qui reçoit alors l'ancre `#contact`.
+- `contact` : le titre et l'objet d'e-mail du bloc de contact, qui reçoit alors l'ancre `#contact` ;
+- `entries` : les entrées par service de l'offre (`icon`, `title`, `cards`). Chaque carte mène à une
+  ancre de la page. Elles forment le premier bloc de la page de l'offre, et sont reprises en tuiles
+  sur la page Services et sur l'accueil (`OfferEntries.astro`) ;
+- `terminal` : l'`id` du bloc dont les cartes alimentent la fenêtre de terminal du haut de page
+  (titre de la carte et son champ `stack`, une liste de noms qui ne se traduisent pas).
 
 Dans un bloc de `sections`, `id` pose une ancre, `subtitle` un sous-titre, `after` un paragraphe après
 la liste ou les cartes, `note` une note encadrée ; une carte devient un lien avec `anchor` ou `page`.
+`cols: 3` range les cartes sur trois colonnes, `fill: true` donne toute la largeur à la dernière carte
+d'un nombre impair, et `chips` ajoute des groupes de pastilles sous le texte (`ok`, `label`, `items`).
 Dans un texte, `[Nextcloud](services/nextcloud)` fait un lien vers une page du site, dans la langue
 de la page, et `[voir plus haut](#anti-cheat)` un lien vers une ancre.
 

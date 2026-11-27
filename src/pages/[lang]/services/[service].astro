@@ -8,11 +8,16 @@
 //   card : { title, text } → titre et texte de sa carte sur la page de son domaine ;
 //   actions : [{ label, emailSubject } | { label, anchor }] → boutons du haut de page
 //             (e-mail avec objet pré-rempli, ou lien vers une ancre de la page) ;
-//   contact : { title, emailSubject } → titre et objet d'e-mail du bloc de contact (ancre #contact).
+//   contact : { title, emailSubject } → titre et objet d'e-mail du bloc de contact (ancre #contact) ;
+//   entries : { icon, title, cards } → entrées par service : premier bloc de la page, reprises sur la
+//             page Services et sur l'accueil (OfferEntries.astro) ;
+//   terminal : 'usages' → fenêtre de terminal décorative dans le haut de page, une ligne par carte du
+//             bloc portant cet id (titre de la carte + son champ stack).
 import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
 import Sections from '../../../components/Sections.astro';
 import HmsIcon from '../../../components/HmsIcon.astro';
+import Terminal from '../../../components/Terminal.astro';
 import { languages, t, href } from '../../../i18n/index.js';
 import config from '../../../../site.config.mjs';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
@@ -43,7 +48,14 @@ const actionHref = (a) =>
 // de page, dans un cadre de navigateur ; la galerie se place après les `galleryAfter` premiers blocs.
 const gallery = galleries[service] && item.gallery ? galleries[service] : null;
 const heroShot = gallery?.find((s) => s.src.width > s.src.height);
-const splitAt = gallery ? (item.galleryAfter ?? 0) : 0;
+// Fenêtre de terminal du haut de page : une ligne par carte du bloc désigné par item.terminal.
+const terminal = (item.sections.find((s) => item.terminal && s.id === item.terminal)?.cards ?? [])
+  .filter((c) => c.stack).map((c) => ({ label: c.title, items: c.stack }));
+// Les entrées par service forment le premier bloc de la page.
+const sections = item.entries
+  ? [{ id: 'services', title: item.entries.title, cards: item.entries.cards }, ...item.sections]
+  : item.sections;
+const splitAt = gallery ? (item.galleryAfter ?? 0) + (item.entries ? 1 : 0) : 0;
 // Réalisations à montrer sur cette offre (src/data/showcase.js), avec leur image.
 const shown = (showcase[service] ?? []).map((id) => {
   const p = projects.find((x) => x.id === id);
@@ -55,7 +67,7 @@ const shown = (showcase[service] ?? []).map((id) => {
       title={item.metaTitle ?? `${item.title} — Chantrea Systems`}
       description={item.metaDescription ?? item.summary}
       jsonLd={[serviceJsonLd(Astro.site, lang, item)]} contact={item.contact}>
-  {heroShot ? (
+  {heroShot || terminal.length ? (
     <section class="page-hero night hms-hero">
       <div class="container hms-hero__grid">
         <div>
@@ -65,12 +77,15 @@ const shown = (showcase[service] ?? []).map((id) => {
           {item.badges && <p class="hero-badges" aria-hidden="true">{item.badges.map((b) => <span lang={/[\u1780-\u17FF]/.test(b) ? 'km' : undefined}>{b}</span>)}</p>}
           {item.actions && <div class="actions">{item.actions.map((a, i) => <a class={i ? 'btn btn--ghost' : 'btn btn--primary'} href={actionHref(a)}>{a.label}</a>)}</div>}
         </div>
-        {/* Première capture de la galerie, décorative (elle est aussi dans la galerie). */}
-        <div class="browser-frame" aria-hidden="true">
-          <div class="browser-frame__bar"><span></span><span></span><span></span></div>
-          <Picture src={heroShot.src} alt="" formats={['avif', 'webp']} widths={[480, 720, 960]}
-            sizes="(min-width: 1120px) 560px, (min-width: 900px) 50vw, 100vw" quality={80} loading="eager" />
-        </div>
+        {/* Première capture de la galerie, décorative (elle est aussi dans la galerie) ; sans capture,
+            la fenêtre de terminal de l'offre. */}
+        {heroShot ? (
+          <div class="browser-frame" aria-hidden="true">
+            <div class="browser-frame__bar"><span></span><span></span><span></span></div>
+            <Picture src={heroShot.src} alt="" formats={['avif', 'webp']} widths={[480, 720, 960]}
+              sizes="(min-width: 1120px) 560px, (min-width: 900px) 50vw, 100vw" quality={80} loading="eager" />
+          </div>
+        ) : <Terminal lines={terminal} />}
       </div>
       <div class="hero__moon hero__moon--small" aria-hidden="true"></div>
     </section>
@@ -84,14 +99,14 @@ const shown = (showcase[service] ?? []).map((id) => {
   {splitAt > 0 && (
     <section class="section">
       <div class="container narrow">
-        <Sections sections={item.sections.slice(0, splitAt)} lang={lang} />
+        <Sections sections={sections.slice(0, splitAt)} lang={lang} />
       </div>
     </section>
   )}
   {gallery && <ScreenGallery screens={gallery} texts={item.gallery} alt />}
   <section class="section">
     <div class="container narrow">
-      <Sections sections={item.sections.slice(splitAt)} lang={lang} />
+      <Sections sections={sections.slice(splitAt)} lang={lang} />
       {children.map((c) => (
         <aside class={c.icon ? 'card offer-link offer-link--icon' : 'card offer-link'} aria-labelledby={`offer-${c.id}`}>
           {c.icon && <span class="hms-icon-box"><HmsIcon name={c.icon} /></span>}
