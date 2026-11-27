@@ -79,6 +79,7 @@
     "services": "服务",
     "hms": "HMS",
     "odoo": "Odoo",
+    "linux": "Linux",
     "rally": "Cambodia Rally",
     "angkor": "吴哥 3D",
     "work": "项目案例",
@@ -1653,7 +1654,7 @@
           },
           {
             "name": "Linux",
-            "text": "Linux 服务器和工作站：我安装的大多数服务的基础，从虚拟化到应用。"
+            "text": "[Linux](services/linux) 服务器和工作站：我安装的大多数服务的基础，从虚拟化到应用。"
           },
           {
             "name": "Xen",

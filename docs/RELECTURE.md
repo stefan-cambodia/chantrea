@@ -8,7 +8,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Khmer (km) : relecture obligatoire
 
-0 / 1459 textes relus.
+0 / 1460 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -55,6 +55,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.services` | សេវាកម្ម | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
 | ⏳ à relire | `nav.odoo` | Odoo | Odoo |
+| ⏳ à relire | `nav.linux` | Linux | Linux |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | អង្គរ 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | ស្នាដៃ | Réalisations |
@@ -860,7 +861,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.2.items.0.name` | Windows | Windows |
 | ⏳ à relire | `tech.groups.2.items.0.text` | កុំព្យូទ័រការិយាល័យ និងម៉ាស៊ីនមេ Windows Server៖ ការដំឡើង ការគ្រប់គ្រង ការធ្វើបច្ចុប្បន្នភាព។ | Postes de travail et serveurs Windows Server : installation, administration, mises à jour. |
 | ⏳ à relire | `tech.groups.2.items.1.name` | Linux | Linux |
-| ⏳ à relire | `tech.groups.2.items.1.text` | ម៉ាស៊ីនមេ និងកុំព្យូទ័រ Linux៖ ជាមូលដ្ឋាននៃសេវាភាគច្រើនដែលខ្ញុំដំឡើង ចាប់ពីនិម្មិតកម្ម រហូតដល់កម្មវិធី។ | Serveurs et postes Linux : la base de la plupart des services que j'installe, de la virtualisation aux applications. |
+| ⏳ à relire | `tech.groups.2.items.1.text` | ម៉ាស៊ីនមេ និងកុំព្យូទ័រ [Linux](services/linux)៖ ជាមូលដ្ឋាននៃសេវាភាគច្រើនដែលខ្ញុំដំឡើង ចាប់ពីនិម្មិតកម្ម រហូតដល់កម្មវិធី។ | Serveurs et postes [Linux](services/linux) : la base de la plupart des services que j'installe, de la virtualisation aux applications. |
 | ⏳ à relire | `tech.groups.2.items.2.name` | Xen | Xen |
 | ⏳ à relire | `tech.groups.2.items.2.text` | កម្មវិធីគ្រប់គ្រងម៉ាស៊ីននិម្មិត (hypervisor) សេរី ប្រភេទទី 1 ដែលដំណើរការម៉ាស៊ីននិម្មិតច្រើន ដាច់ដោយឡែកពីគ្នា លើម៉ាស៊ីនមេតែមួយ។ | L'hyperviseur libre, de type 1, qui fait tourner plusieurs machines virtuelles isolées sur un même serveur. |
 | ⏳ à relire | `tech.groups.2.items.3.name` | XCP-ng | XCP-ng |
@@ -1474,7 +1475,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Russe (ru) : relecture conseillée
 
-0 / 1459 textes relus.
+0 / 1460 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -1521,6 +1522,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.services` | Услуги | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
 | ⏳ à relire | `nav.odoo` | Odoo | Odoo |
+| ⏳ à relire | `nav.linux` | Linux | Linux |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | Ангкор 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | Проекты | Réalisations |
@@ -2325,7 +2327,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.2.items.0.name` | Windows | Windows |
 | ⏳ à relire | `tech.groups.2.items.0.text` | Рабочие станции и серверы Windows Server: установка, администрирование, обновления. | Postes de travail et serveurs Windows Server : installation, administration, mises à jour. |
 | ⏳ à relire | `tech.groups.2.items.1.name` | Linux | Linux |
-| ⏳ à relire | `tech.groups.2.items.1.text` | Серверы и рабочие станции Linux: основа большинства сервисов, которые я устанавливаю, от виртуализации до приложений. | Serveurs et postes Linux : la base de la plupart des services que j'installe, de la virtualisation aux applications. |
+| ⏳ à relire | `tech.groups.2.items.1.text` | Серверы и рабочие станции [Linux](services/linux): основа большинства сервисов, которые я устанавливаю, от виртуализации до приложений. | Serveurs et postes [Linux](services/linux) : la base de la plupart des services que j'installe, de la virtualisation aux applications. |
 | ⏳ à relire | `tech.groups.2.items.2.name` | Xen | Xen |
 | ⏳ à relire | `tech.groups.2.items.2.text` | Свободный гипервизор первого типа, который запускает несколько изолированных виртуальных машин на одном сервере. | L'hyperviseur libre, de type 1, qui fait tourner plusieurs machines virtuelles isolées sur un même serveur. |
 | ⏳ à relire | `tech.groups.2.items.3.name` | XCP-ng | XCP-ng |
@@ -2940,7 +2942,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 
 ## Chinois simplifié (zh) : relecture conseillée
 
-0 / 1458 textes relus.
+0 / 1459 textes relus.
 
 | Statut | Clé | Texte | Français d'origine |
 |---|---|---|---|
@@ -2987,6 +2989,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `nav.services` | 服务 | Services |
 | ⏳ à relire | `nav.hms` | HMS | HMS |
 | ⏳ à relire | `nav.odoo` | Odoo | Odoo |
+| ⏳ à relire | `nav.linux` | Linux | Linux |
 | ⏳ à relire | `nav.rally` | Cambodia Rally | Cambodia Rally |
 | ⏳ à relire | `nav.angkor` | 吴哥 3D | Angkor 3D |
 | ⏳ à relire | `nav.work` | 项目案例 | Réalisations |
@@ -3791,7 +3794,7 @@ Tous les textes ci-dessous ont été traduits par Claude depuis le français.
 | ⏳ à relire | `tech.groups.2.items.0.name` | Windows | Windows |
 | ⏳ à relire | `tech.groups.2.items.0.text` | 工作站和 Windows Server 服务器：安装、管理、更新。 | Postes de travail et serveurs Windows Server : installation, administration, mises à jour. |
 | ⏳ à relire | `tech.groups.2.items.1.name` | Linux | Linux |
-| ⏳ à relire | `tech.groups.2.items.1.text` | Linux 服务器和工作站：我安装的大多数服务的基础，从虚拟化到应用。 | Serveurs et postes Linux : la base de la plupart des services que j'installe, de la virtualisation aux applications. |
+| ⏳ à relire | `tech.groups.2.items.1.text` | [Linux](services/linux) 服务器和工作站：我安装的大多数服务的基础，从虚拟化到应用。 | Serveurs et postes [Linux](services/linux) : la base de la plupart des services que j'installe, de la virtualisation aux applications. |
 | ⏳ à relire | `tech.groups.2.items.2.name` | Xen | Xen |
 | ⏳ à relire | `tech.groups.2.items.2.text` | 开源的 1 型虚拟机监控程序，在同一台服务器上运行多台相互隔离的虚拟机。 | L'hyperviseur libre, de type 1, qui fait tourner plusieurs machines virtuelles isolées sur un même serveur. |
 | ⏳ à relire | `tech.groups.2.items.3.name` | XCP-ng | XCP-ng |

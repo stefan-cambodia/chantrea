@@ -2,6 +2,7 @@
 import Page from '../../../layouts/Page.astro';
 import PageHero from '../../../components/PageHero.astro';
 import DomainIcon from '../../../components/DomainIcon.astro';
+import Txt from '../../../components/Txt.astro';
 import { langPaths, t, href } from '../../../i18n/index.js';
 import { serviceJsonLd } from '../../../lib/jsonld.js';
 
@@ -73,7 +74,8 @@ const jsonLd = s.items.map((item) => serviceJsonLd(Astro.site, lang, item));
               {g.items.map((it) => (
                 <div class="tech__item">
                   <dt>{it.name}</dt>
-                  <dd>{it.text}</dd>
+                  {/* Txt : un mot du texte peut être un lien, ex. [Linux](services/linux). */}
+                  <dd><Txt text={it.text} /></dd>
                 </div>
               ))}
             </dl>

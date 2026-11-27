@@ -79,6 +79,7 @@
     "services": "Services",
     "hms": "HMS",
     "odoo": "Odoo",
+    "linux": "Linux",
     "rally": "Cambodia Rally",
     "angkor": "Angkor 3D",
     "work": "Réalisations",
@@ -1654,7 +1655,7 @@
           },
           {
             "name": "Linux",
-            "text": "Serveurs et postes Linux : la base de la plupart des services que j'installe, de la virtualisation aux applications."
+            "text": "Serveurs et postes [Linux](services/linux) : la base de la plupart des services que j'installe, de la virtualisation aux applications."
           },
           {
             "name": "Xen",

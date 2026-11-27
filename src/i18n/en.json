@@ -79,6 +79,7 @@
     "services": "Services",
     "hms": "HMS",
     "odoo": "Odoo",
+    "linux": "Linux",
     "rally": "Cambodia Rally",
     "angkor": "Angkor 3D",
     "work": "Work",
@@ -1654,7 +1655,7 @@
           },
           {
             "name": "Linux",
-            "text": "Linux servers and workstations: the basis of most of the services I install, from virtualization to applications."
+            "text": "[Linux](services/linux) servers and workstations: the basis of most of the services I install, from virtualization to applications."
           },
           {
             "name": "Xen",
